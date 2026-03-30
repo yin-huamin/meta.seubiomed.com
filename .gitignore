@@ -1,17 +1,33 @@
+# WorkBuddy internal
 .workbuddy/
-data/daily2
+
+# Data files (daily data will be regenerated)
+data/daily/
+data/daily2/
+
+# Backup files
 scripts/fetch_pubmed.py.backup
+*.pyc
+__pycache__/
+
+# Debug/test files
 web/data2.json
 web/stat2.json
+web/debug.html
+check_data.py
+validate_json.py
+stats2.json
+
+# Deployment configs (server-specific)
 web/assets/
 web/png/
-apikey.txt
-check_data.py
-DEPLOYMENT.md
 linux/
 nginx-config.txt
 NGINX-GUIDE.md
-validate_json.py
+DEPLOYMENT.md
+
+# Sensitive files
+apikey.txt
 config.env
-web/debug.html
-stats2.json
+*.pem
+*.key
