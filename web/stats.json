@@ -1,0 +1,45 @@
+{
+  "total": 18,
+  "by_type": {
+    "研究论文": 13,
+    "综述": 3,
+    "Benchmark": 2
+  },
+  "by_year": {
+    "2026": 18
+  },
+  "top_journals": {
+    "Genome medicine": 1,
+    "Journal of genetics and genomics = Yi chuan xue bao": 1,
+    "Small (Weinheim an der Bergstrasse, Germany)": 1,
+    "Cell reports methods": 1,
+    "Non-coding RNA": 1,
+    "medRxiv : the preprint server for health sciences": 1,
+    "Annales d'endocrinologie": 1,
+    "Trends in genetics : TIG": 1,
+    "Clinical epigenetics": 1,
+    "Biomolecules": 1,
+    "BMC research notes": 1,
+    "Cell genomics": 1,
+    "Vector borne and zoonotic diseases (Larchmont, N.Y.)": 1,
+    "bioRxiv : the preprint server for biology": 1,
+    "Biochemistry and biophysics reports": 1,
+    "European journal of neurology": 1,
+    "European journal of human genetics : EJHG": 1,
+    "Bioinformatics advances": 1
+  },
+  "top_diseases": {
+    "癌症": 2,
+    "眼咽远端肌病（OPDM）": 1,
+    "2型糖尿病": 1,
+    "由短串联重复序列不稳定扩增引起的多种人类疾病（提及60多种）": 1,
+    "印记障碍及多印记位点异常（MLID）": 1,
+    "剪接病变相关的生长、繁殖障碍及疾病易感性": 1,
+    "假性甲状旁腺功能减退症1B型（PHP1B）": 1,
+    "自闭症谱系障碍（ASD）": 1,
+    "鼠疫": 1,
+    "前列腺癌、卵巢癌": 1,
+    "脑肿瘤": 1,
+    "面肩肱型肌营养不良症（FSHD）": 1
+  }
+}

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>宏基因组领域文献</title>
+  <style>
+    /* ── Reset & Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #fafafa;
+      --surface:  #ffffff;
+      --border:   #e5e7eb;
+      --text:     #111827;
+      --muted:    #6b7280;
+      --accent:   #2563eb;
+      --accent-l: #eff6ff;
+      --green:    #059669;
+      --yellow:   #d97706;
+      --red:      #dc2626;
+      --radius:   6px;
+      --shadow:   0 1px 4px rgba(0,0,0,.08);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 32px 20px;
+    }
+
+    .header-inner {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: .02em;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    .header-body {
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+    }
+
+    .intro {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .intro p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.75;
+      max-width: 820px;
+    }
+
+    /* Stats chips */
+    .stats-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .chip {
+      background: var(--accent-l);
+      color: var(--accent);
+      border-radius: 20px;
+      padding: 3px 12px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    /* Donate card */
+    .donate-card {
+      flex-shrink: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      text-align: center;
+      width: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: -28px; /* 向上对齐标题 */
+    }
+
+    .donate-card img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 4px;
+    }
+
+    .donate-card p {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0;
+      white-space: nowrap;
+      line-height: 1.4;
+    }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      max-width: 1600px;
+      margin: 16px auto 0;
+      padding: 0 32px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 200px;
+      max-width: 380px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 7px 32px 7px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      font-size: 13px;
+      outline: none;
+      transition: border-color .2s;
+    }
+
+    .search-box input:focus { border-color: var(--accent); }
+
+    .search-box svg {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    select {
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+      color: var(--text);
+    }
+
+    select:focus { border-color: var(--accent); }
+
+    .btn {
+      padding: 7px 14px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-size: 13px;
+      cursor: pointer;
+      color: var(--text);
+      transition: background .15s;
+    }
+
+    .btn:hover { background: var(--bg); }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover { background: #1d4ed8; }
+
+    .result-count {
+      margin-left: auto;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    /* ── Table wrapper ── */
+    .table-wrap {
+      max-width: 1600px;
+      margin: 12px auto 40px;
+      padding: 0 32px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      table-layout: fixed;
+    }
+
+    thead tr {
+      background: #f9fafb;
+      border-bottom: 2px solid var(--border);
+    }
+
+    th {
+      text-align: left;
+      padding: 10px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      user-select: none;
+      cursor: pointer;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    th:hover { color: var(--accent); }
+
+    th .sort-icon { margin-left: 4px; opacity: .4; }
+    th.sorted-asc .sort-icon::after  { content: " ↑"; opacity: 1; }
+    th.sorted-desc .sort-icon::after { content: " ↓"; opacity: 1; }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      font-size: 13px;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f9fafb; }
+
+    /* Column widths */
+    .col-date    { width: 90px; }
+    .col-title   { width: 220px; }
+    .col-doi     { width: 120px; }
+    .col-pmid    { width: 80px; }
+    .col-journal { width: 110px; }
+    .col-type    { width: 90px; }
+    .col-summary { width: 200px; }
+    .col-innov   { width: 160px; }
+    .col-limit   { width: 140px; }
+    .col-object  { width: 130px; }
+    .col-disease { width: 110px; }
+    .col-sample  { width: 100px; }
+
+    /* cell helpers */
+    .text-clamp {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .text-clamp.expanded {
+      -webkit-line-clamp: unset;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .tag-review   { background: #fef3c7; color: #92400e; }
+    .tag-research { background: #d1fae5; color: #065f46; }
+    .tag-bench    { background: #ede9fe; color: #5b21b6; }
+    .tag-meta     { background: #fee2e2; color: #991b1b; }
+    .tag-other    { background: #f3f4f6; color: #374151; }
+    .tag-clinical { background: #dbeafe; color: #1e40af; }
+
+    .ai-pending { color: #9ca3af; font-style: italic; }
+
+    /* Loading */
+    #loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin-bottom: 12px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Empty state */
+    #empty {
+      display: none;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .page-btn {
+      min-width: 32px;
+      padding: 5px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    .page-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .page-btn:hover:not(.active) { background: var(--bg); }
+
+    /* Tooltip on hover for long text */
+    [title] { cursor: help; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header { padding: 20px 16px 16px; }
+      .header-body { flex-direction: column; }
+      .toolbar { padding: 0 16px; }
+      .table-wrap { padding: 0 8px; }
+      .donate-card { width: 100%; display: flex; gap: 12px; align-items: center; text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════ HEADER ══════════════════════ -->
+<header>
+  <div class="header-inner">
+    <h1>宏基因组领域文献</h1>
+
+    <div class="header-body">
+      <div class="intro">
+        <p>
+          该数据库通过收集和整理最新科研文献信息，用来了解领域前沿进展。数据源自
+          <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>，
+          每日自动更新（使用关键词 <code>['metagenome', 'metagenomic', 'microbiom']</code> 过滤），
+          已收录文献数量参见统计表格。<br>
+          表格内容由 AI 自动整理，可能存在错误或遗漏，请使用时务必注意核实！<br>
+          如有建议或合作意向，欢迎联系
+          <a href="mailto:yinhm17@126.com">yinhm17@126.com</a>
+          &nbsp;微信 <strong>yinhm1999</strong>。
+        </p>
+        <div class="stats-chips" id="statsChips">
+          <span class="chip" id="chipTotal">加载中…</span>
+        </div>
+      </div>
+
+      <!-- 收款码 -->
+      <div class="donate-card">
+        <img src="png/wechat_pay.jpg" alt="微信收款码" />
+        <p>覆盖模型成本，谢谢老板</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ══════════════════════ TOOLBAR ══════════════════════ -->
+<div class="toolbar">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="搜索题目、摘要、疾病…" oninput="onSearch()" />
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+  </div>
+
+  <select id="typeFilter" onchange="onFilter()">
+    <option value="">全部类型</option>
+    <option value="研究论文">研究论文</option>
+    <option value="综述">综述</option>
+    <option value="系统综述">系统综述/Meta分析</option>
+    <option value="Benchmark">Benchmark</option>
+    <option value="临床试验">临床试验</option>
+  </select>
+
+  <select id="yearFilter" onchange="onFilter()">
+    <option value="">全部年份</option>
+  </select>
+
+  <select id="pageSizeSelect" onchange="onPageSizeChange()">
+    <option value="50">每页 50</option>
+    <option value="100">每页 100</option>
+    <option value="200">每页 200</option>
+  </select>
+
+  <button class="btn" onclick="clearFilters()">重置</button>
+
+  <span class="result-count" id="resultCount"></span>
+</div>
+
+<!-- ══════════════════════ TABLE ══════════════════════ -->
+<div class="table-wrap">
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>正在加载文献数据…</p>
+  </div>
+
+  <div id="empty">
+    <p>🔍 未找到匹配的文献</p>
+  </div>
+
+  <div id="tableContainer" style="display:none;">
+    <table id="mainTable">
+      <thead>
+        <tr>
+          <th class="col-date"    onclick="sortBy('pub_date')"   >发表日期<span class="sort-icon"></span></th>
+          <th class="col-title"   >题目</th>
+          <th class="col-doi"     >DOI / PMID</th>
+          <th class="col-journal" >期刊</th>
+          <th class="col-type"    onclick="sortBy('article_type')">类型<span class="sort-icon"></span></th>
+          <th class="col-summary" >中文摘要</th>
+          <th class="col-innov"   >创新点</th>
+          <th class="col-limit"   >不足</th>
+          <th class="col-object"  >研究对象</th>
+          <th class="col-disease" >疾病</th>
+          <th class="col-sample"  >样本量</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <div class="pagination" id="pagination"></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════ DATA LAYER ═══════════════════════
+let allData       = [];
+let filteredData  = [];
+let currentPage   = 1;
+let pageSize      = 50;
+let sortKey       = "pub_date";
+let sortDir       = "desc";   // asc | desc
+
+async function loadData() {
+  try {
+    const res  = await fetch("data.json?t=" + Date.now());
+    if (!res.ok) throw new Error("data.json 不存在");
+    allData = await res.json();
+    console.log("Loaded data.json:", allData.length, "papers");
+    init();
+  } catch(e) {
+    console.error("Failed to load data.json:", e);
+    alert("加载 data.json 失败，显示示例数据: " + e.message);
+    // 展示空示例（data.json 尚未生成时的 demo）
+    allData = getDemoData();
+    init();
+  }
+}
+
+function getDemoData() {
+  return [
+    {
+      pmid: "12345678",
+      title: "示例论文：The gut microbiome in health and disease",
+      doi: "10.1038/s41586-000-0000-0",
+      journal: "Nature",
+      pub_date: "2026-03-30",
+      authors: "Zhang S; Li W et al.",
+      article_type: "研究论文",
+      summary_zh: "本研究揭示了肠道微生物群落多样性与代谢综合征之间的关联，发现特定菌属可作为早期预测生物标志物。",
+      innovation: "首次在大规模队列中量化菌-代谢轴因果关系 | 提出新的分类模型",
+      limitation: "横断面研究，无法建立时序因果 | 样本局限于亚洲人群",
+      study_object: "人体肠道宏基因组",
+      disease: "代谢综合征",
+      sample_size: "n=2500名志愿者",
+      ai_done: true,
+    },
+    {
+      pmid: "12345679",
+      title: "Benchmark of metagenomic assembly tools on short-read data",
+      doi: "10.1093/bioinformatics/btab000",
+      journal: "Bioinformatics",
+      pub_date: "2026-03-29",
+      authors: "Wang X; Chen Y et al.",
+      article_type: "Benchmark",
+      summary_zh: "系统评估了9款宏基因组组装软件在短读长数据上的性能，MetaSPAdes在综合指标上表现最优。",
+      innovation: "统一评估框架 | 首次纳入低丰度菌的组装精度评估",
+      limitation: "仅测试短读长数据，不适用于三代测序",
+      study_object: "模拟宏基因组数据集",
+      disease: "无",
+      sample_size: "10个基准数据集",
+      ai_done: true,
+    },
+    {
+      pmid: "12345680",
+      title: "Metagenomic analysis of soil microbiome in agricultural settings",
+      doi: "",
+      journal: "ISME Journal",
+      pub_date: "2026-03-28",
+      authors: "Liu J; Park K et al.",
+      article_type: "研究论文",
+      summary_zh: "（待生成）",
+      innovation: "（待生成）",
+      limitation: "（待生成）",
+      study_object: "（待生成）",
+      disease: "（待生成）",
+      sample_size: "（待生成）",
+      ai_done: false,
+    }
+  ];
+}
+
+// ═══════════════════════ INIT ═══════════════════════
+function init() {
+  console.log("init() called, allData.length =", allData.length);
+  populateYearFilter();
+  applyFiltersAndSort();
+  updateStatsChips();
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("tableContainer").style.display = "block";
+}
+
+function populateYearFilter() {
+  const years = new Set();
+  allData.forEach(r => {
+    const y = (r.pub_date || "").slice(0, 4);
+    if (y && y.length === 4) years.add(y);
+  });
+  const sel = document.getElementById("yearFilter");
+  [...years].sort((a,b)=>b-a).forEach(y => {
+    const opt = document.createElement("option");
+    opt.value = y;
+    opt.textContent = y + " 年";
+    sel.appendChild(opt);
+  });
+}
+
+function updateStatsChips() {
+  const chipsEl = document.getElementById("statsChips");
+  const counts  = {};
+  allData.forEach(r => {
+    const t = r.article_type || "其他";
+    counts[t] = (counts[t] || 0) + 1;
+  });
+  const total = allData.length;
+  let html = `<span class="chip">共 ${total} 篇</span>`;
+  Object.entries(counts).sort((a,b)=>b[1]-a[1]).forEach(([t, n]) => {
+    html += `<span class="chip">${t}: ${n}</span>`;
+  });
+  chipsEl.innerHTML = html;
+  // 安全删除 chipTotal 元素
+  const chipTotal = document.getElementById("chipTotal");
+  if (chipTotal) {
+    chipTotal.remove();
+  }
+}
+
+// ═══════════════════════ FILTER & SORT ═══════════════════════
+function onSearch() {
+  currentPage = 1;
+  applyFiltersAndSort();
+}
+
+function onFilter() {
+  currentPage = 1;
+  applyFiltersAndSort();
+}
+
+function onPageSizeChange() {
+  pageSize = parseInt(document.getElementById("pageSizeSelect").value);
+  currentPage = 1;
+  renderTable();
+}
+
+function clearFilters() {
+  document.getElementById("searchInput").value = "";
+  document.getElementById("typeFilter").value  = "";
+  document.getElementById("yearFilter").value  = "";
+  currentPage = 1;
+  applyFiltersAndSort();
+}
+
+function applyFiltersAndSort() {
+  const q     = document.getElementById("searchInput").value.toLowerCase().trim();
+  const type  = document.getElementById("typeFilter").value;
+  const year  = document.getElementById("yearFilter").value;
+
+  filteredData = allData.filter(r => {
+    if (type && !(r.article_type || "").includes(type)) return false;
+    if (year && !(r.pub_date || "").startsWith(year))    return false;
+    if (q) {
+      const haystack = [
+        r.title, r.summary_zh, r.disease, r.study_object,
+        r.journal, r.authors, r.innovation
+      ].join(" ").toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  console.log("applyFiltersAndSort: filteredData.length =", filteredData.length);
+
+  // sort
+  filteredData.sort((a, b) => {
+    const va = (a[sortKey] || "").toString();
+    const vb = (b[sortKey] || "").toString();
+    return sortDir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+
+  document.getElementById("resultCount").textContent =
+    `显示 ${filteredData.length} / ${allData.length} 篇`;
+
+  const empty = document.getElementById("empty");
+  const tc    = document.getElementById("tableContainer");
+  if (filteredData.length === 0) {
+    empty.style.display = "block";
+    tc.style.display    = "none";
+  } else {
+    empty.style.display = "none";
+    tc.style.display    = "block";
+  }
+
+  renderTable();
+}
+
+// ═══════════════════════ SORT ═══════════════════════
+function sortBy(key) {
+  if (sortKey === key) {
+    sortDir = sortDir === "asc" ? "desc" : "asc";
+  } else {
+    sortKey = key;
+    sortDir = "desc";
+  }
+  // update header classes
+  document.querySelectorAll("th").forEach(th => {
+    th.classList.remove("sorted-asc", "sorted-desc");
+  });
+  const ths = document.querySelectorAll("th");
+  ths.forEach(th => {
+    if (th.getAttribute("onclick") === `sortBy('${key}')`) {
+      th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
+    }
+  });
+  currentPage = 1;
+  applyFiltersAndSort();
+}
+
+// ═══════════════════════ RENDER TABLE ═══════════════════════
+function typeTag(t) {
+  const map = {
+    "研究论文":       "tag-research",
+    "综述":          "tag-review",
+    "系统综述/Meta分析":"tag-meta",
+    "Benchmark":     "tag-bench",
+    "临床试验":      "tag-clinical",
+  };
+  const cls = map[t] || "tag-other";
+  return `<span class="tag ${cls}">${t || "其他"}</span>`;
+}
+
+function esc(s) {
+  if (!s) return "";
+  return String(s)
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
+
+function cellText(s, pending = false) {
+  if (!s || s === "（待生成）") {
+    return `<span class="ai-pending">AI 待生成</span>`;
+  }
+  const escaped = esc(s);
+  if (escaped.length > 80) {
+    return `<div class="text-clamp" onclick="this.classList.toggle('expanded')" title="点击展开/折叠">${escaped}</div>`;
+  }
+  return escaped;
+}
+
+function renderTable() {
+  const tbody = document.getElementById("tableBody");
+  const start = (currentPage - 1) * pageSize;
+  const page  = filteredData.slice(start, start + pageSize);
+
+  tbody.innerHTML = page.map(r => {
+    const doiLink = r.doi
+      ? `<a href="https://doi.org/${esc(r.doi)}" target="_blank" title="${esc(r.doi)}">${esc(r.doi.length > 20 ? r.doi.slice(0,20)+"…" : r.doi)}</a>`
+      : "—";
+    const pmidLink = r.pmid
+      ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.pmid)}</a>`
+      : "—";
+    const titleLink = r.doi
+      ? `<a href="https://doi.org/${esc(r.doi)}" target="_blank">${esc(r.title)}</a>`
+      : (r.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.title)}</a>` : esc(r.title));
+
+    return `<tr>
+      <td class="col-date">${esc(r.pub_date) || "—"}</td>
+      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}</div></td>
+      <td class="col-doi" style="font-size:11px;">${doiLink}<br><span style="color:var(--muted)">PMID: ${pmidLink}</span></td>
+      <td class="col-journal"><span title="${esc(r.journal)}">${esc((r.journal||"").length>16 ? r.journal.slice(0,16)+"…" : r.journal) || "—"}</span></td>
+      <td class="col-type">${typeTag(r.article_type)}</td>
+      <td class="col-summary">${cellText(r.summary_zh)}</td>
+      <td class="col-innov">${cellText(r.innovation)}</td>
+      <td class="col-limit">${cellText(r.limitation)}</td>
+      <td class="col-object">${cellText(r.study_object)}</td>
+      <td class="col-disease">${cellText(r.disease)}</td>
+      <td class="col-sample">${cellText(r.sample_size)}</td>
+    </tr>`;
+  }).join("");
+
+  renderPagination();
+}
+
+// ═══════════════════════ PAGINATION ═══════════════════════
+function renderPagination() {
+  const total = Math.ceil(filteredData.length / pageSize);
+  const el    = document.getElementById("pagination");
+  if (total <= 1) { el.innerHTML = ""; return; }
+
+  let html = "";
+  // prev
+  html += `<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?"disabled":""}>‹</button>`;
+
+  const range = getPageRange(currentPage, total);
+  range.forEach(p => {
+    if (p === "…") {
+      html += `<span class="page-btn" style="cursor:default;color:var(--muted)">…</span>`;
+    } else {
+      html += `<button class="page-btn${p===currentPage?" active":""}" onclick="goPage(${p})">${p}</button>`;
+    }
+  });
+
+  // next
+  html += `<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===total?"disabled":""}>›</button>`;
+  el.innerHTML = html;
+}
+
+function getPageRange(cur, total) {
+  if (total <= 7) return Array.from({length: total}, (_, i) => i+1);
+  const pages = [1];
+  if (cur > 3) pages.push("…");
+  for (let i = Math.max(2, cur-1); i <= Math.min(total-1, cur+1); i++) pages.push(i);
+  if (cur < total - 2) pages.push("…");
+  pages.push(total);
+  return pages;
+}
+
+function goPage(p) {
+  const total = Math.ceil(filteredData.length / pageSize);
+  if (p < 1 || p > total) return;
+  currentPage = p;
+  renderTable();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ═══════════════════════ BOOT ═══════════════════════
+loadData();
+</script>
+</body>
+</html>

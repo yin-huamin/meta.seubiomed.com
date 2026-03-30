@@ -1,0 +1,17 @@
+.workbuddy/
+data/daily2
+scripts/fetch_pubmed.py.backup
+web/data2.json
+web/stat2.json
+web/assets/
+web/png/
+apikey.txt
+check_data.py
+DEPLOYMENT.md
+linux/
+nginx-config.txt
+NGINX-GUIDE.md
+validate_json.py
+config.env
+web/debug.html
+stats2.json
