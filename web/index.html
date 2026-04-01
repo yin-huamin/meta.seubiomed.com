@@ -211,13 +211,13 @@
 
     table {
       width: 100%;
+      min-width: 1400px;  /* 保证小屏幕下可以横向滚动 */
       border-collapse: collapse;
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       overflow: hidden;
       box-shadow: var(--shadow);
-      table-layout: fixed;
     }
 
     thead tr {
@@ -450,9 +450,10 @@
     <table id="mainTable">
       <thead>
         <tr>
+          <th class="col-fetch-date" onclick="sortBy('fetch_date')">爬取日期<span class="sort-icon"></span></th>
           <th class="col-date"    onclick="sortBy('pub_date')"   >发表日期<span class="sort-icon"></span></th>
           <th class="col-title"   >题目</th>
-          <th class="col-doi"     >DOI / PMID</th>
+          <th class="col-pmid"    >PMID</th>
           <th class="col-journal" >期刊</th>
           <th class="col-type"    onclick="sortBy('article_type')">类型<span class="sort-icon"></span></th>
           <th class="col-summary" >中文摘要</th>
@@ -478,6 +479,36 @@ let currentPage   = 1;
 let pageSize      = 50;
 let sortKey       = "pub_date";
 let sortDir       = "desc";   // asc | desc
+
+// 日期解析函数：支持多种格式
+// "2026-03-30", "2026-Mar-30", "2026 Mar 30" 等
+function parseDate(dateStr) {
+  if (!dateStr) return null;
+  
+  // 尝试标准格式 YYYY-MM-DD
+  let d = new Date(dateStr);
+  if (!isNaN(d.getTime())) return d.getTime();
+  
+  // 尝试解析 "YYYY-Mon-DD" 格式 (如 "2026-Mar-30")
+  const monthMap = {
+    'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
+    'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
+    'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+  };
+  
+  const match = dateStr.match(/(\d{4})[-\s]([A-Za-z]{3})[-\s](\d{1,2})/);
+  if (match) {
+    const year = match[1];
+    const month = monthMap[match[2]];
+    const day = match[3].padStart(2, '0');
+    if (month) {
+      d = new Date(`${year}-${month}-${day}`);
+      if (!isNaN(d.getTime())) return d.getTime();
+    }
+  }
+  
+  return null;
+}
 
 async function loadData() {
   try {
@@ -642,6 +673,16 @@ function applyFiltersAndSort() {
   filteredData.sort((a, b) => {
     const va = (a[sortKey] || "").toString();
     const vb = (b[sortKey] || "").toString();
+    
+    // 如果是日期字段，按日期排序而非字符串
+    if (sortKey === "pub_date" || sortKey === "fetch_date") {
+      const da = parseDate(va);
+      const db = parseDate(vb);
+      if (da && db) {
+        return sortDir === "asc" ? da - db : db - da;
+      }
+    }
+    
     return sortDir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
   });
 
@@ -722,9 +763,6 @@ function renderTable() {
   const page  = filteredData.slice(start, start + pageSize);
 
   tbody.innerHTML = page.map(r => {
-    const doiLink = r.doi
-      ? `<a href="https://doi.org/${esc(r.doi)}" target="_blank" title="${esc(r.doi)}">${esc(r.doi.length > 20 ? r.doi.slice(0,20)+"…" : r.doi)}</a>`
-      : "—";
     const pmidLink = r.pmid
       ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.pmid)}</a>`
       : "—";
@@ -733,9 +771,10 @@ function renderTable() {
       : (r.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.title)}</a>` : esc(r.title));
 
     return `<tr>
+      <td class="col-fetch-date">${esc(r.fetch_date) || "—"}</td>
       <td class="col-date">${esc(r.pub_date) || "—"}</td>
       <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}</div></td>
-      <td class="col-doi" style="font-size:11px;">${doiLink}<br><span style="color:var(--muted)">PMID: ${pmidLink}</span></td>
+      <td class="col-pmid" style="font-size:11px;">${pmidLink}</td>
       <td class="col-journal"><span title="${esc(r.journal)}">${esc((r.journal||"").length>16 ? r.journal.slice(0,16)+"…" : r.journal) || "—"}</span></td>
       <td class="col-type">${typeTag(r.article_type)}</td>
       <td class="col-summary">${cellText(r.summary_zh)}</td>

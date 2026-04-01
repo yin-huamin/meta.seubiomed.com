@@ -16,9 +16,9 @@ os.chdir(WEB_DIR)
 Handler = http.server.SimpleHTTPRequestHandler
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print(f"✅ 服务器已启动: http://localhost:{PORT}")
-    print("   按 Ctrl+C 停止")
+    print(f"[OK] 服务器已启动: http://localhost:{PORT}")
+    print("     按 Ctrl+C 停止")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
-        print("\n服务器已停止")
+        print("\n[INFO] 服务器已停止")

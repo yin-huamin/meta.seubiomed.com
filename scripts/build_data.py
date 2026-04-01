@@ -87,7 +87,7 @@ def run():
 
     # 写 data.json（仅保留前端需要的字段，缩减体积）
     frontend_fields = [
-        "pmid", "title", "doi", "journal", "pub_date",
+        "pmid", "title", "doi", "journal", "pub_date", "fetch_date",
         "authors", "article_type", "summary_zh",
         "innovation", "limitation", "study_object",
         "disease", "sample_size", "ai_done",

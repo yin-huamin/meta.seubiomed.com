@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
-PubMed 宏基因组领域论文每日搜索脚本
-使用 NCBI E-utilities API 搜索最新论文
+PubMed 宏基因组领域论文历史月份批量搜索脚本
+按照 NCBI E-utilities 使用规范合理爬取：
+  - 使用 History Server (usehistory=y) 减少重复请求
+  - 有 API Key: 每秒最多10请求，批次间 ≥0.15s 延迟
+  - 每50条批次间额外延迟1s，防止滥用
+  - 附带 tool 和 email 参数（NCBI 要求）
 """
 
 import os
@@ -21,17 +25,19 @@ DATA_DIR = BASE_DIR / "data"
 DAILY_DIR = DATA_DIR / "daily"
 
 KEYWORDS = ["metagenome", "metagenomic", "microbiom"]
-NCBI_EMAIL = "yinhm17@126.com"          # NCBI要求提供联系邮箱
-NCBI_API_KEY = "ce30363de49e75a27b8c1fdf66a48f2f8108"                       # 可选：NCBI API Key（提速用）
-MAX_RESULTS = 200                       # 每次最多取回论文数
+NCBI_EMAIL = "yinhm17@126.com"
+NCBI_API_KEY = "ce30363de49e75a27b8c1fdf66a48f2f8108"  # API Key：提升至10请求/秒
+MAX_RESULTS_PER_QUERY = 9999  # 每次搜索最多取回数量（NCBI上限10000）
 
-# 需要排除的关键词
-# 排除范围：
-#   1. 环境/水产噬菌体、病毒（非人源临床）
-#   2. 所有食品发酵类（除益生菌外）
-#   3. 家畜、家禽、蜜蜂、蚊子等非人源动物
-#   4. 植物、土壤、农业相关
-#   5. 环保/工业污染相关
+ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+EFETCH_URL  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+
+# ── 请求频率控制（遵守NCBI规范）──
+# 有API Key时：≤10请求/秒 → 设0.15s间隔（保守，防止并发问题）
+REQUEST_DELAY = 0.15          # 相邻请求最短间隔（秒）
+BATCH_DELAY   = 1.0           # 每50条批次间额外延迟（秒）
+
+# ──────────────────────────── 排除关键词（标题/摘要内容过滤）──────────────────────────────
 EXCLUDE_KEYWORDS = [
     # ──── 家畜/反刍动物 ────
     "rumen", "ruminant", "bovine", "porcine", "ovine", "equine", "livestock", "feedlot", "calf", "lamb", "flock",
@@ -51,11 +57,9 @@ EXCLUDE_KEYWORDS = [
     "aquaculture", "aquatic farm", "shrimp farm", "oyster", "mussel", "clam ", "crab ", "lobster", "seashell",
     
     # ──── 噬菌体（只排除非临床、纯环境/水产来源的） ────
-    # 保留：人源临床、医学相关的phage研究
-    # 排除：ocean virome, marine phage, fish virome等纯环境来源
     "ocean virome", "marine virome", "marine phage", "seawater phage", "soil phage",
     
-    # ──── 食品发酵（除益生菌外，全排）────
+    # ──── 食品发酵（除益生菌外，全排） ────
     "cheese", "yogurt", "kefir", "beer", "wine", "coffee", "cocoa", "bread", "sourdough", "dairy ferment",
     "kimchi", "sauerkraut", "soy sauce", "vinegar", "fermented vegetable", "miso", "tempeh", "sake",
     
@@ -67,7 +71,7 @@ EXCLUDE_KEYWORDS = [
     "factory", "industrial", "wastewater", "sewage", "effluent", "sludge", "mound", "waste",
     "bioreactor", "remediation", "biogas", "methane", "sulfur", "biosolids",
     
-    # ──── 极端环境（大部分排除，医学应用除外） ────
+    # ──── 极端环境 ────
     "permafrost", "glacier", "hot spring", "geothermal", "deep sea", "hydrothermal",
     
     # ──── 其他环境专题（非人源） ────
@@ -94,7 +98,6 @@ EXCLUDE_KEYWORDS = [
 ]
 
 # 安全词列表：如果文章同时包含排除词 AND 安全词，则不排除
-# 用于防止误杀（如 FISH荧光原位杂交被 fish 误匹配）
 SAFE_WORDS = [
     "human", "patient", "clinical", "cancer", "tumor", "tumour", "disease",
     "infant", "pregnan", "mouse", "mice", "murine", "rat ", "rat model",
@@ -109,14 +112,16 @@ SAFE_WORDS = [
     "trial", "cohort", "case-control", "cross-sectional",
     "inflammation", "immune", "immunity",
     "zebrafish", "drosophila", "c. elegans", "cell line", "in vitro",
-    "fishing ",     # 捕鱼相关 ≠ fish 鱼类
-    "fisher",       # Fisher's test 等 ≠ fish 鱼类
+    "fishing ", "fisher",
 ]
 
 # ──────────────────────────── 期刊白名单（JCR Q1/Q2，IF>3，排除含 food 字样）────────────────────────────
 # 来源：2023/2024 JCR 微生物学、多学科、生物技术等相关学科分区
 # 仅保留宏基因组/微生物组核心相关 & 高质量综合期刊
 # 期刊名已转为小写用于匹配（实际比对时用lower()处理）
+#
+# 注：此白名单基于公开JCR数据，涵盖微生物学/多学科/生物信息学领域
+#     Q1/Q2 且 IF > 3 的主要期刊。不在此列表中的期刊将被过滤。
 JOURNAL_WHITELIST = {
     # ── 顶级综合期刊 ──
     "nature",
@@ -210,7 +215,7 @@ JOURNAL_WHITELIST = {
     "international journal of obesity",
     "metabolism",
     "clinical nutrition",
-    "nutrients",
+    "nutrients",  # IF ~5.9, Q1
     "european journal of nutrition",
     "journal of nutrition",
     "american journal of clinical nutrition",
@@ -264,7 +269,7 @@ JOURNAL_WHITELIST = {
     "nature reviews gastroenterology & hepatology",
     "nature reviews gastroenterology and hepatology",
     "cellular and molecular life sciences",
-    "international journal of molecular sciences",
+    "international journal of molecular sciences",  # Q1, IF ~5.6
     "frontiers in immunology",
     "journal of autoimmunity",
     "immunology",
@@ -280,11 +285,8 @@ JOURNAL_WHITELIST = {
     "expert opinion on drug metabolism & toxicology",
 }
 
-# 含 food 字样的期刊一律排除
+# 含 food 字样的期刊一律排除（用户要求），与白名单匹配无关
 EXCLUDE_JOURNAL_KEYWORDS = ["food"]
-
-ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
-EFETCH_URL  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -293,91 +295,93 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
+_last_request_time = 0.0
 
-# ──────────────────────────── 工具函数 ────────────────────────────
 
-def _get(url, params: dict, retries=5, delay=2.0) -> bytes:
-    """带重试的 HTTP GET"""
+def _throttle():
+    """确保相邻请求间隔符合NCBI规范（有API Key：≤10/秒）"""
+    global _last_request_time
+    now = time.monotonic()
+    elapsed = now - _last_request_time
+    if elapsed < REQUEST_DELAY:
+        time.sleep(REQUEST_DELAY - elapsed)
+    _last_request_time = time.monotonic()
+
+
+def _get(url, params: dict, retries=5, base_delay=2.0) -> bytes:
+    """带重试和频率控制的 HTTP GET"""
+    params = dict(params)
     if NCBI_API_KEY:
         params["api_key"] = NCBI_API_KEY
     params["tool"]  = "meta-seubiomed"
     params["email"] = NCBI_EMAIL
     full_url = url + "?" + urllib.parse.urlencode(params)
+
     for attempt in range(retries):
+        _throttle()
         try:
             with urllib.request.urlopen(full_url, timeout=60) as resp:
                 return resp.read()
         except Exception as exc:
-            wait = delay * (attempt + 1)
+            wait = base_delay * (2 ** attempt)  # 指数退避
             log.warning(f"请求失败 ({attempt+1}/{retries}): {exc}，等待 {wait:.1f}s 重试...")
             time.sleep(wait)
     raise RuntimeError(f"无法访问 {url}，已重试 {retries} 次")
 
 
-def build_query(date_str: str) -> str:
-    """构建 PubMed 查询字符串，date_str 格式 YYYY/MM/DD"""
+def build_query_for_month(year: int, month: int) -> str:
+    """构建按整月搜索的 PubMed 查询字符串"""
     kw_part = " OR ".join(f'"{kw}"[Title/Abstract]' for kw in KEYWORDS)
-    return f"({kw_part}) AND {date_str}[Date - Publication]"
+    # NCBI 日期范围格式：YYYY/MM/DD[PDAT]
+    last_day = (datetime.date(year, month % 12 + 1, 1) - datetime.timedelta(days=1)).day if month < 12 \
+               else 31
+    start = f"{year}/{month:02d}/01"
+    end   = f"{year}/{month:02d}/{last_day:02d}"
+    return f"({kw_part}) AND {start}:{end}[Date - Publication]"
 
 
-def should_exclude_article(article_data: dict) -> tuple[bool, str]:
-    """检查文章是否应该被排除（根据关键词过滤，安全词保护）"""
-    # 收集所有文本内容用于匹配
-    text_fields = [
-        article_data.get("title", ""),
-        article_data.get("abstract", ""),
-    ]
-    full_text = " ".join(text_fields).lower()
-
-    # 先检查是否包含安全词 → 有安全词则不排除
-    has_safe = any(safe.lower() in full_text for safe in SAFE_WORDS)
-    if has_safe:
-        return False, ""
-
-    # 检查是否包含任何排除关键词
-    for keyword in EXCLUDE_KEYWORDS:
-        if keyword.lower() in full_text:
-            return True, f"内容含排除词: {keyword}"
-    return False, ""
-
-
-def should_exclude_by_journal(article_data: dict) -> tuple[bool, str]:
+def search_pmids_with_history(query: str) -> tuple:
     """
-    检查文章期刊是否应该被排除：
-    1. 期刊名含 food 字样 → 排除
-    2. 期刊不在白名单 → 排除（非Q1/Q2高质量期刊）
-    返回 (bool, reason)
+    ESearch with History Server：
+    返回 (pmids, total_count, webenv, query_key)
+    使用 usehistory=y 将结果缓存在 NCBI 服务器，避免重复传输大量 ID
     """
-    journal = article_data.get("journal", "").lower().strip()
-
-    # 1. 排除含 food 的期刊
-    for excl_kw in EXCLUDE_JOURNAL_KEYWORDS:
-        if excl_kw in journal:
-            return True, f"期刊含排除词: {excl_kw} ({article_data.get('journal')})"
-
-    # 2. 不在白名单中 → 排除
-    # 使用模糊匹配：白名单中任意一项是期刊名的子串，或期刊名是白名单项的子串
-    for wl_journal in JOURNAL_WHITELIST:
-        if wl_journal in journal or journal in wl_journal:
-            return False, ""
-
-    return True, f"期刊不在Q1/Q2白名单: {article_data.get('journal')}"
-
-
-def search_pmids(query: str) -> list:
-    """ESearch：返回 PMID 列表"""
+    # 第一步：仅获取总数和 WebEnv/query_key
     params = {
-        "db":      "pubmed",
-        "term":    query,
-        "retmax":  MAX_RESULTS,
-        "retmode": "json",
-        "sort":    "relevance",
+        "db":          "pubmed",
+        "term":        query,
+        "retmax":      0,      # 先不取ID，只取 count
+        "retmode":     "json",
+        "usehistory":  "y",
     }
     raw = _get(ESEARCH_URL, params)
     data = json.loads(raw)
-    pmids = data.get("esearchresult", {}).get("idlist", [])
-    log.info(f"搜索到 {len(pmids)} 篇 PMID")
-    return pmids
+    result = data.get("esearchresult", {})
+    total_count = int(result.get("count", 0))
+    webenv    = result.get("webenv", "")
+    query_key = result.get("querykey", "")
+    log.info(f"  搜索总计 {total_count} 篇，WebEnv已存储于NCBI服务器")
+
+    # 第二步：分页取回所有 PMID
+    pmids = []
+    batch_size = 500
+    for start in range(0, total_count, batch_size):
+        fetch_params = {
+            "db":        "pubmed",
+            "WebEnv":    webenv,
+            "query_key": query_key,
+            "retstart":  start,
+            "retmax":    batch_size,
+            "retmode":   "json",
+            "usehistory": "y",
+        }
+        raw2 = _get(ESEARCH_URL, fetch_params)
+        data2 = json.loads(raw2)
+        batch_ids = data2.get("esearchresult", {}).get("idlist", [])
+        pmids.extend(batch_ids)
+        log.info(f"  已取回 {len(pmids)}/{total_count} 篇 PMID...")
+
+    return pmids, total_count, webenv, query_key
 
 
 def fetch_details(pmids: list) -> list:
@@ -396,8 +400,14 @@ def fetch_details(pmids: list) -> list:
             "rettype": "abstract",
         }
         raw = _get(EFETCH_URL, params)
-        articles.extend(_parse_xml(raw))
-        time.sleep(0.5)          # 礼貌性延迟
+        parsed = _parse_xml(raw)
+        articles.extend(parsed)
+        done = min(i + batch_size, len(pmids))
+        log.info(f"  已获取详情 {done}/{len(pmids)} 篇...")
+        # 每批次间额外延迟，避免对NCBI造成负担
+        if done < len(pmids):
+            time.sleep(BATCH_DELAY)
+
     return articles
 
 
@@ -427,8 +437,7 @@ def _extract_article(article) -> dict:
     pmid = _get_text(medline, "PMID")
 
     # ── 标题 ──
-    title = _get_text(art, "ArticleTitle")
-    # 去掉 XML 内嵌标签残留文字
+    title = ""
     if art.find("ArticleTitle") is not None:
         title = "".join(art.find("ArticleTitle").itertext()).strip()
 
@@ -494,17 +503,17 @@ def _extract_article(article) -> dict:
         kw_list.append((kw.text or "").strip())
 
     return {
-        "pmid":        pmid,
-        "title":       title,
-        "doi":         doi,
-        "journal":     journal,
-        "pub_date":    pub_date,
-        "authors":     author_str,
-        "abstract":    abstract,
-        "pub_types":   pub_types,
+        "pmid":         pmid,
+        "title":        title,
+        "doi":          doi,
+        "journal":      journal,
+        "pub_date":     pub_date,
+        "authors":      author_str,
+        "abstract":     abstract,
+        "pub_types":    pub_types,
         "article_type": article_type,
-        "mesh_terms":  mesh_terms,
-        "keywords":    kw_list,
+        "mesh_terms":   mesh_terms,
+        "keywords":     kw_list,
         # AI 摘要字段（由 summarize_papers.py 填写）
         "summary_zh":   "",
         "innovation":   "",
@@ -525,7 +534,7 @@ def _classify_type(pub_types: list, title: str, abstract: str) -> str:
         return "系统综述/Meta分析"
     if "review" in pts:
         return "综述"
-    if "benchmark" in txt or "comparison" in txt and "tool" in txt:
+    if "benchmark" in txt or ("comparison" in txt and "tool" in txt):
         return "Benchmark"
     if "clinical trial" in pts or "randomized" in pts:
         return "临床试验"
@@ -536,7 +545,50 @@ def _classify_type(pub_types: list, title: str, abstract: str) -> str:
     return "其他"
 
 
-# ──────────────────────────── 主流程 ──────────────────────────────
+def should_exclude_by_content(rec: dict) -> tuple:
+    """
+    检查文章是否应该被排除（根据标题/摘要关键词过滤，安全词保护）
+    返回 (bool, reason)
+    """
+    text_fields = [
+        rec.get("title", ""),
+        rec.get("abstract", ""),
+    ]
+    full_text = " ".join(text_fields).lower()
+
+    # 先检查安全词 → 有安全词则不排除
+    has_safe = any(safe.lower() in full_text for safe in SAFE_WORDS)
+    if has_safe:
+        return False, ""
+
+    for keyword in EXCLUDE_KEYWORDS:
+        if keyword.lower() in full_text:
+            return True, f"内容含排除词: {keyword}"
+    return False, ""
+
+
+def should_exclude_by_journal(rec: dict) -> tuple:
+    """
+    检查文章期刊是否应该被排除：
+    1. 期刊名含 food 字样 → 排除
+    2. 期刊不在白名单 → 排除（非Q1/Q2高质量期刊）
+    返回 (bool, reason)
+    """
+    journal = rec.get("journal", "").lower().strip()
+
+    # 1. 排除含 food 的期刊
+    for excl_kw in EXCLUDE_JOURNAL_KEYWORDS:
+        if excl_kw in journal:
+            return True, f"期刊含排除词: {excl_kw} ({rec.get('journal')})"
+
+    # 2. 不在白名单中 → 排除
+    # 使用模糊匹配：白名单中任意一项是期刊名的子串，或期刊名是白名单项的子串
+    for wl_journal in JOURNAL_WHITELIST:
+        if wl_journal in journal or journal in wl_journal:
+            return False, ""
+
+    return True, f"期刊不在Q1/Q2白名单: {rec.get('journal')}"
+
 
 def load_existing_pmids() -> set:
     """加载已下载过的所有 PMID，避免重复"""
@@ -553,97 +605,204 @@ def load_existing_pmids() -> set:
     return seen
 
 
-def run(target_date: str = None, days_back: int = 1):
+def fetch_month(year: int, month: int, existing_pmids: set, dry_run: bool = False) -> list:
     """
-    target_date: YYYY-MM-DD，默认今天
-    days_back:   往前搜索多少天
+    爬取指定年月的论文
+    dry_run=True 时只统计数量，不写文件
+    返回: 过滤后的文章列表
     """
-    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    month_str = f"{year}-{month:02d}"
+    log.info(f"\n{'='*60}")
+    log.info(f"开始处理 {month_str}")
+    log.info(f"{'='*60}")
 
-    if not target_date:
-        target_date = datetime.date.today().strftime("%Y-%m-%d")
+    query = build_query_for_month(year, month)
+    log.info(f"查询语句: {query}")
 
-    existing = load_existing_pmids()
-    log.info(f"已有 {len(existing)} 篇文献记录，不再重复检索")
+    # Step 1: 搜索 PMID（使用 History Server）
+    pmids, total_count, webenv, query_key = search_pmids_with_history(query)
+    log.info(f"NCBI返回 {len(pmids)} 篇 PMID（总计 {total_count} 篇）")
 
-    # 支持跨多天搜索
-    base_dt = datetime.datetime.strptime(target_date, "%Y-%m-%d").date()
-    all_new = []
+    # 过滤已有PMID
+    new_pmids = [p for p in pmids if p not in existing_pmids]
+    log.info(f"其中新增 {len(new_pmids)} 篇（已有 {len(pmids) - len(new_pmids)} 篇）")
 
-    for delta in range(days_back):
-        day = base_dt - datetime.timedelta(days=delta)
-        date_str = day.strftime("%Y/%m/%d")
-        log.info(f"正在搜索 {date_str} 的新论文...")
+    if not new_pmids:
+        log.info(f"{month_str} 无新增文章，跳过")
+        return []
 
-        query = build_query(date_str)
-        pmids = search_pmids(query)
+    # Step 2: 获取详情
+    log.info(f"开始获取 {len(new_pmids)} 篇文章详情...")
+    details = fetch_details(new_pmids)
+    log.info(f"成功获取 {len(details)} 篇文章详情")
 
-        new_pmids = [p for p in pmids if p not in existing]
-        log.info(f"  其中新增 {len(new_pmids)} 篇（过滤已有 {len(pmids)-len(new_pmids)} 篇）")
+    # Step 3: 内容过滤（标题/摘要关键词）
+    after_content_filter = []
+    content_excluded = 0
+    for rec in details:
+        excl, reason = should_exclude_by_content(rec)
+        if excl:
+            content_excluded += 1
+            log.debug(f"  [内容过滤] PMID {rec.get('pmid')}: {reason}")
+        else:
+            after_content_filter.append(rec)
+    log.info(f"内容过滤: 排除 {content_excluded} 篇，保留 {len(after_content_filter)} 篇")
 
-        if not new_pmids:
-            continue
-
-        details = fetch_details(new_pmids)
-
-        # 步骤1: 内容过滤（关键词）
-        after_content_filter = []
-        content_excluded = 0
-        for rec in details:
-            excl, reason = should_exclude_article(rec)
-            if excl:
-                content_excluded += 1
-                log.debug(f"  [内容过滤] PMID {rec.get('pmid')}: {reason}")
+    # Step 4: 期刊过滤（白名单 + food 排除）
+    final_papers = []
+    journal_excluded = 0
+    journal_excluded_food = 0
+    journal_excluded_q34 = 0
+    for rec in after_content_filter:
+        excl, reason = should_exclude_by_journal(rec)
+        if excl:
+            journal_excluded += 1
+            if "food" in reason.lower():
+                journal_excluded_food += 1
             else:
-                after_content_filter.append(rec)
+                journal_excluded_q34 += 1
+            log.debug(f"  [期刊过滤] PMID {rec.get('pmid')}: {reason}")
+        else:
+            final_papers.append(rec)
+            existing_pmids.add(str(rec["pmid"]))
 
-        # 步骤2: 期刊过滤（白名单 + food 排除）
-        final_papers = []
-        journal_excluded = 0
-        for rec in after_content_filter:
-            excl, reason = should_exclude_by_journal(rec)
-            if excl:
-                journal_excluded += 1
-                log.debug(f"  [期刊过滤] PMID {rec.get('pmid')}: {reason}")
-            else:
-                final_papers.append(rec)
-                existing.add(str(rec["pmid"]))
+    log.info(f"期刊过滤: 排除 {journal_excluded} 篇 "
+             f"（food期刊: {journal_excluded_food}，Q3/Q4: {journal_excluded_q34}），"
+             f"保留 {len(final_papers)} 篇")
 
-        # 给每条记录添加爬取日期（当天日期）
-        for rec in final_papers:
-            rec["fetch_date"] = target_date
+    if dry_run:
+        log.info(f"[DRY RUN] {month_str} 最终 {len(final_papers)} 篇（不写入文件）")
+        return final_papers
 
-        log.info(f"  内容过滤: 排除 {content_excluded} 篇，保留 {len(after_content_filter)} 篇")
-        log.info(f"  期刊过滤: 排除 {journal_excluded} 篇，保留 {len(final_papers)} 篇")
-        filtered_details = final_papers
+    if not final_papers:
+        log.info(f"{month_str} 过滤后无有效文章")
+        return []
 
-        all_new.extend(filtered_details)
+    # Step 5: 添加 fetch_date 并按日期分拆保存
+    # 按 pub_date 分组，存入对应日期文件
+    # 如果 pub_date 无法解析，统一存为月份第1天
+    by_date = {}
+    for rec in final_papers:
+        rec["fetch_date"] = datetime.date.today().strftime("%Y-%m-%d")
+        # 解析发表日期，存到对应的 daily 文件
+        pd = rec.get("pub_date", "")
+        # 尝试提取年月日
+        file_date = f"{year}-{month:02d}-01"  # 默认
+        if pd:
+            parts = pd.replace(" ", "-").split("-")
+            if len(parts) >= 3:
+                try:
+                    yr = int(parts[0])
+                    mo = int(parts[1]) if parts[1].isdigit() else _month_abbr_to_num(parts[1])
+                    dy = int(parts[2]) if parts[2].isdigit() else 1
+                    file_date = f"{yr}-{mo:02d}-{dy:02d}"
+                except Exception:
+                    pass
+            elif len(parts) == 2:
+                try:
+                    yr = int(parts[0])
+                    mo = int(parts[1]) if parts[1].isdigit() else _month_abbr_to_num(parts[1])
+                    file_date = f"{yr}-{mo:02d}-01"
+                except Exception:
+                    pass
+        by_date.setdefault(file_date, []).append(rec)
 
-        time.sleep(1)
-
-    if all_new:
-        out_file = DAILY_DIR / f"{target_date}.json"
-        # 若当天文件已存在则合并
+    total_saved = 0
+    for date_key, recs in sorted(by_date.items()):
+        out_file = DAILY_DIR / f"{date_key}.json"
         if out_file.exists():
             with open(out_file, encoding="utf-8") as fh:
                 old_data = json.load(fh)
             existing_in_file = {r["pmid"] for r in old_data}
-            merged = old_data + [r for r in all_new if r["pmid"] not in existing_in_file]
+            to_add = [r for r in recs if r["pmid"] not in existing_in_file]
+            merged = old_data + to_add
         else:
-            merged = all_new
-
+            merged = recs
+            to_add = recs
         with open(out_file, "w", encoding="utf-8") as fh:
             json.dump(merged, fh, ensure_ascii=False, indent=2)
-        log.info(f"已保存 {len(all_new)} 篇新论文 → {out_file}")
-    else:
-        log.info("今日无新增论文")
+        total_saved += len(to_add)
+        if to_add:
+            log.info(f"  → 保存 {len(to_add)} 篇到 {out_file.name}")
 
-    return all_new
+    log.info(f"{month_str} 完成：共保存 {total_saved} 篇")
+    return final_papers
+
+
+def _month_abbr_to_num(abbr: str) -> int:
+    """将月份缩写转为数字，如 Jan→1"""
+    mapping = {
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4,
+        "may": 5, "jun": 6, "jul": 7, "aug": 8,
+        "sep": 9, "oct": 10, "nov": 11, "dec": 12
+    }
+    return mapping.get(abbr.lower()[:3], 1)
+
+
+def run(year_months: list, dry_run: bool = False):
+    """
+    主入口：爬取指定的年月列表
+    year_months: [(year, month), ...]
+    dry_run: True → 只统计，不写文件
+    """
+    DAILY_DIR.mkdir(parents=True, exist_ok=True)
+    existing = load_existing_pmids()
+    log.info(f"已有 {len(existing)} 篇文献记录（去重用）")
+
+    total_stats = {}
+    all_results = []
+
+    for year, month in year_months:
+        papers = fetch_month(year, month, existing, dry_run=dry_run)
+        key = f"{year}-{month:02d}"
+        total_stats[key] = len(papers)
+        all_results.extend(papers)
+        # 月份之间等待，礼貌性延迟
+        time.sleep(2.0)
+
+    # 汇总报告
+    log.info(f"\n{'='*60}")
+    log.info("爬取汇总报告")
+    log.info(f"{'='*60}")
+    grand_total = 0
+    for key, count in sorted(total_stats.items()):
+        log.info(f"  {key}: {count} 篇")
+        grand_total += count
+    log.info(f"  合计: {grand_total} 篇")
+    if dry_run:
+        log.info("  [DRY RUN 模式，未写入文件]")
+
+    return all_results, total_stats
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="PubMed 宏基因组文献每日抓取")
-    parser.add_argument("--date",      default=None, help="目标日期 YYYY-MM-DD（默认今天）")
-    parser.add_argument("--days-back", type=int, default=1, help="往前搜索天数（默认1）")
+    parser = argparse.ArgumentParser(
+        description="PubMed 宏基因组文献历史月份批量爬取（遵守NCBI E-utilities使用规范）"
+    )
+    parser.add_argument(
+        "--months",
+        nargs="+",
+        default=["2026-01", "2026-02"],
+        help="目标年月列表，格式 YYYY-MM，如 2026-01 2026-02"
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        default=False,
+        help="仅统计数量，不写入文件"
+    )
     args = parser.parse_args()
-    run(target_date=args.date, days_back=args.days_back)
+
+    year_months = []
+    for ym in args.months:
+        try:
+            y, m = ym.split("-")
+            year_months.append((int(y), int(m)))
+        except ValueError:
+            log.error(f"月份格式错误: {ym}，应为 YYYY-MM")
+            exit(1)
+
+    results, stats = run(year_months, dry_run=args.dry_run)
+    print(f"\n[完成] 爬取完成，共获取 {sum(stats.values())} 篇文章")
+    for k, v in sorted(stats.items()):
+        print(f"   {k}: {v} 篇")
