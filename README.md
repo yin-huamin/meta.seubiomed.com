@@ -89,14 +89,6 @@ Register-ScheduledTask -TaskName "MetaLitDaily" -Action $action -Trigger $trigge
 
 修改方式：编辑 `scripts/fetch_pubmed.py` 中的 `KEYWORDS` 列表。
 
-## 微信收款码
-
-将你的微信收款码图片保存为 `web/assets/wechat_pay.jpg`，然后在 `web/index.html` 中找到 `<div class="qr-placeholder">` 并替换为：
-
-```html
-<img src="assets/wechat_pay.jpg" alt="微信收款码" />
-```
-
 ## 许可
 
 MIT License
