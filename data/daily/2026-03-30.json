@@ -46,33 +46,6 @@
     "fetch_date": "2026-03-30"
   },
   {
-    "pmid": "41903180",
-    "title": "Clinical Care Practices Shape Microbiome-Associated Bloodstream Infection Risk in Geographically Distinct NICUs.",
-    "doi": null,
-    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-    "pub_date": "2026-Mar-28",
-    "authors": "Xu Yanping; Akinbi Henry; Shen Zheng; Zhu Jiajun; Shi Liping et al.",
-    "abstract": "BACKGROUND: Bloodstream infections (BSI) remain a major cause of morbidity and mortality in preterm infants. Although BSI pathogens vary geographically, the role of local microbial colonization patterns and clinical practices in driving these differences is not well understood.\nMETHODS: We conducted a prospective cohort study on 127 preterm infants from two geographically distinct NICUs: University of Cincinnati Medical Center (UCMC, USA) and Children's Hospital, Zhejiang University School of Medicine (ZCH, China). Six hundred and sixty-nine longitudinal stool and skin samples collected during the first three weeks of life underwent metagenomic sequencing. Associations between microbiome composition, clinical factors, and BSI epidemiology were evaluated using Generalized Linear Mixed Models and Random Forest.\nRESULTS: Distinct gut and skin microbiome profiles were observed between NICUs and corresponded closely with local BSI patterns. Staphylococcus aureus predominated at UCMC, while Klebsiella pneumoniae and Enterococcus species were more common at ZCH. Skin microbiota showed strong association with BSI isolates, implicating the skin as an underrecognized potential reservoir for pathogen translocation. Linear mixed models and Random Forest machine learning approaches revealed that clinical practices, including intravenous catheter placement and antibiotic exposure had greater influence on microbiome composition than geographic location alone.\nCONCLUSIONS: Our findings demonstrate that modifiable clinical care practices shape the developing microbiome of preterm infants and contribute to geographic differences in BSI epidemiology. The skin microbiome represents a potentially significant risk factor for invasive infection. Further work to clarify how specific clinical practices influence pathogen colonization may inform strategies to reduce BSI incidence in preterm infants.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Bloodstream infection",
-      "Microbiome",
-      "Preterm infants"
-    ],
-    "summary_zh": "本研究通过宏基因组测序分析127名早产儿的肠道和皮肤菌群，发现临床护理实践（如导管置入和抗生素使用）比地理位置更能影响菌群组成，并与当地血流感染病原体模式相关。",
-    "innovation": "揭示了皮肤菌群是血流感染病原体的潜在重要储存库 | 证明临床实践对菌群的影响大于地理位置 | 结合线性混合模型和随机森林机器学习方法评估关联",
-    "limitation": "样本量相对有限，仅来自两个中心 | 观察性研究难以完全确定因果关系",
-    "study_object": "早产儿粪便和皮肤宏基因组",
-    "disease": "血流感染",
-    "sample_size": "n=127名早产儿（来自两个NICU），共669份样本",
-    "ai_done": true,
-    "fetch_date": "2026-03-30"
-  },
-  {
     "pmid": "41904606",
     "title": "A naturalized gut microbiome interacts with dietary fibers to protect against colonic inflammation.",
     "doi": null,

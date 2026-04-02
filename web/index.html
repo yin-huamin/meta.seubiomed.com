@@ -256,11 +256,12 @@
     tr:hover td { background: #f9fafb; }
 
     /* Column widths */
-    .col-date    { width: 90px; }
+    .col-fetch-date { width: 90px; white-space: nowrap; }
+    .col-date    { width: 90px; white-space: nowrap; }
     .col-title   { width: 220px; }
     .col-doi     { width: 120px; }
     .col-pmid    { width: 80px; }
-    .col-journal { width: 110px; }
+    .col-journal { width: 110px; word-wrap: break-word; }
     .col-type    { width: 90px; }
     .col-summary { width: 200px; }
     .col-innov   { width: 160px; }
@@ -366,6 +367,45 @@
       .toolbar { padding: 0 16px; }
       .table-wrap { padding: 0 8px; }
       .donate-card { width: 100%; display: flex; gap: 12px; align-items: center; text-align: left; }
+    }
+
+    /* ── Site Stats Footer ── */
+    .site-stats {
+      text-align: center;
+      padding: 16px 32px 32px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .site-stats .stats-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .site-stats .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .site-stats .stat-icon {
+      font-size: 13px;
+    }
+
+    .site-stats .stat-label {
+      color: var(--muted);
+    }
+
+    .site-stats .stat-value {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 13px;
     }
   </style>
 </head>
@@ -775,7 +815,7 @@ function renderTable() {
       <td class="col-date">${esc(r.pub_date) || "—"}</td>
       <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}</div></td>
       <td class="col-pmid" style="font-size:11px;">${pmidLink}</td>
-      <td class="col-journal"><span title="${esc(r.journal)}">${esc((r.journal||"").length>16 ? r.journal.slice(0,16)+"…" : r.journal) || "—"}</span></td>
+      <td class="col-journal">${esc(r.journal) || "—"}</td>
       <td class="col-type">${typeTag(r.article_type)}</td>
       <td class="col-summary">${cellText(r.summary_zh)}</td>
       <td class="col-innov">${cellText(r.innovation)}</td>
@@ -834,5 +874,25 @@ function goPage(p) {
 // ═══════════════════════ BOOT ═══════════════════════
 loadData();
 </script>
+
+<!-- ══════════════════════ SITE STATS FOOTER ══════════════════════ -->
+<div class="site-stats">
+  <div class="stats-row">
+    <div class="stat-item">
+      <span class="stat-icon">👁</span>
+      <span class="stat-label">总访问量</span>
+      <span class="stat-value"><span id="busuanzi_value_site_pv">--</span></span>
+    </div>
+    <span style="color:var(--border)">|</span>
+    <div class="stat-item">
+      <span class="stat-icon">👤</span>
+      <span class="stat-label">总访客数</span>
+      <span class="stat-value"><span id="busuanzi_value_site_uv">--</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- 不蒜子统计脚本（异步加载，不影响页面速度） -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>

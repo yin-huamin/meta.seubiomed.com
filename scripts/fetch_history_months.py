@@ -285,8 +285,48 @@ JOURNAL_WHITELIST = {
     "expert opinion on drug metabolism & toxicology",
 }
 
-# 含 food 字样的期刊一律排除（用户要求），与白名单匹配无关
-EXCLUDE_JOURNAL_KEYWORDS = ["food"]
+# 期刊排除关键词（期刊名包含以下任一关键词即排除）
+EXCLUDE_JOURNAL_KEYWORDS = [
+    "food",
+    "environment",      # 环境类期刊
+    "veterinary",       # 兽医类期刊
+    "insect",           # 昆虫类期刊
+    "poultry",          # 家禽类期刊
+    "aquaculture",      # 水产养殖
+    "ecology",          # 生态学
+    "archives",         # 档案/综述类低质量期刊
+]
+
+# 新增：特定期刊排除列表（期刊名模糊匹配，不区分大小写）
+# 格式：期刊名关键词（5个单词以上的期刊使用部分匹配）
+EXCLUDE_JOURNALS_SPECIFIC = [
+    # 完全匹配或包含以下关键词即排除
+    "the journal of allergy and clinical immunology",
+    "global",
+    "microbial pathogenesis",
+    "journal of infection in developing countries",
+    "medicine",
+    "scientific reports",
+    "clinical microbiology and infection",
+    "gut pathogens",
+    "sichuan da xue xue bao",
+    "international journal of molecular sciences",
+    "bmc gastroenterology",
+    "bmc genomics",
+    "animal microbiome",
+    "frontiers in bioscience",
+    "investigative ophthalmology",
+    "cancer research communications",
+    "fish & shellfish immunology",
+    "international journal of obesity",
+    "european journal of clinical microbiology",
+    "virus genes",
+    "gene",
+    "journal of chromatography",
+    "analytical technologies",
+    "bmj open",
+    "comparative biochemistry and physiology",
+]
 
 logging.basicConfig(
     level=logging.INFO,
@@ -570,18 +610,25 @@ def should_exclude_by_content(rec: dict) -> tuple:
 def should_exclude_by_journal(rec: dict) -> tuple:
     """
     检查文章期刊是否应该被排除：
-    1. 期刊名含 food 字样 → 排除
-    2. 期刊不在白名单 → 排除（非Q1/Q2高质量期刊）
+    1. 期刊名含排除关键词 → 排除
+    2. 期刊在特定排除列表中 → 排除
+    3. 期刊不在白名单 → 排除（非Q1/Q2高质量期刊）
     返回 (bool, reason)
     """
     journal = rec.get("journal", "").lower().strip()
 
-    # 1. 排除含 food 的期刊
+    # 1. 排除含关键词的期刊
     for excl_kw in EXCLUDE_JOURNAL_KEYWORDS:
         if excl_kw in journal:
             return True, f"期刊含排除词: {excl_kw} ({rec.get('journal')})"
 
-    # 2. 不在白名单中 → 排除
+    # 2. 排除特定期刊（模糊匹配）
+    for excl_journal in EXCLUDE_JOURNALS_SPECIFIC:
+        # 如果排除词在期刊名中，或期刊名在排除词中（用于长期刊名部分匹配）
+        if excl_journal in journal or journal in excl_journal:
+            return True, f"特定期刊排除: {rec.get('journal')}"
+
+    # 3. 不在白名单中 → 排除
     # 使用模糊匹配：白名单中任意一项是期刊名的子串，或期刊名是白名单项的子串
     for wl_journal in JOURNAL_WHITELIST:
         if wl_journal in journal or journal in wl_journal:
