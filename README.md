@@ -72,6 +72,9 @@ Register-ScheduledTask -TaskName "MetaLitDaily" -Action $action -Trigger $trigge
 ### Linux/macOS crontab
 
 ```cron
+# 设置定时任务
+crontab -e
+
 0 8 * * * cd /path/to/meta-seubiomed && LLM_API_KEY=sk-xxx python scripts/daily_update.py >> logs/daily.log 2>&1
 ```
 
