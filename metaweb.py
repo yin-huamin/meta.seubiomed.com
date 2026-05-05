@@ -33,14 +33,19 @@ def cmd_fetch(args):
     import fetch_pubmed
     from datetime import datetime
 
-    # 优先级：start_date/end_date > date/days-back > days
+    # PMID 模式：最高优先级
+    pmid_list = None
+    if args.pmid:
+        pmid_list = [p.strip() for p in args.pmid if p.strip()]
+
+    # 优先级：pmid > start_date/end_date > date/days-back > days
     target_date = args.date
     days_back = args.days_back
     start_date = args.start_date
     end_date = args.end_date
 
     # --days 快捷方式：从今天往前N天
-    if args.days and not start_date:
+    if args.days and not start_date and not pmid_list:
         if not target_date:
             target_date = datetime.today().strftime("%Y-%m-%d")
         days_back = args.days
@@ -51,6 +56,7 @@ def cmd_fetch(args):
         days_back=days_back,
         start_date=start_date,
         end_date=end_date,
+        pmids=pmid_list,
     )
     log.info("✓ 抓取完成")
 
@@ -142,6 +148,8 @@ def main():
   python metaweb fetch --date 2026-05-01 --days-back 14  # 从指定日期往前14天
   python metaweb fetch --start-date 2026-04-01 --end-date 2026-04-30  # 指定日期范围
   python metaweb fetch --start-date 2026-04-01    # 从指定日期到今天
+  python metaweb fetch --pmid 38912345             # 按PMID号抓取单篇
+  python metaweb fetch --pmid 38912345 38967890    # 按PMID号抓取多篇
   python metaweb summarize                        # 为所有论文生成摘要
   python metaweb summarize --all                  # 处理所有 daily JSON 文件
   python metaweb build                            # 整合数据到 web/data.json
@@ -159,6 +167,8 @@ def main():
     parser_fetch.add_argument("--days", type=int, default=None, help="快捷方式：从今天往前搜索N天（同 --days-back）")
     parser_fetch.add_argument("--start-date", default=None, help="日期范围起始 YYYY-MM-DD")
     parser_fetch.add_argument("--end-date", default=None, help="日期范围结束 YYYY-MM-DD（默认今天）")
+    parser_fetch.add_argument("--pmid", nargs="+", default=None, metavar="PMID",
+                              help="按 PMID 号直接抓取（可多个，空格分隔）")
     parser_fetch.set_defaults(func=cmd_fetch)
 
     # ── summarize 命令 ──

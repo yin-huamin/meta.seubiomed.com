@@ -626,11 +626,106 @@ def load_existing_pmids() -> set:
     return seen
 
 
+def _run_by_pmids(pmids: list, existing: set, journal_table: dict, target_date: str = None):
+    """按 PMID 列表直接抓取论文详情，保存到 daily JSON"""
+    today_str = datetime.date.today().strftime("%Y-%m-%d")
+    out_date = target_date or today_str
+
+    # 去重：过滤已存在的 PMID
+    new_pmids = [p for p in pmids if str(p) not in existing]
+    log.info(f"📋 PMID模式: 输入 {len(pmids)} 篇，其中新增 {len(new_pmids)} 篇")
+
+    if not new_pmids:
+        log.info("所有 PMID 均已存在，无需重复抓取")
+        return []
+
+    details = fetch_details(new_pmids)
+    log.info(f"成功获取 {len(details)} 篇论文详情")
+
+    if not details:
+        log.warning("未获取到任何论文详情，请检查 PMID 是否正确")
+        return []
+
+    # 内容过滤
+    after_content = []
+    content_excl = 0
+    content_list = []
+    for rec in details:
+        excl, reason = should_exclude_article(rec)
+        if excl:
+            content_excl += 1
+            content_list.append((rec, reason))
+        else:
+            after_content.append(rec)
+
+    # 期刊过滤
+    final = []
+    journal_excl = 0
+    journal_list = []
+    for rec in after_content:
+        excl, reason = should_exclude_by_journal(rec, journal_table)
+        if excl:
+            journal_excl += 1
+            journal_list.append((rec, reason))
+        else:
+            final.append(rec)
+            existing.add(str(rec["pmid"]))
+
+    for rec in final:
+        rec["fetch_date"] = out_date
+
+    log.info(f"  内容过滤: 排除 {content_excl} 篇，保留 {len(after_content)} 篇")
+    log.info(f"  期刊过滤: 排除 {journal_excl} 篇，保留 {len(final)} 篇")
+
+    # 论文汇总展示
+    log.info("")
+    log.info("=" * 80)
+    log.info(f"  📋 PMID抓取结果汇总（共 {len(details)} 篇）")
+    log.info("=" * 80)
+    if final:
+        log.info(f"  ✅ 已收录 ({len(final)} 篇):")
+        for i, rec in enumerate(final, 1):
+            log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+            log.info(f"        {rec.get('title', 'N/A')}")
+    if content_list:
+        log.info(f"  🚫 内容过滤排除 ({len(content_list)} 篇):")
+        for i, (rec, reason) in enumerate(content_list, 1):
+            log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+            log.info(f"        {rec.get('title', 'N/A')}")
+            log.info(f"        原因: {reason}")
+    if journal_list:
+        log.info(f"  📵 期刊过滤排除 ({len(journal_list)} 篇):")
+        for i, (rec, reason) in enumerate(journal_list, 1):
+            log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+            log.info(f"        {rec.get('title', 'N/A')}")
+            log.info(f"        原因: {reason}")
+    log.info("=" * 80)
+    log.info("")
+
+    # 保存
+    out_file = DAILY_DIR / f"{out_date}.json"
+    if out_file.exists():
+        with open(out_file, encoding="utf-8") as fh:
+            old_data = json.load(fh)
+        existing_in_file = {r["pmid"] for r in old_data}
+        merged = old_data + [r for r in final if r["pmid"] not in existing_in_file]
+    else:
+        merged = final
+
+    with open(out_file, "w", encoding="utf-8") as fh:
+        json.dump(merged, fh, ensure_ascii=False, indent=2)
+    log.info(f"已保存 {len(final)} 篇新论文 → {out_file}")
+
+    return final
+
+
 def run(target_date: str = None, days_back: int = 1,
-        start_date: str = None, end_date: str = None):
+        start_date: str = None, end_date: str = None,
+        pmids: list = None):
     """
-    两种模式：
-    1. 日期范围模式（优先）：start_date [+ end_date]
+    三种模式：
+    0. PMID模式（最优先）：直接按 PMID 列表抓取
+    1. 日期范围模式：start_date [+ end_date]
     2. 逐日模式（向后兼容）：target_date + days_back
     """
     DAILY_DIR.mkdir(parents=True, exist_ok=True)
@@ -638,6 +733,11 @@ def run(target_date: str = None, days_back: int = 1,
     existing = load_existing_pmids()
     journal_table = load_journal_table()
     log.info(f"已有 {len(existing)} 篇文献记录，不再重复检索")
+
+    # ── 模式0：按 PMID 抓取 ──
+    if pmids:
+        _run_by_pmids(pmids, existing, journal_table, target_date)
+        return
 
     # ── 模式1：日期范围 ──
     if start_date:
