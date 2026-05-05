@@ -89,26 +89,40 @@ def cmd_auto(args):
     import fetch_pubmed
     import summarize_papers
     import build_data
-    from datetime import datetime, timedelta
+    from datetime import datetime
 
     log.info("▶ 开始自动运行流程...")
 
-    # 确定日期范围
-    if args.date:
-        target_date = args.date
-        days_back = args.days_back or 1
-    elif args.days:
-        target_date = datetime.today().strftime("%Y-%m-%d")
+    # 确定 fetch 参数（与 cmd_fetch 保持一致的逻辑）
+    pmid_list = None
+    if args.pmid:
+        pmid_list = [p.strip() for p in args.pmid if p.strip()]
+
+    target_date = args.date
+    days_back = args.days_back
+    start_date = args.start_date
+    end_date = args.end_date
+
+    if args.days and not start_date and not pmid_list:
+        if not target_date:
+            target_date = datetime.today().strftime("%Y-%m-%d")
         days_back = args.days
-    else:
-        target_date = datetime.today().strftime("%Y-%m-%d")
-        days_back = 1
+    elif not pmid_list and not start_date:
+        if not target_date:
+            target_date = datetime.today().strftime("%Y-%m-%d")
+        days_back = days_back or 1
 
     # 1. 抓取
     log.info("=" * 50)
     log.info("步骤 1/3: 抓取文献")
     log.info("=" * 50)
-    fetch_pubmed.run(target_date=target_date, days_back=days_back)
+    fetch_pubmed.run(
+        target_date=target_date,
+        days_back=days_back,
+        start_date=start_date,
+        end_date=end_date,
+        pmids=pmid_list,
+    )
 
     # 2. 生成摘要
     log.info("=" * 50)
@@ -154,6 +168,8 @@ def main():
   python metaweb summarize --all                  # 处理所有 daily JSON 文件
   python metaweb build                            # 整合数据到 web/data.json
   python metaweb auto --days 7                    # 自动抓取最近7天并整合
+  python metaweb auto --pmid 38912345 38967890    # 按PMID抓取并自动摘要+整合
+  python metaweb auto --start-date 2026-04-01 --end-date 2026-04-30  # 日期范围自动流水线
   python metaweb daily                            # 每日自动化运行
 """
     )
@@ -184,9 +200,13 @@ def main():
 
     # ── auto 命令 ──
     parser_auto = subparsers.add_parser("auto", help="自动运行（抓取+摘要+整合）")
-    parser_auto.add_argument("--date", default=None, help="目标日期 YYYY-MM-DD")
-    parser_auto.add_argument("--days", type=int, default=None, help="抓取最近N天")
+    parser_auto.add_argument("--date", default=None, help="目标日期 YYYY-MM-DD（默认今天）")
+    parser_auto.add_argument("--days", type=int, default=None, help="快捷方式：从今天往前搜索N天")
     parser_auto.add_argument("--days-back", type=int, default=None, help="往前搜索天数（同 --days）")
+    parser_auto.add_argument("--start-date", default=None, help="日期范围起始 YYYY-MM-DD")
+    parser_auto.add_argument("--end-date", default=None, help="日期范围结束 YYYY-MM-DD（默认今天）")
+    parser_auto.add_argument("--pmid", nargs="+", default=None, metavar="PMID",
+                             help="按 PMID 号直接抓取（可多个，空格分隔）")
     parser_auto.add_argument("--force", action="store_true", help="强制重新生成摘要")
     parser_auto.set_defaults(func=cmd_auto)
 

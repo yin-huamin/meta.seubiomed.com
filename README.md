@@ -118,16 +118,59 @@ vim config.env
 
 ### `python metaweb.py fetch` - 抓取文献
 
+支持三种模式：按日期、按日期范围、按 PMID 号。
+
+#### 按日期抓取
+
 ```bash
-# 抓取指定日期的文献
+# 默认：抓取今天到昨天（1天）
+python metaweb.py fetch
+
+# 抓取最近 7 天
+python metaweb.py fetch --days 7
+
+# 抓取指定日期往回 1 天
 python metaweb.py fetch --date 2026-05-05
 
-# 抓取最近 7 天的文献
-python metaweb.py fetch --days-back 7
-
-# 抓取指定日期范围
-python metaweb.py fetch --start-date 2026-01-01 --end-date 2026-01-31
+# 抓取指定日期往前 14 天
+python metaweb.py fetch --date 2026-05-05 --days-back 14
 ```
+
+#### 按日期范围抓取
+
+```bash
+# 抓取指定日期范围
+python metaweb.py fetch --start-date 2026-04-01 --end-date 2026-04-30
+
+# 从指定日期到今天
+python metaweb.py fetch --start-date 2026-04-01
+```
+
+#### 按 PMID 号抓取
+
+```bash
+# 抓取单篇文献
+python metaweb.py fetch --pmid 38912345
+
+# 抓取多篇文献（空格分隔）
+python metaweb.py fetch --pmid 38912345 38967890 38911111
+
+# 按 PMID 抓取并保存到指定日期
+python metaweb.py fetch --pmid 38912345 --date 2026-05-01
+```
+
+#### fetch 参数一览
+
+| 参数 | 说明 | 示例 |
+|------|------|------|
+| `--days N` | 从今天往前搜索 N 天 | `--days 7` |
+| `--date YYYY-MM-DD` | 指定目标日期（默认今天） | `--date 2026-05-05` |
+| `--days-back N` | 从目标日期往前搜索天数（默认 1） | `--days-back 14` |
+| `--start-date YYYY-MM-DD` | 日期范围起始 | `--start-date 2026-04-01` |
+| `--end-date YYYY-MM-DD` | 日期范围结束（默认今天） | `--end-date 2026-04-30` |
+| `--pmid PMID [...]` | 按 PMID 号直接抓取（可多个） | `--pmid 38912345` |
+
+> **优先级**：`--pmid` > `--start-date/--end-date` > `--date/--days-back` > `--days`
 
 ### `python metaweb.py summarize` - 生成 AI 摘要
 
@@ -137,6 +180,9 @@ python metaweb.py summarize
 
 # 为指定日期的论文生成摘要
 python metaweb.py summarize --date 2026-05-05
+
+# 处理所有 daily JSON 文件
+python metaweb.py summarize --all
 
 # 强制重新生成所有摘要
 python metaweb.py summarize --all --force
@@ -149,11 +195,22 @@ python metaweb.py summarize --all --force
 python metaweb.py build
 ```
 
-### `python metaweb.py auto` - 自动运行
+### `python metaweb.py auto` - 自动运行（抓取 + 摘要 + 整合）
+
+`auto` 命令支持与 `fetch` 相同的所有参数，自动执行完整的流水线：
 
 ```bash
-# 自动执行：抓取 + 摘要生成 + 数据整合
+# 自动执行最近 7 天的完整流程
 python metaweb.py auto --days 7
+
+# 指定日期范围的完整流程
+python metaweb.py auto --start-date 2026-04-01 --end-date 2026-04-30
+
+# 按 PMID 抓取并自动生成摘要 + 整合
+python metaweb.py auto --pmid 38912345 38967890
+
+# 强制重新生成摘要
+python metaweb.py auto --days 7 --force
 ```
 
 ### `python metaweb.py daily` - 每日自动化运行
