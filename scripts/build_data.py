@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
-数据整合脚本
-将 data/daily/*.json 合并为 web/data.json，供前端展示使用。
-同时生成统计摘要 web/stats.json 和爬取日志 web/memory.json。
+数据整合脚本（增量模式）
+以已有 web/data.json 为累积数据库，合并 data/daily/*.json 中的新增文献。
+以 pmid 去重，优先保留 ai_done=True 的版本。
+生成 web/data.json、web/data/YYYY.json、web/stats.json 和 web/memory.json。
+
+daily JSON 在 build 完成后即可安全删除，不影响后续运行。
 """
 
 import json
@@ -246,27 +249,56 @@ def lookup_journal(article, name_lut, issn_lut, norm_names):
     return {"if": "", "jcr": "", "cas": ""}
 
 
-# ── Merge daily JSONs ────────────────────────────────────────────
+# ── Merge: existing data.json + daily JSONs ──────────────────────
+def _load_existing_data() -> list:
+    """加载已有的 web/data.json 作为基础数据（累积数据库）。"""
+    if not OUT_FILE.exists():
+        return []
+    try:
+        with open(OUT_FILE, encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception as exc:
+        log.warning(f"读取已有 {OUT_FILE} 失败，将从零开始: {exc}")
+        return []
+
+
 def merge_all() -> list:
-    """合并所有 daily JSON，去重（以 pmid 为唯一键），按发布日期倒序"""
-    seen = {}  # pmid -> record
+    """
+    增量合并：以已有 data.json 为基础，整合新增的 daily JSON。
+    以 pmid 为唯一键去重，优先保留 ai_done=True 的版本。
+    不再依赖 data/daily/ 的完整历史，daily JSON 只需保留到 build 之后的下一次。
+    """
+    # 1) 加载累积数据库
+    seen = {}
+    for rec in _load_existing_data():
+        pmid = str(rec.get("pmid", ""))
+        if pmid:
+            seen[pmid] = rec
+
+    base_count = len(seen)
+
+    # 2) 合并 daily JSON（新数据覆盖旧数据，ai_done 优先）
+    new_count = 0
     for f in sorted(DAILY_DIR.glob("*.json")):
         try:
             with open(f, encoding="utf-8") as fh:
                 records = json.load(fh)
             for rec in records:
                 pmid = str(rec.get("pmid", ""))
-                if pmid and pmid not in seen:
+                if not pmid:
+                    continue
+                if pmid not in seen:
                     seen[pmid] = rec
-                elif pmid in seen:
-                    if rec.get("ai_done") and not seen[pmid].get("ai_done"):
-                        seen[pmid] = rec
+                    new_count += 1
+                elif rec.get("ai_done") and not seen[pmid].get("ai_done"):
+                    seen[pmid] = rec
+                    new_count += 1
         except Exception as exc:
             log.warning(f"读取 {f} 失败: {exc}")
 
     all_records = list(seen.values())
     all_records.sort(key=lambda r: r.get("pub_date", "") or "", reverse=True)
-    log.info(f"共整合 {len(all_records)} 篇不重复文献")
+    log.info(f"累积基础 {base_count} 篇 + 新增 {new_count} 篇 = 共 {len(all_records)} 篇")
     return all_records
 
 
