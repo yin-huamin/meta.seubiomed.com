@@ -31,13 +31,26 @@ log = logging.getLogger(__name__)
 def cmd_fetch(args):
     """抓取文献命令"""
     import fetch_pubmed
+    from datetime import datetime
+
+    # 优先级：start_date/end_date > date/days-back > days
+    target_date = args.date
+    days_back = args.days_back
+    start_date = args.start_date
+    end_date = args.end_date
+
+    # --days 快捷方式：从今天往前N天
+    if args.days and not start_date:
+        if not target_date:
+            target_date = datetime.today().strftime("%Y-%m-%d")
+        days_back = args.days
 
     log.info("▶ 开始抓取文献...")
     fetch_pubmed.run(
-        target_date=args.date,
-        days_back=args.days_back,
-        start_date=args.start_date,
-        end_date=args.end_date,
+        target_date=target_date,
+        days_back=days_back,
+        start_date=start_date,
+        end_date=end_date,
     )
     log.info("✓ 抓取完成")
 
@@ -123,12 +136,17 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-  python metaweb fetch --date 2026-05-05       # 抓取指定日期
-  python metaweb fetch --days 7                 # 抓取最近7天
-  python metaweb summarize                      # 为所有论文生成摘要
-  python metaweb build                          # 整合数据到 web/data.json
-  python metaweb auto --days 7                 # 自动抓取最近7天并整合
-  python metaweb daily                         # 每日自动化运行
+  python metaweb fetch                            # 抓取今天到昨天（默认1天）
+  python metaweb fetch --days 7                   # 抓取最近7天
+  python metaweb fetch --date 2026-05-01          # 抓取2026-05-01往回1天
+  python metaweb fetch --date 2026-05-01 --days-back 14  # 从指定日期往前14天
+  python metaweb fetch --start-date 2026-04-01 --end-date 2026-04-30  # 指定日期范围
+  python metaweb fetch --start-date 2026-04-01    # 从指定日期到今天
+  python metaweb summarize                        # 为所有论文生成摘要
+  python metaweb summarize --all                  # 处理所有 daily JSON 文件
+  python metaweb build                            # 整合数据到 web/data.json
+  python metaweb auto --days 7                    # 自动抓取最近7天并整合
+  python metaweb daily                            # 每日自动化运行
 """
     )
 
@@ -138,8 +156,9 @@ def main():
     parser_fetch = subparsers.add_parser("fetch", help="抓取PubMed文献")
     parser_fetch.add_argument("--date", default=None, help="目标日期 YYYY-MM-DD（默认今天）")
     parser_fetch.add_argument("--days-back", type=int, default=1, help="往前搜索天数（默认1）")
+    parser_fetch.add_argument("--days", type=int, default=None, help="快捷方式：从今天往前搜索N天（同 --days-back）")
     parser_fetch.add_argument("--start-date", default=None, help="日期范围起始 YYYY-MM-DD")
-    parser_fetch.add_argument("--end-date", default=None, help="日期范围结束 YYYY-MM-DD")
+    parser_fetch.add_argument("--end-date", default=None, help="日期范围结束 YYYY-MM-DD（默认今天）")
     parser_fetch.set_defaults(func=cmd_fetch)
 
     # ── summarize 命令 ──
