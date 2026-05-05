@@ -5,6 +5,7 @@ PubMed 宏基因组领域论文每日搜索脚本
 """
 
 import os
+import re
 import json
 import time
 import datetime
@@ -15,6 +16,68 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+# ──────────────────────────── 日期工具 ──────────────────────────────
+MONTH_TO_NUM = {
+    "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+    "may": "05", "jun": "06", "jul": "07", "aug": "08",
+    "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+    "january":   "01", "february": "02", "march":    "03",
+    "april":    "04", "june":     "06", "july":     "07",
+    "august":   "08", "september":"09", "october":  "10",
+    "november": "11", "december": "12",
+}
+
+def _month_to_num(month_str: str) -> str:
+    """将英文月份转为两位数字字符串；已是数字则直接补零。"""
+    if not month_str:
+        return ""
+    s = month_str.strip().lower()
+    if s.isdigit():
+        return s.zfill(2)
+    return MONTH_TO_NUM.get(s, "")
+
+
+def _format_pub_date(year: str, month: str, day: str) -> str:
+    """将年/月/日部件格式化为 YYYY-MM-DD / YYYY-MM / YYYY，月份为数字。"""
+    m = _month_to_num(month)
+    if year and m and day:
+        return f"{year}-{m}-{day.zfill(2)}"
+    if year and m:
+        return f"{year}-{m}"
+    if year:
+        return year
+    return ""
+
+
+def _parse_date_node(node) -> str:
+    """解析 PubMed 日期 XML 节点（含 Year/Month/Day），返回格式化字符串。"""
+    if node is None:
+        return ""
+    y_node = node.find("Year")
+    m_node = node.find("Month")
+    d_node = node.find("Day")
+    y = (y_node.text or "") if y_node is not None else ""
+    m = (m_node.text or "") if m_node is not None else ""
+    d = (d_node.text or "") if d_node is not None else ""
+    return _format_pub_date(y, m, d)
+
+
+def _is_future(date_str: str) -> bool:
+    """判断日期字符串（YYYY / YYYY-MM / YYYY-MM-DD）是否在未来。"""
+    if not date_str:
+        return False
+    try:
+        parts = date_str.split("-")
+        if len(parts) == 3:
+            dt = datetime.date(int(parts[0]), int(parts[1]), int(parts[2]))
+        elif len(parts) == 2:
+            dt = datetime.date(int(parts[0]), int(parts[1]), 1)
+        else:
+            dt = datetime.date(int(parts[0]), 1, 1)
+        return dt > datetime.date.today()
+    except Exception:
+        return False
+
 # ──────────────────────────── 配置区 ──────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -24,6 +87,7 @@ KEYWORDS = ["metagenome", "metagenomic", "microbiom"]
 NCBI_EMAIL = "yinhm17@126.com"          # NCBI要求提供联系邮箱
 NCBI_API_KEY = "ce30363de49e75a27b8c1fdf66a48f2f8108"                       # 可选：NCBI API Key（提速用）
 MAX_RESULTS = 200                       # 每次最多取回论文数
+JOURNAL_TABLE_PATH = BASE_DIR / "journal_info.tsv"   # 期刊过滤表（TSV格式）
 
 # 需要排除的关键词
 # 排除范围：
@@ -60,8 +124,8 @@ EXCLUDE_KEYWORDS = [
     "kimchi", "sauerkraut", "soy sauce", "vinegar", "fermented vegetable", "miso", "tempeh", "sake",
     
     # ──── 植物/土壤/农业 ────
-    "plant", "plants", "rhizosphere", "soil", "leaf", "root", "crop", "rice ", "wheat", "corn ", "maize",
-    "soybean", "barley", "vegetable", "fruit ", "forest", "tree ", "wood", "agricultural",
+    "plant", "plants", "rhizosphere", "soil", "leaf", "root", "crop", "rice", "wheat", "corn", "maize",
+    "soybean", "barley", "vegetable", "fruit ", "forest", "tree", "wood", "agricultural",
     
     # ──── 环境工程/污染/工业 ────
     "factory", "industrial", "wastewater", "sewage", "effluent", "sludge", "mound", "waste",
@@ -113,215 +177,172 @@ SAFE_WORDS = [
     "fisher",       # Fisher's test 等 ≠ fish 鱼类
 ]
 
-# ──────────────────────────── 期刊白名单（JCR Q1/Q2，IF>3，排除含 food 字样）────────────────────────────
-# 来源：2023/2024 JCR 微生物学、多学科、生物技术等相关学科分区
-# 仅保留宏基因组/微生物组核心相关 & 高质量综合期刊
-# 期刊名已转为小写用于匹配（实际比对时用lower()处理）
-JOURNAL_WHITELIST = {
-    # ── 顶级综合期刊 ──
-    "nature",
-    "science",
-    "cell",
-    "the lancet",
-    "lancet",
-    "new england journal of medicine",
-    "bmj",
-    "jama",
-    "science advances",
-    "nature communications",
-    "elife",
-    "plos biology",
+# ──────────────────────────── 期刊过滤（基于 journal_info.tsv）────────────────────────────
+# 从 TSV 文件加载期刊列表，支持按期刊名或 ISSN/eISSN 匹配
+# TSV 格式：期刊名称 \t IF \t JCR分区 \t Category \t ISSN \t eISSN \t 中科院分区
 
-    # ── 微生物学顶刊 ──
-    "nature reviews microbiology",
-    "nature microbiology",
-    "cell host & microbe",
-    "cell host and microbe",
-    "microbiome",
-    "gut",
-    "gut microbes",
-    "npj biofilms and microbiomes",
-    "npj biofilms & microbiomes",
-    "imeta",
-    "msystems",
-    "mbio",
-    "isme journal",
-    "the isme journal",
-    "isme communications",
-    "microbiota",
-    "microbial biotechnology",
-    "microbial genomics",
-    "microbiology spectrum",
-    "frontiers in microbiology",
-    "applied and environmental microbiology",
-    "environmental microbiology",
-    "environmental microbiology reports",
-    "microbial ecology",
-    "asm journals",
-    "journal of bacteriology",
-    "infection and immunity",
-    "clinical microbiology reviews",
-    "clinical microbiology and infection",
-    "journal of clinical microbiology",
-    "journal of medical microbiology",
-    "fems microbiology ecology",
-    "fems microbiology reviews",
-    "fems microbiology letters",
-    "international journal of systematic and evolutionary microbiology",
-    "antonie van leeuwenhoek",
-    "extremophiles",
+def load_journal_table() -> dict:
+    """
+    加载 journal_info.tsv，返回包含期刊信息和分区数据的字典：
+        {
+            "name_to_info": {name_lower: {"jcr": ..., "cas": ...}},
+            "issn_to_info": {issn_no_dash: {"jcr": ..., "cas": ...}},
+            "norm_to_info": {norm_name: {"jcr": ..., "cas": ...}},
+        }
+    TSV 格式：期刊名称 \t IF \t JCR分区 \t Category \t ISSN \t eISSN \t 中科院分区
+    排除规则：JCR Q3/Q4 或中科院分区 3/4 或 IF < 5.0 → 不加载（直接过滤）
+    """
+    name_to_info = {}
+    issn_to_info = {}
+    norm_to_info = {}
 
-    # ── 生物信息学/基因组学 ──
-    "genome biology",
-    "genome research",
-    "genome medicine",
-    "genomics proteomics & bioinformatics",
-    "genomics",
-    "bioinformatics",
-    "briefings in bioinformatics",
-    "plos computational biology",
-    "plos genetics",
-    "nucleic acids research",
-    "molecular biology and evolution",
-    "bmc genomics",
-    "bmc bioinformatics",
-    "frontiers in genetics",
-    "genes",
+    if not JOURNAL_TABLE_PATH.exists():
+        log.warning(f"期刊过滤表不存在: {JOURNAL_TABLE_PATH}，将跳过期刊过滤")
+        return {"name_to_info": {}, "issn_to_info": {}, "norm_to_info": {}}
 
-    # ── 医学/临床 ──
-    "nature medicine",
-    "cell medicine",
-    "journal of clinical investigation",
-    "journal of hepatology",
-    "hepatology",
-    "gastroenterology",
-    "alimentary pharmacology & therapeutics",
-    "american journal of gastroenterology",
-    "inflammatory bowel diseases",
-    "journal of crohn's and colitis",
-    "clinical gastroenterology and hepatology",
-    "digestive diseases and sciences",
-    "annals of internal medicine",
-    "diabetes",
-    "diabetologia",
-    "diabetes care",
-    "journal of diabetes investigation",
-    "obesity",
-    "international journal of obesity",
-    "metabolism",
-    "clinical nutrition",
-    "nutrients",
-    "european journal of nutrition",
-    "journal of nutrition",
-    "american journal of clinical nutrition",
-    "nutrition & metabolism",
-    "neuroscience & biobehavioral reviews",
-    "brain behavior and immunity",
-    "brain, behavior, and immunity",
-    "neuropsychopharmacology",
-    "journal of neuroinflammation",
-    "journal of psychiatric research",
-    "npj schizophrenia",
-    "nature mental health",
-    "cancer research",
-    "clinical cancer research",
-    "journal of clinical oncology",
-    "oncogene",
-    "cancer letters",
-    "international journal of cancer",
-    "cancer immunology immunotherapy",
+    with open(JOURNAL_TABLE_PATH, encoding="utf-8") as fh:
+        fh.readline()  # 跳过表头
+        for line in fh:
+            parts = line.strip().split("\t")
+            if len(parts) < 7:
+                continue
+            name_raw = parts[0].strip()
+            try:
+                if_val = float(parts[1].strip())
+            except (ValueError, IndexError):
+                continue
+            jcr = (parts[2] or "").strip()
+            cas = (parts[6] or "").strip()
+            issn_raw = parts[4].strip()
+            eissn_raw = parts[5].strip()
 
-    # ── 生物技术/生物化学 ──
-    "nature biotechnology",
-    "nature chemical biology",
-    "nature metabolism",
-    "cell metabolism",
-    "cell reports",
-    "cell reports medicine",
-    "iscience",
-    "current biology",
-    "plos one",
-    "scientific reports",
-    "molecular cell",
-    "journal of biological chemistry",
-    "biochemical and biophysical research communications",
-    "biochemistry",
-    "metabolomics",
-    "journal of proteome research",
-    "journal of proteomics",
-    "frontiers in cell and developmental biology",
+            # 跳过 JCR Q3/Q4、中科院 3/4 区、IF < 5 的期刊
+            if jcr in ("Q3", "Q4"):
+                continue
+            if cas in ("3", "4"):
+                continue
+            if if_val < 5.0:
+                continue
+            if jcr not in ("Q1", "Q2"):
+                continue
+            if cas not in ("1", "2"):
+                continue
 
-    # ── 微生物学趋势（保留） ──
-    "trends in microbiology",
+            info = {"if": if_val, "jcr": jcr, "cas": cas}
+            name_lower = name_raw.lower()
 
-    # ── 其他相关高质量期刊 ──
-    "journal of infection",
-    "virulence",
-    "emerging microbes & infections",
-    "emerging infectious diseases",
-    "lancet infectious diseases",
-    "lancet microbe",
-    "nature reviews gastroenterology & hepatology",
-    "nature reviews gastroenterology and hepatology",
-    "cellular and molecular life sciences",
-    "international journal of molecular sciences",
-    "frontiers in immunology",
-    "journal of autoimmunity",
-    "immunology",
-    "mucosal immunology",
-    "european journal of immunology",
-    "allergy",
-    "journal of allergy and clinical immunology",
-    "clinical and translational allergy",
-    "international journal of antimicrobial agents",
-    "antimicrobial agents and chemotherapy",
-    "journal of antimicrobial chemotherapy",
-    "pharmacological research",
-    "expert opinion on drug metabolism & toxicology",
-}
+            name_to_info[name_lower] = info
+            norm = _normalize_journal_name(name_raw)
+            if norm:
+                norm_to_info[norm] = info
 
-# 期刊排除关键词（期刊名包含以下任一关键词即排除）
-EXCLUDE_JOURNAL_KEYWORDS = [
-    "food",
-    "environment",      # 环境类期刊
-    "veterinary",       # 兽医类期刊
-    "insect",           # 昆虫类期刊
-    "poultry",          # 家禽类期刊
-    "aquaculture",      # 水产养殖
-    "ecology",          # 生态学
-    "archives",         # 档案/综述类低质量期刊
-]
+            if issn_raw and issn_raw != "N/A":
+                issn_key = issn_raw.replace("-", "").lower()
+                issn_to_info[issn_key] = info
+            if eissn_raw and eissn_raw != "N/A":
+                eissn_key = eissn_raw.replace("-", "").lower()
+                issn_to_info[eissn_key] = info
 
-# 新增：特定期刊排除列表（期刊名模糊匹配，不区分大小写）
-# 格式：期刊名关键词（5个单词以上的期刊使用部分匹配）
-EXCLUDE_JOURNALS_SPECIFIC = [
-    # 完全匹配或包含以下关键词即排除
-    "the journal of allergy and clinical immunology",
-    "global",
-    "microbial pathogenesis",
-    "journal of infection in developing countries",
-    "medicine",
-    "scientific reports",
-    "clinical microbiology and infection",
-    "gut pathogens",
-    "sichuan da xue xue bao",
-    "international journal of molecular sciences",
-    "bmc gastroenterology",
-    "bmc genomics",
-    "animal microbiome",
-    "frontiers in bioscience",
-    "investigative ophthalmology",
-    "cancer research communications",
-    "fish & shellfish immunology",
-    "international journal of obesity",
-    "european journal of clinical microbiology",
-    "virus genes",
-    "gene",
-    "journal of chromatography",
-    "analytical technologies",
-    "bmj open",
-    "comparative biochemistry and physiology",
-]
+    total = len(name_to_info)
+    log.info(f"已加载期刊过滤表: {total} 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 {JOURNAL_TABLE_PATH.name}）")
+    return {
+        "name_to_info": name_to_info,
+        "issn_to_info": issn_to_info,
+        "norm_to_info": norm_to_info,
+    }
+
+
+def _normalize_journal_name(name: str) -> str:
+    """标准化期刊名：去前缀The、去括号、去冒号后缀、去等号后缀等"""
+    s = name.strip().lower()
+    if s.startswith("the "):
+        s = s[4:]
+    s = re.sub(r"\([^)]*\)", "", s)
+    s = re.sub(r"\s*:\s*.*$", "", s)
+    s = re.sub(r"\s*=\s*.*$", "", s)
+    # Only strip trailing ". xxx" if it starts with common note words
+    dot_match = re.search(r"\.\s+(?=[a-z])", s)
+    if dot_match:
+        rest = s[dot_match.end():]
+        first_word = rest.split()[0] if rest.split() else ""
+        if first_word in ("a", "an", "the", "vol", "ed", "ser", "edition", "series",
+                          "rev", "journal", "official", "international"):
+            s = s[:dot_match.start()]
+    s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"[,.\-:;\"'()]", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def should_exclude_by_journal(article_data: dict, journal_table: dict) -> tuple[bool, str]:
+    """
+    检查文章期刊是否应该被排除：
+    1. 不在 journal_info.tsv 中（按期刊名或 ISSN 匹配）→ 排除
+    2. JCR 分区为 Q3 或 Q4 → 排除
+    3. 中科院分区为 4 → 排除
+    4. 其他 → 保留
+    journal_table: {"name_to_info": ..., "issn_to_info": ..., "norm_to_info": ...}
+    返回 (bool, reason)
+    """
+    name_to_info = journal_table.get("name_to_info", {})
+    issn_to_info = journal_table.get("issn_to_info", {})
+    norm_to_info = journal_table.get("norm_to_info", {})
+
+    if not name_to_info:
+        return False, ""
+
+    journal = (article_data.get("journal") or "").strip()
+    issn    = (article_data.get("issn") or "").replace("-", "").strip()
+
+    if not journal:
+        return True, "无期刊信息"
+
+    journal_lower = journal.lower()
+    journal_norm = _normalize_journal_name(journal)
+
+    info = None
+
+    # 1) 精确名称匹配（忽略大小写）
+    if journal_lower in name_to_info:
+        info = name_to_info[journal_lower]
+
+    # 2) ISSN 匹配（去横杠）
+    if info is None and issn and issn in issn_to_info:
+        info = issn_to_info[issn]
+
+    # 3) 标准化名称精确匹配
+    if info is None and journal_norm and journal_norm in norm_to_info:
+        info = norm_to_info[journal_norm]
+
+    # 4) 严格子串匹配（≥60% 覆盖率，两名称均 ≥10 字符）
+    if info is None and journal_norm and len(journal_norm) >= 10:
+        for tnorm, tinfo in norm_to_info.items():
+            if len(tnorm) < 10:
+                continue
+            if tnorm in journal_norm or journal_norm in tnorm:
+                shorter = min(len(tnorm), len(journal_norm))
+                longer  = max(len(tnorm), len(journal_norm))
+                ratio   = shorter / longer
+                if ratio >= 0.6:
+                    info = tinfo
+                    break
+
+    if info is None:
+        return True, f"期刊不在 journal_info.tsv 中: {journal}"
+
+    # ── 分区/IF 过滤 ──
+    jcr = (info.get("jcr") or "").strip()
+    cas = (info.get("cas") or "").strip()
+    if_val = info.get("if", 0)
+
+    if jcr in ("Q3", "Q4"):
+        return True, f"期刊 JCR 分区为 {jcr}，已排除: {journal}"
+    if cas in ("3", "4"):
+        return True, f"期刊中科院分区为 {cas}，已排除: {journal}"
+    if if_val < 5.0:
+        return True, f"期刊 IF={if_val}<5，已排除: {journal}"
+
+    return False, ""
 
 ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 EFETCH_URL  = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
@@ -354,10 +375,18 @@ def _get(url, params: dict, retries=5, delay=2.0) -> bytes:
     raise RuntimeError(f"无法访问 {url}，已重试 {retries} 次")
 
 
-def build_query(date_str: str) -> str:
-    """构建 PubMed 查询字符串，date_str 格式 YYYY/MM/DD"""
+def build_query(start_date: str, end_date: str = None) -> str:
+    """
+    构建 PubMed 查询字符串
+    start_date: YYYY/MM/DD
+    end_date:   YYYY/MM/DD（可选，若提供则使用日期范围）
+    """
     kw_part = " OR ".join(f'"{kw}"[Title/Abstract]' for kw in KEYWORDS)
-    return f"({kw_part}) AND {date_str}[Date - Publication]"
+    if end_date and end_date != start_date:
+        date_range = f"{start_date}:{end_date}[Date - Publication]"
+    else:
+        date_range = f"{start_date}[Date - Publication]"
+    return f"({kw_part}) AND {date_range}"
 
 
 def should_exclude_article(article_data: dict) -> tuple[bool, str]:
@@ -379,36 +408,6 @@ def should_exclude_article(article_data: dict) -> tuple[bool, str]:
         if keyword.lower() in full_text:
             return True, f"内容含排除词: {keyword}"
     return False, ""
-
-
-def should_exclude_by_journal(article_data: dict) -> tuple[bool, str]:
-    """
-    检查文章期刊是否应该被排除：
-    1. 期刊名含排除关键词 → 排除
-    2. 期刊在特定排除列表中 → 排除
-    3. 期刊不在白名单 → 排除（非Q1/Q2高质量期刊）
-    返回 (bool, reason)
-    """
-    journal = article_data.get("journal", "").lower().strip()
-
-    # 1. 排除含关键词的期刊
-    for excl_kw in EXCLUDE_JOURNAL_KEYWORDS:
-        if excl_kw in journal:
-            return True, f"期刊含排除词: {excl_kw} ({article_data.get('journal')})"
-
-    # 2. 排除特定期刊（模糊匹配）
-    for excl_journal in EXCLUDE_JOURNALS_SPECIFIC:
-        # 如果排除词在期刊名中，或期刊名在排除词中（用于长期刊名部分匹配）
-        if excl_journal in journal or journal in excl_journal:
-            return True, f"特定期刊排除: {article_data.get('journal')}"
-
-    # 3. 不在白名单中 → 排除
-    # 使用模糊匹配：白名单中任意一项是期刊名的子串，或期刊名是白名单项的子串
-    for wl_journal in JOURNAL_WHITELIST:
-        if wl_journal in journal or journal in wl_journal:
-            return False, ""
-
-    return True, f"期刊不在Q1/Q2白名单: {article_data.get('journal')}"
 
 
 def search_pmids(query: str) -> list:
@@ -498,27 +497,46 @@ def _extract_article(article) -> dict:
     abstract = "\n".join(abstract_parts)
 
     # ── 发表日期 ──
-    pub_date_node = art.find(".//Journal/JournalIssue/PubDate")
-    if pub_date_node is not None:
-        year  = _get_text(pub_date_node, "Year",  "")
-        month = _get_text(pub_date_node, "Month", "")
-        day   = _get_text(pub_date_node, "Day",   "")
-        pub_date = "-".join(filter(None, [year, month, day]))
-    else:
-        pub_date = ""
+    # 优先使用 ArticleDate（电子版日期，通常更精确）
+    # 回退到 Journal/JournalIssue/PubDate
+    # 若最终日期在未来，尝试从 PubMed 历史记录获取正确日期
+    today = datetime.date.today()
 
-    # ── DOI ──
-    doi = ""
-    for eid in article.findall(".//ArticleId"):
-        if eid.get("IdType") == "doi":
-            doi = (eid.text or "").strip()
-    if not doi:
-        for eid in art.findall(".//ELocationID"):
-            if eid.get("EIdType") == "doi":
-                doi = (eid.text or "").strip()
+    def _try_parse(node):
+        """解析单个日期节点，返回格式化字符串。"""
+        return _parse_date_node(node)
+
+    article_date_node = art.find(".//ArticleDate")
+    article_date = _try_parse(article_date_node)
+
+    pub_date_node = art.find(".//Journal/JournalIssue/PubDate")
+    pub_date = _try_parse(pub_date_node)
+
+    # 若 PubDate 在未来，优先使用 ArticleDate
+    if _is_future(pub_date) and article_date and not _is_future(article_date):
+        pub_date = article_date
+    # 若 PubDate 只有年份，而 ArticleDate 更精确，则使用后者
+    elif pub_date and "-" not in pub_date and article_date and "-" in article_date:
+        pub_date = article_date
+
+    # 若最终日期仍在未来，尝试从 PubMed 历史记录获取
+    if _is_future(pub_date):
+        for pmd in article.findall(".//PubMedPubDate"):
+            if pmd.get("PubStatus") in ("pubmed", "medline", "entrez"):
+                candidate = _parse_date_node(pmd)
+                if candidate and not _is_future(candidate):
+                    pub_date = candidate
+                    break
+
+    # ── DOI（不再保存，DOI与PMID经常错位） ──
+    # doi = ""  # 已禁用，统一使用 PMID 链接
 
     # ── 期刊 ──
     journal = _get_text(art, "Journal/Title")
+
+    # ── ISSN ──
+    issn_node = art.find("Journal/ISSN")
+    issn = (issn_node.text or "").strip() if issn_node is not None else ""
 
     # ── 作者 ──
     authors = []
@@ -550,8 +568,9 @@ def _extract_article(article) -> dict:
     return {
         "pmid":        pmid,
         "title":       title,
-        "doi":         doi,
+        "doi":         None,
         "journal":     journal,
+        "issn":        issn,
         "pub_date":    pub_date,
         "authors":     author_str,
         "abstract":    abstract,
@@ -607,97 +626,224 @@ def load_existing_pmids() -> set:
     return seen
 
 
-def run(target_date: str = None, days_back: int = 1):
+def run(target_date: str = None, days_back: int = 1,
+        start_date: str = None, end_date: str = None):
     """
-    target_date: YYYY-MM-DD，默认今天
-    days_back:   往前搜索多少天
+    两种模式：
+    1. 日期范围模式（优先）：start_date [+ end_date]
+    2. 逐日模式（向后兼容）：target_date + days_back
     """
     DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
-    if not target_date:
-        target_date = datetime.date.today().strftime("%Y-%m-%d")
-
     existing = load_existing_pmids()
+    journal_table = load_journal_table()
     log.info(f"已有 {len(existing)} 篇文献记录，不再重复检索")
 
-    # 支持跨多天搜索
-    base_dt = datetime.datetime.strptime(target_date, "%Y-%m-%d").date()
-    all_new = []
+    # ── 模式1：日期范围 ──
+    if start_date:
+        start_dt = datetime.datetime.strptime(start_date, "%Y-%m-%d").date()
+        end_dt   = (datetime.datetime.strptime(end_date, "%Y-%m-%d").date()
+                     if end_date else datetime.date.today())
 
-    for delta in range(days_back):
-        day = base_dt - datetime.timedelta(days=delta)
-        date_str = day.strftime("%Y/%m/%d")
-        log.info(f"正在搜索 {date_str} 的新论文...")
+        start_str = start_dt.strftime("%Y/%m/%d")
+        end_str   = end_dt.strftime("%Y/%m/%d")
+        out_date  = end_dt.strftime("%Y-%m-%d")
 
-        query = build_query(date_str)
-        pmids = search_pmids(query)
+        log.info(f"📅 日期范围模式: {start_str} ~ {end_str}")
+
+        query  = build_query(start_str, end_str)
+        pmids  = search_pmids(query)
+        log.info(f"  日期范围查询到 {len(pmids)} 篇 PMID")
 
         new_pmids = [p for p in pmids if p not in existing]
         log.info(f"  其中新增 {len(new_pmids)} 篇（过滤已有 {len(pmids)-len(new_pmids)} 篇）")
 
         if not new_pmids:
-            continue
+            log.info("无新增论文")
+            return []
 
         details = fetch_details(new_pmids)
 
-        # 步骤1: 内容过滤（关键词）
-        after_content_filter = []
-        content_excluded = 0
+        # 步骤1: 内容过滤
+        after_content = []
+        content_excl = 0
+        content_list = []
         for rec in details:
             excl, reason = should_exclude_article(rec)
             if excl:
-                content_excluded += 1
-                log.debug(f"  [内容过滤] PMID {rec.get('pmid')}: {reason}")
+                content_excl += 1
+                content_list.append((rec, reason))
             else:
-                after_content_filter.append(rec)
+                after_content.append(rec)
 
-        # 步骤2: 期刊过滤（白名单 + food 排除）
-        final_papers = []
-        journal_excluded = 0
-        for rec in after_content_filter:
-            excl, reason = should_exclude_by_journal(rec)
+        # 步骤2: 期刊过滤
+        final = []
+        journal_excl = 0
+        journal_list = []
+        for rec in after_content:
+            excl, reason = should_exclude_by_journal(rec, journal_table)
             if excl:
-                journal_excluded += 1
-                log.debug(f"  [期刊过滤] PMID {rec.get('pmid')}: {reason}")
+                journal_excl += 1
+                journal_list.append((rec, reason))
             else:
-                final_papers.append(rec)
+                final.append(rec)
                 existing.add(str(rec["pmid"]))
 
-        # 给每条记录添加爬取日期（当天日期）
-        for rec in final_papers:
-            rec["fetch_date"] = target_date
+        for rec in final:
+            rec["fetch_date"] = out_date
 
-        log.info(f"  内容过滤: 排除 {content_excluded} 篇，保留 {len(after_content_filter)} 篇")
-        log.info(f"  期刊过滤: 排除 {journal_excluded} 篇，保留 {len(final_papers)} 篇")
-        filtered_details = final_papers
+        log.info(f"  内容过滤: 排除 {content_excl} 篇，保留 {len(after_content)} 篇")
+        log.info(f"  期刊过滤: 排除 {journal_excl} 篇，保留 {len(final)} 篇")
 
-        all_new.extend(filtered_details)
+        # 论文汇总展示
+        log.info("")
+        log.info("=" * 80)
+        log.info(f"  📋 本次搜索论文汇总（共 {len(details)} 篇）")
+        log.info("=" * 80)
+        if final:
+            log.info(f"  ✅ 已收录 ({len(final)} 篇):")
+            for i, rec in enumerate(final, 1):
+                log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                log.info(f"        {rec.get('title', 'N/A')}")
+        if content_list:
+            log.info(f"  🚫 内容过滤排除 ({len(content_list)} 篇):")
+            for i, (rec, reason) in enumerate(content_list, 1):
+                log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                log.info(f"        {rec.get('title', 'N/A')}")
+                log.info(f"        原因: {reason}")
+        if journal_list:
+            log.info(f"  📵 期刊过滤排除 ({len(journal_list)} 篇):")
+            for i, (rec, reason) in enumerate(journal_list, 1):
+                log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                log.info(f"        {rec.get('title', 'N/A')}")
+                log.info(f"        原因: {reason}")
+        log.info("=" * 80)
+        log.info("")
 
-        time.sleep(1)
-
-    if all_new:
-        out_file = DAILY_DIR / f"{target_date}.json"
-        # 若当天文件已存在则合并
+        # 保存
+        out_file = DAILY_DIR / f"{out_date}.json"
         if out_file.exists():
             with open(out_file, encoding="utf-8") as fh:
                 old_data = json.load(fh)
             existing_in_file = {r["pmid"] for r in old_data}
-            merged = old_data + [r for r in all_new if r["pmid"] not in existing_in_file]
+            merged = old_data + [r for r in final if r["pmid"] not in existing_in_file]
         else:
-            merged = all_new
+            merged = final
 
         with open(out_file, "w", encoding="utf-8") as fh:
             json.dump(merged, fh, ensure_ascii=False, indent=2)
-        log.info(f"已保存 {len(all_new)} 篇新论文 → {out_file}")
-    else:
-        log.info("今日无新增论文")
+        log.info(f"已保存 {len(final)} 篇新论文 → {out_file}")
 
-    return all_new
+        return final
+
+    # ── 模式2：逐日（向后兼容）──
+    else:
+        if not target_date:
+            target_date = datetime.date.today().strftime("%Y-%m-%d")
+
+        base_dt = datetime.datetime.strptime(target_date, "%Y-%m-%d").date()
+        all_new = []
+
+        for delta in range(days_back):
+            day = base_dt - datetime.timedelta(days=delta)
+            date_str = day.strftime("%Y/%m/%d")
+            log.info(f"正在搜索 {date_str} 的新论文...")
+
+            query = build_query(date_str)
+            pmids = search_pmids(query)
+
+            new_pmids = [p for p in pmids if p not in existing]
+            log.info(f"  其中新增 {len(new_pmids)} 篇（过滤已有 {len(pmids)-len(new_pmids)} 篇）")
+
+            if not new_pmids:
+                continue
+
+            details = fetch_details(new_pmids)
+
+            # 内容过滤
+            after_content = []
+            content_excl = 0
+            content_list = []
+            for rec in details:
+                excl, reason = should_exclude_article(rec)
+                if excl:
+                    content_excl += 1
+                    content_list.append((rec, reason))
+                else:
+                    after_content.append(rec)
+
+            # 期刊过滤
+            final = []
+            journal_excl = 0
+            journal_list = []
+            for rec in after_content:
+                excl, reason = should_exclude_by_journal(rec, journal_table)
+                if excl:
+                    journal_excl += 1
+                    journal_list.append((rec, reason))
+                else:
+                    final.append(rec)
+                    existing.add(str(rec["pmid"]))
+
+            for rec in final:
+                rec["fetch_date"] = target_date
+
+            log.info(f"  内容过滤: 排除 {content_excl} 篇，保留 {len(after_content)} 篇")
+            log.info(f"  期刊过滤: 排除 {journal_excl} 篇，保留 {len(final)} 篇")
+
+            # 论文汇总展示
+            log.info("")
+            log.info("=" * 80)
+            log.info(f"  📋 本次搜索论文汇总（共 {len(details)} 篇）")
+            log.info("=" * 80)
+            if final:
+                log.info(f"  ✅ 已收录 ({len(final)} 篇):")
+                for i, rec in enumerate(final, 1):
+                    log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                    log.info(f"        {rec.get('title', 'N/A')}")
+            if content_list:
+                log.info(f"  🚫 内容过滤排除 ({len(content_list)} 篇):")
+                for i, (rec, reason) in enumerate(content_list, 1):
+                    log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                    log.info(f"        {rec.get('title', 'N/A')}")
+                    log.info(f"        原因: {reason}")
+            if journal_list:
+                log.info(f"  📵 期刊过滤排除 ({len(journal_list)} 篇):")
+                for i, (rec, reason) in enumerate(journal_list, 1):
+                    log.info(f"    [{i}] PMID {rec.get('pmid')} | {rec.get('journal', 'N/A')}")
+                    log.info(f"        {rec.get('title', 'N/A')}")
+                    log.info(f"        原因: {reason}")
+            log.info("=" * 80)
+            log.info("")
+
+            all_new.extend(final)
+            time.sleep(1)
+
+        if all_new:
+            out_file = DAILY_DIR / f"{target_date}.json"
+            if out_file.exists():
+                with open(out_file, encoding="utf-8") as fh:
+                    old_data = json.load(fh)
+                existing_in_file = {r["pmid"] for r in old_data}
+                merged = old_data + [r for r in all_new if r["pmid"] not in existing_in_file]
+            else:
+                merged = all_new
+
+            with open(out_file, "w", encoding="utf-8") as fh:
+                json.dump(merged, fh, ensure_ascii=False, indent=2)
+            log.info(f"已保存 {len(all_new)} 篇新论文 → {out_file}")
+        else:
+            log.info("今日无新增论文")
+
+        return all_new
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="PubMed 宏基因组文献每日抓取")
-    parser.add_argument("--date",      default=None, help="目标日期 YYYY-MM-DD（默认今天）")
-    parser.add_argument("--days-back", type=int, default=1, help="往前搜索天数（默认1）")
+    parser.add_argument("--date",       default=None, help="目标日期 YYYY-MM-DD（默认今天）")
+    parser.add_argument("--days-back",  type=int, default=1, help="往前搜索天数（默认1）")
+    parser.add_argument("--start-date", default=None, help="日期范围起始 YYYY-MM-DD（优先）")
+    parser.add_argument("--end-date",   default=None, help="日期范围结束 YYYY-MM-DD（默认今天）")
     args = parser.parse_args()
-    run(target_date=args.date, days_back=args.days_back)
+    run(target_date=args.date, days_back=args.days_back,
+        start_date=args.start_date, end_date=args.end_date)

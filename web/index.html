@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>宏基因组领域文献</title>
+  <meta name="description" content="宏基因组/微生物组领域最新文献追踪，每日自动更新，AI生成中文摘要，含期刊影响因子、JCR分区、中科院分区等信息。" />
+  <meta property="og:title" content="宏基因组领域文献追踪" />
+  <meta property="og:description" content="每日自动更新宏基因组/微生物组最新文献，AI中文摘要，影响因子、分区一键查询。" />
+  <meta property="og:type" content="website" />
   <style>
     /* ── Reset & Base ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,6 +38,10 @@
 
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
+    a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
 
     /* ── Header ── */
     header {
@@ -62,7 +70,7 @@
     }
 
     .intro {
-      flex: 1;
+      flex:1;
       min-width: 0;
     }
 
@@ -103,7 +111,7 @@
       flex-direction: column;
       align-items: center;
       gap: 10px;
-      margin-top: -28px; /* 向上对齐标题 */
+      margin-top: -28px;
     }
 
     .donate-card img {
@@ -116,7 +124,7 @@
     .donate-card p {
       font-size: 12px;
       color: var(--muted);
-      margin: 0;
+      margin:0;
       white-space: nowrap;
       line-height: 1.4;
     }
@@ -182,9 +190,11 @@
       cursor: pointer;
       color: var(--text);
       transition: background .15s;
+      white-space: nowrap;
     }
 
     .btn:hover { background: var(--bg); }
+    .btn:active { transform: scale(0.97); }
 
     .btn-primary {
       background: var(--accent);
@@ -194,11 +204,67 @@
 
     .btn-primary:hover { background: #1d4ed8; }
 
+    .btn-sm {
+      padding: 4px 10px;
+      font-size: 12px;
+    }
+
     .result-count {
       margin-left: auto;
       color: var(--muted);
       font-size: 13px;
       white-space: nowrap;
+    }
+
+    /* ── View Toggle ── */
+    .view-toggle {
+      display: flex;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .view-toggle .btn {
+      border: none;
+      border-radius: 0;
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+
+    .view-toggle .btn.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    /* ── Skeleton Screen ── */
+    .skeleton-table {
+      display: none;
+      width: 100%;
+      min-width: 1400px;
+    }
+
+    .skeleton-table.open { display: table; }
+
+    .skeleton-table th {
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    .skeleton-table th .skel { height: 12px; width: 60%; background: #e5e7eb; border-radius: 4px; animation: pulse 1.5s ease-in-out infinite; }
+
+    .skeleton-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .skeleton-table td .skel { height: 14px; background: #f3f4f6; border-radius: 4px; animation: pulse 1.5s ease-in-out infinite; }
+    .skeleton-table td .skel.short { width: 40%; }
+    .skeleton-table td .skel.medium { width: 70%; }
+    .skeleton-table td .skel.long { width: 90%; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
     }
 
     /* ── Table wrapper ── */
@@ -211,7 +277,7 @@
 
     table {
       width: 100%;
-      min-width: 1400px;  /* 保证小屏幕下可以横向滚动 */
+      min-width: 1400px;
       border-collapse: collapse;
       background: var(--surface);
       border: 1px solid var(--border);
@@ -240,13 +306,36 @@
     }
 
     th:hover { color: var(--accent); }
+    th[scope="col"] { border-bottom: 2px solid var(--accent); }
 
     th .sort-icon { margin-left: 4px; opacity: .4; }
     th.sorted-asc .sort-icon::after  { content: " ↑"; opacity: 1; }
     th.sorted-desc .sort-icon::after { content: " ↓"; opacity: 1; }
 
+    /* ── Table zebra striping (P0-1) ── */
+    tbody tr:nth-child(odd) td { background: #fafbfc; }
+    tbody tr:nth-child(even) td { background: #ffffff; }
+    tbody tr:hover td { background: #f0f7ff !important; }
+
+    /* ── High-quality paper marker (P0-3) ── */
+    .high-quality td { background: #fffbeb !important; }
+    .high-quality td:first-child { border-left: 3px solid #f59e0b; }
+
+    /* ── NEW tag (P0-4) ── */
+    .new-tag {
+      display: inline-block;
+      background: #059669;
+      color: #fff;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: 500;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
     td {
-      padding: 10px 12px;
+      padding: 12px 16px;
       border-bottom: 1px solid var(--border);
       vertical-align: top;
       font-size: 13px;
@@ -254,11 +343,11 @@
 
     tr:last-child td { border-bottom: none; }
     tr:hover td { background: #f9fafb; }
+    tr:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
 
     /* Column widths */
-    .col-fetch-date { width: 90px; white-space: nowrap; }
     .col-date    { width: 90px; white-space: nowrap; }
-    .col-title   { width: 220px; }
+    .col-title   { width: 220px; font-weight: 600; }  /* P1-7: 标题加粗 */
     .col-doi     { width: 120px; }
     .col-pmid    { width: 80px; }
     .col-journal { width: 110px; word-wrap: break-word; }
@@ -269,6 +358,146 @@
     .col-object  { width: 130px; }
     .col-disease { width: 110px; }
     .col-sample  { width: 100px; }
+    /* P0-5: 期刊质量列（合并 IF/JCR/CAS） */
+    .col-journal-quality { width: 180px; font-size: 12px; }
+
+    /* P0-5: 期刊质量标签样式 */
+    .jq-tag {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 500;
+      margin-right: 4px;
+      color: #fff;
+    }
+    .jq-if { background: #6b7280; }
+    .jq-q1 { background: #059669; }
+    .jq-q2 { background: #2563eb; }
+    .jq-q3 { background: #d97706; }
+    .jq-q4 { background: #dc2626; }
+    .jq-cas1 { background: #dc2626; }
+    .jq-cas2 { background: #ea580c; }
+    .jq-cas3 { background: #2563eb; }
+    .jq-cas4 { background: #6b7280; }
+
+    /* ── Search Highlight ── */
+    .search-hl {
+      background: #fef08a;
+      border-radius: 2px;
+      padding: 0 1px;
+    }
+
+    /* ── Card View ── */
+    .cards-wrap {
+      display: none;
+      max-width: 1600px;
+      margin: 12px auto 40px;
+      padding: 0 32px;
+    }
+
+    .cards-wrap.open { display: block; }
+
+    .paper-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: var(--shadow);
+      transition: box-shadow .2s;
+    }
+
+    .paper-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+
+    .paper-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .paper-card-title a { color: var(--text); }
+    .paper-card-title a:hover { color: var(--accent); }
+
+    .paper-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .paper-card-meta .meta-item { display: flex; align-items: center; gap: 4px; }
+
+    .paper-card-body {
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--text);
+    }
+
+    .paper-card-body .section {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    .paper-card-body .section-title {
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    /* ── Memory Section ── */
+    .memory-section {
+      max-width: 1600px;
+      margin: 32px auto 0;
+      padding: 0 32px 40px;
+    }
+    .memory-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      padding: 10px 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 12px;
+      user-select: none;
+    }
+    .memory-header:hover { color: var(--accent); }
+    #memoryToggle { transition: transform .2s; display: inline-block; }
+    #memoryToggle.open { transform: rotate(90deg); }
+    .memory-content {
+      display: none;
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--muted);
+      max-height: 500px;
+      overflow-y: auto;
+    }
+    .memory-content.open { display: block; }
+    .memory-entry { margin-bottom: 20px; }
+    .memory-entry-title {
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+    .memory-entry-body {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      white-space: pre-wrap;
+      font-size: 12.5px;
+      line-height: 1.6;
+      overflow-x: auto;
+    }
 
     /* cell helpers */
     .text-clamp {
@@ -281,6 +510,19 @@
 
     .text-clamp.expanded {
       -webkit-line-clamp: unset;
+    }
+
+    /* P2-10: 摘要悬停展开 */
+    .col-summary .text-clamp:hover {
+      -webkit-line-clamp: unset;
+      overflow: visible;
+      position: relative;
+      z-index: 10;
+      background: var(--surface);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      border-radius: var(--radius);
+      padding: 8px 12px;
+      margin: -8px -12px;
     }
 
     .tag {
@@ -366,52 +608,124 @@
       .header-body { flex-direction: column; }
       .toolbar { padding: 0 16px; }
       .table-wrap { padding: 0 8px; }
+      .cards-wrap { padding: 0 16px; }
       .donate-card { width: 100%; display: flex; gap: 12px; align-items: center; text-align: left; }
+      .paper-card-meta { flex-direction: column; gap: 4px; }
     }
 
-    /* ── Site Stats Footer ── */
-    .site-stats {
-      text-align: center;
-      padding: 16px 32px 32px;
-      color: var(--muted);
-      font-size: 12px;
+    @media (max-width: 480px) {
+      .toolbar { gap: 6px; }
+      .btn { padding: 5px 10px; font-size: 12px; }
     }
 
-    .site-stats .stats-row {
-      display: inline-flex;
+    /* ── Visitor Map Section ── */
+    .visitor-section {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 0 32px 40px;
+    }
+
+    .visitor-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+      display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 8px;
+    }
+
+    .visitor-title .globe-icon {
+      font-size: 18px;
+    }
+
+    .visitor-card {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 6px 20px;
+      border-radius: var(--radius);
+      overflow: hidden;
       box-shadow: var(--shadow);
     }
 
-    .site-stats .stat-item {
+    .visitor-card-body {
+      display: flex;
+      min-height: 320px;
+    }
+
+    .map-container {
+      flex:1;
+      min-height: 320px;
       display: flex;
       align-items: center;
-      gap: 5px;
+      justify-content: center;
+      background: #f0f4f8;
+      position: relative;
     }
 
-    .site-stats .stat-icon {
-      font-size: 13px;
+    .map-container iframe {
+      border: none;
+      width: 100%;
+      height: 320px;
     }
 
-    .site-stats .stat-label {
-      color: var(--muted);
+    .visitor-sidebar {
+      width: 200px;
+      border-left: 1px solid var(--border);
+      padding: 20px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      flex-shrink: 0;
     }
 
-    .site-stats .stat-value {
+    .visitor-stat {
+      text-align: center;
+    }
+
+    .visitor-stat .stat-number {
+      font-size: 28px;
+      font-weight: 700;
       color: var(--accent);
-      font-weight: 600;
-      font-size: 13px;
+      line-height: 1.2;
+    }
+
+    .visitor-stat .stat-desc {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .visitor-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .visitor-section { padding: 0 16px 32px; }
+      .visitor-card-body { flex-direction: column; }
+      .visitor-sidebar {
+        width: 100%;
+        border-left: none;
+        border-top: 1px solid var(--border);
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 16px;
+        gap: 0;
+      }
+      .visitor-divider { display: none; }
+      .map-container { min-height: 240px; }
+      /* P1-8: 移动端强制卡片视图 */
+      .view-toggle { display: none !important; }
+      #tableContainer { display: none !important; }
+      .cards-wrap { display: block !important; }
     }
   </style>
 </head>
 <body>
 
-<!-- ══════════════════════ HEADER ══════════════════════ -->
+<!-- ════════════════════ HEADER ═════════════════════ -->
 <header>
   <div class="header-inner">
     <h1>宏基因组领域文献</h1>
@@ -442,10 +756,10 @@
   </div>
 </header>
 
-<!-- ══════════════════════ TOOLBAR ══════════════════════ -->
+<!-- ════════════════════ TOOLBAR ═════════════════════ -->
 <div class="toolbar">
   <div class="search-box">
-    <input type="text" id="searchInput" placeholder="搜索题目、摘要、疾病…" oninput="onSearch()" />
+    <input type="text" id="searchInput" placeholder="搜索题目、摘要、疾病… (按 / 键聚焦)" oninput="onSearch()" />
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
       <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
     </svg>
@@ -460,9 +774,14 @@
     <option value="临床试验">临床试验</option>
   </select>
 
-  <select id="yearFilter" onchange="onFilter()">
+  <select id="yearFilter" onchange="onYearChange()">
     <option value="">全部年份</option>
   </select>
+
+  <div class="view-toggle" id="viewToggle">
+    <button class="btn active" onclick="setView('table')" title="表格视图">☰ 表格</button>
+    <button class="btn" onclick="setView('card')" title="卡片视图">▦ 卡片</button>
+  </div>
 
   <select id="pageSizeSelect" onchange="onPageSizeChange()">
     <option value="50">每页 50</option>
@@ -475,8 +794,33 @@
   <span class="result-count" id="resultCount"></span>
 </div>
 
-<!-- ══════════════════════ TABLE ══════════════════════ -->
-<div class="table-wrap">
+<!-- ════════════════════ TABLE (Skeleton + Real) ═════════════════════ -->
+<div class="table-wrap" id="tableWrap">
+  <!-- Skeleton Screen -->
+  <table class="skeleton-table" id="skeletonTable">
+    <thead>
+      <tr>
+        <th><div class="skel" style="width:60px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:80px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:50px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:70px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:30px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:40px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:40px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:60px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:80px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:70px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:70px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:70px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:60px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+        <th><div class="skel" style="width:50px;height:12px;background:#e5e7eb;border-radius:4px;animation:pulse 1.5s ease-in-out infinite;"></div></th>
+      </tr>
+    </thead>
+    <tbody id="skeletonBody">
+      <!-- 8 rows of skeleton -->
+    </tbody>
+  </table>
+
   <div id="loading">
     <div class="spinner"></div>
     <p>正在加载文献数据…</p>
@@ -490,18 +834,19 @@
     <table id="mainTable">
       <thead>
         <tr>
-          <th class="col-fetch-date" onclick="sortBy('fetch_date')">爬取日期<span class="sort-icon"></span></th>
-          <th class="col-date"    onclick="sortBy('pub_date')"   >发表日期<span class="sort-icon"></span></th>
-          <th class="col-title"   >题目</th>
-          <th class="col-pmid"    >PMID</th>
-          <th class="col-journal" >期刊</th>
-          <th class="col-type"    onclick="sortBy('article_type')">类型<span class="sort-icon"></span></th>
-          <th class="col-summary" >中文摘要</th>
-          <th class="col-innov"   >创新点</th>
-          <th class="col-limit"   >不足</th>
-          <th class="col-object"  >研究对象</th>
-          <th class="col-disease" >疾病</th>
-          <th class="col-sample"  >样本量</th>
+          <th class="col-date" onclick="sortBy('pub_date')" scope="col">发表日期<span class="sort-icon"></span></th>
+          <th class="col-title">题目</th>
+          <th class="col-pmid" onclick="sortBy('pmid')" scope="col">PMID<span class="sort-icon"></span></th>
+          <th class="col-journal" scope="col">期刊</th>
+          <!-- P0-5: 合并为1列 -->
+          <th class="col-journal-quality" scope="col">期刊质量<span class="sort-icon"></span></th>
+          <th class="col-type" onclick="sortBy('article_type')" scope="col">类型<span class="sort-icon"></span></th>
+          <th class="col-summary">中文摘要</th>
+          <th class="col-innov">创新点</th>
+          <th class="col-limit">不足</th>
+          <th class="col-object">研究对象</th>
+          <th class="col-disease">疾病</th>
+          <th class="col-sample">样本量</th>
         </tr>
       </thead>
       <tbody id="tableBody"></tbody>
@@ -511,6 +856,13 @@
   </div>
 </div>
 
+<!-- ════════════════════ CARD VIEW ═════════════════════ -->
+<div class="cards-wrap" id="cardsWrap">
+  <div id="cardsContainer"></div>
+  <div class="pagination" id="cardsPagination"></div>
+</div>
+
+<!-- ════════════════════ CARD VIEW ═════════════════════ -->
 <script>
 // ═══════════════════════ DATA LAYER ═══════════════════════
 let allData       = [];
@@ -518,130 +870,213 @@ let filteredData  = [];
 let currentPage   = 1;
 let pageSize      = 50;
 let sortKey       = "pub_date";
-let sortDir       = "desc";   // asc | desc
+let sortDir       = "desc";
+let currentView   = window.innerWidth < 768 ? "card" : "table"; // P1-8: 移动端默认卡片视图
+let searchQuery   = "";
+let loadingYear   = null; // 正在加载的年份
 
 // 日期解析函数：支持多种格式
-// "2026-03-30", "2026-Mar-30", "2026 Mar 30" 等
 function parseDate(dateStr) {
   if (!dateStr) return null;
-  
-  // 尝试标准格式 YYYY-MM-DD
   let d = new Date(dateStr);
   if (!isNaN(d.getTime())) return d.getTime();
-  
-  // 尝试解析 "YYYY-Mon-DD" 格式 (如 "2026-Mar-30")
-  const monthMap = {
-    'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
-    'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
-    'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
-  };
-  
-  const match = dateStr.match(/(\d{4})[-\s]([A-Za-z]{3})[-\s](\d{1,2})/);
-  if (match) {
-    const year = match[1];
-    const month = monthMap[match[2]];
-    const day = match[3].padStart(2, '0');
-    if (month) {
-      d = new Date(`${year}-${month}-${day}`);
-      if (!isNaN(d.getTime())) return d.getTime();
-    }
-  }
-  
   return null;
 }
 
-async function loadData() {
+// ═══════════════════════ YEARLY DATA LOADING ═══════════════════════
+async function loadYearData(year) {
+  if (loadingYear === year) return;
+  loadingYear = year;
   try {
-    const res  = await fetch("data.json?t=" + Date.now());
-    if (!res.ok) throw new Error("data.json 不存在");
-    allData = await res.json();
-    console.log("Loaded data.json:", allData.length, "papers");
-    init();
+    const res = await fetch(`data/${year}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`Failed to load data/${year}.json`);
+    const yearData = await res.json();
+    // 去重合并（按pmid）
+    const existingIds = new Set(allData.map(r => r.pmid));
+    for (const r of yearData) {
+      if (!existingIds.has(r.pmid)) {
+        allData.push(r);
+        existingIds.add(r.pmid);
+      }
+    }
+    console.log(`Loaded ${yearData.length} papers for ${year}, total: ${allData.length}`);
   } catch(e) {
-    console.error("Failed to load data.json:", e);
-    alert("加载 data.json 失败，显示示例数据: " + e.message);
-    // 展示空示例（data.json 尚未生成时的 demo）
-    allData = getDemoData();
-    init();
+    console.error(`Error loading year ${year}:`, e);
+  } finally {
+    loadingYear = null;
   }
 }
 
-function getDemoData() {
-  return [
-    {
-      pmid: "12345678",
-      title: "示例论文：The gut microbiome in health and disease",
-      doi: "10.1038/s41586-000-0000-0",
-      journal: "Nature",
-      pub_date: "2026-03-30",
-      authors: "Zhang S; Li W et al.",
-      article_type: "研究论文",
-      summary_zh: "本研究揭示了肠道微生物群落多样性与代谢综合征之间的关联，发现特定菌属可作为早期预测生物标志物。",
-      innovation: "首次在大规模队列中量化菌-代谢轴因果关系 | 提出新的分类模型",
-      limitation: "横断面研究，无法建立时序因果 | 样本局限于亚洲人群",
-      study_object: "人体肠道宏基因组",
-      disease: "代谢综合征",
-      sample_size: "n=2500名志愿者",
-      ai_done: true,
-    },
-    {
-      pmid: "12345679",
-      title: "Benchmark of metagenomic assembly tools on short-read data",
-      doi: "10.1093/bioinformatics/btab000",
-      journal: "Bioinformatics",
-      pub_date: "2026-03-29",
-      authors: "Wang X; Chen Y et al.",
-      article_type: "Benchmark",
-      summary_zh: "系统评估了9款宏基因组组装软件在短读长数据上的性能，MetaSPAdes在综合指标上表现最优。",
-      innovation: "统一评估框架 | 首次纳入低丰度菌的组装精度评估",
-      limitation: "仅测试短读长数据，不适用于三代测序",
-      study_object: "模拟宏基因组数据集",
-      disease: "无",
-      sample_size: "10个基准数据集",
-      ai_done: true,
-    },
-    {
-      pmid: "12345680",
-      title: "Metagenomic analysis of soil microbiome in agricultural settings",
-      doi: "",
-      journal: "ISME Journal",
-      pub_date: "2026-03-28",
-      authors: "Liu J; Park K et al.",
-      article_type: "研究论文",
-      summary_zh: "（待生成）",
-      innovation: "（待生成）",
-      limitation: "（待生成）",
-      study_object: "（待生成）",
-      disease: "（待生成）",
-      sample_size: "（待生成）",
-      ai_done: false,
+async function loadAllYearIndex() {
+  try {
+    const res = await fetch(`data/index.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error("index.json not found");
+    return await res.json(); // [{year, count, file}, ...]
+  } catch(e) {
+    console.error("Failed to load index.json:", e);
+    return null;
+  }
+}
+
+async function loadData() {
+  showSkeleton(true);
+  try {
+    // 加载年份索引
+    const index = await loadAllYearIndex();
+    if (!index) throw new Error("No index.json found");
+
+    // 填充年份筛选器
+    populateYearFilter(index);
+
+    // 默认加载所有年份
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlYear = urlParams.get('year');
+    const yearsToLoad = new Set();
+
+    index.forEach(item => yearsToLoad.add(item.year));
+
+    // URL指定的年份也需加载
+    if (urlYear && !yearsToLoad.has(urlYear)) {
+      yearsToLoad.add(urlYear);
     }
-  ];
+
+    // 并行加载所有年份
+    await Promise.all([...yearsToLoad].map(y => loadYearData(y)));
+
+    // 设置URL参数
+    applyUrlParams();
+
+    showSkeleton(false);
+    init();
+    loadMemory();
+  } catch(e) {
+    console.error("Failed to load data:", e);
+    document.getElementById("loading").innerHTML = '<p style="color:var(--red)">加载数据失败：' + e.message + '</p>';
+  }
+}
+
+// ═══════════════════════ SKELETON ═══════════════════════
+function showSkeleton(show) {
+  const skeleton = document.getElementById("skeletonTable");
+  const loading = document.getElementById("loading");
+  if (show) {
+    skeleton.classList.add("open");
+    loading.style.display = "none";
+    document.getElementById("tableContainer").style.display = "none";
+    document.getElementById("cardsWrap").classList.remove("open");
+    // 生成8行骨架
+    const skelBody = document.getElementById("skeletonBody");
+    let html = "";
+    for (let i = 0; i < 8; i++) {
+      html += `<tr>
+        <td><div class="skel short"></div></td>
+        <td><div class="skel medium"></div></td>
+        <td><div class="skel" style="width:50px"></div></td>
+        <td><div class="skel medium"></div></td>
+        <td><div class="skel" style="width:30px"></div></td>
+        <td><div class="skel" style="width:30px"></div></td>
+        <td><div class="skel" style="width:30px"></div></td>
+        <td><div class="skel" style="width:50px"></div></td>
+        <td><div class="skel long"></div></td>
+        <td><div class="skel medium"></div></td>
+        <td><div class="skel medium"></div></td>
+        <td><div class="skel medium"></div></td>
+        <td><div class="skel short"></div></td>
+        <td><div class="skel short"></div></td>
+      </tr>`;
+    }
+    skelBody.innerHTML = html;
+  } else {
+    skeleton.classList.remove("open");
+  }
+}
+
+// ═══════════════════════ URL PARAMS ═══════════════════════
+function getUrlParams() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    q: params.get('q') || "",
+    type: params.get('type') || "",
+    year: params.get('year') || "",
+    page: parseInt(params.get('page')) || 1,
+    size: parseInt(params.get('size')) || 50,
+    sort: params.get('sort') || "pub_date",
+    dir: params.get('dir') || "desc",
+    view: params.get('view') || "table"
+  };
+}
+
+function updateUrl() {
+  const params = new URLSearchParams();
+  if (searchQuery) params.set('q', searchQuery);
+  if (document.getElementById("typeFilter").value) params.set('type', document.getElementById("typeFilter").value);
+  if (document.getElementById("yearFilter").value) params.set('year', document.getElementById("yearFilter").value);
+  if (currentPage > 1) params.set('page', currentPage);
+  if (pageSize !== 50) params.set('size', pageSize);
+  if (sortKey !== 'pub_date') params.set('sort', sortKey);
+  if (sortDir !== 'desc') params.set('dir', sortDir);
+  if (currentView !== 'table') params.set('view', currentView);
+
+  const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+  window.history.replaceState(null, '', newUrl);
+}
+
+function applyUrlParams() {
+  const p = getUrlParams();
+  if (p.q) {
+    searchQuery = p.q;
+    document.getElementById("searchInput").value = p.q;
+  }
+  if (p.type) document.getElementById("typeFilter").value = p.type;
+  if (p.year) document.getElementById("yearFilter").value = p.year;
+  if (p.size) {
+    pageSize = p.size;
+    document.getElementById("pageSizeSelect").value = p.size;
+  }
+  if (p.sort) sortKey = p.sort;
+  if (p.dir) sortDir = p.dir;
+  if (p.view) setView(p.view, false);
+
+  // 触发对应年份数据加载
+  if (p.year && !allData.some(r => (r.pub_date||"").startsWith(p.year))) {
+    loadYearData(p.year);
+  }
 }
 
 // ═══════════════════════ INIT ═══════════════════════
 function init() {
   console.log("init() called, allData.length =", allData.length);
-  populateYearFilter();
-  applyFiltersAndSort();
   updateStatsChips();
-  document.getElementById("loading").style.display = "none";
-  document.getElementById("tableContainer").style.display = "block";
+  applyFiltersAndSort();
+  updateSortHeaders();
 }
 
-function populateYearFilter() {
-  const years = new Set();
-  allData.forEach(r => {
-    const y = (r.pub_date || "").slice(0, 4);
-    if (y && y.length === 4) years.add(y);
-  });
+function populateYearFilter(index) {
   const sel = document.getElementById("yearFilter");
-  [...years].sort((a,b)=>b-a).forEach(y => {
-    const opt = document.createElement("option");
-    opt.value = y;
-    opt.textContent = y + " 年";
-    sel.appendChild(opt);
-  });
+  // 清空现有选项（保留"全部年份"）
+  while (sel.options.length > 1) sel.remove(1);
+
+  if (index) {
+    index.forEach(entry => {
+      const opt = document.createElement("option");
+      opt.value = entry.year;
+      opt.textContent = entry.year + " 年 (" + entry.count + "篇)";
+      sel.appendChild(opt);
+    });
+  } else {
+    // fallback：从数据中获取
+    const years = new Set();
+    allData.forEach(r => {
+      const y = (r.pub_date || "").slice(0, 4);
+      if (y && y.length === 4) years.add(y);
+    });
+    [...years].sort((a,b)=>b-a).forEach(y => {
+      const opt = document.createElement("option");
+      opt.value = y;
+      opt.textContent = y + " 年";
+      sel.appendChild(opt);
+    });
+  }
 }
 
 function updateStatsChips() {
@@ -657,40 +1092,79 @@ function updateStatsChips() {
     html += `<span class="chip">${t}: ${n}</span>`;
   });
   chipsEl.innerHTML = html;
-  // 安全删除 chipTotal 元素
   const chipTotal = document.getElementById("chipTotal");
-  if (chipTotal) {
-    chipTotal.remove();
+  if (chipTotal) chipTotal.remove();
+}
+
+// ═══════════════════════ VIEW TOGGLE ═══════════════════════
+function setView(view, updateUrlFlag = true) {
+  currentView = view;
+  const btns = document.querySelectorAll("#viewToggle .btn");
+  btns.forEach(b => b.classList.remove("active"));
+  if (view === "table") {
+    btns[0].classList.add("active");
+    document.getElementById("tableWrap").style.display = "";
+    document.getElementById("cardsWrap").classList.remove("open");
+  } else {
+    btns[1].classList.add("active");
+    document.getElementById("tableWrap").style.display = "none";
+    document.getElementById("cardsWrap").classList.add("open");
+    renderCards();
   }
+  if (updateUrlFlag) updateUrl();
+}
+
+// ═══════════════════════ YEAR FILTER (lazy load) ═══════════════════════
+async function onYearChange() {
+  const year = document.getElementById("yearFilter").value;
+  currentPage = 1;
+
+  if (year) {
+    // 检查数据是否已加载
+    const hasYear = allData.some(r => (r.pub_date||"").startsWith(year));
+    if (!hasYear) {
+      showSkeleton(true);
+      await loadYearData(year);
+      showSkeleton(false);
+    }
+  }
+  applyFiltersAndSort();
+  updateUrl();
 }
 
 // ═══════════════════════ FILTER & SORT ═══════════════════════
 function onSearch() {
+  searchQuery = document.getElementById("searchInput").value.toLowerCase().trim();
   currentPage = 1;
   applyFiltersAndSort();
+  updateUrl();
 }
 
 function onFilter() {
   currentPage = 1;
   applyFiltersAndSort();
+  updateUrl();
 }
 
 function onPageSizeChange() {
   pageSize = parseInt(document.getElementById("pageSizeSelect").value);
   currentPage = 1;
-  renderTable();
+  if (currentView === "table") renderTable(); else renderCards();
+  updateUrl();
 }
 
 function clearFilters() {
   document.getElementById("searchInput").value = "";
+  searchQuery = "";
   document.getElementById("typeFilter").value  = "";
   document.getElementById("yearFilter").value  = "";
   currentPage = 1;
   applyFiltersAndSort();
+  updateUrl();
 }
 
 function applyFiltersAndSort() {
-  const q     = document.getElementById("searchInput").value.toLowerCase().trim();
+  const q     = searchQuery;
   const type  = document.getElementById("typeFilter").value;
   const year  = document.getElementById("yearFilter").value;
 
@@ -707,22 +1181,23 @@ function applyFiltersAndSort() {
     return true;
   });
 
-  console.log("applyFiltersAndSort: filteredData.length =", filteredData.length);
-
   // sort
   filteredData.sort((a, b) => {
     const va = (a[sortKey] || "").toString();
     const vb = (b[sortKey] || "").toString();
-    
-    // 如果是日期字段，按日期排序而非字符串
-    if (sortKey === "pub_date" || sortKey === "fetch_date") {
+
+    if (sortKey === "pub_date") {
       const da = parseDate(va);
       const db = parseDate(vb);
-      if (da && db) {
-        return sortDir === "asc" ? da - db : db - da;
-      }
+      if (da && db) return sortDir === "asc" ? da - db : db - da;
     }
-    
+
+    if (sortKey === "pmid") {
+      const na = parseInt(va, 10) || 0;
+      const nb = parseInt(vb, 10) || 0;
+      return sortDir === "asc" ? na - nb : nb - na;
+    }
+
     return sortDir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
   });
 
@@ -734,12 +1209,17 @@ function applyFiltersAndSort() {
   if (filteredData.length === 0) {
     empty.style.display = "block";
     tc.style.display    = "none";
+    document.getElementById("cardsWrap").classList.remove("open");
   } else {
     empty.style.display = "none";
-    tc.style.display    = "block";
+    if (currentView === "table") {
+      tc.style.display    = "block";
+      renderTable();
+    } else {
+      document.getElementById("cardsWrap").classList.add("open");
+      renderCards();
+    }
   }
-
-  renderTable();
 }
 
 // ═══════════════════════ SORT ═══════════════════════
@@ -750,18 +1230,23 @@ function sortBy(key) {
     sortKey = key;
     sortDir = "desc";
   }
-  // update header classes
+  currentPage = 1;
+  applyFiltersAndSort();
+  updateUrl();
+  updateSortHeaders();
+}
+
+function updateSortHeaders() {
   document.querySelectorAll("th").forEach(th => {
     th.classList.remove("sorted-asc", "sorted-desc");
   });
   const ths = document.querySelectorAll("th");
   ths.forEach(th => {
-    if (th.getAttribute("onclick") === `sortBy('${key}')`) {
+    const onclick = th.getAttribute("onclick");
+    if (onclick && onclick.includes(sortKey)) {
       th.classList.add(sortDir === "asc" ? "sorted-asc" : "sorted-desc");
     }
   });
-  currentPage = 1;
-  applyFiltersAndSort();
 }
 
 // ═══════════════════════ RENDER TABLE ═══════════════════════
@@ -786,15 +1271,59 @@ function esc(s) {
     .replace(/"/g,"&quot;");
 }
 
-function cellText(s, pending = false) {
+function highlightText(text, query) {
+  if (!query || !text) return esc(text);
+  const escaped = esc(text);
+  const escQuery = esc(query);
+  const regex = new RegExp(`(${escQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  return escaped.replace(regex, '<span class="search-hl">$1</span>');
+}
+
+function cellText(s, pending = false, query = "") {
   if (!s || s === "（待生成）") {
     return `<span class="ai-pending">AI 待生成</span>`;
   }
-  const escaped = esc(s);
-  if (escaped.length > 80) {
-    return `<div class="text-clamp" onclick="this.classList.toggle('expanded')" title="点击展开/折叠">${escaped}</div>`;
+  const highlighted = highlightText(s, query);
+  if (highlighted.length > 80) {
+    return `<div class="text-clamp" onclick="this.classList.toggle('expanded')" title="点击展开/折叠">${highlighted}</div>`;
   }
-  return escaped;
+  return highlighted;
+}
+
+// ═══════════════════════ HELPER FUNCTIONS (P0 optimizations) ═══════════════════════
+function isHighQuality(r) {
+  // P0-3: Q1 + IF > 10
+  return r.journal_jcr === 'Q1' && parseFloat(r.journal_if) > 10;
+}
+
+function isNewPaper(r) {
+  // P0-4: 近7天内的论文
+  if (!r.pub_date) return false;
+  const pubDate = new Date(r.pub_date);
+  const now = new Date();
+  const diffTime = now - pubDate;
+  const diffDays = diffTime / (1000 * 60 * 60 * 24);
+  return diffDays >= 0 && diffDays <= 7;
+}
+
+function renderJournalQuality(r) {
+  // P0-5: 合并 IF/JCR/CAS 为紧凑标签
+  let html = '';
+  // IF 标签
+  if (r.journal_if) {
+    html += `<span class="jq-tag jq-if">IF:${r.journal_if}</span>`;
+  }
+  // JCR 标签
+  if (r.journal_jcr) {
+    const jcrClass = `jq-q${r.journal_jcr.toLowerCase().replace('q', '')}`;
+    html += `<span class="jq-tag ${jcrClass}">${r.journal_jcr}</span>`;
+  }
+  // CAS 标签
+  if (r.journal_cas) {
+    const casClass = `jq-cas${r.journal_cas}`;
+    html += `<span class="jq-tag ${casClass}">CAS:${r.journal_cas}</span>`;
+  }
+  return html || '—';
 }
 
 function renderTable() {
@@ -806,27 +1335,106 @@ function renderTable() {
     const pmidLink = r.pmid
       ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.pmid)}</a>`
       : "—";
-    const titleLink = r.doi
-      ? `<a href="https://doi.org/${esc(r.doi)}" target="_blank">${esc(r.title)}</a>`
-      : (r.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.title)}</a>` : esc(r.title));
+    const titleLink = r.pmid
+      ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${highlightText(r.title, searchQuery)}</a>`
+      : highlightText(r.title, searchQuery);
 
-    return `<tr>
-      <td class="col-fetch-date">${esc(r.fetch_date) || "—"}</td>
+    const isHQ = isHighQuality(r);
+    const isNew = isNewPaper(r);
+
+    return `<tr tabindex="0" class="${isHQ ? 'high-quality' : ''}">
       <td class="col-date">${esc(r.pub_date) || "—"}</td>
-      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}</div></td>
+      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}${isNew ? '<span class="new-tag">NEW</span>' : ''}</div></td>
       <td class="col-pmid" style="font-size:11px;">${pmidLink}</td>
-      <td class="col-journal">${esc(r.journal) || "—"}</td>
+      <td class="col-journal">${highlightText(r.journal, searchQuery)}</td>
+      <td class="col-journal-quality">${renderJournalQuality(r)}</td>
       <td class="col-type">${typeTag(r.article_type)}</td>
-      <td class="col-summary">${cellText(r.summary_zh)}</td>
-      <td class="col-innov">${cellText(r.innovation)}</td>
-      <td class="col-limit">${cellText(r.limitation)}</td>
-      <td class="col-object">${cellText(r.study_object)}</td>
-      <td class="col-disease">${cellText(r.disease)}</td>
-      <td class="col-sample">${cellText(r.sample_size)}</td>
+      <td class="col-summary">${cellText(r.summary_zh, false, searchQuery)}</td>
+      <td class="col-innov">${cellText(r.innovation, false, searchQuery)}</td>
+      <td class="col-limit">${cellText(r.limitation, false, searchQuery)}</td>
+      <td class="col-object">${cellText(r.study_object, false, searchQuery)}</td>
+      <td class="col-disease">${cellText(r.disease, false, searchQuery)}</td>
+      <td class="col-sample">${cellText(r.sample_size, false, searchQuery)}</td>
     </tr>`;
   }).join("");
 
   renderPagination();
+}
+
+// ═══════════════════════ RENDER CARDS ═══════════════════════
+function renderCards() {
+  const container = document.getElementById("cardsContainer");
+  const start = (currentPage - 1) * pageSize;
+  const page  = filteredData.slice(start, start + pageSize);
+
+  container.innerHTML = page.map(r => {
+    const jcrIcon = getJcrIcon(r.journal_jcr);
+    const casIcon = getCasIcon(r.journal_cas);
+    return `<div class="paper-card">
+      <div class="paper-card-title">
+        <a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid || '')}/" target="_blank">${highlightText(r.title, searchQuery)}</a>
+      </div>
+      <div class="paper-card-meta">
+        <span class="meta-item">📅 ${esc(r.pub_date) || "—"}</span>
+        <span class="meta-item">PMID: ${esc(r.pmid) || "—"}</span>
+        <span class="meta-item">📖 ${highlightText(r.journal, searchQuery)}</span>
+        <span class="meta-item">IF: ${esc(r.journal_if) || "—"}</span>
+        <span class="meta-item">JCR: ${jcrIcon} ${esc(r.journal_jcr) || "—"}</span>
+        <span class="meta-item">中科院: ${casIcon} ${esc(r.journal_cas) || "—"}</span>
+        <span class="meta-item">${typeTag(r.article_type)}</span>
+      </div>
+      <div class="paper-card-body">
+        <div class="section">
+          <div class="section-title">中文摘要</div>
+          <div>${cellText(r.summary_zh, false, searchQuery)}</div>
+        </div>
+        <div class="section">
+          <div class="section-title">创新点</div>
+          <div>${cellText(r.innovation, false, searchQuery)}</div>
+        </div>
+        <div class="section">
+          <div class="section-title">不足</div>
+          <div>${cellText(r.limitation, false, searchQuery)}</div>
+        </div>
+      </div>
+    </div>`;
+  }).join("");
+
+  renderCardsPagination();
+}
+
+// ═══════════════════════ JCR/CAS ICON HELPERS ═══════════════════════
+function getJcrIcon(jcr) {
+  if (!jcr) return "⚪";
+  const cls = (jcr || "").toLowerCase();
+  if (cls === "q1") return "🟢";
+  if (cls === "q2") return "🔵";
+  if (cls === "q3") return "🟡";
+  if (cls === "q4") return "🔴";
+  return "⚪";
+}
+
+function getCasIcon(cas) {
+  if (!cas) return "⚪";
+  const c = (cas || "").trim();
+  if (c === "1") return "🔴";
+  if (c === "2") return "🟠";
+  if (c === "3") return "🔵";
+  if (c === "4") return "⚪";
+  return "⚪";
+}
+
+// ═══════════════════════ JOURNAL FORMATTERS ═══════════════════════
+function formatJcr(jcr) {
+  if (!jcr) return "—";
+  const cls = (jcr || "").toLowerCase();
+  return `<span class="jcr-` + cls + `">${getJcrIcon(jcr)} ${esc(jcr)}</span>`;
+}
+
+function formatCas(cas) {
+  if (!cas) return "—";
+  const c = (cas || "").trim();
+  return `<span class="cas-` + c + `">${getCasIcon(cas)} ${esc(c)}</span>`;
 }
 
 // ═══════════════════════ PAGINATION ═══════════════════════
@@ -836,7 +1444,6 @@ function renderPagination() {
   if (total <= 1) { el.innerHTML = ""; return; }
 
   let html = "";
-  // prev
   html += `<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?"disabled":""}>‹</button>`;
 
   const range = getPageRange(currentPage, total);
@@ -848,7 +1455,27 @@ function renderPagination() {
     }
   });
 
-  // next
+  html += `<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===total?"disabled":""}>›</button>`;
+  el.innerHTML = html;
+}
+
+function renderCardsPagination() {
+  const total = Math.ceil(filteredData.length / pageSize);
+  const el    = document.getElementById("cardsPagination");
+  if (total <= 1) { el.innerHTML = ""; return; }
+
+  let html = "";
+  html += `<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?"disabled":""}>‹</button>`;
+
+  const range = getPageRange(currentPage, total);
+  range.forEach(p => {
+    if (p === "…") {
+      html += `<span class="page-btn" style="cursor:default;color:var(--muted)">…</span>`;
+    } else {
+      html += `<button class="page-btn${p===currentPage?" active":""}" onclick="goPage(${p})">${p}</button>`;
+    }
+  });
+
   html += `<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===total?"disabled":""}>›</button>`;
   el.innerHTML = html;
 }
@@ -867,27 +1494,71 @@ function goPage(p) {
   const total = Math.ceil(filteredData.length / pageSize);
   if (p < 1 || p > total) return;
   currentPage = p;
-  renderTable();
+  if (currentView === "table") renderTable(); else renderCards();
   window.scrollTo({ top: 0, behavior: "smooth" });
+  updateUrl();
+}
+
+// ═══════════════════════ MEMORY SECTION ═══════════════════════
+async function loadMemory() {
+  try {
+    const res = await fetch("memory.json?t=" + Date.now());
+    if (!res.ok) { document.getElementById("memorySection").style.display = "none"; return; }
+    const entries = await res.json();
+    const section = document.getElementById("memorySection");
+    const content = document.getElementById("memoryContent");
+    if (!entries || !entries.length) { section.style.display = "none"; return; }
+    section.style.display = "block";
+    content.innerHTML = entries.map(e => `
+      <div class="memory-entry">
+        <div class="memory-entry-title">${esc(e.file)}</div>
+        <div class="memory-entry-body">${esc(e.content)}</div>
+      </div>`).join("");
+  } catch(e) { console.error("Failed to load memory:", e); }
+}
+
+function toggleMemory() {
+  const c = document.getElementById("memoryContent");
+  const t = document.getElementById("memoryToggle");
+  c.classList.toggle("open");
+  t.classList.toggle("open");
 }
 
 // ═══════════════════════ BOOT ═══════════════════════
 loadData();
 </script>
 
-<!-- ══════════════════════ SITE STATS FOOTER ══════════════════════ -->
-<div class="site-stats">
-  <div class="stats-row">
-    <div class="stat-item">
-      <span class="stat-icon">👁</span>
-      <span class="stat-label">总访问量</span>
-      <span class="stat-value"><span id="busuanzi_value_site_pv">--</span></span>
-    </div>
-    <span style="color:var(--border)">|</span>
-    <div class="stat-item">
-      <span class="stat-icon">👤</span>
-      <span class="stat-label">总访客数</span>
-      <span class="stat-value"><span id="busuanzi_value_site_uv">--</span></span>
+<!-- ══════════════════════ MEMORY SECTION ══════════════════════ -->
+<div class="memory-section" id="memorySection" style="display:none;">
+  <div class="memory-header" onclick="toggleMemory()">
+    <span>📋 爬取日志</span>
+    <span id="memoryToggle">▸</span>
+  </div>
+ <div id="memoryContent" class="memory-content"></div>
+</div>
+
+<!-- ══════════════════════ VISITOR MAP ══════════════════════ -->
+<div class="visitor-section">
+  <div class="visitor-title">
+    <span class="globe-icon">🌍</span>
+    <span>全球访客分布</span>
+  </div>
+  <div class="visitor-card">
+    <div class="visitor-card-body">
+      <div class="map-container" id="visitorMap">
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86b7d5&w=a&t=tt&d=S-EkWdBzqQjPeXycCnmudG3XPtxN_l6r5WJ-O6MVCWM&co=ffffff&ct=000000'></script>
+      </div>
+      <div class="visitor-sidebar">
+        <div class="visitor-stat">
+          <div class="stat-number"><span id="busuanzi_value_site_pv">--</span></div>
+          <div class="stat-desc">👁 总访问量 (PV)</div>
+        </div>
+        <hr class="visitor-divider">
+        <div class="visitor-stat">
+          <div class="stat-number"><span id="busuanzi_value_site_uv">--</span></div>
+          <div class="stat-desc">👤 总访客数 (UV)</div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

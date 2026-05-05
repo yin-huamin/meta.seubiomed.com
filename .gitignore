@@ -1,33 +1,69 @@
-# WorkBuddy internal
-.workbuddy/
-
-# Data files (daily data will be regenerated)
-data/daily/
-data/daily2/
-
-# Backup files
-scripts/fetch_pubmed.py.backup
-*.pyc
+# ─── Python ───
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.egg
 
-# Debug/test files
-web/data2.json
-web/stat2.json
-web/debug.html
-check_data.py
-validate_json.py
-stats2.json
+# ─── 敏感信息（绝不上传）──
+config.env
+apikey.txt
+*.pem
+*.key
+*.pem
+*.crt
+*.cert
 
-# Deployment configs (server-specific)
-web/assets/
-web/png/
+# ─── 数据文件（可重新生成）──
+data/daily/
+web/data.json
+web/data/
+web/memory.json
+web/stats.json
+
+# ─── 工作文件 ───
+.workbuddy/
+.codebuddy/
+.codebuddy/
+
+# ─── 归档脚本（历史版本）──
+scripts/archive/
+
+# ─── 部署相关（服务器特定）──
 linux/
 nginx-config.txt
 NGINX-GUIDE.md
 DEPLOYMENT.md
+web/assets/
 
-# Sensitive files
-apikey.txt
-config.env
-*.pem
-*.key
+# ─── 调试/测试文件 ───
+*.log
+check_result.txt
+web/data2.json
+web/stat2.json
+web/debug.html
+scripts/*.backup
+scripts/__pycache__/
+
+# ─── 其他 ───
+*.xlsx
+*.xls
+other_website/
+xiaohongshu_post.md
+nul
+journal_list*.tsv
+journals_list*.tsv
+web/index.html.bak
+
+# ─── IDE ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

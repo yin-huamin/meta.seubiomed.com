@@ -1,0 +1,10 @@
+# Meta-SeuBiomed 依赖清单
+# 本项目纯 Python 标准库实现，无第三方依赖
+# Python 版本要求：3.8+
+
+# 如果需要使用本地 Ollama 作为 LLM 后端，需单独安装 Ollama：
+# https://ollama.com/
+
+# 如果需要部署到 Web 服务器，需要：
+# - Nginx（推荐）
+# - Python（用于本地预览 serve.py）

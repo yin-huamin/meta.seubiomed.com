@@ -87,7 +87,7 @@ def call_llm(title: str, abstract: str) -> dict:
             {"role": "user",   "content": user_msg},
         ],
         "temperature": 0.2,
-        "max_tokens":  600,
+        "max_tokens":  1024,
     }).encode("utf-8")
 
     req = urllib.request.Request(
@@ -133,7 +133,7 @@ def _empty_ai() -> dict:
 # ──────────────────────────── 主流程 ──────────────────────────────
 
 def process_file(json_path: Path, force: bool = False):
-    """处理单个 daily JSON 文件"""
+    """处理单个 daily JSON 文件，每篇处理后立即保存"""
     with open(json_path, encoding="utf-8") as fh:
         records = json.load(fh)
 
@@ -143,16 +143,24 @@ def process_file(json_path: Path, force: bool = False):
             continue
 
         log.info(f"  [{i+1}/{len(records)}] PMID {rec.get('pmid','?')} | {rec.get('title','')[:60]}")
-        ai_result = call_llm(rec.get("title", ""), rec.get("abstract", ""))
-        rec.update(ai_result)
-        rec["ai_done"] = True
+        try:
+            ai_result = call_llm(rec.get("title", ""), rec.get("abstract", ""))
+            rec.update(ai_result)
+            rec["ai_done"] = True
+        except Exception as e:
+            log.error(f"  处理 PMID {rec.get('pmid','?')} 出错: {e}")
+            rec.update(_empty_ai())
+            rec["ai_done"] = True
         updated = True
+
+        # 每篇处理后立即保存，避免中途崩溃丢失数据
+        with open(json_path, "w", encoding="utf-8") as fh:
+            json.dump(records, fh, ensure_ascii=False, indent=2)
+
         time.sleep(BATCH_DELAY)
 
     if updated:
-        with open(json_path, "w", encoding="utf-8") as fh:
-            json.dump(records, fh, ensure_ascii=False, indent=2)
-        log.info(f"  ✓ 已更新 {json_path.name}")
+        log.info(f"  ✓ 已更新 {json_path.name}（{len(records)} 篇）")
     else:
         log.info(f"  ○ {json_path.name} 无需更新")
 
