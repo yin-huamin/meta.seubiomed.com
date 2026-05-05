@@ -150,27 +150,113 @@ def cmd_daily(args):
     log.info("✓ 每日更新完成")
 
 
+def cmd_set(args):
+    """设置/查看搜索关键词"""
+    config_path = BASE_DIR / "config.env"
+    example_path = BASE_DIR / "config.env.example"
+
+    # --check: 查看当前关键词
+    if args.check:
+        keywords = _read_config_value(config_path, "SEARCH_KEYWORDS")
+        if keywords:
+            kw_list = [kw.strip() for kw in keywords.split(",") if kw.strip()]
+            print(f"当前搜索关键词（{len(kw_list)} 个）:")
+            for i, kw in enumerate(kw_list, 1):
+                print(f"  {i}. {kw}")
+        else:
+            print("未配置自定义关键词，使用默认值:")
+            for i, kw in enumerate(["metagenome", "metagenomic", "microbiome"], 1):
+                print(f"  {i}. {kw}")
+            print("\n提示: 使用 python metaweb.py set --term 来自定义关键词")
+        return
+
+    # --term: 设置搜索关键词
+    if args.term:
+        terms = [t.strip() for t in args.term if t.strip()]
+        if not terms:
+            print("错误: 请提供至少一个搜索关键词")
+            sys.exit(1)
+
+        # 更新 config.env（如不存在则从 example 复制）
+        if not config_path.exists() and example_path.exists():
+            import shutil
+            shutil.copy2(example_path, config_path)
+            print(f"已从 config.env.example 创建 config.env")
+
+        _set_config_value(config_path, "SEARCH_KEYWORDS", ", ".join(terms))
+        print(f"搜索关键词已更新为（{len(terms)} 个）:")
+        for i, t in enumerate(terms, 1):
+            print(f"  {i}. {t}")
+        return
+
+    # 无参数: 显示帮助
+    print("用法:")
+    print("  python metaweb.py set --term keyword1 keyword2 ...   # 设置搜索关键词")
+    print("  python metaweb.py set --check                       # 查看当前关键词")
+
+
+def _read_config_value(config_path: Path, key: str) -> str:
+    """从 config.env 读取指定配置值"""
+    if not config_path.exists():
+        return ""
+    with open(config_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                if k.strip() == key:
+                    return v.strip()
+    return ""
+
+
+def _set_config_value(config_path: Path, key: str, value: str):
+    """在 config.env 中设置指定配置值（不存在则追加）"""
+    lines = []
+    found = False
+
+    if config_path.exists():
+        with open(config_path, encoding="utf-8") as f:
+            lines = f.readlines()
+
+    # 查找并替换已有的 key
+    new_lines = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#") and "=" in stripped:
+            k, _ = stripped.split("=", 1)
+            if k.strip() == key:
+                new_lines.append(f"{key}={value}\n")
+                found = True
+                continue
+        new_lines.append(line)
+
+    # 如果没找到，追加到文件末尾
+    if not found:
+        if new_lines and not new_lines[-1].endswith("\n"):
+            new_lines.append("\n")
+        new_lines.append(f"{key}={value}\n")
+
+    with open(config_path, "w", encoding="utf-8") as f:
+        f.writelines(new_lines)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Meta-SeuBiomed 宏基因组文献追踪系统 - 统一命令行工具",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-  python metaweb fetch                            # 抓取今天到昨天（默认1天）
-  python metaweb fetch --days 7                   # 抓取最近7天
-  python metaweb fetch --date 2026-05-01          # 抓取2026-05-01往回1天
-  python metaweb fetch --date 2026-05-01 --days-back 14  # 从指定日期往前14天
-  python metaweb fetch --start-date 2026-04-01 --end-date 2026-04-30  # 指定日期范围
-  python metaweb fetch --start-date 2026-04-01    # 从指定日期到今天
-  python metaweb fetch --pmid 38912345             # 按PMID号抓取单篇
-  python metaweb fetch --pmid 38912345 38967890    # 按PMID号抓取多篇
-  python metaweb summarize                        # 为所有论文生成摘要
-  python metaweb summarize --all                  # 处理所有 daily JSON 文件
-  python metaweb build                            # 整合数据到 web/data.json
-  python metaweb auto --days 7                    # 自动抓取最近7天并整合
-  python metaweb auto --pmid 38912345 38967890    # 按PMID抓取并自动摘要+整合
-  python metaweb auto --start-date 2026-04-01 --end-date 2026-04-30  # 日期范围自动流水线
-  python metaweb daily                            # 每日自动化运行
+  python metaweb set --term metagenome microbiome     # 设置搜索关键词
+  python metaweb set --check                          # 查看当前关键词
+  python metaweb fetch                                # 抓取今天到昨天（默认1天）
+  python metaweb fetch --days 7                       # 抓取最近7天
+  python metaweb fetch --pmid 38912345 38967890       # 按PMID号抓取
+  python metaweb fetch --start-date 2026-04-01 --end-date 2026-04-30  # 日期范围
+  python metaweb auto --days 7                        # 自动抓取最近7天并整合
+  python metaweb auto --pmid 38912345                 # 按PMID自动流水线
+  python metaweb summarize                            # 为所有论文生成摘要
+  python metaweb build                                # 整合数据到 web/data.json
+  python metaweb daily                                # 每日自动化运行
 """
     )
 
@@ -213,6 +299,13 @@ def main():
     # ── daily 命令 ──
     parser_daily = subparsers.add_parser("daily", help="每日自动化运行")
     parser_daily.set_defaults(func=cmd_daily)
+
+    # ── set 命令 ──
+    parser_set = subparsers.add_parser("set", help="设置/查看搜索关键词")
+    parser_set.add_argument("--term", nargs="+", default=None, metavar="KEYWORD",
+                            help="设置搜索关键词（可多个，空格分隔）")
+    parser_set.add_argument("--check", action="store_true", help="查看当前搜索关键词")
+    parser_set.set_defaults(func=cmd_set)
 
     # 解析参数
     args = parser.parse_args()

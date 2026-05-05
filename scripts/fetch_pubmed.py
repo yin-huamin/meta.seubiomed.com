@@ -16,6 +16,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+
 # ──────────────────────────── 日期工具 ──────────────────────────────
 MONTH_TO_NUM = {
     "jan": "01", "feb": "02", "mar": "03", "apr": "04",
@@ -81,11 +82,27 @@ def _is_future(date_str: str) -> bool:
 # ──────────────────────────── 配置区 ──────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
+
+# ── 加载 config.env ──
+dotenv_path = BASE_DIR / "config.env"
+if dotenv_path.exists():
+    with open(dotenv_path, encoding="utf-8") as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ[_k.strip()] = _v.strip()
+
 DAILY_DIR = DATA_DIR / "daily"
 
-KEYWORDS = ["metagenome", "metagenomic", "microbiom"]
-NCBI_EMAIL = "yinhm17@126.com"          # NCBI要求提供联系邮箱
-NCBI_API_KEY = "ce30363de49e75a27b8c1fdf66a48f2f8108"                       # 可选：NCBI API Key（提速用）
+# ── 搜索关键词（可从 config.env 的 SEARCH_KEYWORDS 覆盖）──
+_keywords_env = os.environ.get("SEARCH_KEYWORDS", "")
+if _keywords_env.strip():
+    KEYWORDS = [kw.strip() for kw in _keywords_env.split(",") if kw.strip()]
+else:
+    KEYWORDS = ["metagenome", "metagenomic", "microbiome"]
+NCBI_EMAIL   = os.environ.get("NCBI_EMAIL", "yinhm17@126.com")
+NCBI_API_KEY = os.environ.get("NCBI_API_KEY", "")
 MAX_RESULTS = 200                       # 每次最多取回论文数
 JOURNAL_TABLE_PATH = BASE_DIR / "journal_info.tsv"   # 期刊过滤表（TSV格式）
 
