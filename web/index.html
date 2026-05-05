@@ -160,6 +160,28 @@
 
     .search-box input:focus { border-color: var(--accent); }
 
+    .if-filter {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .if-filter label {
+      font-size: 13px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .if-filter input {
+      width: 64px;
+      padding: 7px 8px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      font-size: 13px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    .if-filter input:focus { border-color: var(--accent); }
+
     .search-box svg {
       position: absolute;
       right: 10px;
@@ -778,6 +800,11 @@
     <option value="">全部年份</option>
   </select>
 
+  <div class="if-filter">
+    <label for="ifFilter">IF &gt;</label>
+    <input type="number" id="ifFilter" placeholder="如 10" min="0" step="0.1" oninput="onFilter()" />
+  </div>
+
   <div class="view-toggle" id="viewToggle">
     <button class="btn active" onclick="setView('table')" title="表格视图">☰ 表格</button>
     <button class="btn" onclick="setView('card')" title="卡片视图">▦ 卡片</button>
@@ -998,6 +1025,7 @@ function getUrlParams() {
     q: params.get('q') || "",
     type: params.get('type') || "",
     year: params.get('year') || "",
+    if_min: parseFloat(params.get('if_min')) || 0,
     page: parseInt(params.get('page')) || 1,
     size: parseInt(params.get('size')) || 50,
     sort: params.get('sort') || "pub_date",
@@ -1011,6 +1039,8 @@ function updateUrl() {
   if (searchQuery) params.set('q', searchQuery);
   if (document.getElementById("typeFilter").value) params.set('type', document.getElementById("typeFilter").value);
   if (document.getElementById("yearFilter").value) params.set('year', document.getElementById("yearFilter").value);
+  const ifMin = parseFloat(document.getElementById("ifFilter").value) || 0;
+  if (ifMin > 0) params.set('if_min', ifMin);
   if (currentPage > 1) params.set('page', currentPage);
   if (pageSize !== 50) params.set('size', pageSize);
   if (sortKey !== 'pub_date') params.set('sort', sortKey);
@@ -1029,6 +1059,7 @@ function applyUrlParams() {
   }
   if (p.type) document.getElementById("typeFilter").value = p.type;
   if (p.year) document.getElementById("yearFilter").value = p.year;
+  if (p.if_min > 0) document.getElementById("ifFilter").value = p.if_min;
   if (p.size) {
     pageSize = p.size;
     document.getElementById("pageSizeSelect").value = p.size;
@@ -1158,6 +1189,7 @@ function clearFilters() {
   searchQuery = "";
   document.getElementById("typeFilter").value  = "";
   document.getElementById("yearFilter").value  = "";
+  document.getElementById("ifFilter").value    = "";
   currentPage = 1;
   applyFiltersAndSort();
   updateUrl();
@@ -1167,10 +1199,15 @@ function applyFiltersAndSort() {
   const q     = searchQuery;
   const type  = document.getElementById("typeFilter").value;
   const year  = document.getElementById("yearFilter").value;
+  const ifMin = parseFloat(document.getElementById("ifFilter").value) || 0;
 
   filteredData = allData.filter(r => {
     if (type && !(r.article_type || "").includes(type)) return false;
     if (year && !(r.pub_date || "").startsWith(year))    return false;
+    if (ifMin > 0) {
+      const ifVal = parseFloat(r.journal_if);
+      if (isNaN(ifVal) || ifVal < ifMin) return false;
+    }
     if (q) {
       const haystack = [
         r.title, r.summary_zh, r.disease, r.study_object,
