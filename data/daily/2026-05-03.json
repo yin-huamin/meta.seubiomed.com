@@ -1,0 +1,52 @@
+[
+  {
+    "pmid": "42070114",
+    "title": "Lactic acid bacteria and endogenous ethanol mediate proton pump inhibitor-associated MASLD: a multicohort cross-sectional mediation analysis.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-05-03",
+    "authors": "Davids Mark; Herrema Hilde; K Groen Albert; Galenkamp Henrike; Zwinderman Aeilko et al.",
+    "abstract": "BACKGROUND & AIMS: Proton pump inhibitor (PPI) use has been associated with metabolic dysfunction associated with steatotic liver disease (MASLD) in multiple studies. While the association is confounded by various risk factors, such as BMI and age, a potential mediating factor of the microbiome has been suggested. In this study, we aimed to identify bacterial clades with the highest mediating potential and evaluate the serially mediated path through microbially derived endogenous ethanol.\nMETHODS: Microbiome mediation analysis of PPI use and MASLD was conducted in two cohorts. In a bariatric surgery cohort (n = 122), liver biopsy-proven steatosis grade and postprandial ethanol concentrations were used as outcomes. In the HELIUS cohort (n = 2440), a general population cohort study, mediation was performed using the Fatty Liver Index (FLI) score. The strongest associations were validated in the FINRISK cohort (n = 7066).\nRESULTS: Several bacterial taxa, which are predominantly found in the small intestine, showed a potential role in mediating the effects of PPIs on MASLD, postprandial ethanol levels, and FLI score. The Lactobacillales order showed the strongest mediating potential across the outcomes tested in both discovery cohorts. A notable serial mediation pathway was identified, linking PPI use to MASLD via Lactobacillales abundance and postprandial plasma ethanol concentrations. The mediating role of Lactobacillales in the association between PPI use and FLI scores was confirmed in the final study cohort.\nCONCLUSIONS: Data from multiple cross-sectional cohort studies support a mediating potential of the microbiome in the association between PPI use and hepatic steatosis, independent of alcohol consumption. The effect of PPIs on MASLD appears to be mediated mainly by increased lactic acid bacteria abundance, and is potentially, in part, serially mediated by endogenous ethanol production.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Proton Pump Inhibitors",
+      "Cross-Sectional Studies",
+      "Male",
+      "Female",
+      "Ethanol",
+      "Middle Aged",
+      "Gastrointestinal Microbiome",
+      "Adult",
+      "Lactobacillales",
+      "Fatty Liver",
+      "Cohort Studies",
+      "Mediation Analysis",
+      "Bacteria",
+      "Aged"
+    ],
+    "keywords": [
+      "MASLD",
+      "ethanol",
+      "fermentation",
+      "gastrointestinal microbiome",
+      "lactobacillales",
+      "mediation analysis",
+      "obesity",
+      "proton pump inhibitors",
+      "small intestine"
+    ],
+    "summary_zh": "本研究通过多队列中介分析，发现乳酸菌增多和内生乙醇生产是质子泵抑制剂诱发MASLD的关键中介因素。",
+    "innovation": "首次识别乳酸菌（Lactobacillales）作为最强中介菌群 | 揭示乳酸菌和内生乙醇的串行中介路径 | 在多个独立队列中验证中介作用",
+    "limitation": "未描述",
+    "study_object": "人类多队列（减肥手术队列肝活检+血浆、HELIUS队列粪便+血液、FINRISK队列数据）微生物组中介分析",
+    "disease": "MASLD（代谢功能障碍相关脂肪肝病）",
+    "sample_size": "3个队列共9628例（减肥手术队列122例，HELIUS队列2440例，FINRISK队列7066例）",
+    "ai_done": true,
+    "fetch_date": "2026-05-03"
+  }
+]

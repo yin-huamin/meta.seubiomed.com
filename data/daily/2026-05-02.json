@@ -1,0 +1,87 @@
+[
+  {
+    "pmid": "42069868",
+    "title": "Antibiotic-induced gut microbiome dysbiosis: risks and strategies for mitigation.",
+    "doi": null,
+    "journal": "The EMBO journal",
+    "issn": "1460-2075",
+    "pub_date": "2026-05-02",
+    "authors": "Müller Katharina; Gillard Justine; Typas Athanasios; Knopp Michael; Goemans Camille V",
+    "abstract": "The discovery of antibiotics and their subsequent therapeutic use revolutionized our ability to treat once deadly infectious diseases, and antibiotics have become one of the most commonly prescribed drug classes. Unfortunately, these compounds not only target pathogenic strains, but also non-pathogenic bacteria that fulfill important functions for the human host. As such, antibiotic treatment can cause severe collateral damage, resulting in dysbiosis, for example, in the human gut microbiome. Given the immense importance of the gut microbiome for human health, antibiotic-induced dysbiosis can cause a variety of detrimental health outcomes. In addition, antibiotic (over-)use causes selection of antibiotic-resistant strains, and the human gut microbiome has become a major reservoir for resistance determinants that can transfer to pathogenic isolates and cause hard-to-treat infections. In this review, we describe various adverse effects that antibiotic use has on the human gut microbiome, how we can approach this problem experimentally, and discuss pathways to mitigate antibiotic-induced collateral damage.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述抗生素对肠道菌群失调的风险及缓解策略，概述其不良影响与实验方法。",
+    "innovation": "系统性总结抗生素致肠道菌群失调的机制与实验方法 | 提出缓解抗生素副作用的潜在途径",
+    "limitation": "未描述",
+    "study_object": "人类 肠道微生物组 未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-02"
+  },
+  {
+    "pmid": "42069657",
+    "title": "Gut microbiome modulates breast cancer risk in socially isolated mice.",
+    "doi": null,
+    "journal": "Breast cancer research : BCR",
+    "issn": "1465-542X",
+    "pub_date": "2026-05-02",
+    "authors": "de Oliveira Andrade Fabia; Staley Christopher; Jin Lu; Ozgul-Onal Melike; McDermott Maddie et al.",
+    "abstract": "BACKGROUND: Breast cancer risk and mortality are associated with disrupted gut microbiome functions which in turn can affect tumor immune responses. One source of disruption could be stress. Social isolation (SI) stress consistently increases breast cancer risk and mortality in preclinical models and women, but whether SI promotes mammary tumor growth by affecting gut microbiome has not been studied.\nMETHODS: We investigated if increased E0771 mammary tumorigenesis in SI female C57BL/6 mice was associated with changes in their gut microbiome by treating mice with an antibiotic mix that suppresses bacterial abundance and by performing fecal microbiota transplantation (FMT) from SI or group-housed (GH) donors to GH host. The effect of SI on anti-tumor CD8 + T and immunosuppressive Foxp3 + Treg cells was also studied.\nRESULTS: Fecal bacteria that were present at different abundances between GH and SI mice were short chain fatty acid (SCFA) producers, and the most consistent change across three replicate studies was decreased fecal abundance of Akkermansia genus in SI mice. In addition, fecal propionic acid levels were reduced in SI mice, compared with GH mice, in agreement with Akkermansia being propionic acid producer. SI reduced the activation of CD8 + T cells systemically and in the tumor microenvironment, while the levels and activation of immunosuppressive Foxp3 Tregs were increased. Antibiotic treatment reversed increased mammary tumorigenesis and immunosuppression in SI mice but did not affect GH mice. Further, FMT from SI donors increased tumor growth in GH host, compared with FMT from GH donor.\nCONCLUSION: Gut dysbiosis caused by SI may be driving their increased mammary tumorigenesis, potentially through gut dysbiosis induced immunosuppression.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Breast cancer",
+      "Gut dysbiosis",
+      "Immunosuppression",
+      "Social isolation"
+    ],
+    "summary_zh": "研究社会隔离小鼠肠道菌群失调是否促进乳腺癌，发现菌群改变（阿克曼菌减少、丙酸降低）并诱导免疫抑制，抗生素和粪菌移植证实因果性。",
+    "innovation": "首次研究社会隔离压力通过肠道菌群影响乳腺癌风险 | 使用抗生素和粪菌移植验证菌群因果作用 | 发现阿克曼菌和丙酸减少与免疫抑制关联",
+    "limitation": "未描述",
+    "study_object": "小鼠（C57BL/6）粪便样本",
+    "disease": "乳腺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-02"
+  },
+  {
+    "pmid": "42067885",
+    "title": "Streptomyces-induced Glycerol-3-Phosphate enriches beneficial microbiota to enhance resistance against banana Fusarium wilt.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-02",
+    "authors": "Cai Bingyu; Zhang Lu; Wu Zekai; Wang Jie; Wei Yongzan et al.",
+    "abstract": "BACKGROUND: Fusarium oxysporum f. sp. cubense Tropical Race 4 (Foc TR4) is the causal agent of banana Fusarium wilt, a destructive soil-borne disease. Using antagonistic microorganisms, such as Streptomyces species, offers a promising strategy for controlling fungal diseases. However, their field application is limited by an incomplete understanding of microbe-plant-pathogen interactions.\nRESULTS: This study shows that the marine-derived Streptomyces malaysiensis WHL7 exhibits strong antagonistic activity against multiple phytopathogenic fungi in vitro, particularly Foc TR4. In pot experiments using natural soil, WHL7 treatment significantly reduced the incidence of Fusarium wilt from 55% in the Foc TR4-inoculated control to 15%. No protective effect was observed in sterilized soil, indicating that its biocontrol efficacy depends on the indigenous microbial community. Integrated metabolomic analysis reveals that WHL7 stimulates the key root secretion of glycerol-3-phosphate (G3P). The compound enriches beneficial Bacillus and Pseudomonas species in the rhizosphere. Compared to the Foc TR4-treated group, exogenous application of G3P reduced Foc TR4 abundance by 73%, inhibited pathogenic infection, and consistently increased the populations of Bacillus and Pseudomonas. These enriched microbes were directly linked with reduced disease severity by inducing systemic ACQUIRED RESISTANCE OF plant.\nCONCLUSIONS: While S. malaysiensis WHL7 directly suppresses Foc TR4 via antagonistic compounds in vitro, it controls disease in pot experiments indirectly by reshaping the rhizosphere microbiome. This restructuring induces host resistance through a g3p-mediated signaling pathway. the study highlights g3p-mediated priming as a sustainable strategy for managing soil-borne diseases. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Streptomyces",
+      "Banana Fusarium wilt",
+      "Biocontrol",
+      "G3P signaling",
+      "Interaction",
+      "Microbiome"
+    ],
+    "summary_zh": "链霉菌WHL7诱导香蕉根分泌甘油-3-磷酸，富集有益菌群，增强对枯萎病抗性。",
+    "innovation": "发现链霉菌通过G3P信号重塑根系微生物组 | 提出G3P介导的系统获得性抗性作为可持续防控策略",
+    "limitation": "未描述",
+    "study_object": "香蕉植株 + 根际土壤 + 代谢组学与微生物组分析",
+    "disease": "香蕉枯萎病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-02"
+  }
+]

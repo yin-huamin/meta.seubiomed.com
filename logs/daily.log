@@ -1,0 +1,1284 @@
+2026-05-06 10:53:28 [INFO] ▶ 开始每日更新...
+2026-05-06 10:53:28 [INFO] ===== 开始每日更新 2026-05-06 =====
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-06
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-05
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-04
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-03
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-02
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-05-01
+2026-05-06 10:53:28 [WARNING] 检测到缺少数据: 2026-04-30
+2026-05-06 10:53:28 [INFO] 需要补全数据: ['2026-05-06', '2026-05-05', '2026-05-04', '2026-05-03', '2026-05-02', '2026-05-01', '2026-04-30']
+2026-05-06 10:53:28 [INFO] 
+==================================================
+2026-05-06 10:53:28 [INFO] 开始抓取 2026-04-30 的论文
+2026-05-06 10:53:28 [INFO] ==================================================
+2026-05-06 10:53:28 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 10:53:28 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 10:53:28 [INFO] 已有 0 篇文献记录，不再重复检索
+2026-05-06 10:53:28 [INFO] 正在搜索 2026/04/30 的新论文...
+2026-05-06 10:53:28 [INFO] 搜索到 54 篇 PMID
+2026-05-06 10:53:28 [INFO]   其中新增 54 篇（过滤已有 0 篇）
+2026-05-06 10:53:30 [INFO]   内容过滤: 排除 6 篇，保留 48 篇
+2026-05-06 10:53:30 [INFO]   期刊过滤: 排除 39 篇，保留 9 篇
+2026-05-06 10:53:30 [INFO] 
+2026-05-06 10:53:30 [INFO] ================================================================================
+2026-05-06 10:53:30 [INFO]   📋 本次搜索论文汇总（共 54 篇）
+2026-05-06 10:53:30 [INFO] ================================================================================
+2026-05-06 10:53:30 [INFO]   ✅ 已收录 (9 篇):
+2026-05-06 10:53:30 [INFO]     [1] PMID 41812662 | Cell
+2026-05-06 10:53:30 [INFO]         Microbiome-produced nicotinic acid controls colon regional identity and injury susceptibility.
+2026-05-06 10:53:30 [INFO]     [2] PMID 41355723 | Clinical infectious diseases : an official publication of the Infectious Diseases Society of America
+2026-05-06 10:53:30 [INFO]         Impact of Vaginal Estradiol on the Genitourinary Syndrome of Menopause, Vaginal Microbiome and Mucosal Immune Mediators in Women With HIV.
+2026-05-06 10:53:30 [INFO]     [3] PMID 42062603 | Nature computational science
+2026-05-06 10:53:30 [INFO]         DeepSeMS: revealing the hidden biosynthetic potential of the global ocean microbiome with a large language model.
+2026-05-06 10:53:30 [INFO]     [4] PMID 42062589 | Diabetologia
+2026-05-06 10:53:30 [INFO]         Gestational diabetes and risk of type 2 diabetes: exploring the role of the gut microbiome in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL).
+2026-05-06 10:53:30 [INFO]     [5] PMID 42059891 | Cellular and molecular life sciences : CMLS
+2026-05-06 10:53:30 [INFO]         Pregnancy-induced hypertension are preceded by prenatal perturbations of the gut microbiome and metabolome.
+2026-05-06 10:53:30 [INFO]     [6] PMID 42062458 | Communications medicine
+2026-05-06 10:53:30 [INFO]         Microbiome responses to anthelmintic treatment depend on pre-treatment helminth infection status in young Ethiopian children.
+2026-05-06 10:53:30 [INFO]     [7] PMID 42060722 | Proceedings of the National Academy of Sciences of the United States of America
+2026-05-06 10:53:30 [INFO]         Gingipain proteases from the bacterium Porphyromonas gingivalis confer protection against airway viral infection.
+2026-05-06 10:53:30 [INFO]     [8] PMID 42063218 | British journal of pharmacology
+2026-05-06 10:53:30 [INFO]         Host genetic variants in the lactose metabolism pathway associated with bifidobacterium abundance have prognostic value for immunotherapy efficacy.
+2026-05-06 10:53:30 [INFO]     [9] PMID 42062245 | Translational psychiatry
+2026-05-06 10:53:30 [INFO]         From gut to brain: effects of fecal microbiota transplants from humans to rats on hippocampal gene regulation - a study on anorexia nervosa.
+2026-05-06 10:53:30 [INFO]   🚫 内容过滤排除 (6 篇):
+2026-05-06 10:53:30 [INFO]     [1] PMID 42057740 | Journal of agricultural and food chemistry
+2026-05-06 10:53:30 [INFO]         Functional Resistance of Microbiome to Differently Charged Nanoplastics in Rhizosphere Hotspots Soil.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:53:30 [INFO]     [2] PMID 41794478 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         Kombucha meets circular economy: A microbiome and metabolite perspective on second fermentation with plant by-products.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:53:30 [INFO]     [3] PMID 42069316 | Bioresource technology
+2026-05-06 10:53:30 [INFO]         Metagenomic understanding of the performance enhancement in anaerobic digestion by granular activated carbon coupled with riboflavin under high organic loading.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: effluent
+2026-05-06 10:53:30 [INFO]     [4] PMID 42060063 | Environmental science and pollution research international
+2026-05-06 10:53:30 [INFO]         Burkholderia sp. ZF6-mediated mitigation of Cd and Zn stress in contaminated soil: effects on Chinese cabbage growth and rhizosphere microbial communities.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:53:30 [INFO]     [5] PMID 42060748 | Science (New York, N.Y.)
+2026-05-06 10:53:30 [INFO]         Rumen ciliates modulate methane emissions in ruminants.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: rumen
+2026-05-06 10:53:30 [INFO]     [6] PMID 42059780 | Microbiology resource announcements
+2026-05-06 10:53:30 [INFO]         Metagenomes enriched with Virgibacillus are associated with a pink paste defect in an unpasteurized blue cheese.
+2026-05-06 10:53:30 [INFO]         原因: 内容含排除词: cheese
+2026-05-06 10:53:30 [INFO]   📵 期刊过滤排除 (39 篇):
+2026-05-06 10:53:30 [INFO]     [1] PMID 42079444 | mLife
+2026-05-06 10:53:30 [INFO]         Emerging role of metagenomic next-generation sequencing in infectious disease diagnostics: Clinical integration and future directions.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: mLife
+2026-05-06 10:53:30 [INFO]     [2] PMID 42062403 | Scientific reports
+2026-05-06 10:53:30 [INFO]         Metagenomic profiling of microbial communities and the resistome within Egyptian hospital wastewater and tap water.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 10:53:30 [INFO]     [3] PMID 42062488 | Scientific reports
+2026-05-06 10:53:30 [INFO]         A comparative analysis of skin bacteria in healthy individuals through traditional cultivation and high-throughput sequencing techniques.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 10:53:30 [INFO]     [4] PMID 42014833 | Scientific reports
+2026-05-06 10:53:30 [INFO]         Soil management strategies shape bacterial and eukaryotic community structure in organic and inorganic systems of Malus × domestica production.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 10:53:30 [INFO]     [5] PMID 41794479 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         Interplay of probiotics, prebiotics, synbiotics and postbiotics: a review of their therapeutic potential for gastrointestinal inflammation.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]     [6] PMID 42059507 | Expert opinion on emerging drugs
+2026-05-06 10:53:30 [INFO]         Emerging microbiome-based therapies for atopic eczema: clinical insights and future development.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Expert opinion on emerging drugs
+2026-05-06 10:53:30 [INFO]     [7] PMID 42059616 | Microbiology resource announcements
+2026-05-06 10:53:30 [INFO]         Whole genome sequence of Tsukamurella tyrosinosolvens extracted from metagenome of human pleural fluid enriched in Mycobacteria Growth Indicator Tube.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology resource announcements
+2026-05-06 10:53:30 [INFO]     [8] PMID 42059394 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         Early-life development of the microbiome and resistome in antibiotic-naïve dairy calves.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [9] PMID 42059393 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         Multi-omics analysis reveals the alterations in the tumor microbiome and metabolome associated with cervical cancer lymph node metastasis.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [10] PMID 42060822 | NEJM evidence
+2026-05-06 10:53:30 [INFO]         Detection of a Single Measles Infection Using Untargeted Ultra-Deep Metagenomic Sequencing of Wastewater in Cook County, Illinois.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: NEJM evidence
+2026-05-06 10:53:30 [INFO]     [11] PMID 36730730 | Childhood obesity (Print)
+2026-05-06 10:53:30 [INFO]         Retracted: Body Mass Index and Gut Microbiome: A Cluster-Randomized, Controlled, Pilot Feasibility Study.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Childhood obesity (Print)
+2026-05-06 10:53:30 [INFO]     [12] PMID 41744501 | Journal of microbiology & biology education
+2026-05-06 10:53:30 [INFO]         Improving knowledge of metagenome-assembled genomes (MAGs) through bioinformatics and article annotation.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of microbiology & biology education
+2026-05-06 10:53:30 [INFO]     [13] PMID 42062918 | BMC infectious diseases
+2026-05-06 10:53:30 [INFO]         Potential drug-drug interactions and 30-day mortality in ICU patients with bloodstream infection: a single-center retrospective study.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC infectious diseases
+2026-05-06 10:53:30 [INFO]     [14] PMID 42059647 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         Integrated multi-omics analysis reveals gut dysbiosis and altered energy metabolism in Chinese ALS patients.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [15] PMID 42079433 | International journal of microbiology
+2026-05-06 10:53:30 [INFO]         Gut-Derived Lactic Acid Bacteria, Pediococcus pentosaceus, Enhances Growth Performance and Resistance to Pathogenic Vibrio harveyi of Hatchery-Bred Milkfish (Chanos chanos) in Nursery Culture.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of microbiology
+2026-05-06 10:53:30 [INFO]     [16] PMID 41794462 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         The role of mycobiome in terroir and during Muscat grapes fermentation unveiled by multi-omic analysis.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]     [17] PMID 42059606 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         Gut microbiota composition and tumor immune features in meningioma patients.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [18] PMID 42060842 | Journal of bacteriology
+2026-05-06 10:53:30 [INFO]         Escherichia coli pathobionts and Crohn's disease: varied genetic paths leading to similar phenotypes.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of bacteriology
+2026-05-06 10:53:30 [INFO]     [19] PMID 42069117 | Environmental pollution (Barking, Essex : 1987)
+2026-05-06 10:53:30 [INFO]         The high Arctic resistome: stress-response genes, virulence determinants, and microbial populations in human-impacted environments of Spitsbergen.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental pollution (Barking, Essex : 1987)
+2026-05-06 10:53:30 [INFO]     [20] PMID 42067083 | International journal of biological macromolecules
+2026-05-06 10:53:30 [INFO]         Crystal structure of FtsZ from Acinetobacter baumannii and identification of a potential inhibitor targeting its GTPase domain.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of biological macromolecules
+2026-05-06 10:53:30 [INFO]     [21] PMID 42063119 | Parasites & vectors
+2026-05-06 10:53:30 [INFO]         Dietary variations drive divergent phenotypic, transcriptomic, and metatranscriptomic profiles in Biomphalaria glabrata, a schistosomiasis vector snail.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Parasites & vectors
+2026-05-06 10:53:30 [INFO]     [22] PMID 42060056 | Probiotics and antimicrobial proteins
+2026-05-06 10:53:30 [INFO]         Microbiome-Modulating Strategies in Anticancer Therapy: A Review of Current Evidence and Recommendations for Further Treatment Improvement.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Probiotics and antimicrobial proteins
+2026-05-06 10:53:30 [INFO]     [23] PMID 42062487 | Scientific reports
+2026-05-06 10:53:30 [INFO]         Prebiotic intervention changes host and microbe proteomes in plasma extracellular vesicles of Parkinson's disease.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 10:53:30 [INFO]     [24] PMID 42059571 | mSystems
+2026-05-06 10:53:30 [INFO]         Host genetics shapes the recovery of the gut microbiome after antibiotic treatment: the role of the blood group related B4galnt2 gene.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: mSystems
+2026-05-06 10:53:30 [INFO]     [25] PMID 42078675 | Ecology and evolution
+2026-05-06 10:53:30 [INFO]         Composition and Diversity Characteristics of Gut Microbiota during the Development of Telchinia issoria (Lepidoptera: Nymphalidae).
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ecology and evolution
+2026-05-06 10:53:30 [INFO]     [26] PMID 41794466 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         Alpha-lipoic acid improves intestinal homeostasis and ameliorates colitis through modulation of gut microbiota and production of short chain fatty acids in mice.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]     [27] PMID 42065459 | Food & function
+2026-05-06 10:53:30 [INFO]         Correction: Multi-omics reveals gut microbiome- and metabolome-specific responses to sugar alcohols.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food & function
+2026-05-06 10:53:30 [INFO]     [28] PMID 42063103 | BMC biotechnology
+2026-05-06 10:53:30 [INFO]         Recapitulation of clinical and molecular hallmarks of lipid-induced hepatic insulin resistance in a zonated, vascularized human liver acinus microphysiological system during metabolic dysfunction-associated steatotic liver disease (MASLD) progression.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC biotechnology
+2026-05-06 10:53:30 [INFO]     [29] PMID 42085791 | Journal of hazardous materials
+2026-05-06 10:53:30 [INFO]         Tetracycline and ciprofloxacin reduce nitrification and denitrification activity and alter microbial community composition and activity in microalgal-bacterial aerobic granular sludge.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of hazardous materials
+2026-05-06 10:53:30 [INFO]     [30] PMID 42077790 | Transboundary and emerging diseases
+2026-05-06 10:53:30 [INFO]         Comparative Analysis of Gut Microbiomes in Parasitic Roundworms Reveals Phylogeny-Associated Community Structure and Functional Adaptation.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Transboundary and emerging diseases
+2026-05-06 10:53:30 [INFO]     [31] PMID 41794500 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         ILA-producing bifidobacterium bifidum ameliorates chronic kidney disease via AHR signaling by modulating the gut-kidney axis.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]     [32] PMID 42069315 | Bioresource technology
+2026-05-06 10:53:30 [INFO]         Synergistic integration of sustainable wastewater treatment and agricultural waste valorization: Rapid in-situ enrichment of anammox bacteria via corncob biocarriers.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 10:53:30 [INFO]     [33] PMID 42059625 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         Spatial ecology of the Capnocytophaga genus in the human oral cavity.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [34] PMID 42056322 | World journal of microbiology & biotechnology
+2026-05-06 10:53:30 [INFO]         Biochar-augmented microaerophilic fixed-film bioreactor integrated with an aerobic membrane bioreactor effectively reduces persistent, mobile chemicals in the CETP effluent treatment.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: World journal of microbiology & biotechnology
+2026-05-06 10:53:30 [INFO]     [35] PMID 42059388 | Microbiology spectrum
+2026-05-06 10:53:30 [INFO]         A cross-sectional analysis of the vaginal microenvironment in rheumatoid arthritis.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 10:53:30 [INFO]     [36] PMID 42059556 | mBio
+2026-05-06 10:53:30 [INFO]         The Guild Model of CF Airway Microbial Ecology.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: mBio
+2026-05-06 10:53:30 [INFO]     [37] PMID 41794459 | Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]         Neomycin-sensitive gut bacteria-derived brassicasterol mediates the anti-obesity effects of Cordyceps militaris polysaccharide.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food research international (Ottawa, Ont.)
+2026-05-06 10:53:30 [INFO]     [38] PMID 42063193 | Animal microbiome
+2026-05-06 10:53:30 [INFO]         The uropygial gland of the European hoopoe as a symbiotic organ.
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Animal microbiome
+2026-05-06 10:53:30 [INFO]     [39] PMID 42060821 | Microbiology resource announcements
+2026-05-06 10:53:30 [INFO]         Draft genome sequence of Bacillus cereus HS120, a probiotic candidate isolated from the gut of hilsa (Tenualosa ilisha).
+2026-05-06 10:53:30 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology resource announcements
+2026-05-06 10:53:30 [INFO] ================================================================================
+2026-05-06 10:53:30 [INFO] 
+2026-05-06 10:53:31 [INFO] 已保存 9 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-04-30.json
+2026-05-06 10:53:31 [INFO] Step 2: AI 摘要生成
+2026-05-06 10:53:31 [INFO] 共需处理 1 个文件
+2026-05-06 10:53:31 [INFO] 处理: 2026-04-30.json
+2026-05-06 10:53:31 [INFO]   [1/9] PMID 41812662 | Microbiome-produced nicotinic acid controls colon regional i
+2026-05-06 10:53:42 [INFO]   [2/9] PMID 41355723 | Impact of Vaginal Estradiol on the Genitourinary Syndrome of
+2026-05-06 10:53:51 [INFO]   [3/9] PMID 42062603 | DeepSeMS: revealing the hidden biosynthetic potential of the
+2026-05-06 10:53:58 [INFO]   [4/9] PMID 42062589 | Gestational diabetes and risk of type 2 diabetes: exploring 
+2026-05-06 10:54:13 [WARNING] LLM 返回 JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-05-06 10:54:14 [INFO]   [5/9] PMID 42059891 | Pregnancy-induced hypertension are preceded by prenatal pert
+2026-05-06 10:54:23 [INFO]   [6/9] PMID 42062458 | Microbiome responses to anthelmintic treatment depend on pre
+2026-05-06 10:54:35 [INFO]   [7/9] PMID 42060722 | Gingipain proteases from the bacterium Porphyromonas gingiva
+2026-05-06 10:54:41 [INFO]   [8/9] PMID 42063218 | Host genetic variants in the lactose metabolism pathway asso
+2026-05-06 10:54:56 [INFO]   [9/9] PMID 42062245 | From gut to brain: effects of fecal microbiota transplants f
+2026-05-06 10:55:03 [INFO]   ✓ 已更新 2026-04-30.json（9 篇）
+2026-05-06 10:55:03 [INFO] 
+==================================================
+2026-05-06 10:55:03 [INFO] 开始抓取 2026-05-01 的论文
+2026-05-06 10:55:03 [INFO] ==================================================
+2026-05-06 10:55:03 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 10:55:03 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 10:55:03 [INFO] 已有 9 篇文献记录，不再重复检索
+2026-05-06 10:55:03 [INFO] 正在搜索 2026/05/01 的新论文...
+2026-05-06 10:55:03 [INFO] 搜索到 200 篇 PMID
+2026-05-06 10:55:03 [INFO]   其中新增 200 篇（过滤已有 0 篇）
+2026-05-06 10:55:08 [INFO]   内容过滤: 排除 20 篇，保留 180 篇
+2026-05-06 10:55:08 [INFO]   期刊过滤: 排除 124 篇，保留 56 篇
+2026-05-06 10:55:08 [INFO] 
+2026-05-06 10:55:08 [INFO] ================================================================================
+2026-05-06 10:55:08 [INFO]   📋 本次搜索论文汇总（共 200 篇）
+2026-05-06 10:55:08 [INFO] ================================================================================
+2026-05-06 10:55:08 [INFO]   ✅ 已收录 (56 篇):
+2026-05-06 10:55:08 [INFO]     [1] PMID 41238755 | Nature reviews. Microbiology
+2026-05-06 10:55:08 [INFO]         The gut microbiome shapes social behaviour across animal species.
+2026-05-06 10:55:08 [INFO]     [2] PMID 40812586 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Gut microbiota and metabolite signatures predict severe immune-related adverse events in advanced hepatobiliary cancers.
+2026-05-06 10:55:08 [INFO]     [3] PMID 41197738 | Journal of the American Academy of Dermatology
+2026-05-06 10:55:08 [INFO]         Periorificial dermatitis: Pathophysiology, diagnosis, and management.
+2026-05-06 10:55:08 [INFO]     [4] PMID 41108124 | Journal of dental research
+2026-05-06 10:55:08 [INFO]         Oral Microbial Determinants of Saliva and Serum Lipopolysaccharide Activity.
+2026-05-06 10:55:08 [INFO]     [5] PMID 41922110 | Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie
+2026-05-06 10:55:08 [INFO]         Aspirin reprograms platelet signaling and the intrahepatic microbiome to suppress RyR2-driven inflammation and fibrosis in preclinical chronic liver disease.
+2026-05-06 10:55:08 [INFO]     [6] PMID 42067956 | Journal of gastroenterology and hepatology
+2026-05-06 10:55:08 [INFO]         Association of Fontan Circulation With Gut Microbiome Derived Straight and Branched Short Chain Fatty Acids.
+2026-05-06 10:55:08 [INFO]     [7] PMID 42068047 | Gut microbes
+2026-05-06 10:55:08 [INFO]         The gut microbiome-bile acid-FXR interplay: a pivotal axis in metabolic and gastrointestinal diseases.
+2026-05-06 10:55:08 [INFO]     [8] PMID 40816352 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Refining antibiotic cocktail regimens for pseudo-germ-free mice and their impact on gut microbiome and pancreatic tumor proteomics.
+2026-05-06 10:55:08 [INFO]     [9] PMID 40812589 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Microbiome-metabolome generated bile acids gatekeep infliximab efficacy in Crohn's disease by licensing M1 suppression and Treg dominance.
+2026-05-06 10:55:08 [INFO]     [10] PMID 41985330 | Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie
+2026-05-06 10:55:08 [INFO]         Multi-strain probiotic enhances metformin tolerance by modulating gut microbiome and bile acid pathways: Insight from multi-omics post-hoc analysis (ProGasMet trial).
+2026-05-06 10:55:08 [INFO]     [11] PMID 41698473 | Gastroenterology
+2026-05-06 10:55:08 [INFO]         The Intestinal Microenvironment and Disorders of Gut-Brain Interaction.
+2026-05-06 10:55:08 [INFO]     [12] PMID 41957274 | Nature reviews. Gastroenterology & hepatology
+2026-05-06 10:55:08 [INFO]         Diet-microbiome associations.
+2026-05-06 10:55:08 [INFO]     [13] PMID 40850684 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Synthetic microbial communities rescues strawberry from soil-borne disease by enhancing soil functional microbial abundance and multifunctionality.
+2026-05-06 10:55:08 [INFO]     [14] PMID 41519378 | Ophthalmology. Retina
+2026-05-06 10:55:08 [INFO]         Malabsorption Syndromes and Risk of Age-Related Macular Degeneration.
+2026-05-06 10:55:08 [INFO]     [15] PMID 41707756 | Critical reviews in oncology/hematology
+2026-05-06 10:55:08 [INFO]         Microbiome-gut-liver axis in chronic inflammation and cancer immunotherapy: Multi-omics Insights and a translational roadmap toward personalized medicine.
+2026-05-06 10:55:08 [INFO]     [16] PMID 41758690 | Clinical cancer research : an official journal of the American Association for Cancer Research
+2026-05-06 10:55:08 [INFO]         Association of Intratumoral Microbiota with Prognosis in Head and Neck Squamous Cell Carcinoma.
+2026-05-06 10:55:08 [INFO]     [17] PMID 41402129 | British journal of pharmacology
+2026-05-06 10:55:08 [INFO]         Angiotensin-(1-7) alleviates intestinal barrier dysfunction and dysbiosis in mice with polymicrobial sepsis.
+2026-05-06 10:55:08 [INFO]     [18] PMID 41707761 | Neuroscience and biobehavioral reviews
+2026-05-06 10:55:08 [INFO]         From alpha diversity to zeitgebers: Functional implications and potential mechanisms linking the gut microbiome to sleep and circadian disruption (Part II).
+2026-05-06 10:55:08 [INFO]     [19] PMID 41740635 | Critical reviews in oncology/hematology
+2026-05-06 10:55:08 [INFO]         Pharmacomicrobiomics in blood cancers: How the gut microbiome and its metabolites shape drug efficacy and toxicity.
+2026-05-06 10:55:08 [INFO]     [20] PMID 41724378 | Kidney international
+2026-05-06 10:55:08 [INFO]         Association between the gut microbiota and estimated glomerular filtration rate in two Swedish population-based cohorts.
+2026-05-06 10:55:08 [INFO]     [21] PMID 41891974 | Molecular medicine reports
+2026-05-06 10:55:08 [INFO]         Multi‑omics and their integration in psoriasis research (Review).
+2026-05-06 10:55:08 [INFO]     [22] PMID 40850681 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         The gut-tumor connection: the role of microbiota in cancer progression and treatment strategies.
+2026-05-06 10:55:08 [INFO]     [23] PMID 42011428 | The journal of allergy and clinical immunology. Global
+2026-05-06 10:55:08 [INFO]         Impact of gut microbiome, plasma metabolites, peripheral immune cells, and circulating inflammatory protein on chronic spontaneous urticaria: Bidirectional 2-sample Mendelian randomization study and mediation analysis.
+2026-05-06 10:55:08 [INFO]     [24] PMID 41974263 | Pharmacological research
+2026-05-06 10:55:08 [INFO]         Chemotherapy-induced gastrointestinal dysfunction: Mechanisms and integrative Western-Chinese medicine strategies.
+2026-05-06 10:55:08 [INFO]     [25] PMID 41724338 | Critical reviews in oncology/hematology
+2026-05-06 10:55:08 [INFO]         Immunotherapy in triple-negative breast cancer: From molecular mechanisms to precision medicine-overcoming resistance and optimizing clinical outcomes.
+2026-05-06 10:55:08 [INFO]     [26] PMID 41605131 | Microbiological research
+2026-05-06 10:55:08 [INFO]         Microbial diversity loss affects old and modern barley cultivars differently under varying nitrogen sources.
+2026-05-06 10:55:08 [INFO]     [27] PMID 41707760 | Neuroscience and biobehavioral reviews
+2026-05-06 10:55:08 [INFO]         From alpha diversity to zeitgebers: Bacterial gut microbiome associations with sleep and circadian disruption (Part I).
+2026-05-06 10:55:08 [INFO]     [28] PMID 41790338 | International journal of clinical oncology
+2026-05-06 10:55:08 [INFO]         Clinical development of molecular residual disease (MRD) and multi-cancer early detection (MCED) using liquid biopsy multiomics with artificial intelligence (AI).
+2026-05-06 10:55:08 [INFO]     [29] PMID 41674063 | International endodontic journal
+2026-05-06 10:55:08 [INFO]         Microbiome of Apical Intracanal and Extraradicular Biofilms From the Same Roots of Teeth With Persistent Apical Periodontitis: An Observational Study.
+2026-05-06 10:55:08 [INFO]     [30] PMID 41720411 | Biotechnology advances
+2026-05-06 10:55:08 [INFO]         Microbial collaboration in bioelectrochemical systems: Mechanisms and advances towards sustainable biobased products.
+2026-05-06 10:55:08 [INFO]     [31] PMID 41651131 | Brain, behavior, and immunity
+2026-05-06 10:55:08 [INFO]         The impact of adverse childhood experiences on gut microbiota and markers of inflammation is mediated by obesity and depression.
+2026-05-06 10:55:08 [INFO]     [32] PMID 41926670 | Advanced science (Weinheim, Baden-Wurttemberg, Germany)
+2026-05-06 10:55:08 [INFO]         Immune Checkpoint Inhibitors and Immunomodulators for Cancer Immunotherapy: Insights Into Resistance and Therapeutic Strategies.
+2026-05-06 10:55:08 [INFO]     [33] PMID 41709019 | Nature reviews. Gastroenterology & hepatology
+2026-05-06 10:55:08 [INFO]         The International Scientific Association for Probiotics and Prebiotics (ISAPP) consensus statement on the definition and scope of gut health.
+2026-05-06 10:55:08 [INFO]     [34] PMID 41581782 | Gastroenterology
+2026-05-06 10:55:08 [INFO]         Reconsidering the Microbiome and Maintenance Claims in Whole-Food Dietary Trials for Crohn's Disease.
+2026-05-06 10:55:08 [INFO]     [35] PMID 41638450 | Biotechnology advances
+2026-05-06 10:55:08 [INFO]         Modulation of Clostridioides difficile virulence by metabolites derived from probiotic consortia and genetically edited strains.
+2026-05-06 10:55:08 [INFO]     [36] PMID 41249624 | Nature reviews. Microbiology
+2026-05-06 10:55:08 [INFO]         Insights into infectious diseases through ancient pathogen genomics.
+2026-05-06 10:55:08 [INFO]     [37] PMID 40749791 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Regulatory mechanisms of quorum sensing in microbial communities and their potential applications in ruminant livestock production.
+2026-05-06 10:55:08 [INFO]     [38] PMID 41962630 | Molecular metabolism
+2026-05-06 10:55:08 [INFO]         Epigenetic modulation of the gut-muscle axis in pompe disease: Microbiota fingerprints to cellular and molecular pathomechanisms.
+2026-05-06 10:55:08 [INFO]     [39] PMID 41617130 | Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+2026-05-06 10:55:08 [INFO]         A multicentre evaluation of metagenomic sequencing for pathogen detection in central nervous system infections.
+2026-05-06 10:55:08 [INFO]     [40] PMID 42031439 | Gastroenterology
+2026-05-06 10:55:08 [INFO]         Sociocultural Aspects of the Pathophysiology, Clinical Presentation, and Management of Disorders of Gut-Brain Interaction.
+2026-05-06 10:55:08 [INFO]     [41] PMID 42084497 | Microbiology (Reading, England)
+2026-05-06 10:55:08 [INFO]         Characterizing microbiomes of African fermented foods in a global context.
+2026-05-06 10:55:08 [INFO]     [42] PMID 41734860 | Critical reviews in oncology/hematology
+2026-05-06 10:55:08 [INFO]         Roles of the gut microbiota in cancer immunotherapy: Mechanistic foundations and therapeutic opportunities.
+2026-05-06 10:55:08 [INFO]     [43] PMID 41935802 | Pharmacological research
+2026-05-06 10:55:08 [INFO]         Gut microbial extracellular vesicles modulate the development of metabolic dysfunction-associated steatohepatitis through the gut-liver axis.
+2026-05-06 10:55:08 [INFO]     [44] PMID 42070645 | Critical reviews in oncology/hematology
+2026-05-06 10:55:08 [INFO]         Overcoming Conditional Immune Resistance in MSS and pMMR Colorectal Cancer: A Sequential Gating Framework for Immunotherapy.
+2026-05-06 10:55:08 [INFO]     [45] PMID 41852852 | The journal of allergy and clinical immunology. Global
+2026-05-06 10:55:08 [INFO]         Dermatophagoides pteronyssinus in ambient air bioaerosols.
+2026-05-06 10:55:08 [INFO]     [46] PMID 41692350 | Biochemical pharmacology
+2026-05-06 10:55:08 [INFO]         The rare bile acid isoallolithocholic acid (IALCA) is an EphA2 antagonist sparing FXR and TGR5 receptors.
+2026-05-06 10:55:08 [INFO]     [47] PMID 41173342 | Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+2026-05-06 10:55:08 [INFO]         Laboratory innovations to diagnose invasive mould infections-what is relevant, what is not?
+2026-05-06 10:55:08 [INFO]     [48] PMID 42069481 | Trends in microbiology
+2026-05-06 10:55:08 [INFO]         Developing spore-forming gut bacteria as model organisms.
+2026-05-06 10:55:08 [INFO]     [49] PMID 42070697 | Gastroenterology
+2026-05-06 10:55:08 [INFO]         Gut microbiome interactions can predict health and disease states.
+2026-05-06 10:55:08 [INFO]     [50] PMID 42068031 | Gut microbes
+2026-05-06 10:55:08 [INFO]         Intestinal epithelial Syndecan-1 maintains mucosal homeostasis in inflammatory bowel disease by enhancing Faecalibacterium prausnitzii biofilm formation.
+2026-05-06 10:55:08 [INFO]     [51] PMID 41831475 | The Lancet. Neurology
+2026-05-06 10:55:08 [INFO]         From clinical practice to mechanistic insights in ketogenic diets for epilepsy.
+2026-05-06 10:55:08 [INFO]     [52] PMID 42063001 | Journal of translational medicine
+2026-05-06 10:55:08 [INFO]         Impact of intra-tumoral microbiome on the efficacy of neoadjuvant immunochemotherapy in patients with locally advanced oral squamous cell carcinoma.
+2026-05-06 10:55:08 [INFO]     [53] PMID 41887962 | Journal of hepatology
+2026-05-06 10:55:08 [INFO]         The limits of lifestyle in metabolic disease: How the microbiome shapes exercise response.
+2026-05-06 10:55:08 [INFO]     [54] PMID 41748753 | Nature reviews. Cancer
+2026-05-06 10:55:08 [INFO]         The intestinal microbiota as a key modulator of acute graft-versus-host disease.
+2026-05-06 10:55:08 [INFO]     [55] PMID 41725587 | Advanced science (Weinheim, Baden-Wurttemberg, Germany)
+2026-05-06 10:55:08 [INFO]         Glucuronolactone Promotes Mucin Sulfation to Alleviate Deoxynivalenol-Induced Intestinal Injury via Microbiota-Dependent and -Independent AHR Activation.
+2026-05-06 10:55:08 [INFO]     [56] PMID 41796931 | Journal of dentistry
+2026-05-06 10:55:08 [INFO]         Effects of fluoride chemical forms of sodium fluoride and monofluorophosphate on microbial viability and diversity in saliva-derived biofilms.
+2026-05-06 10:55:08 [INFO]   🚫 内容过滤排除 (20 篇):
+2026-05-06 10:55:08 [INFO]     [1] PMID 42070688 | Plant science : an international journal of experimental plant biology
+2026-05-06 10:55:08 [INFO]         Unveiling the plant growth-promoting and antifungal potential of Melissa officinalis endophytes: The integrative culture-dependent and metagenomic approaches.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:55:08 [INFO]     [2] PMID 40886826 | Journal of advanced research
+2026-05-06 10:55:08 [INFO]         Microbiome-mediated environmental adaptation in tea plants and its potential applications.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:55:08 [INFO]     [3] PMID 41780267 | Marine environmental research
+2026-05-06 10:55:08 [INFO]         Microbial communities in coastal seawater during Heterosigma akashiwo and Alexandrium catenella blooms in Chilean Patagonian fjords.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: coastal
+2026-05-06 10:55:08 [INFO]     [4] PMID 41698537 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Research on performance differences and mechanisms of sulfur-iron composite packing materials prepared from different iron sources in nitrogen and phosphorus removal from wastewater.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: wastewater
+2026-05-06 10:55:08 [INFO]     [5] PMID 41704005 | The New phytologist
+2026-05-06 10:55:08 [INFO]         Additive effects of nitrogen deficiency and water stress on reassembly of the rhizosphere microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:55:08 [INFO]     [6] PMID 41667041 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Novel pilot-scale advanced liquefaction-anaerobic digestion (ALAD) process for food waste to biogas conversion.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: sludge
+2026-05-06 10:55:08 [INFO]     [7] PMID 41866241 | Critical reviews in biotechnology
+2026-05-06 10:55:08 [INFO]         Proteomic insights into plant-endophyte interactions: advancing understanding of mutualistic symbiosis and plant resilience.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: plant
+2026-05-06 10:55:08 [INFO]     [8] PMID 42068885 | Waste management (New York, N.Y.)
+2026-05-06 10:55:08 [INFO]         Microbial community divergence and environmental responses across multi-phase landfill environments.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: soil
+2026-05-06 10:55:08 [INFO]     [9] PMID 41720311 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Self-sufficient fermentation paradigm for cassava stillage valorization into C6 carboxylic acids: regulatory mechanisms and novel microbe identification.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: wastewater
+2026-05-06 10:55:08 [INFO]     [10] PMID 41831243 | Marine environmental research
+2026-05-06 10:55:08 [INFO]         Vertical distribution pattern, preferred life strategies and environmental response of prokaryotic microbiome in the eastern tropical indian ocean.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: cyanobacteria
+2026-05-06 10:55:08 [INFO]     [11] PMID 41795395 | Marine environmental research
+2026-05-06 10:55:08 [INFO]         Ocean acidification reduces diatom and photosynthetic gene abundance on plastic in an coastal bay mesocosm experiment.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: ecosystem
+2026-05-06 10:55:08 [INFO]     [12] PMID 41797015 | Marine environmental research
+2026-05-06 10:55:08 [INFO]         Methanotrophic community structure and metabolic potential in the sulfate-methane transition zone of the ARAON mounds, Arctic Chukchi Sea.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: mound
+2026-05-06 10:55:08 [INFO]     [13] PMID 41672314 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Integration of real-time NH4+-N control and spatial microbial engineering achieves high removals of nitrogen and carbon in a sequence anoxic-oxic-anoxic (SAOA) system.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: swine
+2026-05-06 10:55:08 [INFO]     [14] PMID 42077489 | JDS communications
+2026-05-06 10:55:08 [INFO]         Breed-specific microbiomes drive differential responses to 3-nitrooxypropanol and Acacia mearnsii in dairy cows.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: rumen
+2026-05-06 10:55:08 [INFO]     [15] PMID 41771404 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Synergistic removal of methanethiol and other odorant gases by a metabolically complementary synthetic consortia isolated from food waste.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: waste
+2026-05-06 10:55:08 [INFO]     [16] PMID 42059272 | Environmental microbiology
+2026-05-06 10:55:08 [INFO]         Native Aquatic Plastispheres in a River-Wastewater Catchment: Carbapenem-Resistant Bacteria Isolation and Microscopy-Based Structural Analysis.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: wastewater
+2026-05-06 10:55:08 [INFO]     [17] PMID 41905052 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Synergistic and competitive interactions between solid carbon sources and current-driven sulfate reduction in a single-chamber microbial electrolysis cell.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: wheat
+2026-05-06 10:55:08 [INFO]     [18] PMID 42080299 | Molecular ecology
+2026-05-06 10:55:08 [INFO]         Depth Stratification Shapes Viral Diversity, Interactions, and Metabolic Potential in a Deep Freshwater Lake.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: ecosystem
+2026-05-06 10:55:08 [INFO]     [19] PMID 41931886 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Dual roles of tetracycline-degrading bacteria in pollutant detoxification and resistome reshaping under tetracycline-copper co-contamination.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: soil
+2026-05-06 10:55:08 [INFO]     [20] PMID 42085795 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Distribution patterns and driving mechanisms of antibiotic resistance genes and virulence factor genes under the urbanization gradient.
+2026-05-06 10:55:08 [INFO]         原因: 内容含排除词: soil
+2026-05-06 10:55:08 [INFO]   📵 期刊过滤排除 (124 篇):
+2026-05-06 10:55:08 [INFO]     [1] PMID 42063124 | Acta epileptologica
+2026-05-06 10:55:08 [INFO]         The kynurenine pathway storm in epilepsy: mechanisms and therapeutic implications.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Acta epileptologica
+2026-05-06 10:55:08 [INFO]     [2] PMID 41935438 | Journal of infection and public health
+2026-05-06 10:55:08 [INFO]         A case of Rickettsia felis caused pneumonia and diagnosed by clinical analysis and Targeted Next-Generation Sequencing (tNGS) using Bronchoalveolar Lavage Fluid (BALF): A case report and literature review.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of infection and public health
+2026-05-06 10:55:08 [INFO]     [3] PMID 41544718 | The Journal of nutritional biochemistry
+2026-05-06 10:55:08 [INFO]         An exploration of the breast milk nutriome, exposome and microbiome and their links to early growth in preterm infants.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of nutritional biochemistry
+2026-05-06 10:55:08 [INFO]     [4] PMID 42062664 | Biological trace element research
+2026-05-06 10:55:08 [INFO]         Selenium: From Redox Signaling to Interactions with the Gut Microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Biological trace element research
+2026-05-06 10:55:08 [INFO]     [5] PMID 41703894 | British journal of clinical pharmacology
+2026-05-06 10:55:08 [INFO]         GLP-1 agonists and the gut microbiome: A bidirectional relationship.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: British journal of clinical pharmacology
+2026-05-06 10:55:08 [INFO]     [6] PMID 42003036 | Journal of biochemical and molecular toxicology
+2026-05-06 10:55:08 [INFO]         Resveratrol as a Multi-Domain Modulator of Oxidative Stress, Gut Dysbiosis, and Epigenetic Remodeling in Obesity: A Systems Biology Interpretation.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of biochemical and molecular toxicology
+2026-05-06 10:55:08 [INFO]     [7] PMID 42062837 | Environmental microbiology
+2026-05-06 10:55:08 [INFO]         The Dairy Ruminant Gut Microbiome: Profile, Responsiveness to Seasonality and Impact on Milk Quality.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental microbiology
+2026-05-06 10:55:08 [INFO]     [8] PMID 41814894 | The New phytologist
+2026-05-06 10:55:08 [INFO]         Yang Bai.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The New phytologist
+2026-05-06 10:55:08 [INFO]     [9] PMID 41690125 | Psychoneuroendocrinology
+2026-05-06 10:55:08 [INFO]         Multimodal brain-gut-sleep phenotypes predict delirium, long-term cognitive decline, and survival after colorectal cancer surgery.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Psychoneuroendocrinology
+2026-05-06 10:55:08 [INFO]     [10] PMID 41252333 | Canadian journal of psychiatry. Revue canadienne de psychiatrie
+2026-05-06 10:55:08 [INFO]         The Canadian Network for Mood and Anxiety Treatments Task Force Recommendations for the Use of Probiotics, Prebiotics, Synbiotics, and Fecal Microbiota Transplants in Adults With Major Depressive Disorder: Recommandations du Groupe de travail du Réseau canadien pour le traitement des troubles de l'humeur et de l'anxiété (Canadian Network for Mood and Anxiety Treatments, CANMAT) concernant l'utilisation des probiotiques, des prébiotiques, des symbiotiques et de la transplantation de microbiote fécal chez les adultes atteints de trouble dépressif majeur.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Canadian journal of psychiatry. Revue canadienne de psychiatrie
+2026-05-06 10:55:08 [INFO]     [11] PMID 41631341 | Current opinion in pulmonary medicine
+2026-05-06 10:55:08 [INFO]         Rethinking pneumonia in terms of the lung microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in pulmonary medicine
+2026-05-06 10:55:08 [INFO]     [12] PMID 42068651 | Ecotoxicology and environmental safety
+2026-05-06 10:55:08 [INFO]         Heavy metals, gastrointestinal polymer-related materials, and gut microbiome in an Indo-Pacific bottlenose dolphin (Tursiops aduncus) recovered from a fisheries bycatch-related event in the East China Sea.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ecotoxicology and environmental safety
+2026-05-06 10:55:08 [INFO]     [13] PMID 42065740 | European journal of pediatrics
+2026-05-06 10:55:08 [INFO]         The gut microbiota and kawasaki disease: exploring the role of microbial dysbiosis and metabolites in pathogenesis and therapeutics.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: European journal of pediatrics
+2026-05-06 10:55:08 [INFO]     [14] PMID 41421745 | American journal of obstetrics and gynecology
+2026-05-06 10:55:08 [INFO]         Predicting neonatal infection in preterm premature rupture of membranes with vaginal microbiology and metagenomics: a prospective cohort study.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of obstetrics and gynecology
+2026-05-06 10:55:08 [INFO]     [15] PMID 42083299 | Cancer medicine
+2026-05-06 10:55:08 [INFO]         Application of Metagenomic Next-Generation Sequencing in the Diagnosis of Pneumonia in Patients With Cancer.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Cancer medicine
+2026-05-06 10:55:08 [INFO]     [16] PMID 41607234 | Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]         The gut microbiome and dietary interventions in cancer cachexia.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]     [17] PMID 42077491 | JDS communications
+2026-05-06 10:55:08 [INFO]         Effects of feeding agroindustrial byproducts on rumen fermentation and microbiome of sheep.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: JDS communications
+2026-05-06 10:55:08 [INFO]     [18] PMID 42065823 | Microbial ecology
+2026-05-06 10:55:08 [INFO]         Alteration of the Microbiome is Associated with Changes in Mating and Locomotion in Callosobruchus Maculatus.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbial ecology
+2026-05-06 10:55:08 [INFO]     [19] PMID 41679750 | BJOG : an international journal of obstetrics and gynaecology
+2026-05-06 10:55:08 [INFO]         The Influence of the Vaginal Microbiome on the Prediction and Prevention of Preterm Birth.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: BJOG : an international journal of obstetrics and gynaecology
+2026-05-06 10:55:08 [INFO]     [20] PMID 41486026 | Nutrition, metabolism, and cardiovascular diseases : NMCD
+2026-05-06 10:55:08 [INFO]         Dietary patterns and endothelium dysfunction: a literature review.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Nutrition, metabolism, and cardiovascular diseases : NMCD
+2026-05-06 10:55:08 [INFO]     [21] PMID 42066227 | Journal of natural products
+2026-05-06 10:55:08 [INFO]         The Complex Interplay between Botanical Supplements and the Human Gut Microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of natural products
+2026-05-06 10:55:08 [INFO]     [22] PMID 41868611 | Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]         The relationship between the gut microbiota and neuropsychological development and behaviour during childhood and adolescence: a systematic review of epidemiological studies.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]     [23] PMID 42089105 | PeerJ
+2026-05-06 10:55:08 [INFO]         Universes within universes: microbiome diversity associated with different body parts of the sand lizard (Lacerta agilis).
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: PeerJ
+2026-05-06 10:55:08 [INFO]     [24] PMID 42066053 | Journal of the science of food and agriculture
+2026-05-06 10:55:08 [INFO]         Beyond antimicrobial efficacy: Complex interactions of sodium benzoate, potassium sorbate, and citrate alter the rat gut microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of the science of food and agriculture
+2026-05-06 10:55:08 [INFO]     [25] PMID 41786226 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Chaotic effects in completely autotrophic nitrogen removal over nitrite process: how minor dissolved oxygen variations reshape microbial community and functional genes to drive divergent nitrogen removal.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 10:55:08 [INFO]     [26] PMID 40405394 | The Proceedings of the Nutrition Society
+2026-05-06 10:55:08 [INFO]         Healthy dietary patterns, cognition and dementia risk: current evidence and context.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Proceedings of the Nutrition Society
+2026-05-06 10:55:08 [INFO]     [27] PMID 41524491 | International journal of dermatology
+2026-05-06 10:55:08 [INFO]         Correction to "The Microbiome in Hidradenitis Suppurativa Tunnels: A Systematic Review".
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of dermatology
+2026-05-06 10:55:08 [INFO]     [28] PMID 41137522 | Journal of the science of food and agriculture
+2026-05-06 10:55:08 [INFO]         Probiotics: mechanism of action and gastrointestinal health: gut guardians: unlocking the power of probiotics.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of the science of food and agriculture
+2026-05-06 10:55:08 [INFO]     [29] PMID 41968003 | Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]
+2026-05-06 10:55:08 [INFO]         Response to letter to the editor regarding methodological refinement and microbiome-centric endpoints.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]
+2026-05-06 10:55:08 [INFO]     [30] PMID 41837494 | The New phytologist
+2026-05-06 10:55:08 [INFO]         Host-mediated rhizosphere microbiome transfer suppresses Fusarium oxysporum in banana.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The New phytologist
+2026-05-06 10:55:08 [INFO]     [31] PMID 41697847 | Drug metabolism reviews
+2026-05-06 10:55:08 [INFO]         How gut microbiota modulate anesthetic drug response and perioperative outcomes.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Drug metabolism reviews
+2026-05-06 10:55:08 [INFO]     [32] PMID 41621364 | Marine pollution bulletin
+2026-05-06 10:55:08 [INFO]         Effect of noise on the behaviour and microbiome of a common temperate estuarine fish.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Marine pollution bulletin
+2026-05-06 10:55:08 [INFO]     [33] PMID 41603371 | Journal of child neurology
+2026-05-06 10:55:08 [INFO]         Symptomatic Vitamin and Nutrient Deficiencies of Autism Spectrum Disorder and the Potential for Treatment.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of child neurology
+2026-05-06 10:55:08 [INFO]     [34] PMID 42068861 | International dental journal
+2026-05-06 10:55:08 [INFO]         Altered Salivary Microbiome and Increased Immune Markers in Mouth-Breathing Children: Implications for Oral Health.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International dental journal
+2026-05-06 10:55:08 [INFO]     [35] PMID 41576417 | Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]         Evolution of the gut microbiome in infancy: recent advances.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]     [36] PMID 41707490 | Poultry science
+2026-05-06 10:55:08 [INFO]         Sustainable antibiotic reduction in poultry production with Pulsatilla saponins and herbal supplementation.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Poultry science
+2026-05-06 10:55:08 [INFO]     [37] PMID 41981860 | Comprehensive reviews in food science and food safety
+2026-05-06 10:55:08 [INFO]         Application of Whole-Genome Sequencing and Metagenomic Sequencing in Microbial Analysis of Milk Powder and Its Processing Environment: Current Findings and Challenges.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Comprehensive reviews in food science and food safety
+2026-05-06 10:55:08 [INFO]     [38] PMID 41777157 | Journal of diabetes science and technology
+2026-05-06 10:55:08 [INFO]         Maternal Gut Microbiome as a Predictor of Insulin Therapy Requirement in Gestational Diabetes.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of diabetes science and technology
+2026-05-06 10:55:08 [INFO]     [39] PMID 41704943 | JSES reviews, reports, and techniques
+2026-05-06 10:55:08 [INFO]         Shoulder surgery preparation: a systematic review and meta-analysis.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: JSES reviews, reports, and techniques
+2026-05-06 10:55:08 [INFO]     [40] PMID 41902532 | Endocrinology, diabetes & metabolism
+2026-05-06 10:55:08 [INFO]         Gut Dysbiosis as a Shared Mechanism in Obesity and Hypertension: Exploring a Promising Therapeutic Avenue.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Endocrinology, diabetes & metabolism
+2026-05-06 10:55:08 [INFO]     [41] PMID 42065141 | Journal of medicinal food
+2026-05-06 10:55:08 [INFO]         Effects of Lactiplantibacillus Plantarum KABP051 Probiotic on Body Composition, Microbiome and Mood in Healthy Overweight Adults.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of medicinal food
+2026-05-06 10:55:08 [INFO]     [42] PMID 41993915 | Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]         Shared functional microbiome signatures in Parkinson's disease and constipation predominate irritable bowel syndrome despite taxonomic divergence.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]     [43] PMID 42079325 | Food science & nutrition
+2026-05-06 10:55:08 [INFO]         Dietary Polyphenols in Non-Communicable Chronic Diseases: Neuro-Enteric Mechanisms, Multi-Omics Biomarkers and Translational Opportunities.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food science & nutrition
+2026-05-06 10:55:08 [INFO]     [44] PMID 41337711 | Liver transplantation : official publication of the American Association for the Study of Liver Diseases and the International Liver Transplantation Society
+2026-05-06 10:55:08 [INFO]         Baseline oral microbiome associated with post-living donor liver transplant early complications within 6 months.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Liver transplantation : official publication of the American Association for the Study of Liver Diseases and the International Liver Transplantation Society
+2026-05-06 10:55:08 [INFO]     [45] PMID 41921618 | Journal of food protection
+2026-05-06 10:55:08 [INFO]         Colonization of Salmonella Newport and Microbiome Analyses of Bulb Onions Grown in Artificially Contaminated Soil at Lab-Scale Under a Controlled Environment.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of food protection
+2026-05-06 10:55:08 [INFO]     [46] PMID 41617205 | Inflammatory bowel diseases
+2026-05-06 10:55:08 [INFO]         Systematic review and meta-analysis of childhood exposure to antibiotics and the subsequent risk of IBD.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Inflammatory bowel diseases
+2026-05-06 10:55:08 [INFO]     [47] PMID 41823710 | Shock (Augusta, Ga.)
+2026-05-06 10:55:08 [INFO]         Myeloid-Derived Suppressor Cells in Sepsis: Pathophysiology, Duality, and Therapeutic Frontiers.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Shock (Augusta, Ga.)
+2026-05-06 10:55:08 [INFO]     [48] PMID 41799378 | Journal of clinical and experimental hepatology
+2026-05-06 10:55:08 [INFO]         Human Leukocyte Antigen Alleles and Oral Microbiome Association With Antibody-mediated Rejection in Living-donor Liver Transplant Patients.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of clinical and experimental hepatology
+2026-05-06 10:55:08 [INFO]     [49] PMID 41508690 | Pest management science
+2026-05-06 10:55:08 [INFO]         A multifunctional Streptomyces murinus bioinoculant integrates immune priming and microbiome restructuring for sustainable control of Sclerotinia minor in Brassica rapa.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pest management science
+2026-05-06 10:55:08 [INFO]     [50] PMID 41887904 | Journal of environmental sciences (China)
+2026-05-06 10:55:08 [INFO]         Solid waste dumping differentially impacts soil prokaryotic, fungal, and viral communities: Insights from metagenomics.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of environmental sciences (China)
+2026-05-06 10:55:08 [INFO]     [51] PMID 41633028 | Research in veterinary science
+2026-05-06 10:55:08 [INFO]         Integrating multi-omics to characterize the dynamics of rumen microorganisms and metabolites in Angus cattle at different growth stages.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Research in veterinary science
+2026-05-06 10:55:08 [INFO]     [52] PMID 41759636 | Microbial pathogenesis
+2026-05-06 10:55:08 [INFO]         Development of Mycobacterium tuberculosis post in vitro fertilization and embryo transfer: A case series derived from a multi-omics analysis and literature review.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbial pathogenesis
+2026-05-06 10:55:08 [INFO]     [53] PMID 41944837 | Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz
+2026-05-06 10:55:08 [INFO]         [Modulation of the gut microbiome for the eradication of multidrug-resistant pathogens: current approaches and perspectives].
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz
+2026-05-06 10:55:08 [INFO]     [54] PMID 42063308 | Cancer prevention research (Philadelphia, Pa.)
+2026-05-06 10:55:08 [INFO]         Localized Microbial-Immunometabolic Interactions and Early Lung Cancer.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Cancer prevention research (Philadelphia, Pa.)
+2026-05-06 10:55:08 [INFO]     [55] PMID 41655688 | Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association
+2026-05-06 10:55:08 [INFO]         Limosilactobacillus fermentum LF61: A multidimensional study on safety and functionality from genomics to clinical application.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food and chemical toxicology : an international journal published for the British Industrial Biological Research Association
+2026-05-06 10:55:08 [INFO]     [56] PMID 42051286 | Food science & nutrition
+2026-05-06 10:55:08 [INFO]         Gut-Brain Connection: Deciphering Causal Pathways Between Gut Microbiota and Neuroimaging Profiles Through Mendelian Randomization.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food science & nutrition
+2026-05-06 10:55:08 [INFO]     [57] PMID 41791635 | Acta tropica
+2026-05-06 10:55:08 [INFO]         Microbial communities and wing variation associated with ectoparasitic mites in medically important Mansonia mosquitoes (Diptera: Culicidae) from coconut plantation habitats in central Thailand.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Acta tropica
+2026-05-06 10:55:08 [INFO]     [58] PMID 41921761 | Diabetes research and clinical practice
+2026-05-06 10:55:08 [INFO]         The oral-gut microbiome axis in diabetes mellitus: a systematic review and emerging clinical perspectives.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Diabetes research and clinical practice
+2026-05-06 10:55:08 [INFO]     [59] PMID 41954023 | Diabetes/metabolism research and reviews
+2026-05-06 10:55:08 [INFO]         Intersecting Molecular Pathways in Cardiovascular Disease and Diabetes Mellitus: Emerging Roles of Inflammation and Therapeutics.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Diabetes/metabolism research and reviews
+2026-05-06 10:55:08 [INFO]     [60] PMID 42065024 | 3 Biotech
+2026-05-06 10:55:08 [INFO]         Preparation of a fermented Sargassum extract, microbial dynamics involved, and its effect on Capsicum annuum.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: 3 Biotech
+2026-05-06 10:55:08 [INFO]     [61] PMID 42004164 | 3 Biotech
+2026-05-06 10:55:08 [INFO]         Metagenomic insights into mangrove lignocellulolytic bacteria and functional analysis of a glucose-tolerant GH 1 β-glucosidase.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: 3 Biotech
+2026-05-06 10:55:08 [INFO]     [62] PMID 41875058 | American journal of physiology. Gastrointestinal and liver physiology
+2026-05-06 10:55:08 [INFO]         Improvement of glucose homeostasis during leptin treatment does not alter the intestinal microbiome in male diabetic UC Davis type-2 diabetes mellitus rats.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of physiology. Gastrointestinal and liver physiology
+2026-05-06 10:55:08 [INFO]     [63] PMID 41794620 | Aquatic toxicology (Amsterdam, Netherlands)
+2026-05-06 10:55:08 [INFO]         Corrigendum to "Environmentally relevant levels of sulfamethoxazole (SMX) alter the skin and gastrointestinal microbiome of adult male and female zebrafish (Danio rerio)" [Aquatic Toxicology, Volume 288 (2025) 107546].
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Aquatic toxicology (Amsterdam, Netherlands)
+2026-05-06 10:55:08 [INFO]     [64] PMID 41422915 | The Journal of nutritional biochemistry
+2026-05-06 10:55:08 [INFO]         Prebiotic fructan chain length influences enteric microbiota-host GABAergic signaling and intestinal motility.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of nutritional biochemistry
+2026-05-06 10:55:08 [INFO]     [65] PMID 41679348 | The Journal of steroid biochemistry and molecular biology
+2026-05-06 10:55:08 [INFO]         What can we learn from the history of steroid metabolites and the ongoing identification of novel biologically active steroid metabolites?
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of steroid biochemistry and molecular biology
+2026-05-06 10:55:08 [INFO]     [66] PMID 42014006 | International journal of biological macromolecules
+2026-05-06 10:55:08 [INFO]         Spleen metabolomics coupled with gut microbiome analysis to elucidate the immunomodulatory mechanisms of longan polysaccharides against cyclophosphamide-induced immunosuppression in mice.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of biological macromolecules
+2026-05-06 10:55:08 [INFO]     [67] PMID 41931897 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Metagenomic analysis of urban water systems uncovers the interplay between antibiotic resistance genes and microbial communities in response to PFAS contamination.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]     [68] PMID 41858134 | Human reproduction (Oxford, England)
+2026-05-06 10:55:08 [INFO]         CD138 expression in the endometrium associates with endometrial timing and inflammatory status but not microbiota composition.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Human reproduction (Oxford, England)
+2026-05-06 10:55:08 [INFO]     [69] PMID 42083785 | Experimental dermatology
+2026-05-06 10:55:08 [INFO]         Unravelling the Gut-Skin Axis in Chronic Urticaria: Dysbiosis, Metabolites and Immunological Mechanisms.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Experimental dermatology
+2026-05-06 10:55:08 [INFO]     [70] PMID 41067712 | Journal of neonatal-perinatal medicine
+2026-05-06 10:55:08 [INFO]         Does the duration of empiric antibiotic treatment influence NEC incidence and severity relative to placental pathology?
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of neonatal-perinatal medicine
+2026-05-06 10:55:08 [INFO]     [71] PMID 41759744 | Ageing research reviews
+2026-05-06 10:55:08 [INFO]         Advocating gut-retina connection and microbiota mediated pathways in management of age-related macular degeneration: Preclinical to clinical perspective.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ageing research reviews
+2026-05-06 10:55:08 [INFO]     [72] PMID 41934839 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Seafood resistome across trophic levels: Tissue patterns, drivers, and potential dietary exposure.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]     [73] PMID 41762976 | Poultry science
+2026-05-06 10:55:08 [INFO]         Lactobacillus salivarius SNK-6 improves egg quality, yolk nutrient composition, and yolk flavor profile in laying hens via modulation of tissue metabolites and Cecal microbiomes.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Poultry science
+2026-05-06 10:55:08 [INFO]     [74] PMID 42085838 | Diagnostic microbiology and infectious disease
+2026-05-06 10:55:08 [INFO]         From culture to metagenomics: A paradigm shift in diagnosing infective endocarditis.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Diagnostic microbiology and infectious disease
+2026-05-06 10:55:08 [INFO]     [75] PMID 42034408 | Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]         Trichoderma asperellum 152-42 confers resistance to Fusarium root rot in alfalfa through JA-mediated induced systemic resistance and reshaping of the rhizosphere microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]     [76] PMID 41314903 | Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]
+2026-05-06 10:55:08 [INFO]         Reevaluating rifaximin prophylaxis in severe acute pancreatitis: A call for methodological refinement and microbiome-centric endpoints.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]
+2026-05-06 10:55:08 [INFO]     [77] PMID 42065212 | Medicine
+2026-05-06 10:55:08 [INFO]         Cluster analysis of research hotspots and trends in probiotics for constipation: A comprehensive bibliometric analysis (1977-2024).
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Medicine
+2026-05-06 10:55:08 [INFO]     [78] PMID 42027687 | Biological psychiatry global open science
+2026-05-06 10:55:08 [INFO]         The Gut-Brain Axis as a Mediator of Environmental Endocrine Disruptors in Attention-Deficit/Hyperactivity Disorder: A Systematic Review and Mechanistic Synthesis.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Biological psychiatry global open science
+2026-05-06 10:55:08 [INFO]     [79] PMID 41887859 | Journal of environmental sciences (China)
+2026-05-06 10:55:08 [INFO]         Comparative assessment of novel nematicide trifluenfuronate and fosthiazate on soil ecosystem: From microbial community structure to KEGG functional pathways.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of environmental sciences (China)
+2026-05-06 10:55:08 [INFO]     [80] PMID 41793899 | International journal of hygiene and environmental health
+2026-05-06 10:55:08 [INFO]         Indoor airborne bacterial communities and adult lung health: A cross-sectional study.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of hygiene and environmental health
+2026-05-06 10:55:08 [INFO]     [81] PMID 42067590 | Scientific reports
+2026-05-06 10:55:08 [INFO]         Metagenomic detection of novel bacterial combinations associated with citrus decline in Iraq.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 10:55:08 [INFO]     [82] PMID 41707775 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Capacitive bimetallic redox cycles and ligand-to-metal charge transfer to Boost denitrification with NiII/FeII-Gallic acid phenolic networks.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 10:55:08 [INFO]     [83] PMID 41732740 | Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]         Autism and the gut metabolome: Evidence for altered short-chain fatty acid profiles from a systematic review and meta-analysis.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Brain, behavior, & immunity - health
+2026-05-06 10:55:08 [INFO]     [84] PMID 41352665 | American journal of obstetrics and gynecology
+2026-05-06 10:55:08 [INFO]         Effect of hyperosmolal lubricant on vaginal microbiome during transvaginal ultrasound.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of obstetrics and gynecology
+2026-05-06 10:55:08 [INFO]     [85] PMID 41795412 | Ultrasonics sonochemistry
+2026-05-06 10:55:08 [INFO]         Docynia delavayi (Franch.) Schneid polyphenols: Optimization of ultrasound-assisted extraction and bioactivity study.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ultrasonics sonochemistry
+2026-05-06 10:55:08 [INFO]     [86] PMID 41349815 | Journal of dairy science
+2026-05-06 10:55:08 [INFO]         Resveratrol ameliorates early-weaning stressed calves via alterations in gut microbiome and metabolome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of dairy science
+2026-05-06 10:55:08 [INFO]     [87] PMID 41635070 | Journal of forensic sciences
+2026-05-06 10:55:08 [INFO]         Development of real-time PCR and droplet digital PCR assays for the simultaneous quantification of bacterial and human mitochondrial DNA for forensic analysis.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of forensic sciences
+2026-05-06 10:55:08 [INFO]     [88] PMID 41707838 | The Journal of steroid biochemistry and molecular biology
+2026-05-06 10:55:08 [INFO]         Estrobolome: Is there a missing link?
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of steroid biochemistry and molecular biology
+2026-05-06 10:55:08 [INFO]     [89] PMID 42034448 | Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]         Paenibacillus polymyxa EP-4 can effectively control southern corn leaf blight and affect the selectivity of Spodoptera frugiperda to corn.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]     [90] PMID 41771407 | Bioresource technology
+2026-05-06 10:55:08 [INFO]         Evidence for Propioniciclava as a novel polyphosphate-accumulating organism and construction of its metabolic profile.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 10:55:08 [INFO]     [91] PMID 41546197 | Pest management science
+2026-05-06 10:55:08 [INFO]         Low-dose undecanone from Stenotrophomonas maltophilia suppresses Astragalus root rot and shapes the rhizosphere bacterial microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pest management science
+2026-05-06 10:55:08 [INFO]     [92] PMID 41980282 | Ecotoxicology and environmental safety
+2026-05-06 10:55:08 [INFO]         Environmental concentration of chlorantraniliprole induces dysbiosis of gut microbiota and metabolism in crayfish (Procambarus clarkii).
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ecotoxicology and environmental safety
+2026-05-06 10:55:08 [INFO]     [93] PMID 41905051 | Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]         Sex-specific gut microbiota dysbiosis and intergenerational effects of florfenicol in Tigriopus japonicus: Maternal-only or biparental contributions?
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of hazardous materials
+2026-05-06 10:55:08 [INFO]     [94] PMID 41685543 | Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc
+2026-05-06 10:55:08 [INFO]         Discovery of a novel bandavirus using metagenomic sequencing in a retrospective analysis of an unresolved 2020 mortality event involving wild black vultures in the northeastern United States.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc
+2026-05-06 10:55:08 [INFO]     [95] PMID 40329736 | The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association
+2026-05-06 10:55:08 [INFO]         Association Between Oral Microbiome in Children Undergoing Palatoplasty and Surgical Site Infection.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Cleft palate-craniofacial journal : official publication of the American Cleft Palate-Craniofacial Association
+2026-05-06 10:55:08 [INFO]     [96] PMID 42056742 | Life sciences in space research
+2026-05-06 10:55:08 [INFO]         Active responses of cyanobacterial crusts directly exposed to the extreme stratospheric environment.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Life sciences in space research
+2026-05-06 10:55:08 [INFO]     [97] PMID 42034426 | Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]         Antibiotic resistance gene profiles in the gut microbiomes of Apis cerana, Apis mellifera, and Bombus terrestris.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pesticide biochemistry and physiology
+2026-05-06 10:55:08 [INFO]     [98] PMID 42081188 | American journal of reproductive immunology (New York, N.Y. : 1989)
+2026-05-06 10:55:08 [INFO]         Assessing the Impact of Female Genital Mutilation/Cutting on Genital Inflammation and Microbiota Among Kenyan Female Sex Workers.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of reproductive immunology (New York, N.Y. : 1989)
+2026-05-06 10:55:08 [INFO]     [99] PMID 41856032 | International journal of pediatric otorhinolaryngology
+2026-05-06 10:55:08 [INFO]         Characterizing the microbiome of the middle ear using 16S RNA sequencing in pediatric patients with and without middle ear effusions requiring ventilation tubes.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of pediatric otorhinolaryngology
+2026-05-06 10:55:08 [INFO]     [100] PMID 41671698 | Marine pollution bulletin
+2026-05-06 10:55:08 [INFO]         Toxicological responses of Litopenaeus vannamei to short-term ferric chloride exposure: implications for histopathology, oxidative stress, and intestinal microbiota.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Marine pollution bulletin
+2026-05-06 10:55:08 [INFO]     [101] PMID 42070604 | International journal of biological macromolecules
+2026-05-06 10:55:08 [INFO]         Integrated microbiome and untargeted metabolomics analyses reveal the mechanism by which Haematococcus pluvialis polysaccharide alleviates obesity.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of biological macromolecules
+2026-05-06 10:55:08 [INFO]     [102] PMID 41707491 | Poultry science
+2026-05-06 10:55:08 [INFO]         The impact of polystyrene nanoplastics on the chicken gut and liver: Based on transcriptomics and microbiomics.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Poultry science
+2026-05-06 10:55:08 [INFO]     [103] PMID 42049453 | In vivo (Athens, Greece)
+2026-05-06 10:55:08 [INFO]         Effects of a Greek Yoghurt-based Complex on the Human Facial Skin Microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: In vivo (Athens, Greece)
+2026-05-06 10:55:08 [INFO]     [104] PMID 42078675 | Ecology and evolution
+2026-05-06 10:55:08 [INFO]         Composition and Diversity Characteristics of Gut Microbiota during the Development of Telchinia issoria (Lepidoptera: Nymphalidae).
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ecology and evolution
+2026-05-06 10:55:08 [INFO]     [105] PMID 41691804 | Poultry science
+2026-05-06 10:55:08 [INFO]         Integrated omics analysis reveals the age-dependent dynamic changes of gut microbiota and metabolites in layer chickens.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Poultry science
+2026-05-06 10:55:08 [INFO]     [106] PMID 42068645 | Clinics (Sao Paulo, Brazil)
+2026-05-06 10:55:08 [INFO]         Genetically predicted TTK inhibition and its association with reduced breast cancer risk: a two-step Mendelian randomization study of potential gut microbiome mediation.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Clinics (Sao Paulo, Brazil)
+2026-05-06 10:55:08 [INFO]     [107] PMID 40936458 | Journal of biomolecular structure & dynamics
+2026-05-06 10:55:08 [INFO]         Exploring the novel protein drug target BAG33339.1 of Porphyromonas gingivalis: an integrative subtractive proteomics and structural dynamics study.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of biomolecular structure & dynamics
+2026-05-06 10:55:08 [INFO]     [108] PMID 41364072 | Journal of orthopaedic trauma
+2026-05-06 10:55:08 [INFO]         A Possible Treatment for Fragility Fractures of the Pelvis? The Impact of Probiotic Treatment on Pelvic Bone Microstructure and Strength in Osteoporotic Rats.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of orthopaedic trauma
+2026-05-06 10:55:08 [INFO]     [109] PMID 41865725 | Ultrasonics sonochemistry
+2026-05-06 10:55:08 [INFO]         Ultrasound-assisted extraction optimization of Fructus Tribuli polysaccharides: How stir-frying processing alters structures and enhances antihypertensive efficacy.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ultrasonics sonochemistry
+2026-05-06 10:55:08 [INFO]     [110] PMID 41912342 | Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]         Targeting muscle, mitochondria, and microbiome: nutritional and exercise strategies across wasting diseases and conditions.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in clinical nutrition and metabolic care
+2026-05-06 10:55:08 [INFO]     [111] PMID 42064023 | Food science & nutrition
+2026-05-06 10:55:08 [INFO]         Sources of Microbial and Organic Contaminants in the Production of Soybean Whey Protein for Feed and Potential Food Applications.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food science & nutrition
+2026-05-06 10:55:08 [INFO]     [112] PMID 41603859 | Journal of biomolecular structure & dynamics
+2026-05-06 10:55:08 [INFO]         Computational design of carbohydrate binding modules-fused PETase like enzyme for enhanced polycaprolactone (PCL) degradation: structural insights, molecular dynamics, and QM/MM simulations.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of biomolecular structure & dynamics
+2026-05-06 10:55:08 [INFO]     [113] PMID 41973071 | Veterinary medicine and science
+2026-05-06 10:55:08 [INFO]         Comparative Analysis of Gut Microbiota Among Captive Waterbird Species: Effects of Diet and Environmental Factors.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Veterinary medicine and science
+2026-05-06 10:55:08 [INFO]     [114] PMID 41905017 | Veterinary microbiology
+2026-05-06 10:55:08 [INFO]         A phage cocktail targeting multiple receptors reduces Salmonella Enteritidis colonization in chicks and modulates the cecal microbiome.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Veterinary microbiology
+2026-05-06 10:55:08 [INFO]     [115] PMID 41762172 | Experimental physiology
+2026-05-06 10:55:08 [INFO]         Psychobiotics and the microbiota-gut-brain axis: Emerging paradigms in mental health modulation.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Experimental physiology
+2026-05-06 10:55:08 [INFO]     [116] PMID 41764980 | Virology
+2026-05-06 10:55:08 [INFO]         Genome characterization and evolutionary analysis of a novel Anativirus from a wild Muscovy duck in Guangdong, China.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Virology
+2026-05-06 10:55:08 [INFO]     [117] PMID 41993062 | Journal of oral biology and craniofacial research
+2026-05-06 10:55:08 [INFO]         Fractionated ethanolic red ginger extract as antibacterial agent against Aggregatibacter actinomycetemcommitans and Porphyromonas gingivalis: In silico and in vitro studies.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of oral biology and craniofacial research
+2026-05-06 10:55:08 [INFO]     [118] PMID 41786560 | The Veterinary clinics of North America. Small animal practice
+2026-05-06 10:55:08 [INFO]         Bidirectional Communication: The Gut-Brain Axis in Companion Animal Health.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Veterinary clinics of North America. Small animal practice
+2026-05-06 10:55:08 [INFO]     [119] PMID 41910593 | Pancreas
+2026-05-06 10:55:08 [INFO]         Whole Metagenomic Profiling Identifies a Gut Microbial Signature for Chronic Pancreatitis via Machine Learning.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pancreas
+2026-05-06 10:55:08 [INFO]     [120] PMID 41780872 | Journal of dairy science
+2026-05-06 10:55:08 [INFO]         Evaluation of bioprotective starter culture and aging temperature on gas formation by Paucilactobacillus wasatchensis in Gouda cheese using computed tomography imaging.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of dairy science
+2026-05-06 10:55:08 [INFO]     [121] PMID 41549467 | Sports health
+2026-05-06 10:55:08 [INFO]         Metabolic Optimization Before Orthobiologic Therapies (MOBOT): A Narrative Review.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Sports health
+2026-05-06 10:55:08 [INFO]     [122] PMID 42083117 | Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland
+2026-05-06 10:55:08 [INFO]         Modulation of the gut microbiota as a novel strategy to prevent anastomotic leak after colorectal surgery: Systematic scoping review.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland
+2026-05-06 10:55:08 [INFO]     [123] PMID 41766653 | Journal of hypertension
+2026-05-06 10:55:08 [INFO]         Effects and mechanisms of probiotics supplement on hypertension.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of hypertension
+2026-05-06 10:55:08 [INFO]     [124] PMID 41819291 | Journal of microbiological methods
+2026-05-06 10:55:08 [INFO]         MobiRes: An integrative pipeline for resistome risk prediction through mobilome profiling.
+2026-05-06 10:55:08 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of microbiological methods
+2026-05-06 10:55:08 [INFO] ================================================================================
+2026-05-06 10:55:08 [INFO] 
+2026-05-06 10:55:09 [INFO] 已保存 56 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-01.json
+2026-05-06 10:55:09 [INFO] Step 2: AI 摘要生成
+2026-05-06 10:55:09 [INFO] 共需处理 1 个文件
+2026-05-06 10:55:09 [INFO] 处理: 2026-05-01.json
+2026-05-06 10:55:09 [INFO]   [1/56] PMID 41238755 | The gut microbiome shapes social behaviour across animal spe
+2026-05-06 10:55:17 [INFO]   [2/56] PMID 40812586 | Gut microbiota and metabolite signatures predict severe immu
+2026-05-06 10:55:25 [INFO]   [3/56] PMID 41197738 | Periorificial dermatitis: Pathophysiology, diagnosis, and ma
+2026-05-06 10:55:32 [INFO]   [4/56] PMID 41108124 | Oral Microbial Determinants of Saliva and Serum Lipopolysacc
+2026-05-06 10:55:38 [INFO]   [5/56] PMID 41922110 | Aspirin reprograms platelet signaling and the intrahepatic m
+2026-05-06 10:55:47 [INFO]   [6/56] PMID 42067956 | Association of Fontan Circulation With Gut Microbiome Derive
+2026-05-06 10:55:55 [INFO]   [7/56] PMID 42068047 | The gut microbiome-bile acid-FXR interplay: a pivotal axis i
+2026-05-06 10:56:01 [INFO]   [8/56] PMID 40816352 | Refining antibiotic cocktail regimens for pseudo-germ-free m
+2026-05-06 10:56:07 [INFO]   [9/56] PMID 40812589 | Microbiome-metabolome generated bile acids gatekeep inflixim
+2026-05-06 10:56:15 [INFO]   [10/56] PMID 41985330 | Multi-strain probiotic enhances metformin tolerance by modul
+2026-05-06 10:56:30 [INFO]   [11/56] PMID 41698473 | The Intestinal Microenvironment and Disorders of Gut-Brain I
+2026-05-06 10:56:39 [INFO]   [12/56] PMID 41957274 | Diet-microbiome associations.
+2026-05-06 10:56:45 [INFO]   [13/56] PMID 40850684 | Synthetic microbial communities rescues strawberry from soil
+2026-05-06 10:56:54 [INFO]   [14/56] PMID 41519378 | Malabsorption Syndromes and Risk of Age-Related Macular Dege
+2026-05-06 10:57:08 [WARNING] LLM 返回 JSON 解析失败: Unterminated string starting at: line 3 column 17 (char 89)
+2026-05-06 10:57:10 [INFO]   [15/56] PMID 41707756 | Microbiome-gut-liver axis in chronic inflammation and cancer
+2026-05-06 10:57:20 [INFO]   [16/56] PMID 41758690 | Association of Intratumoral Microbiota with Prognosis in Hea
+2026-05-06 10:57:30 [INFO]   [17/56] PMID 41402129 | Angiotensin-(1-7) alleviates intestinal barrier dysfunction 
+2026-05-06 10:57:42 [INFO]   [18/56] PMID 41707761 | From alpha diversity to zeitgebers: Functional implications 
+2026-05-06 10:57:52 [INFO]   [19/56] PMID 41740635 | Pharmacomicrobiomics in blood cancers: How the gut microbiom
+2026-05-06 10:58:00 [INFO]   [20/56] PMID 41724378 | Association between the gut microbiota and estimated glomeru
+2026-05-06 10:58:10 [INFO]   [21/56] PMID 41891974 | Multi‑omics and their integration in psoriasis research (Rev
+2026-05-06 10:58:21 [INFO]   [22/56] PMID 40850681 | The gut-tumor connection: the role of microbiota in cancer p
+2026-05-06 10:58:28 [INFO]   [23/56] PMID 42011428 | Impact of gut microbiome, plasma metabolites, peripheral imm
+2026-05-06 10:58:37 [INFO]   [24/56] PMID 41974263 | Chemotherapy-induced gastrointestinal dysfunction: Mechanism
+2026-05-06 10:58:48 [INFO]   [25/56] PMID 41724338 | Immunotherapy in triple-negative breast cancer: From molecul
+2026-05-06 10:59:00 [INFO]   [26/56] PMID 41605131 | Microbial diversity loss affects old and modern barley culti
+2026-05-06 10:59:07 [INFO]   [27/56] PMID 41707760 | From alpha diversity to zeitgebers: Bacterial gut microbiome
+2026-05-06 10:59:18 [INFO]   [28/56] PMID 41790338 | Clinical development of molecular residual disease (MRD) and
+2026-05-06 10:59:25 [INFO]   [29/56] PMID 41674063 | Microbiome of Apical Intracanal and Extraradicular Biofilms 
+2026-05-06 10:59:36 [INFO]   [30/56] PMID 41720411 | Microbial collaboration in bioelectrochemical systems: Mecha
+2026-05-06 10:59:42 [INFO]   [31/56] PMID 41651131 | The impact of adverse childhood experiences on gut microbiot
+2026-05-06 10:59:50 [INFO]   [32/56] PMID 41926670 | Immune Checkpoint Inhibitors and Immunomodulators for Cancer
+2026-05-06 10:59:55 [INFO]   [33/56] PMID 41709019 | The International Scientific Association for Probiotics and 
+2026-05-06 11:00:01 [INFO]   [34/56] PMID 41581782 | Reconsidering the Microbiome and Maintenance Claims in Whole
+2026-05-06 11:00:09 [INFO]   [35/56] PMID 41638450 | Modulation of Clostridioides difficile virulence by metaboli
+2026-05-06 11:00:20 [INFO]   [36/56] PMID 41249624 | Insights into infectious diseases through ancient pathogen g
+2026-05-06 11:00:35 [INFO]   [37/56] PMID 40749791 | Regulatory mechanisms of quorum sensing in microbial communi
+2026-05-06 11:00:42 [INFO]   [38/56] PMID 41962630 | Epigenetic modulation of the gut-muscle axis in pompe diseas
+2026-05-06 11:00:49 [INFO]   [39/56] PMID 41617130 | A multicentre evaluation of metagenomic sequencing for patho
+2026-05-06 11:00:59 [INFO]   [40/56] PMID 42031439 | Sociocultural Aspects of the Pathophysiology, Clinical Prese
+2026-05-06 11:01:05 [INFO]   [41/56] PMID 42084497 | Characterizing microbiomes of African fermented foods in a g
+2026-05-06 11:01:16 [INFO]   [42/56] PMID 41734860 | Roles of the gut microbiota in cancer immunotherapy: Mechani
+2026-05-06 11:01:25 [INFO]   [43/56] PMID 41935802 | Gut microbial extracellular vesicles modulate the developmen
+2026-05-06 11:01:36 [INFO]   [44/56] PMID 42070645 | Overcoming Conditional Immune Resistance in MSS and pMMR Col
+2026-05-06 11:01:43 [INFO]   [45/56] PMID 41852852 | Dermatophagoides pteronyssinus in ambient air bioaerosols.
+2026-05-06 11:01:56 [INFO]   [46/56] PMID 41692350 | The rare bile acid isoallolithocholic acid (IALCA) is an Eph
+2026-05-06 11:02:05 [INFO]   [47/56] PMID 41173342 | Laboratory innovations to diagnose invasive mould infections
+2026-05-06 11:02:13 [INFO]   [48/56] PMID 42069481 | Developing spore-forming gut bacteria as model organisms.
+2026-05-06 11:02:22 [INFO]   [49/56] PMID 42070697 | Gut microbiome interactions can predict health and disease s
+2026-05-06 11:02:30 [INFO]   [50/56] PMID 42068031 | Intestinal epithelial Syndecan-1 maintains mucosal homeostas
+2026-05-06 11:02:38 [INFO]   [51/56] PMID 41831475 | From clinical practice to mechanistic insights in ketogenic 
+2026-05-06 11:02:48 [INFO]   [52/56] PMID 42063001 | Impact of intra-tumoral microbiome on the efficacy of neoadj
+2026-05-06 11:02:54 [INFO]   [53/56] PMID 41887962 | The limits of lifestyle in metabolic disease: How the microb
+2026-05-06 11:03:02 [INFO]   [54/56] PMID 41748753 | The intestinal microbiota as a key modulator of acute graft-
+2026-05-06 11:03:17 [WARNING] LLM 返回 JSON 解析失败: Expecting ',' delimiter: line 7 column 23 (char 211)
+2026-05-06 11:03:18 [INFO]   [55/56] PMID 41725587 | Glucuronolactone Promotes Mucin Sulfation to Alleviate Deoxy
+2026-05-06 11:03:28 [INFO]   [56/56] PMID 41796931 | Effects of fluoride chemical forms of sodium fluoride and mo
+2026-05-06 11:03:40 [INFO]   ✓ 已更新 2026-05-01.json（56 篇）
+2026-05-06 11:03:40 [INFO] 
+==================================================
+2026-05-06 11:03:40 [INFO] 开始抓取 2026-05-02 的论文
+2026-05-06 11:03:40 [INFO] ==================================================
+2026-05-06 11:03:40 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 11:03:40 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 11:03:40 [INFO] 已有 65 篇文献记录，不再重复检索
+2026-05-06 11:03:40 [INFO] 正在搜索 2026/05/02 的新论文...
+2026-05-06 11:03:40 [INFO] 搜索到 25 篇 PMID
+2026-05-06 11:03:40 [INFO]   其中新增 25 篇（过滤已有 0 篇）
+2026-05-06 11:03:41 [INFO]   内容过滤: 排除 1 篇，保留 24 篇
+2026-05-06 11:03:41 [INFO]   期刊过滤: 排除 21 篇，保留 3 篇
+2026-05-06 11:03:41 [INFO] 
+2026-05-06 11:03:41 [INFO] ================================================================================
+2026-05-06 11:03:41 [INFO]   📋 本次搜索论文汇总（共 25 篇）
+2026-05-06 11:03:41 [INFO] ================================================================================
+2026-05-06 11:03:41 [INFO]   ✅ 已收录 (3 篇):
+2026-05-06 11:03:41 [INFO]     [1] PMID 42069868 | The EMBO journal
+2026-05-06 11:03:41 [INFO]         Antibiotic-induced gut microbiome dysbiosis: risks and strategies for mitigation.
+2026-05-06 11:03:41 [INFO]     [2] PMID 42069657 | Breast cancer research : BCR
+2026-05-06 11:03:41 [INFO]         Gut microbiome modulates breast cancer risk in socially isolated mice.
+2026-05-06 11:03:41 [INFO]     [3] PMID 42067885 | Microbiome
+2026-05-06 11:03:41 [INFO]         Streptomyces-induced Glycerol-3-Phosphate enriches beneficial microbiota to enhance resistance against banana Fusarium wilt.
+2026-05-06 11:03:41 [INFO]   🚫 内容过滤排除 (1 篇):
+2026-05-06 11:03:41 [INFO]     [1] PMID 42069621 | Microbiome
+2026-05-06 11:03:41 [INFO]         RNA-seq sheds light on "who is doing what" in the coral Porites lutea.
+2026-05-06 11:03:41 [INFO]         原因: 内容含排除词: sulfur
+2026-05-06 11:03:41 [INFO]   📵 期刊过滤排除 (21 篇):
+2026-05-06 11:03:41 [INFO]     [1] PMID 41747440 | International journal of food microbiology
+2026-05-06 11:03:41 [INFO]         Honey-associated microorganisms and antimicrobial activity: Probiotic, synbiotic, and postbiotic properties.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of food microbiology
+2026-05-06 11:03:41 [INFO]     [2] PMID 42082030 | Bioresource technology
+2026-05-06 11:03:41 [INFO]         Achieving nitrogen removal in the integrated upper fixed-biofilm activated sludge reactor without recirculation: Differential protein and metagenomic analysis.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 11:03:41 [INFO]     [3] PMID 42082125 | Developmental and comparative immunology
+2026-05-06 11:03:41 [INFO]         Between Host and Parasite: The Microbiome of Varroa destructor and Its Relationship with Honey Bees.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Developmental and comparative immunology
+2026-05-06 11:03:41 [INFO]     [4] PMID 42069663 | Environmental microbiome
+2026-05-06 11:03:41 [INFO]         Legacy effects of cover cropping and crop phase on soybean health and associated rhizosphere microbiome in corn-soybean rotation.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental microbiome
+2026-05-06 11:03:41 [INFO]     [5] PMID 42069941 | Current microbiology
+2026-05-06 11:03:41 [INFO]         Parabiotics as Next-Generation Microbiome Therapeutics: Insights into Mechanisms, Evidence, and Therapeutic Potential.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current microbiology
+2026-05-06 11:03:41 [INFO]     [6] PMID 42070004 | Current microbiology
+2026-05-06 11:03:41 [INFO]         Medicinal Plants and the Gastrointestinal Microbiota in Chronic Diseases Modulation: A Structured Mechanistic and Translational Review.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current microbiology
+2026-05-06 11:03:41 [INFO]     [7] PMID 42082029 | Bioresource technology
+2026-05-06 11:03:41 [INFO]         Antibiotics removal and nutrient transformation in constructed wetlands using novel aluminum Sludge-Derived Substrates.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 11:03:41 [INFO]     [8] PMID 41722523 | International journal of food microbiology
+2026-05-06 11:03:41 [INFO]         Comprehensive analysis of spoilage characteristics of refrigerated hairtail by microbiome and metabolomics.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of food microbiology
+2026-05-06 11:03:41 [INFO]     [9] PMID 42069539 | BMC genomics
+2026-05-06 11:03:41 [INFO]         Genome-resolved metagenomics reveals unexpected diversity and host range of Candidatus Lariskella (Rickettsiales: Midichloriaceae).
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC genomics
+2026-05-06 11:03:41 [INFO]     [10] PMID 41707423 | International journal of food microbiology
+2026-05-06 11:03:41 [INFO]         Characterization of microbial diversity, chemical hazards and antimicrobial resistant bacteria in wash water from a fresh-cut vegetable processing plant.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of food microbiology
+2026-05-06 11:03:41 [INFO]     [11] PMID 42067720 | Molecular genetics and genomics : MGG
+2026-05-06 11:03:41 [INFO]         Neuroprotective role of Curcuma amada evidenced from pesticide-induced stressed Drosophila melanogaster: insights from RNAseq and gut microbiome analyses.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Molecular genetics and genomics : MGG
+2026-05-06 11:03:41 [INFO]     [12] PMID 42068426 | World journal of microbiology & biotechnology
+2026-05-06 11:03:41 [INFO]         Gut microbiota and growth differentiation in koi carp with identification of a growth promoting Exiguobacterium sp. strain WY(Y)3.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: World journal of microbiology & biotechnology
+2026-05-06 11:03:41 [INFO]     [13] PMID 42069543 | BMC microbiology
+2026-05-06 11:03:41 [INFO]         Multi-omics analysis reveals circadian disruption of rumen microbiota and serum metabolites in Tibetan sheep under transport stress.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC microbiology
+2026-05-06 11:03:41 [INFO]     [14] PMID 42068399 | World journal of microbiology & biotechnology
+2026-05-06 11:03:41 [INFO]         Anaerobic digestate fertilization reshapes the rhizosphere bacterial communities of Lolium perenne L. at compositional and predicted functional potential levels.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: World journal of microbiology & biotechnology
+2026-05-06 11:03:41 [INFO]     [15] PMID 42082028 | Bioresource technology
+2026-05-06 11:03:41 [INFO]         Deciphering the impact of chlortetracycline on methanogenesis, microbial properties and antibiotic resistance genes in an anaerobic ceramic membrane bioreactor treating swine wastewater.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioresource technology
+2026-05-06 11:03:41 [INFO]     [16] PMID 42069617 | Parasites & vectors
+2026-05-06 11:03:41 [INFO]         The gut metabolite arachidonic acid alleviates intestinal injury induced by a Toxoplasma gondii strain isolated from a wild rodent.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Parasites & vectors
+2026-05-06 11:03:41 [INFO]     [17] PMID 42069521 | BMC microbiology
+2026-05-06 11:03:41 [INFO]         Urobiome composition after renal transplantation: an exploratory study.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC microbiology
+2026-05-06 11:03:41 [INFO]     [18] PMID 42081609 | Reproduction (Cambridge, England)
+2026-05-06 11:03:41 [INFO]         N- Carbamoylglutamate enhances bull spermatogenesis via Paraprevotella-Mediated vitamin B6 biosynthesis in rumen microbiota.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Reproduction (Cambridge, England)
+2026-05-06 11:03:41 [INFO]     [19] PMID 42081950 | The Journal of hospital infection
+2026-05-06 11:03:41 [INFO]         What grows in the sink splash zone.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of hospital infection
+2026-05-06 11:03:41 [INFO]     [20] PMID 42069629 | Gut pathogens
+2026-05-06 11:03:41 [INFO]         Fungi and colorectal cancer: from dysregulation to clinical translation.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Gut pathogens
+2026-05-06 11:03:41 [INFO]     [21] PMID 42082045 | Environmental pollution (Barking, Essex : 1987)
+2026-05-06 11:03:41 [INFO]         Unveiling the interactions of 8:2 fluorotelomer sulfonic acid (8:2 FTSA) with the earthworm-microbe symbiosis in soil.
+2026-05-06 11:03:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental pollution (Barking, Essex : 1987)
+2026-05-06 11:03:41 [INFO] ================================================================================
+2026-05-06 11:03:41 [INFO] 
+2026-05-06 11:03:42 [INFO] 已保存 3 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-02.json
+2026-05-06 11:03:42 [INFO] Step 2: AI 摘要生成
+2026-05-06 11:03:42 [INFO] 共需处理 1 个文件
+2026-05-06 11:03:42 [INFO] 处理: 2026-05-02.json
+2026-05-06 11:03:42 [INFO]   [1/3] PMID 42069868 | Antibiotic-induced gut microbiome dysbiosis: risks and strat
+2026-05-06 11:03:47 [INFO]   [2/3] PMID 42069657 | Gut microbiome modulates breast cancer risk in socially isol
+2026-05-06 11:03:57 [INFO]   [3/3] PMID 42067885 | Streptomyces-induced Glycerol-3-Phosphate enriches beneficia
+2026-05-06 11:04:06 [INFO]   ✓ 已更新 2026-05-02.json（3 篇）
+2026-05-06 11:04:06 [INFO] 
+==================================================
+2026-05-06 11:04:06 [INFO] 开始抓取 2026-05-03 的论文
+2026-05-06 11:04:06 [INFO] ==================================================
+2026-05-06 11:04:06 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 11:04:06 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 11:04:06 [INFO] 已有 68 篇文献记录，不再重复检索
+2026-05-06 11:04:06 [INFO] 正在搜索 2026/05/03 的新论文...
+2026-05-06 11:04:06 [INFO] 搜索到 5 篇 PMID
+2026-05-06 11:04:06 [INFO]   其中新增 5 篇（过滤已有 0 篇）
+2026-05-06 11:04:07 [INFO]   内容过滤: 排除 2 篇，保留 3 篇
+2026-05-06 11:04:07 [INFO]   期刊过滤: 排除 2 篇，保留 1 篇
+2026-05-06 11:04:07 [INFO] 
+2026-05-06 11:04:07 [INFO] ================================================================================
+2026-05-06 11:04:07 [INFO]   📋 本次搜索论文汇总（共 5 篇）
+2026-05-06 11:04:07 [INFO] ================================================================================
+2026-05-06 11:04:07 [INFO]   ✅ 已收录 (1 篇):
+2026-05-06 11:04:07 [INFO]     [1] PMID 42070114 | Gut microbes
+2026-05-06 11:04:07 [INFO]         Lactic acid bacteria and endogenous ethanol mediate proton pump inhibitor-associated MASLD: a multicohort cross-sectional mediation analysis.
+2026-05-06 11:04:07 [INFO]   🚫 内容过滤排除 (2 篇):
+2026-05-06 11:04:07 [INFO]     [1] PMID 42070584 | Journal of environmental science and health. Part. B, Pesticides, food contaminants, and agricultural wastes
+2026-05-06 11:04:07 [INFO]         Pesticides and the microbial world: a review of disturbance, resilience, and the road to recovery.
+2026-05-06 11:04:07 [INFO]         原因: 内容含排除词: soil
+2026-05-06 11:04:07 [INFO]     [2] PMID 42076857 | The New phytologist
+2026-05-06 11:04:07 [INFO]         Phosphorus fertilizer forms orchestrate contrasting plant-microbe recruitment strategies in the rhizosphere of field grown wheat.
+2026-05-06 11:04:07 [INFO]         原因: 内容含排除词: plant
+2026-05-06 11:04:07 [INFO]   📵 期刊过滤排除 (2 篇):
+2026-05-06 11:04:07 [INFO]     [1] PMID 42076832 | The New phytologist
+2026-05-06 11:04:07 [INFO]         Pseudomonas volatiles shape the root transcriptome and microbiome to promote plant growth under drought.
+2026-05-06 11:04:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: The New phytologist
+2026-05-06 11:04:07 [INFO]     [2] PMID 42057295 | Bioinformatics (Oxford, England)
+2026-05-06 11:04:07 [INFO]         nf-core/viralmetagenome: A novel pipeline for untargeted viral genome reconstruction.
+2026-05-06 11:04:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Bioinformatics (Oxford, England)
+2026-05-06 11:04:07 [INFO] ================================================================================
+2026-05-06 11:04:07 [INFO] 
+2026-05-06 11:04:08 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-03.json
+2026-05-06 11:04:08 [INFO] Step 2: AI 摘要生成
+2026-05-06 11:04:08 [INFO] 共需处理 1 个文件
+2026-05-06 11:04:08 [INFO] 处理: 2026-05-03.json
+2026-05-06 11:04:08 [INFO]   [1/1] PMID 42070114 | Lactic acid bacteria and endogenous ethanol mediate proton p
+2026-05-06 11:04:21 [INFO]   ✓ 已更新 2026-05-03.json（1 篇）
+2026-05-06 11:04:21 [INFO] 
+==================================================
+2026-05-06 11:04:21 [INFO] 开始抓取 2026-05-04 的论文
+2026-05-06 11:04:21 [INFO] ==================================================
+2026-05-06 11:04:21 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 11:04:21 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 11:04:21 [INFO] 已有 69 篇文献记录，不再重复检索
+2026-05-06 11:04:21 [INFO] 正在搜索 2026/05/04 的新论文...
+2026-05-06 11:04:22 [INFO] 搜索到 30 篇 PMID
+2026-05-06 11:04:22 [INFO]   其中新增 30 篇（过滤已有 0 篇）
+2026-05-06 11:04:23 [INFO]   内容过滤: 排除 0 篇，保留 30 篇
+2026-05-06 11:04:23 [INFO]   期刊过滤: 排除 19 篇，保留 11 篇
+2026-05-06 11:04:23 [INFO] 
+2026-05-06 11:04:23 [INFO] ================================================================================
+2026-05-06 11:04:23 [INFO]   📋 本次搜索论文汇总（共 30 篇）
+2026-05-06 11:04:23 [INFO] ================================================================================
+2026-05-06 11:04:23 [INFO]   ✅ 已收录 (11 篇):
+2026-05-06 11:04:23 [INFO]     [1] PMID 42085931 | EBioMedicine
+2026-05-06 11:04:23 [INFO]         Multi-omics analysis of the gut microbiome and carotid artery atherosclerosis in men with and without HIV.
+2026-05-06 11:04:23 [INFO]     [2] PMID 42083059 | Microbiome
+2026-05-06 11:04:23 [INFO]         Metagenomics and culturomics reveal the dual role of the gut microbiome in the development of immune-related toxicities and the efficacy of immune checkpoint inhibitors in cancer.
+2026-05-06 11:04:23 [INFO]     [3] PMID 41671385 | Cancer research
+2026-05-06 11:04:23 [INFO]         Tumor-Resident Streptococcus pneumoniae Promotes Malignant Progression and Pazopanib Resistance in Clear Cell Renal Cell Carcinoma.
+2026-05-06 11:04:23 [INFO]     [4] PMID 42082515 | Scientific data
+2026-05-06 11:04:23 [INFO]         A manually curated pig gut microbiome dataset for precision feeding.
+2026-05-06 11:04:23 [INFO]     [5] PMID 42083308 | Gut microbes
+2026-05-06 11:04:23 [INFO]         Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.
+2026-05-06 11:04:23 [INFO]     [6] PMID 42071136 | Current oncology reports
+2026-05-06 11:04:23 [INFO]         Malignant Fungating Wounds in Advanced Cancer: Pathophysiology, Odor Control, and Dignity-Centered Management.
+2026-05-06 11:04:23 [INFO]     [7] PMID 42082767 | Nature microbiology
+2026-05-06 11:04:23 [INFO]         Practical lessons from microbiome citizen-science projects.
+2026-05-06 11:04:23 [INFO]     [8] PMID 42082522 | NPJ biofilms and microbiomes
+2026-05-06 11:04:23 [INFO]         Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.
+2026-05-06 11:04:23 [INFO]     [9] PMID 42013859 | Current biology : CB
+2026-05-06 11:04:23 [INFO]         Identification of bacterial signals that modulate enteric sensory neurons to influence behavior in C. elegans.
+2026-05-06 11:04:23 [INFO]     [10] PMID 42076937 | Journal of clinical periodontology
+2026-05-06 11:04:23 [INFO]         Probiotics Augment the Effect of Non-Surgical Periodontal Treatment-A Randomised, Double-Blinded, Placebo-Controlled Trial.
+2026-05-06 11:04:23 [INFO]     [11] PMID 42082531 | NPJ Parkinson's disease
+2026-05-06 11:04:23 [INFO]         Branched-chain amino acids ameliorate CD4+ T-cell-associated gut immune inflammation in Parkinson's disease.
+2026-05-06 11:04:23 [INFO]   📵 期刊过滤排除 (19 篇):
+2026-05-06 11:04:23 [INFO]     [1] PMID 42086397 | Dental materials : official publication of the Academy of Dental Materials
+2026-05-06 11:04:23 [INFO]         Challenges and future directions in AI-driven biomaterials for microbiome-associated oral infectious diseases: A systematic review.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Dental materials : official publication of the Academy of Dental Materials
+2026-05-06 11:04:23 [INFO]     [2] PMID 42081130 | Biogerontology
+2026-05-06 11:04:23 [INFO]         Host genetics and diet jointly shape the microbiome of Drosophila melanogaster but do not predict lifespan or age-related traits.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Biogerontology
+2026-05-06 11:04:23 [INFO]     [3] PMID 42082982 | Thyroid research
+2026-05-06 11:04:23 [INFO]         Thyroid functional state-dependent dysbiosis of gut microbiota in Hashimoto's thyroiditis: a cross-sectional metagenomic profiling study.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Thyroid research
+2026-05-06 11:04:23 [INFO]     [4] PMID 42077003 | Nutrition and cancer
+2026-05-06 11:04:23 [INFO]         How the Ketogenic Diet Shapes the Microbiome to Influence Cancer Immunotherapy Outcomes: An Exploration of Clinical Trials and Their Results.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Nutrition and cancer
+2026-05-06 11:04:23 [INFO]     [5] PMID 42086392 | Journal of the Formosan Medical Association = Taiwan yi zhi
+2026-05-06 11:04:23 [INFO]         Comment on: "Intratumoral microbiome composition and its role in tumor recurrence in primary liver cancer".
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of the Formosan Medical Association = Taiwan yi zhi
+2026-05-06 11:04:23 [INFO]     [6] PMID 42082533 | Scientific reports
+2026-05-06 11:04:23 [INFO]         Metagenomic analysis of bacterial diversity, antibiotic resistance, and functional profiles in the ice core samples from two glaciers of Sikkim Himalaya.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-05-06 11:04:23 [INFO]     [7] PMID 42081026 | Probiotics and antimicrobial proteins
+2026-05-06 11:04:23 [INFO]         Exploring the Role of Probiotics in the Prevention and Treatment of Gastrointestinal Cancer.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Probiotics and antimicrobial proteins
+2026-05-06 11:04:23 [INFO]     [8] PMID 42083021 | Environmental microbiome
+2026-05-06 11:04:23 [INFO]         Microbial inoculants with straw mediate degradation-level-specific changes in soil carbon cycling genes and microbial community.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental microbiome
+2026-05-06 11:04:23 [INFO]     [9] PMID 42085875 | The Science of the total environment
+2026-05-06 11:04:23 [INFO]         Urban indoor airborne antibiotic resistance genes: Role of antibiotic use and outdoor air pollution.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Science of the total environment
+2026-05-06 11:04:23 [INFO]     [10] PMID 42086326 | Inflammatory bowel diseases
+2026-05-06 11:04:23 [INFO]         Multi-omics-based machine learning model predicts response and guides treatment in Crohn disease: a case study in nutritional therapy.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Inflammatory bowel diseases
+2026-05-06 11:04:23 [INFO]     [11] PMID 42083054 | Environmental microbiome
+2026-05-06 11:04:23 [INFO]         Microbial succession from nursery to vineyard highlights the role of beneficial and pathogenic microbes in young vineyard yield.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental microbiome
+2026-05-06 11:04:23 [INFO]     [12] PMID 42086047 | Structure (London, England : 1993)
+2026-05-06 11:04:23 [INFO]         Cryo-EM structures of prevalent gut phage PD491P1 uncover extensive disulfide stabilization and distinct structural adaptations.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Structure (London, England : 1993)
+2026-05-06 11:04:23 [INFO]     [13] PMID 42081091 | The Journal of craniofacial surgery
+2026-05-06 11:04:23 [INFO]         Robot-Assisted Incision and Drainage for a Polymicrobial Brain Abscess.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of craniofacial surgery
+2026-05-06 11:04:23 [INFO]     [14] PMID 42071032 | Clinical and experimental medicine
+2026-05-06 11:04:23 [INFO]         Dynamic changes in gut microbiota and discovery of prognostic biomarkers in locally advanced pancreatic cancer during chemoradiotherapy.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Clinical and experimental medicine
+2026-05-06 11:04:23 [INFO]     [15] PMID 42077151 | The Proceedings of the Nutrition Society
+2026-05-06 11:04:23 [INFO]         Addressing Undernutrition in Older Adults with Plant-Based Products.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Proceedings of the Nutrition Society
+2026-05-06 11:04:23 [INFO]     [16] PMID 42080548 | mSystems
+2026-05-06 11:04:23 [INFO]         Chronic intermittent hypoxia exacerbates hepatic steatosis in a microbiota-dependent manner in lean mice.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: mSystems
+2026-05-06 11:04:23 [INFO]     [17] PMID 42082772 | BJC reports
+2026-05-06 11:04:23 [INFO]         Significance and challenges in dissecting cancer-bacteriome interactions.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: BJC reports
+2026-05-06 11:04:23 [INFO]     [18] PMID 42080579 | Microbiology spectrum
+2026-05-06 11:04:23 [INFO]         ICP1 bacteriophage treatment antagonizes colonization of the zebrafish larval intestine by Vibrio cholerae.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-05-06 11:04:23 [INFO]     [19] PMID 42083431 | Journal of periodontology
+2026-05-06 11:04:23 [INFO]         Transcriptomic analysis of gingival tissues in resolved experimental periodontal lesions of nonhuman primates.
+2026-05-06 11:04:23 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of periodontology
+2026-05-06 11:04:23 [INFO] ================================================================================
+2026-05-06 11:04:23 [INFO] 
+2026-05-06 11:04:24 [INFO] 已保存 11 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-04.json
+2026-05-06 11:04:24 [INFO] Step 2: AI 摘要生成
+2026-05-06 11:04:24 [INFO] 共需处理 1 个文件
+2026-05-06 11:04:24 [INFO] 处理: 2026-05-04.json
+2026-05-06 11:04:24 [INFO]   [1/11] PMID 42085931 | Multi-omics analysis of the gut microbiome and carotid arter
+2026-05-06 11:04:34 [INFO]   [2/11] PMID 42083059 | Metagenomics and culturomics reveal the dual role of the gut
+2026-05-06 11:04:47 [WARNING] LLM 返回 JSON 解析失败: Unterminated string starting at: line 2 column 17 (char 18)
+2026-05-06 11:04:49 [INFO]   [3/11] PMID 41671385 | Tumor-Resident Streptococcus pneumoniae Promotes Malignant P
+2026-05-06 11:05:01 [INFO]   [4/11] PMID 42082515 | A manually curated pig gut microbiome dataset for precision 
+2026-05-06 11:05:14 [INFO]   [5/11] PMID 42083308 | Gut microbiota and diet in colorectal cancer: Converging det
+2026-05-06 11:05:24 [INFO]   [6/11] PMID 42071136 | Malignant Fungating Wounds in Advanced Cancer: Pathophysiolo
+2026-05-06 11:05:30 [INFO]   [7/11] PMID 42082767 | Practical lessons from microbiome citizen-science projects.
+2026-05-06 11:05:34 [INFO]   [8/11] PMID 42082522 | Sex-specific microbial and tryptophan signatures of depressi
+2026-05-06 11:05:44 [INFO]   [9/11] PMID 42013859 | Identification of bacterial signals that modulate enteric se
+2026-05-06 11:05:51 [INFO]   [10/11] PMID 42076937 | Probiotics Augment the Effect of Non-Surgical Periodontal Tr
+2026-05-06 11:06:05 [INFO]   [11/11] PMID 42082531 | Branched-chain amino acids ameliorate CD4+ T-cell-associated
+2026-05-06 11:06:15 [INFO]   ✓ 已更新 2026-05-04.json（11 篇）
+2026-05-06 11:06:15 [INFO] 
+==================================================
+2026-05-06 11:06:15 [INFO] 开始抓取 2026-05-05 的论文
+2026-05-06 11:06:15 [INFO] ==================================================
+2026-05-06 11:06:15 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 11:06:15 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 11:06:15 [INFO] 已有 80 篇文献记录，不再重复检索
+2026-05-06 11:06:15 [INFO] 正在搜索 2026/05/05 的新论文...
+2026-05-06 11:06:15 [INFO] 搜索到 36 篇 PMID
+2026-05-06 11:06:15 [INFO]   其中新增 35 篇（过滤已有 1 篇）
+2026-05-06 11:06:16 [INFO]   内容过滤: 排除 4 篇，保留 31 篇
+2026-05-06 11:06:16 [INFO]   期刊过滤: 排除 20 篇，保留 11 篇
+2026-05-06 11:06:16 [INFO] 
+2026-05-06 11:06:16 [INFO] ================================================================================
+2026-05-06 11:06:16 [INFO]   📋 本次搜索论文汇总（共 35 篇）
+2026-05-06 11:06:16 [INFO] ================================================================================
+2026-05-06 11:06:16 [INFO]   ✅ 已收录 (11 篇):
+2026-05-06 11:06:16 [INFO]     [1] PMID 42086594 | NPJ biofilms and microbiomes
+2026-05-06 11:06:16 [INFO]         Lung microbiota-mediated biotransformation of mogroside preserves pulmonary barrier integrity and attenuates PM2.5-induced inflammation via NF-κB-Th17 modulations.
+2026-05-06 11:06:16 [INFO]     [2] PMID 41417461 | Clinical chemistry
+2026-05-06 11:06:16 [INFO]         Fecal Microbiota Therapy: Clinical Laboratory Testing and Metabolomic Approaches for Donor Screening, Product Assessment, and Patient Monitoring.
+2026-05-06 11:06:16 [INFO]     [3] PMID 42086572 | Nature communications
+2026-05-06 11:06:16 [INFO]         Breakdown of microbial networks links nutrient stress and reef coral disease.
+2026-05-06 11:06:16 [INFO]     [4] PMID 42054365 | Proceedings of the National Academy of Sciences of the United States of America
+2026-05-06 11:06:16 [INFO]         Resource availability structures microbial competition through genomic niche partitioning.
+2026-05-06 11:06:16 [INFO]     [5] PMID 42083883 | Obesity reviews : an official journal of the International Association for the Study of Obesity
+2026-05-06 11:06:16 [INFO]         GLP-1 Receptor Agonists and Weight Loss: A Critical Review of Mechanisms.
+2026-05-06 11:06:16 [INFO]     [6] PMID 42087248 | Microbiome
+2026-05-06 11:06:16 [INFO]         MdUGT88F1 enhances plant resistance to Fusarium proliferatum f.sp. malus domestica MR5 via root exudate-mediated assembly of disease-suppressive rhizosphere microbiota.
+2026-05-06 11:06:16 [INFO]     [7] PMID 42086396 | Trends in microbiology
+2026-05-06 11:06:16 [INFO]         Harnessing microbiomes to redefine medicinal plant agriculture.
+2026-05-06 11:06:16 [INFO]     [8] PMID 42048459 | Proceedings of the National Academy of Sciences of the United States of America
+2026-05-06 11:06:16 [INFO]         Perception of a bacterial quorum sensing signal activates a tripartite plant immune strategy.
+2026-05-06 11:06:16 [INFO]     [9] PMID 42087225 | Microbiome
+2026-05-06 11:06:16 [INFO]         Micheliolide ameliorates colon cancer cachexia by modulating gut microbiota-immune signaling via Phocaeicola vulgatus enrichment.
+2026-05-06 11:06:16 [INFO]     [10] PMID 42086548 | Nature communications
+2026-05-06 11:06:16 [INFO]         Microbial drivers of ammonium accumulation in Holocene sediments of the Pearl River Delta.
+2026-05-06 11:06:16 [INFO]     [11] PMID 42083728 | Obesity reviews : an official journal of the International Association for the Study of Obesity
+2026-05-06 11:06:16 [INFO]         Low Weight Loss Response to Incretin Analogs: A Systematic Review.
+2026-05-06 11:06:16 [INFO]   🚫 内容过滤排除 (4 篇):
+2026-05-06 11:06:16 [INFO]     [1] PMID 42086631 | Scientific data
+2026-05-06 11:06:16 [INFO]         Virome datasets and viral metagenome-assembled genomes from aquaculture-impacted freshwater environments.
+2026-05-06 11:06:16 [INFO]         原因: 内容含排除词: aquaculture
+2026-05-06 11:06:16 [INFO]     [2] PMID 42084385 | mSystems
+2026-05-06 11:06:16 [INFO]         Depth-associated selection and drift shape persistent microbial populations in Holocene lake sediments.
+2026-05-06 11:06:16 [INFO]         原因: 内容含排除词: sediment
+2026-05-06 11:06:16 [INFO]     [3] PMID 42028897 | Environmental science & technology
+2026-05-06 11:06:16 [INFO]         Decoding Microbial Reductive Dechlorination of 209 Polychlorinated Biphenyl Congeners through Experiment-Aided Quantum Chemistry and Machine Learning.
+2026-05-06 11:06:16 [INFO]         原因: 内容含排除词: remediation
+2026-05-06 11:06:16 [INFO]     [4] PMID 42084538 | The New phytologist
+2026-05-06 11:06:16 [INFO]         Ocean warming indirectly affects seagrass performance through effects on sediment microbial communities.
+2026-05-06 11:06:16 [INFO]         原因: 内容含排除词: plant
+2026-05-06 11:06:16 [INFO]   📵 期刊过滤排除 (20 篇):
+2026-05-06 11:06:16 [INFO]     [1] PMID 42084747 | Antonie van Leeuwenhoek
+2026-05-06 11:06:16 [INFO]         Harnessing the plant microbiome: innovation towards sustainable agriculture and ecological resilience.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Antonie van Leeuwenhoek
+2026-05-06 11:06:16 [INFO]     [2] PMID 42084394 | mBio
+2026-05-06 11:06:16 [INFO]         Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: mBio
+2026-05-06 11:06:16 [INFO]     [3] PMID 42087172 | Trials
+2026-05-06 11:06:16 [INFO]         Impact of the gut microbiome on health impacts of Haskap berries: study protocol for a randomized control trial.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Trials
+2026-05-06 11:06:16 [INFO]     [4] PMID 42084764 | Archives of microbiology
+2026-05-06 11:06:16 [INFO]         Marine microbiomes and their expanding role in biotechnological potential: a systematic review.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Archives of microbiology
+2026-05-06 11:06:16 [INFO]     [5] PMID 42085326 | Journal of aquatic animal health
+2026-05-06 11:06:16 [INFO]         Effects of probiotic dose on growth performance, health, and gut microbiota of Pacific white shrimp reared in biofloc conditions.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of aquatic animal health
+2026-05-06 11:06:16 [INFO]     [6] PMID 42084683 | Environmental science and pollution research international
+2026-05-06 11:06:16 [INFO]         Metagenomic insights into microbial community, antibiotic resistance genes, and virulence factor in Saryu River water, India.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science and pollution research international
+2026-05-06 11:06:16 [INFO]     [7] PMID 42084201 | Journal of periodontal research
+2026-05-06 11:06:16 [INFO]         The Oral-Gut Axis: Bidirectional Interactions Between Microbiome and Diseases.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of periodontal research
+2026-05-06 11:06:16 [INFO]     [8] PMID 42084801 | Antonie van Leeuwenhoek
+2026-05-06 11:06:16 [INFO]         Deciphering potential significances of biliary microbiome in cholelithiasis and cholangiocarcinoma.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Antonie van Leeuwenhoek
+2026-05-06 11:06:16 [INFO]     [9] PMID 42085336 | Annals of nutrition & metabolism
+2026-05-06 11:06:16 [INFO]         Transition from Breast Milk: When and How?
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Annals of nutrition & metabolism
+2026-05-06 11:06:16 [INFO]     [10] PMID 42083901 | Environmental science & technology
+2026-05-06 11:06:16 [INFO]         The Human Exposome: Integrating the Environment, Human Health, and Society for the Next 60 years.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science & technology
+2026-05-06 11:06:16 [INFO]     [11] PMID 42087591 | JDR clinical and translational research
+2026-05-06 11:06:16 [INFO]         Salivary Biological Responses to Nonsurgical Periodontal Treatment in Type 2 Diabetics.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: JDR clinical and translational research
+2026-05-06 11:06:16 [INFO]     [12] PMID 42084709 | Molecular biology reports
+2026-05-06 11:06:16 [INFO]         Multi-modal therapeutic approaches to inflammatory bowel disease: plant-derived compounds, nanoparticle drug delivery systems, and gene-based interventions.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Molecular biology reports
+2026-05-06 11:06:16 [INFO]     [13] PMID 42024954 | Environmental science & technology
+2026-05-06 11:06:16 [INFO]         Rethinking Microbiome of the Built Environment (MoBE) Management: From Pathogen-Centric Control to Microbiome-Informed Engineering.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science & technology
+2026-05-06 11:06:16 [INFO]     [14] PMID 42084382 | Applied and environmental microbiology
+2026-05-06 11:06:16 [INFO]         Variations in cow milk and teat skin microbiota across the lactation cycle with intramammary cephalosporin use at dry-off.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Applied and environmental microbiology
+2026-05-06 11:06:16 [INFO]     [15] PMID 42084478 | Peritoneal dialysis international : journal of the International Society for Peritoneal Dialysis
+2026-05-06 11:06:16 [INFO]         A wolf in sheep's clothing: An unusual zoonotic pathogen in peritoneal dialysis effluent and an important diagnostic strategy.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Peritoneal dialysis international : journal of the International Society for Peritoneal Dialysis
+2026-05-06 11:06:16 [INFO]     [16] PMID 42085335 | Annals of nutrition & metabolism
+2026-05-06 11:06:16 [INFO]         Human Milk Bioactives in Breastfeeding: Understanding the Complex Biology of Mother-Child Interactions.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Annals of nutrition & metabolism
+2026-05-06 11:06:16 [INFO]     [17] PMID 41999333 | Environmental science & technology
+2026-05-06 11:06:16 [INFO]         Phage-Encoded Metabolic Bypass Drives Herbicide Resistance in Soil Microbiomes.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science & technology
+2026-05-06 11:06:16 [INFO]     [18] PMID 42084812 | Probiotics and antimicrobial proteins
+2026-05-06 11:06:16 [INFO]         Lactiplantibacillus plantarum Mediated Tryptophan Metabolism to Alleviate Tropomyosin-induced Food Allergy.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Probiotics and antimicrobial proteins
+2026-05-06 11:06:16 [INFO]     [19] PMID 42087326 | International journal of paediatric dentistry
+2026-05-06 11:06:16 [INFO]         Oral and Gut Microbiota in Individuals With Autism Spectrum Disorder: A Pilot Case-Control Study.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of paediatric dentistry
+2026-05-06 11:06:16 [INFO]     [20] PMID 42029232 | Environmental science & technology
+2026-05-06 11:06:16 [INFO]         The Paradoxical Toxicity of Microplastics under Predation Risk: The Driving Role of Gut Microbiota-Mediated Tolerance.
+2026-05-06 11:06:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science & technology
+2026-05-06 11:06:16 [INFO] ================================================================================
+2026-05-06 11:06:16 [INFO] 
+2026-05-06 11:06:17 [INFO] 已保存 11 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-05.json
+2026-05-06 11:06:17 [INFO] Step 2: AI 摘要生成
+2026-05-06 11:06:17 [INFO] 共需处理 1 个文件
+2026-05-06 11:06:17 [INFO] 处理: 2026-05-05.json
+2026-05-06 11:06:17 [INFO]   [1/11] PMID 42086594 | Lung microbiota-mediated biotransformation of mogroside pres
+2026-05-06 11:06:32 [WARNING] LLM 返回 JSON 解析失败: Unterminated string starting at: line 2 column 17 (char 18)
+2026-05-06 11:06:33 [INFO]   [2/11] PMID 41417461 | Fecal Microbiota Therapy: Clinical Laboratory Testing and Me
+2026-05-06 11:06:41 [INFO]   [3/11] PMID 42086572 | Breakdown of microbial networks links nutrient stress and re
+2026-05-06 11:06:53 [INFO]   [4/11] PMID 42054365 | Resource availability structures microbial competition throu
+2026-05-06 11:07:01 [INFO]   [5/11] PMID 42083883 | GLP-1 Receptor Agonists and Weight Loss: A Critical Review o
+2026-05-06 11:07:11 [INFO]   [6/11] PMID 42087248 | MdUGT88F1 enhances plant resistance to Fusarium proliferatum
+2026-05-06 11:07:19 [INFO]   [7/11] PMID 42086396 | Harnessing microbiomes to redefine medicinal plant agricultu
+2026-05-06 11:07:28 [INFO]   [8/11] PMID 42048459 | Perception of a bacterial quorum sensing signal activates a 
+2026-05-06 11:07:39 [INFO]   [9/11] PMID 42087225 | Micheliolide ameliorates colon cancer cachexia by modulating
+2026-05-06 11:07:50 [INFO]   [10/11] PMID 42086548 | Microbial drivers of ammonium accumulation in Holocene sedim
+2026-05-06 11:07:59 [INFO]   [11/11] PMID 42083728 | Low Weight Loss Response to Incretin Analogs: A Systematic R
+2026-05-06 11:08:10 [INFO]   ✓ 已更新 2026-05-05.json（11 篇）
+2026-05-06 11:08:10 [INFO] 
+==================================================
+2026-05-06 11:08:10 [INFO] 开始抓取 2026-05-06 的论文
+2026-05-06 11:08:10 [INFO] ==================================================
+2026-05-06 11:08:10 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 11:08:10 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 11:08:10 [INFO] 已有 91 篇文献记录，不再重复检索
+2026-05-06 11:08:10 [INFO] 正在搜索 2026/05/06 的新论文...
+2026-05-06 11:08:10 [INFO] 搜索到 6 篇 PMID
+2026-05-06 11:08:10 [INFO]   其中新增 6 篇（过滤已有 0 篇）
+2026-05-06 11:08:11 [INFO]   内容过滤: 排除 1 篇，保留 5 篇
+2026-05-06 11:08:11 [INFO]   期刊过滤: 排除 5 篇，保留 0 篇
+2026-05-06 11:08:11 [INFO] 
+2026-05-06 11:08:11 [INFO] ================================================================================
+2026-05-06 11:08:11 [INFO]   📋 本次搜索论文汇总（共 6 篇）
+2026-05-06 11:08:11 [INFO] ================================================================================
+2026-05-06 11:08:11 [INFO]   🚫 内容过滤排除 (1 篇):
+2026-05-06 11:08:11 [INFO]     [1] PMID 42019076 | Journal of agricultural and food chemistry
+2026-05-06 11:08:11 [INFO]         6PPD-Quinone Triggers Oxidative Stress, Metabolic Reprogramming, and Rhizosphere Microbiota Shifts in Wheat.
+2026-05-06 11:08:11 [INFO]         原因: 内容含排除词: plant
+2026-05-06 11:08:11 [INFO]   📵 期刊过滤排除 (5 篇):
+2026-05-06 11:08:11 [INFO]     [1] PMID 42012901 | Journal of agricultural and food chemistry
+2026-05-06 11:08:11 [INFO]         Human Gut Microbiome Can Degrade the Sweetener Acesulfame K with Potential Damaging Effects in the Intestinal Barrier Function.
+2026-05-06 11:08:11 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of agricultural and food chemistry
+2026-05-06 11:08:11 [INFO]     [2] PMID 42089249 | Journal of pediatric gastroenterology and nutrition
+2026-05-06 11:08:11 [INFO]         Infant fecal microbiome dysbiosis varies by feeding type in setting of severe bronchiolitis.
+2026-05-06 11:08:11 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of pediatric gastroenterology and nutrition
+2026-05-06 11:08:11 [INFO]     [3] PMID 42089121 | Advanced healthcare materials
+2026-05-06 11:08:11 [INFO]         Targeted Gut Delivery of Zn, Cu, and Mn Nanominerals Alleviates Oxidative Stress by Activating Endogenous SOD Enzymes.
+2026-05-06 11:08:11 [INFO]         原因: 期刊不在 journal_info.tsv 中: Advanced healthcare materials
+2026-05-06 11:08:11 [INFO]     [4] PMID 42042856 | Journal of agricultural and food chemistry
+2026-05-06 11:08:11 [INFO]         Burkholderia spp. from HLB-Escape Rhizosphere Suppress Candidatus Liberibacter asiaticus Titers and Induce Defense Responses in Citrus.
+2026-05-06 11:08:11 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of agricultural and food chemistry
+2026-05-06 11:08:11 [INFO]     [5] PMID 42087714 | Journal of toxicology and environmental health. Part A
+2026-05-06 11:08:11 [INFO]         In vivo methylmercury toxicity is exacerbated by polystyrene microplastic exposure, leading to colon barrier disruption, gut dysbiosis, and systemic oxidative imbalance.
+2026-05-06 11:08:11 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of toxicology and environmental health. Part A
+2026-05-06 11:08:11 [INFO] ================================================================================
+2026-05-06 11:08:11 [INFO] 
+2026-05-06 11:08:12 [INFO] 今日无新增论文
+2026-05-06 11:08:12 [INFO] Step 2: AI 摘要生成
+2026-05-06 11:08:12 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-06.json
+2026-05-06 11:08:12 [INFO] 
+Step 3: 整合数据
+2026-05-06 11:08:12 [INFO] 累积基础 0 篇 + 新增 91 篇 = 共 91 篇
+2026-05-06 11:08:12 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-06 11:08:12 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 89 篇
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (77 KB)
+2026-05-06 11:08:12 [INFO]   2026: 89 篇 -> 2026.json
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（1 个年份）
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-06 11:08:12 [INFO] 
+==================================================
+2026-05-06 11:08:12 [INFO] ===== 完成！共 89 篇文献 =====
+2026-05-06 11:08:12 [INFO] 已补全 7 天的数据
+2026-05-06 11:08:12 [INFO] ==================================================
+2026-05-06 11:08:12 [INFO] ✓ 每日更新完成
+2026-05-06 11:08:12 [INFO] ▶ 开始整合数据...
+2026-05-06 11:08:12 [INFO] 累积基础 89 篇 + 新增 2 篇 = 共 91 篇
+2026-05-06 11:08:12 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-06 11:08:12 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 89 篇
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (77 KB)
+2026-05-06 11:08:12 [INFO]   2026: 89 篇 -> 2026.json
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（1 个年份）
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-06 11:08:12 [INFO] ✓ 整合完成！共 89 篇文献

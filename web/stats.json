@@ -1,0 +1,56 @@
+{
+  "total": 89,
+  "by_type": {
+    "研究论文": 53,
+    "综述": 33,
+    "临床试验": 2,
+    "其他": 1
+  },
+  "by_year": {
+    "2026": 89
+  },
+  "top_journals": {
+    "Journal of advanced research": 6,
+    "Critical reviews in oncology/hematology": 5,
+    "Microbiome": 4,
+    "Gut microbes": 4,
+    "Gastroenterology": 4,
+    "Proceedings of the National Academy of Sciences of the United States of America": 3,
+    "NPJ biofilms and microbiomes": 2,
+    "Nature communications": 2,
+    "Obesity reviews : an official journal of the International Association for the Study of Obesity": 2,
+    "Trends in microbiology": 2,
+    "Nature reviews. Microbiology": 2,
+    "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie": 2,
+    "Nature reviews. Gastroenterology & hepatology": 2,
+    "British journal of pharmacology": 2,
+    "Neuroscience and biobehavioral reviews": 2,
+    "The journal of allergy and clinical immunology. Global": 2,
+    "Pharmacological research": 2,
+    "Advanced science (Weinheim, Baden-Wurttemberg, Germany)": 2,
+    "Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases": 2,
+    "Biotechnology advances": 2
+  },
+  "top_diseases": {
+    "癌症": 5,
+    "克罗恩病": 2,
+    "脑肠互动障碍": 2,
+    "呼吸道合胞病毒感染 | 仙台病毒感染": 1,
+    "复发性艰难梭菌感染": 1,
+    "黑带病": 1,
+    "肥胖": 1,
+    "苹果再植病": 1,
+    "结肠癌恶病质": 1,
+    "2型糖尿病和肥胖": 1,
+    "颈动脉粥样硬化": 1,
+    "透明细胞肾细胞癌": 1,
+    "结直肠癌": 1,
+    "晚期癌症": 1,
+    "抑郁症": 1,
+    "牙周炎": 1,
+    "帕金森病": 1,
+    "MASLD（代谢功能障碍相关脂肪肝病）": 1,
+    "乳腺癌": 1,
+    "香蕉枯萎病": 1
+  }
+}
