@@ -39,7 +39,7 @@ def check_data_exists(date_str: str) -> bool:
         return False
 
 
-if __name__ == "__main__":
+def main():
     today = datetime.date.today().strftime("%Y-%m-%d")
     log.info(f"===== 开始每日更新 {today} =====")
 
@@ -93,3 +93,7 @@ if __name__ == "__main__":
     log.info(f"===== 完成！共 {stats['total']} 篇文献 =====")
     log.info(f"已补全 {len(missing_dates)} 天的数据")
     log.info(f"{'='*50}")
+
+
+if __name__ == "__main__":
+    main()
