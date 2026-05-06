@@ -1282,3 +1282,74 @@ Step 3: 整合数据
 2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
 2026-05-06 11:08:12 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
 2026-05-06 11:08:12 [INFO] ✓ 整合完成！共 89 篇文献
+2026-05-06 14:38:21 [INFO] ▶ 开始每日更新...
+2026-05-06 14:38:21 [INFO] ===== 开始每日更新 2026-05-06 =====
+2026-05-06 14:38:21 [WARNING] 检测到缺少数据: 2026-05-06
+2026-05-06 14:38:21 [INFO] 需要补全数据: ['2026-05-06']
+2026-05-06 14:38:21 [INFO] 
+==================================================
+2026-05-06 14:38:21 [INFO] 开始抓取 2026-05-06 的论文
+2026-05-06 14:38:21 [INFO] ==================================================
+2026-05-06 14:38:21 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-06 14:38:21 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-06 14:38:21 [INFO] 已有 91 篇文献记录，不再重复检索
+2026-05-06 14:38:21 [INFO] 正在搜索 2026/05/06 的新论文...
+2026-05-06 14:38:22 [INFO] 搜索到 6 篇 PMID
+2026-05-06 14:38:22 [INFO]   其中新增 6 篇（过滤已有 0 篇）
+2026-05-06 14:38:22 [INFO]   内容过滤: 排除 1 篇，保留 5 篇
+2026-05-06 14:38:22 [INFO]   期刊过滤: 排除 5 篇，保留 0 篇
+2026-05-06 14:38:22 [INFO] 
+2026-05-06 14:38:22 [INFO] ================================================================================
+2026-05-06 14:38:22 [INFO]   📋 本次搜索论文汇总（共 6 篇）
+2026-05-06 14:38:22 [INFO] ================================================================================
+2026-05-06 14:38:22 [INFO]   🚫 内容过滤排除 (1 篇):
+2026-05-06 14:38:22 [INFO]     [1] PMID 42019076 | Journal of agricultural and food chemistry
+2026-05-06 14:38:22 [INFO]         6PPD-Quinone Triggers Oxidative Stress, Metabolic Reprogramming, and Rhizosphere Microbiota Shifts in Wheat.
+2026-05-06 14:38:22 [INFO]         原因: 内容含排除词: plant
+2026-05-06 14:38:22 [INFO]   📵 期刊过滤排除 (5 篇):
+2026-05-06 14:38:22 [INFO]     [1] PMID 42012901 | Journal of agricultural and food chemistry
+2026-05-06 14:38:22 [INFO]         Human Gut Microbiome Can Degrade the Sweetener Acesulfame K with Potential Damaging Effects in the Intestinal Barrier Function.
+2026-05-06 14:38:22 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of agricultural and food chemistry
+2026-05-06 14:38:22 [INFO]     [2] PMID 42089249 | Journal of pediatric gastroenterology and nutrition
+2026-05-06 14:38:22 [INFO]         Infant fecal microbiome dysbiosis varies by feeding type in setting of severe bronchiolitis.
+2026-05-06 14:38:22 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of pediatric gastroenterology and nutrition
+2026-05-06 14:38:22 [INFO]     [3] PMID 42089121 | Advanced healthcare materials
+2026-05-06 14:38:22 [INFO]         Targeted Gut Delivery of Zn, Cu, and Mn Nanominerals Alleviates Oxidative Stress by Activating Endogenous SOD Enzymes.
+2026-05-06 14:38:22 [INFO]         原因: 期刊不在 journal_info.tsv 中: Advanced healthcare materials
+2026-05-06 14:38:22 [INFO]     [4] PMID 42087714 | Journal of toxicology and environmental health. Part A
+2026-05-06 14:38:22 [INFO]         In vivo methylmercury toxicity is exacerbated by polystyrene microplastic exposure, leading to colon barrier disruption, gut dysbiosis, and systemic oxidative imbalance.
+2026-05-06 14:38:22 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of toxicology and environmental health. Part A
+2026-05-06 14:38:22 [INFO]     [5] PMID 42042856 | Journal of agricultural and food chemistry
+2026-05-06 14:38:22 [INFO]         Burkholderia spp. from HLB-Escape Rhizosphere Suppress Candidatus Liberibacter asiaticus Titers and Induce Defense Responses in Citrus.
+2026-05-06 14:38:22 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of agricultural and food chemistry
+2026-05-06 14:38:22 [INFO] ================================================================================
+2026-05-06 14:38:22 [INFO] 
+2026-05-06 14:38:23 [INFO] 今日无新增论文
+2026-05-06 14:38:23 [INFO] Step 2: AI 摘要生成
+2026-05-06 14:38:23 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-06.json
+2026-05-06 14:38:23 [INFO] 
+Step 3: 整合数据
+2026-05-06 14:38:23 [INFO] 累积基础 89 篇 + 新增 2 篇 = 共 91 篇
+2026-05-06 14:38:24 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-06 14:38:24 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 89 篇
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (77 KB)
+2026-05-06 14:38:24 [INFO]   2026: 89 篇 -> 2026.json
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（1 个年份）
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-06 14:38:24 [INFO] 
+==================================================
+2026-05-06 14:38:24 [INFO] ===== 完成！共 89 篇文献 =====
+2026-05-06 14:38:24 [INFO] 已补全 1 天的数据
+2026-05-06 14:38:24 [INFO] ==================================================
+2026-05-06 14:38:24 [INFO] ✓ 每日更新完成
+2026-05-06 14:38:24 [INFO] ▶ 开始整合数据...
+2026-05-06 14:38:24 [INFO] 累积基础 89 篇 + 新增 2 篇 = 共 91 篇
+2026-05-06 14:38:24 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-06 14:38:24 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 89 篇
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (77 KB)
+2026-05-06 14:38:24 [INFO]   2026: 89 篇 -> 2026.json
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（1 个年份）
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-06 14:38:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-06 14:38:24 [INFO] ✓ 整合完成！共 89 篇文献
