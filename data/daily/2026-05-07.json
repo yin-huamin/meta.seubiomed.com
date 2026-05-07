@@ -1,0 +1,42 @@
+[
+  {
+    "pmid": "42093056",
+    "title": "Soil pH as an external filter shaping stink bug-Burkholderia gut symbiosis.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-07",
+    "authors": "Itoh Hideomi; Shimoji Hiroyuki; Nakane Daisuke; Jang Seonghan; Kikuchi Yoshitomo",
+    "abstract": "BACKGROUND: Many animals and plants establish intimate symbiotic relationships with specific microorganisms acquired from the environment. Given the immense diversity of environmental microbiomes, selecting appropriate partners from such a vast microbial pool poses a critical challenge for host organisms. To meet this challenge, hosts have evolved sophisticated internal partner-choice mechanisms that ensure stable associations with beneficial microbes. However, because these symbionts primarily inhabit external environments, environmental conditions themselves are also expected to influence the establishment of symbiosis. Despite this expectation, the mechanistic role of external environmental filters in shaping the intended symbiosis remains largely unexplored. Focusing on stink bugs, which acquire their symbiotic bacteria from soil each generation, we investigated how soil properties influence the establishment of gut symbiosis in terrestrial insects.\nRESULTS: Microbiome analyses confirmed that Burkholderia sensu lato overwhelmingly dominates a specific gut organ in six stink bug species from the superfamilies Coreoidea and Lygaeoidea, including serious agricultural pests (relative abundance ranging from 74.5 to 100%). Rearing experiments with isolated Burkholderia revealed that insects were strictly dependent on this symbiont; failure to acquire it from soil severely reduced host growth and reproduction, indicating that the availability of symbionts from soil can represent an ecological constraint. Field surveys identified patches of exceptionally high stink bug density in weedy fields with soil pH < 7.0, whereas such aggregations were absent in fields with pH ≥ 7.0. Laboratory experiments with collected field soils showed that the abundance of Burkholderia in soils was negatively correlated with soil pH, and stink bugs readily acquired their symbionts from soils with pH < 7.0 but rarely from soils with pH ≥ 7.0. Experimental manipulations of soil pH followed by rearing experiments confirmed that increasing soil pH to 7-8 markedly suppressed symbiont acquisition by the host, likely by impairing symbiont growth and motility.\nCONCLUSIONS: We demonstrate that, beyond host-intrinsic mechanisms, a soil chemical property can act as an externally filter that constrains symbiont acquisition prior to colonization inside the host in a stink bug-Burkholderia symbiosis. This finding highlights how local environmental conditions can shape the assembly of environmentally acquired insect-microbe symbioses. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Symbiosis",
+      "Burkholderia",
+      "Soil",
+      "Hydrogen-Ion Concentration",
+      "Soil Microbiology",
+      "Gastrointestinal Microbiome",
+      "Heteroptera"
+    ],
+    "keywords": [
+      "Gut microbiome",
+      "Host fitness",
+      "Soil microbiome",
+      "Soil pH",
+      "Stink bug",
+      "Symbiosis"
+    ],
+    "summary_zh": "研究土壤pH作为外部过滤器影响蝽象与伯克霍尔德菌的肠道共生，发现pH<7.0促进共生菌获取，pH≥7.0抑制。",
+    "innovation": "揭示土壤pH作为外部过滤器影响昆虫-微生物共生建立 | 证明环境条件超越宿主内在机制限制共生菌获取",
+    "limitation": "未描述",
+    "study_object": "蝽象（土壤+肠道） + 微生物组分析和饲养实验",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-07"
+  }
+]

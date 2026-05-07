@@ -1,0 +1,150 @@
+[
+  {
+    "pmid": "42092798",
+    "title": "Machine learning-driven clinical decision support for liver cirrhosis: a gut microbiome-based web prediction model with explainable AI integration.",
+    "doi": null,
+    "journal": "BMC gastroenterology",
+    "issn": "1471-230X",
+    "pub_date": "2026-05-06",
+    "authors": "Liu Jianyuan; He Shiran; Zhang Heng; Mai Huanzhuo; Li Xiaozhen et al.",
+    "abstract": "BACKGROUND: Liver cirrhosis (LC) is a chronic liver disease with global prevalence. Current diagnostic methods for LC still face limitations in safety and accessibility. We aimed to develop an interpretable machine learning (ML) prediction model for LC using gut microbes and deploy it as a web-based clinical decision support tool.\nMETHODS: Data were retrieved from PubMed and BioProject databases. Bioinformatics re-analysis and discriminant analysis effect size (LEfSe) analysis was conducted to preliminarily identify key genera associated with LC. Further feature selection was performed using Least Absolute Shrinkage and Selection Operator (LASSO) regression. The independent datasets were combined to form an integrated dataset, which was then subjected to five-fold cross-validation and leave-one-dataset-out (LODO) analysis. Model performance was evaluated using metrics such as the area under the receiver operating characteristic curve (AUC), and the optimal model was selected. The decision mechanism of the optimal model was interpreted using SHapley Additive exPlanations (SHAP), and the model was deployed as a web application using the Streamlit framework.\nRESULTS: We ultimately included 11 datasets related to LC. The genera Veillonella, Lachnospira, Romboutsia, Akkermansia, Erysipelatoclostridium, Prevotella, UCG.005, and Streptococcus were identified as key predictors distinguishing LC patients from healthy controls. The Random Forest (RF) model demonstrated the best predictive performance (AUC in five-fold cross-validation: 0.875, 95% CI: 0.823-0.905; AUC in LODO analysis: 0.793, 95% CI: 0.702-0.940) and was deployed as an online LC prediction tool.\nCONCLUSION: The interpretable RF model, along with its web-based implementation, has the potential to provide decision support for healthcare professionals and shows promise as a valuable auxiliary tool for LC screening and early clinical intervention.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "16S ribosomal RNA gene amplicon sequencing",
+      "Gut microbiota",
+      "Liver cirrhosis",
+      "Machine learning",
+      "Web-based deployment"
+    ],
+    "summary_zh": "基于肠道微生物组和机器学习开发可解释的肝硬化预测模型，并部署为在线决策支持工具。",
+    "innovation": "整合多个公开数据集进行交叉验证与留一数据集分析 | 使用SHAP实现模型可解释性 | 部署为Streamlit网页应用",
+    "limitation": "未描述",
+    "study_object": "人体肠道微生物+机器学习预测模型",
+    "disease": "肝硬化",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-06"
+  },
+  {
+    "pmid": "42092154",
+    "title": "Genome-wide sweeps create ecological units in the human gut microbiome.",
+    "doi": null,
+    "journal": "Nature",
+    "issn": "1476-4687",
+    "pub_date": "2026-05-06",
+    "authors": "Yu Xiaoqian Annie; Strachan Cameron R; Herbold Craig W; Lang Michaela; Gasche Christoph et al.",
+    "abstract": "The human gut microbiome is shaped by diverse selective forces that originate from host and environmental factors and it substantially influences health and disease. Whereas the association of microbial lineages with various health conditions has been shown at different taxonomic levels1-5, the extent to which unifying adaptive mechanisms sort microbial lineages into ecologically differentiated populations remains poorly understood. Here we show that genome-wide selective sweeps are a pervasive mechanism that differentiates bacteria in the microbiome. This mechanism leads to population structures akin to global epidemics across geographically and ethnically diverse human populations. Such sweeps arise when an adaptation allows a clone to outcompete others in its niche followed by rediversification, and they manifest as clusters of closely related genomes on long branches in phylogenetic trees. This structure is revealed by excluding recombination events that mask the clonal descent of the genomes. Indeed, we show that genome-wide sweeps originate under a wide range of recombination rates in at least 66 taxa from 25 bacterial families. Estimated ages of divergence suggest that sweep clusters can spread globally within decades and that this process has occurred throughout human history. Sweep clusters are associated with different host conditions-such as age, colorectal cancer, inflammatory bowel diseases and type 2 diabetes-as an indication of their ecological differentiation. Our results reveal an evolutionary mechanism for the observation of stably inherited strains with differential associations and provide a theoretical foundation for analysing adaptation among microbial populations.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "全基因组选择性清除是肠道微生物组细菌分化的普遍机制，导致全球性种群结构并与宿主疾病相关。",
+    "innovation": "首次证明全基因组选择性清除是肠道微生物组细菌分化的普遍机制 | 通过排除重组事件揭示了长期分支上的克隆群结构 | 揭示了清除簇与多种宿主疾病（如结肠直肠癌、炎症性肠病、2型糖尿病）的关联",
+    "limitation": "未描述",
+    "study_object": "人类肠道微生物组，粪便样本，全基因组测序和系统发育分析",
+    "disease": "结肠直肠癌、炎症性肠病、2型糖尿病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-06"
+  },
+  {
+    "pmid": "42090264",
+    "title": "Linkage of nucleotide and functional diversity varies across gut bacteria.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-05-06",
+    "authors": "Dubinkina Veronika; Smith Byron J; Zhao Chunyu; Pino Cindy; Pollard Katherine S",
+    "abstract": "Understanding the forces shaping genomic diversity within bacterial species is essential for interpreting microbiome evolution, ecology, and host associations. Here, we analyze over one hundred prevalent gut bacterial species using the Unified Human Gut Genome collection to characterize patterns of intraspecific genomic variability. Gene content divergence scales predictably with divergence in core genome single nucleotide polymorphisms (SNPs), though there is substantial variability in evolutionary dynamics across species. Overall, accessory genes exhibit consistently faster linkage decay compared to core SNPs, highlighting the fluidity of functional repertoires within species boundaries. This signal is strongest for mobile genetic elements, which show minimal linkage to core genome SNPs. Together, our findings reveal species-specific recombination regimes in the gut microbiome, underscoring the importance of accounting for horizontal gene transfer and genome plasticity in microbiome-wide association studies and evolutionary models.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Gastrointestinal Microbiome",
+      "Humans",
+      "Polymorphism, Single Nucleotide",
+      "Bacteria",
+      "Genome, Bacterial",
+      "Evolution, Molecular",
+      "Gene Transfer, Horizontal",
+      "Genetic Linkage",
+      "Genetic Variation"
+    ],
+    "keywords": [
+      "bacteria",
+      "evolution",
+      "genetic variation",
+      "homologous recombination",
+      "horizontal gene transfer"
+    ],
+    "summary_zh": "通过分析超100种肠道细菌基因组，发现附属基因连锁衰减快于核心SNP，揭示物种特异性重组机制。",
+    "innovation": "使用统一人类肠道基因组集合分析超100种细菌种内变异 | 发现附属基因与核心SNP连锁衰减差异 | 揭示物种特异性重组机制",
+    "limitation": "未描述",
+    "study_object": "人类肠道细菌 + 基因组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-06"
+  },
+  {
+    "pmid": "42092115",
+    "title": "Trichoderma-based fertilizer enhances quality of Elymus breviaristatus silage via microbial and metabolic modulation.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-05-06",
+    "authors": "Xu Wenqian; Yuan Xuefeng; Cao Jun; Cui Xiaorui; Fu Keyi et al.",
+    "abstract": "Elymus breviaristatus is an important alpine forage, there is limited information regarding its potential use as silage and how fertilizer treatments affect the ensiling process in this forage crop. Here, we investigated how organic fertilizer (M), nitrogen-phosphorus-potassium fertilizer (NPK), and Trichoderma harzianum fertilizer (B) affect Elymus breviaristatus silage quality (30 days and 60 days ensiling) via microbiome and metabolome analyses. Before ensiling, plant height and chlorophyll content increased by 29.93% and 39.72%, respectively, in the B group. After 60 days of ensiling, the M group had reduced crude protein and elevated butyric acid, the NPK group had higher ammonia nitrogen and butyric acid, and the B group had increased crude protein and lactic acid. These quality shifts correlated with microbial and metabolic changes. In the M group, alpha-linolenic acid metabolism was downregulated and Alternaria enriched, while the NPK group had enhanced flavone biosynthesis and a reduced level of Lactiplantibacillus. The B group had enhanced glycine, serine, and threonine metabolism, and displayed the most complex microbial networks along with increased levels of Lactiplantibacillus and Aspergillus. Overall, these results demonstrate that Trichoderma-based fertilization enhances silage quality by promoting accumulation of beneficial microbes and increasing flux through specific metabolic pathways, potentially offering a sustainable strategy for alpine forage improvement.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究不同肥料对高寒牧草青贮质量的影响，发现木霉肥通过促进有益微生物和代谢途径提高青贮质量。",
+    "innovation": "首次系统研究不同肥料对Elymus breviaristatus青贮质量的影响 | 结合微生物组和代谢组分析揭示调控机制 | 发现木霉肥通过增强有益微生物和代谢通路提高青贮质量",
+    "limitation": "未描述",
+    "study_object": "高寒牧草Elymus breviaristatus青贮饲料，微生物组和代谢组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-06"
+  },
+  {
+    "pmid": "42093272",
+    "title": "Bifidobacterium animalis suppresses melanoma progression and activates anti-tumor immunity by inhibiting YAP1 expression in CD8+ T cells.",
+    "doi": null,
+    "journal": "Cancer biology & medicine",
+    "issn": "2095-3941",
+    "pub_date": "2026-05-06",
+    "authors": "Li Chengyi; Zhang Xuehua; Yang Yichen; Zeng Haotian; Shi Yanqiang et al.",
+    "abstract": "OBJECTIVE: The probiotic, Bifidobacterium animalis, (B. animalis) is known to provide health benefits in humans. This study investigated the role of B. animalis in suppressing malignant melanoma progression and modulating tumor immunity.\nMETHODS: Bifidobacterium spp. were isolated from human faeces and verified by whole-genome sequencing. The anti-tumor effects were assessed in B16-F10 melanoma cells. B. animalis efficacy was further evaluated in a syngeneic murine model. Immune profiling was performed with flow cytometry and CD8+ T cell dependency was tested with antibody depletion. Functional metabolites were analyzed by liquid chromatography-mass spectrometry (LC-MS). Transcriptome sequencing elucidated the YAP1 mechanism in CD8+ T cells. Gut microbiota composition was assessed via shotgun metagenomic sequencing.\nRESULTS: Among the selected Bifidobacterium spp., B. animalis and its conditioned medium effectively inhibited melanoma cell proliferation. Oral administration of B. animalis significantly reduced the growth of B16-F10 allografts, accompanied by an increase in tumor-infiltrating effector T cells. The bioactive component of B. animalis was identified as a < 3-kDa non-protein fraction containing mannose, which phenocopied the anti-tumor and immunostimulatory effects of B. animalis. Microbiota profiling revealed probiotic enrichment in mannose-treated mice. CD8+ T cell depletion abrogated mannose efficacy. Combination therapy with B. animalis and anti-PD-1 synergistically enhanced tumor control and T cell activation. Mechanistically, the bioactive fraction and mannose downregulated YAP1 expression in CD8+ T cells.\nCONCLUSIONS: B. animalis suppresses melanoma tumorigenesis in mice by restoring gut microbiota and secreting functional mannose. Mannose enhances anti-PD-1 efficacy by inhibiting YAP1 expression in CD8+ T cells, thereby improving effector function. B. animalis may serve as a preventive measure for melanoma management.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "",
+      "CD8",
+      "anti-PD-1",
+      "mannose",
+      "melanoma"
+    ],
+    "summary_zh": "动物双歧杆菌通过分泌甘露糖抑制CD8+T细胞YAP1表达，激活抗肿瘤免疫，抑制黑色素瘤进展。",
+    "innovation": "发现B.animalis抗黑色素瘤活性成分为<3-kDa非蛋白组分（含甘露糖） | 揭示甘露糖通过抑制CD8+T细胞YAP1表达增强抗PD-1疗效 | 口服B.animalis可恢复肠道菌群并分泌甘露糖抑制黑色素瘤",
+    "limitation": "未描述",
+    "study_object": "小鼠B16-F10同种移植模型的粪便、肿瘤和T细胞样本，结合宏基因组、转录组、代谢组技术",
+    "disease": "黑色素瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-06"
+  }
+]
