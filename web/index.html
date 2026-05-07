@@ -1536,22 +1536,18 @@ function goPage(p) {
   updateUrl();
 }
 
-// ═══════════════════════ MEMORY SECTION ═══════════════════════
+// ═══════════════════════ MEMORY / LOG SECTION ═══════════════════════
 async function loadMemory() {
   try {
-    const res = await fetch("memory.json?t=" + Date.now());
+    const res = await fetch("logs/daily.log?t=" + Date.now());
     if (!res.ok) { document.getElementById("memorySection").style.display = "none"; return; }
-    const entries = await res.json();
+    const text = await res.text();
     const section = document.getElementById("memorySection");
     const content = document.getElementById("memoryContent");
-    if (!entries || !entries.length) { section.style.display = "none"; return; }
+    if (!text.trim()) { section.style.display = "none"; return; }
     section.style.display = "block";
-    content.innerHTML = entries.map(e => `
-      <div class="memory-entry">
-        <div class="memory-entry-title">${esc(e.file)}</div>
-        <div class="memory-entry-body">${esc(e.content)}</div>
-      </div>`).join("");
-  } catch(e) { console.error("Failed to load memory:", e); }
+    content.innerHTML = `<pre class="log-content">${esc(text)}</pre>`;
+  } catch(e) { console.error("Failed to load log:", e); }
 }
 
 function toggleMemory() {
