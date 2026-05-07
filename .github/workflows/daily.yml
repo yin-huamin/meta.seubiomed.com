@@ -40,7 +40,8 @@ jobs:
 
       - name: 运行每日更新
         run: |
-          python metaweb.py daily 2>&1 | tee -a logs/daily.log
+          # 覆盖模式：只保留本次运行日志
+          python metaweb.py daily 2>&1 | tee logs/daily.log
 
       - name: 生成网页数据
         run: |
