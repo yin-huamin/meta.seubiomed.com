@@ -545,6 +545,15 @@ def _extract_article(article) -> dict:
                     pub_date = candidate
                     break
 
+    # 若日期只有年月无日（如 2026-05），从 PubMedPubDate 补全精确日
+    if pub_date and "-" in pub_date and len(pub_date.split("-")) == 2:
+        for pmd in article.findall(".//PubMedPubDate"):
+            if pmd.get("PubStatus") in ("pubmed", "entrez", "medline"):
+                candidate = _parse_date_node(pmd)
+                if candidate and "-" in candidate and len(candidate.split("-")) == 3:
+                    pub_date = candidate
+                    break
+
     # ── DOI（不再保存，DOI与PMID经常错位） ──
     # doi = ""  # 已禁用，统一使用 PMID 链接
 

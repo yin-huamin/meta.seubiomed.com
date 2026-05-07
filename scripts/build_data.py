@@ -262,13 +262,6 @@ def _load_existing_data() -> list:
         return []
 
 
-def _normalize_date(rec: dict):
-    """统一日期格式：2026-05 → 2026-05-15（默认月中）"""
-    d = rec.get("pub_date", "") or ""
-    if len(d) == 7 and d.count("-") == 1:
-        rec["pub_date"] = f"{d}-15"
-
-
 def merge_all() -> list:
     """
     增量合并：以已有 data.json 为基础，整合新增的 daily JSON。
@@ -304,11 +297,6 @@ def merge_all() -> list:
             log.warning(f"读取 {f} 失败: {exc}")
 
     all_records = list(seen.values())
-
-    # 统一日期格式：2026-05 → 2026-05-15
-    for rec in all_records:
-        _normalize_date(rec)
-
     all_records.sort(key=lambda r: r.get("pub_date", "") or "", reverse=True)
     log.info(f"累积基础 {base_count} 篇 + 新增 {new_count} 篇 = 共 {len(all_records)} 篇")
     return all_records
