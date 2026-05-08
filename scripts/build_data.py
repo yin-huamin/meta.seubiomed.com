@@ -96,6 +96,10 @@ PUBMED_ALIASES = {
     "peerj. computer science": "PeerJ",
     "journal of biosciences": "JOURNAL OF BIOSCIENCES",
     "human microbiome journal": "Human Microbiome Journal",
+    # --- BMC journals mis-matched by substring rule ---
+    "bmc gastroenterology": None,  # no IF (BMC series, ~2.5)
+    "bmc pediatrics": None,  # no IF (BMC series, ~2.0)
+    "bmc ophthalmology": None,  # no IF (BMC series, ~2.5)
 }
 
 

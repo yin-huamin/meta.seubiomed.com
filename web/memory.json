@@ -1,7 +1,7 @@
 [
   {
-    "file": "2026-05-07.md",
-    "content": "# 2026-05-07 工作日志\n\n## 每日自动更新任务（20:00 定时执行）\n\n- **fetch_pubmed.py**：搜到 5 篇 → 内容过滤排除 1 篇（sulfur），期刊过滤排除 3 篇，**新增 1 篇**（PMID 42093056, Microbiome）\n- **summarize_papers.py --all**：1324 个文件扫描，2026-05-07.json 生成 1 篇 DeepSeek 摘要\n- **build_data.py**：4829 原始 → 排除 629 → 保留 **4200 篇**，web/data.json 3815 KB\n- 全部步骤 ✅ 成功"
+    "file": "2026-05-08.md",
+    "content": "# 2026-05-08 工作日志\n\n## 日期修复：86 篇 YYYY-MM 文章全部使用 PubMedPubDate（epub）补全\n- **问题**：86 篇文献只有年月无具体日期（如 2026-05），用户要求用 epub 日期修正\n- **方案**：编写 `scripts/fix_dates.py`，通过 NCBI E-utilities EFetch 批量拉取 PubMedPubDate\n- **修复结果**：\n  - 86 篇全部获得精确日期（如 PMID 41238755: 2026-05 → 2025-11-15）\n  - 同时修复了 daily JSON 中的原始数据，后续 build 不会再回退\n  - 修改 fetch_pubmed.py：后续新抓取的文章自动用 PubMedPubDate 补全\n- **推送**：commit `87f224b`，已推送到 GitHub"
   },
   {
     "file": "MEMORY.md",
