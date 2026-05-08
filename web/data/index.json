@@ -6,17 +6,17 @@
   },
   {
     "year": "2016",
-    "count": 93,
+    "count": 94,
     "file": "data/2016.json"
   },
   {
     "year": "2017",
-    "count": 87,
+    "count": 86,
     "file": "data/2017.json"
   },
   {
     "year": "2018",
-    "count": 105,
+    "count": 106,
     "file": "data/2018.json"
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "year": "2020",
-    "count": 378,
+    "count": 377,
     "file": "data/2020.json"
   },
   {
     "year": "2021",
-    "count": 457,
+    "count": 458,
     "file": "data/2021.json"
   },
   {
@@ -41,22 +41,22 @@
   },
   {
     "year": "2023",
-    "count": 563,
+    "count": 564,
     "file": "data/2023.json"
   },
   {
     "year": "2024",
-    "count": 692,
+    "count": 690,
     "file": "data/2024.json"
   },
   {
     "year": "2025",
-    "count": 811,
+    "count": 823,
     "file": "data/2025.json"
   },
   {
     "year": "2026",
-    "count": 202,
+    "count": 190,
     "file": "data/2026.json"
   }
 ]
