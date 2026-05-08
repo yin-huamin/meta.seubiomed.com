@@ -1,0 +1,72 @@
+[
+  {
+    "pmid": "42098757",
+    "title": "Multi-omics analysis of soy isoflavone-induced responses in rumen fermentation, endocrine status and milk production in cows with varying milk yields.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-05-08",
+    "authors": "Jiang Xingwei; Zhang Chenguang; Zhang Yuhao; Li Jing; Ren Jianrong et al.",
+    "abstract": "BACKGROUND: Improving milk yield and feed efficiency is pivotal for climate-smart dairy systems, as rumen mediated fermentation governs energy and nitrogen utilization and thereby greenhouse-gas emission intensity. Soybean isoflavones (SIF) may modulate rumen fermentation, yet their effects on rumen function, microbiome features, host endocrine/metabolic responses, and lactation performance-particularly across cows with divergent milk-yield phenotypes-remain unclear.\nRESULTS: Fifty‑six lactating Holstein cows (28 high‑yield cows, HY; 28 low‑yield cows, LY) were divided into two categories by milk yield. Within each yield category, cows were randomly assigned to one of two dietary treatments: a basal diet (Control) or the basal diet supplemented with SIF at 0.01% of dry matter. This yielded a 2 × 2 factorial design with four experimental groups (n = 14 per group): high‑yield control (HCON), high‑yield SIF (HSIF), low‑yield control (LCON), and low‑yield SIF (LSIF). SIF increased milk yield by 8.75% and improved fat-corrected milk (+ 7.20%), dry matter intake (+ 3.20%), and feed efficiency (+ 3.26%), with larger gains in HY cows (milk yield + 8.89%; feed efficiency + 4.55%). Rumen fermentation shifted toward a more energetically favorable profile, with lower acetate (- 2.70%), higher propionate (+ 4.55%), and a reduced acetate-to-propionate ratio (- 7.02%), accompanied by increased microbial crude protein (+ 21.53%) without changes in pH or NH3-N. SIF altered endocrine status irrespective of phenotype, increasing estradiol and progesterone while decreasing prolactin and growth hormone, and reduced blood ALP, lactate, and triglycerides. Metagenomics indicated phenotype-dependent microbial and functional responses to SIF: HY cows showed enrichment of taxa (e.g., Caudoviricetes sp., Eubacterium sp., and Butyrivibrio sp.) associated with amino-acid, cofactor metabolism and propionate pathways, whereas LY cows exhibited enrichment of Prevotella sp. and Bacteroides sp. with functions favoring carbohydrate degradation. The HCON group exhibited greater abundances of Prevotella sp. and Hallella spp. with enhanced carbohydrate degradation functions, whereas the LCON group was enriched in Ruminococcus sp. and Methanobrevibacter sp., associated with methane metabolism.\nCONCLUSIONS: In conclusion, this study highlights the potential of SIF supplementation to improve lactation efficiency, modulate rumen microecology and endocrine function in dairy cows. These findings establish a theoretical framework for achieving efficient and precise feeding management on large-scale dairy farms.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cow",
+      "Lactation performance",
+      "Microbiota",
+      "Rumen",
+      "Soy isoflavones"
+    ],
+    "summary_zh": "通过多组学分析，发现大豆异黄酮可改善奶牛瘤胃发酵、内分泌和产奶量，且效果因产奶表型而异。",
+    "innovation": "揭示了高产和低产奶牛对大豆异黄酮的不同微生物和功能响应 | 首次在大规模奶牛群体中评估大豆异黄酮对产奶性能的差异性影响",
+    "limitation": "未描述",
+    "study_object": "奶牛瘤胃内容物宏基因组 + 内分泌和产奶数据",
+    "disease": "无",
+    "sample_size": "56头泌乳荷斯坦奶牛，28头高产+28头低产，每组14头",
+    "ai_done": true,
+    "fetch_date": "2026-05-08"
+  },
+  {
+    "pmid": "42099232",
+    "title": "Gut microbiota and its metabolites: Key factors of drug resistance in the treatment of advanced prostate cancer (Review).",
+    "doi": null,
+    "journal": "Molecular medicine reports",
+    "issn": "1791-3004",
+    "pub_date": "2026-05-08",
+    "authors": "Song Jingheng; Cui Hongguo; Yang Peisen; Xu Yankai; Liu Yuanyuan et al.",
+    "abstract": "Prostate cancer (PCa) is a leading cause of cancer‑related deaths among men, and its incidence is increasing worldwide. Current treatments include androgen deprivation therapy, surgery, radiotherapy, chemotherapy and immunotherapy, among others. Surgical treatment has a less effective therapeutic effect in patients with advanced PCa. However, drug‑based treatments often lead to the development of drug resistance, highlighting the need to adopt new treatment strategies. The present review summarizes the role of gut microbiota and its metabolites in the treatment resistance of advanced PCa, potential microbiome‑targeted therapies and future research directions, for developing novel therapeutic approaches to overcome drug resistance and improve prognosis.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Male",
+      "Prostatic Neoplasms",
+      "Drug Resistance, Neoplasm",
+      "Antineoplastic Agents",
+      "Animals"
+    ],
+    "keywords": [
+      "ADT",
+      "PCa",
+      "chemotherapy",
+      "gut microbiota",
+      "immunotherapy",
+      "treatment resistance"
+    ],
+    "summary_zh": "本综述总结了肠道微生物及其代谢物在晚期前列腺癌治疗耐药中的作用，并探讨了微生态靶向疗法和未来研究方向。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "人类 + 肠道微生物 + 综述",
+    "disease": "晚期前列腺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-08"
+  }
+]

@@ -41,7 +41,7 @@
   },
   {
     "year": "2023",
-    "count": 561,
+    "count": 560,
     "file": "data/2023.json"
   },
   {
@@ -51,12 +51,12 @@
   },
   {
     "year": "2025",
-    "count": 817,
+    "count": 816,
     "file": "data/2025.json"
   },
   {
     "year": "2026",
-    "count": 189,
+    "count": 191,
     "file": "data/2026.json"
   }
 ]
