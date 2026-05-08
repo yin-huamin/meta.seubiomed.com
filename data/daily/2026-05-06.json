@@ -1,35 +1,5 @@
 [
   {
-    "pmid": "42092798",
-    "title": "Machine learning-driven clinical decision support for liver cirrhosis: a gut microbiome-based web prediction model with explainable AI integration.",
-    "doi": null,
-    "journal": "BMC gastroenterology",
-    "issn": "1471-230X",
-    "pub_date": "2026-05-06",
-    "authors": "Liu Jianyuan; He Shiran; Zhang Heng; Mai Huanzhuo; Li Xiaozhen et al.",
-    "abstract": "BACKGROUND: Liver cirrhosis (LC) is a chronic liver disease with global prevalence. Current diagnostic methods for LC still face limitations in safety and accessibility. We aimed to develop an interpretable machine learning (ML) prediction model for LC using gut microbes and deploy it as a web-based clinical decision support tool.\nMETHODS: Data were retrieved from PubMed and BioProject databases. Bioinformatics re-analysis and discriminant analysis effect size (LEfSe) analysis was conducted to preliminarily identify key genera associated with LC. Further feature selection was performed using Least Absolute Shrinkage and Selection Operator (LASSO) regression. The independent datasets were combined to form an integrated dataset, which was then subjected to five-fold cross-validation and leave-one-dataset-out (LODO) analysis. Model performance was evaluated using metrics such as the area under the receiver operating characteristic curve (AUC), and the optimal model was selected. The decision mechanism of the optimal model was interpreted using SHapley Additive exPlanations (SHAP), and the model was deployed as a web application using the Streamlit framework.\nRESULTS: We ultimately included 11 datasets related to LC. The genera Veillonella, Lachnospira, Romboutsia, Akkermansia, Erysipelatoclostridium, Prevotella, UCG.005, and Streptococcus were identified as key predictors distinguishing LC patients from healthy controls. The Random Forest (RF) model demonstrated the best predictive performance (AUC in five-fold cross-validation: 0.875, 95% CI: 0.823-0.905; AUC in LODO analysis: 0.793, 95% CI: 0.702-0.940) and was deployed as an online LC prediction tool.\nCONCLUSION: The interpretable RF model, along with its web-based implementation, has the potential to provide decision support for healthcare professionals and shows promise as a valuable auxiliary tool for LC screening and early clinical intervention.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "16S ribosomal RNA gene amplicon sequencing",
-      "Gut microbiota",
-      "Liver cirrhosis",
-      "Machine learning",
-      "Web-based deployment"
-    ],
-    "summary_zh": "基于肠道微生物组和机器学习开发可解释的肝硬化预测模型，并部署为在线决策支持工具。",
-    "innovation": "整合多个公开数据集进行交叉验证与留一数据集分析 | 使用SHAP实现模型可解释性 | 部署为Streamlit网页应用",
-    "limitation": "未描述",
-    "study_object": "人体肠道微生物+机器学习预测模型",
-    "disease": "肝硬化",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-06"
-  },
-  {
     "pmid": "42092154",
     "title": "Genome-wide sweeps create ecological units in the human gut microbiome.",
     "doi": null,
