@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "42103726",
+    "title": "CroCoDeEL: accurate control-free detection of cross-sample contamination in metagenomic data.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-05-09",
+    "authors": "Goulet Lindsay; Plaza Oñate Florian; Famechon Alexandre; Quinquis Benoît; Belda Eugeni et al.",
+    "abstract": "Metagenomic sequencing provides insights into microbial communities, but it can be compromised by technical biases, including cross-sample contamination. This phenomenon arises when microbial content is inadvertently exchanged among concurrently processed samples, distorting microbial profiles and compromising the reliability of metagenomic data and downstream analyses. Existing detection methods rely on negative controls, which are insufficiently used and do not detect cross-contamination within non-control samples. Meanwhile, strain-level bioinformatics approaches do not distinguish contamination from natural strain sharing and lack sensitivity. To fill this gap, we introduce CroCoDeEL, a decision-support tool for detecting and quantifying cross-sample contamination. Leveraging linear modeling and a pre-trained supervised model, CroCoDeEL identifies specific contamination patterns in species abundance profiles. It requires no negative controls or prior knowledge of sample processing positions, offering improved accuracy and versatility. Benchmarks across three public datasets demonstrate that CroCoDeEL can detect contaminated samples and identify their contamination sources, even at low rates (<0.1%), provided sufficient sequencing depth. Application of CroCoDeEL to several existing studies reveals previously undetected contamination.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "开发CroCoDeEL工具，利用线性建模和预训练模型检测宏基因组交叉样本污染，无需阴性对照，灵敏度高。",
+    "innovation": "无需阴性对照 | 无需样本处理位置先验知识 | 可检测低至0.1%的污染",
+    "limitation": "需要足够的测序深度以确保检测灵敏度",
+    "study_object": "宏基因组数据（物种丰度谱，样本类型未指定）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-09"
+  }
+]
