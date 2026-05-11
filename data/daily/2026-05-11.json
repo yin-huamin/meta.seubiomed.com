@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42108513",
+    "title": "Gut microbiota and their metabolites contribute to the heterosis of breast muscle yield in broilers.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-05-11",
+    "authors": "Huang Qiang; Wen Chaoliang; Gu Shuang; Jie Yuchen; Li Guangqi et al.",
+    "abstract": "BACKGROUND: Breast muscle yield is a key economic trait in broilers, directly affecting carcass value and profitability, and has been significantly improved by intensive selection and exploiting heterosis through crossbreeding. Our previous work showed that synergy between the gut microbiota and host genome underlies breast muscle heterosis in crossbred progeny (CR) derived from Cornish (CC) and White Plymouth Rock (RR) lines. However, the molecular mechanisms by which the gut microbiota contributes to heterosis in breast muscle yield remain poorly understood. Here, we integrated cecal microbiome, metabolome, and transcriptome data from 266 birds at 42 days of age to elucidate the potential gut microbiota-mediated molecular mechanisms underlying breast muscle yield heterosis.\nRESULTS: To assess whether heterosis extends beyond productive traits to the gut microbiota and their metabolites in broilers, we compared the cecal microbial and metabolic profiles of CR with those of their parental lines. The gut microbiota of CR were clearly distinct from those of both parental lines and exhibited heterosis characteristics, with 88 genera displaying heterotic patterns that collectively accounted for approximately 85% of the total microbial abundance. Heterosis was also evident in the cecal metabolites of CR birds. Differential abundance analysis across groups identified 868 cecal metabolites, and abundance-pattern classification showed that approximately 75% exhibited nonadditive patterns in the crossbred progeny. These nonadditive metabolites were predominantly host-microbiota co-metabolites and were mainly enriched in amino acid and lipid metabolic pathways. Importantly, seven of the nine genera previously identified in association with breast muscle yield exhibited heterosis in the crossbred progeny. At the metabolomic level, yield-associated genera were linked to a distinct set of 35 cecal metabolites, dominated by sphingolipids, ether-linked phospholipids, and acyl-homoserine lactones. These metabolites formed coordinated associations with the expression of 269 host genes, which were functionally enriched in MAPK signaling and focal adhesion pathways.\nCONCLUSIONS: These findings suggest that heterosis exists not only in productive traits but also in gut microbiota and their metabolites, the latter in turn contributed to breast muscle yield, which offers valuable guidance for elucidating the molecular basis of heterosis in animals.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Breast muscle",
+      "Broiler",
+      "Cecal microbiota",
+      "Heterosis",
+      "Metabolites",
+      "Nonadditive"
+    ],
+    "summary_zh": "整合盲肠微生物组、代谢组和转录组数据，发现肉鸡杂交后代肠道菌群和代谢物呈现杂种优势，并促进胸肌产量。",
+    "innovation": "揭示肠道菌群及其代谢物在肉鸡胸肌产量杂种优势中的贡献 | 发现杂交后代中约85%的菌属和75%的代谢物呈非加性模式 | 解析菌群-代谢物-宿主基因（MAPK和黏着斑通路）的协调关联",
+    "limitation": "未描述",
+    "study_object": "肉鸡（Cornish与White Plymouth Rock的杂交后代及亲本）+ 盲肠样本 + 微生物组/代谢组/转录组联合分析",
+    "disease": "无",
+    "sample_size": "266只42日龄肉鸡",
+    "ai_done": true,
+    "fetch_date": "2026-05-11"
+  }
+]

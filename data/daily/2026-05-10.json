@@ -1,0 +1,55 @@
+[
+  {
+    "pmid": "42108649",
+    "title": "Gut microbes mediate the synergistic effects of dietary cholesterol and saturated fat in driving fibrosing MASH.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-05-10",
+    "authors": "Hermanson Jake B; Tolba Samar A; Gazi Md Amran; Chrisler Evan A; Kaur Manpreet et al.",
+    "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) affects approximately one-third of the global population and can progress to metabolic dysfunction-associated steatohepatitis (MASH) with fibrosis, increasing the risk of cirrhosis, hepatocellular carcinoma, and mortality. Gut microbes driven by diets high in saturated fat, simple sugar, and cholesterol contribute to disease progression, yet the underlying mechanisms remain undefined. We explored the independent and synergistic effects of dietary saturated fat and cholesterol on MASH development using specific pathogen-free (SPF) and germ-free (GF) mice. We demonstrate that (1) both dietary cholesterol and saturated fat are required to induce fibrosing MASH in SPF mice, whereas GF mice are protected, (2) saturated fat and cholesterol individually alter gut microbial membership, potentially via altered bile acid metabolism, while their combination promotes a distinct composition, including an increase in Parasutterella spp. which correlates with hepatic fibrosis, and (3) diluted cecal contents from SPF, but not GF, mice fed high-fat, high-cholesterol diets are enriched in deoxycholic acid and activate human hepatic stellate cells in vitro, suggesting a mechanistic link between dietary lipid-induced microbiota and liver fibrogenesis. These findings reveal how specific Western dietary components shape the gut microbiota and contribute to hepatic fibrosis via stellate cell activation, offering potential targets for therapeutic interventions against MASLD/MASH.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Gastrointestinal Microbiome",
+      "Cholesterol, Dietary",
+      "Mice",
+      "Humans",
+      "Diet, High-Fat",
+      "Male",
+      "Dietary Fats",
+      "Fatty Acids",
+      "Mice, Inbred C57BL",
+      "Bile Acids and Salts",
+      "Fatty Liver",
+      "Specific Pathogen-Free Organisms",
+      "Liver Cirrhosis",
+      "Bacteria",
+      "Hepatic Stellate Cells",
+      "Liver",
+      "Germ-Free Life",
+      "Non-alcoholic Fatty Liver Disease"
+    ],
+    "keywords": [
+      "MASH",
+      "MASLD",
+      "bile acid",
+      "cholesterol",
+      "diet",
+      "fibrosis",
+      "gut microbiome",
+      "saturated fat"
+    ],
+    "summary_zh": "研究通过SPF和无菌小鼠，揭示膳食饱和脂肪和胆固醇协同经肠道微生物驱动纤维化MASH，机制涉及Parasutterella增加及脱氧胆酸激活肝星状细胞。",
+    "innovation": "首次阐明膳食饱和脂肪与胆固醇协同驱动纤维化MASH需依赖肠道微生物 | 发现Parasutterella spp.丰度与肝纤维化相关 | 揭示脱氧胆酸作为微生物代谢物激活肝星状细胞的机制",
+    "limitation": "未描述",
+    "study_object": "小鼠（SPF和无菌）+ 肠道内容物 + 16S/代谢分析",
+    "disease": "代谢功能障碍相关脂肪性肝炎（MASH）伴纤维化",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-10"
+  }
+]
