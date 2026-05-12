@@ -1,0 +1,58 @@
+[
+  {
+    "pmid": "42116194",
+    "title": "Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-12",
+    "authors": "Buetas Elena; Conde-Pérez Kelly; Concha Ángel; Celeiro Catuxa; Noguera José F et al.",
+    "abstract": "BACKGROUND: Colorectal cancer (CRC) is the second leading cause of cancer-related deaths, accounting for more than 900,000 deaths a year worldwide. Microbial dysbiosis, including the presence of oral bacteria in the gut, has been linked to CRC. Some mechanisms by which specific microorganisms potentially drive tumorigenesis have been described, but there is a lack of studies elucidating whole microbiota activity in the tumor and their implication for the development of the disease. Here, the metatranscriptomic data of tumor and control tissue-associated microbiota (n = 18 pairs), as well as from subgingival sulcus (n = 15) of CRC patients, was analyzed.\nRESULTS: We confirmed that Fusobacterium nucleatum was more active in the tumor tissue than in the control gut mucosa. In addition, the activity of this species was positively correlated with other oral bacteria in the tumors, including Parvimonas micra, Peptostreptococcus stomatis, and Granulicatella adiacens, along with gut bacteria like Hungatella hathewayi, suggesting a potential relationship among them. Regarding bacterial gene expression, a change in the functional profile was observed, including a higher expression of genes associated with carbon metabolism in control in contrast to an increase of amino acid-related genes in tumor. Furthermore, genes implicated in the biosynthesis and transport of lipopolysaccharide were increased in tumors. Interestingly, a significantly higher expression in tumor than control tissue of potential virulence factors from F. nucleatum was found, supporting their relevance in niche colonization and tumorigenesis. Correlation analysis of the bacterial activity with the host transcriptional profile showed significant correlations of the Fusobacterium-Peptostreptotoccus-Hungatella cluster with human genes involved in inflammation and metastasis, confirming the association of this microbial consortium with tumor development. For the first time, the gene expression profiles of oral bacteria in the gut and the oral cavity were compared. The cluster of co-active bacteria identified in tumors was partially found in the oral samples, suggesting a stable interaction and potential synergy. Although there were thousands of differentially expressed genes between subgingival sulcus and tumor tissue, the expression of key virulence factors was not significantly different.\nCONCLUSIONS: In short, this study discovered new traits about tumor microbial-associated composition and activity and its connection with the oral composition that would be essential to unravel the translocation, colonization, and tumorigenesis of the CRC.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Clusters",
+      "Colorectal cancer",
+      "Fusobacterium nucleatum",
+      "Gut microbiome",
+      "Metatranscriptome",
+      "Oral microbiome",
+      "Synergy"
+    ],
+    "summary_zh": "通过宏转录组分析结肠癌肿瘤与对照组织微生物群，发现口腔细菌在肿瘤中高活性并与宿主炎症和转移基因相关。",
+    "innovation": "利用宏转录组揭示肿瘤微生物群整体活性 | 首次比较口腔细菌在肠道和口腔中的基因表达谱 | 发现口腔-肠道细菌协同簇与肿瘤发展相关",
+    "limitation": "未描述",
+    "study_object": "人 + 肿瘤组织、对照肠黏膜、龈下沟 + 宏转录组",
+    "disease": "结直肠癌",
+    "sample_size": "18对配对组织和15例龈下沟样本",
+    "ai_done": true,
+    "fetch_date": "2026-05-12"
+  },
+  {
+    "pmid": "41734379",
+    "title": "Fiber intake associates with increased treatment response in patients with multiple myeloma along with changes in gut microbiome.",
+    "doi": null,
+    "journal": "Blood advances",
+    "issn": "2473-9537",
+    "pub_date": "2026-05-12",
+    "authors": "Sester Lilli S; Galeeva Iuliia; de Castilhos Juliana; Borisov Vadim; Gambihler Anna K et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究纤维摄入与多发性骨髓瘤患者治疗反应及肠道微生物组变化的关系。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "多发性骨髓瘤患者，肠道微生物，未描述技术类型",
+    "disease": "多发性骨髓瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-12"
+  }
+]

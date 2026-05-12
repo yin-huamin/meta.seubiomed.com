@@ -1,137 +1,90 @@
-2026-05-11 15:29:30 [INFO] ▶ 开始每日更新...
-2026-05-11 15:29:30 [INFO] ===== 开始每日更新 2026-05-11 =====
-2026-05-11 15:29:30 [WARNING] 检测到缺少数据: 2026-05-11
-2026-05-11 15:29:30 [WARNING] 检测到缺少数据: 2026-05-10
-2026-05-11 15:29:30 [INFO] 需要补全数据: ['2026-05-11', '2026-05-10']
-2026-05-11 15:29:30 [INFO] 
+2026-05-12 14:42:05 [INFO] ▶ 开始每日更新...
+2026-05-12 14:42:05 [INFO] ===== 开始每日更新 2026-05-12 =====
+2026-05-12 14:42:05 [WARNING] 检测到缺少数据: 2026-05-12
+2026-05-12 14:42:05 [INFO] 需要补全数据: ['2026-05-12']
+2026-05-12 14:42:05 [INFO] 
 ==================================================
-2026-05-11 15:29:30 [INFO] 开始抓取 2026-05-10 的论文
-2026-05-11 15:29:30 [INFO] ==================================================
-2026-05-11 15:29:30 [INFO] Step 1: 抓取 PubMed 新论文
-2026-05-11 15:29:30 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-05-11 15:29:30 [INFO] 已有 99 篇文献记录，不再重复检索
-2026-05-11 15:29:30 [INFO] 正在搜索 2026/05/10 的新论文...
-2026-05-11 15:29:31 [INFO] 搜索到 7 篇 PMID
-2026-05-11 15:29:31 [INFO]   其中新增 7 篇（过滤已有 0 篇）
-2026-05-11 15:29:31 [INFO]   内容过滤: 排除 1 篇，保留 6 篇
-2026-05-11 15:29:31 [INFO]   期刊过滤: 排除 5 篇，保留 1 篇
-2026-05-11 15:29:31 [INFO] 
-2026-05-11 15:29:31 [INFO] ================================================================================
-2026-05-11 15:29:31 [INFO]   📋 本次搜索论文汇总（共 7 篇）
-2026-05-11 15:29:31 [INFO] ================================================================================
-2026-05-11 15:29:31 [INFO]   ✅ 已收录 (1 篇):
-2026-05-11 15:29:31 [INFO]     [1] PMID 42108649 | Gut microbes
-2026-05-11 15:29:31 [INFO]         Gut microbes mediate the synergistic effects of dietary cholesterol and saturated fat in driving fibrosing MASH.
-2026-05-11 15:29:31 [INFO]   🚫 内容过滤排除 (1 篇):
-2026-05-11 15:29:31 [INFO]     [1] PMID 42108276 | Scientific reports
-2026-05-11 15:29:31 [INFO]         Deep subsurface rock-hosted chemolithotrophic bacterial communities exhibited differential CO2 assimilation and bioconversion potential under varying oxygen level.
-2026-05-11 15:29:31 [INFO]         原因: 内容含排除词: sulfur
-2026-05-11 15:29:31 [INFO]   📵 期刊过滤排除 (5 篇):
-2026-05-11 15:29:31 [INFO]     [1] PMID 41934884 | The Science of the total environment
-2026-05-11 15:29:31 [INFO]         Anthropogenic stressors drive microbiome assembly: A global meta-analysis of bumble bees.
-2026-05-11 15:29:31 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Science of the total environment
-2026-05-11 15:29:31 [INFO]     [2] PMID 42108623 | Pest management science
-2026-05-11 15:29:31 [INFO]         Cross-kingdom signaling manipulation by insect-associated microbial symbionts: Linking molecular mechanisms to pest management strategies.
-2026-05-11 15:29:31 [INFO]         原因: 期刊不在 journal_info.tsv 中: Pest management science
-2026-05-11 15:29:31 [INFO]     [3] PMID 42108251 | Scientific reports
-2026-05-11 15:29:31 [INFO]         Diversity of fecal viromes and zoonotic risk assessment in captive wild felids using viral metagenomics.
-2026-05-11 15:29:31 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
-2026-05-11 15:29:31 [INFO]     [4] PMID 42108760 | The New phytologist
-2026-05-11 15:29:31 [INFO]         Observing the invisible: X-ray CT for plant-microbe interactions.
-2026-05-11 15:29:31 [INFO]         原因: 期刊不在 journal_info.tsv 中: The New phytologist
-2026-05-11 15:29:31 [INFO]     [5] PMID 42108693 | Equine veterinary journal
-2026-05-11 15:29:31 [INFO]         Vaginal host-microbe signatures linked to placental outcomes in mares.
-2026-05-11 15:29:31 [INFO]         原因: 期刊不在 journal_info.tsv 中: Equine veterinary journal
-2026-05-11 15:29:31 [INFO] ================================================================================
-2026-05-11 15:29:31 [INFO] 
-2026-05-11 15:29:32 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-10.json
-2026-05-11 15:29:32 [INFO] Step 2: AI 摘要生成
-2026-05-11 15:29:32 [INFO] 共需处理 1 个文件
-2026-05-11 15:29:32 [INFO] 处理: 2026-05-10.json
-2026-05-11 15:29:32 [INFO]   [1/1] PMID 42108649 | Gut microbes mediate the synergistic effects of dietary chol
-2026-05-11 15:29:44 [INFO]   ✓ 已更新 2026-05-10.json（1 篇）
-2026-05-11 15:29:44 [INFO] 
-==================================================
-2026-05-11 15:29:44 [INFO] 开始抓取 2026-05-11 的论文
-2026-05-11 15:29:44 [INFO] ==================================================
-2026-05-11 15:29:44 [INFO] Step 1: 抓取 PubMed 新论文
-2026-05-11 15:29:44 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-05-11 15:29:44 [INFO] 已有 100 篇文献记录，不再重复检索
-2026-05-11 15:29:44 [INFO] 正在搜索 2026/05/11 的新论文...
-2026-05-11 15:29:44 [INFO] 搜索到 4 篇 PMID
-2026-05-11 15:29:44 [INFO]   其中新增 4 篇（过滤已有 0 篇）
-2026-05-11 15:29:45 [INFO]   内容过滤: 排除 0 篇，保留 4 篇
-2026-05-11 15:29:45 [INFO]   期刊过滤: 排除 3 篇，保留 1 篇
-2026-05-11 15:29:45 [INFO] 
-2026-05-11 15:29:45 [INFO] ================================================================================
-2026-05-11 15:29:45 [INFO]   📋 本次搜索论文汇总（共 4 篇）
-2026-05-11 15:29:45 [INFO] ================================================================================
-2026-05-11 15:29:45 [INFO]   ✅ 已收录 (1 篇):
-2026-05-11 15:29:45 [INFO]     [1] PMID 42108513 | Journal of animal science and biotechnology
-2026-05-11 15:29:45 [INFO]         Gut microbiota and their metabolites contribute to the heterosis of breast muscle yield in broilers.
-2026-05-11 15:29:45 [INFO]   📵 期刊过滤排除 (3 篇):
-2026-05-11 15:29:45 [INFO]     [1] PMID 42108955 | Tuberculosis and respiratory diseases
-2026-05-11 15:29:45 [INFO]         A harmonized respiratory-gut microbiome cohort framework for idiopathic pulmonary fibrosis.
-2026-05-11 15:29:45 [INFO]         原因: 期刊不在 journal_info.tsv 中: Tuberculosis and respiratory diseases
-2026-05-11 15:29:45 [INFO]     [2] PMID 42108103 | The Journal of general and applied microbiology
-2026-05-11 15:29:45 [INFO]         Polyamines induce prolonged maintenance of stationary phase turbidity in coagulase-negative Staphylococcus.
-2026-05-11 15:29:45 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of general and applied microbiology
-2026-05-11 15:29:45 [INFO]     [3] PMID 42001407 | Journal of chemical information and modeling
-2026-05-11 15:29:45 [INFO]         DRHIN: An Integrated and Interactive Web Server for Drug Repositioning.
-2026-05-11 15:29:45 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of chemical information and modeling
-2026-05-11 15:29:45 [INFO] ================================================================================
-2026-05-11 15:29:45 [INFO] 
-2026-05-11 15:29:46 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-11.json
-2026-05-11 15:29:46 [INFO] Step 2: AI 摘要生成
-2026-05-11 15:29:46 [INFO] 共需处理 1 个文件
-2026-05-11 15:29:46 [INFO] 处理: 2026-05-11.json
-2026-05-11 15:29:46 [INFO]   [1/1] PMID 42108513 | Gut microbiota and their metabolites contribute to the heter
-2026-05-11 15:29:57 [INFO]   ✓ 已更新 2026-05-11.json（1 篇）
-2026-05-11 15:29:57 [INFO] 
+2026-05-12 14:42:05 [INFO] 开始抓取 2026-05-12 的论文
+2026-05-12 14:42:05 [INFO] ==================================================
+2026-05-12 14:42:05 [INFO] Step 1: 抓取 PubMed 新论文
+2026-05-12 14:42:05 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-05-12 14:42:05 [INFO] 已有 101 篇文献记录，不再重复检索
+2026-05-12 14:42:05 [INFO] 正在搜索 2026/05/12 的新论文...
+2026-05-12 14:42:06 [INFO] 搜索到 5 篇 PMID
+2026-05-12 14:42:06 [INFO]   其中新增 4 篇（过滤已有 1 篇）
+2026-05-12 14:42:07 [INFO]   内容过滤: 排除 1 篇，保留 3 篇
+2026-05-12 14:42:07 [INFO]   期刊过滤: 排除 1 篇，保留 2 篇
+2026-05-12 14:42:07 [INFO] 
+2026-05-12 14:42:07 [INFO] ================================================================================
+2026-05-12 14:42:07 [INFO]   📋 本次搜索论文汇总（共 4 篇）
+2026-05-12 14:42:07 [INFO] ================================================================================
+2026-05-12 14:42:07 [INFO]   ✅ 已收录 (2 篇):
+2026-05-12 14:42:07 [INFO]     [1] PMID 42116194 | Microbiome
+2026-05-12 14:42:07 [INFO]         Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.
+2026-05-12 14:42:07 [INFO]     [2] PMID 41734379 | Blood advances
+2026-05-12 14:42:07 [INFO]         Fiber intake associates with increased treatment response in patients with multiple myeloma along with changes in gut microbiome.
+2026-05-12 14:42:07 [INFO]   🚫 内容过滤排除 (1 篇):
+2026-05-12 14:42:07 [INFO]     [1] PMID 42116123 | Environmental microbiome
+2026-05-12 14:42:07 [INFO]         Vertical distribution and metabolic diversity of autotrophic microbes in the deep sediment of the challenger deep.
+2026-05-12 14:42:07 [INFO]         原因: 内容含排除词: wood
+2026-05-12 14:42:07 [INFO]   📵 期刊过滤排除 (1 篇):
+2026-05-12 14:42:07 [INFO]     [1] PMID 42115936 | BMC microbiology
+2026-05-12 14:42:07 [INFO]         Identifying gut microbiome signatures of type 1 diabetes using machine learning and evolutionary feature selection.
+2026-05-12 14:42:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC microbiology
+2026-05-12 14:42:07 [INFO] ================================================================================
+2026-05-12 14:42:07 [INFO] 
+2026-05-12 14:42:08 [INFO] 已保存 2 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-05-12.json
+2026-05-12 14:42:08 [INFO] Step 2: AI 摘要生成
+2026-05-12 14:42:08 [INFO] 共需处理 1 个文件
+2026-05-12 14:42:08 [INFO] 处理: 2026-05-12.json
+2026-05-12 14:42:08 [INFO]   [1/2] PMID 42116194 | Metatranscriptomic analysis of the microbiota of tumor tissu
+2026-05-12 14:42:24 [INFO]   [2/2] PMID 41734379 | Fiber intake associates with increased treatment response in
+2026-05-12 14:42:38 [INFO]   ✓ 已更新 2026-05-12.json（2 篇）
+2026-05-12 14:42:38 [INFO] 
 Step 3: 整合数据
-2026-05-11 15:29:57 [INFO] 累积基础 4217 篇 + 新增 4 篇 = 共 4221 篇
-2026-05-11 15:29:57 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-05-11 15:29:57 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4219 篇
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3829 KB)
-2026-05-11 15:29:57 [INFO]   2015: 91 篇 -> 2015.json
-2026-05-11 15:29:57 [INFO]   2016: 94 篇 -> 2016.json
-2026-05-11 15:29:57 [INFO]   2017: 86 篇 -> 2017.json
-2026-05-11 15:29:57 [INFO]   2018: 106 篇 -> 2018.json
-2026-05-11 15:29:57 [INFO]   2019: 183 篇 -> 2019.json
-2026-05-11 15:29:57 [INFO]   2020: 375 篇 -> 2020.json
-2026-05-11 15:29:57 [INFO]   2021: 456 篇 -> 2021.json
-2026-05-11 15:29:57 [INFO]   2022: 574 篇 -> 2022.json
-2026-05-11 15:29:57 [INFO]   2023: 560 篇 -> 2023.json
-2026-05-11 15:29:57 [INFO]   2024: 684 篇 -> 2024.json
-2026-05-11 15:29:57 [INFO]   2025: 816 篇 -> 2025.json
-2026-05-11 15:29:57 [INFO]   2026: 194 篇 -> 2026.json
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-05-11 15:29:57 [INFO] 
+2026-05-12 14:42:38 [INFO] 累积基础 4219 篇 + 新增 4 篇 = 共 4223 篇
+2026-05-12 14:42:38 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-12 14:42:38 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4221 篇
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3831 KB)
+2026-05-12 14:42:38 [INFO]   2015: 91 篇 -> 2015.json
+2026-05-12 14:42:38 [INFO]   2016: 94 篇 -> 2016.json
+2026-05-12 14:42:38 [INFO]   2017: 86 篇 -> 2017.json
+2026-05-12 14:42:38 [INFO]   2018: 106 篇 -> 2018.json
+2026-05-12 14:42:38 [INFO]   2019: 183 篇 -> 2019.json
+2026-05-12 14:42:38 [INFO]   2020: 375 篇 -> 2020.json
+2026-05-12 14:42:38 [INFO]   2021: 456 篇 -> 2021.json
+2026-05-12 14:42:38 [INFO]   2022: 574 篇 -> 2022.json
+2026-05-12 14:42:38 [INFO]   2023: 560 篇 -> 2023.json
+2026-05-12 14:42:38 [INFO]   2024: 684 篇 -> 2024.json
+2026-05-12 14:42:38 [INFO]   2025: 816 篇 -> 2025.json
+2026-05-12 14:42:38 [INFO]   2026: 196 篇 -> 2026.json
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-12 14:42:38 [INFO] 
 ==================================================
-2026-05-11 15:29:57 [INFO] ===== 完成！共 4219 篇文献 =====
-2026-05-11 15:29:57 [INFO] 已补全 2 天的数据
-2026-05-11 15:29:57 [INFO] ==================================================
-2026-05-11 15:29:57 [INFO] ✓ 每日更新完成
-2026-05-11 15:29:57 [INFO] ▶ 开始整合数据...
-2026-05-11 15:29:57 [INFO] 累积基础 4219 篇 + 新增 2 篇 = 共 4221 篇
-2026-05-11 15:29:57 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-05-11 15:29:57 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4219 篇
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3829 KB)
-2026-05-11 15:29:57 [INFO]   2015: 91 篇 -> 2015.json
-2026-05-11 15:29:57 [INFO]   2016: 94 篇 -> 2016.json
-2026-05-11 15:29:57 [INFO]   2017: 86 篇 -> 2017.json
-2026-05-11 15:29:57 [INFO]   2018: 106 篇 -> 2018.json
-2026-05-11 15:29:57 [INFO]   2019: 183 篇 -> 2019.json
-2026-05-11 15:29:57 [INFO]   2020: 375 篇 -> 2020.json
-2026-05-11 15:29:57 [INFO]   2021: 456 篇 -> 2021.json
-2026-05-11 15:29:57 [INFO]   2022: 574 篇 -> 2022.json
-2026-05-11 15:29:57 [INFO]   2023: 560 篇 -> 2023.json
-2026-05-11 15:29:57 [INFO]   2024: 684 篇 -> 2024.json
-2026-05-11 15:29:57 [INFO]   2025: 816 篇 -> 2025.json
-2026-05-11 15:29:57 [INFO]   2026: 194 篇 -> 2026.json
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-05-11 15:29:57 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-05-11 15:29:57 [INFO] ✓ 整合完成！共 4219 篇文献
+2026-05-12 14:42:38 [INFO] ===== 完成！共 4221 篇文献 =====
+2026-05-12 14:42:38 [INFO] 已补全 1 天的数据
+2026-05-12 14:42:38 [INFO] ==================================================
+2026-05-12 14:42:38 [INFO] ✓ 每日更新完成
+2026-05-12 14:42:38 [INFO] ▶ 开始整合数据...
+2026-05-12 14:42:38 [INFO] 累积基础 4221 篇 + 新增 2 篇 = 共 4223 篇
+2026-05-12 14:42:38 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-05-12 14:42:38 [INFO] 分区过滤: 排除 2 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4221 篇
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3831 KB)
+2026-05-12 14:42:38 [INFO]   2015: 91 篇 -> 2015.json
+2026-05-12 14:42:38 [INFO]   2016: 94 篇 -> 2016.json
+2026-05-12 14:42:38 [INFO]   2017: 86 篇 -> 2017.json
+2026-05-12 14:42:38 [INFO]   2018: 106 篇 -> 2018.json
+2026-05-12 14:42:38 [INFO]   2019: 183 篇 -> 2019.json
+2026-05-12 14:42:38 [INFO]   2020: 375 篇 -> 2020.json
+2026-05-12 14:42:38 [INFO]   2021: 456 篇 -> 2021.json
+2026-05-12 14:42:38 [INFO]   2022: 574 篇 -> 2022.json
+2026-05-12 14:42:38 [INFO]   2023: 560 篇 -> 2023.json
+2026-05-12 14:42:38 [INFO]   2024: 684 篇 -> 2024.json
+2026-05-12 14:42:38 [INFO]   2025: 816 篇 -> 2025.json
+2026-05-12 14:42:38 [INFO]   2026: 196 篇 -> 2026.json
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-05-12 14:42:38 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-05-12 14:42:38 [INFO] ✓ 整合完成！共 4221 篇文献

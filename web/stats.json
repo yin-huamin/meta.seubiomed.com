@@ -1,7 +1,7 @@
 {
-  "total": 4219,
+  "total": 4221,
   "by_type": {
-    "研究论文": 3398,
+    "研究论文": 3400,
     "综述": 335,
     "Benchmark": 148,
     "临床试验": 130,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 56
   },
   "by_year": {
-    "2026": 194,
+    "2026": 196,
     "2025": 816,
     "2024": 684,
     "2023": 560,
@@ -24,7 +24,7 @@
     "2015": 91
   },
   "top_journals": {
-    "Microbiome": 317,
+    "Microbiome": 318,
     "Nature communications": 266,
     "The ISME journal": 211,
     "Gut microbes": 209,
@@ -46,7 +46,7 @@
     "Emerging infectious diseases": 42
   },
   "top_diseases": {
-    "结直肠癌": 60,
+    "结直肠癌": 61,
     "肥胖": 37,
     "COVID-19": 36,
     "溃疡性结肠炎": 32,
