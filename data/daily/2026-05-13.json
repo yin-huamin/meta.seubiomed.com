@@ -1,0 +1,60 @@
+[
+  {
+    "pmid": "42121018",
+    "title": "Schizophrenia and Doxycycline: Microbiome Mediator?",
+    "doi": null,
+    "journal": "The American journal of psychiatry",
+    "issn": "1535-7228",
+    "pub_date": "2026-05-13",
+    "authors": "Uzoigwe Chika",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "Metabolism",
+      "Molecular Biology",
+      "Schizoaffective Disorder see Schizophrenia Spectrum and Other Psychotic Disorders"
+    ],
+    "summary_zh": "研究精神分裂症与强力霉素的关联，探讨微生物组作为介导因素的可能性。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "精神分裂症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-13"
+  },
+  {
+    "pmid": "42121259",
+    "title": "Butyrate combined with niacin enhances intestinal barrier function repair in weaned piglets infected with ETEC by promoting colonic metabolism and antimicrobial peptide expression.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-05-13",
+    "authors": "Tang Qingsong; Zhen Rui; Yang Bijing; Miao Zhenyan; Wei Yangyang et al.",
+    "abstract": "BACKGROUND: Weaning piglets are highly susceptible to enterotoxigenic Escherichia coli (ETEC) infections, which can cause intestinal barrier function dysfunction and death. However, there is still a lack of efficient, economical, and safe nutritional interventions. This study aimed to investigate the effects of combining butyrate with niacin on intestinal barrier function repair and resistance to ETEC infection in weaned piglets. In this study, two 14-d animal experiments were designed to observe the optimal butyrate-to-niacin ratio and assess their responses to the ETEC challenge.\nRESULTS: Supplementation with butyrate and niacin at a ratio of 100:2 (2,000 mg/kg butyrate and 40 mg/kg niacin, BN2) increased the average daily gain (ADG) and reduced the diarrhea incidence. We also observed an increase in the levels of nicotinamide adenine dinucleotide (NAD) in the colon of weaned piglets. Notably, BN2 promoted amino acid anabolism in the colon and enhanced glycolysis and the tricarboxylic acid (TCA) cycle by increasing the acetylation of key enzymes in the TCA. Furthermore, BN2 enhanced the expression of indispensable genes for the colonic mucosal barrier, including antimicrobial peptides such as porcine β defensin 1 (pBD1), porcine β defensin 2 (pBD2), and proline-arginine rich 39-amino acid peptide (PR39), tight junction proteins, and improved colonic microbiome composition. Based on these findings, we found that BN2 alleviated growth restriction and diarrhea, and modulated the expression of antimicrobial peptides, tight junction proteins, and cytokines to reduce colonic barrier function dysfunction in weaned piglets challenged with ETEC. Mechanistically, we confirmed that BN2 elevated the protein expression of acetylation of histone 3 lysin 27 (H3K27ac) and enhanced the binding of acH3K27 to the promoter regions of pBD1 and PR39.\nCONCLUSIONS: Supplementation with BN2 improved growth performance, supported colonic barrier function repair, and enhanced disease resistance in weaned piglets challenged with ETEC. This offers new insights into nutritional strategies for intestinal barrier function repair of piglets infected with ETEC.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Butyrate",
+      "Colonic barrier function",
+      "Enterotoxigenic Escherichia coli",
+      "Niacin",
+      "Weaned piglets"
+    ],
+    "summary_zh": "研究丁酸与烟酸联合补充对断奶仔猪ETEC感染后肠道屏障修复的作用，通过促进结肠代谢和抗菌肽表达增强屏障功能。",
+    "innovation": "明确了丁酸与烟酸的最优比例（100:2）| 揭示了BN2通过促进组蛋白H3K27乙酰化上调抗菌肽表达的机制",
+    "limitation": "未描述",
+    "study_object": "断奶仔猪 + 结肠组织与粪便样本 + 微生物组、代谢组与表观遗传分析",
+    "disease": "ETEC感染（肠毒素大肠杆菌感染）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-13"
+  }
+]
