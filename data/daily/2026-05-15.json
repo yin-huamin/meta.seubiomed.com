@@ -1,0 +1,399 @@
+[
+  {
+    "pmid": "42139092",
+    "title": "Metagenomic Next-generation Sequencing in Central Nervous System Infections: Clinical Strategies, Evidence, and Best Practices.",
+    "doi": null,
+    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+    "issn": "1537-6591",
+    "pub_date": "2026-05-15",
+    "authors": "Waldrop Greer; Reddy Sumanth P",
+    "abstract": "BACKGROUND: Central nervous system (CNS) infections are diagnostically challenging due to their nonspecific clinical presentations and wide array of potential pathogens. The rising population of immunocompromised patients further complicates this landscape, increasing the prevalence of atypical and opportunistic infections that are often missed by conventional testing.\nOBJECTIVE: This article provides guidance on the use and clinical interpretation of cerebrospinal fluid (CSF) metagenomic next-generation sequencing (mNGS) in suspected CNS infections.\nDISCUSSION: We highlight the paradigm shift from targeted molecular testing to agnostic mNGS, emphasizing key factors that impact diagnostic utility, including specimen handling, neuroanatomical factors, host inflammatory response, and pathogen kinetics. Using illustrative cases, we demonstrate how these biological and technical variables influence test sensitivity and result adjudication. We further discuss the impact of mNGS on clinical decision-making and current limitations regarding cost and turnaround time.\nCONCLUSIONS: Cerebrospinal fluid mNGS is a transformative diagnostic tool, particularly for unusual presentations and in immunocompromised hosts. However, it does not replace clinical judgment and requires careful multidisciplinary interpretation. When integrated thoughtfully with clinical and laboratory data, mNGS can meaningfully reduce the diagnostic gap in CNS infections.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "High-Throughput Nucleotide Sequencing",
+      "Metagenomics",
+      "Central Nervous System Infections",
+      "Immunocompromised Host",
+      "Female",
+      "Middle Aged"
+    ],
+    "keywords": [
+      "CNS infections",
+      "cerebrospinal fluid",
+      "mNGS",
+      "metagenomic next-generation sequencing",
+      "neuroinfectious diseases"
+    ],
+    "summary_zh": "本文提供脑脊液mNGS在疑似中枢神经系统感染中的使用和临床解释指南，强调其作为诊断工具的价值和局限性。",
+    "innovation": "从靶向分子检测到agnostic宏基因组二代测序的范式转变 | 强调影响诊断效用的生物和技术因素（标本处理、神经解剖因素、宿主炎症反应、病原体动力学）",
+    "limitation": "当前成本和周转时间的限制",
+    "study_object": "人类 + 脑脊液 + 宏基因组下一代测序（mNGS）",
+    "disease": "中枢神经系统感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42141481",
+    "title": "Neighborhood deadwood and yard rewilding modulate commensal microbiomes and inflammatory signals among urbanites.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-15",
+    "authors": "Roslund Marja I; Uimonen Laura; Kummola Laura; Cerrone Damiano; Ojala Ann et al.",
+    "abstract": "BACKGROUND: Urbanization and biodiversity loss reduce human exposure to diverse microbiomes. Current evidence suggests that the vanishing microbiomes in industrialized populations are a central factor in the rising prevalence of non-communicable immune-mediated diseases. Rewilding has been proposed as an approach to diversify urban microbial communities and promote immunological resilience.\nRESULTS: We rewilded 21 urban private yards with deadwood, vegetation, and microbially rich soil. Control yards (15) were analyzed for comparison. We analyzed skin bacteria and oral microbiomes and used vegetation and deadwood inventories, satellite data, and questionnaires to determine the effects of rewilding, living environment, and lifestyle factors on skin and oral microbiota, functional gene pathways, and cytokine levels (IL-6, IL-10). Neighborhood deadwood within 200-m radii around home yards was used as an indicator of environmental biodiversity. Samples were collected before the rewilding in summer and three months later in autumn. Skin microbial diversity stayed constant and was associated with plant richness in the rewilding group, despite the normal seasonal decline and reduced outdoor time in autumn. Rewilding was associated with a decrease in tetrahydrofolate biosynthesis and salvage, and L-histidine degradation gene pathways and other changes in oral microbiota. In the rewilding group in autumn, picking of berries and fruits was directly associated with immunoregulatory IL-10 and pleiotropic IL-6 in saliva, and neighborhood deadwood abundance with the fatty acid biosynthesis superpathway in oral microbiomes. When groups were analyzed jointly, the diversity of oral microbial functional gene pathways was negatively correlated with IL-6 levels, and neighborhood deadwood abundance was directly linked to skin Gammaproteobacterial taxa, and typically soil-derived Cytobacillus sp. CY-G and Streptomyces sp. HSG2 in saliva.\nCONCLUSIONS: Our findings are consistent with the biodiversity hypothesis, suggesting that biodiversity exposure may influence commensal microbiomes and biological pathways involved in host-microbe interactions. Our results suggest that the amount of decaying deadwood in the neighborhood, in addition to conventional measures of greenness and vegetation diversity, may provide advantageous information in studies examining human-environment microbiome interactions. This may inform biodiversity-related ecosystem services related to impacts on human health. Our findings provide an incentive for future studies and strategic investments for rewilding urban microbiomes to support planetary health. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过城市庭院野化实验，发现邻里枯木和野化可调节皮肤和口腔微生物组及炎症信号，支持生物多样性假说。",
+    "innovation": "首次在城市野化中评估枯木对微生物组的影响 | 发现枯木丰度与皮肤Gammaproteobacteria和口腔特定菌种相关 | 野化与口腔功能基因通路及细胞因子变化关联",
+    "limitation": "未描述",
+    "study_object": "人类 + 皮肤和口腔样本 + 宏基因组测序",
+    "disease": "无",
+    "sample_size": "36个庭院（21个野化，15个对照）",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42139090",
+    "title": "Selected Industry Highlights From IDWeek 2025.",
+    "doi": null,
+    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+    "issn": "1537-6591",
+    "pub_date": "2026-05-15",
+    "authors": "Parienti Jean-Jacques; Yang Shangxin Shaun; Grinspoon Steven",
+    "abstract": "This supplement presents scientific reports from industry-sponsored IDWeek 2025 symposia, highlighting selected advances in infectious diseases and HIV care through clinical case scenarios. One article explores therapeutic approaches to metabolic complications in people with HIV, emphasizing treatment strategies and the clinical reasoning that supports individualized management of excess adiposity. The second examines the clinical integration of metagenomic next-generation sequencing for diagnosing central nervous system infections, outlining both its opportunities and limitations within current diagnostic pathways.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "HIV Infections",
+      "High-Throughput Nucleotide Sequencing"
+    ],
+    "keywords": [
+      "CNS infection",
+      "PWH",
+      "diagnostic",
+      "obesity"
+    ],
+    "summary_zh": "介绍IDWeek 2025中关于HIV代谢并发症治疗和mNGS诊断中枢神经系统感染的两个报告。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "HIV患者及中枢神经系统感染患者；mNGS技术",
+    "disease": "HIV感染；代谢并发症；中枢神经系统感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42140665",
+    "title": "Cultivation-independent high-quality microbial genome reconstruction from environmental samples with midi-metagenomics.",
+    "doi": null,
+    "journal": "Genome research",
+    "issn": "1549-5469",
+    "pub_date": "2026-05-15",
+    "authors": "Vollmers John; Correa Cassal Maximiano; Kaster Anne-Kristin",
+    "abstract": "Since the majority of microbial organisms still evade cultivation attempts, genomic insights into many taxa are limited to cultivation-independent approaches. However, current methods of metagenomics and single-cell genome sequencing have individual drawbacks, which can limit the quality as well as completeness of the reconstructed genomes. Current attempts to combine both approaches still use whole genome amplification techniques which are prone to bias. Here, we propose a novel approach for the purpose of genome reconstructions that utilizes the potential of cell sorting for targeted enrichment and depletion of different cell types to create distinct cell fractions with sufficient DNA amounts, circumventing amplification. By distributing sequencing efforts over these fractions as well as the original sample, coassemblies become highly optimized for coabundance variation based binning approaches. \"Midi-metagenomics\" enables accurate metagenome-assembled genome (MAG) reconstruction from individual sorted samples with higher quality than coassembly and binning of multiple distinct samples and therefore improves analyses of the so-called \"microbial dark matter\".",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "提出midi-metagenomics，结合细胞分选和无需扩增的DNA提取，实现高质量环境样本MAG重建，优于传统方法。",
+    "innovation": "无需全基因组扩增，避免扩增偏差 | 细胞分选富集和去除不同细胞类型 | 利用共丰度差异优化分箱",
+    "limitation": "未描述",
+    "study_object": "环境样本 + 宏基因组 + 细胞分选",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42141123",
+    "title": "Decoding the human gut bacterial plasmids in colorectal cancer.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-05-15",
+    "authors": "Han Shuwen; Wu Zheng; Wu Yinhang; Wang Zefeng; Qian Peng et al.",
+    "abstract": "Gut plasmids show heightened sensitivity to gut microenvironmental changes compared to their bacterial hosts. To explore their significance in colorectal cancer (CRC), we analyzed metagenomic data from 863 participants (312 CRC, 387 high-risk, 164 low-risk). Plasmid and bacterial profiles were characterized, along with trace elements and metabolites. Differential analysis, functional gene assessment (ARG, MGE, MRG, VFGB), random forest modeling, and structural equation modeling (SEM) were applied. In terms of overall abundance, plasmids in both the high-risk and CRC groups exhibited a decreasing trend. Gut plasmids significantly influenced the functional genes (ARG, MGE, MRG, VFGB) of their bacterial hosts. Six key bacterial hosts (Enterobacterales, Bucrkholderiales, Hyphomicrobiales, Lactobacillales, Bacteroidales, Campylobacterales) and 12 plasmid markers were identified. The plasmid-based model effectively predicted CRC risk. SEM revealed that trace elements (e.g., Ni), metabolites (e.g., 5-Hydroxytryptophol), and host bacteria (e.g., Campylobacterales, Enterobacterales) predominantly exerted negative effects on most plasmids, whereas Ni exhibited a positive influence on plasmids NZ_CP013564.1, NZ_CP024312.1, and NZ_CP48284.1. We characterized the composition of gut plasmids and their bacterial hosts, explored the impacts of gut plasmids on bacterial functionality, and mapped multi-omics interaction networks linking plasmids, hosts, and metabolic features.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "分析863人宏基因组数据，揭示结直肠癌中肠道质粒组成、功能影响及多组学互作网络。",
+    "innovation": "首次系统刻画结直肠癌中肠道质粒组成及其对宿主细菌功能基因的影响 | 整合微量元素、代谢物、宿主细菌和质粒的多组学互作网络 | 基于质粒标志物的随机森林模型有效预测结直肠癌风险",
+    "limitation": "未描述",
+    "study_object": "人类肠道 + 粪便样本 + 宏基因组测序",
+    "disease": "结直肠癌",
+    "sample_size": "863",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42138193",
+    "title": "Gut‑brain axis in anesthesia and critical illness: Molecular crosstalk and its impact on delirium and outcome (Review).",
+    "doi": null,
+    "journal": "International journal of molecular medicine",
+    "issn": "1791-244X",
+    "pub_date": "2026-05-15",
+    "authors": "Ma Xigang; Zhao Yongsen",
+    "abstract": "The gut‑brain axis (GBA) has emerged as a critical mediator of acute brain dysfunction, particularly postoperative delirium and sepsis‑associated encephalopathy, in surgical and critically ill patients. Anesthesia, surgical stress, and critical illness collectively disrupt gut microbiota composition and intestinal barrier integrity, leading to increased systemic translocation of microbial products. This process triggers neuroinflammation and compromises blood‑brain barrier function through defined molecular pathways, including alterations in microbe‑derived short‑chain fatty acids, tryptophan metabolites, and potent neuroimmune signaling via the LPS‑TLR4‑NF‑κB axis. The present review synthesizes current evidence on the molecular crosstalk within the GBA, highlighting how perioperative and intensive care interventions drive dysbiosis and subsequent neurological sequelae. Furthermore, it evaluates promising GBA‑targeted therapeutic strategies, including dietary modulation, biotherapeutics and pharmacological interventions, are evaluated for their potential to mitigate delirium and improve long‑term cognitive outcomes. A deeper understanding of these mechanisms is essential for developing novel preventive and therapeutic approaches in vulnerable patient populations.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Critical Illness",
+      "Delirium",
+      "Gastrointestinal Microbiome",
+      "Brain",
+      "Anesthesia",
+      "Animals"
+    ],
+    "keywords": [
+      "GBA",
+      "POD",
+      "SAE",
+      "SCFAs",
+      "anesthesia",
+      "critical illness",
+      "microbiome",
+      "neuroinflammation"
+    ],
+    "summary_zh": "综述肠脑轴在麻醉和危重病中的作用机制，探讨其对谵妄和认知预后的影响及潜在治疗策略。",
+    "innovation": "系统总结了肠脑轴在麻醉和危重病中的分子串扰机制 | 评估了靶向肠脑轴的饮食、生物和药理干预策略",
+    "limitation": "未描述",
+    "study_object": "手术和危重患者（文献综述）",
+    "disease": "术后谵妄、脓毒症相关脑病、谵妄",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42140743",
+    "title": "Phase I trial of CJRB-101 plus pembrolizumab in patients with metastatic non-small cell lung cancer, head and neck squamous cell carcinoma and melanoma.",
+    "doi": null,
+    "journal": "Journal for immunotherapy of cancer",
+    "issn": "2051-1426",
+    "pub_date": "2026-05-15",
+    "authors": "Lee Jii Bum; Baek Sujeong; Kim Dong Kwon; Kwon Bo-Eun; Ahn Jin Seok et al.",
+    "abstract": "BACKGROUND: Dysbiosis of gut microbiome leads to resistance to immunotherapy in various advanced solid tumors. CJRB-101 is a live biotherapeutic product consisting of a novel strain belonging to the species Leuconostoc mesenteroides. To modulate the tumor microenvironment, CJRB-101 was combined with pembrolizumab.\nMETHODS: Preclinical efficacy and mechanistic studies were performed using humanized non-small cell lung cancer (NSCLC) patient-derived xenograft (PDX) models. This is a multicenter, first-in-human, two-part, phase I, open-label study of CJRB-101 (1×1011 or 4×1011 colony forming unit (CFU)/day) plus pembrolizumab (200 mg every three weeks (Q3W)) in advanced NSCLC, melanoma, and head and neck squamous cell carcinoma in both immune checkpoint inhibitor (ICI)-naive and ICI-refractory settings. The primary endpoint was to assess the dose-limiting toxicities (DLTs), adverse events, and preliminary activity of the combination treatment. Exploratory endpoints included stool metagenomics analysis and pharmacodynamics parameters.\nRESULTS: In four PDX models, CJRB-101 with pembrolizumab demonstrated enhanced antitumor efficacy, showing a tumor growth inhibition (TGI) of 77.3% in the CJRB-101 monotherapy group and 61.9% in the combination group, which was significantly improved compared with pembrolizumab alone. A distinct M2-to-M1 repolarization was observed and validated in vitro. Notably, increased activation of cytotoxic T cells was observed, suggesting an immune-mediated antitumor mechanism of CJRB-101. A total of 42 patients were enrolled in the low-dose cohort (one capsule once a day; n=6) and high-dose cohort (two capsules two times a day, n=36). Metastatic NSCLC accounted for 86% (n=36) and 67% (n=28) of the patients were refractory to ICIs. None of the patients experienced DLT. In ICI-naïve NSCLC (n=12) with programmed death-ligand 1 (PD-L1) >50%, the overall response rate (ORR) and disease control rate (DCR) were 58% and 75%, respectively. The ORR was 5% and DCR was 41% in the ICI-refractory NSCLC (n=22) with an ORR of 5% and DCR of 41%. After a median follow-up of 15.6 months and 8.9 months for ICI-naïve and ICI-refractory NSCLC, the median progression-free survival was 9 months (95% CI 5.6 to not reached) and 1.8 months (95% CI 1.6 to 4.3), respectively. CJRB-101 plus pembrolizumab was well-tolerated, and none of the patients experienced grade >3 treatment-related adverse events.\nCONCLUSIONS: Early clinical data show encouraging antitumor response of CJRB-101 plus pembrolizumab in ICI-naïve metastatic NSCLC with PD-L1 >50%.\nTRIAL REGISTRATION NUMBER: NCT05877430.",
+    "pub_types": [
+      "Journal Article",
+      "Clinical Trial, Phase I",
+      "Multicenter Study"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Antibodies, Monoclonal, Humanized",
+      "Female",
+      "Male",
+      "Middle Aged",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Aged",
+      "Squamous Cell Carcinoma of Head and Neck",
+      "Melanoma",
+      "Lung Neoplasms",
+      "Mice",
+      "Head and Neck Neoplasms",
+      "Antineoplastic Combined Chemotherapy Protocols",
+      "Animals",
+      "Adult"
+    ],
+    "keywords": [
+      "Immunotherapy",
+      "Lung Cancer",
+      "Macrophage",
+      "T-Lymphocytes"
+    ],
+    "summary_zh": "通过临床前PDX模型和I期临床试验评估CJRB-101联合pembrolizumab，结果显示在ICI初治NSCLC中具有良好抗肿瘤反应。",
+    "innovation": "CJRB-101为新型明串珠菌菌株活体生物治疗产品 | 联用Pembrolizumab在PDX模型中显示增强抗肿瘤疗效并诱导M2-to-M1再极化和CTL激活 | 首次在人类中评估该联合方案的安全性和初步疗效",
+    "limitation": "未描述",
+    "study_object": "患者（非小细胞肺癌、黑色素瘤、头颈鳞癌）；粪便样本；宏基因组分析",
+    "disease": "转移性非小细胞肺癌、头颈部鳞状细胞癌、黑色素瘤",
+    "sample_size": "42",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42141284",
+    "title": "Even mild blows to the head disrupt the microbiome.",
+    "doi": null,
+    "journal": "Nature",
+    "issn": "1476-4687",
+    "pub_date": "2026-05-15",
+    "authors": "",
+    "abstract": "",
+    "pub_types": [
+      "News"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "Microbiome"
+    ],
+    "summary_zh": "研究轻微头部撞击对微生物组的破坏作用。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42140961",
+    "title": "Divergence among species with \"good competitor\" and \"good cultivator\" strategies promotes asymmetric facilitation among co-invaders.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-05-15",
+    "authors": "Li Chong-Wei; Liao Hui-Xuan; Callaway Ragan M; Su Zhe-Yang; Zou Ji-Kai et al.",
+    "abstract": "Facilitative interactions among co-invaders may lead to invasional meltdown, accelerating non-native species accumulation and exacerbating ecological impacts over time. However, it remains unclear why certain non-native combinations promote facilitation while others do not, and may even constrain invasions. To address this question, we examine six invasive species in the Asteraceae family along two strategic dimensions: competitiveness and capacity to cultivate invader-promoting microbial communities. We then create experimental combinations to mix \"good competitors\" and \"good cultivators\" to varying degrees to form a \"strategic divergence\" gradient. We hypothesize greater strategic divergences generate more intense facilitations, whereas similar strategies generate inhibitions. Strategic divergence correlates with facilitation, but interactions are asymmetric: strong competitive suppressors of natives benefit from co-invasions with weaker competitors that cultivate favorable microbial environments but the performance of the latter are generally suppressed by the strong competitors. Metagenomic sequencing further indicates that good cultivators may promote facilitation by repelling pathogens (Ascomycota) and deterring microbes that might be exclusively beneficial for natives (Proteobacteria, Firmicutes, and Planctomycetota). Our results provide empirical evidence for the importance of strategic divergence among invasive species and offer a mechanistic basis for predicting which combinations of co-invading species might generate facilitation and which might result in inhibition.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究6种入侵菊科植物竞争力与微生物培养策略差异对促进作用的影响，发现策略差异越大促进作用越强且不对称，宏基因组揭示微生物机制。",
+    "innovation": "首次提出并验证入侵植物间“策略差异”促进共生机制 | 揭示不对称促进作用：强竞争抑制者受益，弱竞争促进者受抑 | 宏基因组表明好培养者通过排斥病原菌和抑制对本土有益菌群来促进共生",
+    "limitation": "未描述",
+    "study_object": "入侵菊科植物 + 实验组合 + 宏基因组测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42139081",
+    "title": "Dietary Niches Drive Microbial Community Assembly, Network Reorganization, and Symbiont Evolution in Freshwater Fish Gut Microbiomes.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-05-15",
+    "authors": "Shen Hongye; Song Jinhui; Li Jinshan; Hu Yongmei; Peng Nan et al.",
+    "abstract": "Host diet is a fundamental ecological factor shaping the assembly and evolution of host-associated microbiomes, yet how dietary niches influence the structure of microbial associations and functional adaptation in freshwater fish remains poorly understood. This study selected five dominant farmed freshwater fish species in China with distinct feeding habits (herbivory, omnivory, filter-feeding, and carnivory) and systematically investigated the adaptive mechanisms of their gut microbiomes by integrating metagenomics, targeted cultivation, comparative genomics, and in vitro assays. We show that dietary niches exert a strong deterministic effect on microbial community assembly, leading to pronounced differences in ecological network topology, including connectivity, modularity, and keystone taxa. Cetobacterium was detected in all five fish species but exhibited a higher relative abundance in omnivorous (16.0%) compared to carnivorous fish (5.4%), suggesting that it may be a core genus within the gut microbiota of freshwater fish. Comparative genomics further revealed that Cetobacterium symbionts exhibit streamlined genome architectures and conserved core metabolic functions, indicative of adaptive evolution toward stable host-associated lifestyles. Guided by metagenomic insights, we isolated multiple Cetobacterium strains displaying host-adapted functional traits, linking community-level ecological patterns to cultivable symbiont resources. In summary, our findings demonstrate that freshwater fish guts function as ecological niches that deterministically structure microbial community assembly and drive symbiont evolution, providing a conceptual framework for understanding host-microbiome co-adaptation in aquatic ecosystems.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cetobacterium",
+      "Freshwater fish",
+      "Gut microbiota",
+      "Metagenomic sequencing",
+      "Potential probiotics"
+    ],
+    "summary_zh": "通过宏基因组等多组学方法，研究五种食性淡水鱼肠道微生物，发现饮食生态位确定性驱动群落组装和共生进化。",
+    "innovation": "整合宏基因组与靶向培养等多种方法系统研究淡水鱼肠道微生物 | 发现饮食生态位确定性影响网络拓扑（连通性、模块化、关键物种） | 分离出宿主适应的Cetobacterium菌株，连接生态模式与可培养资源",
+    "limitation": "未描述",
+    "study_object": "淡水鱼肠道微生物组（宏基因组、靶向培养、比较基因组、体外实验）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42140946",
+    "title": "Anthracnose drives assembly of phyllosphere epiphytic bacterial communities to increase disease resistance.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-05-15",
+    "authors": "Zheng Rongchun; Li Yingde; Shang Panpan; Shen Youlei; Nan Zhibiao et al.",
+    "abstract": "The phyllosphere microbiome plays crucial roles in plant health, but evidence of 'cry for help' strategy in the face of pathogen attack in the phyllosphere remains limited, particularly for the microbiomes of distinct leaf ecological niches. We investigated whether foliar pathogen anthracnose (Colletotrichum lentis) influenced the assembly and functions of microbiomes in epiphytic and endophytic niches of the phyllosphere of common vetch (Vicia sativa) leaves. We also evaluated synthetic microbial communities (SynComs), including representatives of disease-associated strains, for pathogen protection. Anthracnose mediated the deterministic assembly process of epiphytic bacterial and endophytic fungal communities, and increased the complexity of bacterial co-occurrence networks. Iron competition and antifungal genes were also enriched in the epiphytic bacteria, which produce siderophores and degrade fungal cell walls to counteract pathogens. SynComs of beneficial epiphytic bacteria partially protect hosts by regulating bacterial interactions and inducing host immune responses. These findings suggest that disease drives the deterministic assembly of distinct phyllosphere microbiomes, their diversity and their function. Moreover, SynComs from the epiphytic niche can confer host plant disease resistance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究炭疽病驱动野豌豆叶际附生和内生微生物组确定性组装，附生细菌铁竞争和抗真菌基因富集，合成群落可提高抗病性。",
+    "innovation": "揭示病害驱动叶际不同生态位微生物组的确定性组装 | 发现附生细菌的铁竞争和抗真菌基因富集 | 合成微生物群落可部分保护宿主",
+    "limitation": "未描述",
+    "study_object": "普通野豌豆叶际附生和内生根际微生态（细菌和真菌）",
+    "disease": "炭疽病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42138670",
+    "title": "AGA Clinical Practice Update on Management of Clostridioides difficile Infection in Inflammatory Bowel Disease: Expert Review.",
+    "doi": null,
+    "journal": "Gastroenterology",
+    "issn": "1528-0012",
+    "pub_date": "2026-05-15",
+    "authors": "Khanna Sahil; Allegretti Jessica R; Hashash Jana G; Feuerstadt Paul",
+    "abstract": "DESCRIPTION: Clostridioides difficile infection (CDI) remains a significant driver of disease flares and poor outcomes in patients with inflammatory bowel disease (IBD), leading to increased hospitalization, intensified or failed therapy, and higher surgical rates. Compared with the non-IBD population, patients with IBD face greater CDI risk and severity and higher recurrence risk, creating clinical dilemmas when considering antibiotic selection and the timing or necessity of IBD-related therapy adjustments. Emerging evidence highlights microbiota-based therapies such as unapproved fecal microbiota transplantation or US Food and Drug Administration-approved donor-derived therapies as a promising therapeutic avenue for recurrent CDI in patients with IBD, reflecting a growing emphasis on microbiome-directed interventions. This review examines the evolving literature, considering the diagnosis and management strategies and offering pragmatic guidance to optimize outcomes for patients with IBD challenged by concomitant CDI and recurrent CDI.\nMETHODS: This Expert Review was commissioned and approved by the American Gastroenterological Association (AGA) Institute Clinical Practice Updates Committee and the AGA Governing Board to provide timely guidance on a topic of high clinical importance to the AGA membership and underwent internal peer review by the Clinical Practice Updates Committee and external peer review through standard procedures of Gastroenterology. These practical Best Practice Advice statements were drawn from a review of the best available published evidence, including existing clinical studies, systematic reviews and practice guidelines, and expert opinion. Because a formal systematic review was not performed, these Best Practice Advice statements do not carry formal ratings of the quality of evidence or strength of the presented considerations. The focus is on the management of both CDI and IBD in patients with underlying IBD who develop CDI. Best Practice Advice Statements BEST PRACTICE ADVICE 1: In patients with IBD who have new or worsening diarrhea, CDI should be excluded, especially among those with colonic involvement, as they are at increased risk of CDI. Clinicians should consider and treat CDI in patients with end ileostomy or ileo-anal pouch anastomosis with worsening diarrhea. BEST PRACTICE ADVICE 2: In patients with IBD and suspected CDI, a multistep toxin-based assay should be used for diagnostic evaluation. BEST PRACTICE ADVICE 3: In patients with IBD and recent CDI who have been treated successfully with antibiotics, recurrent diarrhea should prompt retesting for CDI. BEST PRACTICE ADVICE 4: In patients with IBD who develop an initial episode of CDI, clinicians should preferentially use fidaxomicin or use vancomycin if fidaxomicin is unavailable or cost-prohibitive. Metronidazole should not be used. BEST PRACTICE ADVICE 5: Clinicians should strongly consider hospitalization for patients with IBD and CDI who demonstrate features of severe colitis or systemic toxicity (eg, more than 6 bowel movements per day, severe abdominal pain, marked leukocytosis, hemodynamic instability, or other evidence of sepsis). BEST PRACTICE ADVICE 6: When selecting an immunosuppressive therapy to treat IBD, no class or mechanism of action has a differential risk of CDI and, therefore, clinicians should choose the therapy that is best to treat the IBD. BEST PRACTICE ADVICE 7: In patients with IBD and acute CDI, concurrent treatment of IBD is critical and clinicians should continue therapy with the required immunosuppressive therapies (ie, immunomodulators, biologics, or small molecules). Steroids can also be used if deemed necessary while CDI is treated with antibiotics. BEST PRACTICE ADVICE 8: Clinicians should consider endoscopic evaluation for IBD activity and exclusion of concomitant cytomegalovirus infection if symptoms persist 48-72 hours after initiation of treatment for CDI. BEST PRACTICE ADVICE 9: Clinicians may consider loperamide in patients with improving inflammation and infection but ongoing diarrhea. BEST PRACTICE ADVICE 10: Clinicians should offer microbiome-based therapies (eg, fecal microbiota, live-jslm, fecal microbiota spores, live-brpk, or unapproved fecal microbiota transplantation) to patients with IBD with at least 1 recurrence of CDI to prevent future infection. BEST PRACTICE ADVICE 11: In patients with IBD, clinicians should not advise probiotics for primary or secondary prevention of CDI. BEST PRACTICE ADVICE 12: In patients with IBD and a history of CDI who are receiving systemic antibiotics, clinicians may consider oral vancomycin prophylaxis as secondary prevention.",
+    "pub_types": [
+      "Journal Article",
+      "Practice Guideline"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotics",
+      "Clostridioides Difficile",
+      "Crohn’s Disease",
+      "Immunosuppression",
+      "Microbiome",
+      "Ulcerative Colitis"
+    ],
+    "summary_zh": "综述IBD患者CDI的诊断与管理策略，提供12条最佳实践建议，强调微生物组疗法。",
+    "innovation": "提出基于微生物组疗法（如FMT）用于复发性CDI | 系统总结IBD患者CDI管理的实践指导，包括抗生素选择和免疫抑制治疗",
+    "limitation": "未进行正式系统评价，证据质量未评级 | 基于专家意见，可能存在偏倚",
+    "study_object": "未描述",
+    "disease": "炎症性肠病合并艰难梭菌感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  },
+  {
+    "pmid": "42138826",
+    "title": "Sulfated Cyclocarya Paliurus Polysaccharide Sorchestrates the Gut Microbiome to Mobilize a Host-Derived 12-HEPE Against Ulcerative Colitis.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-05-15",
+    "authors": "Chen Xianxiang; Shen Mingyue; Zhang Rui; Huang Zhibing; Niu Hui et al.",
+    "abstract": "Despite extensive evidence supporting the therapeutic potential of natural product-derived compounds in Ulcerative colitis (UC), their precise mechanisms have yet to be fully elucidated. In this study, structurally modified Cyclocarya paliurus polysaccharide (CP) derivatives were evaluated in a dextran sulfate sodium (DSS)-induced UC mouse model. Among the variants tested, sulfated Cyclocarya paliurus polysaccharide (SCP) emerged as the most therapeutically potent. SCP administration markedly attenuated colitis severity, as evidenced by relieved disease symptoms and reinforced intestinal barrier function. Mechanistically, SCP restored gut microbial homeostasis by enriching beneficial Bacteroidetes and enhancing short-chain fatty acids (SCFAs) production. This remodeled microbial ecosystem orchestrates the upregulation of host-derived 12-hydroxyeicosapentaenoic acid (12-HEPE), which exerts anti-inflammatory effects via direct inhibition of Toll-like receptor 4 (TLR4) signaling. The gut microbiota's functional relevance was substantiated by fecal microbiota transplantation and antibiotic-mediated exhaustion studies. Notably, the therapeutic benefits of 12-HEPE were abrogated upon co-administration of a TLR4 agonist, confirming its target specificity. Elevated serum 12-HEPE levels were observed in a human UC cohort, implying a potential compensatory immunoregulatory response. Our findings elucidate a novel microbiota-host interaction axis wherein SCP alleviates UC by modulating the gut microbiota to enhance endogenous 12-HEPE production, thereby suppressing TLR4-mediated inflammation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cyclocarya paliurus polysaccharide",
+      "UC",
+      "microbiota, TLR4"
+    ],
+    "summary_zh": "研究硫酸化青钱柳多糖通过重塑肠道菌群上调宿主12-HEPE，抑制TLR4信号缓解溃疡性结肠炎。",
+    "innovation": "发现硫酸化青钱柳多糖通过肠道菌群-12-HEPE-TLR4轴缓解UC | 揭示宿主来源12-HEPE作为关键效应分子 | 在人类UC队列中观察到12-HEPE升高提示代偿性免疫调节",
+    "limitation": "未描述",
+    "study_object": "DSS诱导UC小鼠模型及人类UC队列，粪便和血清样本，微生物组分析及粪菌移植",
+    "disease": "溃疡性结肠炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-15"
+  }
+]

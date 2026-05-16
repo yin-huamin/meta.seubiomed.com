@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "42140950",
+    "title": "Carboplatin with or without nivolumab in metastatic triple-negative breast cancer: a randomized phase II trial.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-05-16",
+    "authors": "Garrido-Castro Ana C; Graham Noah; Li Katelyn X; Bi Lynn; Crowdis Jett et al.",
+    "abstract": "This multi-institutional randomized phase II clinical trial (NCT03414684) investigated the efficacy and safety of carboplatin plus nivolumab compared to carboplatin in metastatic triple-negative breast cancer (mTNBC). The primary endpoint was progression-free survival (PFS) in a modified intention-to-treat (mITT) population of patients with chemotherapy-naïve (i.e., first-line) mTNBC. Secondary endpoints included overall survival (OS), confirmed objective response rate, confirmed clinical benefit rate, time to and duration of confirmed objective response, safety, and tolerability. Clinical outcomes were evaluated in the PD-L1-positive subgroup ( ≥ 1% immune cells; SP142 clone) per central review. Biospecimens were collected for correlative analyses. 75 patients were enrolled and treated between 2/2018-9/2020. Among the mITT population (n = 62), median PFS was 4.2 months with carboplatin plus nivolumab vs 5.5 months with carboplatin. Median OS did not significantly differ between arms (16.8 vs 11.1 months, respectively). In PD-L1-positive mTNBC patients (n = 24), median PFS was 8.3 vs 4.7 months; median OS was 17.6 vs 10.7 months. Grade ≥3 adverse events occurred in 56.8% of patients in the combination arm and 65.8% in the carboplatin arm. Carboplatin plus nivolumab did not significantly improve PFS compared to carboplatin in patients overall; however, a trend toward improved outcomes was observed in PD-L1-positive mTNBC patients. High mutational burden, interferon-gamma signaling, early circulating tumor DNA reduction, low baseline serum thymidine kinase activity, and urea cycle dysregulation in the microbiome emerged as potential predictors of response to immune checkpoint inhibitors with platinum.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "一项随机II期试验评估卡铂联合nivolumab对比卡铂治疗转移性三阴性乳腺癌，未改善总体PFS，但在PD-L1阳性亚组显示获益趋势，并发现微生物组尿素循环失调等潜在预测因子。",
+    "innovation": "聚焦PD-L1阳性亚组分析 | 识别微生物组尿素循环失调作为免疫检查点抑制剂联合铂类化疗的潜在预测因子 | 综合多维度生物标志物（突变负荷、IFN-γ信号、ctDNA、血清TK1活性）",
+    "limitation": "未描述",
+    "study_object": "人类（转移性三阴性乳腺癌患者）+ 血液样本（ctDNA）和肿瘤组织 + 临床试验与生物标志物分析",
+    "disease": "转移性三阴性乳腺癌",
+    "sample_size": "75例患者（mITT 62例）",
+    "ai_done": true,
+    "fetch_date": "2026-05-16"
+  }
+]

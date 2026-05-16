@@ -1,16 +1,16 @@
 {
-  "total": 4231,
+  "total": 4245,
   "by_type": {
-    "研究论文": 3406,
-    "综述": 337,
+    "研究论文": 3416,
+    "综述": 339,
     "Benchmark": 149,
-    "临床试验": 130,
-    "其他": 84,
+    "临床试验": 131,
+    "其他": 85,
     "案例报告": 69,
     "系统综述/Meta分析": 56
   },
   "by_year": {
-    "2026": 206,
+    "2026": 220,
     "2025": 816,
     "2024": 684,
     "2023": 560,
@@ -24,13 +24,13 @@
     "2015": 91
   },
   "top_journals": {
-    "Microbiome": 318,
-    "Nature communications": 266,
-    "The ISME journal": 211,
+    "Microbiome": 319,
+    "Nature communications": 268,
+    "The ISME journal": 212,
     "Gut microbes": 210,
     "Nucleic acids research": 119,
     "Frontiers in immunology": 103,
-    "NPJ biofilms and microbiomes": 101,
+    "NPJ biofilms and microbiomes": 102,
     "Nature microbiology": 101,
     "Nutrients": 94,
     "Genome biology": 87,
@@ -39,17 +39,17 @@
     "Proceedings of the National Academy of Sciences of the United States of America": 72,
     "Cell host & microbe": 64,
     "Journal of translational medicine": 59,
-    "Communications biology": 57,
+    "Communications biology": 58,
     "Scientific data": 45,
+    "Nature": 44,
     "Nature biotechnology": 44,
-    "Nature": 43,
-    "Emerging infectious diseases": 42
+    "Gastroenterology": 42
   },
   "top_diseases": {
-    "结直肠癌": 61,
+    "结直肠癌": 62,
     "肥胖": 37,
     "COVID-19": 36,
-    "溃疡性结肠炎": 32,
+    "溃疡性结肠炎": 33,
     "克罗恩病": 30,
     "帕金森病": 25,
     "2型糖尿病": 19,
