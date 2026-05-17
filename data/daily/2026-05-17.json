@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "42143054",
+    "title": "Pharmabiotics, Phocaeicola dorei, ameliorates cholestatic liver fibrosis by alleviating macrophage efferocytosis of neutrophils.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-05-17",
+    "authors": "Eom Jung A; Park In Gyu; Hyun Ji Ye; Lee Na Young; Kwon Goo Hyun et al.",
+    "abstract": "Phocaeicola dorei has been reported to ameliorate metabolic diseases. Its role in liver fibrosis remains unclear. We evaluated the hepatoprotective effect of P. dorei in liver fibrosis. Fecal samples were collected from healthy controls and patients (n = 285) to assess the clinical relevance of P. dorei. In male mice models (3,5-diethoxycarbonyl-1.4-dihydrocollidine [DDC] diet), P. dorei (109 CFU/g twice/week) was orally administered. Primary HSCs, LX-2, THP-1, and HL-60 cell lines were used for mechanical validation. The relative abundance of P. dorei increased with worsing liver disease in human. P. dorei administration significantly reduced neutrophil degranulation and efferocytosis pathways (Ly6g and F4/80). The dysregulated expression of neutrophil-associated chemokines (Cx3cl1 and Cx3cr1) was restored by P. dorei. P. dorei culture supernatant inhibited macrophage-mediated efferocytosis. P. dorei attenuates liver fibrosis by suppressing neutrophil and macrophage infiltration and disrupting efferocytosis. Our results identify P. dorei as a potential microbiome-based therapeutic candidate for cholestatic liver fibrosis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "评估Phocaeicola dorei对胆汁淤积性肝纤维化的保护作用，发现其通过抑制中性粒细胞脱颗粒和巨噬细胞胞葬作用减轻纤维化。",
+    "innovation": "首次发现Phocaeicola dorei在肝纤维化中的作用 | 揭示其通过抑制中性粒细胞脱颗粒和巨噬细胞胞葬作用减轻肝纤维化的机制",
+    "limitation": "未描述",
+    "study_object": "人类粪便样本（微生物组分析）及小鼠模型和细胞系",
+    "disease": "胆汁淤积性肝纤维化",
+    "sample_size": "人类粪便样本n=285",
+    "ai_done": true,
+    "fetch_date": "2026-05-17"
+  }
+]
