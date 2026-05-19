@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42150759",
+    "title": "Upper and Lower Respiratory Tract Compartmentalization in Pediatric Stem Cell Transplantation.",
+    "doi": null,
+    "journal": "American journal of respiratory cell and molecular biology",
+    "issn": "1535-4989",
+    "pub_date": "2026-05-19",
+    "authors": "Evans Erica M; Mayday Madeline Y; Pearce Emma M; Iwanaga Kensho; Ly Ngoc P et al.",
+    "abstract": "RATIONALE: Lung injury after hematopoietic stem cell transplantation (HCT) occurs due to infection, chemotherapy toxicity, and alloreactive inflammation. Analyses of bronchoalveolar lavage (BAL) fluid have revealed dominant pathobiologic signatures, but minimally-invasive diagnostics are needed.\nOBJECTIVES: To determine whether microbiome and gene expression perturbations are shared along the respiratory tract or isolated to the alveoli in pediatric HCT patients with lung injury.\nMETHODS: We performed bulk RNA sequencing on 206 paired nasal and BAL samples from 160 HCT patients and 17 healthy controls enrolled at 28 children's hospitals (2016-2025). Microbial and human transcripts were compared using multivariable models accounting for age, sex, and paired sampling.\nMEASUREMENTS AND MAIN RESULTS: HCT BAL and nasal transcriptomes differed across 13,698 genes, 48 cellular components, and network interactions linking inflammation, reactive oxygen species, and immunometabolism. Minimal BAL-nasal correlation was observed in gene expression levels (median ρ = 0.03, IQR -0.03 to 0.08) or fractional abundance of key cells such as neutrophils and CD8 + T-cells. BAL microbiomes harbored fewer commensal bacteria and more fungi and DNA viruses. BAL bacterial RNA was associated with diminished immune signaling whereas nasal bacterial RNA aligned with inflammatory gene expression. Further, only BAL microbial RNA was linked to transcriptional shifts in epithelial injury response, keratinization, and collagen deposition. Finally, BAL commensal microbiome depletion, epithelial injury, and immune dysregulation signatures were associated with death or prolonged mechanical ventilation, whereas nasal samples provided minimal prognostic information.\nCONCLUSIONS: These data support alveolar compartmentalization in pediatric HCT and emphasize the ongoing need for minimally-invasive but informative diagnostics.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bronchoalveolar Lavage",
+      "Hematopoietic Stem Cell Transplantation",
+      "Immunocompromised Host",
+      "Intensive Care Units",
+      "Pediatric",
+      "Transcriptome"
+    ],
+    "summary_zh": "通过配对鼻腔和BAL样本分析，发现小儿造血干细胞移植患者上下呼吸道在微生物组和基因表达上存在区室化，肺泡炎症与预后更相关。",
+    "innovation": "首次在儿科HCT中通过配对鼻腔和BAL样本全面比较上下呼吸道区室化 | 揭示上下呼吸道微生物组和宿主转录组差异及其与临床预后的关联",
+    "limitation": "BAL取样有创性限制了常规应用 | 鼻腔样本提供的预后信息有限",
+    "study_object": "儿科HCT患者和健康对照的鼻腔和支气管肺泡灌洗液（BAL）样本，采用宏转录组测序",
+    "disease": "肺损伤",
+    "sample_size": "160名HCT患者和17名健康对照，共206对配对样本",
+    "ai_done": true,
+    "fetch_date": "2026-05-19"
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "pmid": "42151989",
+    "title": "The dual role of the microbiome in chronic wound management.",
+    "doi": null,
+    "journal": "Cell communication and signaling : CCS",
+    "issn": "1478-811X",
+    "pub_date": "2026-05-18",
+    "authors": "Deng Rui; Qian Jiayan; Liu Ye; Bu Qianqian; Cao Tingjun et al.",
+    "abstract": "Chronic wounds are characterized by delayed healing driven by persistent dysbiosis of the wound microbiome. Distinct microbial communities, often organized as biofilms, dominate different chronic wound types and impair tissue repair through metabolic disruption, immune evasion, and sustained inflammation. Emerging evidence indicates that probiotics can modulate wound-associated microbiota by suppressing pathogenic colonization, reshaping local metabolic and immune responses, and promoting a pro-regenerative microenvironment, both locally and via the gut-skin axis. Recent advances in natural product-derived biomaterials provide new opportunities to enable probiotic-based interventions through controlled delivery and protection of microbial function. This review summarizes the dual role of the microbiome in chronic wound pathology and healing, evaluates the challenges and risks of probiotic therapies, and highlights microbiome-responsive materials as translational tools. We propose that targeted microbiome interventions should evolve through a closed-loop strategy integrating microbiome profiling, strengthened product and technology development, and adaptive clinical management to achieve precision wound care.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Biofilms",
+      "Chronic wound",
+      "Microbiome regulation",
+      "Probiotic therapy",
+      "Wound microbiome"
+    ],
+    "summary_zh": "综述慢性伤口微生物组的双重作用，探讨益生菌及生物材料干预，提出闭环策略实现精准护理。",
+    "innovation": "提出微生物组响应性材料作为转化工具 | 提出整合微生物组分析、技术开发和适应性临床管理的闭环策略 | 天然产物衍生生物材料用于益生菌递送",
+    "limitation": "未描述",
+    "study_object": "人体慢性伤口样本 + 微生物组分析、益生菌干预、生物材料技术",
+    "disease": "慢性伤口",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42149786",
+    "title": "Topical calcineurin inhibitors and the epidermal barrier in atopic dermatitis.",
+    "doi": null,
+    "journal": "Dermatology (Basel, Switzerland)",
+    "issn": "1421-9832",
+    "pub_date": "2026-05-18",
+    "authors": "Fluhr Joachim W; Bräutigam Matthias M; Proksch Ehrhardt",
+    "abstract": "BACKGROUND: The topical calcineurin inhibitors [TCIs] pimecrolimus and tacrolimus, offer an effective non-steroidal option for treating atopic dermatitis [AD], particularly in sensitive skin areas and for long-term use. There are several studies published on the effect of calcineurin inhibitors on the skin barrier but a comprehensive review on this topic is still missing.\nSUMMARY: This review summarizes current evidence on the impact of TCIs on epidermal barrier structure and function. Clinical studies in patients with AD show that TCIs improve transepidermal water loss [TEWL], enhance stratum corneum [SC] hydration, and promote normalization of structural proteins such as filaggrin and loricrin. Unlike topical corticosteroids [TCS], TCIs do not induce skin atrophy and may even reverse steroid-induced epidermal thinning. Additionally, TCIs partially preserve antimicrobial peptide [AMP] expression in lesional AD skin, which may help reduce Staphylococcus aureus colonization and support microbial diversity. Positive effects on lipid lamellar organization and natural moisturizing factor [NMF] levels further support barrier restoration. Animal data suggesting impaired lipid synthesis under TCI treatment contrast with consistent positive findings in clinical studies. Importantly, emerging evidence indicates that TCIs may improve the skin microbiome in AD.\nKEY MESSAGES: TCIs exert their beneficial effects on skin inflammation through selective T-cell modulation without disrupting keratinocyte differentiation or dermal matrix components. For this reason, the general indirect positive effects on skin barrier associated with reduction of skin inflammation is not counterbalanced by intrinsic barrier damaging mechanisms as observed with topical steroids. Further studies are needed to evaluate long-term effects on skin structure, microbiome stability, and their integration into biologic treatment algorithms.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "该综述总结了局部钙调神经磷酸酶抑制剂对特应性皮炎患者表皮屏障结构和功能的改善作用。",
+    "innovation": "不引起皮肤萎缩并可逆转类固醇诱导的表皮变薄 | 部分保留抗菌肽表达，减少金黄色葡萄球菌定植，支持微生物多样性 | 可能改善皮肤微生物组",
+    "limitation": "缺乏长期对皮肤结构和微生物组稳定性的影响研究 | 动物实验提示脂质合成受损与临床阳性发现存在矛盾",
+    "study_object": "特应性皮炎患者皮肤样本的临床研究综述",
+    "disease": "特应性皮炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42013857",
+    "title": "Genetic modification of intractable bacterial clones by heat shock-facilitated phage transduction.",
+    "doi": null,
+    "journal": "Cell reports methods",
+    "issn": "2667-2375",
+    "pub_date": "2026-05-18",
+    "authors": "Schulze Lukas; Stahl Jens; Knödlseder Nastassia J; Krauss Sophia; Harbig Theresa et al.",
+    "abstract": "Increasing recognition of commensal bacteria as essential for microbiome integrity and pathogen exclusion underscores the urgency of molecularly characterizing commensal interactions. However, many commensals cannot be transformed using available methodologies due to barriers imposed by restriction-modification (RM) systems. We developed a method for introducing plasmid DNA into otherwise intractable non-Staphylococcus aureus (NAS) staphylococci, important commensals of the human nasal and skin microbiomes, via phage transduction. We demonstrate that exposing recipient bacteria to a pulse of elevated temperature prior to phage exposure renders NAS isolates effectively and transiently amenable to transduction. Transduction of NAS mutants lacking RM systems did not respond to heat shock, indicating that transient deactivation of RM enzymes enables transduction. Our method also facilitates the transduction of representatives from other Bacillota and Actinomycetota taxa, suggesting that this approach will support research on diverse bacterial groups across a range of ecosystems.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Bacteriophages",
+      "Transduction, Genetic",
+      "Heat-Shock Response",
+      "Humans",
+      "Plasmids"
+    ],
+    "keywords": [
+      "CP: microbiology",
+      "CP: molecular biology",
+      "bacteriophages",
+      "genetic manipulation",
+      "heat shock",
+      "restriction barrier",
+      "restriction-modification",
+      "staphylococci",
+      "transduction"
+    ],
+    "summary_zh": "开发热休克辅助噬菌体转导法，改造难转化共生葡萄球菌，通过瞬时失活限制修饰系统实现，并可扩展至其他细菌类群。",
+    "innovation": "热休克使限制修饰系统暂时失活从而促进转导 | 首次应用于非金黄色葡萄球菌等难转化菌株 | 方法可扩展至厚壁菌门和放线菌门其他细菌",
+    "limitation": "未描述",
+    "study_object": "人类鼻腔和皮肤微生物组的非金黄色葡萄球菌及其他难转化细菌",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42149909",
+    "title": "Symbiotic bacteria may support calcium carbonate precipitation in the Gulf toadfish.",
+    "doi": null,
+    "journal": "PLoS biology",
+    "issn": "1545-7885",
+    "pub_date": "2026-05-18",
+    "authors": "Bonacolta Anthony M; Kravitz Tristan; Mozo Rocío; Baker Lydia J; Heuer Rachael M et al.",
+    "abstract": "Marine fish play a significant yet understudied role in the oceanic carbon cycle through the production of magnesium-rich calcium carbonate (CaCO3) precipitates known as ichthyocarbonates. These deposits form in the gut of marine teleost fish in response to salinity, serving as part of their osmoregulation strategy. Through this, marine fish may contribute as much as 9.04 Pg of CaCO3 per year in global new carbonate production, being equivalent to or potentially higher than the production by coccolithophores and pelagic foraminifera. Despite their ecological relevance, the biological mechanisms driving ichthyocarbonate precipitation remain to be fully resolved. Intriguingly, bacteria are consistently found in intimate association with ichthyocarbonate precipitates. Given the widespread capacity of prokaryotes to mediate CaCO₃ precipitation, this association points to a previously unexplored microbial contribution to the process. To investigate the potential role of bacteria in ichthyocarbonate production, we subjected Gulf toadfish (Opsanus beta) to salinity treatments common to their native range and known to elicit changes in CaCO3 precipitation. To assess the respective contributions of the host and its microbiota to ichthyocarbonate formation in the gut, we characterized the microbiome across the toadfish gut and performed meta-transcriptomic analysis. Across the toadfish gut, we identify a high abundance of vibrios associated with ichthyocarbonates with the metabolic potential for CaCO3 precipitation. Specifically, we observe the expression of the transcriptional activator of urease (ureR) by Photobacterium damselae subsp. damselae, which can induce the precipitation of CaCO3 via the production of bicarbonate. We demonstrate that CaCO₃ precipitation in marine fish may not solely be a host-driven process, but potentially the result of a functional symbiosis with gut-associated Vibrio bacteria. We hypothesize that just as photosymbionts enable corals to build reefs, fish hosts, along with their microbial partners, may synergistically contribute to oceanic carbonate production. This discovery, if confirmed, expands the role of symbiosis in marine biomineralization and underscores its broader influence on global biogeochemical cycles.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过宏转录组分析海湾蟾鱼肠道微生物，发现弧菌及其ureR基因表达可能促进碳酸钙沉淀，表明宿主与微生物共生参与海洋碳循环。",
+    "innovation": "首次提出微生物对鱼类碳酸钙沉淀的贡献 | 鉴定Photobacterium damselae subsp. damselae的ureR基因表达诱导沉淀 | 提出类似珊瑚的宿主-微生物共生模型",
+    "limitation": "未描述",
+    "study_object": "海湾蟾鱼肠道样本 + 宏转录组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42151161",
+    "title": "Inorganic nitrogen metabolic reprogramming of the gut microbiome drives fecal microbiota transplantation in ulcerative colitis.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-05-18",
+    "authors": "Wang Yinlong; Hou Qihang; Lv Xinying; Liu Jiongyan; Wang Huimei et al.",
+    "abstract": "Although fecal microbiota transplantation (FMT) shows promise for ulcerative colitis (UC), its clinical success appears to be contingent upon the degree of donor microbiota engraftment. Using an LD50-based ecological model, our study reveals that inorganic nitrogen utilization capacity (IN-uc) critically determines gut microbial assembly in high oxidative stress environments, which significantly influences microbial engraftment outcomes. Building on this mechanistic insight, we engineer a probiotic-metabolite consortia designed to synergistically increase IN-uc in the gut ecosystem. We find that PM-mix14 alleviates oxidative stress-mediated colonization barriers of donor microbiota by catalyzing the conversion of excess reactive nitrogen species through multi-step reactions, promotes L-glutamate biosynthesis and ATP production, thereby ensuring greater similarity in the structure and function of the recipient microbiota to those of the donor. In multiple male murine models of colitis, PM-mix14 supplementation during FMT significantly improves microbial engraftment fidelity, which is correlated with increased anti-inflammatory responses and attenuated colonic pathology. Network meta-analysis of multiple clinical datasets further substantiates the prognostic value of donor gut microbial IN-uc in UC remission. Our findings establish the gut microbial IN-uc as an ecological driver of microbiota engraftment and present a rationally designed microbial therapy that optimizes FMT efficacy through targeted metabolic reprogramming.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42150752",
+    "title": "Circulating Tumor DNA and Precision Biomarkers in Colorectal Cancer: Implications for Diagnosis, Monitoring, and Management of Advanced Disease.",
+    "doi": null,
+    "journal": "Journal of gastroenterology and hepatology",
+    "issn": "1440-1746",
+    "pub_date": "2026-05-18",
+    "authors": "Srinivasalu Vijay Kumar; Subramaniam Narayana; Ibrahim Mohammed; Das Manjula",
+    "abstract": "Colorectal cancer (CRC) remains one of the leading causes of cancer-related mortality worldwide, with outcomes critically dependent on timely diagnosis, accurate risk stratification, and individualized treatment. Traditional markers such as CEA, KRAS/NRAS, BRAF, and MSI status, while foundational, are insufficient to address the full complexity of CRC biology. Over the past decade, a new generation of biomarkers has emerged spanning liquid biopsy, stool-based methylation, genomics, epigenomics, immune profiling, microbiome analysis, radiomics, patient-derived organoids, and multiomics integration-collectively redefining how CRC is detected, classified, and treated. This narrative review synthesizes evidence from 73 human studies published between 2010 and 2024, identified through structured searches of PubMed, Embase, Web of Science, and the Cochrane Library, and quality-assessed using QUADAS-2 and Newcastle-Ottawa tools. Circulating tumor DNA (ctDNA) emerged as the most clinically validated biomarker, demonstrating superior performance in minimal residual disease (MRD) detection, recurrence prediction, and real-time therapy monitoring. Stool DNA methylation assays showed strong sensitivity for early CRC and advanced adenoma detection. Genomic markers including BRAF V600E, POLE/POLD1, HER2, and KRAS G12C now directly inform targeted therapy selection, while immune biomarkers-MSI-H, TMB, and Immunoscore-guide immunotherapy decisions and stratify prognosis beyond TNM staging. Microbiome signatures, particularly Fusobacterium nucleatum and colibactin-producing Escherichia coli, were associated with chemo resistance and tumor progression. Radiomics and AI-driven imaging models provided noninvasive assessment of nodal involvement and neo-adjuvant therapy response. Patient-derived organoids demonstrated capacity to predict individual drug sensitivity, and multiomic integration enabled refined molecular subtyping. Despite this progress, widespread clinical adoption remains limited by assay variability, lack of prospective multicenter validation, and implementation barriers including cost and infrastructure. As these technologies mature, their integration into standardized, multidisciplinary workflows will be essential to translating biomarker innovation into improved patient outcomes across all stages of CRC care.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "colorectal cancer",
+      "ctDNA",
+      "immunoscore",
+      "multiomics",
+      "organoids",
+      "precision oncology",
+      "radiomics",
+      "stool DNA methylation"
+    ],
+    "summary_zh": "本综述通过分析73项人体研究，总结结直肠癌新型生物标志物（ctDNA、粪便甲基化、微生物组等）在诊断、监测和个性化治疗中的应用，指出其临床转化受限于检测变异性和验证不足。",
+    "innovation": "ctDNA在微小残留病变检测和复发预测中表现优越 | 粪便DNA甲基化对早期癌及腺瘤检测灵敏度高 | 微生物组特征（如具核梭杆菌）与化疗耐药及肿瘤进展相关",
+    "limitation": "检测方法变异性 | 缺乏前瞻性多中心验证 | 成本和基础设施障碍",
+    "study_object": "人类结直肠癌患者的血液、粪便、肿瘤组织等样本，采用液体活检、基因组学、微生物组分析、放射组学、类器官等多组学技术",
+    "disease": "结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  },
+  {
+    "pmid": "42150526",
+    "title": "Microbial ecology: Rise of the planet of the microbes.",
+    "doi": null,
+    "journal": "Current biology : CB",
+    "issn": "1879-0445",
+    "pub_date": "2026-05-18",
+    "authors": "Thompson Luke R",
+    "abstract": "A long-standing tenet of microbiology is that Earth's microbiomes are structured by environment, not geography. In a new study, Kim et al. report the largest metagenomic analysis yet performed, revealing that microbial generalists transcend these boundaries, ferrying genes - including antibiotic resistance determinants - across ecologically distant habitats.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Microbiota",
+      "Metagenomics",
+      "Ecosystem",
+      "Bacteria",
+      "Metagenome"
+    ],
+    "keywords": [],
+    "summary_zh": "通过最大规模宏基因组分析，揭示微生物泛化者跨生态边界转运抗生素耐药基因。",
+    "innovation": "最大规模的宏基因组分析 | 发现微生物泛化者跨越环境与地理边界转运基因，包括抗生素耐药基因",
+    "limitation": "未描述",
+    "study_object": "地球环境微生物组宏基因组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-18"
+  }
+]
