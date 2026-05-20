@@ -1,0 +1,94 @@
+[
+  {
+    "pmid": "42157054",
+    "title": "Integrated multi-omics analysis reveals a gut microbiota-tryptophan metabolism axis contributes to sex differences in a β-aminopropionitrile-induced aortic dissection mouse model.",
+    "doi": null,
+    "journal": "Biology of sex differences",
+    "issn": "2042-6410",
+    "pub_date": "2026-05-20",
+    "authors": "Cheng Shuai; Hao Xinyu; Liu Shirui; Zhang Linfeng; Zhang Shuai et al.",
+    "abstract": "BACKGROUND: Sex differences in aortic dissection (AD) have been consistently reported in epidemiological studies and experimental mouse models, with males showing markedly higher susceptibility. However, the molecular basis underlying these sex-specific differences remains insufficiently understood.\nMETHODS: Three-week-old male and female C57BL/6J mice were administered 0.4% β-aminopropionitrile (BAPN) in drinking water for 28 d to induce AD. After the induction period, fecal samples, serum, and aortic tissues were collected from all surviving animals. Integrated analyses included strand-specific transcriptomic sequencing of aortic tissues, untargeted serum metabolomics, and full-length 16 S rRNA sequencing of fecal samples to characterize sex-related differences across transcriptomic, metabolic, and microbiome layers. Inter-omics correlations were further assessed using bioinformatic approaches. Furthermore, in vivo experiments were conducted to validate the impact of key metabolites on the progression of AD.\nRESULTS: Female mice exhibited significantly lower susceptibility to BAPN-induced AD, including reduced rates of aortic rupture, lower incidence of AD or aneurysm (AAD), and attenuated aortic dilation. Transcriptomic analysis revealed that female non-dissected mice (FeNonAD) displayed diminished induction of inflammation-related genes and lower predicted immune cell infiltration. Metabolomic profiling revealed significant elevations of tryptophan-indole pathway metabolites-such as indolepyruvate, indole-3-acetic acid, and indolepropionic acid-in both FeNonAD and AAD groups. Microbiome analysis further revealed a higher relative abundance of tryptophan-metabolizing taxa, particularly key Clostridium species, in the intestinal tract of FeNonAD mice, accompanied by significant upregulation of key functional genes (tyrB and aspC) associated with indolepyruvate synthesis. Weighted gene co-expression network analysis (WGCNA)-based integration identified strong negative correlations between indolepyruvate and indole-3-acetic acid sodium salt levels and aortic gene modules linked to immune-inflammatory activation. Further in vivo experiments demonstrated that treatment with indolepyruvate delayed AD progression in male mice.\nCONCLUSION: This study highlights a central \"gut microbiota-tryptophan metabolism-aortic inflammation\" axis that contributes to sexual dimorphism in BAPN-induced AD. These findings provide new molecular insights into sex-specific disease mechanisms and offer a conceptual basis for developing sex-tailored diagnostic and therapeutic strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Aortic dissection",
+      "Indolepyruvate",
+      "Multi-omics",
+      "Sex differences",
+      "Tryptophan metabolism"
+    ],
+    "summary_zh": "整合多组学分析揭示肠道菌群-色氨酸代谢-主动脉炎症轴在BAPN诱导的AD小鼠性别差异中的作用，吲哚丙酮酸可延缓雄性小鼠AD进展。",
+    "innovation": "首次综合多组学分析揭示肠道菌群-色氨酸代谢-主动脉炎症轴在主动脉夹层性别差异中的作用 | 发现色氨酸-吲哚途径代谢物与免疫炎症基因模块负相关 | 吲哚丙酮酸治疗可延缓雄性小鼠主动脉夹层进展",
+    "limitation": "未描述",
+    "study_object": "小鼠（C57BL/6J）粪便、血清和主动脉组织，整合16S rRNA测序、转录组测序和代谢组学分析",
+    "disease": "主动脉夹层",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-20"
+  },
+  {
+    "pmid": "42157342",
+    "title": "Microbiota transplantation and multi-omics profiling integration unveil the mechanism of Alistipes communis-driven abdominal fat deposition in chickens.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-05-20",
+    "authors": "Jing Yang; Liu Shuai; Leng Li; He Jiarui; Wang Tianqi et al.",
+    "abstract": "BACKGROUND: Emerging evidence highlights strong correlations between the cecal microbiome and abdominal fat deposition (AFD) in chickens. However, the specific microbial species driving this process remain unclear. This study aims to identify the key microbe and elucidate its underlying mechanism in regulating chicken AFD.\nRESULTS: First, cecal microbiota transplantation confirmed a causal relationship between the cecal microbiota and AFD. Subsequently, metagenomic and metatranscriptomic integrations identified Alistipes communis as a key microbe implicated in AFD. Finally, in vivo gavage integrated with multi-omics revealed that A. communis enhances AFD by disrupting host tryptophan and histidine metabolism. This was evidenced by the elevated concentrations of amino acid metabolism-related metabolites, including L-phosphoarginine and spermine in the cecum.\nCONCLUSIONS: This study provides direct evidence that the cecal microbiome serves as a key driver in chicken AFD and identifies A. communis as a critical AFD regulator, offering valuable insights into the gut microbiome's role in host obesity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Alistipes communis",
+      "Abdominal fat deposition",
+      "Cecal microbiota transplantation",
+      "Chicken",
+      "Multi-omics",
+      "Tryptophan and histidine metabolism"
+    ],
+    "summary_zh": "通过微生物移植和多组学整合，鉴定Alistipes communis是鸡腹部脂肪沉积的关键微生物，机制为干扰色氨酸和组氨酸代谢。",
+    "innovation": "通过微生物移植证实因果关系 | 整合宏基因组和宏转录组鉴定关键物种 | 结合体内灌胃和多组学揭示代谢机制",
+    "limitation": "未描述",
+    "study_object": "鸡盲肠内容物 + 宏基因组与宏转录组",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-20"
+  },
+  {
+    "pmid": "42159017",
+    "title": "Keratinocyte Priming by Staphylococcus aureus Reduces HSV-1 Susceptibility.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-05-20",
+    "authors": "Baumann Phila Cara; Pospich Rebecca; Döhner Katinka; Klug Ilona; Guerrero Julio Cesar Villalvazo et al.",
+    "abstract": "BACKGROUND: Individuals with atopic dermatitis (AD) are at increased risk for skin infections, including eczema herpeticum (EH), a severe condition caused by herpes simplex virus type 1 (HSV-1). While AD skin is often colonized by Staphylococcus aureus (S. aureus), its role in EH susceptibility remains unclear. Here we aim to investigate differences in the skin microbiome of AD patients with (ADEH+) and without (ADEH-) EH and examine the impact of S. aureus and S. epidermidis on HSV-1 infection in an in vitro keratinocyte model.\nMETHODS: 16S microbiome sequencing was performed on skin samples from ADEH+, ADEH-, and healthy controls. To investigate microbial effects on HSV-1 infection, keratinocytes were pre-incubated with heat-killed S. aureus (HKSA) or S. epidermidis (HKSE), followed by HSV-1 infection in the presence or absence of the Th2 cytokines IL-4 and IL-13, simulating the conditions of AD lesional skin. Infection rates and transcriptomic changes were analyzed.\nRESULTS: ADEH+ patients showed a reduced microbial diversity compared to ADEH-, with increased S. aureus and S. epidermidis colonization. HKSA, but not HKSE, protected keratinocytes from HSV-1 infection and reduced the release of infectious progeny virus. Transcriptome analysis of keratinocytes revealed HKSA-induced upregulation of interferon pathways and antimicrobial peptides, and downregulation of HSV-1 entry factors.\nCONCLUSION: Pre-incubation with S. aureus set basal keratinocytes into an alarmed state, restricting HSV-1 infection presumably via downregulation of receptors important for viral entry and activation of antiviral pathways.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Staphylococcus spp",
+      "Th2 cytokines",
+      "atopic dermatitis",
+      "eczema herpeticum",
+      "herpes simplex virus",
+      "skin microbiota"
+    ],
+    "summary_zh": "研究金黄色葡萄球菌对特应性皮炎患者HSV-1感染的影响，发现其预处理可降低角质形成细胞易感性。",
+    "innovation": "发现金黄色葡萄球菌预处理（非表皮葡萄球菌）可保护角质形成细胞免受HSV-1感染 | 揭示机制：下调病毒进入因子并激活干扰素通路",
+    "limitation": "未描述",
+    "study_object": "人皮肤微生物组（16S测序）和体外角质形成细胞模型",
+    "disease": "特应性皮炎（AD）和疱疹性湿疹（EH）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-20"
+  }
+]
