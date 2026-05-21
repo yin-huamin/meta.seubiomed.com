@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42165190",
+    "title": "Gut microbiota and disease.",
+    "doi": null,
+    "journal": "Essays in biochemistry",
+    "issn": "1744-1358",
+    "pub_date": "2026-05-21",
+    "authors": "Iqbal Tariq",
+    "abstract": "The human gut microbiome-predominantly in the colon-comprises vastly more genetic material than that contained in human cells. Three papers in this journal highlight the functional consequences of imbalance (dysbiosis) of the gut microbiome regarding neurodegenerative conditions, cancer chemotherapy, and the wide-reaching consequences of aberrant metabolism of complex carbohydrates and amino acids in the gut.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Dysbiosis",
+      "Neoplasms",
+      "Neurodegenerative Diseases"
+    ],
+    "keywords": [],
+    "summary_zh": "通过三篇论文展示肠道微生物组失衡在神经退行性疾病、癌症化疗和代谢异常中的功能后果。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "人类肠道微生物组",
+    "disease": "神经退行性疾病，癌症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-21"
+  }
+]
