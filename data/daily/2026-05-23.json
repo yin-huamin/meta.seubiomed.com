@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42175662",
+    "title": "Salivary Microbiota From a Periodontitis Donor Is Associated With Altered IgA-Related Immune Features in Germ-Free Mice.",
+    "doi": null,
+    "journal": "Journal of clinical periodontology",
+    "issn": "1600-051X",
+    "pub_date": "2026-05-23",
+    "authors": "Irie K; Azuma T; Minoshima R; Mochida Y; Yamada R et al.",
+    "abstract": "AIM: The oral microbiota has been implicated in mucosal immune regulation; however, its causal impact on salivary gland-associated immune features remains incompletely understood. In this proof-of-concept study, germ-free (GF) mice were colonised with salivary microbiota derived from either a periodontitis donor or a periodontally healthy donor, and IgA-associated immune readouts were evaluated across multiple compartments.\nMETHODS: GF mice were orally colonised with saliva-derived microbiota from a periodontitis patient or a periodontally healthy donor (or PBS). Total IgA in saliva, serum and faeces were quantified by ELISA. Cervical lymph nodes and blood were analysed by flow cytometry. Submandibular glands underwent histology and bulk RNA-seq.\nRESULTS: Mice receiving microbiota from a periodontitis donor exhibited altered IgA levels in saliva, serum and faeces, increased faecal lipocalin-2, changes in innate immune cell distributions and increased CD138+ cell signals and IgA immunoreactivity in the submandibular glands. Transcriptomic analysis revealed heterogeneous expression of individual IgA-related genes, with coordinated patterns observed at the level of IgA/mucosal defence-related gene sets.\nCONCLUSIONS: These findings indicate that salivary microbiota from a periodontitis donor are associated with altered IgA-related immune features under GF conditions. While limited by the use of a single donor per group, this study provides proof-of-concept evidence supporting a potential role of oral microbiota in shaping salivary gland-associated immune characteristics.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "microbiome",
+      "mucosal immunity",
+      "periodontitis",
+      "saliva",
+      "systemic health"
+    ],
+    "summary_zh": "通过牙周炎与健康供体唾液微生物定植无菌小鼠，探究其对IgA相关免疫特征的影响，发现牙周炎微生物可改变IgA水平与免疫细胞分布。",
+    "innovation": "首次在无菌小鼠模型中验证口腔微生物对唾液腺IgA免疫特征的因果影响 | 对比牙周炎与健康供体唾液微生物的免疫效应 | 概念验证研究提供直接证据",
+    "limitation": "每组仅使用单一供体",
+    "study_object": "无菌小鼠 + 唾液微生物 + ELISA、流式细胞术、组织学、RNA-seq",
+    "disease": "牙周炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-23"
+  }
+]

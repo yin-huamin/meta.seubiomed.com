@@ -1,16 +1,16 @@
 {
-  "total": 4256,
+  "total": 4265,
   "by_type": {
-    "研究论文": 3424,
-    "综述": 342,
+    "研究论文": 3428,
+    "综述": 345,
     "Benchmark": 149,
-    "临床试验": 131,
-    "其他": 85,
+    "临床试验": 132,
+    "其他": 86,
     "案例报告": 69,
     "系统综述/Meta分析": 56
   },
   "by_year": {
-    "2026": 231,
+    "2026": 240,
     "2025": 816,
     "2024": 684,
     "2023": 560,
@@ -38,7 +38,7 @@
     "ISME communications": 74,
     "Proceedings of the National Academy of Sciences of the United States of America": 72,
     "Cell host & microbe": 64,
-    "Journal of translational medicine": 59,
+    "Journal of translational medicine": 60,
     "Communications biology": 58,
     "Scientific data": 45,
     "Nature": 44,
@@ -55,16 +55,16 @@
     "2型糖尿病": 19,
     "感染性疾病": 17,
     "癌症": 16,
+    "脓毒症": 15,
     "囊性纤维化": 15,
     "1型糖尿病": 15,
+    "特应性皮炎": 14,
     "自闭症谱系障碍": 14,
-    "脓毒症": 14,
     "炎症性肠病": 14,
-    "特应性皮炎": 13,
     "肺炎": 13,
     "下呼吸道感染": 12,
+    "牙周炎": 11,
     "早产": 11,
-    "复发性艰难梭菌感染": 11,
-    "牙周炎": 10
+    "复发性艰难梭菌感染": 11
   }
 }
