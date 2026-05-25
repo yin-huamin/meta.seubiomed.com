@@ -1,0 +1,36 @@
+[
+  {
+    "pmid": "41921818",
+    "title": "The microbiome and eating disorders: a new framework at the interface of interoception and reward.",
+    "doi": null,
+    "journal": "Neuroscience",
+    "issn": "1873-7544",
+    "pub_date": "2026-05-25",
+    "authors": "Ziade Isabella; McDermott Meghan M; O'Riordan Kenneth J; Cryan John F; Schneider Elizabeth",
+    "abstract": "Accumulating evidence suggests that the gut microbiome can modulate brain processes and behaviours relevant to eating behaviour and reward signalling through the dynamic communication pathways of the microbiota-gut-brain-axis. Emerging evidence links altered gut microbial composition to disordered eating patterns, implicating the gut microbiome as a possible mechanism underlying eating disorders, as well as a potential therapeutic target for these conditions. In this review, we synthesise evidence across preclinical and clinical research to propose an integrated framework wherein the gut microbiome, interoception and reward circuits may interact to shape disordered eating behaviours. We firstly explore how microbial signals modulate homeostatic and reward feeding systems via vagal afferents, neurotransmitter modulation and immune-neural pathways, and how these signals converge in brain regions implicated in reward systems and interoception. Particular attention is given to how these interactions may occur in under- and over-eating phenotypes of disordered eating. The therapeutic potential of microbiota-targeted interventions to modulate eating disorder-induced dysregulations in interoception and reward signalling is discussed. Combined evidence suggests a paradigm shift in the etiological considerations of eating disorders is warranted, taking into account dysregulations of gut microbiota and its effects on reward processing and interoceptive signalling. Specifically, we propose that EDs are underpinned by dysregulations of gut microbiota, reward processing and interoceptive signalling, rather than neurobehaviour alone. The novel, integrated, and transdiagnostic framework posited in this review could represent a conceptual shift in the aetiological understanding of eating disorders with the potential to derive new neurobiological targets for intervention.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Reward",
+      "Interoception",
+      "Feeding and Eating Disorders",
+      "Gastrointestinal Microbiome",
+      "Animals",
+      "Brain",
+      "Feeding Behavior"
+    ],
+    "keywords": [],
+    "summary_zh": "综述提出一个整合框架，探讨肠道微生物组通过内感受和奖赏系统影响进食障碍的机制，指出病因可能涉及微生物组失调而非单纯神经行为。",
+    "innovation": "提出肠道微生物组、内感受和奖赏回路相互作用的整合框架 | 将进食障碍视为微生物组、奖赏处理和内感受信号失调的结果，取代传统神经行为观点 | 提出跨诊断的概念转变，可能衍生新的神经生物学干预靶点",
+    "limitation": "未描述",
+    "study_object": "人类（进食障碍患者） + 肠道微生物组/内感受/奖赏系统 + 综述（未明确技术类型）",
+    "disease": "进食障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-25"
+  }
+]
