@@ -1,0 +1,93 @@
+[
+  {
+    "pmid": "42186196",
+    "title": "The role of phages in plant-associated microbial communities.",
+    "doi": null,
+    "journal": "Essays in biochemistry",
+    "issn": "1744-1358",
+    "pub_date": "2026-05-26",
+    "authors": "Smith Renée E; Holtappels Dominique",
+    "abstract": "Microbial communities deliver essential functions in ecosystems. In plant environments, the plant microbiome facilitates nutrient uptake, supports plants during abiotic stress, and counteracts disease. As implementation of synthetic microbial communities becomes more of a realistic strategy for mitigating the effects of biotic and abiotic stressors on plant productivity, it is increasingly important to understand how interactions between microbes, which are essential for ecosystem function (hub microbes), are maintained. Recent research highlights the ecological role of bacteriophages, the viruses of bacteria, in host-associated microbial communities. Current evidence demonstrates the influence of the phageome on microbiomes, ranging from effects on an individual (transduction, lysogenic conversion, and evolutionary pressure) to entire populations and communities, such as Kill-the-Winner dynamics. These dynamics appear to affect the overall function of microbial communities and support plant growth. In this review, we lay out recent insights on the role of bacteriophages in plant-associated microbiomes through an eco-evolutionary lens and future directions of research to broaden our understanding of the ecological implications of bacteriophages.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bacteriophage",
+      "Microbiome",
+      "Microbiome function",
+      "Virome"
+    ],
+    "summary_zh": "综述噬菌体在植物相关微生物群落中的生态作用，分析其对微生物组功能和植物生长的影响。",
+    "innovation": "整合噬菌体对微生物组的多层次影响（个体、种群、群落） | 强调Kill-the-Winner动态在植物微生物组中的角色 | 从生态进化视角提出未来研究方向",
+    "limitation": "未描述",
+    "study_object": "植物相关微生物群落（综述）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-26"
+  },
+  {
+    "pmid": "42160337",
+    "title": "A defined community of core gut microbiota members promotes cognitive performance in honey bees.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-05-26",
+    "authors": "Cabirol Amélie; Quinn Andrew; Schafer Julie; Neuschwander Nicolas; Kesner Lucie et al.",
+    "abstract": "Gut microbiota across animals have been shown to influence host cognition and behavior. However, it remains unclear whether these cognitive effects are driven by specific bacterial species or arise from community-level interactions. Here, we leveraged the honey bee (Apis mellifera) as a model system, which harbors a simple and well-characterized gut microbiota that is experimentally tractable and has been previously shown to impact host cognition. We established a defined bacterial community-composed of core members of the honey bee gut microbiota. Gnotobiotic bee experiments with the full community, communities missing individual members, or individual members showed that only the full community enhanced honey bees' performances in odor discrimination learning and short-term memory compared to microbiota-deprived bees. Metabolomic analyses identified several metabolites associated with learning success that mapped to pathways modulated by microbial colonization, including tryptophan metabolism, nucleoside metabolism, and lysine degradation. However, many of these metabolites were not altered by removing individual members from the full microbial community. This suggests that microbiota-mediated improvements in cognition are emergent properties of the community as a whole, rather than the result of individual metabolites or specific bacterial taxa acting alone. Our findings support a systems-level view of the microbiome, suggesting that understanding and manipulating host development, particularly in relation to brain function, should prioritize microbial community function (e.g., metabolic pathways) over taxonomic composition alone.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Bees",
+      "Gastrointestinal Microbiome",
+      "Cognition",
+      "Memory, Short-Term",
+      "Germ-Free Life",
+      "Bacteria"
+    ],
+    "keywords": [
+      "Apis mellifera",
+      "gut bacteria",
+      "learning",
+      "memory",
+      "symbiosis"
+    ],
+    "summary_zh": "利用蜜蜂模型，构建核心肠道菌群，发现完整菌群整体涌现性增强嗅觉学习和短期记忆，而单个菌种或代谢物无此效果。",
+    "innovation": "首次证明蜜蜂认知改善是核心菌群群落的涌现特性，而非单个菌种或代谢物作用 | 结合定义群落与代谢组学揭示代谢路径介导认知效应",
+    "limitation": "未描述",
+    "study_object": "蜜蜂 + 肠道微生物组 + 定义菌群构建与代谢组学分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-26"
+  },
+  {
+    "pmid": "42185302",
+    "title": "Bacterial inoculation drives microbiome-mediated resistance to a soil-borne pathogen in wheat.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-05-26",
+    "authors": "Nishisaka Caroline Sayuri; Quevedo Hélio Danilo; Pellegrinetti Thierry Alexandre; de Almeida Godoy Fernanda; Rossmann Maike et al.",
+    "abstract": "Soil microbiomes are fundamental to plant health, mediating nutrient cycling, stress tolerance, and pathogen defense. However, soil-borne pathogens such as Bipolaris sorokiniana severely constrain wheat productivity. Despite growing interest, the mechanisms by which beneficial bacterial inoculation reshapes rhizosphere microbial communities to enhance disease resistance remain poorly understood. Here, we isolated three bacterial strains, Streptomyces virginiae CMAA1738, Paenibacillus ottowii CMAA1739, and Pseudomonas inefficax CMAA1741, with antagonistic activity against B. sorokiniana, and evaluated their effects on wheat under controlled conditions. Through plant bioassays, bacterial inoculation reduced disease severity by ~60% and promoted root growth. Metataxonomic and metagenomic analyses revealed shifts in the structure and functional potential of the rhizosphere microbiome. Structural equation modeling indicated that inoculation was the primary driver of microbiome restructuring and disease suppression. Notably, inoculation restored the diversity of plant growth-promoting genes and biosynthetic gene clusters reduced by pathogen infection, enriching functions associated with stress tolerance, nutrient metabolism, and secondary metabolite production. In addition, Random Forest analysis revealed that variation in disease severity under pathogen pressure was associated with differences in bacterial community composition. Together, these findings demonstrate that bacterial inoculation can restructure the rhizosphere microbiome and restore key functional traits linked to plant resilience.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-05-26"
+  }
+]
