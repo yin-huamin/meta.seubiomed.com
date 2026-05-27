@@ -1,0 +1,106 @@
+[
+  {
+    "pmid": "42198987",
+    "title": "Myco-foods and the gut microbiome: impacts of mycelial extracts, biomass, and mold-fermented foods.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-05-27",
+    "authors": "Keigler Johanna I; Leite Nobrega de Moura Bell Juliana Maria; Marco Maria L",
+    "abstract": "Edible filamentous fungi include mushrooms and molds, which are consumed as extracts, mycelial biomass, and fermented foods. These fungal foods are often high in protein and fiber and are generally regarded as nutritious. This narrative review examines current knowledge on how mycelia from molds, including edible strains of Aspergillus, Rhizopus, Neurospora, Fusarium, Mucor, and Paecilomyces, affect the gut microbiome. Allfour human trials on these foods (two extracts, one biomass, and one fermented food) reported a measurable effect on the gut microbiome. These studies, plus the additional eight animal and eight in vitro studies performed, frequently found increases in the proportions of intestinal Akkermansia, Bifidobacterium, and lactobacilli. Bacteroides, Roseburia, and Eubacterium, which are recognized for their roles in fiber metabolism, were also frequently enriched, and numerous studies reported increases in fecal short-chain fatty acids. Notably, effects on the gut microbiome may be fungal species and food format-dependent. Although β-glucans and chitin are likely key determinants of gut microbiome responses to dietary mycelium, future studies should investigate how these and other potentially bioactive components of mycelia and fungal metabolites are metabolized by intestinal microorganisms. Such studies will result in an improved understanding of how myco-foods could support human health.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Fungi",
+      "Animals",
+      "Mycelium",
+      "Gastrointestinal Microbiome",
+      "Fermented Foods",
+      "Bacteria",
+      "Biomass",
+      "Fermentation"
+    ],
+    "keywords": [
+      "Fungi",
+      "fermented foods",
+      "gut microbiota",
+      "mold",
+      "mycelium",
+      "myco-foods"
+    ],
+    "summary_zh": "综述霉菌菌丝体食物对肠道微生物组的影响，发现增加有益菌和短链脂肪酸，效果依赖于菌种和食物形态。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "人类、动物及体外肠道微生物组样本",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-27"
+  },
+  {
+    "pmid": "42200271",
+    "title": "Immune System of the Ischemic Brain: Old Paradigms Revisited.",
+    "doi": null,
+    "journal": "Stroke",
+    "issn": "1524-4628",
+    "pub_date": "2026-05-27",
+    "authors": "Vázquez-Reyes Sandra; Esposito Elga; Rosell Anna; Lizasoain Ignacio; Lo Eng H et al.",
+    "abstract": "The central nervous system was once viewed as immunologically privileged, but it is now recognized that brain-immune interactions are dynamic and critical. After central nervous system injury or disease, microglia and perivascular macrophages survey the damaged tissue, while diverse immune cells infiltrate through various barriers, driving neurovascular dysfunction and neuroinflammation. Depending on timing and phenotype, systemic immune responses can also promote brain repair and recovery. Recent studies show that brain-peripheral organ communication profoundly affects both injury progression and healing. These insights redefine the neurovascular-immune interface and the concept of the brain's immune system. This review examines immune cell infiltration and highlights emerging brain-peripheral circuits that regulate neuroinflammation and recovery after stroke.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "astrocytes",
+      "blood-brain barrier",
+      "gastrointestinal microbiome",
+      "ischemic stroke",
+      "monocytes"
+    ],
+    "summary_zh": "综述重新审视缺血性脑免疫系统，探讨免疫细胞浸润和脑-外周回路在卒中后神经炎症和恢复中的作用。",
+    "innovation": "重新定义神经血管-免疫界面和脑免疫系统概念 | 揭示脑-外周回路调节神经炎症和恢复",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "卒中",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-27"
+  },
+  {
+    "pmid": "42199152",
+    "title": "Canagliflozin Alleviates Diabetic Glomerular Endothelial Injury via Melibiose in a Microbiota-Dependent Manner.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-05-27",
+    "authors": "Zhang Wei; Song Yi; Li Changkun; Luo Yuanyuan; Shao Mingwei et al.",
+    "abstract": "Canagliflozin reduces albuminuria in patients with diabetic kidney disease (DKD) beyond its glucose-lowering effect, but the mechanisms remain unclear. We analyzed 85 patients treated with canagliflozin and 85 controls over 26 weeks to explore whether the gut microbiome and its metabolites contribute to renoprotection. Canagliflozin remodeled the gut microbiota, notably enriching Roseburia intestinalis and increasing plasma melibiose levels. In mice, canagliflozin alleviated glomerular endothelial injury and albuminuria. Similar effects were replicated by fecal microbiota transplantation, Roseburia intestinalis, or melibiose administration. Mechanistically, melibiose bound to and activated glyoxalase 1, reduced methylglyoxal, and suppressed the AGE-RAGE pathway, preserving glomerular endothelial integrity. Furthermore, oral melibiose precursor supplementation reduced albuminuria in patients with early-stage DKD. These findings suggest the involvement of a gut-kidney axis in the renoprotective effects of canagliflozin and indicate that melibiose may serve as a potential therapeutic strategy for DKD.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "canagliflozin",
+      "diabetic kidney disease",
+      "glomerular endothelial injury",
+      "glyoxalase 1",
+      "gut‐kidney axis",
+      "melibiose"
+    ],
+    "summary_zh": "卡格列净通过重塑肠道菌群增加蜜二糖，激活乙二醛酶1改善糖尿病肾病，揭示肠肾轴机制。",
+    "innovation": "1. 揭示卡格列净通过肠道微生物-肾脏轴发挥肾脏保护作用 | 2. 发现蜜二糖作为关键代谢物激活乙二醛酶1 | 3. 提出蜜二糖前体补充可能治疗糖尿病肾病",
+    "limitation": "未描述",
+    "study_object": "人（糖尿病肾病患者）及小鼠，粪便及血浆样本，肠道微生物组及代谢物分析",
+    "disease": "糖尿病肾病（DKD）",
+    "sample_size": "170例（85治疗组+85对照组）",
+    "ai_done": true,
+    "fetch_date": "2026-05-27"
+  }
+]
