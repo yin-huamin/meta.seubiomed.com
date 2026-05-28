@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "42204538",
+    "title": "The mycobiome, virome and archaeome in gastrointestinal cancers: molecular pathogenesis and therapeutic intervention.",
+    "doi": null,
+    "journal": "Molecular cancer",
+    "issn": "1476-4598",
+    "pub_date": "2026-05-28",
+    "authors": "Cheng Cillian H; Wong Chi Chun",
+    "abstract": "Gastrointestinal (GI) cancers remain a significant global health challenge. For decades, research has concentrated on the bacterial microbiome's role in tumour development, largely neglecting the important roles of the non-bacterial kingdoms, including mycobiome (fungi), the virome (viruses), and archaeome (archaea). These elements represent an underexplored and crucial \"dark matter\" of the microbiome. This review aims to systematically summarize current evidence on the compositional alterations of viruses, fungi, and archaea across the major types of GI cancer, including colorectal, hepatocellular, gastric, pancreatic and esophageal/oral cancers. We critically examine how viruses, fungi, and archaea directly affect host cellular processes and indirectly influence cancer risk through complex cross-kingdom interactions with the bacterial microbiota and the host immune system. Additionally, we explore the significant translational potential of this knowledge, emphasizing opportunities to use these non-bacterial communities in developing new diagnostic biomarkers and therapeutic strategies. Finally, we highlight the importance of future multi-kingdom integrative analyses to fully understand the microbial ecosystem involved in GI oncogenesis and to translate these insights into clinical practice.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Archaeome",
+      "Cancer development",
+      "Clinical translation",
+      "Gastrointestinal (GI) cancer",
+      "Mycobiome",
+      "Virome"
+    ],
+    "summary_zh": "综述真菌、病毒和古菌在胃肠道癌症中的组成变化、致病机制及诊断治疗潜力。",
+    "innovation": "系统总结非细菌微生物组在胃肠道癌症中的角色 | 揭示病毒、真菌与细菌及宿主免疫的跨王国互作机制 | 提出多王国整合分析用于癌症诊断和治疗",
+    "limitation": "未描述",
+    "study_object": "胃肠道癌症，文献综述",
+    "disease": "结直肠癌、肝细胞癌、胃癌、胰腺癌、食管癌/口腔癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-28"
+  },
+  {
+    "pmid": "42206370",
+    "title": "Fusobacterium nucleatum-Derived Isoleucine Exacerbates Aneurysm by Inducing Ferroptosis in Vascular Smooth Muscle Cells.",
+    "doi": null,
+    "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+    "issn": "1524-4636",
+    "pub_date": "2026-05-28",
+    "authors": "Chen Liang; Lin Lu; Wang Zheyu; Yu Lu; Ren Bichen et al.",
+    "abstract": "BACKGROUND: Bacterial communities and their metabolites are increasingly recognized as key contributors to cardiovascular disease, yet their role and mechanistic involvement in abdominal aortic aneurysm (AAA) pathogenesis remain insufficiently defined.\nMETHODS: Dental plaques from patients with AAA and matched healthy controls were subjected to metagenomic sequencing, and corresponding plasma samples underwent untargeted metabolomic profiling. In vivo, mice were topically exposed in the oral cavity to Fusobacterium nucleatum (Fn) followed by AngII (angiotensin II) infusion to evaluate its impact on AAA progression. A homologous recombination-based ilvE deletion strategy was used to confirm the role of Fn in isoleucine biosynthesis. Molecular assays were performed to assess ferroptosis-related signatures and histone acetylation in smooth muscle cells, while chromatin immunoprecipitation-quantitative polymerase chain reaction verified the specific acetylation target. In addition, dietary restriction of isoleucine was introduced in the AAA murine model to explore therapeutic relevance.\nRESULTS: Patients with AAA showed a marked enrichment of Fn in dental plaque, and topical application of Fn aggravated AngII-induced AAA in mice. Elevated plasma isoleucine concentrations were observed in both human AAA and experimental models. Genetic deletion of ilvE in Fn diminished bacterial isoleucine release and mitigated AAA development in mice. Mechanistic analyses revealed that Fn-derived isoleucine promoted ferroptosis in smooth muscle cells through H3K9ac (histone H3 lysine 9 acetylation)-dependent transcriptional activation of ACSL4 (acyl-CoA [coenzyme A] synthetase long-chain family member 4), a core regulator of ferroptosis. Dietary isoleucine restriction in the AngII-induced model reduced H3K9ac, suppressed ferroptosis, and alleviated aneurysmal progression.\nCONCLUSIONS: Fn-derived isoleucine drives ferroptosis in smooth muscle cells via H3K9ac-mediated activation of ACSL4, delineating a microbiota-metabolite-epigenetic axis in AAA pathogenesis and nominating dental plaque Fn abundance and circulating isoleucine as exploratory biomarker candidates requiring larger, independent validation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Fusobacterium nucleatum",
+      "aortic aneurysm, abdominal",
+      "ferroptosis",
+      "isoleucine",
+      "myocytes, smooth muscle"
+    ],
+    "summary_zh": "通过宏基因组和代谢组学发现具核梭杆菌产生的异亮氨酸通过H3K9ac乙酰化激活ACSL4诱导平滑肌细胞铁死亡，加剧腹主动脉瘤。",
+    "innovation": "揭示了Fn来源异亮氨酸通过H3K9ac介导ACSL4激活驱动铁死亡的机制 | 提出牙菌斑Fn丰度和血浆异亮氨酸作为AAA候选标志物",
+    "limitation": "需要更大样本独立验证",
+    "study_object": "人类牙菌斑和血浆（宏基因组测序和非靶向代谢组学）及小鼠模型",
+    "disease": "腹主动脉瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-28"
+  }
+]
