@@ -1,0 +1,353 @@
+[
+  {
+    "pmid": "42212684",
+    "title": "Decoding the microbiome: artificial intelligence-targeted gut microenvironment breakthroughs in personalized cancer therapy.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-05-29",
+    "authors": "Liu Jingwen; Zhao Pu; Jiang Deming; Li Shuyan; Jin Chaoqiao et al.",
+    "abstract": "The gut microbiome functions as a key regulator of tumorigenesis and progression, thereby modulating tumor development and treatment outcomes (including chemoresistance, immunotherapy efficacy, and adverse effects) through its influence on the immune microenvironment and metabolite-mediated signaling pathways. Recent advances in multiomics technologies (metagenomics, metabolomics, and transcriptomics) have generated large-scale, comprehensive, and heterogeneous datasets whose complexity exceeds the capabilities of manual analysis, thus necessitating the implementation of artificial intelligence-based approaches. This review systematically examines the crucial role of the gut microbiome in tumorigenesis, with particular emphasis on colorectal cancer (CRC), specifically addressing its utility as a diagnostic and prognostic biomarker. Furthermore, building upon existing applications of artificial intelligence (AI) in microbiome research and cancer diagnosis and treatment, this review presents an AI-driven precision intervention framework and delineates personalized treatment strategies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Precision Medicine",
+      "Artificial Intelligence",
+      "Gastrointestinal Microbiome",
+      "Tumor Microenvironment",
+      "Colorectal Neoplasms",
+      "Multiomics",
+      "Animals"
+    ],
+    "keywords": [
+      "Artificial intelligence",
+      "cancer",
+      "colorectal cancer (CRC)",
+      "gastrointestinal microbiome",
+      "precision medicine",
+      "precision treatment"
+    ],
+    "summary_zh": "综述肠道微生物组在肿瘤发生中的作用，重点讨论结直肠癌，提出AI驱动的精准干预框架用于个性化癌症治疗。",
+    "innovation": "提出AI驱动的精准干预框架 | 强调肠道微生物组作为诊断和预后生物标志物 | 整合多组学数据并应用人工智能分析",
+    "limitation": "未描述",
+    "study_object": "肠道微生物组 + 多组学技术（宏基因组、代谢组、转录组）",
+    "disease": "结直肠癌（CRC）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216102",
+    "title": "The potential role of sex related differences of the microbiome and its impact on calcific aortic stenosis: a narrative review.",
+    "doi": null,
+    "journal": "Biology of sex differences",
+    "issn": "2042-6410",
+    "pub_date": "2026-05-29",
+    "authors": "Atighetchi Sarah; Pilgrim Thomas; Bahtiyar Yilmaz; Suc Gaspard; Urena-Alcazar Marina et al.",
+    "abstract": "Aortic stenosis (AS) presents with distinct sex-related differences in clinical manifestation, pathophysiology, and response to treatment. Women typically present at an older age, with greater frailty, more pronounced symptoms, and paradoxical low-flow AS, often associated with concentric left ventricular remodeling and fibrotic valve changes. In contrast, men show a predominance of calcific AS, eccentric remodeling, and more extensive aortic valve calcification. These differences are not solely anatomical or hemodynamic; they extend to molecular pathways and emerging contributors such as the gut microbiota.Recent evidence suggests that gut microbiota composition and its metabolites, particularly trimethylamine-N-oxide (TMAO) and indoxyl sulfate (IS), play a sex-specific role in AS pathogenesis. Women generally exhibit a more diverse and cardioprotective microbiota profile, shaped by estrogen and dietary habits, that might explain lower levels of pro-calcific metabolites and a fibrotic valve phenotype. Conversely, men tend to have higher TMAO and IS levels, driven by a Firmicutes-enriched microbiota and androgenic modulation, which might promote calcification and inflammatory signaling in the aortic valve.This review integrates current knowledge on sex-related differences in AS, spanning clinical patterns, valvular remodeling, cellular and molecular signaling, and gut-heart interactions, to propose a hypothesis-driven framework on how gut microbiota may contribute to sex-specific differences in AS.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Calcific aortic stenosis",
+      "Gut microbiota",
+      "Metabolomics",
+      "Sex difference"
+    ],
+    "summary_zh": "综述了性别相关微生物组差异及其在钙化性主动脉瓣狭窄中的作用，提出肠道菌群通过代谢物影响AS性别差异的假设。",
+    "innovation": "提出肠道微生物组驱动AS性别差异的假设框架 | 整合临床、分子和微生物组多层面证据 | 识别TMAO和IS等代谢物的性别特异性作用",
+    "limitation": "未描述",
+    "study_object": "人类（男性/女性）主动脉瓣狭窄患者，肠道微生物组及血液代谢物，叙述性综述",
+    "disease": "钙化性主动脉瓣狭窄",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216204",
+    "title": "Integrative analysis of the meibum microbiome in dry eye disease: from dysbiosis and diagnostic biomarkers to immunomodulation by Bradyrhizobium-derived outer membrane vesicles.",
+    "doi": null,
+    "journal": "Journal of translational medicine",
+    "issn": "1479-5876",
+    "pub_date": "2026-05-29",
+    "authors": "Zhang Wenjia; Duan Cong; Feng Xiaoxiao; He Liping; Liu Hai et al.",
+    "abstract": "BACKGROUND: Dry eye disease (DED) is a multifactorial disorder involving tear film instability and inflammation. The ocular surface microbiome (OSM) modulates local immunity, but its functional role in DED remains elusive. We characterized OSM alterations in DED and investigated the immunomodulatory effects of bacterial outer membrane vesicles (OMVs).\nMETHODS: We enrolled 1,262 participants (520 DED, 742 controls). Clinical DED phenotypes were systematically identified using univariate, multivariate, and least absolute shrinkage and selection operator (LASSO) regression analyses. Meibum samples were subjected to 16S rRNA gene sequencing; amplicon sequence variants were generated using the divisive amplicon denoising algorithm 2 (DADA2) and taxonomically annotated against the SILVA database. Microbial diversity, community composition, and diagnostic biomarkers were evaluated, complemented by functional prediction (PICRUSt2) and co-occurrence network analyses. In vitro, OMVs isolated from Bradyrhizobium were applied to M1 macrophages to assess immunomodulatory effects through cytokine quantification, flow cytometric analysis of surface markers, and polarization-related gene expression profiling.\nRESULTS: Clinical profiling identified eight independent risk factors associated with DED, including ocular surface disease index scores, tear break-up time, and meibomian gland dysfunction. DED patients exhibited markedly elevated alpha-diversity (P < 0.001) and distinct microbial communities. Taxonomic shifts included reduced Alphaproteobacteria and Bradyrhizobium but enriched Gammaproteobacteria and Ralstonia. A six-genus panel distinguished DED from controls (AUC = 0.793). Functional prediction highlighted upregulated pathways related to inflammation, tight junctions, and PI3K-Akt-mTOR signaling. In vitro, Bradyrhizobium OMVs attenuated pro-inflammatory cytokines (TNF-α, IL-6, IL-1β; P < 0.001) while enhancing anti-inflammatory mediators (IL-10, TGF-β1). OMVs treatment decreased CD86⁺ and increased CD206⁺ macrophages (P < 0.001), consistent with M2 polarization, supported by downregulated inducible nitric oxide synthase (iNOS) and upregulated arginase-1 (Arg-1) expression (P < 0.001).\nCONCLUSION: This study establishes DED as a multifactorial condition associated with sleep, systemic disease, meibomian gland blockage, and radiation. These clinical features coexist with ocular surface dysbiosis characterized by depletion of beneficial Bradyrhizobium and expansion of Ralstonia taxa. Notably, Bradyrhizobium-derived OMVs confer protective effects by driving M2 macrophage polarization and resolving inflammation. Collectively, these findings underscore the microbiome-immune axis as a critical node in DED pathogenesis and provide a mechanistic rationale for microbiome-targeted diagnostics and therapeutics. Given the low-biomass nature of meibum and the absence of sequenced negative controls, a contribution of reagent-associated taxa to the observed signal cannot be fully excluded and warrants confirmation in future studies with comprehensive contamination controls.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bradyrhizobium",
+      "16S rRNA sequencing",
+      "Dry eye disease",
+      "Dysbiosis",
+      "Macrophage polarization",
+      "Ocular surface microbiome"
+    ],
+    "summary_zh": "整合分析干眼病患者睑板腺微生物组，发现菌群失调及诊断标志物，并证实Bradyrhizobium外膜囊泡通过诱导M2巨噬细胞极化发挥免疫调节作用。",
+    "innovation": "首次整合分析干眼病睑板腺微生物组与临床表型及免疫调节 | 发现Bradyrhizobium外膜囊泡通过诱导M2极化抗炎 | 建立六属诊断标志物panel (AUC=0.793)",
+    "limitation": "睑板腺样本低生物量且未设阴性对照，无法排除试剂相关污染贡献",
+    "study_object": "人类 睑板腺样本 16S rRNA基因测序",
+    "disease": "干眼病",
+    "sample_size": "1262",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216291",
+    "title": "Adipose Tissue Inflammation, Oxidative Stress, and Altered Adipogenesis Are Associated With Dyslipidemia in Obesity: A Multiomics Profiling Study.",
+    "doi": null,
+    "journal": "Journal of the American Heart Association",
+    "issn": "2047-9980",
+    "pub_date": "2026-05-29",
+    "authors": "Zwartjes Max S Z; de Jonge Patrick A; van de Laar Arnold W; Bruin Sjoerd C; Meijnikman Abraham S et al.",
+    "abstract": "BACKGROUND: Obesity is an important risk factor for cardiometabolic disease, including dyslipidemia and atherosclerotic cardiovascular disease. Although the role of the liver in dyslipidemia is established, the contribution of adipose tissue is less clear. This study aims to clarify the role of adipose tissue in lipid metabolism and dyslipidemia.\nMETHODS: We conducted a cross-sectional analysis of 125 patients from the BARIA (The Immune System and Microbial Tone in Relation to NAFLD/NASH Before and After Bariatric Surgery in the Morbidly Obese in Amsterdam) longitudinal cohort study undergoing bariatric surgery. Comprehensive phenotyping included fasting untargeted plasma metabolomics, lipid, lipoprotein, adipokine profiling, RNA sequencing, and fecal shotgun metagenomics. Tissue transcriptomic and plasma metabolites were compared between individuals with and without dyslipidemia.\nRESULTS: Dyslipidemia was present in 43 of 125 individuals (34.4%), with higher triglycerides (1.62 versus 1.24 mmol/L), apoB (apolipoprotein B; 93.15 versus 81.81 mg/dL), and lower high-density lipoprotein (1.02 versus 1.35 mmol/L) and apoAI (136.40 versus 161.35 mg/dL). Plasma adipokines showed limited differences: leptin concentrations were lower in dyslipidemia in unadjusted analysis but reduced after adjustment for age, sex, and body weight (adjusted P=0.057). RNA sequencing identified altered gene expression of liver, jejunum, visceral and subcutaneous adipose tissue, most pronounced in subcutaneous adipose tissue. Dyslipidemia was associated with adipose tissue pathways related to inflammation, oxidative stress, and adipogenesis. Plasma metabolomics revealed associations with endocannabinoid-like, secondary bile acid, plasmalogen, butyrate, and sphingolipid metabolites. Gut metagenome analysis found modest differences.\nCONCLUSIONS: Dyslipidemia in obesity is associated with transcriptomic alterations in adipose tissue, including subcutaneous adipose tissue, involving inflammation, oxidative stress, and adipogenesis. These findings support a role of adipose tissue in lipid regulation beyond hepatic pathways.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "adipose tissue",
+      "dyslipidemia",
+      "metabolomics",
+      "obesity",
+      "transcriptomics"
+    ],
+    "summary_zh": "通过多组学分析125名肥胖患者，发现血脂异常与脂肪组织炎症、氧化应激和脂肪生成相关。",
+    "innovation": "多组学联合分析揭示脂肪组织在血脂异常中的作用 | 皮下脂肪组织转录组改变与血脂异常关联更强 | 从脂肪组织角度探讨血脂异常机制",
+    "limitation": "未描述",
+    "study_object": "肥胖患者的血浆、脂肪组织、肝脏、空肠和粪便样本的多组学分析",
+    "disease": "肥胖、血脂异常",
+    "sample_size": "125例",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42209510",
+    "title": "Combined high-quality metagenomics reveals off-target effects of albendazole, ivermectin-albendazole and moxidectin-albendazole on the human gut bacteria.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-05-29",
+    "authors": "Dommann Julian; Sprecher Viviane P; Beisel Christian; Ballmer Daniel; Hürlimann Eveline et al.",
+    "abstract": "Human whipworm infections caused by Trichuris trichiura and Trichuris incognita remain a major public health problem, affecting over 400 million people globally and responding poorly to standard benzimidazole chemotherapy. Ivermectin-albendazole and moxidectin-albendazole have emerged as promising combination therapies, but recent in vitro evidence suggests that ivermectin and moxidectin may also affect gut bacteria. We therefore characterized their off-target effects on the gut microbiome in a randomized controlled trial including 204 Trichuris spp.-infected individuals in Côte d'Ivoire treated with albendazole (400 mg), ivermectin-albendazole (200 µg/kg/400 mg), or moxidectin-albendazole (8 mg/400 mg). By combining Illumina short reads and Nanopore long reads, we recovered over 800 high-quality metagenome-assembled genomes. Albendazole and moxidectin-albendazole induced taxonomic shifts with only mild functional consequences. In contrast, individuals receiving higher absolute ivermectin doses based on their bodyweight ( ≥ 15 mg) showed pronounced changes in taxonomic composition and microbial function, whereas the resistome remained largely stable. These findings confirm that ivermectin can exert antibacterial off-target effects in the human gut beyond those previously observed in vitro. Given its central role in parasite control, its broader microbiome effects warrant careful evaluation in future treatment strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "利用高精度宏基因组学分析发现，伊维菌素-阿苯达唑联合疗法在高剂量时对肠道菌群有显著脱靶效应。",
+    "innovation": "首次在人体随机对照试验中验证伊维菌素对肠道菌群的抗菌脱靶效应 | 结合Illumina短读和Nanopore长读恢复800多个高质量宏基因组组装基因组 | 比较三种驱虫方案对肠道微生物组的差异化影响",
+    "limitation": "未描述",
+    "study_object": "感染鞭虫的人类粪便样本的宏基因组分析",
+    "disease": "鞭虫感染",
+    "sample_size": "204",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216058",
+    "title": "Biosynthesized selenium nanoparticles increase soybean resistance to root rot by recruiting beneficial microbes and reprogramming host metabolism.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-29",
+    "authors": "Liu Haixu; Han Songhan; Shi Ke; Zhang Yan; Xu Ying et al.",
+    "abstract": "BACKGROUND: Soybean root rot, primarily caused by Fusarium species, is a devastating soil-borne disease that severely threatens global soybean production. Conventional chemical controls are problematic due to their environmental impact and the risk of fostering pathogen resistance. There is therefore an urgent need to develop sustainable and eco-friendly alternative strategies.\nRESULTS: This study demonstrated that selenium nanoparticles (SeNPs) biosynthesized by Bacillus subtilis ZY56 significantly increased soybean resistance to F. oxysporum. Characterization confirmed that the obtained SeNPs were spherical (approximately 147 nm), consisting of amorphous-state elemental selenium (Se0) with a bioactive protein-polysaccharide coating. Treatment with 2.66 mg/L SeNPs significantly promoted seed germination, seedling growth, and antioxidant enzyme activity, while markedly reducing the root rot disease index. Multiomics analyses revealed that SeNPs reprogrammed host metabolism by increasing the levels of key defense-related metabolites (camalexin and isoflavonoids) and upregulating associated biosynthetic pathways. Crucially, SeNPs reshaped the rhizosphere microbiome, enriching beneficial genera (e.g., Bradyrhizobium, Lysobacter, and Nocardioides). Moreover, the analysis predicted enhanced microbial tyrosine metabolism. Integrated correlation analysis identified tyrosine metabolism as a core hub linking microbiome restructuring to host defense, supporting a \"microbe‒plant metabolic division of labor\" model in which microbes supply precursors (e.g., L-tyrosine) for the synthesis of antifungal compounds in the host. This finding was functionally validated, as the accumulated metabolites (camalexin and isoflavonoids) directly inhibited F. oxysporum growth in vitro.\nCONCLUSIONS: Our findings reveal a dual mechanism whereby SeNPs concurrently prime host defenses and modulate beneficial plant-microbe interactions, offering a sustainable nano-enabled strategy for managing soil-borne diseases. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Fusarium oxysporum",
+      "Multiomics analysis",
+      "Rhizosphere microbiome",
+      "Selenium nanoparticles",
+      "Soybean root rot",
+      "Tyrosine metabolism"
+    ],
+    "summary_zh": "本研究利用枯草芽孢杆菌合成硒纳米颗粒，通过重塑根际微生物组和重编程宿主代谢，提高大豆对镰刀菌根腐病的抗性。",
+    "innovation": "揭示了硒纳米颗粒同时激发宿主防御和调节有益植物-微生物互作的双重机制 | 提出“微生物-植物代谢分工”模型，微生物提供前体用于宿主合成抗真菌化合物",
+    "limitation": "未描述",
+    "study_object": "大豆根际土壤和根组织 + 多组学分析",
+    "disease": "大豆根腐病（由尖孢镰刀菌引起）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42213775",
+    "title": "Integrative analysis reveals intra-tumoral microbial enterotypes shape host transcriptomes in colorectal cancer.",
+    "doi": null,
+    "journal": "Cell reports",
+    "issn": "2211-1247",
+    "pub_date": "2026-05-29",
+    "authors": "Yuan Kai; Lian Yifan; Huang Pingmei; Cao Fang; Yang Xiaoning et al.",
+    "abstract": "The intratumor microbiome and host gene regulation are key contributors to colorectal cancer (CRC), yet their interactions remain unclear. To investigate the interplay between intra-tumoral microbe and host gene, we analyzed paired tumor and normal tissues from 31 patients. Integrated multi-omics analysis identified 4,197 significant bacteria-gene correlation pairs involving 30 bacterial taxa. Patient stratification based on these associations reveals two distinct molecular subgroups characterized by unique microbial signatures and immune profiles. In a mouse model, Bacteroides fragilis alters the tumor immune microenvironment, promoting myeloid-derived suppressor cell (MDSC)-mediated CXCL signaling that impaired CD8+ T cell activation and promotes exhaustion. B. fragilis directly promotes CXCL2 expression and ROS production in MDSCs, which subsequently drives CD8+ T cell exhaustion and immune evasion. These findings reveal that intra-tumoral microbiota influence host transcriptomes and immune modulation in CRC, supporting microbiome-based molecular stratification and offering insights into potential microbiota-targeted therapies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bacteroides fragilis",
+      "CP: Cancer",
+      "CP: Microbiology",
+      "colorectal cancer",
+      "heterogeneous microbiota",
+      "intratumor microbiome",
+      "multi-omics"
+    ],
+    "summary_zh": "整合多组学分析结直肠癌瘤内微生物与宿主转录组，发现脆弱拟杆菌通过MDSCs促进免疫逃逸。",
+    "innovation": "首次揭示瘤内微生物肠型与宿主转录组关联 | 发现脆弱拟杆菌通过MDSCs-CXCL信号促进免疫逃逸的新机制 | 提出基于微生物组的分子分层和潜在治疗靶点",
+    "limitation": "样本量较小（31例）",
+    "study_object": "结直肠癌患者的瘤内微生物组与宿主转录组（多组学整合分析）",
+    "disease": "结直肠癌",
+    "sample_size": "31例患者",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42214402",
+    "title": "Asthma exacerbation profile of benralizumab for severe eosinophilic asthma (the BenRex study): a multicentre, prospective cohort study.",
+    "doi": null,
+    "journal": "The Lancet. Respiratory medicine",
+    "issn": "2213-2619",
+    "pub_date": "2026-05-29",
+    "authors": "Logan Jennifer; Martin Kirsty; Gillespie Lynsey; McConnachie Alex; Lee Wai-Ting Nicola et al.",
+    "abstract": "BACKGROUND: Benralizumab, an interleukin-5 receptor α antagonist, depletes blood eosinophils, reducing exacerbations of severe asthma by approximately 50% versus placebo. In this study, we aimed to characterise mechanisms underlying exacerbations occurring on benralizumab.\nMETHODS: BenRex, a multicentre, prospective cohort study, recruited participants meeting national licensing criteria for benralizumab for asthma. The study was conducted in 15 UK severe asthma centres. After collecting baseline data, open-label benralizumab was administered for 12-18 months. At exacerbation, participants attended for medical review before initiating treatment, fractional exhaled nitric oxide (FeNO), spirometry, asthma control questionnaire, and blood and sputum sampling.\nFINDINGS: Between Sept 30, 2019, and April 23, 2024, 121 exacerbation events were assessed in 156 individuals. 90 participants (58%) were female and 66 (42%) were male; 147 (94%) of participants identified as White. Median blood eosinophil counts at exacerbation were 0 (IQR 0-0) cells per μL. Airway neutrophilia was present in 55% of exacerbations where sputum was available (27/49). Median C-reactive protein (CRP) increased from 3·00 mg/L (1·00-6·00) at baseline to 9·00 mg/L (3·00-17·00) at exacerbation (p=0·0067). Clinically relevant viral pathogens were seen in eight (20·5%) of 39 sputum samples; although viruses were detected in 22 (56·4%) of 39 samples. Influenza A, metapneumovirus, and rhinovirus were the most common viral pathogens (each found in 2 [5·1%] of 39 samples). New acquisition of Moraxella catarrhalis (3 [13·6%] of 22), Haemophilus influenzae (4 [18·2%] of 22), and Streptococcus pneumoniae (2 [9·1%] of 22) occurred. DNA-neutrophil elastase complexes (p=0·0080) and azurocidin-1 (p=0·012) concentrations rose from baseline to exacerbation. FeNO was ≥50 parts per billion in 56 (50·5%) of 111 assessed exacerbations and was associated with reduced odds of bacterial detection. FeNO did not correlate with CRP or sputum neutrophils.\nINTERPRETATION: Our findings suggested that eosinophilic inflammation is not involved in exacerbations when a patient is being treated with benralizumab. Airway neutrophilia, viral pathogens, and alteration of the sputum microbiome point to infection as the most prominent causes of exacerbations. This observation should improve precision management of asthma exacerbations occurring despite treatment with benralizumab.\nFUNDING: AstraZeneca.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过多中心前瞻性队列研究，揭示贝那利珠单抗治疗重度嗜酸性粒细胞性哮喘的急性加重特征，发现主要由感染引起。",
+    "innovation": "首次阐明贝那利珠单抗治疗下急性加重机制不涉及嗜酸性炎症，而是中性粒细胞炎症、病毒病原体和痰微生物组改变 | 发现FeNO≥50 ppb与细菌检测概率降低相关",
+    "limitation": "未描述",
+    "study_object": "人类 + 血液、痰液样本 + 临床检测、微生物组分析",
+    "disease": "重度嗜酸性粒细胞性哮喘",
+    "sample_size": "156例个体，121次急性加重事件",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216084",
+    "title": "Longitudinal analysis of stowaway microorganisms aboard modules and cargo spacecraft of the Chinese Space Station.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-05-29",
+    "authors": "Zhang Ying; Ma Jinglin; Zhang Lantao; Wang Ran; Qu Xi et al.",
+    "abstract": "BACKGROUND: Although microbial contamination in crewed spacecraft is well studied, quantitative assessment of microorganisms from spacecraft structures and cargo remains overlooked. Here, we investigate 165 microbial samples collected from five critical environments of China Space Station (CSS) missions undertaken in 2016-2024: ground assembly, cargo loading, crewed simulation cabin, test cabin, and on-orbit. The investigation aims to elucidate the impact of cargo- and cabin-derived microorganisms on the CSS microbial community while characterizing the station's unique microbial profile.\nRESULTS: The calculation results based on the microbial source tracking model revealed that the proportion of cabin-source microbes peaked during initial construction (14.02%) but declined after deployment, whereas cargo-source microbes reached 36.89%. The top three persistent microbial genera in orbit from both sources were Staphylococcus, Acinetobacter, and Corynebacterium. High-abundance CSS microorganisms in the orbital environment are commonly found in both humans and plants, and the few cabin- or cargo-derived microorganisms that entered the interior differed markedly from high-abundance microorganisms found in terrestrial environments. Cargo storage areas and controlled cleanrooms posed a high risk of microbial transfer into orbit, necessitating stricter sterilization measures.\nCONCLUSIONS: These findings systematically characterize, for the first time, the dynamic patterns of structural/cargo-borne microbial contamination during CSS's early phases, providing critical data for biosecurity protocols of long-duration missions. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cabin- & cargo-derived microorganisms",
+      "China space station",
+      "Microbial safety prevention and control",
+      "Microbiome",
+      "Source tracing"
+    ],
+    "summary_zh": "通过分析165个样本，研究中国空间站模块和货物中微生物动态，发现货舱来源微生物占比达36.89%，为长期任务生物安全提供数据。",
+    "innovation": "首次系统表征中国空间站结构/货物微生物污染动态模式 | 揭示货舱微生物向轨道转移的高风险",
+    "limitation": "未描述",
+    "study_object": "中国空间站（模块和货船）微生物样本 + 微生物源追踪模型",
+    "disease": "无",
+    "sample_size": "165个微生物样本",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42215593",
+    "title": "Early detection of gastric cancer: a novel circulating microbiome DNA based liquid biopsy assay.",
+    "doi": null,
+    "journal": "NPJ precision oncology",
+    "issn": "2397-768X",
+    "pub_date": "2026-05-29",
+    "authors": "Chen Yongyi; Han Xinhong; Luo Miao; Luo Liulin; Wang Tingzhang et al.",
+    "abstract": "Microorganisms play significant roles in gastric cancer (GC) progression. However, it is unknown whether circulating microbiome DNA (cmDNA) possesses GC specific features and could serve as diagnostic biomarker for GC detection. In this study, one cohort of 586 participants from Zhejiang Cancer Hospital were divided randomly into the training and testing datasets. Another cohort of 299 participants enrolled from three hospitals was used as an independent validation cohort. The cmDNA from plasma samples were analyzed by sequencing and various tools. The significant features of cmDNA were used as inputs to establish a machine learning diagnostic model (cmDNA-MLM). The cmDNA-MLM achieved the area under receiver operating characteristic curve (AUC) of 0.831 for GC across all stages in the testing cohort and 0.914 in the independent validation cohort. Notably, this model demonstrated strong performance in detecting early-stage GC, achieving an AUC of 0.792 for stage I GC in the validation cohort and exhibited favorable sensitivities across various molecular subtypes. The stage shift analysis showed a notable increase in the number of patients diagnosed at stage I. This cmDNA-MLM exhibited promising performance in early GC detection, which could be used as a clinical liquid biopsy methodology after more clinical validation studies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "利用循环微生物组DNA构建机器学习模型，实现早期胃癌的高效检测。",
+    "innovation": "首次利用循环微生物组DNA进行胃癌早期检测 | 建立机器学习诊断模型并在多个独立队列验证 | 模型在早期胃癌（I期）检测中表现良好",
+    "limitation": "未描述",
+    "study_object": "人类胃癌患者血浆样本 + 宏基因组测序",
+    "disease": "胃癌",
+    "sample_size": "训练测试队列586例，验证队列299例",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42216230",
+    "title": "Re-Evaluating Probiotic Efficacy in Irritable Bowel Syndrome: A Call for Rigorous Statistics, Digital Therapeutics, and Microbiome-Driven Precision.",
+    "doi": null,
+    "journal": "Journal of gastroenterology and hepatology",
+    "issn": "1440-1746",
+    "pub_date": "2026-05-29",
+    "authors": "He Yating",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "呼吁在肠易激综合征中采用严格统计、数字疗法和微生物组驱动的精准来重新评估益生菌疗效。",
+    "innovation": "严格统计 | 数字疗法 | 微生物组驱动精准",
+    "limitation": "未描述",
+    "study_object": "人类 未描述 未描述",
+    "disease": "肠易激综合征",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  },
+  {
+    "pmid": "42213059",
+    "title": "Early life nutritional imbalance impairs colonic epithelial regeneration through gut microbiota dysbiosis and metabolic suppression.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-05-29",
+    "authors": "Zhuang Yimin; Huang Zhiyu; Liu Shuai; Xu Yiming; Hou Guobin et al.",
+    "abstract": "Childhood malnutrition represents a major global health burden that extends beyond caloric deficiency to include dietary imbalance. The early-life gut microbiome functions as a dynamic ecosystem whose structure and metabolic output are intimately linked to host development, yet how nutritional imbalance disrupts this ecosystem and its integration with the host remains poorly understood. Using an isocaloric but nutrient-imbalanced diet in a mouse model, we recapitulated chronic growth stunting and identified a systemic syndrome comprising growth retardation, oxidative stress, and immunosuppression. Gut microbiota dysbiosis was established as the central mediator of these pathological manifestations. Integrated multi-omics analyses revealed that nutritional imbalance compromised microbial community structure and function, reducing diversity and ecological stability whereas disrupting metabolic activity-particularly short-chain fatty acid (SCFA) production. Through single-cell RNA sequencing of colonic epithelium, we demonstrated that these microbial perturbations suppressed host energy metabolism and inhibited the Wnt/β-catenin signaling pathway in regenerative epithelial cells. This resulted in the downregulation of key stem cell regulators LGR5 and ASCL2, ultimately impairing epithelial renewal and manifesting as reduced crypt depth. Our findings reveal a microbiota-dependent mechanism linking dietary imbalance to impaired host development, demonstrating how nutritional stress disrupts gut microbial structure and metabolic output, ultimately compromising epithelial regeneration. This work highlights the importance of considering the gut microbiome as an ecosystem whose homeostasis is fundamental to early-life health.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Dietary imbalance",
+      "Gut development",
+      "Malnutrition",
+      "Microbial ecosystem",
+      "Short chain fatty acids"
+    ],
+    "summary_zh": "小鼠模型揭示早期营养不平衡通过菌群失调和代谢抑制损害结肠上皮再生，影响发育。",
+    "innovation": "使用等热量但营养不平衡饮食模拟慢性生长迟缓 | 多组学与单细胞转录组揭示菌群失调介导的病理机制 | 发现抑制Wnt/β-catenin通路和干细胞标志物",
+    "limitation": "未描述",
+    "study_object": "小鼠结肠上皮样本，结合多组学与单细胞RNA测序",
+    "disease": "营养不良、生长迟缓",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-29"
+  }
+]
