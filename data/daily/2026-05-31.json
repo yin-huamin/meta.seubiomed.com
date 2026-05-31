@@ -1,0 +1,31 @@
+[
+  {
+    "pmid": "42218547",
+    "title": "Mechanism of a polyherbal mixture alleviates calf diarrhea: an integrated network pharmacology, metabolomics, and microbiome study.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-05-31",
+    "authors": "Ji Shaoxiong; Xia Jianmin; Yang Zhantao; Liu Siyuan; Zhang Xinyue et al.",
+    "abstract": "BACKGROUND: Calf diarrhea represents a prevalent and serious challenge in dairy farming. While medicinal plants demonstrate considerable potential for preventing calf diarrhea within antibiotic-free farming systems, their active components and mechanisms remain poorly characterized. The objective of this study was to investigate a polyherbal mixture (PM; including Crataegus pinnatifida, Callicarpa nudiflora Hook. & Arn., Mallotus apelta (Lour.) Müll.Arg., Amomum villosum Lour., Centella asiatica (L.) Urban, and Alpinia oxyphylla Miq.) supplemented to preweaning calves from d 4 to 60, utilizing an integrated approach combining network pharmacology, metabolomics, and microbiomics.\nRESULTS: Dietary supplementation with 40 g/d of PM significantly decreased the occurrence of diarrhea (P < 0.05), increased monocyte levels (P < 0.05), and improved jejunal villus height (P < 0.05). Network pharmacology predicts that IL6, EGFR, SRC, TP53, and CCND1 are key targets, while acacetin, chrysin, tectochrysin, dihydroartemisinic acid, and lysionotin may be potential active constituents. The serum metabolome revealed that PM supplementation significantly enriched the steroid hormone biosynthesis. At the same time, PM altered the gastrointestinal microbiota, increasing the abundance of bacteria such as Mediterranea massiliensis, Prevotella denticola, and Duncaniella freteri in the rumen and Clostridium nexile in feces, while decreasing the abundance of Blautia producta, Vescimonas fastidiosa, and Alistipes putredinis in feces (P < 0.05).\nCONCLUSIONS: Collectively, these findings suggest that PM supplementation alleviated calf diarrhea by remodeling serum steroid hormone biosynthesis and improving ruminal and fecal microbiota composition. Acacetin, chrysin, tectochrysin, dihydroartemisinic acid, and lysionotin may be potential active components.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Diarrhea",
+      "Molecular docking",
+      "Network pharmacology",
+      "Polyherbal mixtures"
+    ],
+    "summary_zh": "整合网络药理学、代谢组学和微生物组学，研究多草药混合物缓解犊牛腹泻的机制，发现其通过重塑血清类固醇激素合成和肠道菌群发挥作用。",
+    "innovation": "首次整合网络药理学、代谢组学和微生物组学揭示多草药混合物缓解犊牛腹泻的机制 | 筛选出acacetin、chrysin等潜在活性成分和IL6等关键靶点 | 发现PM通过调控类固醇激素合成和瘤胃/粪便菌群起作用",
+    "limitation": "未描述",
+    "study_object": "犊牛 + 血清、瘤胃和粪便样本 + 网络药理学、代谢组学和微生物组技术",
+    "disease": "犊牛腹泻",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-05-31"
+  }
+]
