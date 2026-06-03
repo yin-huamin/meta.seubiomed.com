@@ -1,0 +1,88 @@
+[
+  {
+    "pmid": "42233652",
+    "title": "Role of the penile microbiome in female sex partner risk of bacterial vaginosis and sexually transmitted infections: a narrative review.",
+    "doi": null,
+    "journal": "Clinical microbiology reviews",
+    "issn": "1098-6618",
+    "pub_date": "2026-06-03",
+    "authors": "Mehta Supriya D",
+    "abstract": "SUMMARYThe penile microbiome (PMB) can be dominated by skin-associated bacteria (e.g., Corynebacterium, Staphylococcus, and Streptococcus) or by anaerobic bacteria that are associated with bacterial vaginosis (BV), and is influenced by male circumcision status, female partner vaginal microbiome (VMB), BV status, condom use, and antibiotic use. Penile bacteria that are associated with BV and genital mucosal inflammation are associated with men's risk of HIV and STIs. In the few studies that simultaneously evaluate the penile and vaginal microbiome in sex partners, specific taxa are highly correlated, with evidence for bi-directional transmissibility. BV-associated taxa in the PMB are associated with increased risk of BV and STIs in female sex partners. Emergent trials demonstrate that antimicrobial treatment in men can reduce penile anaerobic bacteria and female sex partner's risk of BV recurrence. However, data are lacking on factors influencing penile-vaginal bacterial exchangeability, the durability of bacterial exchange, and the conditions under which exchange may lead to increased risk of adverse outcomes in the index or partner. Optimal and non-optimal PMB have not been defined. Assessment of PMB composition and function across the life course is needed. Association of PMB with intrinsic host factors (genetics and endogenous hormones) is lacking; association with behavioral and lifestyle factors is limited. Addressing these gaps may lead to the development of assays to facilitate screening and monitoring after therapeutic interventions in men and female partners, or the development of therapeutics for optimizing PMB. Studies are needed to refine and develop new treatment and counseling guidelines for men and their sexual partners.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "bacterial vaginosis",
+      "penile microbiome",
+      "sexually transmitted infection",
+      "vaginal microbiome"
+    ],
+    "summary_zh": "综述阴茎微生物组组成及其对女性伴侣细菌性阴道病和性传播感染风险的影响，指出BV相关菌群增加风险，男性抗菌治疗可降低复发。",
+    "innovation": "总结了阴茎微生物组与女性伴侣BV和STI风险的关联证据 | 指出男性抗菌治疗可降低女性伴侣BV复发风险 | 强调需进一步研究优化PMB",
+    "limitation": "数据缺乏影响阴茎-阴道细菌交换性的因素和持久性 | 未定义最佳和非最佳PMB",
+    "study_object": "人类阴茎微生物组和女性阴道微生物组",
+    "disease": "细菌性阴道病、性传播感染（包括HIV）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-03"
+  },
+  {
+    "pmid": "42231509",
+    "title": "The Iceman's microbiome: unveiling millennia of microbial diversity and continuity.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-06-03",
+    "authors": "Sarhan Mohamed S; Samadelli Marco; Zink Albert; Maixner Frank",
+    "abstract": "BACKGROUND: The Iceman mummy, a 5300-year-old natural alpine glacier mummy, provides a unique opportunity to study ancient microbial ecosystems. However, disentangling the mummy's endogenous microbiome from modern environmental contaminants introduced during three decades of conservation remains a significant challenge.\nRESULTS: By integrating culture-dependent and culture-independent approaches, including amplicon sequencing, shotgun metagenomics and de novo metagenomic assembly, as well as isolate-level genomics, we performed a comprehensive characterization of the Iceman's microbial landscape. We identified three distinct microbial drivers: endogenous post-mortem succession, ancient glacier-derived relicts, and modern anthropogenic introduction. Metagenomic analysis of internal tissues revealed anaerobic bacteria, including ancient gut taxa, including such as Romboutsia hominis, Clostridium moniliforme, Eubacterium sp., Ruminococcus bromii, Kineothrix sp., Treponema succinifaciens, Enterousia sp., and Huintestinicola butyrica. These taxa, characterized by ancient DNA (aDNA) damage profiles (C to T deamination frequency), show high similarity to ancestral, non-Westernized human gut communities, providing a rare baseline for Copper Age intestinal ecosystems. Conversely, we identified a shift in the external mycobiome, marked by the recent proliferation of psychrophilic yeasts, including Glaciozyma watsonii, Mrakia robertii, Phenoliferia glacialis, and Goffeauzyma sp. While internal bacterial communities remained stable, these external yeast populations showed increased relative abundance and reduced DNA damage signatures between 2010 and 2019, indicating active, modern colonization. Furthermore, strain-level analysis of Pseudomonas sp. 5C2 confirmed that specific environmental strains have successfully colonized the mummy, persisting across multiple tissue sites with minimal genetic divergence.\nCONCLUSIONS: Our study demonstrates that the Iceman is not a static relic but a dynamic biological interface. The coexistence of ancient, endogenous gut microbes and modern, psychrophilic colonizers highlights the potential for ongoing microbial activity even at sub-zero temperatures. These findings underscore that maintaining strict environmental parameters is essential to prevent these specialized microbial communities from transitioning from latent persistence to active microorganisms. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ancient DNA",
+      "Ancient microbiome",
+      "Frozen mummy conservation",
+      "Iceman",
+      "Mummies",
+      "Psychrophilic yeasts",
+      "Ötzi"
+    ],
+    "summary_zh": "整合多组学方法研究5300年冰人木乃伊微生物组，发现古代内源性肠道微生物与现代嗜冷定植者共存，表明冰人为动态生物界面。",
+    "innovation": "整合培养依赖与非依赖方法、扩增子测序、宏基因组及分离株基因组学，区分内源微生物与现代污染物 | 发现古代肠道菌群与未西方化人群高度相似，提供铜器时代肠道生态系统基线 | 揭示外部真菌组随时间变化，显示现代嗜冷酵母活跃定植",
+    "limitation": "未描述",
+    "study_object": "冰人木乃伊 - 内部组织与外部样本 - 扩增子测序、鸟枪法宏基因组、从头组装、分离株基因组学",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-03"
+  },
+  {
+    "pmid": "42229914",
+    "title": "Pneumococcal Rib Osteomyelitis With Concurrent Lung and Chest Wall Abscess in an Infant.",
+    "doi": null,
+    "journal": "Pediatrics",
+    "issn": "1098-4275",
+    "pub_date": "2026-06-03",
+    "authors": "Li Haiyan; Yang Lan; Chen Bo; Zhang Lele; Zhu Jinshuai et al.",
+    "abstract": "We present a rare case of a 7-month-old infant with a complex invasive Streptococcus pneumoniae infection involving rib osteomyelitis, a pulmonary abscess, and a chest wall abscess. The patient presented with persistent fever and no respiratory symptoms. On day 9, chest radiography was performed because of persistent fever and marked leukocytosis, consistent with the American College of Radiology Appropriateness Criteria that recommend imaging in febrile infants with high fever (≥39°C) or elevated white blood cell counts (≥20 000/mm3). On day 14, the emergence of a chest wall mass prompted escalation to ultrasonography, which provided noninvasive assessment of soft tissue involvement. Subsequent contrast-enhanced computed tomography scans were undertaken to delineate the extent of contiguous spread, evaluate rib destruction, and exclude alternative diagnoses. Microbiological cultures of sputum and aspirated pus, along with metagenomic sequencing, confirmed the presence of macrolide-resistant S. pneumoniae. Because of benzylpenicillin and cephalosporin allergy, intravenous linezolid was selected, resulting in rapid clinical improvement. A 6-week course (intravenous infusion followed by oral) led to complete resolution on imaging, with no recurrence over 5 years. This case underscores the importance of appropriate imaging modalities in febrile infants without respiratory symptoms and the need to consider extrapulmonary spread in chest wall masses. It highlights the diagnostic value of metagenomic sequencing and susceptibility testing in guiding individualized antimicrobial therapy, particularly in macrolide-resistant settings.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "报告一例7月龄婴儿肺炎链球菌肋骨骨髓炎合并肺和胸壁脓肿，通过影像学和宏基因组测序确诊，利奈唑胺治疗成功。",
+    "innovation": "首次报告此类复杂感染在婴儿中的详细诊疗过程 | 突出宏基因组测序在耐药菌株诊断中的价值",
+    "limitation": "单一病例，结论普遍性有限",
+    "study_object": "婴儿痰液和脓液样本，通过培养和宏基因组测序分析",
+    "disease": "肺炎链球菌感染（肋骨骨髓炎、肺脓肿、胸壁脓肿）",
+    "sample_size": "1例",
+    "ai_done": true,
+    "fetch_date": "2026-06-03"
+  }
+]

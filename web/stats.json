@@ -1,8 +1,8 @@
 {
-  "total": 4335,
+  "total": 4352,
   "by_type": {
-    "研究论文": 3463,
-    "综述": 376,
+    "研究论文": 3474,
+    "综述": 382,
     "Benchmark": 149,
     "临床试验": 134,
     "其他": 87,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 57
   },
   "by_year": {
-    "2026": 309,
+    "2026": 326,
     "2025": 817,
     "2024": 684,
     "2023": 560,
@@ -24,12 +24,12 @@
     "2015": 91
   },
   "top_journals": {
-    "Microbiome": 321,
+    "Microbiome": 322,
     "Nature communications": 270,
-    "Gut microbes": 214,
+    "Gut microbes": 216,
     "The ISME journal": 213,
     "Nucleic acids research": 119,
-    "NPJ biofilms and microbiomes": 104,
+    "NPJ biofilms and microbiomes": 105,
     "Frontiers in immunology": 103,
     "Nature microbiology": 101,
     "Nutrients": 94,
@@ -38,12 +38,12 @@
     "ISME communications": 74,
     "Proceedings of the National Academy of Sciences of the United States of America": 73,
     "Cell host & microbe": 64,
-    "Journal of translational medicine": 61,
+    "Journal of translational medicine": 62,
     "Communications biology": 58,
     "Scientific data": 45,
+    "Gut": 44,
     "Gastroenterology": 44,
-    "Nature": 44,
-    "Nature biotechnology": 44
+    "Nature": 44
   },
   "top_diseases": {
     "结直肠癌": 66,
@@ -52,8 +52,8 @@
     "溃疡性结肠炎": 33,
     "克罗恩病": 30,
     "帕金森病": 25,
+    "癌症": 21,
     "2型糖尿病": 20,
-    "癌症": 20,
     "感染性疾病": 17,
     "脓毒症": 15,
     "囊性纤维化": 15,
@@ -62,9 +62,9 @@
     "自闭症谱系障碍": 14,
     "炎症性肠病": 14,
     "肺炎": 13,
+    "复发性艰难梭菌感染": 12,
+    "牙周炎": 12,
     "下呼吸道感染": 12,
-    "牙周炎": 11,
-    "早产": 11,
-    "复发性艰难梭菌感染": 11
+    "早产": 11
   }
 }
