@@ -1,0 +1,56 @@
+[
+  {
+    "pmid": "42237383",
+    "title": "Icariin shapes post-withdrawal fecal resistome dynamics in layer hens.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-04",
+    "authors": "Zhang Jiaqi; Shi Xiaohan; Peng Siyi; Zhang Chi; Qiao Shiyan et al.",
+    "abstract": "BACKGROUND: While the livestock industry actively seeks alternatives to antibiotics, residual low-dose exposures continue to drive the spread of antibiotic resistance genes (ARGs). Icariin, a plant-derived compound, is recognized for improving poultry growth and immunity. However, it remains unclear how this compound influences the environmental persistence of ARGs, mobile genetic elements (MGEs), and horizontal gene transfer (HGT) during the vulnerable recovery phase after antibiotic withdrawal.\nRESULTS: We designed a two-phase feeding trial with laying hens, using longitudinal metagenomic sequencing to track post-withdrawal resistance dynamics. Following initial exposure to a low-dose antibiotic mixture that established a baseline of elevated resistance, hens received either a basal diet, an icariin-supplemented diet, or a copper sulfate-supplemented diet. The data indicate that icariin supplementation consistently reduced the burdens of both ARGs and MGEs. It also suppressed the potential for HGT and restricted the diversity of microbial hosts harboring these resistance elements. Conversely, copper sulfate-a traditional metal-based additive-exacerbated resistance risks by expanding both the abundance and the host range of ARGs and MGEs. Across all treatments, the population of Escherichia and the prevalent ARG subtype bacA correlated strongly with total resistance loads, tracking the overall resistome burden.\nCONCLUSIONS: Compared to conventional copper sulfate treatments, icariin facilitates a safer ecological recovery in the poultry gut by actively lowering ARG and MGE reservoirs after antibiotic withdrawal. These genomic insights, combined with its known physiological benefits, support icariin as a sustainable feed additive. Furthermore, the Escherichia-bacA correlation provides a reliable, streamlined indicator for monitoring resistance risks in farm environments. However, as these findings rely on short-term fecal metagenomic tracking, further validation through multi-environment studies is warranted.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotic resistance genes",
+      "Co‑selection",
+      "Icariin",
+      "Layer hen",
+      "Mobile genetic elements"
+    ],
+    "summary_zh": "通过纵向宏基因组测序探究淫羊藿苷对蛋鸡抗生素停药后粪便耐药组的影响，发现其能降低ARG和MGE负荷促进生态恢复。",
+    "innovation": "首次揭示淫羊藿苷在抗生素停药后主动降低ARG和MGE库 | 与硫酸铜对比显示更安全的生态恢复效果 | 发现Escherichia-bacA相关性可作为耐药风险监测指标",
+    "limitation": "该研究基于短期粪便宏基因组追踪，需进一步通过多环境研究验证。",
+    "study_object": "蛋鸡粪便宏基因组",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-04"
+  },
+  {
+    "pmid": "42236487",
+    "title": "Prevalent gut phages encode modular adhesins mediating epithelial binding and endoplasmic reticulum trafficking.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-06-04",
+    "authors": "Apjok Gábor; Sári Tóbiás; Méhi Orsolya; Asbóth András; Barna Lilla et al.",
+    "abstract": "Bacteriophages are crucial components of the human microbiome and hold promise as therapeutic agents. Yet, their physical interactions with mammalian cells remain poorly understood. Here, we developed a high-throughput platform to identify phages that adhere to epithelial layers and the proteins that mediate this interaction. The identified phages encode immunoglobulin (Ig)-like domain-containing proteins that, when displayed on a non-adherent phage, confer epithelial binding and internalization in vitro, and increased phage retention in the mouse gut in vivo. Phages encoding these adhesins are among the most abundant and prevalent human gut phages, including crAss-like phages and myoviruses closely related to the recently proposed Flandersviridae family. Domain sequence variation alters epithelial interaction profiles, and internalized phages traffic to the endoplasmic reticulum through the Golgi apparatus, suggesting access to non-degradative internalization pathways. These findings reveal widespread phage-human interactions in the human viral community, with potential impacts on health and implications for next-generation phage therapeutics.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "开发高通量平台鉴定黏附肠上皮的噬菌体，发现编码Ig样结构域蛋白的噬菌体通过高尔基体至内质网的非降解途径内化，揭示广泛噬菌体-人类互作。",
+    "innovation": "开发高通量平台鉴定黏附上皮的噬菌体及其介导蛋白 | 发现Ig样结构域蛋白赋予噬菌体上皮结合和内化能力 | 揭示内化噬菌体通过高尔基体至内质网的非降解途径",
+    "limitation": "未描述",
+    "study_object": "人类肠道噬菌体 + 高通量筛选平台",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-04"
+  }
+]
