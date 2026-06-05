@@ -1,0 +1,88 @@
+[
+  {
+    "pmid": "42246191",
+    "title": "The Biliary Multi-Omics Landscape: Integrating Microbiome and Metabolomics in Gallbladder Carcinogenesis.",
+    "doi": null,
+    "journal": "Journal of gastroenterology and hepatology",
+    "issn": "1440-1746",
+    "pub_date": "2026-06-05",
+    "authors": "Das Doutrina; Dixit Ruhi; Pandey Manoj",
+    "abstract": "BACKGROUND: Gallbladder cancer (GBC) is a highly aggressive malignancy with a dismal prognosis, frequently diagnosed at advanced stages. While cholelithiasis is a primary risk factor, the role of the biliary microbiome and its metabolic products in driving carcinogenesis is increasingly recognized. This review synthesizes multi-omics data to elucidate the interplay between microbial dysbiosis and metabolomic shifts in GBC.\nMETHODS: A systematic literature search was conducted on PubMed (up to January 2026) focusing on biliary bacteria, the gut-bile axis, and multi-omics markers. A narrative synthesis integrated findings from metagenomic, metaproteomic, and metabolomic studies involving human cohorts and experimental models.\nRESULTS: GBC is characterized by profound biliary dysbiosis, specifically the enrichment of Enterobacteriaceae, Streptococcus, and Helicobacter species. This taxonomic shift triggers a pro-carcinogenic metabolomic flux, where microbial 7α-dehydroxylation converts primary bile acids into secondary bile acids, such as deoxycholic acid (DCA), which induce DNA damage and promote tumor growth. Metaproteomic signatures identify bacterial proteins (e.g., QDR3, ompA) that facilitate biofilm formation and oxidative stress evasion. Furthermore, emerging paradigms like cross-species horizontal gene transfer (HGT) suggest that microbial genetic material can directly modulate host oncogenic pathways.\nCONCLUSION: The GBC multi-omics landscape reveals a complex gut-bile axis where microbial and chemical factors converge. These integrated signatures offer potential as noninvasive biomarkers for early diagnosis and precision therapy.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "cancer",
+      "gallbladder",
+      "metabolomics",
+      "microbiome",
+      "proteomics"
+    ],
+    "summary_zh": "综述整合多组学数据，揭示胆囊癌中胆汁微生物失调与代谢组变化通过次级胆汁酸和细菌蛋白促进癌变，提出潜在非侵入性标志物。",
+    "innovation": "揭示了胆囊癌中胆汁微生物组与代谢组的互作关系 | 提出跨物种水平基因转移可能直接调控宿主致癌通路 | 整合多组学标志物作为早期诊断和精准治疗的非侵入性生物标志物",
+    "limitation": "未描述",
+    "study_object": "人类胆囊癌患者的胆汁样本，采用宏基因组、宏蛋白组和代谢组分析（综述整合）",
+    "disease": "胆囊癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-05"
+  },
+  {
+    "pmid": "40364490",
+    "title": "Engineering the microbiome: A novel frontier in inflammatory bowel disease treatment.",
+    "doi": null,
+    "journal": "Chinese medical journal",
+    "issn": "2542-5641",
+    "pub_date": "2026-06-05",
+    "authors": "Kong Chen; Huang Longbin; Yang Meifeng; Yue Ningning; Zhang Yuan et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "炎症性肠病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-05"
+  },
+  {
+    "pmid": "42243998",
+    "title": "Near-complete inhibition of rumen methanogenesis via microbial and enzymatic modulation using a low dose of Asparagopsis taxiformis combined with 3-nitrooxypropanol.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-05",
+    "authors": "Li Shuai; Sun Yi; Tong Xiong; Zhang Zhifei; Ma Xinyan et al.",
+    "abstract": "BACKGROUND: Enteric methane (CH4) from ruminants represents a major contributor to agricultural greenhouse gas emissions. The red seaweed Asparagopsis taxiformis (A. taxiformis) is a highly effective CH4 emission inhibitor, but its large-scale application is restricted by limited biomass availability. This study evaluated whether reducing the inclusion level of A. taxiformis (0.32% dry matter, DM) combined with 3-nitrooxypropanol (3-NOP; 0.05% DM) could maintain a high inhibitory efficacy, and elucidated the underlying microbial mechanisms through in vitro fermentation and metagenomics analysis.\nRESULTS: The combined treatment decreased CH4 production by 98.21% (P < 0.01) without impairing DM degradation, and markedly shifted rumen fermentation towards propionate, lowering the acetate-to-propionate ratio (1.59 vs. 2.65; P < 0.01). Metagenomic profiling revealed substantial reductions in the abundance of Methanobrevibacter and Ruminococcus, along with increased levels of propionate-associated bacteria such as Prevotella, Treponema, Eubacterium, and Selenomonas (P < 0.01). Functionally, the combined treatment downregulated key enzymes in hydrogenotrophic and methylotrophic methanogenesis, including methyl-coenzyme M reductase (EC:2.8.4.1) and tetrahydromethanopterin S-methyltransferase (EC:2.1.1.86), thereby blocking terminal methanogenic steps.\nCONCLUSIONS: Collectively, these results demonstrate that co-supplementation with A. taxiformis and 3-NOP achieves near-complete methanogenesis inhibition at drastically reduced seaweed dosage through coordinated changes in fermentation patterns, microbial community structure, and methanogenic enzymatic pathways. This approach provides a practical strategy to overcome biomass limitations of A. taxiformis and warrants validation in long-term in vivo trials.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Asparagopsis taxiformis",
+      "3-Nitrooxypropanol",
+      "Hydrogenotrophic methanogenesis",
+      "Metagenomics",
+      "Methane inhibition",
+      "Rumen fermentation"
+    ],
+    "summary_zh": "使用低剂量红藻Asparagopsis taxiformis联合3-硝基氧丙醇通过调控微生物和酶学实现瘤胃甲烷近完全抑制。",
+    "innovation": "首次证明低剂量A. taxiformis联合3-NOP可实现近完全甲烷抑制 | 通过宏基因组揭示微生物群落和产甲烷酶的双重调控机制 | 提供克服A. taxiformis生物量限制的实用策略",
+    "limitation": "需要长期体内试验验证",
+    "study_object": "瘤胃体外发酵样本 + 宏基因组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-05"
+  }
+]
