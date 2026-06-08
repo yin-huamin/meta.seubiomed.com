@@ -1,0 +1,31 @@
+[
+  {
+    "pmid": "42252476",
+    "title": "Comprehensive analyses of archaeal viral genomes reveal genomic characteristics, divergence, and host interactions.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-06-08",
+    "authors": "Wei Chao; Wang Yaxiang; Chen Zhe",
+    "abstract": "BACKGROUND: The ecological significance of bacteriophages has been extensively investigated, while the role of archaeal viruses across different environments remains poorly understood.\nRESULTS: Here, we present the Archaeal Viral Genome Database (AVGD), a comprehensive survey of archaeal viruses across eight distinct habitat types, including 3708 archaeal viral genomes, with genome sizes ranging from 3 to 188 kb, identified from 64,521,709 putative viral genomes using 40 public metagenomic datasets, an integrated public viral genome database (IGN), and pig gut viral databases. Our analysis revealed that the majority (92.93%) of archaeal viruses in the AVGD belong to the class Caudoviricetes. Phylogenetic analysis showed that many archaeal viruses diverged with their respective habitats. Using CRISPR spacer matching, we characterized the host composition of these archaeal viruses and uncovered competitive interaction networks between archaeal viruses and other archaeal viruses targeting the same host or different hosts. Furthermore, we identified 129,067 coding genes from 3708 archaeal viral genomes, most of which were associated with essential archaeal viral cellular functions, including replication, assembly, and packaging. Archaeal viruses also encoded a variety of auxiliary metabolic genes, anti-CRISPR (Acr) proteins for evading host immunity, and DNA methyltransferases for escaping host restriction-modification systems.\nCONCLUSIONS: Together, this study provides a valuable resource and offers new insights into the ecological roles and host interactions of archaeal viruses across diverse environments. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Archaeal viruses",
+      "Divergence",
+      "Genome feature",
+      "Host interactions"
+    ],
+    "summary_zh": "构建古菌病毒数据库AVGD，分析3708个病毒基因组，揭示其栖息地分化、宿主互作及生态作用。",
+    "innovation": "构建了涵盖多种环境的古菌病毒基因组数据库AVGD | 揭示古菌病毒系统发育与栖息地分化关系 | 通过CRISPR匹配揭示宿主互作网络",
+    "limitation": "未描述",
+    "study_object": "多栖息地（8种）的宏基因组样本 + 病毒基因组分析",
+    "disease": "无",
+    "sample_size": "3708个古菌病毒基因组",
+    "ai_done": true,
+    "fetch_date": "2026-06-08"
+  }
+]
