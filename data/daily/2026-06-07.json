@@ -1,0 +1,34 @@
+[
+  {
+    "pmid": "42259432",
+    "title": "IUPHAR review. Gut Microbial Metabolites as Remote Regulators of Behavior and Neuropsychiatric Disease.",
+    "doi": null,
+    "journal": "Pharmacological research",
+    "issn": "1096-1186",
+    "pub_date": "2026-06-07",
+    "authors": "Hao Liang; Li Zi-Fei; Qu Ya-Na; Zhao Fu-Ying; Lu Shi-Yang et al.",
+    "abstract": "The gut-brain axis has emerged as a fundamental pathway through which gut-derived microbial metabolites exert remote control over brain development, neural circuit function and behavior. This Review synthesizes evidence that key microbial metabolites including short-chain fatty acids, tryptophan derivatives, bile acids and trimethylamine N-oxide modulate neuroimmune, neuroendocrine and synaptic signaling in a context-dependent manner, influencing whether the brain maintains homeostasis or progresses toward pathology. We critically evaluate how these metabolites contribute to the etiology and symptomatology of neurodevelopmental and psychiatric disorders such as autism spectrum disorder, major depressive disorder, anxiety and post-traumatic stress disorder. Causal insights are highlighted by studies demonstrating that fecal microbiota transplantation from affected individuals to rodents transfers core behavioral phenotypes. It is important to note, however, that while FMT and gnotobiotic studies establish causality in animal models, evidence from human studies remains predominantly correlative, and we have explicitly distinguished these evidence tiers throughout. We also explore the translational potential of microbiome-derived biomarkers for diagnosis and the challenges in developing targeted therapeutics, including probiotics, postbiotics and metabolite-sequestering agents. Moving forward, the field should prioritize decoding the contextual determinants of microbial influence and adopt personalized, function-based strategies to effectively modulate the gut-brain metabolic axis for brain health.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Anxiety",
+      "Autism spectrum disorder",
+      "Gut-brain axis",
+      "Major depressive disorder",
+      "Microbial metabolites",
+      "Personalized medicine"
+    ],
+    "summary_zh": "系统综述肠道微生物代谢物通过肠脑轴调控行为和神经精神疾病的证据与挑战，探讨转化潜力。",
+    "innovation": "明确区分动物模型因果证据与人类相关性证据 | 揭示粪菌移植可转移行为表型",
+    "limitation": "人类研究证据主要为相关性，缺乏因果验证 | 需解码微生物影响的背景决定因素并发展个性化策略",
+    "study_object": "人类和动物模型的肠道微生物代谢物综述（肠脑轴、神经精神疾病）",
+    "disease": "自闭症谱系障碍、重度抑郁症、焦虑症、创伤后应激障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-07"
+  }
+]

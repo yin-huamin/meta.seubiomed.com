@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "42259846",
+    "title": "Canine Fecal Microbiome Dataset: Ultra-deep Multi-platform Sequencing Across Extraction and Library Protocols.",
+    "doi": null,
+    "journal": "Scientific data",
+    "issn": "2052-4463",
+    "pub_date": "2026-06-09",
+    "authors": "Kakuk Balázs; Dörmő Ákos; Taifi Ahmed; Járay Tamás; Kurucsai Gábor et al.",
+    "abstract": "The canine gut microbiome is an important model for microbiome research, yet methodological variation in DNA isolation, library preparation, and sequencing complicates cross-study comparisons. Here we present a three-component dataset to evaluate methodological effects. First, an ultra-deep sequencing dataset was generated from a single dog fecal sample using both short- (Illumina NovaSeq) and long-read (Oxford Nanopore MinION) platforms. Second, fecal samples from eight co-housed dogs were collected over one year to compare two DNA extraction workflows across 40 samples. Third, three full-length 16S rRNA primer sets were evaluated using synthetic microbial community standards and human and canine fecal samples, all sequenced on the MinION platform. The dataset comprises 75.2 GB of raw sequencing data and quality control and taxonomic classification outputs. The single-sample multi-platform dataset contributes 9.19 GB, the longitudinal cohort 43.45 GB, and the primer comparison dataset 22.61 GB across two accessions. Together, these data provide a multi-platform resource for evaluating extraction, sequencing, and primer-associated methodological effects in canine fecal microbiome profiling.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "构建犬粪便微生物组多平台数据集，评估DNA提取、文库和测序方法的影响，包含超深度短读长和长读长序列、纵向样本及引物比较。",
+    "innovation": "同时使用短读长（Illumina）和长读长（Nanopore）超深度测序 | 对8只同笼犬进行为期一年的纵向采样（40份样本） | 评估两种DNA提取流程和三种全长16S rRNA引物集",
+    "limitation": "未描述",
+    "study_object": "犬粪便样本 + 短读长与长读长测序平台 + 多种DNA提取和文库方案",
+    "disease": "无",
+    "sample_size": "1份单犬粪便样本 + 40份纵向样本（8只犬）",
+    "ai_done": true,
+    "fetch_date": "2026-06-09"
+  }
+]
