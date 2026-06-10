@@ -1,0 +1,84 @@
+[
+  {
+    "pmid": "41862100",
+    "title": "Harnessing the power of microbiome, nanotechnology, and immunity against cancer.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-06-10",
+    "authors": "Cordeiro Jéssica; Macela Carolina; Kleiner Ron; Vaskovich-Koubi Daniella; Moura Liane I F et al.",
+    "abstract": "The human microbiome has emerged as a key player in health and disease, including cancer, which remains one of the leading causes of mortality worldwide. Although advances in understanding the tumor immune microenvironment and the development of immunotherapies have transformed cancer treatment, clinical efficacy remains limited by suboptimal response rates and severe side effects. Recent integrative research in cancer biology, immune-oncology, and cancer microbiome research, enabled by omics technologies and advanced bioinformatics, has begun to reveal intricate links between the microbiome, cancer progression, and immune modulation. These findings underscore the microbiome's pivotal role in shaping both therapeutic efficacy and resistance mechanisms. Currently, nanotechnology, propelled into mainstream success through the development of COVID-19 mRNA vaccines, is offering new tools for precision oncology. Nanomaterials are now being explored not only for targeted drug delivery but also for monitoring and modulating the microbiome, with significant potential for biomarker discovery and personalized medicine. In this article, we explore the role of the microbiota in tumorigenesis and cancer therapy, with a particular focus on its crosstalk with the immune system. We highlight emerging microbiota-targeted therapeutic strategies and discuss how nanotechnology-based systems are being designed to modulate the microbiome-immune-cancer axis. Finally, we discuss future directions in leveraging the convergence of microbiome science, nanotechnology, and immunotherapy to advance cancer treatment.",
+    "pub_types": [
+      "Journal Article",
+      "Review",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Neoplasms",
+      "Microbiota",
+      "Nanotechnology",
+      "Animals",
+      "Immunotherapy",
+      "Tumor Microenvironment",
+      "Drug Delivery Systems"
+    ],
+    "keywords": [
+      "Cancer",
+      "Immunotherapy",
+      "Microbiome",
+      "Nanotechnology",
+      "Preclinical models"
+    ],
+    "summary_zh": "综述微生物组在癌症中的作用，探讨纳米技术调节微生物组-免疫-癌症轴以推进癌症治疗。",
+    "innovation": "强调了微生物组、纳米技术和免疫治疗的融合 | 探讨了基于纳米系统的微生物组调节策略",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "癌症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-10"
+  },
+  {
+    "pmid": "41905409",
+    "title": "Advanced engineering of microbiome-related therapeutics for targeted treatment of inflammatory bowel diseases.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-06-10",
+    "authors": "Kim Yu Jeong; Park Nayoon; Cheng Xiaoliang; Lee Yonghyun",
+    "abstract": "Inflammatory bowel disease (IBD) is a chronic inflammatory disorder of the intestine arising from complex interactions among genetic and environmental factors, intestinal barrier dysfunction, immune dysregulation, and gut microbiota dysbiosis. Current therapies for IBD-including anti-inflammatory agents, immunosuppressants, and targeted biologics-remain challenging, as they often cause long-term adverse effects and fail to address the underlying pathological mechanisms. Given these challenges, nano- and bioengineering of microbiome-related therapeutics-including microbial-derived metabolites, probiotics, and prebiotic natural products-has emerged as a promising strategy, offering high biocompatibility and the ability to modulate key disease drivers such as immune responses, barrier restoration, redox balance, and microbiota composition. In this review, we examine the major pathological features of IBD and present engineered microbiome-related platforms designed to overcome the limitations of conventional compounds-such as poor solubility, low bioavailability, rapid degradation or absorption, low probiotic viability, and insufficient accumulation at target sites-while highlighting their therapeutic efficacy in IBD management. Finally, we outline future directions for developing these advanced delivery systems toward more effective and potentially disease-modifying treatments.",
+    "pub_types": [
+      "Journal Article",
+      "Review",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Inflammatory Bowel Diseases",
+      "Animals",
+      "Probiotics",
+      "Gastrointestinal Microbiome",
+      "Prebiotics",
+      "Drug Delivery Systems",
+      "Biological Products"
+    ],
+    "keywords": [
+      "Biomedicine",
+      "Inflammatory bowel disease",
+      "Microbiome",
+      "Microbiome-related therapeutics",
+      "Nanomedicine"
+    ],
+    "summary_zh": "综述工程化微生物组疗法（如微生物代谢物、益生菌）在炎症性肠病治疗中的进展，旨在克服传统药物局限，调节免疫和菌群。",
+    "innovation": "纳米和生物工程方法修饰微生物源代谢物、益生菌和益生元天然产物 | 解决传统化合物溶解度低、生物利用度差、益生菌存活率低等限制 | 提供靶向递送和疾病修饰治疗策略",
+    "limitation": "未描述",
+    "study_object": "人类炎症性肠病患者肠道微生态 + 综述",
+    "disease": "炎症性肠病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-10"
+  }
+]
