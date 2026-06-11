@@ -1,0 +1,86 @@
+[
+  {
+    "pmid": "42270638",
+    "title": "High early-life gut Bacteroides links to microbiome stability, resilience, and risk for childhood infections.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-06-11",
+    "authors": "Hauptmann Matthias; Gottschick Cornelia; Muthukumarasamy Uthayakumar; Klee Bianca; Strowig Till et al.",
+    "abstract": "Early childhood events, up to the age of two, are critical for the development of the microbiome and balanced immunity later in life. We investigated whether susceptibility to infections and microbiome resilience after antibiotic treatment are associated with key taxa in the early childhood microbiota. Therefore, we performed longitudinal microbiota analysis from stool samples of children within the German LoewenKIDS intensified subcohort. According to the exposure to antibiotic treatment, sample groups were defined as never-treated controls, 45-225 days pre-treatment (pre45-225), 0-30 days pre-treatment (pre0-30), 0-30 days post-treatment (post0-30), or >90 days post-treatment and age >540 days (post>90). 1176 stool samples of 162 children were included in our analysis, of which 49 children received antibiotics. Using generalized linear mixed models adjusted for age, we show that high abundance of Bacteroides was associated with receiving antibiotic treatment 45-225 days later, while low Bacteroides abundance before treatment was associated with low alpha diversity and increased beta diversity post treatment. Our data suggest a key role of the genus Bacteroides for the susceptibility to infections requiring antibiotic treatment and for microbiome stability and resilience in early childhood.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过纵向分析162名儿童粪便样本，发现高Bacteroides与早期感染风险及抗生素治疗后微生物组稳定性相关。",
+    "innovation": "揭示了Bacteroides在儿童早期感染易感性和微生物组恢复力中的关键作用 | 发现低Bacteroides与抗生素治疗后微生物组多样性降低和群落结构改变相关",
+    "limitation": "未描述",
+    "study_object": "儿童粪便样本的纵向微生物组分析",
+    "disease": "儿童感染",
+    "sample_size": "162名儿童（1176份粪便样本）",
+    "ai_done": true,
+    "fetch_date": "2026-06-11"
+  },
+  {
+    "pmid": "42270509",
+    "title": "Defying inflammation-driven early-onset colorectal cancer: predict, prevent, and personalize.",
+    "doi": null,
+    "journal": "Trends in cancer",
+    "issn": "2405-8025",
+    "pub_date": "2026-06-11",
+    "authors": "Samuel Taniya Murikkinthara; Samuel Samson Mathews; Varghese Elizabeth; Sreenesh Bini; Büsselberg Dietrich",
+    "abstract": "Early-life exposure to both modifiable and nonmodifiable risk factors may induce chronic low-grade inflammation (CLGI), a silent threat potentially driving the rising incidence of early-onset colorectal cancer (EOCRC). Notably, CLGI could promote EOCRC by altering the proinflammatory and immune microenvironment that supports tumor growth and cancer development. In this review, we examine how risk factors disrupt immune homeostasis and contribute to CLGI in young individuals, thereby promoting the development of EOCRC. Additionally, identifying CLGI-specific biomarkers could aid in early detection and diagnosis, while targeting specific molecular pathways may enable personalized therapeutic interventions for EOCRC by reducing the chronic inflammatory threat. We also highlight the importance of lifestyle changes and interventions to reduce CLGI and address the growing health concern of EOCRC.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "chronic low-grade inflammation",
+      "early-onset colorectal cancer",
+      "exposomes",
+      "inflammatory biomarkers",
+      "microbiome dysbiosis"
+    ],
+    "summary_zh": "探讨早期暴露风险因素通过慢性低度炎症促进早发性结直肠癌的机制，并提出预测、预防和个性化干预策略。",
+    "innovation": "识别慢性低度炎症特异性生物标志物用于早期检测 | 靶向特定分子通路实现个性化治疗 | 强调生活方式改变干预降低慢性低度炎症",
+    "limitation": "未描述",
+    "study_object": "早发性结直肠癌患者的慢性低度炎症微环境（综述）",
+    "disease": "早发性结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-11"
+  },
+  {
+    "pmid": "42272345",
+    "title": "Multi-Targeting Carnosic Acid Kills Drug-Resistant Helicobacter pylori With Narrow-Spectrum Activity.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-06-11",
+    "authors": "Bai Yuefan; Huang Hongming; Hang Xudong; Hu Shanwei; Tong Qian et al.",
+    "abstract": "Helicobacter pylori (H. pylori) is a significant global human pathogen intricately linked to gastritis, peptic ulcers, and gastric cancer. The escalating challenge of antimicrobial resistance and the adverse effects of conventional antibiotics on the gut microbiome necessitate the development of novel, targeted therapeutics. In this study, we demonstrate that carnosic acid (CA), a natural compound derived from traditional Chinese medicine, exhibits potent and specific anti-H. pylori activity in vitro, with no detectable resistance observed after prolonged serial passaging. CA also displayed enhanced antibacterial efficacy under physiologically relevant acidic conditions, correlating with its strong inhibition of urease, a key colonization factor for H. pylori. Beyond urease suppression, CA acted through multiple mechanisms, including inhibiting biofilm formation and disrupting mature biofilms, impairing bacterial motility, and compromising cell membrane integrity. In vivo, the combination of CA and omeprazole achieved superior eradication in a mouse model of multidrug-resistant H. pylori infection compared to standard triple therapy. Furthermore, CA treatment showed negligible toxicity to host tissues and minimal disruption to the diversity and composition of the gut microbiota. These findings position CA as a promising lead compound against drug-resistant H. pylori, offering a multi-targeting and microbiota-friendly strategy to combat this pathogen.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Helicobacter pylori",
+      "carnosic acid",
+      "mode of action",
+      "narrow‐spectrum activity"
+    ],
+    "summary_zh": "研究迷迭香酸多靶点抗耐药幽门螺杆菌，体内外有效且对肠道菌群影响小。",
+    "innovation": "多靶点作用机制（抑制脲酶、生物膜、运动性、膜完整性） | 无耐药性产生 | 对肠道菌群影响小",
+    "limitation": "未描述",
+    "study_object": "小鼠模型 + 幽门螺杆菌菌株 + 抗菌活性研究",
+    "disease": "幽门螺杆菌感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-11"
+  }
+]
