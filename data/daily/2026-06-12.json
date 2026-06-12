@@ -1,0 +1,35 @@
+[
+  {
+    "pmid": "42277887",
+    "title": "Uncovering how selected potent bacteriocins reshape the broiler chicken gut microbiome in a PolyFermS continuous in vitro model.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-12",
+    "authors": "Mamjoud Amal; Zirah Séverine; Rebuffat Sylvie; Biron Éric; Fliss Ismail",
+    "abstract": "BACKGROUND: Bacteriocins are promising alternatives to antibiotics in poultry production, offering pathogen control with minimal disruption to gut microbiota and reduced risk of resistance dissemination. This study compared the impact of three bacteriocins-microcin J25, nisin Z, and pediocin PA-1-against bacitracin as a positive control, specifically evaluating their effects on gut microbiota composition and metabolic activity. The study utilized the PolyFermS continuous fermentation model to simulate chicken caecal conditions.\nRESULTS: 16S rRNA sequencing revealed that bacitracin and nisin Z significantly altered the microbiota composition, reducing key families such as Lactobacillaceae and Ruminococcaceae, while microcin J25 and pediocin PA-1 had negligible effects. Short-chain fatty acid analysis revealed a significant time-dependent decrease in butyrate levels following nisin Z and bacitracin treatments, with the most pronounced reduction observed at 48 h post-injection. Conversely, microcin J25 and pediocin PA-1 maintained stable profiles. Untargeted LC-MS metabolomics indicated a marked metabolic shift under nisin Z treatment, including increased amino acids and cyclic dipeptide levels, while microcin J25 had minimal impact. Stability assays confirmed that microcin J25 remained active up to 24 h, whereas nisin Z and pediocin PA-1 lost antimicrobial activity rapidly.\nCONCLUSIONS: These findings support the selective use of bacteriocins as alternatives to antibiotics in poultry farming, with microcin J25 demonstrating the most favorable profile for microbiota preservation and metabolic stability. Future research will focus on in vivo trials in broiler chickens to confirm these findings and evaluate the practical application of microcin J25 in a production environment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotics",
+      "Bacteriocins",
+      "Microbiota",
+      "Microcin J25",
+      "Nisin",
+      "Pediocin",
+      "PolyFermS",
+      "Poultry"
+    ],
+    "summary_zh": "使用PolyFermS连续发酵模型比较三种细菌素与杆菌肽对肉鸡肠道微生物群的影响，发现microcin J25对菌群和代谢影响最小，最有望替代抗生素。",
+    "innovation": "采用PolyFermS连续发酵模型模拟鸡盲肠条件比较细菌素与抗生素 | 发现microcin J25具有最佳微生物群保存和代谢稳定性 | 代谢组学揭示nisin Z引起显著代谢变化而microcin J25影响小",
+    "limitation": "仅基于体外模型，结果需体内试验验证",
+    "study_object": "肉鸡肠道微生物组（模拟盲肠环境的PolyFermS模型，结合16S rRNA测序、短链脂肪酸分析和非靶向LC-MS代谢组学）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-12"
+  }
+]
