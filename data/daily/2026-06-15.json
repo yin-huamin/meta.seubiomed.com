@@ -1,0 +1,191 @@
+[
+  {
+    "pmid": "42115049",
+    "title": "MASLD and MASLD-associated HCC: emerging biomarkers and therapeutic avenues.",
+    "doi": null,
+    "journal": "Science bulletin",
+    "issn": "2095-9281",
+    "pub_date": "2026-06-15",
+    "authors": "Ha Suki; Zhang Xiang; Li Lanjuan; Yu Jun",
+    "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a leading chronic liver disease on a global scale. With its increasing incidence and advances in research technologies, our understanding of the mechanisms, non-invasive diagnostic strategies and therapeutic approaches for MASLD and its more advanced forms, including metabolic dysfunction-associated steatohepatitis (MASH) and hepatocellular carcinoma (HCC), has substantially expanded. This article reviews the pathophysiological mechanisms underlying MASLD and its transition to more severe forms, evolving from well-established mechanisms including insulin resistance, abnormalities in lipid metabolism and inflammation, to recently explored novel mechanisms, such as immune regulation, RNA modification and gut microbiome. Additionally, emerging biomarkers for diagnosis and prognosis, such as non-invasive serum markers and genetic variants are highlighted. This review evaluates contemporary therapeutic strategies, with particular emphasis on the recent FDA approval of resmetirom and semaglutide, alongside other pharmacological agents currently in phase 3 clinical trials. It also discusses innovative interventions aimed at improving the management of MASLD and MASLD-HCC, specifically in the context of gut modulation and enhancing the efficacy of immunotherapy. The necessity for strategies aimed at early detection and multifactorial treatment approaches is critical to address the rising burden of MASLD and its complications, with a call for further research into personalised medicine and innovative multidisciplinary therapeutic targets.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Liver Neoplasms",
+      "Carcinoma, Hepatocellular",
+      "Biomarkers",
+      "Immunotherapy",
+      "Non-alcoholic Fatty Liver Disease",
+      "Insulin Resistance",
+      "Gastrointestinal Microbiome"
+    ],
+    "keywords": [
+      "Biomarkers",
+      "Drugs",
+      "Immunotherapy",
+      "MASLD",
+      "MASLD-HCC",
+      "Probiotics"
+    ],
+    "summary_zh": "综述MASLD及其向MASH、HCC进展的病理机制、新兴非侵入性生物标志物和治疗策略，包括FDA批准药物和肠道调节等创新干预。",
+    "innovation": "从经典机制拓展至免疫调节、RNA修饰和肠道微生物组等新机制 | 强调非侵入性血清标志物和遗传变异用于诊断和预后 | 评估FDA批准的resmetirom和semaglutide及第三期临床试验药物，并讨论肠道调节和免疫增效疗法",
+    "limitation": "未描述",
+    "study_object": "MASLD、MASH、HCC（综述）",
+    "disease": "MASLD（代谢功能障碍相关脂肪性肝病）、MASH（代谢功能障碍相关脂肪性肝炎）、HCC（肝细胞癌）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-15"
+  },
+  {
+    "pmid": "42294884",
+    "title": "The gut microbiome in preterm infants: development, dysbiosis, and disease implications.",
+    "doi": null,
+    "journal": "Clinical microbiology reviews",
+    "issn": "1098-6618",
+    "pub_date": "2026-06-15",
+    "authors": "Tao Enfu; Wang Lizhen; Yuan Tianming",
+    "abstract": "SUMMARYPreterm infants face a unique trajectory of gut microbiome assembly, shaped by the convergence of physiological immaturity, necessary clinical interventions, and the neonatal intensive care unit environment. This dysbiotic ecosystem-characterized by low diversity, depletion of beneficial commensals such as Bifidobacterium, and expansion of pathobionts, including Enterobacteriaceae-is increasingly recognized as a central mediator of neonatal morbidity. This review synthesizes current evidence on preterm microbiome development, its role in necrotizing enterocolitis through mechanisms involving Toll-like receptor 4 signaling, bile acid dysmetabolism, and immune dysregulation, and its systemic impact via gut-organ axes linking the intestine to the brain, lung, eye, and systemic circulation. We critically evaluate microbiome-targeted interventions across the translational spectrum, from foundational practices such as human milk feeding and antibiotic stewardship to active modulation with probiotics and prebiotics, and emerging precision strategies, including postbiotics, phage therapy, and fecal microbiota transplantation. Methodological advances in multi-omics, machine learning, and digital twin modeling are paving the way for personalized, predictive microbiome-mediated care. We also address the hidden burden of antimicrobial resistance in the preterm gut and the challenges of translating mechanistic insights into clinical practice. Looking forward, embracing the complexity of the preterm microbiome as a dynamic, multi-kingdom ecosystem is essential for developing holistic interventions that improve both short-term survival and long-term neurodevelopmental, respiratory, and metabolic outcomes.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "dysbiosis",
+      "gut microbiome",
+      "gut-organ axes",
+      "multi-omics",
+      "necrotizing enterocolitis",
+      "neurodevelopment",
+      "preterm infant",
+      "probiotics"
+    ],
+    "summary_zh": "综述早产儿肠道微生物组发育、菌群失调与疾病的关系，评估从喂养到精准疗法的干预措施，强调多组学与机器学习应用。",
+    "innovation": "系统阐述早产儿微生物组经多器官轴（肠-脑、肠-肺等）影响全身健康 | 评估从基础实践到精准策略（噬菌体、粪便移植等）的干预谱系 | 提出将早产微生物组视为动态多界生态系统以开发整体干预",
+    "limitation": "未描述",
+    "study_object": "早产儿肠道微生物组（综述）",
+    "disease": "坏死性小肠结肠炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-15"
+  },
+  {
+    "pmid": "41093555",
+    "title": "Candida tropicalis Brain Abscess Diagnosed by Metagenomic Next-generation Sequencing.",
+    "doi": null,
+    "journal": "Internal medicine (Tokyo, Japan)",
+    "issn": "1349-7235",
+    "pub_date": "2026-06-15",
+    "authors": "Suto Yutaka; Horiba Kazuhiro; Masuda Yasutaka; Tanaka Kenichiro; Hashino Masanori et al.",
+    "abstract": "We report the case of a 59-year-old HIV-negative male diagnosed with a brain abscess following vasculitis-associated stroke. The causative pathogen remains unidentified using conventional methods including culture and rapid multiplex PCR. Craniotomy and biopsy were performed to establish a definitive diagnosis, and metagenomic next-generation sequencing (mNGS) of the abscess tissue identified Candida tropicalis as the causative pathogen. This case highlights the utility of mNGS in identifying pathogens in culture-negative CNS infections, even when conventional methods fail to detect the causative agent, particularly when evaluating abscess pus.",
+    "pub_types": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "article_type": "案例报告",
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "Brain Abscess",
+      "Candida tropicalis",
+      "Middle Aged",
+      "High-Throughput Nucleotide Sequencing",
+      "Metagenomics",
+      "Candidiasis",
+      "Stroke"
+    ],
+    "keywords": [
+      "Candida tropicalis",
+      "central nervous system infection",
+      "fungal brain abscess",
+      "metagenomic next-generation sequencing"
+    ],
+    "summary_zh": "报道一例血管炎后脑脓肿患者，经宏基因组二代测序确诊热带念珠菌感染，凸显其在传统方法失败时的病原体识别价值。",
+    "innovation": "采用mNGS诊断传统培养及PCR阴性脑脓肿病原体 | 直接对脓肿组织进行mNGS鉴定的应用案例",
+    "limitation": "单病例报告，结论外推需谨慎",
+    "study_object": "人类脑脓肿组织 + 宏基因组二代测序",
+    "disease": "脑脓肿（热带念珠菌感染）",
+    "sample_size": "1例（59岁男性）",
+    "ai_done": true,
+    "fetch_date": "2026-06-15"
+  },
+  {
+    "pmid": "42289756",
+    "title": "Variations in methane emissions from dairy cows: associations with rumen microbial synergy and metabolic pathway divergence.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-15",
+    "authors": "Jia Peng; Dong Lifeng; Ma Tao; Bi Yanliang; Tu Yan et al.",
+    "abstract": "BACKGROUND: Methane (CH4) is a metabolic by-product of rumen microbial fermentation, contributing significantly to global warming and dietary energy loss. Elucidating the mechanisms underlying natural variation in rumen methanogenesis is essential for the development of effective CH4 mitigation strategies. Here, we applied rumen metagenomics to identify the microbial mechanisms for differences in enteric CH4 emissions among dairy cows.\nRESULTS: Enteric CH4 emissions from 111 lactating dairy cows under normal feeding conditions were utilized to characterize the natural variation in rumen methanogenesis. Metagenomic analysis revealed that the comprehensive effects of bacteria involved in starch degradation, lactate metabolism, and volatile fatty acid biosynthesis provide distinct amounts of hydrogen for rumen methanogenesis in high-methane-producing (HMP) and low-methane-producing (LMP) cows. Ciliate protozoa were universally abundant in HMP cows (P < 0.05), whereas methanogens enrichment exhibited heterogeneity, with the dominant methanogen Methanobrevibacter exhibiting negative correlations with the other 11 methanogens (P < 0.05). Six nutrient metabolic pathways modulating methanogenesis were identified, and HMP-associated methanogenesis was further driven by upregulated formate metabolism and acetoclastic pathways (P < 0.05). Random forest model analysis screened 34 microbial genera as biomarkers for CH4 production.\nCONCLUSIONS: This study excluded extrinsic confounders exist for rumen microbiome and CH4 emissions in dairy cows. These findings elucidated the causal microbial and metabolic mechanisms underlying rumen methanogenesis, providing actionable targets for microbiome-based strategies to mitigate CH4 emissions from livestock farming.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Dairy cows",
+      "Methane",
+      "Methane mitigation",
+      "Rumen methanogenesis",
+      "Rumen microbiota"
+    ],
+    "summary_zh": "通过瘤胃宏基因组分析111头泌乳乳牛，揭示高/低甲烷排放乳牛中微生物协同和代谢途径差异的机制。",
+    "innovation": "排除了外部混杂因素对瘤胃微生物组和甲烷排放的影响 | 发现纤毛虫原生动物在高甲烷产排牛中普遍丰富，甲烷菌富集异质性 | 随机森林模型筛选34个微生物属作为甲烷产生的生物标志物",
+    "limitation": "未描述",
+    "study_object": "乳牛 + 瘤胃样本 + 宏基因组",
+    "disease": "无",
+    "sample_size": "111头泌乳乳牛",
+    "ai_done": true,
+    "fetch_date": "2026-06-15"
+  },
+  {
+    "pmid": "42244408",
+    "title": "Site- and age-dependent associations between Fusobacterium nucleatum and colorectal cancer mortality.",
+    "doi": null,
+    "journal": "Cancer",
+    "issn": "1097-0142",
+    "pub_date": "2026-06-15",
+    "authors": "Loroña Nicole C; LaBrie Scott; Thomas Claire E; Yin Hang; Huyghe Jeroen R et al.",
+    "abstract": "BACKGROUND: Fusobacterium nucleatum (Fn) is a bacterium typically found in the human oral cavity that has been implicated in the development and progression of colorectal cancer (CRC).\nOBJECTIVE: This study examines the association between prevalence of Fn in tumor tissue and CRC-specific mortality in a heterogeneous United States population.\nMETHODS: The present study includes 233 participants with stage I-III CRC who died of CRC, matched to 458 participants with CRC who did not die from their disease, within the Translational Research Program in Cancer Differences across Populations. Genomic DNA was extracted from formalin-fixed paraffin-embedded tumor tissue samples. Droplet digital polymerase chain reaction was used to assess the prevalence of Fn. The authors fit logistic regression models for the association between Fn positivity and CRC-specific mortality, adjusting for age, year of diagnosis, sex, stage, tumor site, population group, and tumor macrodissection status.\nRESULTS: Presence of Fn in CRC tumor tissue was associated with 79% greater odds (95% CI, 1.20-2.67) of CRC-specific mortality. This association was more pronounced in participants with rectal (odds ratio [OR], 7.73; 95% CI, 2.13-34.79) than proximal colon (OR, 1.17; 95% CI, 0.65-2.08) or distal colon tumors (OR, 1.51; 95% CI, 0.74-3.04, p value for interaction = .023), and more pronounced with respect to early-onset (age <50 years; OR, 10.30; 95% CI, 2.09-70.53) than later-onset CRC (age ≥50 years; OR, 1.51; 95% CI, 0.98-2.33, p value for interaction = .010).\nCONCLUSIONS: These findings support an association between presence of Fn in CRC tumor tissue and CRC-specific mortality, particularly for rectal tumors and early-onset CRC, in a heterogeneous population.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Fusobacterium nucleatum",
+      "Female",
+      "Colorectal Neoplasms",
+      "Male",
+      "Middle Aged",
+      "Aged",
+      "Fusobacterium Infections",
+      "Age Factors",
+      "Neoplasm Staging",
+      "United States",
+      "Adult"
+    ],
+    "keywords": [
+      "Fusobacterium nucleatum",
+      "colorectal cancer",
+      "early‐onset",
+      "microbiome",
+      "mortality",
+      "rectal cancer"
+    ],
+    "summary_zh": "研究结直肠癌肿瘤组织中具核梭杆菌的存在与特异性死亡率的关系，发现与直肠肿瘤和早发性结直肠癌关联更强。",
+    "innovation": "揭示了具核梭杆菌与结直肠癌死亡率的位点依赖性（直肠最显著）和年龄依赖性（早发性更显著） | 采用匹配病例对照设计及ddPCR定量检测",
+    "limitation": "未描述",
+    "study_object": "人类 + 福尔马林固定石蜡包埋肿瘤组织 + 微滴数字PCR",
+    "disease": "结直肠癌",
+    "sample_size": "691",
+    "ai_done": true,
+    "fetch_date": "2026-06-15"
+  }
+]

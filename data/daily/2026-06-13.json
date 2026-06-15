@@ -1,0 +1,80 @@
+[
+  {
+    "pmid": "42288047",
+    "title": "In situ genetic modification of gut bacteria.",
+    "doi": null,
+    "journal": "Current opinion in microbiology",
+    "issn": "1879-0364",
+    "pub_date": "2026-06-13",
+    "authors": "Maire Amandine; Laurenceau Raphaël; Rolhion Nathalie; Bikard David",
+    "abstract": "The crucial role of the gut microbiome in human health has driven a need to understand bacterial function within their complex native ecosystem. However, traditional functional genomic methods require isolating, cultivating, and modifying bacteria in vitro before their reintroduction in vivo. This process often necessitates the use of axenic animals or antibiotic treatments, creating artificial conditions that disrupt key microbial interactions and can obscure relevant phenotypes. This review highlights emerging tools for precise, in situ genetic manipulation of bacteria directly within the gut. We cover diverse technologies, including DNA delivery systems (e.g. engineered temperate phages, phagemids, and conjugative plasmids), and genetic perturbation strategies (e.g. CRISPR-Cas tools and transposons). These methods offer the opportunity to engineer unculturable microbes in their natural habitat and conduct genetic screens to investigate the role of specific genes and pathways. Finally, we explore the potential therapeutic applications of in situ microbiome editing.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述肠道细菌原位遗传修饰的新兴工具，包括DNA递送与CRISPR-Cas等，可工程化不可培养微生物并探索治疗应用。",
+    "innovation": "无需分离培养可直接在肠道内遗传修饰 | 利用工程化噬菌体、接合质粒等递送系统 | 避免无菌动物和抗生素造成的人工条件",
+    "limitation": "未描述",
+    "study_object": "人类肠道细菌 + 原位遗传修饰技术",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-13"
+  },
+  {
+    "pmid": "42288488",
+    "title": "Goat gut microbiome as a reservoir for microorganism-encoded short peptides: regulation by host development age and nematode challenge.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-06-13",
+    "authors": "Yan Qiongxian; Chen Wenxun; Kang Jinhe; Zhou Xiaoling; He Zhixiong et al.",
+    "abstract": "Short peptides are a promising class of antimicrobial agents with efficacy against multidrug-resistant pathogens. While host-derived defense peptides from animals and plants have been widely characterized, the landscape of microbial-encoded short peptides, particularly those with antimicrobial activity that can mitigate antibiotic resistance, remains underexplored. In this study, we identified 1147 novel microorganism-encoded short peptides (MSPs) from the goat gut microbiome, most of which lack homology to existing database entries. The microbial communities producing these MSPs were altered by the developmental stage of the goat, whereas the overall composition and diversity of these populations remained unchanged during nematode infection, despite significant correlations between certain MSPs and type 2 immunity. Notably, two MSPs demonstrated potent antimicrobial activity with lower cytotoxicity, exhibiting remarkable efficacy against methicillin-resistant Staphylococcus aureus and Streptococcus agalactiae. Collectively, our findings establish the goat gastrointestinal tract microbiome as a distinctive and promising reservoir for the discovery of antimicrobial and immunoregulatory peptides.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "从山羊肠道微生物组发现1147个新型抗菌短肽，受宿主发育阶段调节，两个肽对耐药菌有强效活性。",
+    "innovation": "首次从山羊肠道微生物组挖掘短肽 | 发现发育阶段影响产肽微生物群落 | 两个肽对MRSA和链球菌有强效抗菌活性且低细胞毒性",
+    "limitation": "未描述",
+    "study_object": "山羊肠道微生物组",
+    "disease": "线虫感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-13"
+  },
+  {
+    "pmid": "42288147",
+    "title": "Cutaneous dysbiosis in inherited ichthyoses/epidermal differentiation disorders: a prospective case-control study.",
+    "doi": null,
+    "journal": "The Journal of investigative dermatology",
+    "issn": "1523-1747",
+    "pub_date": "2026-06-13",
+    "authors": "Künstner Axel; Abdelhamid Ahmed; Casetti Federica; Rodriguez Elke; Busch Hauke et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ichthyosis",
+      "Staphylococcus aureus",
+      "epidermal differentiation disorders",
+      "skin microbiome"
+    ],
+    "summary_zh": "采用前瞻性病例对照研究，分析遗传性鱼鳞病/表皮分化障碍患者的皮肤菌群失调。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "人类皮肤样本 + 菌群分析",
+    "disease": "遗传性鱼鳞病/表皮分化障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-13"
+  }
+]
