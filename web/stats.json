@@ -1,16 +1,16 @@
 {
-  "total": 4374,
+  "total": 4377,
   "by_type": {
-    "研究论文": 3488,
+    "研究论文": 3490,
     "综述": 390,
     "Benchmark": 149,
     "临床试验": 134,
-    "其他": 87,
+    "其他": 88,
     "案例报告": 69,
     "系统综述/Meta分析": 57
   },
   "by_year": {
-    "2026": 348,
+    "2026": 351,
     "2025": 817,
     "2024": 684,
     "2023": 560,
@@ -35,8 +35,8 @@
     "Nutrients": 94,
     "Genome biology": 87,
     "Briefings in bioinformatics": 81,
+    "Proceedings of the National Academy of Sciences of the United States of America": 75,
     "ISME communications": 74,
-    "Proceedings of the National Academy of Sciences of the United States of America": 73,
     "Cell host & microbe": 64,
     "Journal of translational medicine": 62,
     "Communications biology": 58,

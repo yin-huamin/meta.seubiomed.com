@@ -1,0 +1,79 @@
+[
+  {
+    "pmid": "42258719",
+    "title": "Regulation of gut epithelial barrier and tuft/goblet cell responses by microbiome repair: Opportunities and future directions.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-16",
+    "authors": "Wang Zian; Xie Jiahao; Liu Shujing; Han Mei; Wang Liang",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "探讨微生物组修复调控肠道上皮屏障及簇细胞/杯状细胞反应的机制与未来方向。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-16"
+  },
+  {
+    "pmid": "42258717",
+    "title": "Reply to Wang et al.: Linking microbial metabolites and gut epithelial responses to microbiome-directed therapeutic foods.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-16",
+    "authors": "Wang Yi; Chang Hao-Wei; Barratt Michael J; Gordon Jeffrey I",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "回复Wang等人，探讨微生物代谢物与肠道上皮反应对微生物组导向治疗食品的联系。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-16"
+  },
+  {
+    "pmid": "42298669",
+    "title": "Unraveling the effector mechanism of citrulline on sow lactation and offspring growth: an integrative multi-omics analysis.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-16",
+    "authors": "Chen Yating; Hu Shenglan; Ji Yiwen; Gu Fang; Zhang Chenyang et al.",
+    "abstract": "BACKGROUND: Citrulline (Cit), an effective precursor of arginine (Arg), escapes hepatic catabolism to be almost completely absorbed into the systemic circulation, thereby being efficiently converted to Arg in the kidneys to enhance its systemic bioavailability. This study investigated the effects of dietary Cit supplementation on lactation performance in sows, as well as the underlying mechanisms related to intestinal health in their suckling piglets, using multi-omics analyses.\nRESULTS: Dietary Arg and Cit supplementation significantly increased average daily feed intake of lactating sows. Milk fat content and plasma nitric oxide (NO) concentration increased significantly in the Arg group and the 40%Cit group (P < 0.05), while milk threonine content increased slightly (P = 0.084). Consequently, the average daily gain of suckling piglets over the 21-day lactation period was also significantly improved. Furthermore, maternal 40%Cit supplementation improved the intestinal health of offspring by enhancing jejunal morphology and upregulating the expression of the tight junction protein occludin (P < 0.05), indicating a strengthened intestinal barrier. Mechanistically, this was achieved by activating the mTOR/S6 pathway in the piglets' jejunum. Maternal 40%Cit supplementation upregulated the expression of proteins related to mitochondrial fusion and fission (MFN2 and MFF, P < 0.05), and the protein expression of OPA1 showed an increasing trend (P = 0.097), indicating the structural and functional status of mitochondria was improved. Maternal 40%Cit supplementation also modulated the gut microbiota of piglets, increasing the abundance of beneficial bacteria (Lachnoclostridium). Metabolomic analysis of sow milk identified 58 differential metabolites. Among these metabolites, palmitic acid levels were significantly increased and positively correlated with the abundance of Lachnoclostridium in the intestine (P < 0.05).\nCONCLUSIONS: Dietary Cit supplementation enhanced sow lactation performance and improved intestinal barrier function in their offspring via activation of the jejunal mTOR/S6 pathway and improved mitochondrial structure and function in the piglet jejunum. These benefits were further supported by modulation of the gut microbiota and alterations in the milk fat and metabolome, ultimately promoting piglet growth.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Citrulline",
+      "Intestinal homeostasis",
+      "Lactation performance",
+      "Metabolome–microbiome"
+    ],
+    "summary_zh": "通过多组学分析，揭示膳食瓜氨酸补充通过激活mTOR/S6通路改善母猪泌乳性能及仔猪肠道屏障功能。",
+    "innovation": "首次揭示瓜氨酸通过激活mTOR/S6通路和改善线粒体功能增强仔猪肠道屏障 | 整合代谢组、微生物组和蛋白质表达的多组学分析 | 发现瓜氨酸增加乳汁棕榈酸水平，与肠道有益菌Lachnoclostridium丰度正相关",
+    "limitation": "未描述",
+    "study_object": "母猪和仔猪的乳液、空肠、血浆；多组学分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-16"
+  }
+]
