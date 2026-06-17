@@ -1,0 +1,34 @@
+[
+  {
+    "pmid": "42304260",
+    "title": "Chronic non-bacterial osteomyelitis presenting as fever of unknown origin in a child: a diagnostic pitfall.",
+    "doi": null,
+    "journal": "BMC pediatrics",
+    "issn": "1471-2431",
+    "pub_date": "2026-06-17",
+    "authors": "Yang Xianglin; Jing Shuolan; Li Shihao; Zhang Yuqing; Dong Liqun et al.",
+    "abstract": "BACKGROUND: Chronic non-bacterial osteomyelitis (CNO), also referred to as chronic recurrent multifocal osteomyelitis (CRMO), is a rare autoinflammatory bone disorder in children and adolescents. Bone pain is the most common presenting symptom, whereas prolonged recurrent fever of unknown origin is uncommon and may mimic infection or malignancy, leading to extensive diagnostic evaluations, including invasive procedures.\nCASE PRESENTATION: We report a 12-year-old girl who presented with recurrent fever as the predominant symptom, accompanied by delayed and intermittent musculoskeletal pain. Extensive infectious, rheumatologic, and oncologic investigations, including repeated cultures, metagenomic next-generation sequencing, and bone marrow examination, were unrevealing. Magnetic resonance imaging demonstrated multifocal bone marrow edema, and positron emission tomography-computed tomography showed multifocal FDG-avid skeletal lesions, with a maximum SUV of 6.85 among the focal skeletal lesions, raising concern for malignancy. Histopathological examination of a femoral bone biopsy revealed lymphoplasmacytic infiltration with focal fibrosis and no evidence of infection, granulomatous inflammation, necrosis, or malignancy. Based on the clinical course, imaging findings, exclusion of infection and malignancy, and histopathological findings, a diagnosis of CNO/CRMO was established. The patient improved after stepwise treatment with naproxen, methotrexate, and prednisone.\nCONCLUSION: This case illustrates an uncommon fever-dominant presentation of pediatric CNO/CRMO with multifocal skeletal lesions mimicking malignancy. CNO/CRMO should be considered in children with fever of unknown origin accompanied by delayed musculoskeletal symptoms or multifocal bone marrow lesions. In typical cases, biopsy may be avoided when clinical and imaging findings are characteristic; however, in atypical presentations with systemic symptoms and malignancy-like imaging findings, bone biopsy may remain necessary to exclude infection and neoplastic disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bone biopsy",
+      "Bone marrow lesions",
+      "Case report",
+      "Chronic non-bacterial osteomyelitis",
+      "Chronic recurrent multifocal osteomyelitis",
+      "Fever of unknown origin",
+      "Pediatric autoinflammatory disease"
+    ],
+    "summary_zh": "报告一例以不明原因发热为主要表现的儿童慢性非细菌性骨髓炎，提醒注意诊断陷阱。",
+    "innovation": "揭示了儿童CNO/CRMO以发热为主要表现的不常见临床特征 | 强调了在无典型骨痛时诊断该病的挑战",
+    "limitation": "未描述",
+    "study_object": "儿童不明原因发热患者，血液、骨髓、骨组织样本，采用宏基因组二代测序、MRI、PET-CT及组织病理检查",
+    "disease": "慢性非细菌性骨髓炎（CNO/CRMO）",
+    "sample_size": "1例",
+    "ai_done": true,
+    "fetch_date": "2026-06-17"
+  }
+]
