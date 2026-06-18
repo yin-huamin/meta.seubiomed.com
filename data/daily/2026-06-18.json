@@ -1,0 +1,34 @@
+[
+  {
+    "pmid": "42170678",
+    "title": "Distinct bile mycobiome signature identifies fungal peptide panel predictive for gallbladder carcinoma.",
+    "doi": null,
+    "journal": "Molecular therapy. Oncology",
+    "issn": "2950-3299",
+    "pub_date": "2026-06-18",
+    "authors": "Yadav Sanju; Sharma Nupur; Yadav Manisha; Sharma Neha; Tripathi Gaurav et al.",
+    "abstract": "Carcinoma of the gallbladder (CAGB) carries a poor prognosis. While alterations in the bile microbiome and lipidome have been linked to CAGB development, the contribution of the fungal microbiome remains unexplored. We investigated fungal microbiome alterations and identified key fungal peptides capable of segregating CAGB patients. Bile samples from gallstone (GS) patients (n = 10), CAGB patients (n = 16), and healthy controls (n = 16) underwent fungal peptide-based diversity analysis and metabolomic profiling. Findings were cross-validated in plasma, correlated with clinical parameters and analyzed using machine learning. Six phyla and 24 fungal species were differentially regulated (p < 0.05). Alpha/beta diversity was higher in CAGB compared to GS and controls (p < 0.05). Ninety-three fungal peptides were upregulated and 63 downregulated in CAGB (p < 0.05, fold change [FC] > 1.5). CAGB patients showed significant enrichment of Aspergillus wentii (log2FC > 12.21), Nosema bombycis (FC > 11.25), Saccharomyces (FC > 10.89), Saccharomyces cerevisiae (FC > 10.68), and Schizosaccharomyces pombe (FC > 10.38). Fungal-metabolite correlations (r2 > 0.5, p < 0.05) linked these taxa to lysine biosynthesis, taurine and hypotaurine metabolism, fatty acid metabolism in bile, and cysteine/methionine, ascorbate, and purine metabolism in plasma. Fungal peptide panel achieved 96% diagnostic efficiency for mortality prediction with>90% accuracy, sensitivity, and specificity. Bile fungal diversity correlates with CAGB development and identifies fungal peptide panel capable of segregation of CAGB patients.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "MT: Regular Issue",
+      "carcinoma",
+      "gallbladder",
+      "gallstone",
+      "integration",
+      "metabolomic profile",
+      "proteomics"
+    ],
+    "summary_zh": "通过分析胆汁真菌组和代谢组，发现真菌肽面板可高准确率预测胆囊癌。",
+    "innovation": "首次揭示胆囊癌胆汁真菌组谱差异 | 构建真菌肽诊断面板，准确率96% | 结合代谢组学分析真菌与代谢通路关联",
+    "limitation": "未描述",
+    "study_object": "人类（胆囊癌、胆结石患者及健康对照）胆汁及血浆样本 + 真菌肽检测及代谢组学",
+    "disease": "胆囊癌",
+    "sample_size": "胆结石组10例，胆囊癌组16例，健康对照组16例",
+    "ai_done": true,
+    "fetch_date": "2026-06-18"
+  }
+]
