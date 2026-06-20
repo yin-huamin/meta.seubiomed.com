@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "40588803",
+    "title": "Leveraging gut microbiota for enhanced immune checkpoint blockade in solid tumor therapy.",
+    "doi": null,
+    "journal": "Chinese medical journal",
+    "issn": "2542-5641",
+    "pub_date": "2026-06-20",
+    "authors": "Hu Jia; Feng Tang; Zhang Ling; Zhou Qinghua; Zhu Lingling",
+    "abstract": "Gut microbiota can modulate antitumor immunity and influence immune checkpoint blockade (ICB) therapy efficacy and treatment-associated toxicity. Variations in the therapeutic effect of ICB among individuals are partially attributed to microbiota. This review summarizes current knowledge on how specific bacterial species enhance or hinder ICB outcomes by regulating immune cell activation, antigen presentation, and systemic inflammation. The review further outlines translational strategies to optimize ICB, including microbiota-targeted interventions (e.g., prebiotics, fecal microbiota transplantation, and metabolite therapies) to overcome resistance and mitigate treatment-related toxicities, focusing on immune-related colitis. Additionally, emerging microbial biomarkers in melanoma, lung cancer, and hepatobiliary cancers that predict ICB response are discussed, highlighting the gut microbiome as a potential target for personalized cancer immunotherapy. By integrating mechanistic insights with clinical evidence, this review underscores the potential of microbiota-centered approaches to improve patient outcomes in ICB-based treatments, emphasizing the pivotal role of the gut microbiota in modulating both therapeutic efficacy and immune-related adverse events.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antitumor immunity",
+      "Gut microbiota",
+      "Immune checkpoint blockade therapy",
+      "Microbial biomarkers",
+      "Therapeutic efficacy",
+      "Translational research",
+      "Tumorigenesis"
+    ],
+    "summary_zh": "综述肠道微生物通过调节免疫细胞激活等机制影响免疫检查点阻断（ICB）疗效，提出微生物靶向干预策略以改善实体瘤治疗。",
+    "innovation": "系统总结特定细菌种类调控ICB效果的免疫机制 | 提出益生元、粪菌移植等微生物干预克服耐药和减轻毒性 | 讨论预测ICB反应的微生物标志物",
+    "limitation": "未描述",
+    "study_object": "实体瘤患者肠道微生物组（综述）",
+    "disease": "实体瘤（黑色素瘤、肺癌、肝胆癌）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-20"
+  },
+  {
+    "pmid": "42321612",
+    "title": "Adherence to the dietary index for gut microbiota and the 5-year incidence of metabolic dysfunction-associated steatotic liver disease in Iranian adults: a prospective cohort study.",
+    "doi": null,
+    "journal": "BMC gastroenterology",
+    "issn": "1471-230X",
+    "pub_date": "2026-06-20",
+    "authors": "Nikparast Ali; Sepehrinia Matin; Zamanian Nazanin; Razaz Jalaledin Mirzay; Tabatabaeyan Ali et al.",
+    "abstract": "BACKGROUND: Diet is a key modulator of gut microbiota and may influence the development of metabolic dysfunction-associated steatotic liver disease (MASLD). The Dietary Index for Gut Microbiota (DI-GM) has been proposed to capture the overall capacity of diet to promote a favorable gut microbial profile. Prospective evidence linking DI-GM to MASLD risk remains limited.\nMETHODS: This prospective analysis included 5,058 adults without MASLD at baseline from the Monitoring of Metabolic Diseases Risk Factors in Tehran (MMRT) study. Dietary intake was assessed using a validated 125-item food frequency questionnaire. The five-year incidence of MASLD was evaluated using multivariable logistic regression models, and associations were expressed as odds ratios (ORs) with 95% confidence intervals (CIs). Subgroup analyses were conducted to assess potential effect modification. Sensitivity analyses examined the robustness of results after excluding participants with substantial weight gain and after additional adjustment for metabolic and dietary factors. Mediation analyses were performed to explore potential pathways underlying the observed associations.\nRESULTS: Over five years of follow-up, 562 participants developed MASLD. Higher DI-GM scores were associated with a lower likelihood of incident MASLD. In the fully adjusted model, individuals in the highest quartile of DI-GM had 42% lower odds of MASLD compared with those in the lowest quartile (OR:0.58; 95%CI:0.42-0.80; P-trend < 0.01). Each one-standard-deviation increment in DI-GM score was associated with reduced odds of MASLD (OR:0.72; 95%CI:0.65-0.81;P-value < 0.001). The inverse association was more pronounced among women and participants aged ≥ 45 years (P-interaction < 0.01). Mediation analyses suggested that CAP, HOMA-IR, and serum vitamin D partially explained the association.\nCONCLUSIONS: Greater adherence to a diet supportive of gut microbiota, as reflected by higher DI-GM scores, was associated with a lower five-year risk of MASLD. These findings highlight the potential role of microbiota-related dietary patterns in MASLD prevention.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Dietary patterns",
+      "Gut microbiome",
+      "Gut-liver axis",
+      "Hepatic steatosis",
+      "Nutrition"
+    ],
+    "summary_zh": "利用前瞻性队列研究，探讨膳食肠道微生物指数与MASLD风险的关系，发现高DI-GM评分可降低5年MASLD风险。",
+    "innovation": "首次在前瞻性队列中评估膳食肠道微生物指数与MASLD风险的关联 | 进行了性别和年龄的亚组分析 | 通过中介分析探索了潜在机制",
+    "limitation": "未描述",
+    "study_object": "伊朗成年人（MMRT队列），饮食评估与MASLD诊断",
+    "disease": "MASLD",
+    "sample_size": "5058",
+    "ai_done": true,
+    "fetch_date": "2026-06-20"
+  }
+]
