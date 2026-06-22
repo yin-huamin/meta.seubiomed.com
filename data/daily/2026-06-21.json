@@ -1,0 +1,91 @@
+[
+  {
+    "pmid": "42324270",
+    "title": "Characterization of gut microbiome signatures in metabolic dysfunction associated steatotic liver disease.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-06-21",
+    "authors": "Ma Yuyang; Yang Min; Xu Andi; Zhao Xueni; Dong Xiao et al.",
+    "abstract": "This cross-sectional study compared the gut microbiota between metabolic dysfunction associated steatotic liver disease (MASLD) patients and healthy controls. A total of 1401 participants, including 392 MASLD patients and 1009 healthy controls, were enrolled from one project site of the Healthy Zhejiang One Million People Cohort (HOPE) between January 2022 and June 2023. Shotgun metagenomic sequencing was conducted to compare the composition and functional profiles of the gut microbiome between MASLD patients and healthy controls. Compared to the control group, MASLD patients exhibited significant alterations in both alpha and beta diversity, along with reduced connectivity and robustness of the gut microbial network. We identified significant changes in the abundance of 12 microbial strains between the two groups with two strains (t_SGB4749 and t_SGB4753) enriched and ten strains depleted in MASLD patients. In comparison to the control group, MASLD patients demonstrated distinct differences in the genomic potential related to increased glycolysis, decreased pyruvate metabolism, and elevated lipopolysaccharide (LPS) biosynthesis in both metagenomic functional profiling and single-strain genome analysis. These findings suggest that alterations in specific microbial strains and metabolic pathways may contribute to MASLD pathogenesis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-06-21"
+  },
+  {
+    "pmid": "42324618",
+    "title": "Mapping the metagenomic landscape: combined shotgun sequencing and quantitative PCR to profile gut metagenome-assembled genomes in marmosets following treatment with a broad-spectrum antibiotic cocktail.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-06-21",
+    "authors": "Hernandez Jordan B; Abiodun Mayowa; Hayer Shivdeep S; Dickson Timothy; Ayayee Paul et al.",
+    "abstract": "Broad-spectrum antibiotics are invaluable tools for treating pathogenic infections, but their sustained use can contribute to changes in gut microbiome membership and the emergence of antimicrobial resistance. While these unintended side effects are independently well documented, the relationship between them has seldom been investigated. To address this, we quantified the effects of 28-d antibiotic cocktail exposure on metagenome-assembled genomes and antibiotic resistance genes in common marmosets using a custom whole-genome shotgun sequencing pipeline and quantitative polymerase chain reaction assays. We observed contrasting genus-level reductions in Bifidobacterium abundance and Fusobacterium growth, both during antibiotic treatment and a 2-week post-treatment period. Total bacterial abundance was not significantly affected by antibiotics, likely due to the presence of antibiotic-resistant opportunists. Genes for vancomycin resistance and multidrug efflux pumps were identified in metagenome-assembled genomes of an unclassified Sarcina sp. and Escherichia coli, respectively, and were accompanied by increased abundance of these species during treatment. Additionally, we detected 11 dysregulated metagenomic pathways related to carbohydrate metabolism, including 2 pathways relevant to short-chain fatty acid production, following antibiotic exposure. This study provides insights into the species-dependent emergence of antimicrobial resistance mechanisms in non-human primates following antibiotic exposure that could be relevant for antibiotic therapies and resistance management.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Amr",
+      "absolute abundance",
+      "gut dysbiosis",
+      "microbial load",
+      "non-human primate",
+      "resistome",
+      "workflow"
+    ],
+    "summary_zh": "通过鸟枪测序和定量PCR研究28天抗生素暴露对狨猴肠道宏基因组组装基因组及抗性基因的影响，发现物种依赖的抗性机制。",
+    "innovation": "结合全基因组鸟枪测序和定量PCR分析狨猴肠道宏基因组组装基因组与抗生素抗性基因 | 揭示了抗生素暴露后双歧杆菌减少与梭杆菌增长及抗性菌扩增的物种特异性",
+    "limitation": "未描述",
+    "study_object": "普通狨猴肠道样本 + 全基因组鸟枪测序 + 定量PCR",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-21"
+  },
+  {
+    "pmid": "42324603",
+    "title": "Cross-kingdom microbiome interactions along the gut-lung axis: immune-microecological coordination, shared mechanisms, and disease-context dependence in respiratory disorders.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-06-21",
+    "authors": "Yu Jiang; Meng Jianbiao; Shi Zhongliang; Zou Jitao; Lai Zhizhen",
+    "abstract": "Cross-kingdom dysbiosis of the gut microbiome along the gut-lung axis has emerged as a key driver of chronic and acute respiratory diseases. Beyond bacteria, the intestinal mycobiome and virome, including bacteriophages, shape mucosal immunity and metabolism through partially overlapping but non-redundant pathways. In this Review, we synthesize rapidly expanding evidence that fungi, bacteria, and phages in the gut form an integrated network that may influence susceptibility, inflammatory tone, and therapeutic responsiveness across asthma, chronic obstructive pulmonary disease (COPD), acute respiratory distress syndrome (ARDS), and lung cancer via the gut-lung axis. We first summarize how cross-kingdom communities in the intestine are organized and interact, highlighting a tripartite framework centered on pathogen-associated molecular pattern-pattern recognition receptor (PAMP-PRR) circuits, the short-chain fatty acid (SCFA)-regulatory T-cell axis, and tryptophan-indole-aryl hydrocarbon receptor (AHR) signaling. We then compare how these shared axes are differentially perturbed across asthma, COPD, ARDS, and lung cancer, using these disorders as representative but non-sequential disease contexts along a conceptual gradient of immune-microecological disruption. Finally, we discuss how dietary modulation, pre-/pro-/postbiotics, mycobiome- and virome-targeted strategies, and phage-based approaches could be rationally combined to restore gut-derived immunometabolic circuits and improve respiratory outcomes. By integrating cross-kingdom ecology with mucosal immunology, this Review provides an integrative interpretive framework suggesting that gut microbiome-targeted strategies may help refine prevention, stratification, and adjunctive treatment approaches in selected respiratory disease contexts.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Gut microbiome",
+      "bacteriophages",
+      "cross-kingdom interactions",
+      "gut–lung axis",
+      "lung diseases",
+      "mycobiome",
+      "virome"
+    ],
+    "summary_zh": "综述整合跨王国微生物组在肠-肺轴的免疫微生态协调机制，提出框架，为呼吸疾病预防和治疗提供新策略",
+    "innovation": "整合跨王国生态与黏膜免疫的阐释框架 | 提出三部分共享机制（PAMP-PRR、SCFA-Treg、Trp-AHR） | 比较四种呼吸疾病的差异",
+    "limitation": "未描述",
+    "study_object": "人类 肠道微生物组（细菌、真菌、病毒） 综述",
+    "disease": "哮喘、慢性阻塞性肺疾病、急性呼吸窘迫综合征、肺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-21"
+  }
+]
