@@ -1,131 +1,215 @@
-2026-06-22 17:08:38 [INFO] ▶ 开始每日更新...
-2026-06-22 17:08:38 [INFO] ===== 开始每日更新 2026-06-22 =====
-2026-06-22 17:08:38 [WARNING] 检测到缺少数据: 2026-06-22
-2026-06-22 17:08:38 [WARNING] 检测到缺少数据: 2026-06-21
-2026-06-22 17:08:38 [INFO] 需要补全数据: ['2026-06-22', '2026-06-21']
-2026-06-22 17:08:38 [INFO] 
+2026-06-23 15:17:19 [INFO] ▶ 开始每日更新...
+2026-06-23 15:17:19 [INFO] ===== 开始每日更新 2026-06-23 =====
+2026-06-23 15:17:19 [WARNING] 检测到缺少数据: 2026-06-23
+2026-06-23 15:17:19 [WARNING] 检测到缺少数据: 2026-06-22
+2026-06-23 15:17:19 [INFO] 需要补全数据: ['2026-06-23', '2026-06-22']
+2026-06-23 15:17:19 [INFO] 
 ==================================================
-2026-06-22 17:08:38 [INFO] 开始抓取 2026-06-21 的论文
-2026-06-22 17:08:38 [INFO] ==================================================
-2026-06-22 17:08:38 [INFO] Step 1: 抓取 PubMed 新论文
-2026-06-22 17:08:38 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-06-22 17:08:38 [INFO] 已有 278 篇文献记录，不再重复检索
-2026-06-22 17:08:38 [INFO] 正在搜索 2026/06/21 的新论文...
-2026-06-22 17:08:38 [INFO] 搜索到 4 篇 PMID
-2026-06-22 17:08:38 [INFO]   其中新增 4 篇（过滤已有 0 篇）
-2026-06-22 17:08:39 [INFO]   内容过滤: 排除 0 篇，保留 4 篇
-2026-06-22 17:08:39 [INFO]   期刊过滤: 排除 1 篇，保留 3 篇
-2026-06-22 17:08:39 [INFO] 
-2026-06-22 17:08:39 [INFO] ================================================================================
-2026-06-22 17:08:39 [INFO]   📋 本次搜索论文汇总（共 4 篇）
-2026-06-22 17:08:39 [INFO] ================================================================================
-2026-06-22 17:08:39 [INFO]   ✅ 已收录 (3 篇):
-2026-06-22 17:08:39 [INFO]     [1] PMID 42324270 | NPJ biofilms and microbiomes
-2026-06-22 17:08:39 [INFO]         Characterization of gut microbiome signatures in metabolic dysfunction associated steatotic liver disease.
-2026-06-22 17:08:39 [INFO]     [2] PMID 42324618 | Gut microbes
-2026-06-22 17:08:39 [INFO]         Mapping the metagenomic landscape: combined shotgun sequencing and quantitative PCR to profile gut metagenome-assembled genomes in marmosets following treatment with a broad-spectrum antibiotic cocktail.
-2026-06-22 17:08:39 [INFO]     [3] PMID 42324603 | Gut microbes
-2026-06-22 17:08:39 [INFO]         Cross-kingdom microbiome interactions along the gut-lung axis: immune-microecological coordination, shared mechanisms, and disease-context dependence in respiratory disorders.
-2026-06-22 17:08:39 [INFO]   📵 期刊过滤排除 (1 篇):
-2026-06-22 17:08:39 [INFO]     [1] PMID 42324435 | Cancer immunology, immunotherapy : CII
-2026-06-22 17:08:39 [INFO]         Smoking-associated modulation of gut microbiota shapes response to immune checkpoint inhibitors in non-small cell lung cancer.
-2026-06-22 17:08:39 [INFO]         原因: 期刊不在 journal_info.tsv 中: Cancer immunology, immunotherapy : CII
-2026-06-22 17:08:39 [INFO] ================================================================================
-2026-06-22 17:08:39 [INFO] 
-2026-06-22 17:08:40 [INFO] 已保存 3 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-06-21.json
-2026-06-22 17:08:40 [INFO] Step 2: AI 摘要生成
-2026-06-22 17:08:40 [INFO] 共需处理 1 个文件
-2026-06-22 17:08:40 [INFO] 处理: 2026-06-21.json
-2026-06-22 17:08:40 [INFO]   [1/3] PMID 42324270 | Characterization of gut microbiome signatures in metabolic d
-2026-06-22 17:08:51 [WARNING] LLM 返回 JSON 解析失败: Expecting value: line 1 column 1 (char 0)
-2026-06-22 17:08:53 [INFO]   [2/3] PMID 42324618 | Mapping the metagenomic landscape: combined shotgun sequenci
-2026-06-22 17:09:00 [INFO]   [3/3] PMID 42324603 | Cross-kingdom microbiome interactions along the gut-lung axi
-2026-06-22 17:09:08 [INFO]   ✓ 已更新 2026-06-21.json（3 篇）
-2026-06-22 17:09:08 [INFO] 
+2026-06-23 15:17:19 [INFO] 开始抓取 2026-06-22 的论文
+2026-06-23 15:17:19 [INFO] ==================================================
+2026-06-23 15:17:19 [INFO] Step 1: 抓取 PubMed 新论文
+2026-06-23 15:17:19 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-06-23 15:17:19 [INFO] 已有 281 篇文献记录，不再重复检索
+2026-06-23 15:17:19 [INFO] 正在搜索 2026/06/22 的新论文...
+2026-06-23 15:17:19 [INFO] 搜索到 29 篇 PMID
+2026-06-23 15:17:19 [INFO]   其中新增 29 篇（过滤已有 0 篇）
+2026-06-23 15:17:21 [INFO]   内容过滤: 排除 5 篇，保留 24 篇
+2026-06-23 15:17:21 [INFO]   期刊过滤: 排除 22 篇，保留 2 篇
+2026-06-23 15:17:21 [INFO] 
+2026-06-23 15:17:21 [INFO] ================================================================================
+2026-06-23 15:17:21 [INFO]   📋 本次搜索论文汇总（共 29 篇）
+2026-06-23 15:17:21 [INFO] ================================================================================
+2026-06-23 15:17:21 [INFO]   ✅ 已收录 (2 篇):
+2026-06-23 15:17:21 [INFO]     [1] PMID 42329514 | American journal of clinical dermatology
+2026-06-23 15:17:21 [INFO]         Rethinking Head and Neck Atopic Dermatitis: Pathogenic Axes and Emerging Therapeutic Directions.
+2026-06-23 15:17:21 [INFO]     [2] PMID 42330329 | Advanced science (Weinheim, Baden-Wurttemberg, Germany)
+2026-06-23 15:17:21 [INFO]         Light-Activated Ruthenium Nanoclusters Reprogram the Metabolic-Quorum Sensing Axis for Precision Periodontitis Therapy.
+2026-06-23 15:17:21 [INFO]   🚫 内容过滤排除 (5 篇):
+2026-06-23 15:17:21 [INFO]     [1] PMID 42332064 | Nature microbiology
+2026-06-23 15:17:21 [INFO]         Modelling the role of the microbiome in antimicrobial resistance across scales.
+2026-06-23 15:17:21 [INFO]         原因: 内容含排除词: reservoir
+2026-06-23 15:17:21 [INFO]     [2] PMID 42330077 | PLoS computational biology
+2026-06-23 15:17:21 [INFO]         CoDaLoMic: An R package for modeling microbiome compositional and longitudinal data.
+2026-06-23 15:17:21 [INFO]         原因: 内容含排除词: cockroach
+2026-06-23 15:17:21 [INFO]     [3] PMID 42331835 | NPJ science of food
+2026-06-23 15:17:21 [INFO]         Multi-omics insights into floral-fruity aroma formation during Pu'er tea fermentation inoculated with a synthetic fungal community.
+2026-06-23 15:17:21 [INFO]         原因: 内容含排除词: forest
+2026-06-23 15:17:21 [INFO]     [4] PMID 42329569 | World journal of microbiology & biotechnology
+2026-06-23 15:17:21 [INFO]         Unravelling the associations between local environmental factors, soil properties and cultivable root-associated endophytes in dry pea (Pisum sativum L.).
+2026-06-23 15:17:21 [INFO]         原因: 内容含排除词: plant
+2026-06-23 15:17:21 [INFO]     [5] PMID 42330062 | mSphere
+2026-06-23 15:17:21 [INFO]         Applying PCR cycle autonormalization to PacBio full-length 16S rRNA library preparations: impacts on error rates and sequence distributions.
+2026-06-23 15:17:21 [INFO]         原因: 内容含排除词: agricultural
+2026-06-23 15:17:21 [INFO]   📵 期刊过滤排除 (22 篇):
+2026-06-23 15:17:21 [INFO]     [1] PMID 42329433 | Archives of microbiology
+2026-06-23 15:17:21 [INFO]         The human breast milk microbiome: a landscape review of its composition, origins, and impact on infant health.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Archives of microbiology
+2026-06-23 15:17:21 [INFO]     [2] PMID 42331805 | NPJ science of food
+2026-06-23 15:17:21 [INFO]         Dietary yacon concentrate reshapes microbial-metabolite crosstalk to inhibit colorectal cancer.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: NPJ science of food
+2026-06-23 15:17:21 [INFO]     [3] PMID 42263077 | Reproduction & fertility
+2026-06-23 15:17:21 [INFO]         Higher BMI is associated with vaginal microbiome alterations in women with PCOS.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Reproduction & fertility
+2026-06-23 15:17:21 [INFO]     [4] PMID 42328985 | Microbiology spectrum
+2026-06-23 15:17:21 [INFO]         Long-read metagenomics reveals stable resistome and microbiome in treated Italian slaughterhouse wastewater: a preliminary study.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-06-23 15:17:21 [INFO]     [5] PMID 42324602 | The British journal of nutrition
+2026-06-23 15:17:21 [INFO]         Gut Microbiome and Environmental Enteric Dysfunction Are Unchanged by 18 Months of Small-Quantity Lipid-Based Nutrient Supplementation among Young Children in Lusaka, Zambia.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: The British journal of nutrition
+2026-06-23 15:17:21 [INFO]     [6] PMID 42328867 | mSystems
+2026-06-23 15:17:21 [INFO]         Gut microbiota translocation contributes to early islet apoptosis in streptozotocin-induced diabetes.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: mSystems
+2026-06-23 15:17:21 [INFO]     [7] PMID 42329775 | FEMS microbiology ecology
+2026-06-23 15:17:21 [INFO]         The respiratory microbiome: dynamics from health to disease.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: FEMS microbiology ecology
+2026-06-23 15:17:21 [INFO]     [8] PMID 42324499 | BMC genomics
+2026-06-23 15:17:21 [INFO]         Dual-transcriptomic analysis of human nasal transcriptome and microbiome reveals host-bacteria associations in symptomatic respiratory infection.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC genomics
+2026-06-23 15:17:21 [INFO]     [9] PMID 42329047 | Microbiology spectrum
+2026-06-23 15:17:21 [INFO]         Application of antibiotics for the selective isolation of previously uncultured species from activated sludge.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Microbiology spectrum
+2026-06-23 15:17:21 [INFO]     [10] PMID 42207030 | Food & function
+2026-06-23 15:17:21 [INFO]         Yellow tea extract ameliorates dexamethasone-induced hepatic steatosis by modulating the gut-liver axis and reshaping microbial metabolites: a multi-omics insight.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Food & function
+2026-06-23 15:17:21 [INFO]     [11] PMID 42329028 | Inflammatory bowel diseases
+2026-06-23 15:17:21 [INFO]         Anatomical, physiological, and luminal adaptations occurring in an ileoanal pouch: opportunities for improving outcomes.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Inflammatory bowel diseases
+2026-06-23 15:17:21 [INFO]     [12] PMID 42329290 | Inflammopharmacology
+2026-06-23 15:17:21 [INFO]         Canagliflozin attenuates Parkinson's disease and is associated with modulation of gut-inflammasome-brain axis in rats.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Inflammopharmacology
+2026-06-23 15:17:21 [INFO]     [13] PMID 42325131 | Journal of periodontal research
+2026-06-23 15:17:21 [INFO]         Periodontitis and Adverse Pregnancy Outcomes: Mechanistic Evidence.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of periodontal research
+2026-06-23 15:17:21 [INFO]     [14] PMID 42331262 | Genomics
+2026-06-23 15:17:21 [INFO]         Molecular features of external Auditory Canal cholesteatoma by microbial metagenomic sequencing.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Genomics
+2026-06-23 15:17:21 [INFO]     [15] PMID 42332254 | Npj biological timing and sleep
+2026-06-23 15:17:21 [INFO]         The importance of meal timing for maintenance of daily rhythms in the gut transcriptome and microbiota.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Npj biological timing and sleep
+2026-06-23 15:17:21 [INFO]     [16] PMID 42324373 | Naunyn-Schmiedeberg's archives of pharmacology
+2026-06-23 15:17:21 [INFO]         Ulcerative colitis: from molecular pathophysiology to management and the emerging role of natural and pharmacological drug candidates.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Naunyn-Schmiedeberg's archives of pharmacology
+2026-06-23 15:17:21 [INFO]     [17] PMID 42329229 | Environmental science & technology
+2026-06-23 15:17:21 [INFO]         Acidification Dominates over Hypoxia in Controlling Estuarine Nitrogen Removal Dynamics under Coupled Stressors.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental science & technology
+2026-06-23 15:17:21 [INFO]     [18] PMID 42319373 | Current opinion in hematology
+2026-06-23 15:17:21 [INFO]         Nutrition as a regulator of hematopoietic stem cell biology and transplantation.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in hematology
+2026-06-23 15:17:21 [INFO]     [19] PMID 42324448 | BMC microbiology
+2026-06-23 15:17:21 [INFO]         Development of an ex vivo skin model for quantitative recovery and preservation of donor-specific human microbiota.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC microbiology
+2026-06-23 15:17:21 [INFO]     [20] PMID 42329317 | Probiotics and antimicrobial proteins
+2026-06-23 15:17:21 [INFO]         Immunomodulatory and Gut Microbiota-Regulating Effects of Lactobacillus helveticus LH76 in Healthy Adults: Preclinical Safety Assessment and a Randomized, Double-Blind, Placebo-Controlled Trial.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: Probiotics and antimicrobial proteins
+2026-06-23 15:17:21 [INFO]     [21] PMID 42328975 | mBio
+2026-06-23 15:17:21 [INFO]         Mechanisms by which proline reductase of Clostridioides difficile promotes efficient metabolism and disease progression in vivo.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: mBio
+2026-06-23 15:17:21 [INFO]     [22] PMID 42319242 | American journal of therapeutics
+2026-06-23 15:17:21 [INFO]         Do Not Treat a Sequencing Report: Therapeutic Stewardship in Endometrial Microbiome Testing.
+2026-06-23 15:17:21 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of therapeutics
+2026-06-23 15:17:21 [INFO] ================================================================================
+2026-06-23 15:17:21 [INFO] 
+2026-06-23 15:17:22 [INFO] 已保存 2 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-06-22.json
+2026-06-23 15:17:22 [INFO] Step 2: AI 摘要生成
+2026-06-23 15:17:22 [INFO] 共需处理 1 个文件
+2026-06-23 15:17:22 [INFO] 处理: 2026-06-22.json
+2026-06-23 15:17:22 [INFO]   [1/2] PMID 42329514 | Rethinking Head and Neck Atopic Dermatitis: Pathogenic Axes 
+2026-06-23 15:17:31 [INFO]   [2/2] PMID 42330329 | Light-Activated Ruthenium Nanoclusters Reprogram the Metabol
+2026-06-23 15:17:41 [INFO]   ✓ 已更新 2026-06-22.json（2 篇）
+2026-06-23 15:17:41 [INFO] 
 ==================================================
-2026-06-22 17:09:08 [INFO] 开始抓取 2026-06-22 的论文
-2026-06-22 17:09:08 [INFO] ==================================================
-2026-06-22 17:09:08 [INFO] Step 1: 抓取 PubMed 新论文
-2026-06-22 17:09:08 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-06-22 17:09:08 [INFO] 已有 281 篇文献记录，不再重复检索
-2026-06-22 17:09:08 [INFO] 正在搜索 2026/06/22 的新论文...
-2026-06-22 17:09:08 [INFO] 搜索到 6 篇 PMID
-2026-06-22 17:09:08 [INFO]   其中新增 6 篇（过滤已有 0 篇）
-2026-06-22 17:09:09 [INFO]   内容过滤: 排除 0 篇，保留 6 篇
-2026-06-22 17:09:09 [INFO]   期刊过滤: 排除 6 篇，保留 0 篇
-2026-06-22 17:09:09 [INFO] 
-2026-06-22 17:09:09 [INFO] ================================================================================
-2026-06-22 17:09:09 [INFO]   📋 本次搜索论文汇总（共 6 篇）
-2026-06-22 17:09:09 [INFO] ================================================================================
-2026-06-22 17:09:09 [INFO]   📵 期刊过滤排除 (6 篇):
-2026-06-22 17:09:09 [INFO]     [1] PMID 42324373 | Naunyn-Schmiedeberg's archives of pharmacology
-2026-06-22 17:09:09 [INFO]         Ulcerative colitis: from molecular pathophysiology to management and the emerging role of natural and pharmacological drug candidates.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: Naunyn-Schmiedeberg's archives of pharmacology
-2026-06-22 17:09:09 [INFO]     [2] PMID 42324602 | The British journal of nutrition
-2026-06-22 17:09:09 [INFO]         Gut Microbiome and Environmental Enteric Dysfunction Are Unchanged by 18 Months of Small-Quantity Lipid-Based Nutrient Supplementation among Young Children in Lusaka, Zambia.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: The British journal of nutrition
-2026-06-22 17:09:09 [INFO]     [3] PMID 42324499 | BMC genomics
-2026-06-22 17:09:09 [INFO]         Dual-transcriptomic analysis of human nasal transcriptome and microbiome reveals host-bacteria associations in symptomatic respiratory infection.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC genomics
-2026-06-22 17:09:09 [INFO]     [4] PMID 42324448 | BMC microbiology
-2026-06-22 17:09:09 [INFO]         Development of an ex vivo skin model for quantitative recovery and preservation of donor-specific human microbiota.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC microbiology
-2026-06-22 17:09:09 [INFO]     [5] PMID 42319373 | Current opinion in hematology
-2026-06-22 17:09:09 [INFO]         Nutrition as a regulator of hematopoietic stem cell biology and transplantation.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: Current opinion in hematology
-2026-06-22 17:09:09 [INFO]     [6] PMID 42319242 | American journal of therapeutics
-2026-06-22 17:09:09 [INFO]         Do Not Treat a Sequencing Report: Therapeutic Stewardship in Endometrial Microbiome Testing.
-2026-06-22 17:09:09 [INFO]         原因: 期刊不在 journal_info.tsv 中: American journal of therapeutics
-2026-06-22 17:09:09 [INFO] ================================================================================
-2026-06-22 17:09:09 [INFO] 
-2026-06-22 17:09:10 [INFO] 今日无新增论文
-2026-06-22 17:09:10 [INFO] Step 2: AI 摘要生成
-2026-06-22 17:09:10 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-06-22.json
-2026-06-22 17:09:10 [INFO] 
+2026-06-23 15:17:41 [INFO] 开始抓取 2026-06-23 的论文
+2026-06-23 15:17:41 [INFO] ==================================================
+2026-06-23 15:17:41 [INFO] Step 1: 抓取 PubMed 新论文
+2026-06-23 15:17:41 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-06-23 15:17:41 [INFO] 已有 283 篇文献记录，不再重复检索
+2026-06-23 15:17:41 [INFO] 正在搜索 2026/06/23 的新论文...
+2026-06-23 15:17:41 [INFO] 搜索到 8 篇 PMID
+2026-06-23 15:17:41 [INFO]   其中新增 8 篇（过滤已有 0 篇）
+2026-06-23 15:17:43 [INFO]   内容过滤: 排除 0 篇，保留 8 篇
+2026-06-23 15:17:43 [INFO]   期刊过滤: 排除 3 篇，保留 5 篇
+2026-06-23 15:17:43 [INFO] 
+2026-06-23 15:17:43 [INFO] ================================================================================
+2026-06-23 15:17:43 [INFO]   📋 本次搜索论文汇总（共 8 篇）
+2026-06-23 15:17:43 [INFO] ================================================================================
+2026-06-23 15:17:43 [INFO]   ✅ 已收录 (5 篇):
+2026-06-23 15:17:43 [INFO]     [1] PMID 42331651 | Trends in immunology
+2026-06-23 15:17:43 [INFO]         Gut microbiome metabolites meet immunometabolism in inflammatory bowel disease.
+2026-06-23 15:17:43 [INFO]     [2] PMID 42308045 | Proceedings of the National Academy of Sciences of the United States of America
+2026-06-23 15:17:43 [INFO]         Linear-time prediction of proteome-scale microbial protein interactions.
+2026-06-23 15:17:43 [INFO]     [3] PMID 42329003 | The American journal of gastroenterology
+2026-06-23 15:17:43 [INFO]         Cost-effectiveness of Microbiota Restoration Therapies for Recurrent Clostridioides difficile Infection.
+2026-06-23 15:17:43 [INFO]     [4] PMID 42296370 | Proceedings of the National Academy of Sciences of the United States of America
+2026-06-23 15:17:43 [INFO]         Endothelial c-IAP2 loss amplifies P2X7 receptor-driven inflammation and worsens schistosomiasis-associated pulmonary hypertension.
+2026-06-23 15:17:43 [INFO]     [5] PMID 42308050 | Proceedings of the National Academy of Sciences of the United States of America
+2026-06-23 15:17:43 [INFO]         Opposing range-dependent interactions create complex spatial patterns of antibiotic tolerance in multispecies biofilms.
+2026-06-23 15:17:43 [INFO]   📵 期刊过滤排除 (3 篇):
+2026-06-23 15:17:43 [INFO]     [1] PMID 42332287 | International journal of legal medicine
+2026-06-23 15:17:43 [INFO]         Hair vs. fabric: substrate-dependent microbiome shifts dictate the accuracy of forensic body-fluid identification.
+2026-06-23 15:17:43 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of legal medicine
+2026-06-23 15:17:43 [INFO]     [2] PMID 42331868 | Scientific reports
+2026-06-23 15:17:43 [INFO]         Pilot metaproteomic profiling reveals bacterial diversity and potential medical and veterinary relevance of tick microbiomes in northern Algeria.
+2026-06-23 15:17:43 [INFO]         原因: 期刊不在 journal_info.tsv 中: Scientific reports
+2026-06-23 15:17:43 [INFO]     [3] PMID 42330441 | Sexually transmitted diseases
+2026-06-23 15:17:43 [INFO]         Doxycycline post-exposure prophylaxis may dramatically reduce syphilis among gay, bisexual, and other men who have sex with men: a modeling study.
+2026-06-23 15:17:43 [INFO]         原因: 期刊不在 journal_info.tsv 中: Sexually transmitted diseases
+2026-06-23 15:17:43 [INFO] ================================================================================
+2026-06-23 15:17:43 [INFO] 
+2026-06-23 15:17:44 [INFO] 已保存 5 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-06-23.json
+2026-06-23 15:17:44 [INFO] Step 2: AI 摘要生成
+2026-06-23 15:17:44 [INFO] 共需处理 1 个文件
+2026-06-23 15:17:44 [INFO] 处理: 2026-06-23.json
+2026-06-23 15:17:44 [INFO]   [1/5] PMID 42331651 | Gut microbiome metabolites meet immunometabolism in inflamma
+2026-06-23 15:17:51 [INFO]   [2/5] PMID 42308045 | Linear-time prediction of proteome-scale microbial protein i
+2026-06-23 15:17:58 [INFO]   [3/5] PMID 42329003 | Cost-effectiveness of Microbiota Restoration Therapies for R
+2026-06-23 15:18:09 [INFO]   [4/5] PMID 42296370 | Endothelial c-IAP2 loss amplifies P2X7 receptor-driven infla
+2026-06-23 15:18:15 [INFO]   [5/5] PMID 42308050 | Opposing range-dependent interactions create complex spatial
+2026-06-23 15:18:24 [INFO]   ✓ 已更新 2026-06-23.json（5 篇）
+2026-06-23 15:18:24 [INFO] 
 Step 3: 整合数据
-2026-06-22 17:09:10 [INFO] 累积基础 4388 篇 + 新增 10 篇 = 共 4398 篇
-2026-06-22 17:09:10 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-06-22 17:09:10 [INFO] 分区过滤: 排除 7 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4391 篇
-2026-06-22 17:09:10 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3982 KB)
-2026-06-22 17:09:10 [INFO]   2015: 91 篇 -> 2015.json
-2026-06-22 17:09:10 [INFO]   2016: 94 篇 -> 2016.json
-2026-06-22 17:09:10 [INFO]   2017: 86 篇 -> 2017.json
-2026-06-22 17:09:10 [INFO]   2018: 106 篇 -> 2018.json
-2026-06-22 17:09:10 [INFO]   2019: 183 篇 -> 2019.json
-2026-06-22 17:09:10 [INFO]   2020: 375 篇 -> 2020.json
-2026-06-22 17:09:10 [INFO]   2021: 456 篇 -> 2021.json
-2026-06-22 17:09:10 [INFO]   2022: 574 篇 -> 2022.json
-2026-06-22 17:09:10 [INFO]   2023: 560 篇 -> 2023.json
-2026-06-22 17:09:10 [INFO]   2024: 684 篇 -> 2024.json
-2026-06-22 17:09:10 [INFO]   2025: 817 篇 -> 2025.json
-2026-06-22 17:09:10 [INFO]   2026: 365 篇 -> 2026.json
-2026-06-22 17:09:10 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-06-22 17:09:10 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-06-22 17:09:10 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-06-22 17:09:10 [INFO] 
+2026-06-23 15:18:24 [INFO] 累积基础 4391 篇 + 新增 14 篇 = 共 4405 篇
+2026-06-23 15:18:24 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-06-23 15:18:24 [INFO] 分区过滤: 排除 7 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4398 篇
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3989 KB)
+2026-06-23 15:18:24 [INFO]   2015: 91 篇 -> 2015.json
+2026-06-23 15:18:24 [INFO]   2016: 94 篇 -> 2016.json
+2026-06-23 15:18:24 [INFO]   2017: 86 篇 -> 2017.json
+2026-06-23 15:18:24 [INFO]   2018: 106 篇 -> 2018.json
+2026-06-23 15:18:24 [INFO]   2019: 183 篇 -> 2019.json
+2026-06-23 15:18:24 [INFO]   2020: 375 篇 -> 2020.json
+2026-06-23 15:18:24 [INFO]   2021: 456 篇 -> 2021.json
+2026-06-23 15:18:24 [INFO]   2022: 574 篇 -> 2022.json
+2026-06-23 15:18:24 [INFO]   2023: 560 篇 -> 2023.json
+2026-06-23 15:18:24 [INFO]   2024: 684 篇 -> 2024.json
+2026-06-23 15:18:24 [INFO]   2025: 817 篇 -> 2025.json
+2026-06-23 15:18:24 [INFO]   2026: 372 篇 -> 2026.json
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-06-23 15:18:24 [INFO] 
 ==================================================
-2026-06-22 17:09:10 [INFO] ===== 完成！共 4391 篇文献 =====
-2026-06-22 17:09:10 [INFO] 已补全 2 天的数据
-2026-06-22 17:09:10 [INFO] ==================================================
-2026-06-22 17:09:10 [INFO] ✓ 每日更新完成
-2026-06-22 17:09:10 [INFO] ▶ 开始整合数据...
-2026-06-22 17:09:10 [INFO] 累积基础 4391 篇 + 新增 7 篇 = 共 4398 篇
-2026-06-22 17:09:10 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-06-22 17:09:10 [INFO] 分区过滤: 排除 7 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4391 篇
-2026-06-22 17:09:10 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3982 KB)
-2026-06-22 17:09:10 [INFO]   2015: 91 篇 -> 2015.json
-2026-06-22 17:09:10 [INFO]   2016: 94 篇 -> 2016.json
-2026-06-22 17:09:10 [INFO]   2017: 86 篇 -> 2017.json
-2026-06-22 17:09:10 [INFO]   2018: 106 篇 -> 2018.json
-2026-06-22 17:09:11 [INFO]   2019: 183 篇 -> 2019.json
-2026-06-22 17:09:11 [INFO]   2020: 375 篇 -> 2020.json
-2026-06-22 17:09:11 [INFO]   2021: 456 篇 -> 2021.json
-2026-06-22 17:09:11 [INFO]   2022: 574 篇 -> 2022.json
-2026-06-22 17:09:11 [INFO]   2023: 560 篇 -> 2023.json
-2026-06-22 17:09:11 [INFO]   2024: 684 篇 -> 2024.json
-2026-06-22 17:09:11 [INFO]   2025: 817 篇 -> 2025.json
-2026-06-22 17:09:11 [INFO]   2026: 365 篇 -> 2026.json
-2026-06-22 17:09:11 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-06-22 17:09:11 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-06-22 17:09:11 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-06-22 17:09:11 [INFO] ✓ 整合完成！共 4391 篇文献
+2026-06-23 15:18:24 [INFO] ===== 完成！共 4398 篇文献 =====
+2026-06-23 15:18:24 [INFO] 已补全 2 天的数据
+2026-06-23 15:18:24 [INFO] ==================================================
+2026-06-23 15:18:24 [INFO] ✓ 每日更新完成
+2026-06-23 15:18:24 [INFO] ▶ 开始整合数据...
+2026-06-23 15:18:24 [INFO] 累积基础 4398 篇 + 新增 7 篇 = 共 4405 篇
+2026-06-23 15:18:24 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-06-23 15:18:24 [INFO] 分区过滤: 排除 7 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4398 篇
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (3989 KB)
+2026-06-23 15:18:24 [INFO]   2015: 91 篇 -> 2015.json
+2026-06-23 15:18:24 [INFO]   2016: 94 篇 -> 2016.json
+2026-06-23 15:18:24 [INFO]   2017: 86 篇 -> 2017.json
+2026-06-23 15:18:24 [INFO]   2018: 106 篇 -> 2018.json
+2026-06-23 15:18:24 [INFO]   2019: 183 篇 -> 2019.json
+2026-06-23 15:18:24 [INFO]   2020: 375 篇 -> 2020.json
+2026-06-23 15:18:24 [INFO]   2021: 456 篇 -> 2021.json
+2026-06-23 15:18:24 [INFO]   2022: 574 篇 -> 2022.json
+2026-06-23 15:18:24 [INFO]   2023: 560 篇 -> 2023.json
+2026-06-23 15:18:24 [INFO]   2024: 684 篇 -> 2024.json
+2026-06-23 15:18:24 [INFO]   2025: 817 篇 -> 2025.json
+2026-06-23 15:18:24 [INFO]   2026: 372 篇 -> 2026.json
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-06-23 15:18:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-06-23 15:18:24 [INFO] ✓ 整合完成！共 4398 篇文献

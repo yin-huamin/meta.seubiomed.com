@@ -1,0 +1,59 @@
+[
+  {
+    "pmid": "42329514",
+    "title": "Rethinking Head and Neck Atopic Dermatitis: Pathogenic Axes and Emerging Therapeutic Directions.",
+    "doi": null,
+    "journal": "American journal of clinical dermatology",
+    "issn": "1179-1888",
+    "pub_date": "2026-06-22",
+    "authors": "Navarro-Triviño Francisco José; Ruiz-Villaverde Ricardo; Torres Tiago",
+    "abstract": "Head and neck atopic dermatitis represents a common and clinically challenging phenotype of atopic dermatitis, characterized by anatomical selectivity, chronicity, and variable therapeutic response. Increasing evidence indicates that head and neck atopic dermatitis is not merely a regional extension of generalized disease, but a distinct phenotype shaped by the convergence of regional barrier fragility, a lipid-rich sebaceous microenvironment, microbiome imbalance, particularly involving Malassezia species, and a mixed immune signature integrating type 2, type 17, and type 22 inflammatory pathways. These factors promote persistent inflammation, psoriasiform features, and relative treatment refractoriness in the head and neck region. The clinical relevance of this phenotype has increased in the era of targeted therapies, as persistent or de novo facial involvement has been reported during biologic treatment, most notably with interleukin-4Rα blockade. Dupilumab-associated head and neck dermatitis exemplifies a pathway shift characterized by suppression of type 2 inflammation alongside exaggerated interleukin-22 and aryl hydrocarbon receptor-driven epithelial stress responses, providing mechanistic insight into paradoxical inflammation and incomplete regional control. Advances in immunobiology are beginning to translate into more tailored therapeutic strategies. Interleukin-13-selective biologics, systemic and topical Janus kinase inhibitors, and emerging agents targeting tissue-resident memory T-cell pathways offer new opportunities to address the dominant inflammatory circuits active in this region. Although comparative data remain limited, these approaches raise the possibility of improved control in selected patients with difficult-to-treat head and neck involvement. This review synthesizes current evidence on the pathogenic hallmarks of head and neck atopic dermatitis, integrates emerging mechanistic and clinical data, and discusses evolving therapeutic strategies aimed at phenotype-driven region-specific management of this complex manifestation of atopic dermatitis.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述头部和颈部特应性皮炎的病理机制，强调其作为独特表型，并探讨新兴靶向治疗策略。",
+    "innovation": "提出头部和颈部特应性皮炎为独立表型，由区域屏障脆弱、皮脂微环境、马拉色菌及混合免疫驱动 | 揭示度普利尤单抗相关皮炎的通路转换机制 | 总结IL-13选择性生物制剂、JAK抑制剂等区域特异性治疗方向",
+    "limitation": "比较数据有限",
+    "study_object": "人类/头部和颈部特应性皮炎患者/综述",
+    "disease": "特应性皮炎（头部和颈部亚型）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-22"
+  },
+  {
+    "pmid": "42330329",
+    "title": "Light-Activated Ruthenium Nanoclusters Reprogram the Metabolic-Quorum Sensing Axis for Precision Periodontitis Therapy.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-06-22",
+    "authors": "Zhou Jing; Sun Xiaolin; Liu Chengyu; Shi Yujia; Li Meiqi et al.",
+    "abstract": "Periodontitis is a polymicrobial disease driven by metabolic interdependencies, wherein commensal bacteria fuel the virulence of keystone pathogens like Porphyromonas gingivalis (P. gingivalis). In particular, Veillonella parvula (V. parvula) supplies essential nutrients to the keystone pathogen P. gingivalis, enabling its virulence even at low abundance. Therefore, targeting V. parvula nitrate metabolism to deprive P. gingivalis of nutrients and attenuate its virulence represents a promising therapeutic strategy for controlling periodontitis progression. We engineered L-cysteine-capped ruthenium nanoclusters (Ru NCs) that efficiently reduce nitrate to ammonium under 660 nm light. This photocatalytic conversion depleted the bioavailable nitrate pool associated with V. parvula metabolism, disrupting amino acid production and quorum-sensing-related support for P. gingivalis. Consequently, Ru NCs potently reduced biofilm biomass and thickness, suppressed P. gingivalis activity, and downregulated its key virulence genes (RgpA/B, Kgp, FimA). Multiomics analyses supported nitrate-dependent metabolic collapse in V. parvula, which was associated with downstream energy and biosynthetic impairment in P. gingivalis. In a rat periodontitis model, light-activated Ru NCs attenuated alveolar bone loss, preserved collagen, and shifted the local cytokine profile from pro-inflammatory (IL-6) to anti-inflammatory (Arg-1). This work provides a proof-of-concept strategy for targeting defined interspecies metabolic interactions, offering a new paradigm for microbiome-targeted therapy.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "antibacterial therapy",
+      "bacterial metabolism",
+      "nanoclusters",
+      "periodontitis",
+      "photoelectrochemical catalysis",
+      "quorum sensing",
+      "ruthenium"
+    ],
+    "summary_zh": "通过光激活钌纳米簇靶向小韦荣球菌的硝酸盐代谢，破坏其与牙龈卟啉单胞菌的代谢协同，有效治疗牙周炎。",
+    "innovation": "靶向种间代谢互作（代谢-群体感应轴） | 光激活纳米酶催化硝酸盐还原 | 提供微生物组靶向治疗新范式",
+    "limitation": "概念验证阶段，尚需临床样本验证",
+    "study_object": "大鼠牙周炎模型 / 牙菌斑生物膜 / 光激活钌纳米簇+多组学分析",
+    "disease": "牙周炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-22"
+  }
+]

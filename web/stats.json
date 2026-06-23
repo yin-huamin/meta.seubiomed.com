@@ -1,8 +1,8 @@
 {
-  "total": 4391,
+  "total": 4398,
   "by_type": {
-    "研究论文": 3501,
-    "综述": 392,
+    "研究论文": 3506,
+    "综述": 394,
     "Benchmark": 149,
     "临床试验": 134,
     "其他": 89,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 57
   },
   "by_year": {
-    "2026": 365,
+    "2026": 372,
     "2025": 817,
     "2024": 684,
     "2023": 560,
@@ -35,7 +35,7 @@
     "Nutrients": 94,
     "Genome biology": 87,
     "Briefings in bioinformatics": 81,
-    "Proceedings of the National Academy of Sciences of the United States of America": 75,
+    "Proceedings of the National Academy of Sciences of the United States of America": 78,
     "ISME communications": 74,
     "Cell host & microbe": 64,
     "Journal of translational medicine": 63,
@@ -54,16 +54,16 @@
     "帕金森病": 25,
     "癌症": 22,
     "2型糖尿病": 20,
+    "炎症性肠病": 17,
     "感染性疾病": 17,
-    "炎症性肠病": 16,
     "脓毒症": 15,
     "囊性纤维化": 15,
     "1型糖尿病": 15,
     "特应性皮炎": 14,
     "自闭症谱系障碍": 14,
+    "复发性艰难梭菌感染": 13,
+    "牙周炎": 13,
     "肺炎": 13,
-    "复发性艰难梭菌感染": 12,
-    "牙周炎": 12,
     "下呼吸道感染": 12,
     "早产": 11
   }

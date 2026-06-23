@@ -1,0 +1,182 @@
+[
+  {
+    "pmid": "42331651",
+    "title": "Gut microbiome metabolites meet immunometabolism in inflammatory bowel disease.",
+    "doi": null,
+    "journal": "Trends in immunology",
+    "issn": "1471-4981",
+    "pub_date": "2026-06-23",
+    "authors": "Li Qing; de Oliveira Formiga Rodrigo; Sokol Harry",
+    "abstract": "Growing evidence indicates that gut microbiota-derived metabolites are key regulators of immunometabolism in inflammatory bowel disease (IBD). Intestinal epithelial cells and immune cells exhibit profound metabolic alterations in IBD. Microbial metabolites act as intermediates in host-microbe communication, reshaping mitochondrial functions and cellular metabolic pathways, thereby impacting immune functions. Dysbiosis may, therefore, perturb immune homeostasis by rewiring host metabolic circuits. Understanding how microbial metabolites orchestrate immunometabolic crosstalk in the gut and leveraging it to recalibrate host immunometabolic circuits represents promising, underexplored therapeutic avenues. In this review, we highlight emerging concepts on how gut microbiota-derived metabolites shape immune cell immunometabolism and discuss the therapeutic potential of targeting the microbiota-metabolite-immunometabolism axis in IBD.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "endosymbiosis",
+      "gut microbiota",
+      "immunometabolism",
+      "inflammatory bowel disease",
+      "mitochondria"
+    ],
+    "summary_zh": "综述肠道微生物代谢物调节免疫细胞免疫代谢，探讨靶向微生物-代谢物-免疫代谢轴治疗IBD的潜力。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "人类肠道微生物代谢物综述",
+    "disease": "炎症性肠病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-23"
+  },
+  {
+    "pmid": "42308045",
+    "title": "Linear-time prediction of proteome-scale microbial protein interactions.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-23",
+    "authors": "Cornman Andre; Tranzillo Matt; Zulaybar Nicolo G; Bouzit Imane; Hwang Yunha",
+    "abstract": "Protein-protein interactions (PPIs) underpin biological function, yet proteome-scale interaction prediction remains bottlenecked by the quadratic computational complexity of all-vs.-all pairwise comparisons. Here, we present FlashPPI, a contrastive learning framework, grounded in residue-level interactions, that enables linear-time prediction of physical protein interfaces across a microbial proteome. By leveraging a genomic language model that captures cross-protein coevolutionary signals from metagenomic sequences, FlashPPI aligns interacting partners in a shared latent space. We demonstrate a four-fold performance increase over existing sequence-based methods, while reducing proteome-wide screening time from days to minutes. Crucially, FlashPPI achieves comparable screening performance to state-of-the-art structure-folding models at a fraction of the computational cost. Finally, we integrate FlashPPI into an interactive web platform that combines predicted networks with functional annotations and genomic context, making proteome-wide network analysis rapid and accessible for microbial discovery.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Proteome",
+      "Bacterial Proteins",
+      "Protein Interaction Mapping",
+      "Prediction Algorithms",
+      "Computational Biology",
+      "Protein Interaction Maps"
+    ],
+    "keywords": [
+      "machine learning",
+      "microbial genomics",
+      "protein–protein interactions"
+    ],
+    "summary_zh": "提出FlashPPI对比学习框架，基于残基相互作用和宏基因组共进化信号，实现线性时间预测微生物蛋白质组蛋白质相互作用，性能提升四倍，时间从数天缩短至分钟。",
+    "innovation": "线性时间预测蛋白质组规模微生物蛋白质相互作用 | 利用基于残基的对比学习框架和基因组语言模型捕获跨蛋白质共进化信号 | 达到与结构折叠模型相当的筛选性能，计算成本低",
+    "limitation": "未描述",
+    "study_object": "微生物蛋白质组 + 基于宏基因组序列的对比学习框架",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-23"
+  },
+  {
+    "pmid": "42329003",
+    "title": "Cost-effectiveness of Microbiota Restoration Therapies for Recurrent Clostridioides difficile Infection.",
+    "doi": null,
+    "journal": "The American journal of gastroenterology",
+    "issn": "1572-0241",
+    "pub_date": "2026-06-23",
+    "authors": "Berry Parul; Bharadiya Vishwesh; Pardi Darrell S; Khanna Sahil",
+    "abstract": "BACKGROUND: Recurrent Clostridioides difficile infection (rCDI) is associated with substantial morbidity, healthcare utilization, and costs. FDA-approved microbiota-based therapies, fecal microbiota spores, live-brpk (VOS) and fecal microbiota, live-jslm (RBL), reduce recurrence risk, but cost-effective placement within the rCDI treatment pathway remains uncertain.\nMETHODS: We performed a U.S. payer-perspective cost-effectiveness analysis using decision-tree modeling according to CHEERS 2022 guidelines. Adult with rCDI entered the model after the first or second recurrence and were followed for <1 year. Effectiveness inputs were derived from ECOSPOR III/IV (VOS), PUNCH CD3/CD3-OLS (RBL) trials, and published literature for standard-of-care (SoC) comparators. Outcomes included costs (2025 USD), quality-adjusted life-years (QALYs), and incremental cost-effectiveness ratios (ICERs). Probabilistic and deterministic sensitivity analyses were performed using a willingness-to-pay threshold of $150,000/QALY. ICERs were interpreted across $50,000, $100,000, $120,000, and $150,000/QALY.\nRESULTS: After the first recurrence, RBL was cost-effective versus SoC alone ($25,415/QALY). Early initiation remained favorable compared with delayed use for VOS ($27,239/QALY) and RBL ($26,704/QALY). After the second recurrence, VOS remained cost-effective versus SoC (ICER $53,983/QALY), whereas RBL exceeded the willingness-to-pay threshold (ICER $171,496/QALY). Exploratory cross-trial VOS-versus-RBL comparisons yielded ICERs of $124,636/QALY after first recurrence and $137,350/QALY after second recurrence, indicating threshold-sensitive product-to-product comparisons.\nCONCLUSIONS: Earlier initiation of microbiota-based therapies after the first CDI recurrence provides greater health benefits at acceptable cost-effectiveness thresholds compared with delayed use, supporting earlier integration into rCDI treatment strategies. VOS-versus-RBL comparisons should be interpreted as exploratory indirect comparisons pending comparative real-world or head-to-head data.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Clostridioides difficile",
+      "cost-effectiveness",
+      "decision tree",
+      "fecal microbiota spores",
+      "live-brpk",
+      "live-jslm",
+      "microbiome therapy",
+      "recurrent CDI"
+    ],
+    "summary_zh": "评估VOS和RBL治疗复发性艰难梭菌感染的成本效益，发现早期使用更有效且成本可接受。",
+    "innovation": "比较两种FDA批准的微生物群疗法（VOS和RBL）的成本效益 | 评估早期与延迟使用策略的经济性差异",
+    "limitation": "VOS与RBL的比较仅为探索性间接比较，缺乏真实世界或头对头数据",
+    "study_object": "成人复发性艰难梭菌感染患者 + 未描述 + 微生物群恢复疗法（VOS和RBL）",
+    "disease": "复发性艰难梭菌感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-23"
+  },
+  {
+    "pmid": "42296370",
+    "title": "Endothelial c-IAP2 loss amplifies P2X7 receptor-driven inflammation and worsens schistosomiasis-associated pulmonary hypertension.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-23",
+    "authors": "Villarreal Elizabeth Sue; Marinho Ygor; Loya Omar; Aboagye Samuel Yaw; Costa Gabriela et al.",
+    "abstract": "Schistosomiasis-associated pulmonary hypertension (Sch-PH) is the most common form of group I PH worldwide. Recently, data revealed that the preclinical Sch-PH animal model exhibited gut and lung microbiome dysbiosis, associated with significant lung endothelial cell (EC) dysfunction and microvascular apoptosis. However, the role of pro-/antiapoptosis sensors, such as the inhibitor of apoptosis protein 2 (c-IAP2) and the purinergic receptor P2X7 (P2X7R), remained unclear. Using Cdh5cre-ERT2;cIAP1-/-;cIAP2fl/fl animal model, this study investigated the contribution of endothelial c-IAP2 in this process, revealing pulmonary P2X7R overexpression as a putative target in the onset of Sch-PH. Pharmacologically, inhibition of P2X7R function confirmed its role in promoting lung EC death and disease progression. Moreover, data suggest that microbiome-associated metabolic alterations in Sch-PH seem linked to microvascular EC apoptosis driven by ATP/P2X7R overactivation and suppressed c-IAP2 expression. Indeed, genetic ablation of endothelial c-IAP2 expression was sufficient to induce PH-like features in mice, with echocardiography indicating a higher pulmonary acceleration time (PAT), PAT/pulmonary ejection time, and right ventricular free wall thickness (RVFWTH) after IP/IV-Egg challenge compared to controls, an effect linked to the female prevalence of the disease. These findings suggest a significant contribution of lung EC-P2X7R activation and c-IAP2 suppression to sex-linked Sch-PH pathology, highlighting them as promising therapeutic targets for this life-threatening illness.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Receptors, Purinergic P2X7",
+      "Hypertension, Pulmonary",
+      "Mice",
+      "Apoptosis",
+      "Inhibitor of Apoptosis Proteins",
+      "Endothelial Cells",
+      "Inflammation",
+      "Lung",
+      "Disease Models, Animal",
+      "Female",
+      "Male",
+      "Mice, Knockout"
+    ],
+    "keywords": [
+      "P2X7R",
+      "PAH",
+      "apoptosis",
+      "c-IAP2",
+      "endothelial cells"
+    ],
+    "summary_zh": "研究通过动物模型发现内皮c-IAP2缺失激活P2X7R加重血吸虫病相关肺动脉高压，并揭示性别关联。",
+    "innovation": "揭示内皮c-IAP2缺失通过P2X7R过表达驱动Sch-PH发病机制 | 发现ATP/P2X7R过度激活与微血管EC凋亡及菌群代谢改变相关 | 证明抑制P2X7R功能可阻止肺EC死亡和疾病进展",
+    "limitation": "未描述",
+    "study_object": "小鼠/肺组织/遗传修饰动物模型",
+    "disease": "血吸虫病相关肺动脉高压（Sch-PH）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-23"
+  },
+  {
+    "pmid": "42308050",
+    "title": "Opposing range-dependent interactions create complex spatial patterns of antibiotic tolerance in multispecies biofilms.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-23",
+    "authors": "Bottacin Giulia; Raach Benjamin; Fröhlich Leonard; Künnecke Jasmin; Kaczmarczyk Andreas et al.",
+    "abstract": "Many microbial communities form multispecies biofilms where cells interact through diffusible molecules. In these biofilms, multiple interactions, often with opposing effects, occur simultaneously, yet we lack quantitative frameworks to predict how they combine to shape community functions. Here, we hypothesized that complex spatial patterns can emerge when opposing interactions have distinct spatial ranges. To test this, we studied how two Pseudomonas aeruginosa exoproducts, HQNO and rhamnolipids, jointly modulate Staphylococcus aureus antibiotic tolerance by respectively increasing and decreasing it. Using microfluidics-based imaging, we quantified spatial-tolerance patterns at single-cell resolution and found that tolerance indeed shows a complex spatial pattern: S. aureus cells survived treatment only at intermediate distances from P. aeruginosa, while cells closer or farther away did not. Combining experiments and modeling, we showed that this remarkable pattern emerges because rhamnolipids have a stronger but short-ranged effect, while HQNO has a weaker but longer-ranged effect. We found that spatial arrangement affects overall tolerance by shifting the balance between the two opposing interactions. Finally, using bioprinting, we confirmed that HQNO and rhamnolipids modulate tolerance in highly mixed biofilms. In more segregated biofilms, spatial arrangement still strongly modulated tolerance, but independently of these compounds, suggesting additional interactions. Together, our results show that spatial-tolerance patterns emerge from the combined effect of opposing range-dependent interactions and cannot be predicted from either alone. By predicting how opposing interactions jointly determine community properties, our framework provides a foundation for understanding and ultimately engineering microbiome functions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Biofilms",
+      "Pseudomonas aeruginosa",
+      "Anti-Bacterial Agents",
+      "Staphylococcus aureus",
+      "Glycolipids",
+      "Drug Resistance, Bacterial"
+    ],
+    "keywords": [
+      "antibiotic tolerance",
+      "emergent properties",
+      "interspecies interactions",
+      "multispecies biofilm",
+      "spatial structure"
+    ],
+    "summary_zh": "通过实验和建模揭示铜绿假单胞菌两种产物（HQNO和鼠李糖脂）的不同作用距离共同调控金黄色葡萄球菌的抗生素耐受空间模式。",
+    "innovation": "提出相反相互作用不同空间范围产生复杂空间模式的假设 | 单细胞分辨率定量空间耐受模式 | 结合实验和建模揭示机制",
+    "limitation": "未描述",
+    "study_object": "多物种生物膜（铜绿假单胞菌和金黄色葡萄球菌） + 微流控成像和生物打印",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-23"
+  }
+]
