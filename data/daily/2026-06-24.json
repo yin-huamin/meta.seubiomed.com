@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42337676",
+    "title": "Apple pomace and hempseed cake can reduce methane intensity (CH₄/DMI) and alter the rumen microbiome in dairy cows: a shotgun metagenomic approach.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-06-24",
+    "authors": "Gorji Abdolvahab Ebrahimpour; Xue Benchu; Yan Tianhai; Sadkowski Tomasz; Chen Xianjiang et al.",
+    "abstract": "BACKGROUND: With growing attention to environmental impacts, the dairy sector is increasingly focused on implementing strategies that lower methane emissions and enhance sustainability while maintaining productivity and economic viability. Utilizing agro-industrial by-products as alternative feed ingredients supports circular economy goals, lowers feed costs, and may benefit rumen fermentation and environmental performance in dairy cows.\nMETHODS: Forty-five mid-lactation Holstein cows were assigned to three diets, Control, Apple Pomace (AP), or Hempseed Cake (HC) for 24 d. Feed intake, milk yield, rumen fermentation, methane emissions, and nutrient use were measured. Rumen samples underwent shotgun metagenome sequencing and bioinformatics analysis to assess microbial and functional changes.\nRESULTS: Values are reported as mean ± SEM. Shotgun metagenomic sequencing revealed that both supplements significantly increased the relative abundance of Bacteroidota (AP: 56.7% ± 2.8%, P = 0.032; HC: 54.5% ± 3.4%, P = 0.048) compared to the Control (48.2% ± 3.1%). Concurrently, Bacillota (formerly Firmicutes) abundance decreased, significantly reducing the Bacillota/Bacteroidota ratio (formerly the Firmicutes/Bacteroidetes ratio) from 0.81 ± 0.06 (Control) to 0.58 ± 0.05 for AP (P = 0.012) and 0.64 ± 0.05 for HC (P = 0.034). Functional analysis showed that AP increased the abundance of Segatella bryantii (2.1-fold, P < 0.01), associated with a 1.52-fold enrichment in propionate metabolism pathways (P = 0.019). Phenotypically, AP significantly reduced the acetate-to-propionate ratio (AP: 2.41 vs. Control: 4.50; P = 0.0075) and methane emissions per unit of dry matter intake (CH4/DMI) (AP: 20.33 vs. Control: 24.27 g/kg; P = 0.016). HC supplementation upregulated fiber-degrading taxa such as Xylanibacter ruminicola (1.6-fold) and enriched xylanase families (GH10: 1.58-fold, P = 0.035), alongside a significant reduction in methane intensity (CH4/DMI). Total methane output, feed intake, and milk yield were not significantly changed by treatments (P > 0.05).\nCONCLUSIONS: In this short-term (24-d) controlled feeding study in mid-lactation Holstein cows, AP and HC were associated with distinct microbial and functional shifts alongside lower methane intensity, with AP linked to propanoate-related signals and HC to fiber-degrading functions; however, ruminal H2 concentration and methanogenesis/hydrogen-metabolism markers were not quantified, so the proposed mechanisms should be interpreted as plausible inferences rather than direct physiological evidence.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Apple pomace",
+      "Dairy cows",
+      "Hempseed cake",
+      "Methane mitigation",
+      "Rumen microbiome"
+    ],
+    "summary_zh": "利用鸟枪法宏基因组研究苹果渣和麻籽饼对奶牛甲烷强度和瘤胃微生物组的影响，发现两者降低甲烷强度并改变微生物组成。",
+    "innovation": "首次使用鸟枪法宏基因组揭示苹果渣和麻籽饼对奶牛瘤胃微生物组及甲烷排放的影响 | 苹果渣与丙酸代谢通路相关，麻籽饼与纤维降解功能相关 | 利用农业工业副产品实现减排与循环经济目标",
+    "limitation": "未量化瘤胃H2浓度和产甲烷/氢代谢标志物，机制推断缺乏直接生理证据 | 研究周期短（24天）",
+    "study_object": "奶牛瘤胃样本鸟枪法宏基因组",
+    "disease": "无",
+    "sample_size": "45头",
+    "ai_done": true,
+    "fetch_date": "2026-06-24"
+  }
+]
