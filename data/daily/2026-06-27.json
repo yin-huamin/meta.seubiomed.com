@@ -1,0 +1,34 @@
+[
+  {
+    "pmid": "42259341",
+    "title": "Biological and mechanistic pathways of cardiometabolic multiple long-term conditions.",
+    "doi": null,
+    "journal": "Lancet (London, England)",
+    "issn": "1474-547X",
+    "pub_date": "2026-06-27",
+    "authors": "Lim Lee-Ling; Jenkins Alicia; Prabhakaran Dorairaj; Sookoian Silvia; Bannuru Raveendhara R et al.",
+    "abstract": "Cardiometabolic multiple long-term conditions (MLTC) arise from the complex interplay of biological, sociodemographic, environmental, and behavioural factors across the life course. Shared risk factors and mechanisms, including insulin resistance, adiposity, and chronic inflammation, underpin its development. Growing evidence also implicates that even low-level, long-term exposure to fine particulate matter, nitrogen dioxide, and related pollutants can accelerate the trajectory of cardiometabolic MLTC. Early-life exposures, including undernutrition and overnutrition, altered gut microbiome, and endocrine-disrupting chemicals, interact with social determinants of health to aggravate inflammatory and metabolic dysregulation. These mechanisms, together with genetic susceptibility, epigenetic modifications, and multiomics perturbations, shape disease progression, heterogeneity, and the clustering of cardiometabolic MLTC. Yet, fundamental gaps persist, whereby most mechanistic insights are derived from single-disease studies, leaving the temporal hierarchy, causal pathways, and population-level heterogeneity largely unresolved. Addressing these challenges will require life-course research, integrative systems approaches, and translational studies that link mechanistic insights to precision prevention and therapeutic strategies. By bridging discovery with actions, such efforts can enhance care for cardiometabolic MLTC and promote equitable health outcomes globally.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Cardiovascular Diseases",
+      "Cardiometabolic Risk Factors",
+      "Environmental Exposure",
+      "Animals",
+      "Inflammation"
+    ],
+    "keywords": [],
+    "summary_zh": "综述心血管代谢多种长期病症的生物学和机制通路，指出共享风险因素及环境、微生物组等影响，强调需生命历程和整合系统研究。",
+    "innovation": "未描述",
+    "limitation": "大多数机制见解来自单一疾病研究；时间层次、因果路径和人群异质性未解决",
+    "study_object": "未描述",
+    "disease": "心血管代谢多种长期病症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-27"
+  }
+]
