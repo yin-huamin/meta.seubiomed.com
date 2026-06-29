@@ -1,0 +1,35 @@
+[
+  {
+    "pmid": "42366210",
+    "title": "Biologics for cardiovascular diseases: from bench to bedside.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-06-29",
+    "authors": "Sun Xiaochi; Wang Xinmeng; Jia Ruikun; Tang Jie; Zeng Xinyu et al.",
+    "abstract": "The rise of biologics, including recombinant proteins, gene therapies, and cell therapies, is reshaping the landscape of modern therapeutics, offering new strategies to address previously \"undruggable\" targets. Cardiovascular diseases (CVDs), the leading cause of mortality worldwide, remain inadequately managed by traditional therapies, but biologics offer a paradigm shift from symptom control to disease modification. This review provides a comprehensive analysis of biologics in cardiovascular medicine, focusing on five key biological processes: cardiac regeneration, cardiac reverse remodeling, genetic cardiomyopathy correction, vascular function modulation, and lipid metabolism modulation. Advances in cardiac regeneration are highlighted by the transplantation of pluripotent stem cells, direct reprogramming, stimulation of endogenous adult cardiomyocyte proliferation, and noncell strategies, all of which aim to restore cardiac tissue integrity. In reverse cardiac remodeling, therapies targeting key signaling pathways, metabolic processes, and contractility-enhancing agents offer promising new approaches for CVD management. The development of gene therapies targeting genetic cardiomyopathies, including gene replacement, genome editing, and gene silencing, is discussed. For vascular function modulation, therapies targeting angiotensinogen, natriuretic peptide receptor 1, and the gut microbiome have been explored as innovative approaches to regulate vascular tone and hemodynamics. Finally, lipid modulation therapies, including agents targeting proprotein convertase subtilisin/kexin type 9 (PCSK9) and atherogenic lipoproteins, have redefined the management of dyslipidemia and cardiovascular risk. Collectively, these advancements underscore the transformative potential of biologics to provide targeted, personalized, and disease-modifying treatments for CVD. By addressing both the pathophysiological roots and clinical manifestations of CVDs, biologics represent a promising frontier in cardiovascular medicine.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Cardiovascular Diseases",
+      "Proprotein Convertase 9",
+      "Biological Products",
+      "Animals",
+      "Genetic Therapy",
+      "Lipid Metabolism"
+    ],
+    "keywords": [],
+    "summary_zh": "该综述全面分析了生物制剂（重组蛋白、基因疗法、细胞疗法）在心血管疾病治疗中的应用，涵盖心脏再生、逆向重构、基因心肌病纠正、血管功能调节和脂质代谢调节五方面。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "综述，涵盖人类心血管疾病的生物治疗研究",
+    "disease": "心血管疾病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-29"
+  }
+]
