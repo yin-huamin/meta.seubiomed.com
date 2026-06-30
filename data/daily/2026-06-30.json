@@ -1,0 +1,165 @@
+[
+  {
+    "pmid": "42374831",
+    "title": "The gut-heart axis in cardio-oncology.",
+    "doi": null,
+    "journal": "Cardiovascular research",
+    "issn": "1755-3245",
+    "pub_date": "2026-06-30",
+    "authors": "Chan Nicole S L; Cross Courtney; Bowen Joanne; Prestidge Clive; Ryan Feargal J et al.",
+    "abstract": "As cancer survival rates improve, the long-term burden of treatment has become increasingly evident. Cancer survivors face a markedly higher risk of cardiovascular-related complications and premature, non-cancer-related mortality. In particular, cardiovascular disease (CVD) is disproportionately prevalent, with survivors approximately 40% more likely to develop and die from CVD compared to the general population. Although this increased morbidity reflects both acute cardiotoxic events and the later development and progression of more chronic CVDs, traditionally viewed as direct consequences of cancer therapies, the underlying mechanisms, especially those that are feasible to modify, are poorly understood. Emerging evidence positions the gut-heart axis as a central regulator of cardiovascular risk in cardio-oncology. This avenue is especially compelling to explore as the gut microbiome is well documented to be altered by cancer therapies, including chemotherapy, immune checkpoint inhibitors, targeted therapies, and radiation, with profound and persistent changes in diversity, composition and function widely reported across clinical cohorts. Comparable microbial changes have been observed in non-cancer cohorts with cardiovascular disease. For example, specific microbial metabolites have been reported to exert cardiovascular protective benefits in hypertension. Thus, there is a compelling opportunity to explore the gut microbiome to advance our understanding and ability to prevent cardiovascular disease in cancer survivors. This review synthesises current evidence linking the gut microbiome to cancer therapy-related cardiac dysfunction (CTRCD), evaluates microbial metabolites as predictive biomarkers of cardiotoxicity, and discusses microbiome-targeted modulation as an emerging strategy for improving cardiovascular outcomes in cancer survivors.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "CT",
+      "Cancer Therapy-Related Cardiac Dysfunction",
+      "Cardiovascular Health",
+      "Chemotherapy-Induced Cardiotoxicity",
+      "Immunotherapy",
+      "Microbiota",
+      "Radiotherapy"
+    ],
+    "summary_zh": "综述肠道微生物组在癌症幸存者心血管疾病中的作用，评估微生物代谢物作为心脏毒性预测标志物，讨论微生物组靶向调节策略。",
+    "innovation": "提出肠道-心脏轴作为心脏肿瘤学心血管风险的中枢调节器 | 微生物代谢物作为心脏毒性预测生物标志物 | 微生物组靶向调节作为改善心血管结局的新策略",
+    "limitation": "未描述",
+    "study_object": "癌症幸存者 肠道微生物组 多种癌症治疗（化疗、免疫检查点抑制剂等）",
+    "disease": "心血管疾病; 癌症治疗相关心脏功能障碍; 高血压",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-30"
+  },
+  {
+    "pmid": "42376755",
+    "title": "Emergence of invasive Escherichia coli pathobionts in gut microbiome promotes cancer stemness via targeting Hippo pathways.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-06-30",
+    "authors": "Yu Linda Chia-Hui; Wei Shu-Chen; Lin Been-Ren; Li Yi-Hsuan; Liao Yu-Chien et al.",
+    "abstract": "Growing evidence suggests a pivotal role of the microbiome in tumorigenesis, extending beyond genetics. Apc(Min/+) mice exhibit reduced tumor load when housed in germ-free conditions. Nevertheless, how genetic factors shape microbiota and how dysbiosis fits into the genetic paradigm of intestinal carcinogenesis remain elusive. Epithelial stemness is regulated by Wnt/Apc/β-catenin pathway, whereas Apc mutations and Hippo signaling are associated with tumor growth. Invasive pathobionts emerge from microbiota as a result of epithelial barrier dysfunction. We hypothesize that the emergence of invasive pathobionts and dysbiosis of epithelial microbiota contribute to increased cancer stemness. The epithelial and fecal microbiota are longitudinally monitored in Apc(Min/+) and wild-type littermates born to wild-type surrogate dams. Segregation of epithelial microbiota between Apc(Min/+) and wild-type mice was observed as early as eight weeks after birth, whereas fecal microbiota diverged at 20 weeks of age. Epithelial dysbiosis and barrier defects were observed in Apc(Min/+) mice, characterized by intraepithelial Escherichia coli with invasive features. While antibiotic treatment reduced cancer burden, invasive E. coli infection promoted tumorsphere formation. Higher expression of Vgll3 and Tead4 (Hippo effectors) and Cd44 (a cancer stemness marker) was observed in bacteria-infected tumorspheres. Mechanistically, bacteria augmented epithelial clonogenicity by enhancing VGLL3/TEAD4-mediated CD44 promoter activity. Invasive E. coli genetic signatures were verified in 86% of human colorectal carcinoma specimens, and a positive correlation with TEAD4 expression was observed. In conclusion, Apc mutation drives the expansion of invasive pathobionts to promote cancer stemness via a VGLL3/TEAD4/CD44 axis. Bacteria-targeting interventions could be an alternative strategy for patients with hereditary tumors.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Colorectal cancer microbiome",
+      "Hippo signaling",
+      "clonogenicity",
+      "experimental pathobiont models",
+      "hereditary cancer",
+      "intestinal epithelial cells",
+      "invasive pathobionts",
+      "stem cells",
+      "tumorigenic E. coli",
+      "tumorsphere"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-06-30"
+  },
+  {
+    "pmid": "42373816",
+    "title": "Ketogenic diet alleviates acute radiation-induced intestinal injury through JAK2/STAT3/RORγt/IL-17A signaling pathway via gut microbiome.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-06-30",
+    "authors": "Yang Jingjing; Ling Zhi; Zhou Ming; Tao Mingyang; Mao Jingxian et al.",
+    "abstract": "Emerging evidence suggests dietary interventions regulate inflammatory signaling through gut microbiome modulation, yet their therapeutic potential in radiation-induced intestinal injury (RIII) remains underexplored. This study demonstrates that ketogenic diet (KD), a high-fat and low-carbohydrate dietary regimen, exerts protective effects against RIII through dual mechanisms involving microbial regulation and inflammatory pathway inhibition. Using high-salt diet (HSD) as a dietary control, KD significantly attenuated intestinal inflammation by downregulating pro-inflammatory cytokines while enhancing barrier integrity through tight junction protein upregulation in radiation-exposed murine model. 16S rDNA sequencing showed KD enriched Akkermansia and reduced Enterobacteriaceae, whereas HSD exhibited inverse patterns. Mechanistically, RNA sequencing revealed that KD uniquely suppressed the JAK2/STAT3 pathway in RIII mice. In vitro studies demonstrated that β-hydroxybutyrate, a key ketone metabolite, effectively suppressed RORγt expression and subsequent downregulation of IL-17A gene transcription via the inhibition of JAK2/STAT3 pathway, thus mitigate inflammatory damage. Fecal microbiota transplantation validated that KD-modified microbiome directly inhibited JAK2/STAT3 signaling activation, as well as the downregulation of RORγt and IL-17A. These findings establish KD as a promising dietary strategy mitigate acute RIII through synergistic modulation of gut microbiota and inflammatory signaling, providing novel insights into nutritional approaches targeting microbial-host crosstalk in radiation injury.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "生酮饮食通过调节肠道微生物群抑制JAK2/STAT3/RORγt/IL-17A通路，减轻急性辐射诱导的肠道损伤。",
+    "innovation": "首次揭示生酮饮食通过双重机制（微生物调节和炎症通路抑制）保护辐射性肠损伤 | 发现β-羟基丁酸通过JAK2/STAT3抑制RORγt/IL-17A转录 | 粪菌移植证实KD修饰的微生物直接抑制JAK2/STAT3信号",
+    "limitation": "未描述",
+    "study_object": "辐射暴露小鼠模型 + 肠道组织 + 16S rDNA和RNA测序 + 体外细胞实验",
+    "disease": "急性辐射诱导的肠道损伤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-30"
+  },
+  {
+    "pmid": "42374181",
+    "title": "Targeting the crosstalk between Alzheimer's disease and gastrointestinal cancers.",
+    "doi": null,
+    "journal": "Molecular medicine (Cambridge, Mass.)",
+    "issn": "1528-3658",
+    "pub_date": "2026-06-30",
+    "authors": "Gong Rui; Wang Hao; Cao Lei; Niu Haijing; Rominger Axel et al.",
+    "abstract": "Epidemiological studies have revealed an inverse association between Alzheimer's disease and cancer. Here, we discuss the mechanisms involved in the relationship between Alzheimer's disease and gastrointestinal cancers, particularly pancreatic and gastric-colorectal cancers. The gut‒brain axis and pancreas‒brain axis connect the central nervous system with peripheral organs and form immune‒metabolic networks. We focus on bidirectional tumor-brain communication, involving cell-death pathways, apoptosis, metabolic dysregulation, microbiota, metabolic dysregulation, neuroinflammation, immune system and sensory-sympathetic circuits, and neural remodeling. Furthermore, we discuss potential integrated, multitarget therapeutic strategies, including metabolic regulation, microbiome interventions, and immune modulation. Prospective longitudinal cohorts incorporating prediagnostic exposures and molecular pathology are needed to establish temporality.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Alzheimer's disease",
+      "Gastrointestinal cancer",
+      "Gut‒brain axis",
+      "Organ‒organ communication",
+      "Pancreas‒brain axis",
+      "Pancreatic cancer"
+    ],
+    "summary_zh": "探讨阿尔茨海默病与胃肠道癌症的双向相互作用机制及潜在整合治疗策略。",
+    "innovation": "未描述",
+    "limitation": "需要前瞻性纵向队列以确定时间顺序",
+    "study_object": "阿尔茨海默病和胃肠道癌症患者",
+    "disease": "阿尔茨海默病，胃肠道癌症（胰腺癌、胃癌、结直肠癌）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-30"
+  },
+  {
+    "pmid": "42335240",
+    "title": "Fasting primes small intestinal regeneration after damage via a microbiome-metabolite-chromatin axis.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-06-30",
+    "authors": "Barrodia Praveen; Saw Ajay Kumar; Jeter-Jones Sabrina L; Chang Chia-Chi; Shao Jiansu et al.",
+    "abstract": "Fasting enhances small intestinal regeneration after radiation, but the contribution of the gut microbiome to this process remains uncharacterized. We identify Akkermansia muciniphila (AKK) as a key mediator of this response. AKK was enriched in fasted mice and its antibiotic depletion abrogated radioprotection, whereas reintroduction restored both organismal survival and intestinal integrity. Fasting elevated propionic acid, consistent with AKK's metabolic output. AKK-conditioned medium and propionate induced histone H3 acetylation in intestinal stem cell cultures while in vivo fasting induced AKK-dependent H3K27ac and H3K9ac, remodeling promoter-enhancer landscapes in crypt epithelial cells. Epigenetic profiling revealed a rewired core regulatory program enriched for pioneer transcription factors (Foxa, Gata, Klf), architectural organizers (Ctcf, Boris), and lineage-defining and metabolic regulators (Cdx2, Hnf4). This program supports expansion of a population of primed persister cells characterized by open chromatin accessibility at key stem and regenerative-associated loci including Clu, Olfm4, Lgr5, Ascl2, Lrig1, Sox9, Rnf43, and Axin2. These findings define a fasting-induced microbiome-metabolite-chromatin axis that epigenetically primes highly plastic persister cells for rapid regeneration of the intestinal epithelium following radiation-induced injury.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Regeneration",
+      "Mice",
+      "Intestine, Small",
+      "Chromatin",
+      "Fasting",
+      "Microbiota",
+      "Epigenesis, Genetic",
+      "Mice, Inbred C57BL"
+    ],
+    "keywords": [
+      "fasting",
+      "microbiome",
+      "radiation",
+      "regeneration",
+      "stem cell"
+    ],
+    "summary_zh": "禁食通过富集Akkermansia muciniphila和丙酸，诱导组蛋白乙酰化，重塑染色质景观，增强小肠辐射后再生。",
+    "innovation": "鉴定Akkermansia muciniphila作为禁食后小肠再生的关键介导者 | 揭示禁食诱导的微生物组-代谢物-染色质轴驱动组蛋白乙酰化 | 发现具有开放染色质的“primed persister”细胞群，支持快速再生",
+    "limitation": "未描述",
+    "study_object": "小鼠（禁食）小肠组织及隐窝上皮细胞，结合微生物组、代谢组和表观遗传学分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-06-30"
+  }
+]
