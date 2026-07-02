@@ -1,0 +1,45 @@
+[
+  {
+    "pmid": "42387604",
+    "title": "Dynamic alterations and potential roles of gut microbiota and metabolites in Angiostrongylus cantonensis-infected mice and rats.",
+    "doi": null,
+    "journal": "Infectious diseases of poverty",
+    "issn": "2049-9957",
+    "pub_date": "2026-07-02",
+    "authors": "Hu Yue; Chen Jian-Song; Zhou Min-Yu; Huang Hui; Zhou Yun-Fei et al.",
+    "abstract": "BACKGROUND: Angiostrongyliasis, a food-borne parasitic disease caused by Angiostrongylus cantonensis, is characterized by eosinophilic meningitis or meningoencephalitis, leading to serious central nervous system damage. Current diagnostic methods lack specificity or sensitivity, and the pathogenesis is complex and incompletely understood. This study aimed to comprehensively characterize the dynamic alterations in the gut microbiota and host metabolism in both suitable (rats) and non-suitable (mice) hosts following A. cantonensis infection and to identify potential metabolic biomarkers for early diagnosis.\nMETHODS: Female BALB/c mice and Sprague Dawley rats (n = 10/group) were infected with 30 or 100 third-stage larvae, respectively. Serum, urine, feces, and brain samples were collected longitudinally. Gut microbiota was analyzed via 16S rRNA gene sequencing and metagenomics. Host metabolism was profiled using untargeted and targeted metabolomics via ultraperformance liquid chromatography-quadrupoles/time of flight-mass spectrometry. Statistical analyses included Wilcoxon rank sum test, linear discriminant effect size analysis, Spearman correlation analysis, orthogonal partial least squares-discriminatory analysis, and receiver operating characteristic curve analysis.\nRESULTS: Infection induced significant, host-specific gut microbiota dysbiosis. In infected hosts, Firmicutes decreased (P < 0.05) while Bacteroidetes increased (P < 0.05). A main difference in gut flora structure between infected hosts was observed in Prevotellaceae, which increased significantly in mice (P < 0.05) but decreased in rats (P < 0.05). Metagenomics revealed enhanced carbohydrate metabolism and fatty acid biosynthesis in gut microbes of infected mice, whereas up-regulated amino acid and vitamin metabolism were also observed in infected rats. Infection caused pronounced disruptions in host lipid and bile acid (BA) metabolism, changes in various BA types were closely related to alterations in specific bacterial genera (P < 0.05). Several metabolites, including phosphatidylcholine (16:0/18:1), 2-phenyl acetic acid, 2-octenoylglycine, lysophosphatidylcholine (18:2), O-glucuronide, and 2-carboxylic acid, were identified as potential early diagnostic biomarkers in the mouse model.\nCONCLUSIONS: A. cantonensis infection causes profound host-specific dysregulation of the gut microbiome and metabolome, with severe disturbances in Firmicutes, Bacteroidetes, lipid and BA metabolism being central features. These alterations highlight the critical role of the host-gut microbiota-metabolite axis in pathogenesis and offer novel insights for developing diagnostic and therapeutic strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Female",
+      "Angiostrongylus cantonensis",
+      "Rats, Sprague-Dawley",
+      "Strongylida Infections",
+      "Rats",
+      "Gastrointestinal Microbiome",
+      "Mice",
+      "Mice, Inbred BALB C",
+      "RNA, Ribosomal, 16S",
+      "Biomarkers",
+      "Feces"
+    ],
+    "keywords": [
+      "Angiostrongylus cantonensis",
+      "Biomarker",
+      "Gut microbiome",
+      "Metabolomics",
+      "Microbiota-gut-brain axis"
+    ],
+    "summary_zh": "本研究通过16S rRNA测序、宏基因组学和代谢组学分析，揭示了广州管圆线虫感染小鼠和大鼠后肠道菌群和代谢物的宿主特异性动态变化，并鉴定了早期诊断的潜在代谢生物标志物。",
+    "innovation": "同时比较合适宿主（大鼠）和非合适宿主（小鼠）的肠道菌群和代谢反应 | 发现Prevotellaceae在两种宿主中变化方向相反 | 鉴定出多种代谢物作为早期诊断生物标志物",
+    "limitation": "未描述",
+    "study_object": "感染广州管圆线虫的小鼠（BALB/c）和大鼠（Sprague Dawley）的粪便、血清、尿液和脑样本，使用16S rRNA测序、宏基因组学和代谢组学分析",
+    "disease": "血管圆线虫病（嗜酸性粒细胞性脑膜炎/脑膜脑炎）",
+    "sample_size": "每组10只",
+    "ai_done": true,
+    "fetch_date": "2026-07-02"
+  }
+]
