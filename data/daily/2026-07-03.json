@@ -1,0 +1,31 @@
+[
+  {
+    "pmid": "42396658",
+    "title": "ABCG2 transporter: Structural and functional associations with gout (Review).",
+    "doi": null,
+    "journal": "International journal of molecular medicine",
+    "issn": "1791-244X",
+    "pub_date": "2026-07-03",
+    "authors": "Asif Muhammad Arslan; Zulfiqar Zeshan; Mustafa Bahar E; Nazir Usman; Sun Jiamen et al.",
+    "abstract": "ATP‑binding cassette sub‑family G member 2 (ABCG2) is a key regulator of urate homeostasis, and its dysfunction is a major genetic risk factor for hyperuricemia and gout in humans and animals. Initially, ABCG2 was known for its role in multidrug resistance. ABCG2 has since been identified as a high‑capacity urate efflux pump, located at the apical membranes of renal proximal tubules, intestinal enterocytes and hepatic canaliculi. The present review covers the molecular structure, physiological functions and pathophysiological effects of ABCG2, with particular focus on the common Q141K (rs2231142) loss‑of‑function variant. The Q141K variant impairs protein stability and trafficking, reducing urate transport and increasing the risk of gout and cardiorenal comorbidities. The present review explores the central role of ABCG2 within the urate transportome, highlighting its contrasting and cooperative interactions with reabsorptive and secretory transporters, as well as its regulation by novel mechanisms, including the gut microbiome and microbial metabolites. These observations have significant clinical implications for pharmacogenomic approaches, as Q141K variant carriers exhibit a reduced response to uricosuric drugs. The present review also highlights emerging treatments that go beyond standard urate‑lowering therapies, including ABCG2 activators, microbiome modulators and gene‑editing techniques, offering a potential shift toward personalized gout prevention and treatment. Understanding the multifaceted role of ABCG2 is essential for developing targeted strategies to address the root cause of impaired urate excretion.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "ATP‑binding cassette sub‑family G member 2",
+      "gout",
+      "hyperuricemia",
+      "pharmacogenomics"
+    ],
+    "summary_zh": "综述ABCG2转运蛋白与痛风的结构功能关联，强调Q141K变异及肠道微生物调控作用。",
+    "innovation": "揭示ABCG2与重吸收和分泌转运蛋白的对比协同作用 | 提出肠道微生物及其代谢物对ABCG2的调控 | 介绍ABCG2激活剂、微生物调节剂和基因编辑等新兴疗法",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "痛风，高尿酸血症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-03"
+  }
+]
