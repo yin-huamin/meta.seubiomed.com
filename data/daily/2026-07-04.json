@@ -1,0 +1,91 @@
+[
+  {
+    "pmid": "42399985",
+    "title": "Gut microbiota-derived extracellular vesicles: bridging microbial-host crosstalk in metabolic disorders.",
+    "doi": null,
+    "journal": "Cell communication and signaling : CCS",
+    "issn": "1478-811X",
+    "pub_date": "2026-07-04",
+    "authors": "Ma Kaile; Zhang Qiqi; Jin Zishan; Hao Rui; Sun Xiao et al.",
+    "abstract": "Gut microbiota-derived extracellular vesicles have emerged as crucial mediators in microbe-host communication, not only facilitating intracellular communication, quorum sensing, and horizontal gene transfer among bacteria but also playing a central role in cross-kingdom dialogue. In recent years, bacterial extracellular vesicles (BEVs) have attracted widespread attention due to their ability to carry a diverse array of bioactive molecules-such as proteins, lipids, and nucleic acids-and deliver them to host cells, thereby precisely regulating host metabolic and immune homeostasis. This review systematically elaborates the entire biological process of BEVs, from their biogenesis to functional interactions with host cells, with a specific emphasis on revealing their roles in the pathogenesis of various metabolic diseases-including obesity, type 2 diabetes (T2DM), metabolic dysfunction-associated steatotic liver disease (MASLD), atherosclerosis, and hypertension-at both molecular and cellular levels. Furthermore, leveraging their inherent stability, biocompatibility, and targeting capabilities, we discuss the translational potential and challenges of BEVs in the diagnosis and treatment of metabolic disorders. Beyond summarizing the latest research advances on BEVs in metabolic disorders, this review provides a critical analysis of current mechanistic insights and clinical translation pathways, aiming to establish a theoretical framework for developing novel microbiome-based metabolic interventions. Deciphering the BEV-mediated microbiota-host interaction network holds promise for pioneering new strategies for the precision prevention and treatment of metabolic disease.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Gut microbiota",
+      "Gut microbiota-derived extracellular vesicles",
+      "Metabolic diseases",
+      "Metabolic dysfunction-associated steatotic liver disease",
+      "Obesity",
+      "Type 2 diabetes"
+    ],
+    "summary_zh": "综述肠道菌群来源的细胞外囊泡在代谢疾病中的作用机制及转化潜力，强调其调控宿主代谢免疫稳态的关键角色。",
+    "innovation": "系统阐述细菌胞外囊泡从生物发生到与宿主细胞功能互作的完整生物学过程 | 从分子和细胞层面揭示其在多种代谢疾病发病机制中的作用 | 讨论其诊断和治疗转化中的潜力与挑战",
+    "limitation": "未描述",
+    "study_object": "肠道菌群来源的细胞外囊泡 + 宿主细胞 + 代谢疾病",
+    "disease": "肥胖、2型糖尿病、代谢相关脂肪性肝病、动脉粥样硬化、高血压",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-04"
+  },
+  {
+    "pmid": "42400043",
+    "title": "Multi-omics profiles of sex hormone-binding globulin are associated with subclinical atherosclerosis in men with HIV.",
+    "doi": null,
+    "journal": "Genome medicine",
+    "issn": "1756-994X",
+    "pub_date": "2026-07-04",
+    "authors": "Wang Yi; Xue Xiaonan; Usyk Mykhaylo; Sharma Anjali; Anastos Kathryn et al.",
+    "abstract": "BACKGROUND: Sex hormones and HIV infection both influence cardiovascular health. However, the association between sex hormones and subclinical atherosclerosis is not fully understood, especially in the context of HIV.\nMETHODS: Among 321 men (65% with HIV) from the MACS/WIHS Combined Cohort Study, we measured 14 serum sex hormones and sex hormone-binding globulin (SHBG), assessed carotid artery plaque (IMT > 1.5 mm) using high-resolution B-mode ultrasound, and performed metagenomic sequencing on stool samples. In 312 men, we measured 986 plasma metabolites via liquid chromatography-tandem mass spectrometry and 2883 plasma proteins using the Olink Explore 3072 platform. In stratified analyses of men with (MWH) and without HIV (MWOH) and adjusting for covariates and multiple testing, we (1) examined associations of sex hormones with plaque; (2) characterized multi-omics profiles related to sex hormones; and (3) generated sex hormone-related omics scores via linear combination of related species, metabolites, and proteins, respectively, to explore whether these sex hormone-related multi-omics profiles were associated with plaque.\nRESULTS: Median age of participants was 62 years (interquartile range: 58-68), and 31.5% had carotid artery plaque. Sex hormones were differentially associated with plaque in MWH and MWOH. In MWH, an inverse association was observed between SHBG and plaque (OR = 0.60 per 1-SD increase, 95% CI: 0.41, 0.90). Furthermore, higher SHBG levels were associated with overall gut microbial composition, lower abundance of species from genera Prevotella, Fibrobacter and Coprococcus, higher levels of certain metabolites (primarily lipid and carnitine metabolites) and proteins enriched in the cell-cell adhesion pathway. Some SHBG-related species (e.g., Mediterranea massiliensis), metabolites (e.g., phosphatidylcholine-based lipids) and proteins (e.g., enriched in immune response pathway) were also associated with plaque in MWH. All three SHBG-related omics scores were inter-correlated and inversely associated with plaque in MWH. In MWOH, estrone-sulfate was positively associated with plaque (OR = 3.80, 95% CI: 1.41, 10.22) but not with any species, metabolites or proteins.\nCONCLUSIONS: Higher SHBG, and related microbial species, circulating metabolites, and proteins, were inversely associated with carotid artery plaque. These findings suggested that SHBG may play a protective role in subclinical atherosclerosis in MWH.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Carotid artery plaque",
+      "Gut microbiome",
+      "HIV infection",
+      "Metabolomics",
+      "Multi-omics",
+      "Proteomics",
+      "Sex hormone",
+      "Sex hormone-binding globulin (SHBG)"
+    ],
+    "summary_zh": "在HIV男性中，SHBG与颈动脉斑块负相关，其相关的多组学特征亦与斑块相关。",
+    "innovation": "首次在HIV男性中探讨SHBG与亚临床动脉粥样硬化的多组学关联 | 整合宏基因组、血浆代谢组和蛋白质组分析 | 发现SHBG相关组学评分与斑块负相关",
+    "limitation": "未描述",
+    "study_object": "人类男性（HIV阳性与阴性）粪便样本（宏基因组测序）和血浆样本（液相色谱-串联质谱代谢组学、Olink蛋白质组学）",
+    "disease": "亚临床动脉粥样硬化（颈动脉斑块）",
+    "sample_size": "321例（宏基因组）；312例（代谢组与蛋白质组）",
+    "ai_done": true,
+    "fetch_date": "2026-07-04"
+  },
+  {
+    "pmid": "42399687",
+    "title": "Fermentative iron reduction by a psychrotolerant Clostridium-dominant consortium enriched from Antarctic penguin-impacted soils.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-07-04",
+    "authors": "Wang Xin; Wang Hongyan; Wang Xuhao; Liao Hengyi; Yang Jiaojiao et al.",
+    "abstract": "Microbial iron cycling regulates nutrient availability and redox balance in global ecosystems, yet its pathways remain underexplored in ice-free Antarctic terrestrial ecosystems. This study reports the enrichment of a psychrotolerant microbial consortium from penguin-impacted soils on Beaufort Island, Antarctica, capable of reducing Fe(III) to Fe(II) at 4 °C via an anaerobic (likely fermentative) iron-reducing pathway. The consortium was dominated by Clostridium sensu stricto 13 and completely reduced 230 mg L-1 Fe(III) citrate within three months and drove the biogenic formation of magnetite (Fe3O4). Metagenomic binning yielded four high-quality Clostridium genomes harboring multiple hydrogenases and cold-shock proteins (csp), revealing genomic strategies for energy conservation and psychrotolerance. Hydrogen production was strongly suppressed in the presence of Fe(III) citrate, indicating an intimate coupling of fermentation-derived electron flow to Fe(III) reduction. Our findings reveal a previously unrecognized low-temperature iron reduction mechanism and highlight the ecological significance of anaerobic (likely fermentative) iron reducers in ornithogenic soils-microhabitats enriched in organic matter and metals by penguin guano. This work expands the known diversity of Fe(III)-reducing microorganisms, demonstrates their role in magnetite biomineralization under extreme conditions, and provides insights into microbial modulation of iron speciation in Antarctic ornithogenic soils.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "从南极企鹅影响土壤富集耐冷梭菌联合体，发现其通过发酵铁还原将Fe(III)还原为Fe(II)并形成磁铁矿，揭示低温铁还原新机制。",
+    "innovation": "发现低温铁还原新机制 | 扩展Fe(III)还原微生物多样性 | 证明极端条件下磁铁矿生物矿化作用",
+    "limitation": "未描述",
+    "study_object": "南极企鹅影响土壤微生物联合体（富集培养+宏基因组）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-04"
+  }
+]
