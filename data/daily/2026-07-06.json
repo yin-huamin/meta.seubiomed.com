@@ -1,0 +1,67 @@
+[
+  {
+    "pmid": "42402338",
+    "title": "Pre-treatment Gut Microbiome Diversity and Function Linked to Cytotoxic and Natural Killer Cell Immune Responses after N-803 Treatment in People with HIV.",
+    "doi": null,
+    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+    "issn": "1537-6591",
+    "pub_date": "2026-07-06",
+    "authors": "Chakrawarti Ashma; Cromarty Ross T; Basting Christopher M; Anderson Jodi; Schroeder Ty A et al.",
+    "abstract": "BACKGROUND: N-803, an IL-15 superagonist, is currently being studied in clinical trials as a treatment to reverse HIV latency. However, its effects on the gut microbiome are not well understood.\nMETHODS: In this exploratory longitudinal metagenomic study, we analyzed fecal microbiomes from 10 ART-suppressed people with HIV at four different timepoints before, during, and after N-803 treatment.\nRESULTS: Overall taxonomic and functional diversity did not change significantly, yet beneficial microbial taxa and pathways were nominally enriched after N-803. Specifically, the relative abundance of Faecalibacterium prausnitzii showed a nominal increase after N-803, whereas histidine degradation pathways, often associated with pro-inflammatory mucosal state, decreased. A higher baseline microbial diversity correlated with stronger CD8+ and natural killer (NK) cells activation and reduced frequency of rectal HIV RNA+ cells. MaAsLin2 analyses further identified potentially important associations between short-chain fatty acid (SCFA)-producing taxa and pathways with increased immune activation markers.\nCONCLUSIONS: These findings in a limited Phase 1B clinical study suggest that gut microbiome diversity prior to immunotherapy may influence host response. These results provide a basis for further investigation into microbiome-based strategies to improve efforts to cure HIV.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Faecalibacterium",
+      "Baseline diversity",
+      "Fecal microbiome",
+      "HIV reservoirs",
+      "Immune activation markers",
+      "Immunotherapy",
+      "N-803",
+      "SCFAs",
+      "cure therapy"
+    ],
+    "summary_zh": "本研究通过宏基因组分析10名HIV感染者N-803治疗前后粪便菌群，发现基线微生物多样性与NK、CD8+细胞免疫应答相关。",
+    "innovation": "基线肠道微生物多样性可预测N-803治疗后免疫细胞激活反应 | 发现短链脂肪酸产生菌与免疫激活标志物的关联",
+    "limitation": "样本量小（仅10人） | 探索性研究，结论需进一步验证",
+    "study_object": "HIV感染者粪便样本 + 宏基因组测序",
+    "disease": "HIV",
+    "sample_size": "10",
+    "ai_done": true,
+    "fetch_date": "2026-07-06"
+  },
+  {
+    "pmid": "42402612",
+    "title": "Cichorium intybus L. polysaccharide improves growth performance and colonic barrier function in weaned piglets via the microbiota-HDCA-TGR5-Akt-NF-κB signaling axis: validation by FMT and in vitro models.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-07-06",
+    "authors": "Cao Li; Zhang Ge; Zhang Gang; Zhang Fudong; Li Wenhan et al.",
+    "abstract": "BACKGROUND: Weaning stress predisposes piglets to intestinal barrier disruption and gut dysbiosis, which contribute to post-weaning diarrhea and poor feed efficiency. Chicory (Cichorium intybus L.) polysaccharide (CLP) is a fructan-rich prebiotic candidate; however, how CLP reshapes the microbiota-metabolite network to protect the colon remains unclear.\nMETHODS: In Exp. 1, 96 weaned piglets [Duroc × (Landrace × Yorkshire), 28 days old, 8.03 ± 0.2 kg] were fed a basal diet (CON group) or a 0.5% CLP supplemented diet (CLP group). In Exp. 2, fecal microbiota from piglets were transplanted into dextran sulfate sodium (DSS)-induced mice to confirm the causal role of the CLP-remodeled microbiota. Metagenomic and untargeted metabolomic analyses were employed to identify key microbial species and functional metabolites. In Exp. 3, Caco-2 cells were treated with varying concentrations of hyodeoxycholic acid (HDCA) for 24 h to functionally validate the regulatory effects on TGR5 and FXR expression levels.\nRESULTS: The results showed that dietary CLP significantly decreased the feed to gain ratio, diarrhea rate and histology index (P < 0.05), but increased goblet cell numbers (P < 0.05). Metagenomic sequencing revealed that CLP significantly increased microbial α-diversity and remodeled the community structure, specifically enriching beneficial microbes, such as Blautia sp., Eubacterium sp., and Ruminococcus sp. To test microbiota causality, fecal microbiota from CON or CLP piglets was transplanted into antibiotic treated mice followed by DSS challenge. The CLP modified microbiota alleviates DSS induced colitis, upregulated Occludin and ZO-1 expression, and reduced colonic IL-1β and TNF-α levels. Mechanistically, the CLP remodeled microbiota promoted the accumulation of HDCA, which functioned as a signaling ligand to activate the colonic TGR5 receptor. This activation subsequently suppressed the phosphorylation of Akt (P < 0.05), leading to the inhibition of the NF-κB signaling pathway through the reduced phosphorylation of IκBα and the p65 subunit (P < 0.05), thereby effectively abrogating the inflammatory response.\nCONCLUSION: Dietary CLP supplementation mitigates weaning induced intestinal injury and inflammation by remodeling the colonic microbiota, specifically enriching HDCA-producing species. The subsequent activation of the HDCA-TGR5-Akt signaling axis inhibits the NF-κB pathway, thereby improving host immune responses and intestinal barrier function.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cichorium intybus L. polysaccharide",
+      "Hyodeoxycholic acid",
+      "Intestinal barrier",
+      "NF-κB pathway",
+      "TGR5-Akt axis",
+      "Weaned piglets"
+    ],
+    "summary_zh": "研究菊苣多糖通过重塑菌群、促进HDCA产生，激活TGR5-Akt-NF-κB通路，改善断奶仔猪生长和结肠屏障。",
+    "innovation": "揭示了CLP通过菌群-HDCA-TGR5-Akt-NF-κB轴改善肠屏障的机制 | 使用FMT和体外模型验证了菌群因果作用",
+    "limitation": "未描述",
+    "study_object": "断奶仔猪结肠内容物（粪便）宏基因组和代谢组学分析、FMT及体外Caco-2细胞模型",
+    "disease": "断奶应激；结肠炎（DSS诱导）",
+    "sample_size": "96头断奶仔猪（Exp.1）",
+    "ai_done": true,
+    "fetch_date": "2026-07-06"
+  }
+]

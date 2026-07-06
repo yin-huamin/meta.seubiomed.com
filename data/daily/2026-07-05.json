@@ -1,0 +1,27 @@
+[
+  {
+    "pmid": "42402632",
+    "title": "Microbiota-gut-brain axis in autism spectrum disorder: integrating brain structure, function, and transcriptomics.",
+    "doi": null,
+    "journal": "Translational psychiatry",
+    "issn": "2158-3188",
+    "pub_date": "2026-07-05",
+    "authors": "Wang Guoping; Liu Wenjing; Chen Yueqin; Zhang Shujun",
+    "abstract": "Growing evidence indicates that disruption of the microbiota-gut-brain (MGB) axis is a key factor in autism spectrum disorder (ASD), affecting neurodevelopment, neural circuit function, and behavior. This review synthesizes multidisciplinary data to clarify mechanistic links between the MGB axis and ASD and to evaluate microbiota-targeted therapeutic strategies. We conducted a narrative synthesis of clinical and translational studies, including human cohort and case-control investigations, animal models, multi-omics analyses, immune profiling, multimodal brain assessments (structural/functional MRI and transcriptomics), and interventional trials. Emphasis was placed on evidence of microbiota-brain associations, intervention outcomes, and methodological limitations. Key findings reveal that individuals with ASD commonly exhibit gut microbiome dysbiosis and altered metabolomic signatures that can influence central nervous system function; three core bidirectional signaling routes link gut microbes to brain outcomes-microbial metabolite production (e.g., short-chain fatty acids, tryptophan metabolites), immune-mediated pathways, and neuroendocrine-vagal communication. Accumulating data associate ASD-related microbial profiles with changes in brain structure, functional connectivity, and transcriptomic patterns, supporting a mechanistic role for the MGB axis in ASD phenotypes. Microbiota-targeted interventions show promising effects on gastrointestinal symptoms, metabolic biomarkers, and selected behavioral measures in small studies, but results are heterogeneous and current evidence is insufficient for widespread clinical application. Integrating multimodal neuroimaging with multi-omics and machine learning provides a promising framework to identify reproducible microbial-brain biomarkers for early detection, clinical subtyping, and stratified treatment. Key challenges include methodological heterogeneity, limited causal inference, small and heterogeneous cohorts, and ethical/safety concerns for pediatric interventions. The MGB axis is a plausible pathogenic mechanism and therapeutic target in ASD. Translating mechanistic insights into precision clinical applications requires standardized, multicenter, longitudinal deep-phenotyping studies that combine multimodal imaging, comprehensive multi-omics, rigorous randomized trials, and careful ethical oversight.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述微生物-肠-脑轴在自闭症中的机制，整合多模态脑成像与多组学，指出微生物靶向干预的潜力及挑战。",
+    "innovation": "综合多学科数据阐明MGB轴与ASD的机制联系 | 提出整合多模态神经影像与多组学及机器学习的框架",
+    "limitation": "方法学异质性和因果推断有限 | 样本量小且异质，儿科干预存在伦理和安全问题",
+    "study_object": "人类自闭症谱系障碍患者及动物模型，粪便、血液等样本，采用宏基因组、代谢组、脑结构/功能MRI及转录组学技术",
+    "disease": "自闭症谱系障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-05"
+  }
+]
