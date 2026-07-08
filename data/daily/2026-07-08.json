@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "41395680",
+    "title": "ALARA in Antimicrobial Stewardship: Adapting Radiation Safety Principles to Address Antibiotic Overuse.",
+    "doi": null,
+    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+    "issn": "1537-6591",
+    "pub_date": "2026-07-08",
+    "authors": "Aldewereld Zachary T; Megli Christina J; Olson Adam C; Morowitz Michael J",
+    "abstract": "Despite decades of antimicrobial stewardship programs, antibiotic overuse persists due to imprecise guidelines relying on subjective terms such as \"optimal\" and \"appropriate\" use. Current stewardship approaches lack a unifying communication framework that effectively bridges technical recommendations with real-world prescribing decisions across medical specialties. We propose adapting ALARA (As Low As Reasonably Achievable) from radiation safety as a transformative framework for antibiotic stewardship. Like radiation, antibiotics provide indisputable benefits while carrying hidden cumulative costs-including microbiome disruption, immune dysfunction, and increased mortality in specific populations. ALARA's three pillars (justification, optimization, and dose limitation) map directly to antimicrobial stewardship needs and could standardize prescribing approaches across specialties. This framework addresses the distributed nature of antibiotic prescribing by providing clear principles that transcend subjective judgments. By treating antibiotics as beneficial but inherently risky interventions requiring careful justification, ALARA could reduce unnecessary exposure while maintaining efficacy, ultimately improving both patient outcomes and global antimicrobial resistance patterns.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "ALARA",
+      "antibiotic stewardship",
+      "antimicrobial resistance",
+      "microbiome",
+      "radiation safety"
+    ],
+    "summary_zh": "提出将辐射安全ALARA原则用于抗生素管理，通过正当性、优化和剂量限制标准化处方，减少过度使用并维持疗效。",
+    "innovation": "跨学科借用辐射安全ALARA框架解决抗生素过度使用 | 提供统一沟通原则跨越医学专业，替代主观术语",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-08"
+  }
+]
