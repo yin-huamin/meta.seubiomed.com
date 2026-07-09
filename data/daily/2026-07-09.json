@@ -1,0 +1,97 @@
+[
+  {
+    "pmid": "42422949",
+    "title": "Vascular Health and Gender-Affirming Hormone Therapy: The Immune System in Motion.",
+    "doi": null,
+    "journal": "Arteriosclerosis, thrombosis, and vascular biology",
+    "issn": "1524-4636",
+    "pub_date": "2026-07-09",
+    "authors": "Santos Jeimison D; Elias-Oliveira Jefferson; Cipriano Ualter G; Vargas-Pinilla Pedro; Carlos Daniela et al.",
+    "abstract": "Given that fluctuations in sex hormone levels greatly influence cardiovascular homeostasis, this review addresses how gender-affirming hormone therapy impacts vascular function and the immune system, and how these effects may contribute to altered cardiovascular performance in transgender individuals. Gender-affirming hormone therapy alters leukocyte activation and cytokine secretion, that may impact vascular responsiveness, with distinct effects in feminizing and masculinizing regimens. Moreover, gender-affirming hormone therapy-induced changes in the gut microbiome and body composition, together with factors such as sex chromosomes, and environmental stressors may further modulate inflammatory states with potential consequences for cardiovascular health. This review also discusses factors that limit current research, contributing to inconsistent findings and persistent gaps in understanding the cardiovascular and immunologic effects of gender-affirming hormone therapy, along with directions for future studies. Although available data remain limited, understanding these interconnections is essential for optimizing therapeutic strategies, improving cardiovascular health, and fostering more inclusive clinical practices for the transgender community.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "adipose tissue",
+      "cytokines",
+      "estrogen",
+      "inflammation",
+      "testosterone"
+    ],
+    "summary_zh": "综述性别肯定激素疗法对血管功能和免疫系统的影响及其在跨性别个体中的心血管效应，涉及微生物组等因素。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "跨性别个体",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-09"
+  },
+  {
+    "pmid": "42421628",
+    "title": "Global Landscape of Publicly Available Human Oral Microbiome Data.",
+    "doi": null,
+    "journal": "Journal of dental research",
+    "issn": "1544-0591",
+    "pub_date": "2026-07-09",
+    "authors": "Chen X; Jamieson L; Weyrich L S; Nath S",
+    "abstract": "Despite rapid growth in oral microbiome research, it remains unclear how well publicly available data reflect the diversity of the global human population. This study systematically evaluated the geographic and sampling-type representativeness of publicly available human oral microbiome data. A global meta-research analysis of publicly available human oral microbiome records in the NCBI BioSample database released up to December 31, 2025, was conducted. Records were retrieved, harmonized, and analyzed across 4 dimensions: geographic origin, oral sampling type, temporal trends, and population-adjusted representation using a derived representation index (RI). A total of 222,454 BioSamples from 1,600 studies were identified, spanning 92 countries and 4 major oral sampling-type groups: oral fluids, oral mucosa and surfaces, dental plaque and calculus, and special or lesion-associated sites. Geographic distribution was highly concentrated; nearly half of all geographically annotated samples originated from the United States and China, while 61% of countries worldwide contributed no samples. Low- and middle-income regions, including Central and Southern Asia (RI = -12.76) and Sub-Saharan Africa (RI = -11.21), were underrepresented relative to their population sizes. Sampling-type distribution was similarly uneven, with saliva samples comprising more than half of all samples. In contrast, disease-relevant sites, including carious lesions, periapical lesions, and the dental pulp, each represented less than 0.2% of the dataset. Together, these findings underscore that publicly available human oral microbiome data remain unevenly distributed across geographic origin and sampling types, reflecting structural and practical factors that have persisted over time. Deliberate efforts to improve global representation, sampling diversity, and metadata standardization are needed to build a more scientifically robust oral microbiome evidence base.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "global health",
+      "high-throughput sequencing",
+      "metagenomics",
+      "microbiota",
+      "oral cavity",
+      "whole-genome shotgun sequencing"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-07-09"
+  },
+  {
+    "pmid": "42418776",
+    "title": "Nutrition Therapy in Critically Ill Adults.",
+    "doi": null,
+    "journal": "The New England journal of medicine",
+    "issn": "1533-4406",
+    "pub_date": "2026-07-09",
+    "authors": "Patel Jayshil J; McClave Stephen A",
+    "abstract": "In the acute phase of critical illness, adults have severe catabolism, inflammation, muscle loss, and gut dysfunction, all of which shape nutritional requirements. Early enteral nutrition supports gut integrity and microbiome health, but trials have shown that early short-term parenteral nutrition is a safe alternative when enteral feeding is not possible. Large trials have shown that early full-dose energy delivery offers no benefit over restrictive dosing and may increase gastrointestinal and metabolic complications, findings that support a restrictive nutrition strategy, especially in patients who have circulatory shock or are at risk for refeeding syndrome. Similarly, large trials have shown no advantage of high-dose over standard-dose protein and suggest harm in patients with acute kidney injury. Because adverse events are common with enteral nutrition, safe nutrition delivery requires gradual advancement, strategies for prevention of refeeding syndrome, glycemic control, and avoidance of routine gastric residual volume monitoring. Patient heterogeneity underscores the need for precise, biomarker-guided, phase-specific nutrition to preserve lean muscle mass and improve recovery.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Critical Illness",
+      "Enteral Nutrition",
+      "Parenteral Nutrition",
+      "Refeeding Syndrome",
+      "Nutritional Requirements",
+      "Energy Intake"
+    ],
+    "keywords": [],
+    "summary_zh": "综述危重症成人营养策略，早期肠内营养支持肠道健康，限制性喂养优于全剂量，高蛋白无益有害，需精准营养。",
+    "innovation": "提出早期全剂量能量无益且可能增加并发症 | 高剂量蛋白质无益并可能对急性肾损伤有害 | 强调需要生物标志物引导的阶段特异性营养",
+    "limitation": "未描述",
+    "study_object": "人类（危重症成人） + 肠道（肠内/肠外营养） + 临床试验",
+    "disease": "危重症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-09"
+  }
+]
