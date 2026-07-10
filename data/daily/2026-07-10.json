@@ -1,0 +1,146 @@
+[
+  {
+    "pmid": "42055298",
+    "title": "Intestinal microenvironment-modulating nanomedicines for inflammatory bowel disease.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-07-10",
+    "authors": "Choi Jaehyun; Shin Namjo; Jin Dongun; Xu Enzhen; Kwon Yongrok et al.",
+    "abstract": "Inflammatory bowel diseases present a highly restrictive intestinal microenvironment for drug delivery, in which epithelial injury, chronic inflammation, and microbial dysbiosis collectively impair transport, retention, and therapeutic efficacy. Excessive reactive oxygen species (ROS), mucus barrier disruption, altered luminal acidity, hydrogen sulfide accumulation, and abnormal enzymatic activity destabilize therapeutic cargos and limit access to inflamed tissues. These pathological features have motivated the development of nanocarriers designed either to directly modulate biochemical abnormalities, such as ROS scavenging and H2S removal, or to respond to disease-associated biochemical cues including ROS, luminal pH, enzymatic activity, and mucus abnormalities. In parallel, modulation of the immunological microenvironment has been pursued through nanomedicine platforms engineered to regulate inflammatory signaling, enhance mucosal targeting, protect therapeutic payloads from premature degradation, and prolong local residence. Complementary microbiome-oriented delivery strategies, including engineered probiotics, nanoparticles that release postbiotic factors, and carriers coated with microbial membranes, leverage host microbe interactions to achieve localized and sustained therapeutic effects. Despite substantial progress, effective delivery remains constrained by patient specific variability, spatial heterogeneity of inflammatory conditions, and limited durability of mucosal retention. Integrating biochemical responsiveness, immune modulation, and microbiome informed targeting represents a promising direction for advancing precision nanomedicine in inflammatory bowel diseases.",
+    "pub_types": [
+      "Journal Article",
+      "Review",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Inflammatory Bowel Diseases",
+      "Animals",
+      "Nanomedicine",
+      "Nanoparticles",
+      "Drug Delivery Systems",
+      "Intestinal Mucosa",
+      "Gastrointestinal Microbiome"
+    ],
+    "keywords": [
+      "Drug delivery",
+      "Gut microbiota",
+      "Immune modulation",
+      "Inflammatory bowel disease",
+      "Intestinal microenvironment",
+      "Nanomedicine",
+      "Oxidative stress",
+      "Ulcerative colitis"
+    ],
+    "summary_zh": "本文综述炎症性肠病肠道微环境特征及纳米药物递送策略，提出整合生化响应、免疫调节和微生物组导向策略以推进精准治疗。",
+    "innovation": "未描述",
+    "limitation": "患者个体差异 | 炎症空间异质性 | 黏膜滞留持久性有限",
+    "study_object": "炎症性肠病患者的肠道微环境，纳米药物递送系统",
+    "disease": "炎症性肠病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-10"
+  },
+  {
+    "pmid": "42426489",
+    "title": "Effect of Probiotics on the Gut-Mammary Pathway: Implications on Infant Microbiota Transfer and Development.",
+    "doi": null,
+    "journal": "Current nutrition reports",
+    "issn": "2161-3311",
+    "pub_date": "2026-07-10",
+    "authors": "Dimri Ayushi; Sharma Poonam; Vishvakarma Reena; Sharma Swati",
+    "abstract": "PURPOSE OF REVIEW: Transfer of microbiota from the maternal gut, during lactation, takes place via breastmilk, which establishes an intricate beneficial microbial ecosystem in the gut of the newborn. A healthy gut microbiota influences and enhances the neonatal health, and aids in multidimensional development-metabolically, immunologically, neurologically, and hormonally. Several microorganisms like Lactobacillus and Bifidobacterium get transferred to the infant gut and play a key role in its colonization and programming. Administration of such microbes, or probiotics, to the mother can assist in improving the benefits imparted by breastmilk to the infant, and can also provide health benefits to the mother. In recent years, there has been a focus on related metagenomic studies and the immunological effects of individual genera have also been studied in detail. In this review, we observe the gut-mammary pathway and the different roles played by probiotics in prenatal and postnatal scenarios. We also analyze the level of evidence of potential of some promising probiotic strains in the transfer, establishment, and development of infant gut microbiota based on recently conducted studies.\nRECENT FINDINGS: The analysis of recent metagenomic studies proved that strains like Bifidobacterium infantis, Lactobacillus rhamnosus, and Limosilactobacillus reuteri exibit a high level of evidence in benefitting the microbiota transfer as well as establishment, diversification, and development of the infant gut ecosystem. Hence, these strains in particular, can be given as supplements to mothers during pregnancy and lactation, in order to improve their inherent immunity and the overall health of the mother-infant dyad. With the advent of metagenomics, the roles, functions and effects of microbes in the gut-mammary pathway have been re-examined. This review, critically evaluates the recent studies related to gut-mammary pathway and the different roles played by probiotics in prenatal and postnatal scenarios with particular emphasis on the strength and quality of their evidence.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Breastmilk",
+      "Gut-mammary pathway",
+      "Metagenomic studies",
+      "Prebiotics"
+    ],
+    "summary_zh": "综述益生菌通过肠道-乳腺途径影响婴儿微生物群转移与发育，评估近期研究的证据强度。",
+    "innovation": "系统评估了Bifidobacterium infantis等菌株在母婴微生物传递中的证据强度 | 结合元基因组学重新审视肠道-乳腺途径中微生物的作用",
+    "limitation": "未描述",
+    "study_object": "母婴肠道-乳腺途径 + 母乳 + 益生菌干预 + 宏基因组研究",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-10"
+  },
+  {
+    "pmid": "42002490",
+    "title": "Corrigendum to \"Microbiome and gartynecologic cancer\" [Cancer Lett. 636 (2026) 217940].",
+    "doi": null,
+    "journal": "Cancer letters",
+    "issn": "1872-7980",
+    "pub_date": "2026-07-10",
+    "authors": "Liao Bingqing; Chen Liang; Ruan Jinghan; Wang Renjie; Hu Bai et al.",
+    "abstract": "",
+    "pub_types": [
+      "Published Erratum"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-10"
+  },
+  {
+    "pmid": "42119786",
+    "title": "The gut microbiota regulates the protein corona formation, biodistribution, and cellular uptake of lipid nanoparticles.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-07-10",
+    "authors": "Khetan Riya; Donnellan Leigh; Collins Kate; Kamath Srinivas; Ariaee Amin et al.",
+    "abstract": "Nanomedicines promise to transform oncology by improving pharmacokinetics, enhancing tumor targeting, and reducing systemic toxicities relative to conventional chemotherapies. However, clinical outcomes remain inconsistent, with marked inter-patient variability in biodistribution and therapeutic response. This variability is thought to arise from heterogeneity in \"bio-nano\" interactions, yet the upstream drivers of these interactions are poorly defined. We propose that the gut microbiota is a clinically relevant regulator of nanomedicine behavior, given its established influence on host immunity, metabolism, and proteome composition - all key determinants of bio-nano interactions. To test this, rats underwent a 14-day microbiota modulation using a prebiotic, broad-spectrum antibiotics, or control treatment. PEGylated liposomes were then intravenously administered to assess the impact of microbiota composition on (i) protein corona formation, (ii) nanoparticle biodistribution, and (iii) in vitro anti-cancer efficacy of doxorubicin-loaded liposomes following exposure to plasma from each group. Microbiota modulation produced distinct protein coronas, characterized by increased protein adsorption and unique proteomic profiles enriched in complement factors, apolipoproteins, and immunoglobulins. These corona differences were associated with altered biodistribution profiles, affecting both the magnitude and organ-level partitioning of nanoparticle-associated signal. Antibiotic treatment increased total systemic signal consistent with altered retention and/or clearance, whereas prebiotic supplementation was associated with reduced overall signal and decreased proportional partitioning into mononuclear phagocyte system organs, with a corresponding shift in distribution balance toward peripheral tissues including the heart, kidney, and brain. Notably, the prebiotic-derived corona markedly enhanced liposomal uptake and cytotoxicity in A549 and ES-2 cancer cells, linking protein adsorption and corona composition with bio-nano cellular interactions. Collectively, these findings provide experimental evidence that microbiota modulation influences nanoparticle behavior by altering bio-nano interactions, revealing an emerging \"gut-nano axis\" as a potentially controllable source of nanomedicine variability.",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Nanoparticles",
+      "Tissue Distribution",
+      "Protein Corona",
+      "Gastrointestinal Microbiome",
+      "Humans",
+      "Liposomes",
+      "Male",
+      "Rats, Sprague-Dawley",
+      "Cell Line, Tumor",
+      "Lipids",
+      "Anti-Bacterial Agents"
+    ],
+    "keywords": [
+      "Bio-nano",
+      "Gut-nano axis",
+      "LNPs",
+      "Lipid nanoparticles",
+      "Microbiome",
+      "Nanomedicine",
+      "Protein corona"
+    ],
+    "summary_zh": "通过调控大鼠肠道菌群，发现微生物群改变脂质纳米颗粒的蛋白冠组成，进而影响生物分布和抗癌效果，揭示'肠道-纳米轴'。",
+    "innovation": "首次揭示肠道微生物群通过调控蛋白冠形成来影响纳米药物的生物分布和细胞摄取 | 提出“gut-nano axis”作为纳米医学变异性的可控来源 | 发现益生元调节可增强脂质纳米颗粒的抗癌活性",
+    "limitation": "未描述",
+    "study_object": "大鼠肠道微生物群 + 血浆 + 脂质纳米颗粒",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-10"
+  }
+]
