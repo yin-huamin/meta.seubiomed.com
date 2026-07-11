@@ -1,96 +1,65 @@
-2026-07-10 14:44:05 [INFO] ▶ 开始每日更新...
-2026-07-10 14:44:05 [INFO] ===== 开始每日更新 2026-07-10 =====
-2026-07-10 14:44:05 [WARNING] 检测到缺少数据: 2026-07-10
-2026-07-10 14:44:05 [INFO] 需要补全数据: ['2026-07-10']
-2026-07-10 14:44:05 [INFO] 
+2026-07-11 13:42:34 [INFO] ▶ 开始每日更新...
+2026-07-11 13:42:34 [INFO] ===== 开始每日更新 2026-07-11 =====
+2026-07-11 13:42:34 [WARNING] 检测到缺少数据: 2026-07-11
+2026-07-11 13:42:34 [INFO] 需要补全数据: ['2026-07-11']
+2026-07-11 13:42:34 [INFO] 
 ==================================================
-2026-07-10 14:44:05 [INFO] 开始抓取 2026-07-10 的论文
-2026-07-10 14:44:05 [INFO] ==================================================
-2026-07-10 14:44:05 [INFO] Step 1: 抓取 PubMed 新论文
-2026-07-10 14:44:05 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-07-10 14:44:05 [INFO] 已有 389 篇文献记录，不再重复检索
-2026-07-10 14:44:05 [INFO] 正在搜索 2026/07/10 的新论文...
-2026-07-10 14:44:05 [INFO] 搜索到 6 篇 PMID
-2026-07-10 14:44:05 [INFO]   其中新增 6 篇（过滤已有 0 篇）
-2026-07-10 14:44:06 [INFO]   内容过滤: 排除 1 篇，保留 5 篇
-2026-07-10 14:44:06 [INFO]   期刊过滤: 排除 1 篇，保留 4 篇
-2026-07-10 14:44:06 [INFO] 
-2026-07-10 14:44:06 [INFO] ================================================================================
-2026-07-10 14:44:06 [INFO]   📋 本次搜索论文汇总（共 6 篇）
-2026-07-10 14:44:06 [INFO] ================================================================================
-2026-07-10 14:44:06 [INFO]   ✅ 已收录 (4 篇):
-2026-07-10 14:44:06 [INFO]     [1] PMID 42055298 | Journal of controlled release : official journal of the Controlled Release Society
-2026-07-10 14:44:06 [INFO]         Intestinal microenvironment-modulating nanomedicines for inflammatory bowel disease.
-2026-07-10 14:44:06 [INFO]     [2] PMID 42426489 | Current nutrition reports
-2026-07-10 14:44:06 [INFO]         Effect of Probiotics on the Gut-Mammary Pathway: Implications on Infant Microbiota Transfer and Development.
-2026-07-10 14:44:06 [INFO]     [3] PMID 42002490 | Cancer letters
-2026-07-10 14:44:06 [INFO]         Corrigendum to "Microbiome and gartynecologic cancer" [Cancer Lett. 636 (2026) 217940].
-2026-07-10 14:44:06 [INFO]     [4] PMID 42119786 | Journal of controlled release : official journal of the Controlled Release Society
-2026-07-10 14:44:06 [INFO]         The gut microbiota regulates the protein corona formation, biodistribution, and cellular uptake of lipid nanoparticles.
-2026-07-10 14:44:06 [INFO]   🚫 内容过滤排除 (1 篇):
-2026-07-10 14:44:06 [INFO]     [1] PMID 42418574 | Science advances
-2026-07-10 14:44:06 [INFO]         Effect of cellular nutrient economy on the evolution of genome size in phytoplankton.
-2026-07-10 14:44:06 [INFO]         原因: 内容含排除词: phytoplankton
-2026-07-10 14:44:06 [INFO]   📵 期刊过滤排除 (1 篇):
-2026-07-10 14:44:06 [INFO]     [1] PMID 42426772 | BMC biology
-2026-07-10 14:44:06 [INFO]         Bacterial composition of the microbiome of mesopelagic fishes from the Northeast Atlantic.
-2026-07-10 14:44:06 [INFO]         原因: 期刊不在 journal_info.tsv 中: BMC biology
-2026-07-10 14:44:06 [INFO] ================================================================================
-2026-07-10 14:44:06 [INFO] 
-2026-07-10 14:44:07 [INFO] 已保存 4 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-07-10.json
-2026-07-10 14:44:07 [INFO] Step 2: AI 摘要生成
-2026-07-10 14:44:07 [INFO] 共需处理 1 个文件
-2026-07-10 14:44:07 [INFO] 处理: 2026-07-10.json
-2026-07-10 14:44:07 [INFO]   [1/4] PMID 42055298 | Intestinal microenvironment-modulating nanomedicines for inf
-2026-07-10 14:44:15 [INFO]   [2/4] PMID 42426489 | Effect of Probiotics on the Gut-Mammary Pathway: Implication
-2026-07-10 14:44:20 [INFO]   [3/4] PMID 42002490 | Corrigendum to "Microbiome and gartynecologic cancer" [Cance
-2026-07-10 14:44:31 [INFO]   [4/4] PMID 42119786 | The gut microbiota regulates the protein corona formation, b
-2026-07-10 14:44:39 [INFO]   ✓ 已更新 2026-07-10.json（4 篇）
-2026-07-10 14:44:39 [INFO] 
+2026-07-11 13:42:34 [INFO] 开始抓取 2026-07-11 的论文
+2026-07-11 13:42:34 [INFO] ==================================================
+2026-07-11 13:42:34 [INFO] Step 1: 抓取 PubMed 新论文
+2026-07-11 13:42:34 [INFO] 已加载期刊过滤表: 713 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-07-11 13:42:34 [INFO] 已有 393 篇文献记录，不再重复检索
+2026-07-11 13:42:34 [INFO] 正在搜索 2026/07/11 的新论文...
+2026-07-11 13:42:34 [INFO] 搜索到 0 篇 PMID
+2026-07-11 13:42:34 [INFO]   其中新增 0 篇（过滤已有 0 篇）
+2026-07-11 13:42:34 [INFO] 今日无新增论文
+2026-07-11 13:42:34 [INFO] Step 2: AI 摘要生成
+2026-07-11 13:42:34 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-07-11.json
+2026-07-11 13:42:34 [INFO] 
 Step 3: 整合数据
-2026-07-10 14:44:39 [INFO] 累积基础 4495 篇 + 新增 14 篇 = 共 4509 篇
-2026-07-10 14:44:39 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-07-10 14:44:39 [INFO] 分区过滤: 排除 9 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4500 篇
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4079 KB)
-2026-07-10 14:44:39 [INFO]   2015: 91 篇 -> 2015.json
-2026-07-10 14:44:39 [INFO]   2016: 94 篇 -> 2016.json
-2026-07-10 14:44:39 [INFO]   2017: 86 篇 -> 2017.json
-2026-07-10 14:44:39 [INFO]   2018: 106 篇 -> 2018.json
-2026-07-10 14:44:39 [INFO]   2019: 183 篇 -> 2019.json
-2026-07-10 14:44:39 [INFO]   2020: 375 篇 -> 2020.json
-2026-07-10 14:44:39 [INFO]   2021: 456 篇 -> 2021.json
-2026-07-10 14:44:39 [INFO]   2022: 574 篇 -> 2022.json
-2026-07-10 14:44:39 [INFO]   2023: 560 篇 -> 2023.json
-2026-07-10 14:44:39 [INFO]   2024: 684 篇 -> 2024.json
-2026-07-10 14:44:39 [INFO]   2025: 817 篇 -> 2025.json
-2026-07-10 14:44:39 [INFO]   2026: 474 篇 -> 2026.json
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-07-10 14:44:39 [INFO] 
+2026-07-11 13:42:34 [INFO] 累积基础 4499 篇 + 新增 10 篇 = 共 4509 篇
+2026-07-11 13:42:34 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-07-11 13:42:34 [INFO] 分区过滤: 排除 9 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4500 篇
+2026-07-11 13:42:34 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4079 KB)
+2026-07-11 13:42:34 [INFO]   2015: 91 篇 -> 2015.json
+2026-07-11 13:42:34 [INFO]   2016: 94 篇 -> 2016.json
+2026-07-11 13:42:34 [INFO]   2017: 86 篇 -> 2017.json
+2026-07-11 13:42:34 [INFO]   2018: 106 篇 -> 2018.json
+2026-07-11 13:42:34 [INFO]   2019: 183 篇 -> 2019.json
+2026-07-11 13:42:34 [INFO]   2020: 375 篇 -> 2020.json
+2026-07-11 13:42:34 [INFO]   2021: 456 篇 -> 2021.json
+2026-07-11 13:42:34 [INFO]   2022: 574 篇 -> 2022.json
+2026-07-11 13:42:34 [INFO]   2023: 560 篇 -> 2023.json
+2026-07-11 13:42:34 [INFO]   2024: 684 篇 -> 2024.json
+2026-07-11 13:42:34 [INFO]   2025: 817 篇 -> 2025.json
+2026-07-11 13:42:34 [INFO]   2026: 474 篇 -> 2026.json
+2026-07-11 13:42:34 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-07-11 13:42:34 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-07-11 13:42:34 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-07-11 13:42:34 [INFO] 
 ==================================================
-2026-07-10 14:44:39 [INFO] ===== 完成！共 4500 篇文献 =====
-2026-07-10 14:44:39 [INFO] 已补全 1 天的数据
-2026-07-10 14:44:39 [INFO] ==================================================
-2026-07-10 14:44:39 [INFO] ✓ 每日更新完成
-2026-07-10 14:44:39 [INFO] ▶ 开始整合数据...
-2026-07-10 14:44:39 [INFO] 累积基础 4500 篇 + 新增 9 篇 = 共 4509 篇
-2026-07-10 14:44:39 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
-2026-07-10 14:44:39 [INFO] 分区过滤: 排除 10 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4499 篇
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4078 KB)
-2026-07-10 14:44:39 [INFO]   2015: 91 篇 -> 2015.json
-2026-07-10 14:44:39 [INFO]   2016: 94 篇 -> 2016.json
-2026-07-10 14:44:39 [INFO]   2017: 86 篇 -> 2017.json
-2026-07-10 14:44:39 [INFO]   2018: 106 篇 -> 2018.json
-2026-07-10 14:44:39 [INFO]   2019: 183 篇 -> 2019.json
-2026-07-10 14:44:39 [INFO]   2020: 375 篇 -> 2020.json
-2026-07-10 14:44:39 [INFO]   2021: 456 篇 -> 2021.json
-2026-07-10 14:44:39 [INFO]   2022: 574 篇 -> 2022.json
-2026-07-10 14:44:39 [INFO]   2023: 560 篇 -> 2023.json
-2026-07-10 14:44:39 [INFO]   2024: 684 篇 -> 2024.json
-2026-07-10 14:44:39 [INFO]   2025: 817 篇 -> 2025.json
-2026-07-10 14:44:39 [INFO]   2026: 473 篇 -> 2026.json
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-07-10 14:44:39 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-07-10 14:44:39 [INFO] ✓ 整合完成！共 4499 篇文献
+2026-07-11 13:42:34 [INFO] ===== 完成！共 4500 篇文献 =====
+2026-07-11 13:42:34 [INFO] 已补全 1 天的数据
+2026-07-11 13:42:34 [INFO] ==================================================
+2026-07-11 13:42:34 [INFO] ✓ 每日更新完成
+2026-07-11 13:42:34 [INFO] ▶ 开始整合数据...
+2026-07-11 13:42:34 [INFO] 累积基础 4500 篇 + 新增 9 篇 = 共 4509 篇
+2026-07-11 13:42:34 [INFO] Journal lookup loaded: 1930 names, 3083 ISSNs
+2026-07-11 13:42:34 [INFO] 分区过滤: 排除 10 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4499 篇
+2026-07-11 13:42:34 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4078 KB)
+2026-07-11 13:42:34 [INFO]   2015: 91 篇 -> 2015.json
+2026-07-11 13:42:34 [INFO]   2016: 94 篇 -> 2016.json
+2026-07-11 13:42:34 [INFO]   2017: 86 篇 -> 2017.json
+2026-07-11 13:42:34 [INFO]   2018: 106 篇 -> 2018.json
+2026-07-11 13:42:34 [INFO]   2019: 183 篇 -> 2019.json
+2026-07-11 13:42:34 [INFO]   2020: 375 篇 -> 2020.json
+2026-07-11 13:42:34 [INFO]   2021: 456 篇 -> 2021.json
+2026-07-11 13:42:34 [INFO]   2022: 574 篇 -> 2022.json
+2026-07-11 13:42:34 [INFO]   2023: 560 篇 -> 2023.json
+2026-07-11 13:42:34 [INFO]   2024: 684 篇 -> 2024.json
+2026-07-11 13:42:35 [INFO]   2025: 817 篇 -> 2025.json
+2026-07-11 13:42:35 [INFO]   2026: 473 篇 -> 2026.json
+2026-07-11 13:42:35 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-07-11 13:42:35 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-07-11 13:42:35 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-07-11 13:42:35 [INFO] ✓ 整合完成！共 4499 篇文献
