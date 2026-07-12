@@ -1,0 +1,272 @@
+[
+  {
+    "pmid": "42436262",
+    "title": "Microbiome-derived queuine vitamers underlie tyrosine metabolism and predator avoidance in mosquito larvae.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-07-11",
+    "authors": "Kelley Melissa; Rathore Shubham; Chandrasegaran Karthikeyan; Herbert Cassandra; Sabile Chloe Elizabeth G et al.",
+    "abstract": "The gut microbiome is a rich source of nutrients that are critical to the development and biology of eukaryotes. Transfer RNAs (tRNAs) are essential components of protein synthesis, and certain chemical modifications of tRNAs depend on the availability of microbiome-derived nutrients. In eukaryotes, the nucleobase queuine (q) or nucleoside queuosine (Q) is salvaged from the microbiome or diet and incorporated into tRNA, where it influences the speed and efficiency of protein synthesis. Here, we examine the role of microbiome-derived Q in mosquito larval development and behavior. When mosquito larvae are grown with a microbiome incapable of synthesizing Q, there is a significant impact on tyrosine levels and downstream processes, which correlate with defects in behavior and cuticle formation. Likely due to effects on movement and behavior, Q-deficient larvae exhibit impaired predator evasion, resulting in increased capture by predaceous beetle larvae. The broad effects of Q-deficiency in mosquito larvae highlight the importance of previously unexplored microbiome-derived nutrients for mosquito physiology and behavior.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究微生物组来源的Q在蚊子幼虫发育中的作用，发现Q缺乏影响酪氨酸代谢并导致捕食者逃避受损。",
+    "innovation": "揭示微生物组来源的Q对蚊子幼虫行为和捕食者逃避的影响 | 发现Q缺乏影响酪氨酸代谢和角质层形成 | 强调微生物组来源营养素的未探索作用",
+    "limitation": "未描述",
+    "study_object": "蚊子幼虫宿主 + 肠道微生物组 + 缺失突变体比较",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42435326",
+    "title": "Glycodeoxycholic and deoxycholic bile acids impair recognition and spatial memory in adult mice, and reduce central CREB-BDNF signaling and cytokine expression with neuroanatomical specificity.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-11",
+    "authors": "Garcia Ana; Trivedi Dakshat; Anthony Daniel C; Swann Jonathan R; Burnet Philip W J",
+    "abstract": "Emerging evidence suggests that bile acids, traditionally recognized for their role in digestion, also influence brain function and memory. This study examined the effects of two microbiota-derived secondary bile acids, deoxycholic acid (DCA) and glycodeoxycholic acid (GDCA), on memory in mice and the associated molecular mechanisms. Male and female mice received daily oral administration of DCA, GDCA, or vehicle, and spatial working and reference memory (Y-maze) and recognition memory (novel object recognition task) were assessed. After testing, gene expression and signaling activity were measured in the frontal cortex and hippocampus. Administration of GDCA after 10 d disrupted recognition memory, whereas DCA intake for 12 d impaired spatial reference memory. Neither bile acid administered for 5 d affected spatial working memory. GDCA reduced NMDA receptor subunit (GluN1, GluN2A) mRNAs and encoded protein and brain-derived neurotrophic factor (BDNF) mRNA expression and attenuated CREB signaling in the frontal cortex, which is consistent with the observed recognition memory deficit. GDCA did not alter the abundance of transcripts encoding bile acid receptors (FXR or TGR5) or their corresponding protein levels. In contrast, DCA modified the FXR and TGR5 mRNAs and proteins in a region-specific manner and decreased CREB signaling in the hippocampus, likely contributing to spatial memory deficits. In the frontal cortex, DCA increased GluA1 phosphorylation and reduced IL-1β and IL-6 expression, which may have helped preserve recognition memory. Exploratory metagenomic analysis of fecal samples showed no significant microbial differences, though subtle, non-significant functional gene changes suggested early adaptations. These findings reveal that DCA and GDCA exert distinct, receptor- and region-specific effects on cognition, identifying bile acids as modulators of microbiome-gut-brain communication.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Cyclic AMP Response Element-Binding Protein",
+      "Mice",
+      "Female",
+      "Signal Transduction",
+      "Spatial Memory",
+      "Brain-Derived Neurotrophic Factor",
+      "Deoxycholic Acid",
+      "Cytokines",
+      "Receptors, N-Methyl-D-Aspartate",
+      "Mice, Inbred C57BL",
+      "Hippocampus",
+      "Brain",
+      "Bile Acids and Salts"
+    ],
+    "keywords": [
+      "Cognitive impairment",
+      "glutamate",
+      "gut–brain axis",
+      "inflammation"
+    ],
+    "summary_zh": "研究两种微生物源次级胆汁酸DCA和GDCA对小鼠记忆的影响，发现它们通过不同受体和脑区特异性损害识别和空间记忆。",
+    "innovation": "揭示DCA和GDCA对认知的受体和区域特异性作用 | 识别胆汁酸作为微生物组-肠-脑轴的调节因子",
+    "limitation": "未描述",
+    "study_object": "成年小鼠粪便样本，口服给药后行为测试和分子分析（含宏基因组分析）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42434882",
+    "title": "Intelligent detection technologies for microbes and disease biomarkers.",
+    "doi": null,
+    "journal": "Critical reviews in microbiology",
+    "issn": "1549-7828",
+    "pub_date": "2026-07-11",
+    "authors": "Liu Shuang; Yang Yanhua; Pan Ye; Fan Juan; Xu Qinggang et al.",
+    "abstract": "Microbial communities play a critical role in human health, and their metabolic activities are directly implicated in the pathogenesis and progression of various diseases. Conventional detection methods for microbes and biomarkers, however, are hampered by limitations including poor real-time performance, high invasiveness, low specificity, and limited capacity for multi-parameter parallel detection, which severely restrict their application in clinical and scientific research. In recent years, the deep integration of interdisciplinary fields such as synthetic biology, nanotechnology, optical imaging, and artificial intelligence has catalyzed the rapid development of intelligent detection technologies. These innovations provide novel solutions for achieving highly sensitive, noninvasive, real-time, and multi-modal detection of microbes and disease biomarkers. This review systematically summarizes the breakthroughs in these technologies for microbial visualization and disease biomarker tracking, with a focus on four core strategies: physical information-based sensing (e.g. photoacoustic imaging, acoustic reporter genes), specific probe labeling (fluorescent, isotopic, nanomaterial-based probes), genetically engineered biosensors, and bioluminescence imaging. Collectively, these approaches not only enable real-time in vivo monitoring of microbial dynamics but also hold substantial promise for biomarker detection. Finally, we discuss the pivotal challenges confronting their clinical translation, aiming to provide a valuable reference for advancing precision medicine, personalized health monitoring, and microbiome research.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Intelligent detection",
+      "biosensors",
+      "disease biomarkers",
+      "microbial visualization"
+    ],
+    "summary_zh": "综述智能检测技术在微生物可视化和疾病生物标志物追踪中的突破，包括四种核心策略，可实现实时体内监测。",
+    "innovation": "深度整合合成生物学、纳米技术、光学成像和人工智能 | 综述四种核心策略：物理传感、探针标记、基因工程生物传感器、生物发光成像",
+    "limitation": "未描述",
+    "study_object": "微生物和疾病生物标志物的智能检测技术",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42436183",
+    "title": "Lactiplantibacillus plantarum promotes intestinal goblet cell differentiation via indole-3-lactic acid-AHR signaling in pigs.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-07-11",
+    "authors": "Liu Ziyu; Wu Haiqin; Howe Samantha; Zuo Bin; Tian Yang et al.",
+    "abstract": "The swine intestinal microbiota dynamically remodels during development and supports gut homeostasis. However, whether stage-specific microbial shifts, are associated with epithelial development remains poorly understood. Here, longitudinal metagenomic profiling of the swine gut microbiome identified Lactiplantibacillus plantarum as a transiently enriched nursery-stage bacterium positively associated with goblet cell numbers. Dietary supplementation with L. plantarum validated this association, showing increased goblet cell numbers and MUC2 expression in the ileum of nursery piglets. Co-culture with porcine ileum organoids further demonstrated that L. plantarum cell-free supernatant promoted ileal organoid growth and goblet cell differentiation. Integrated untargeted metabolomic analyses of ileal samples and bacterial culture supernatants identified indole-3-lactic acid (ILA) as a potential key microbial metabolite from L. plantarum. Mechanistically, ILA promoted intestinal stem cell proliferation and MUC2 expression, accompanied by increased expression of aryl hydrocarbon receptor (AHR) and its downstream target CYP1A1 in ileal organoids. Consistently, activation of AHR using FICZ increased MUC2 expression, whereas inhibition with CH-223191 suppressed MUC2 expression in ileal organoids. Collectively, these findings uncover a L. plantarum-ILA-AHR signaling axis that promotes intestinal goblet cell differentiation, providing mechanistic insight into microbial metabolite-mediated regulation of epithelial homeostasis during post-weaning period in pigs.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过宏基因组和实验发现植物乳杆菌通过ILA-AHR信号促进猪肠道杯状细胞分化",
+    "innovation": "发现植物乳杆菌短暂富集与杯状细胞数量正相关 | 鉴定ILA为关键代谢物 | 揭示ILA-AHR信号轴",
+    "limitation": "未描述",
+    "study_object": "猪肠道微生物+回肠组织+宏基因组/代谢组/类器官",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42436166",
+    "title": "A rugged life: how host-microbiome adaptations associated with the semi-feral lifestyle of gayal (Bos frontalis).",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-07-11",
+    "authors": "Chen Yuming; Ma Juntao; Guo Zhifan; Chen Junren; Wang Xiaonan et al.",
+    "abstract": "The semi-domesticated gayal (Bos frontalis) is an endangered browsing ruminant inhabiting the rugged Eastern Himalayan foothills, and maintains an energy-intensive lifestyle on nutrient-poor, fiber-rich feed. However, the dietary, microbial, and host physiological features underlying this adaptation remain poorly understood. Here, we analyzed fecal metagenomes from ten bovine populations (n = 334) to characterize dietary composition. Then we profiled the four-chambered (FC) stomach microbiome in adult gayal (Bos frontalis), yak (Bos grunniens), and taurine cattle (Bos taurus). Host transcriptomes were profiled across the FC stomach in adult individuals from gayal, yak and cattle. Dietary analysis revealed a woody plant-dominated, bamboo-rich dietary pattern in gayal. Gastric metagenomes in gayal showed high population-level microbial diversity, pronounced individual-associated community structure, and functional potentials related to aromatic compound transformation, nitrogen metabolism, and metabolic flexibility. Transcriptomes revealed compartment-specific specialization in the gayal stomach, including rumen immune signatures and reticulum contractile/electrophysiological features. Exploratory compartment-level integration further suggested possible consistency between host transcriptomic features and microbial functional potential. Together, these multi-omics findings suggest a host-microbiome system potentially associated with the utilization of chemically complex, low-quality forage, providing a framework for understanding digestive features of browsing ruminants and for conserving host-associated gastrointestinal microbiomes.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过多组学分析揭示了半野生gayal利用低质量纤维饲料的宿主-微生物组适应机制。",
+    "innovation": "多组学整合分析 | 揭示gayal胃微生物组高多样性和芳香化合物转化等功能潜力 | 发现宿主胃转录组区室特异性与微生物功能可能协同",
+    "limitation": "未描述",
+    "study_object": "半野生gayal（Bos frontalis）的粪便和四室胃样本，宏基因组和转录组分析",
+    "disease": "无",
+    "sample_size": "n=334",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42435819",
+    "title": "Light, melanin, and the microbial clock: Rewiring the gut-brain-skin axis.",
+    "doi": null,
+    "journal": "Frontiers in neuroendocrinology",
+    "issn": "1095-6808",
+    "pub_date": "2026-07-11",
+    "authors": "Clark Allison; Mach Núria",
+    "abstract": "Sunlight exposure has shaped the evolutionary biology of most life forms through circadian entrainment. Full-spectrum sunlight regulates circadian rhythms, modulates gut and skin microbiomes, influences the gut-brain-skin axis, and drives dermal melanin and vitamin D synthesis. The skin acts as the body's largest photoreceptive organ and neuroendocrine hub. Melanocytes, keratinocytes, and immune cells in the skin translate photons into hormonal, metabolic, and neuronal signals. Melanin, present across vertebrate tissues, bacteria, and fungi, is a unifying photoreceptive molecule whose redox properties and signaling within the melanocortin pathway bridge host and microbial photic cues. Light signals the suprachiasmatic nucleus, triggering hypothalamic-pituitary-adrenal glucocorticoid release and peripheral clock expression throughout the gut-brain-skin axis, influencing rhythmic gastrointestinal functions, short-chain fatty acid production, and vagal feedback to the brain. Microbial photoreceptors, including melanin, flavins, and cryptochromes, extend the photoneuroendocrinology into the holobiont, revealing a shared molecular pathway through which light calibrates the host-microbe interactions. Shift work, nocturnal blue light, sun avoidance, abnormal feeding times, and circadian desynchrony disrupt the gut-brain-skin axis, resulting in dysbiosis, intestinal and skin epithelial barrier dysfunction, shifts in immune signaling, and metabolic disorders. Vitamin D intersects with these pathways, yet its possible circadian regulation remains unknown. This review synthesizes evidence positioning host and microbial melanin as the key signaling molecule of the melanocortin pathway, which is inherently circadian-regulated, governing metabolic and immune homeostasis across the gut-brain-skin axis. We outline mechanistic models and research gaps, and propose that reframing melanin as a holobiont photoreceptor opens therapeutic opportunities across dermatology, gastroenterology, and neuroendocrinology.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "circadian rhythm",
+      "gut microbiome",
+      "gut-brain-skin axis",
+      "melanin",
+      "melanocortin pathway",
+      "photoneuroendocrinology",
+      "vitamin D"
+    ],
+    "summary_zh": "综述阳光、黑色素和微生物钟调节肠脑皮肤轴的作用，提出黑色素作为全生物光感受器的治疗潜力。",
+    "innovation": "1. 提出宿主和微生物黑色素作为黑皮质素通路的关键信号分子 | 2. 重新定义黑色素为全生物光感受器 | 3. 将微生物光感受器延伸至全生物，揭示光校准宿主-微生物相互作用的共享分子通路",
+    "limitation": "维生素D的昼夜节律调节尚不清楚",
+    "study_object": "宿主和微生物（黑色素、光感受器）的肠脑皮肤轴",
+    "disease": "代谢紊乱",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42434987",
+    "title": "Molecular evidence of neuroinvasive Sindbis virus infection in humans: detection in cerebrospinal fluid by next generation sequencing.",
+    "doi": null,
+    "journal": "Emerging microbes & infections",
+    "issn": "2222-1751",
+    "pub_date": "2026-07-11",
+    "authors": "Cusi Maria Grazia; Savellini Gianni Gori; Cassol Chiara; Nencioni Cesira; Bernini Laura et al.",
+    "abstract": "Sindbis virus (SINV) is a mosquito borne alphavirus causing seasonal outbreaks in northern Europe, Africa and Russia. Neurological involvement in humans is poorly documented, and detection in cerebrospinal fluid (CSF) has not previously been reported. This study provides the first unequivocal evidence of human CNS involvement by detecting SINV RNA directly in the cerebrospinal fluid of four autochthonous patients presenting with acute neurological symptoms in south eastern Tuscany, Italy, July-August 2025. Utilizing metagenomic Next Generation Sequencing (mNGS), we reconstructed complete viral genomes, strongly supporting a causal relationship between SINV and neurological manifestations. Phylogenetic analysis revealed a complex epidemiological landscape in Italy characterized by the co-circulation of Clade D lineages. Our findings fundamentally expand the clinical spectrum of SINV, demonstrating that it is not merely an arthritogenic pathogen, but a neuroinvasive threat to humans. This highlights the critical need to include SINV in the differential diagnosis of viral CNS infections in endemic areas and underscores the urgency for enhanced European laboratory surveillance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Alphaviruses",
+      "CNS infection",
+      "Sindbis Virus",
+      "differential diagnosis",
+      "mNGS"
+    ],
+    "summary_zh": "用宏基因组测序在4例患者脑脊液中检测到辛德毕斯病毒RNA，首次证实其神经侵袭性，扩大临床谱。",
+    "innovation": "首次在脑脊液中检测到SINV RNA，提供人类中枢神经系统受累的分子证据 | 利用mNGS重建完整病毒基因组 | 发现意大利Clade D谱系共循环",
+    "limitation": "样本量较小（仅4例）",
+    "study_object": "人类脑脊液，宏基因组二代测序",
+    "disease": "辛德毕斯病毒神经系统感染",
+    "sample_size": "4例",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42435962",
+    "title": "Cross-kingdom dynamics of the subgingival bacteriome and mycobiome: a pilot study on the effects of a novel HA-H₂O₂-Glycine formulation to treat periodontitis.",
+    "doi": null,
+    "journal": "Journal of dentistry",
+    "issn": "1879-176X",
+    "pub_date": "2026-07-11",
+    "authors": "Gini Chiara; Farronato Marco; Manunza Arianna; Ravasi Giulia; Abbruscato Pamela et al.",
+    "abstract": "OBJECTIVES: Traditional periodontal therapy primarily focuses on bacterial biofilm control; however, recent evidence also suggests a critical role for the oral mycobiome. This study evaluated the clinical and ecological impact of a novel mouthwash formulation containing hyaluronic acid (HA), hydrogen peroxide (H2O2), and glycine on periodontal patients MATERIALS AND METHODS: This prospective, randomized split-mouth trial included 13 adult participants with periodontitis treated with HA-H2O2-glycine formula (BMG0703A) used twice a day for seven days. Subgingival plaque samples were collected from periodontal pocket and healthy control sites at baseline (T0) and one-week post-treatment (T1). Microbial and fungal communities were characterized using Next-Generation Sequencing (NGS) of the 16S rRNA and ITS2 regions. Linear Mixed Models (LMM) and Spearman correlation were used to assess taxonomic shifts and cross-kingdom relationships.\nRESULTS: Sequencing revealed a promising ecological shift: the bacteriome shifted from anaerobic dominance (Olsenella, Peptostreptococcus) toward a health-associated aerobic profile, with Rothia near-doubling (11.91% to 22.68%). The mycobiome underwent a \"normalization\" effect: Candida abundance decreased significantly (22.8% to 9.1%), while fungal Shannon diversity in pockets returned to healthy-site levels. Inter-kingdom analysis identified antagonistic relationships between expanding commensal bacteria and opportunistic fungi, suggesting that the intervention may help re-establish a protective bacterial niche.\nCONCLUSIONS: The HA-H2O2-glycine formulation seems to facilitate a rapid, cross-kingdom modulation of the subgingival niche. By reducing anaerobic pathogens and normalizing the mycobiome it appear to induce short-term changes, suggesting potential as adjunctive strategy in periodontal management.\nCLINICAL SIGNIFICANCE: The present work underlines the possible cross-Kingdom effects of a novel compound.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Hyaluronic acid, Glycine and Hydrogen Peroxide Mouthwash",
+      "Mouthwash therapy",
+      "Oral microbiome",
+      "Oral mycobiome",
+      "Periodontitis"
+    ],
+    "summary_zh": "评估新型HA-H2O2-Glycine漱口水对牙周炎患者龈下细菌组和真菌组的跨王国生态影响，发现其促进健康相关菌群转变并正常化真菌组。",
+    "innovation": "首次同时评估龈下细菌组和真菌组的跨王国动态 | 使用新型HA-H2O2-Glycine配方治疗牙周炎 | 揭示干预后细菌与真菌之间的拮抗关系",
+    "limitation": "未描述",
+    "study_object": "人（牙周炎患者）+ 龈下菌斑样本 + 16S rRNA和ITS2测序",
+    "disease": "牙周炎",
+    "sample_size": "13名",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  },
+  {
+    "pmid": "42435986",
+    "title": "Association Between Household Endotoxin Exposure and Atopic Dermatitis: A Cross-Sectional U.S.-Based Population Study.",
+    "doi": null,
+    "journal": "The Journal of investigative dermatology",
+    "issn": "1523-1747",
+    "pub_date": "2026-07-11",
+    "authors": "Quan Irene; Carstens Liza Yusem; Lio Peter",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "allergy",
+      "atopic dermatitis",
+      "eczema",
+      "endotoxins",
+      "skin microbiome"
+    ],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-11"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "pmid": "42436618",
+    "title": "Architectural Intelligence: Toward a Spatial Framework for Interpreting Microbiome-Associated Human Disease.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-07-12",
+    "authors": "Parappalliyalil Harikrishnan; Padmakumar Ananya; Ghosal Debnath; Reynolds Eric C",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ecological State",
+      "Microbiome architecture",
+      "Spatial configuration"
+    ],
+    "summary_zh": "提出名为Architectural Intelligence的空间框架，用于解释微生物组相关人类疾病。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-12"
+  },
+  {
+    "pmid": "42436613",
+    "title": "Ruminosignatures associated with methane emissions and feed efficiency across geographies and cattle breeds.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-07-12",
+    "authors": "Vourlaki Ioanna-Theoni; Furman Ori; Tapio Ilma; Guan Le Luo; Waters Sinéad M et al.",
+    "abstract": "The cattle rumen microbiota represents a complex and dynamic ecosystem whose organization and relationship to host phenotypes are important for food security and environmental sustainability. We analyzed rumen microbiota profiles from 2,496 cattle representing five breeds and production systems across five countries, identifying microbial co-abundance groups termed Ruminosignatures. We detected fourteen distinct Ruminosignatures, including two consistently observed across all populations dominated by Prevotella and UBA2810. Additional Ruminosignatures showed breed- and diet-specific patterns and collectively explained 96-99% of variance in rumen microbial composition. Integrative cross-country analysis confirmed 10 out of 14 Ruminosignatures identified in cohort-specific analyses. Several Ruminosignatures were associated with methane emissions and feed efficiency traits and were partially under host genetic control, with heritability estimates ranging from 0.09 to 0.58. Structural equation modelling revealed consistent negative genetic and phenotypic correlations between the UBA2810-dominated Ruminosignature (RS_UBA2) and methane emissions across cohorts (rg = -0.40 to -0.65), with structural coefficients concordant in sign across all populations, supporting the expected direction of phenotypic response to selection on RS_UBA2. Meta-analysis confirmed positive associations of RS_UBA2 with average daily gain and negative associations with methane-related traits and feed conversion ratio. Functional genome-based predictions suggested RS_UBA2 may reduce methanogenesis through alternative hydrogen utilization pathways competing with methanogenic archaea. Production system type influenced both Ruminosignature occurrence and relationships with host phenotypes, emphasizing the relevance of context-specific strategies for microbiome modulation. Our findings highlight the potential of the Ruminosignatures framework for microbiome-informed breeding programs aimed at improving feed efficiency while reducing the environmental impact of cattle production.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ruminosignatures",
+      "agriculture",
+      "breeding",
+      "cattle",
+      "feed efficiency",
+      "heritability",
+      "methane",
+      "rumen microbiota"
+    ],
+    "summary_zh": "分析2496头牛瘤胃微生物组，鉴定14种Ruminosignatures，与甲烷排放和饲料效率相关，部分受遗传控制，为微生物组辅助育种提供框架。",
+    "innovation": "首次跨国家跨品种大规模鉴定Ruminosignatures | 发现UBA2810主导的Ruminosignature与甲烷排放负相关且受遗传控制 | 通过结构方程模型和功能预测揭示竞争性氢利用途径抑制甲烷生成",
+    "limitation": "未描述",
+    "study_object": "牛瘤胃微生物组（宏基因组测序）",
+    "disease": "无",
+    "sample_size": "2496头牛",
+    "ai_done": true,
+    "fetch_date": "2026-07-12"
+  }
+]
