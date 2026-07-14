@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42444491",
+    "title": "Distinct trajectories of urbanization shape the human gut microbiome across South Asia.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-14",
+    "authors": "Ramachandran Shreya L; Pasupuleti Nagarjuna; Abdill Richard J; Adikari Gamini; Ahlawat Bhavna et al.",
+    "abstract": "Human gut microbiomes respond to lifestyle transitions, yet the extent to which these responses are conserved across spatio-cultural contexts remains undercharacterized. We present the South Asian MicroBiome ARray (SAMBAR), a population-scale 16S gut microbiome study of 575 adults from ten geographically and socio-culturally diverse South Asian communities. Each community was sampled in ancestral villages and urban centers, enabling controlled comparisons of geography and lifestyle. Relative to global cohorts, SAMBAR microbiomes occupy a distinct compositional space with stronger correlation to geography and community membership than lifestyle. Microbiome responses to lifestyle transitions are largely community-driven, including the acquisition of wheat- and dairying-associated microbial modules in some communities that may facilitate non-genetic adaptation to lactase nonpersistence. Concurrently, we identify significant associations of urbanization markers with increased abundance of disease-linked taxa, especially Megamonas-correlated with increased blood glucose and lower gut microbiome diversity-which is enriched in SAMBAR over comparative global regions. Overall, microbiome responses to urbanization are heterogeneous even at regional scales, reflecting local culture and geography, and underscoring the need for community-specific investigations of health impacts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Gut microbiome",
+      "South Asia",
+      "lifestyle transition",
+      "metabolic disease",
+      "urbanization"
+    ],
+    "summary_zh": "通过SAMBAR队列研究城市化对南亚人群肠道微生物组的影响，发现微生物组响应具有社区特异性，且城市化与疾病相关菌群增加及血糖升高相关。",
+    "innovation": "构建了南亚人群规模的16S肠道微生物组研究（SAMBAR） | 发现微生物组对城市化响应是社区驱动的，而非普遍保守 | 鉴定出城市化与Megamonas等菌群增加及血糖升高的关联",
+    "limitation": "未描述",
+    "study_object": "南亚社区居民的粪便样本的16S肠道微生物组研究",
+    "disease": "血糖升高",
+    "sample_size": "n=575",
+    "ai_done": true,
+    "fetch_date": "2026-07-14"
+  }
+]

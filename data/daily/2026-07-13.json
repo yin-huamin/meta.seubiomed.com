@@ -1,0 +1,224 @@
+[
+  {
+    "pmid": "42442303",
+    "title": "Bidirectional microbiota-cancer crosstalk: Emerging platforms for advanced diagnostics and precision therapeutics in oncology.",
+    "doi": null,
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "issn": "1950-6007",
+    "pub_date": "2026-07-13",
+    "authors": "Moshref-Javadi Mahtab; Ahmadbeigi Ghazale; Ataollahi Hanieh; Boroomand Seti; Kia Sima Kheradmand et al.",
+    "abstract": "Cancer is among the major causes of morbidity and mortality worldwide, and current treatment methods are limited by various drawbacks such as drug resistance, non-specificity, and differences among patients. With recent developments in this field, the human microbiota has emerged as one of the most important determinants for the onset, progression, and treatment of cancer. The bidirectional interactions of host microbiota and malignancies were investigated comprehensively in this review. Firstly, the origins, composition, and functional dynamics of the intra-tumoral microbiome were discussed, and then examined how microbial dysbiosis drives cancer development through DNA damage, chronic inflammation, epithelial-mesenchymal transition, and pharmacological inactivation. Moreover, some of the microbiome-based therapies, including phage-based therapy, bacterial extracellular vesicles, engineered probiotics, CRISPR/microbiome interactions, and microbiome regulation of immune checkpoint inhibitors and CAR T-cell therapy, were considered. In addition, the relevance of metabolites produced by the microbiome and taxonomy-based signatures as non-invasive biomarkers for detecting cancer at its early stages and predicting treatment outcomes is highlighted. The use of pharmacomicrobiomics and multi-omics profiling, along with artificial intelligence/machine learning, will accelerate the process of translating microbiome research into clinical applications and personalized cancer therapy. This review presents practical approaches that will help in leveraging the interaction between the microbiome and host in order to optimize the efficacy of immunotherapy while minimizing the risk of toxicity. Finally, we highlight a refined understanding of the microbiota-cancer axis, which has strong potential to redefine clinical paradigms in oncology and pave the way for more precise, effective, and individualized cancer management.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Artificial intelligence",
+      "Cancer immunotherapy",
+      "Human microbiota",
+      "Microbiome biomarkers",
+      "Microbiome-based cancer therapy",
+      "Microbiota dysbiosis",
+      "Pharmacomicrobiomics"
+    ],
+    "summary_zh": "综述微生物组与癌症的双向相互作用，探讨微生物组在癌症诊断和治疗中的应用潜力。",
+    "innovation": "系统阐述微生物组与癌症的双向相互作用机制 | 总结基于微生物组的新型诊断和治疗平台（如噬菌体疗法、工程益生菌等） | 提出多组学与人工智能加速微生物组研究向临床转化",
+    "limitation": "未描述",
+    "study_object": "人类肿瘤样本中的微生物组（综述）",
+    "disease": "癌症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42442631",
+    "title": "Microbiota-Circadian Desynchrony as a Mechanistic Interface for Xenobiotic-Induced Systemic Metabolic Fatigue.",
+    "doi": null,
+    "journal": "Chemico-biological interactions",
+    "issn": "1872-7786",
+    "pub_date": "2026-07-13",
+    "authors": "Nam Jaeyoon; Kwon Dasom; Moon Yuseok",
+    "abstract": "Fatigue is increasingly recognized as a systemic manifestation of disrupted metabolic and neuroendocrine homeostasis under conditions of xenobiotic and iatrogenic stress, yet its underlying toxicological mechanisms remain poorly defined. Emerging evidence indicates that environmental toxicants and antibiotics perturb host physiology not only through direct cellular toxicity but also by destabilizing microbiota-dependent circadian regulation. In this review, we synthesize current experimental and clinical evidence to delineate a microbiota-circadian axis as a mechanistic interface linking xenobiotic exposure to systemic metabolic dysfunction and fatigue-related phenotypes. Mechanistically, toxicant- and antibiotic-induced dysbiosis disrupts the production of key microbial metabolites, including short-chain fatty acids, secondary bile acids, and tryptophan-derived compounds. These metabolites function as critical regulators of peripheral circadian clocks, mitochondrial bioenergetics, and neuroendocrine signaling. Their depletion leads to circadian misalignment, impaired metabolic efficiency, and activation of neuroinflammatory pathways, notably through a shift in tryptophan metabolism toward the kynurenine pathway and altered mesolimbic dopaminergic signaling. We further re-evaluate legacy clinical evidence on antibiotic-associated fatigue, proposing that inconsistent findings may reflect limitations in study design, including inadequate assessment of circadian disruption and delayed microbiome recovery. Importantly, circadian disruption itself emerges as a key modifier of host susceptibility, amplifying the biological impact of xenobiotic and microbial perturbations. Finally, we discuss translational implications, highlighting chronotherapeutic and microbiome-targeted strategies aimed at restoring temporal and metabolic homeostasis. By positioning fatigue as a downstream consequence of xenobiotic-driven microbiota-circadian disruption, this review provides a mechanistic framework for understanding environmentally induced systemic dysfunction and identifies potential avenues for targeted intervention.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "circadian rhythm",
+      "fatigue",
+      "gut microbiota",
+      "neuroinflammation",
+      "xenobiotics"
+    ],
+    "summary_zh": "通过综述探讨微生物组-昼夜节律失同步作为外源性物质诱导系统性代谢疲劳的机制界面。",
+    "innovation": "将微生物组-昼夜节律轴作为外源性物质暴露与代谢疲劳之间的机制界面 | 重新评估抗生素相关疲劳的临床证据并提出研究设计局限性 | 强调昼夜节律紊乱作为宿主易感性的关键修饰因子",
+    "limitation": "研究设计中昼夜节律紊乱评估不足和微生物组恢复延迟",
+    "study_object": "人类/动物模型 + 肠道微生物组 + 综述分析",
+    "disease": "疲劳",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42439572",
+    "title": "LD-transpeptidation in bacterial cell walls: biochemical principles and functional diversity.",
+    "doi": null,
+    "journal": "Microbiology and molecular biology reviews : MMBR",
+    "issn": "1098-5557",
+    "pub_date": "2026-07-13",
+    "authors": "Walenkiewicz Barbara; Alvarez Laura; Cava Felipe",
+    "abstract": "SUMMARYPeptidoglycan (PG) is a dynamic, load-bearing polymer whose crosslinking chemistry governs envelope mechanics, growth modes, and stress tolerance. For decades, PG crosslinking was viewed primarily through the lens of penicillin-binding proteins (PBPs). However, accumulating evidence over the past 2 decades has established LD-transpeptidases (LDTs) as important contributors to PG remodeling. Here, we organize the expanding LDT field into macro-domains bridging biochemistry, evolution, and ecology. We initially describe the reaction mechanisms, structural diversification, and convergent solutions and then explore the evolution across species. We highlight non-canonical LD-crosslinking chemistries, including L-Ala-meso-DAP (1-3) linkages, that broaden the design space of the sacculus. We then map functional repertoires across lineages-from reinforcement during envelope stress to outer membrane tethering, predation, specialized secretion, dormancy, and biofilms. In pathogens where LD-crosslinking is dominant or essential, carbapenems and penems remain particularly effective inhibitors of LDTs, yet family-wide diversity calls for structure-guided selectivity and ecological awareness. We also chart underexplored connections to microbiome ecology and propose LDT-derived biomarkers that report growth modes and dormancy. We integrate dispersed evidence into a complete landscape in which two-component systems and environmental cues coordinate LD pathways. Building on these threads, we propose a unifying model of LDTs as adaptive architects of PG whose acyl-enzyme intermediate and modular substrate gating endow reversibility, partner choice, and context-dependent outcomes-reinforcement, remodeling, anchoring, or controlled self-breach. Finally, we outline methods that enabled the discovery of LDTs and explore future directions. Together, these perspectives reframe LDTs from auxiliary enzymes to central designers of envelope architecture and bacterial fitness.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "LD-transpeptidase",
+      "LD-transpeptidation",
+      "VanW",
+      "YkuD",
+      "cell wall",
+      "crosslink",
+      "outer membrane tethering",
+      "peptidoglycan"
+    ],
+    "summary_zh": "综述LD-转肽酶在细菌细胞壁交联中的生化机制、进化多样性及生态功能，提出其作为适应性的肽聚糖建筑师模型。",
+    "innovation": "提出LDTs作为适应性肽聚糖建筑师的统一模型 | 描述非经典LD交联化学拓宽细胞壁设计空间 | 提出LDT来源的生物标志物用于监测生长模式和休眠",
+    "limitation": "未描述",
+    "study_object": "细菌细胞壁，LD-转肽酶，综述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42442659",
+    "title": "Mediterranean diet: definitions, health effects and metabolic pathways - evidence and future directions.",
+    "doi": null,
+    "journal": "Metabolism: clinical and experimental",
+    "issn": "1532-8600",
+    "pub_date": "2026-07-13",
+    "authors": "Yannakoulia Μ; Kontogianni Μ D; Antonopoulou S; Fragopoulou E; Kyriacou A et al.",
+    "abstract": "The Mediterranean diet (MedDiet) is one of the most extensively studied dietary patterns in relation to chronic disease prevention and management. MedDiet reflects a plant-forward dietary model characterized by high intake of fruits, vegetables, legumes, whole grains, nuts, and olive oil, moderate consumption of fish and dairy, low intake of red and processed meats, and optional moderate wine intake with meals. This review summarizes current evidence linking adherence to the MedDiet with major health outcomes, including cardiovascular disease, type 2 diabetes mellitus, metabolic dysfunction-associated steatotic liver disease, chronic kidney disease, neurodegenerative disorders, and cancer. Evidence from prospective cohort studies, randomized controlled trials, and meta-analyses consistently supports protective associations, particularly for cardiovascular and metabolic endpoints. Biological pathways underlying these effects include modulation of inflammation, oxidative stress, endothelial function, thrombosis, gut microbiome composition and/or function, and metabolomic profiles. Advances in metabolomics and microbiome research provide emerging insight into potential intermediary mechanisms linking dietary exposure to disease risk. Methodological challenges in assessing adherence and heterogeneity in scoring systems are also discussed as well as future research priorities.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Biological mechanisms",
+      "Cancer",
+      "Cardiovascular disease",
+      "Chronic kidney disease",
+      "Mediterranean diet",
+      "Metabolic dysfunction–associated steatotic liver disease",
+      "Neurodegenerative disease",
+      "Type 2 diabetes mellitus"
+    ],
+    "summary_zh": "综述地中海饮食的定义、健康效应及代谢通路，总结其对慢性病的保护证据和未来方向",
+    "innovation": "总结代谢组学和微生物组研究的新见解 | 综合多个慢性病结局的保护证据",
+    "limitation": "评估依从性的方法学挑战和评分系统的异质性",
+    "study_object": "人类 + 饮食模式综述 + 代谢组学和微生物组分析",
+    "disease": "心血管疾病、2型糖尿病、代谢功能障碍相关脂肪性肝病、慢性肾病、神经退行性疾病、癌症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42442519",
+    "title": "Engineered novel protease-stable multifunctional peptides attenuate metabolic dysfunction-associated steatotic liver disease via disrupting bile acid micelle and activating PPAR pathway.",
+    "doi": null,
+    "journal": "Pharmacological research",
+    "issn": "1096-1186",
+    "pub_date": "2026-07-13",
+    "authors": "Li Yawen; Deng Wenjun; Li Qi; Zhou Chen; Sun Ningning et al.",
+    "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) poses a global health challenge, yet effective therapies are hindered by limited efficacy of synthetic medications and poor druggability of natural bioactive compounds. Here, we report an engineered therapeutic strategy for MASLD that overcomes the gastrointestinal (GI) instability of a soy-derived peptide, soystatin (SP), through structural optimization and live probiotic delivery. Firstly, we developed two protease-resistant peptide analogs of SP, SP2 and SP9, which maintain potent bile acids micellar-disruptive capacities in the degradative environment of the GI tract. These peptides significantly reduced serum and hepatic lipids while resolving hepatic steatosis, which is superior to that of cholestyramine at the same dose and equivalent weight, the first-line cholesterol-lowering and traditional sequestrant. Additionally, pharmacokinetic analysis documented that these peptides exhibited gut-localized with negligible systemic exposure. Further investigations revealed that SP2 and SP9 work via a \"dual-hit\" lipid-lowering mechanism. Physically, like cholestyramine, they block intestinal cholesterol absorption by impairing micelle formation. Biologically, they reprogram hepatic lipid metabolism by activating the peroxisome proliferator-activated receptor signaling pathway and fatty acid β-oxidation, while modulating the bile acid pool linked to altered gut microbiome. These peptides may also mitigate the oxidative hepatocellular damage via the downregulation of oxidative phosphorylation. Finally, we engineered a gut-colonizing Lactobacillus plantarum WCSF1 strain to continuously secrete SP2 and SP9-repeats in situ, significantly attenuating MASLD activity scores and improving lipid profiles. Our results demonstrate that coupling optimized bioactive peptides with engineered probiotic chassis provides a promising strategy for the long-term management of chronic metabolic liver diseases.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Lipid-lowering peptides",
+      "Metabolic dysfunction-associated steatotic liver disease",
+      "PPAR signaling pathway",
+      "Peptide engineering",
+      "bile acid micelles",
+      "probiotics-based live delivery"
+    ],
+    "summary_zh": "通过结构优化和益生菌递送开发了蛋白酶稳定的多功能肽，经破坏胆汁酸胶束和激活PPAR通路治疗MASLD。",
+    "innovation": "开发了两种蛋白酶稳定的肽类似物SP2和SP9 | 表现出优于传统药物考来烯胺的降脂效果 | 通过物理和生物双重机制降脂",
+    "limitation": "未描述",
+    "study_object": "MASLD模型小鼠，肠道微生物，工程化益生菌递送的肽",
+    "disease": "代谢功能障碍相关脂肪性肝病 (MASLD)",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42443941",
+    "title": "Long-read metagenomics and methylation-based binning support the discovery of antibiotic resistance gene-host associations in complex communities.",
+    "doi": null,
+    "journal": "Genome biology",
+    "issn": "1474-760X",
+    "pub_date": "2026-07-13",
+    "authors": "Markkanen Melina; Putkuri Heidi; Kičiatovas Dovydas; Mustonen Ville; Virta Marko et al.",
+    "abstract": "BACKGROUND: Antibiotic resistance genes (ARGs) circulating among clinically relevant bacteria pose serious challenges to public health. Given the ancient and environmental bacterial origins of ARGs, a better understanding of the carriers of ARGs beyond the clinically most relevant species is urgently needed for longer-term resistance monitoring and intervention measures. While the risks of emerging ARGs from environmental sources have been recognized, the identification bottlenecks stem from the limitations of shotgun metagenomic sequencing and bioinformatic methods.\nRESULTS: We use long-read metagenomic sequencing and bacteria-specific methylation profiles to re-establish the links between established (well-described) or latent (absent in databases) ARGs and their bacterial and genetic contexts in wastewater. We analyze base modification data produced by PacBio SMRT sequencing using an in-house pipeline utilizing position weight matrices and UMAP visualizations, which we validate by a synthetic community with known bacterial composition. Our analysis reveals several previously unreported ARGs and ARG-host linkages in wastewater. For instance, we find that Arcobacter, a key wastewater associated taxon and emerging pathogen, carries a latent beta-lactamase gene with high predicted mobility potential. Of the other understudied beta-lactamases, we describe blaMCA within pdif-modules across highly varying contexts suggesting its recent acquisition events. Additionally, we uncover the wastewater resident taxa mediated carriage of clinically important ARGs.\nCONCLUSIONS: By linking ARGs to their wider genetic contexts and hosts, our findings shed light on the previously unrecognized carriers of resistance genes in wastewater. The presented approach provides a valuable methodology for early identification of newly arising ARGs and their hosts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotic resistance",
+      "DNA methylation",
+      "Long-read metagenomic sequencing",
+      "Pdif-modules",
+      "Wastewater"
+    ],
+    "summary_zh": "利用长读长宏基因组和甲基化分箱，发现废水中未知的抗生素抗性基因宿主关联，为早期监测提供方法。",
+    "innovation": "结合长读长宏基因组与甲基化分箱解析ARGs宿主 | 利用碱基修饰数据通过自建流程进行菌株分箱 | 发现废水中的新ARGs及潜在移动性",
+    "limitation": "未描述",
+    "study_object": "废水微生物群落，长读长宏基因组及甲基化分箱",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  },
+  {
+    "pmid": "42443904",
+    "title": "Protective role of lactate in allergic airway inflammation: mitigation of inflammatory injury, epithelial barrier integrity restoration, and gut-lung axis involvement.",
+    "doi": null,
+    "journal": "Respiratory research",
+    "issn": "1465-993X",
+    "pub_date": "2026-07-13",
+    "authors": "Lin Meilian; Zhou Jie; Wang Yan; Xu Wenchun; Sun Xiaoyu",
+    "abstract": "BACKGROUND: Allergic asthma is a prevalent respiratory disorder characterized by chronic airway inflammation and remodeling. Glycolysis has been reported to participate in pathogenesis of allergic asthma and increased lactate levels were found in asthma patients and mouse models. However, the function of lactate in allergic asthma remains unclear.\nMETHODS: A mouse model of HDM induced allergic airway inflammation was established. Six age- and weight-matched female mice were assigned to different groups using a randomized double-blind method. A panel of indicators such as serum IgE, infiltration cell numbers, Th2 cytokines levels and eosinophil extracellular traps (EETs) were applied to assess airway inflammation. Airway epithelial barrier function was measured by Western blot and immunofluorescent staining. RNAseq analysis of lung tissues was applied to elucidate potential mechanisms, and 16S rRNA gene sequencing of fecal samples was used for gut microbiota analysis.\nRESULTS: Administration of lactate could significantly ameliorate allergic airway inflammation including Th2 cytokines, inflammatory cell infiltration, histopathological morphological changes together with eosinophil extracellular traps (EETs) formation in a mouse model of asthma. Moreover, RNAseq analysis revealed that lactate decreased proinflammtory cytokine and chemokine related pathways such as MAPK, STAT1, STAT3 and NF-κB to exert immunoregulatory effects. In addition, we found that lactate dramatically inhibited airway epithelial barrier dysfunction and pulmonary apoptosis. Furthermore, 16S rRNA gene sequencing of fecal samples suggested that lactate treatment increased abundance of Lactobacillus, Limosilactobacillus and Bacteroides, showing a shift towards a healthier state in HDM-induced asthmatic mice.\nCONCLUSIONS: Our study integrating transcriptomic and microbiome analyses, revealed a protective effect of lactate on allergic airway inflammation, providing a basis for development of novel therapeutic treatment for allergic asthma.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Airway barrier function",
+      "Allergic airway inflammation",
+      "Gut microbiota",
+      "Lactate"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-07-13"
+  }
+]
