@@ -1,0 +1,393 @@
+[
+  {
+    "pmid": "42458733",
+    "title": "Longitudinal modelling of microbiome subcommunities reveals parity-dependent dynamics during pregnancy and postpartum.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-15",
+    "authors": "Kennedy K M; Fernando S; Atkinson S A; Surette M G; Jeganathan P et al.",
+    "abstract": "BACKGROUND: Dysregulation of maternal adaptations to pregnancy due to high pre-pregnancy BMI (pBMI) is associated with worsened health outcomes for mothers and children. The role of the gut microbiome in these adaptations remains unclear.\nMETHODS: Stool samples were collected from pregnant participants (n = 52) enrolled in the Be Healthy in Pregnancy study (NCT01689961) during first, second, and third trimesters, and 6-months postpartum, along with samples from their infants at 6 months of age. Following 16S rRNA gene sequencing, we implemented time-aligned LDA (TALDA) using a time-weighted sampling strategy with exponentially decaying weights to construct time-proximal cohorts, applied LDA to each cohort independently, and aligned resulting topics using the alto R package. Infant samples were analyzed using standard LDA.\nRESULTS: Seven distinct subcommunities were identified, one of which represented perineal contamination and was excluded from further analysis. Remaining subcommunities had distinct taxonomic definitions which remained stable throughout pregnancy (mean cross-cohort stability 0.899) while subcommunity proportions within individuals varied. Multiparous individuals showed greater shifts in subcommunity proportions during early pregnancy, while primiparous individuals displayed progressively increasing shifts with the largest changes during the transition from pregnancy to postpartum. High pBMI was associated with reduced microbiome remodelling, particularly among multiparous individuals. In exploratory analyses, maternal SCFA-producing subcommunity abundance at late pregnancy was positively associated with infant Bifidobacterium-dominated subcommunity proportions at 6 months, while pBMI > 25 was independently associated with lower infant Bifidobacterium.\nCONCLUSION: TALDA effectively distinguished between stable subcommunity definitions and dynamic subcommunity proportions, revealing that the microbiome maintains functional organization while subcommunity proportional contributions shift over the course of pregnancy and postpartum. These maternal dynamics may have intergenerational consequences through their influence on infant gut colonization. This work demonstrates that maternal factors modify microbiome trajectories and supports the existence of an ecological memory of pregnancy history within the maternal gut microbiome.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Microbiome, microbiota, microbial, metabolites, parity, pregnancy, perinatal, metabolism"
+    ],
+    "summary_zh": "使用时间对齐LDA模型研究孕期和产后肠道微生物亚群落动态，发现亚群落定义稳定但比例随孕次和BMI变化，并影响婴儿定植。",
+    "innovation": "提出时间对齐LDA (TALDA) 方法用于纵向微生物组建模 | 揭示微生物组亚群落定义稳定而比例动态变化的特性 | 发现孕次和BMI影响微生物组动态并具有代际效应",
+    "limitation": "未描述",
+    "study_object": "孕妇和婴儿的粪便样本 + 16S rRNA基因测序",
+    "disease": "无",
+    "sample_size": "52名孕妇",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42458961",
+    "title": "Ecological restructuring of the nonbacterial fecal microbiome in obesity across human cohorts.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-15",
+    "authors": "Gallardo-Nuell Laura; Rosell-Díaz Marisel; Garre-Olmo Josep; Puig Josep; Ramos Rafael et al.",
+    "abstract": "Obesity is a complex metabolic disorder increasingly linked to alterations in the gut microbiome. While most research has focused on bacterial communities, the contribution of nonbacterial components including viruses, archaea, and eukaryotic microorganisms remains insufficiently characterized. Here, we performed a multicohort analysis to investigate the role of the nonbacterial gut microbiome in obesity across three independent human cohorts. Using compositional analyses adjusted for key covariates and network based approaches, we identified consistent multikingdom alterations associated with obesity. Individuals without obesity showed a reproducible enrichment of methanogenic archaea, particularly Methanobrevibacter smithii and Methanobrevibacter millerae, whereas individuals with obesity were characterized by increased abundance of bacteriophages from the class Caudoviricetes. In an elderly cohort, eukaryotic taxa such as Blastocystis spp. were additionally associated with the without obesity group. These patterns were largely consistent across cohorts and robust to sex stratification. Beyond taxonomic differences, ecological network analyses revealed substantial reorganization of microbial interactions in obesity. The identity and composition of hub taxa differed significantly between obesity and without obesity networks across all cohorts, indicating a shift in the taxa occupying central ecological roles. Notably, these differences were observed even when similar microbial kingdoms were represented, underscoring the importance of species-level resolution. Collectively, our findings demonstrate that obesity is associated with coordinated compositional and ecological alterations across the nonbacterial gut microbiome. This multikingdom perspective expands current understanding of microbiome dysbiosis in metabolic disease and highlights the archaeome and virome as potential contributors to host metabolic health.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Gut microbiome",
+      "archaea",
+      "bacteriopages",
+      "metabolic disease",
+      "obesity"
+    ],
+    "summary_zh": "通过对三大人群队列的非细菌粪便微生物组分析，发现肥胖与古菌减少、噬菌体增多及微生物互作网络重组相关。",
+    "innovation": "首次聚焦非细菌组分（病毒、古菌、真核微生物）在肥胖中的作用 | 多队列分析证明跨队列一致性 | 生态网络分析揭示肥胖相关的微生物互作重组",
+    "limitation": "未描述",
+    "study_object": "人类粪便样本 + 宏基因组测序",
+    "disease": "肥胖",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42454489",
+    "title": "Branched chain amino acid metabolism and microbiome in adolescents with obesity during weight loss therapy.",
+    "doi": null,
+    "journal": "The Journal of clinical investigation",
+    "issn": "1558-8238",
+    "pub_date": "2026-07-15",
+    "authors": "McCann Jessica R; Yang Chengxin; Bihlmeyer Nathan A; Tang Runshi; Truong Tracy et al.",
+    "abstract": "BACKGROUNDObesity and weight loss in adults have been associated with distinct metabolome and gut microbiome features, but the extent to which those associations apply to adolescent stages remain unclear.METHODSThe Pediatric Obesity Microbiome and Metabolism Study (POMMS) enrolled 220 adolescents aged 10-18 with severe obesity (OB) and 67 individuals who were healthy weight controls (HWCs). Blood, stool, and clinical measures were collected at baseline and after a 6-month obesity intervention for the OB group. Metabolomic profiling in serum using targeted quantitative mass spectrometry and microbiome profiling in stool were performed, and those features were assessed for associations with BMI, insulin resistance, and inflammation. Fecal microbiome transplants (FMT) were performed on germ-free mice using samples from both groups to assess effects on weight gain and metabolic pathways.RESULTSAdolescents with OB exhibited higher serum branched-chain amino acid (BCAA) but lower branched-chain ketoacid (BCKA) levels compared with HWC. This pattern was sex- and age-dependent and differed from adults with obesity who show elevated levels of both BCAA and BCKA. Longitudinal analysis identified metabolic and microbial features correlated with changes in health measures during the intervention. The fecal microbiomes of adolescents with OB and HWC had similar diversity but differed in membership and functional potential. FMT from both OB and HWC donors had similar effects on mouse body weight, but specific taxa were linked to weight gain in recipients of FMT.CONCLUSIONAdolescents with OB have unique metabolomic adaptations and microbiome signatures compared with their HWC counterparts and adults with OB.TRIAL REGISTRATIONClinicalTrials.gov Identifier: NCT03139877 (Observational Study) and NCT02959034 (Repository).FUNDING SUPPORTAmerican Heart Association Grants: 17SFRN33670990, 20PRE35180195; National Institute of Diabetes and Digestive and Kidney Diseases Grant: R24-DK110492.",
+    "pub_types": [
+      "Journal Article",
+      "Clinical Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Adolescent",
+      "Amino Acids, Branched-Chain",
+      "Female",
+      "Animals",
+      "Male",
+      "Child",
+      "Mice",
+      "Gastrointestinal Microbiome",
+      "Weight Loss",
+      "Pediatric Obesity",
+      "Fecal Microbiota Transplantation"
+    ],
+    "keywords": [
+      "Amino acid metabolism",
+      "Clinical Research",
+      "Metabolism",
+      "Microbiology",
+      "Microbiome",
+      "Obesity"
+    ],
+    "summary_zh": "研究揭示青少年肥胖减重中支链氨基酸代谢和肠道微生物组的独特特征，与成人不同。",
+    "innovation": "发现青少年肥胖特有的支链氨基酸（BCAA）与支链酮酸（BCKA）模式与成人不同 | 肥胖与健康体重青少年粪便微生物多样性相似但组成和功能潜力不同 | 通过粪菌移植实验揭示特定菌群与体重增加的关联",
+    "limitation": "未描述",
+    "study_object": "青少年严重肥胖患者和健康体重对照的血清代谢组和粪便微生物组",
+    "disease": "肥胖",
+    "sample_size": "220例严重肥胖青少年和67例健康体重对照（n=287）",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42455161",
+    "title": "Insights into Pathogenesis of Chronic Spontaneous Urticaria.",
+    "doi": null,
+    "journal": "The British journal of dermatology",
+    "issn": "1365-2133",
+    "pub_date": "2026-07-15",
+    "authors": "Zuberbier Torsten; Bonnekoh Hanna; Kocatürk Emek; Kolkhir Pavel; Lionnet Leonard et al.",
+    "abstract": "Chronic spontaneous urticaria (CSU) is a mast cell-mediated inflammatory disease marked by recurrent wheals and/or angioedema in the absence of identifiable external triggers. Once considered idiopathic, CSU is now recognized as a heterogeneous immunological disorder that results in mast cell activation. Two major endotypes have been described: autoallergic (type I) CSU, mediated by IgE autoantibodies directed against self-antigens, and autoimmune (type IIb) CSU, mediated by IgG autoantibodies targeting IgE or FcεRI on mast cells and basophils. Type IIb CSU is associated with higher disease severity, autoimmune comorbidities, low total IgE levels, and reduced responsiveness to antihistamines and omalizumab. Beyond classical autoantibody-mediated mechanisms, increasing evidence supports the contribution of non-IgE-dependent pathways in CSU pathogenesis. These include Mas-related G protein-coupled receptor X2 (MRGPRX2) - mediated mast cell activation, neuroimmune interactions, activation of coagulation and complement cascades, and persistent low-grade inflammation. Alterations of the gut microbiome and impaired barrier function have also been implicated in sustaining systemic immune activation and lowering mast cell activation thresholds in subsets of patients. Recent therapeutic advances, including biologics targeting type 2 inflammation and small-molecule inhibitors of intracellular signaling pathways such as Bruton's tyrosine kinase, highlight the clinical relevance of these mechanistic insights. However, a substantial proportion of patients remain inadequately controlled, underscoring the need for improved biomarkers, refined endotype stratification, and disease-modifying treatment strategies. This review summarizes current insights into the multifactorial pathophysiology of CSU, highlights remaining knowledge gaps, and discusses how emerging concepts may inform more precise, personalized, and potentially disease-modifying therapeutic approaches.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述慢性自发性荨麻疹的多因素发病机制，包括自身过敏和自身免疫内型，以及非IgE依赖途径，强调知识空白和精准治疗需求。",
+    "innovation": "未描述",
+    "limitation": "患者控制不足，需改进生物标志物和内型分层 | 存在知识空白，需进一步研究",
+    "study_object": "慢性自发性荨麻疹患者（综述）",
+    "disease": "慢性自发性荨麻疹",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42457309",
+    "title": "Association between Helicobacter pylori infection and colonic diverticulosis: a retrospective observational study in an asymptomatic Austrian endoscopy-based screening cohort.",
+    "doi": null,
+    "journal": "BMJ open gastroenterology",
+    "issn": "2054-4774",
+    "pub_date": "2026-07-15",
+    "authors": "Völkerer Andreas; Wernly Sarah; Semmler Georg; Flamm Maria; Ausserwinkler Mathias et al.",
+    "abstract": "OBJECTIVE: Colonic diverticulosis is highly prevalent in ageing populations, yet the role of microbial factors remains unclear. Helicobacter pylori (HP) exerts systemic and microbiome-modulating effects and has been linked to extragastric inflammatory states, rendering an association with diverticulosis biologically plausible. However, this hypothesis has not been examined in asymptomatic screening populations with simultaneous endoscopic diverticulosis classification and histological HP confirmation. This study aimed to investigate whether HP infection is associated with colonic diverticulosis in an asymptomatic Austrian screening cohort.\nMETHODS: We performed a retrospective observational study of 5646 asymptomatic adults undergoing screening colonoscopy with concurrent oesophagogastroduodenoscopy (2007-2020). Diverticulosis was classified endoscopically by distribution; HP status was determined histologically from gastric biopsies. Multivariable logistic regression adjusted for metabolic, sociodemographic and lifestyle factors. A subset with follow-up colonoscopy (n=510) was analysed descriptively.\nRESULTS: Diverticulosis was present in 37% of participants and HP infection in 19%. No association was found between HP infection and diverticulosis in univariable (OR 1.01, 95% CI 0.88 to 1.15; p=0.935) or fully adjusted analysis (OR 0.86, 95% CI 0.72 to 1.02; p=0.078), with an effect size too small to be clinically meaningful. Subgroup analyses by diverticular distribution and interaction analyses across age, sex, metabolic syndrome and lifestyle factors showed consistent null results. In the longitudinal subset, diverticulosis prevalence at follow-up did not differ by baseline HP status (63.9% vs 62.1%; p=0.749).\nCONCLUSIONS: In this large screening cohort with simultaneous endoscopic and histological confirmation, HP infection was not associated with colonic diverticulosis across subtypes or risk strata. These findings do not support HP status as a clinically useful marker of asymptomatic diverticulosis. In future microbiome-focused studies of diverticulosis, HP infection may be best regarded as a potential confounder or marker of broader host, socioeconomic or healthcare-related factors.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "DIVERTICULAR DISEASE",
+      "GASTROINTESINAL ENDOSCOPY",
+      "HELICOBACTER PYLORI"
+    ],
+    "summary_zh": "通过回顾性观察5646名无症状奥地利筛查人群，发现幽门螺杆菌感染与结肠憩室病无显著关联，不支持HP作为临床标志物。",
+    "innovation": "首次在无症状筛查人群中同时使用内镜憩室病分类和组织学HP确认 | 大规模队列调整多种混杂因素 | 分层分析显示一致阴性结果",
+    "limitation": "未描述",
+    "study_object": "无症状奥地利筛查人群 + 结肠镜及胃镜样本 + 回顾性观察研究",
+    "disease": "结肠憩室病",
+    "sample_size": "5646",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42454784",
+    "title": "Dietary intervention through bacterial-derived butyrate elicits anti-tumor activity and increases anti-PD-1 response.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-15",
+    "authors": "Benlaïfaoui Myriam; Richard Corentin; Hunter Sébastien; Méndez-Salazar Eder Orlando; Kourtian Sylva et al.",
+    "abstract": "The gut microbiome is increasingly recognized as a key modulator of cancer immunotherapy efficacy. Given that diet is one of the most important determinants of the gut microbiome composition and function, nutritional strategies have emerged as promising tools to modulate anti-tumor immune responses. Here, we demonstrate that dietary supplementation with inulin reduces tumor growth and enhances αPD-1 efficacy in mice. These effects were associated with increased frequencies of intra-tumoral CD8⁺ and CD4⁺ T cells, particularly CCR9⁺CXCR3⁺ subsets, and enrichment of beneficial taxa such as Akkermansia and Lachnospiraceae, alongside elevated short-chain fatty acids (SCFA) levels. Among the SCFA, butyrate alone recapitulated the anti-tumor effect of inulin and had an additive effect when combined with αPD-1 therapy in a CD8⁺ T cell-dependent manner. Butyrate exerted its anti-tumor effects by transcriptional changes in CD8⁺ T cells involving activation of proliferation, trafficking, and metabolic pathways. In a cohort of 117 non-small cell lung cancer (NSCLC) patients amenable to immunotherapy, the median dietary fiber intake was lower than previously published studies but correlated with enrichment of Faecalibacterium praunitzii and metabolic pathways related to sucrose degradation and tryptophan biosynthesis. Collectively, our findings highlight the therapeutic potential of targeting diet-microbiome-immune system interactions to improve cancer immunotherapy outcomes.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Butyrates",
+      "Gastrointestinal Microbiome",
+      "CD8-Positive T-Lymphocytes",
+      "Programmed Cell Death 1 Receptor",
+      "Inulin",
+      "Bacteria",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Lung Neoplasms",
+      "Mice, Inbred C57BL",
+      "Dietary Supplements",
+      "CD4-Positive T-Lymphocytes",
+      "Female",
+      "Dietary Fiber",
+      "Fatty Acids, Volatile"
+    ],
+    "keywords": [
+      "Dietary fiber",
+      "NSCLC",
+      "SCFA",
+      "butyrate",
+      "cancer",
+      "gut microbiome",
+      "immunotherapy"
+    ],
+    "summary_zh": "菊粉通过丁酸盐增强CD8+ T细胞功能抑制肿瘤生长，并提升αPD-1疗效，在NSCLC患者中膳食纤维与有益菌相关。",
+    "innovation": "首次证明菊粉通过细菌衍生的丁酸盐介导抗肿瘤活性 | 丁酸盐可单独重现菊粉的抗肿瘤效果并与αPD-1疗法叠加 | 揭示丁酸盐对CD8+ T细胞的转录调控机制",
+    "limitation": "未描述",
+    "study_object": "小鼠（肿瘤模型）和人类（非小细胞肺癌患者） + 粪便样本 + 未描述技术类型",
+    "disease": "非小细胞肺癌",
+    "sample_size": "117例非小细胞肺癌患者",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42458730",
+    "title": "Multi-omic modelling of body mass index response to a dietary weight loss intervention.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-07-15",
+    "authors": "Yeo Emily N; Scadden Ashley W; Caterer Zachary T; Sutton Kristen J; Konigsberg Iain R et al.",
+    "abstract": "Obesity is a multifactorial condition, and there is wide heterogeneity in responses to weight loss interventions. Although it remains challenging, modeling responses to weight loss interventions can help tailor treatments, increase weight loss success, or improve our understanding of underlying pathophysiology. We leveraged multi-omic (genetics; gut microbiota: taxonomy, inferred gene pathways and metabolite dynamics; blood metabolomics) and clinical data (e.g., lipids, blood glucose) from a 12-month behavioral weight loss trial of adults (n = 150) with overweight/obesity, to forecast longitudinal body mass index (BMI) and BMI change (ΔBMI) using Mixed Effects Random Forests (MERF) and GLMM-Lasso. Across modeling approaches and outcomes, routinely available clinical variables and blood metabolomics consistently improved prediction over basic demographics, and metabolomics added value beyond clinical information. Across models, the combined omic risk score most improved models of longitudinal BMI trajectories, explaining 20.5-26.0% marginal variance (R2m), whereas metabolomic risk scores most improved BMI change prediction (R2m = 52.9-59.3%). Gut microbial taxonomy and inferred gene pathways offered modest but significant gains for some models and outcomes, while metabolite dynamics consistently failed to enhance performance. The most important features in the models included insulin, glycoprotein acetyls, lipoprotein sizes, and certain amino acids, aligning with known inflammatory and metabolic mechanisms. These findings support that select blood-based biomarkers correlate with individual responses to weight loss efforts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Behavioral intervention",
+      "Metabolomics",
+      "Microbiome",
+      "Obesity",
+      "Weight loss"
+    ],
+    "summary_zh": "利用多组学和临床数据预测减重干预中的BMI变化，发现血液代谢组学提升预测效果，微生物组作用有限。",
+    "innovation": "首次在多组学框架下系统性比较不同组学类型对BMI轨迹和变化预测的价值 | 采用混合效应随机森林和GLMM-Lasso建模纵向BMI数据 | 发现代谢组学风险评分对BMI变化解释方差达52.9-59.3%",
+    "limitation": "代谢物动态数据持续未能提升模型性能 | 样本量有限（n=150）可能影响泛化性",
+    "study_object": "超重/肥胖成年人 + 血液和粪便样本 + 多组学（遗传、肠道微生物、代谢组）及临床数据",
+    "disease": "肥胖",
+    "sample_size": "150",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42454959",
+    "title": "Host community activity, but not always composition, explains viral biogeography in bulk and rhizosphere soils over a tomato growing season.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-07-15",
+    "authors": "Stern Lucie; Ter Horst Anneliek M; Simpson-Johnson Konner E; Gaudin Amélie C M; Emerson Joanne B",
+    "abstract": "The soil microbiome is key to plant health and nutrient acquisition, and viruses likely play important but largely unknown roles in these processes. To interrogate bulk and rhizosphere soil viral biogeography, we collected samples over a tomato growing season in California from an experiment testing arbuscular mycorrhizal fungi (AMF) treatment. We generated 78 viromes, 16S rRNA gene, and ITS1 amplicon datasets, and 33 rhizosphere metatranscriptomes. Of 67,038 DNA viral 'species' genomes (vOTUs), 25% were previously identified, predominantely in agricultural systems, suggesting habitat filtering and greater viral homogeneity across agricultural compared to natural soils globally. Rhizospheres had significantly higher DNA viral richness than bulk soils, whereas no significant richness differences were observed for other biota. 60% of vOTUs were shared between compartments, compared to only 21-23% of bacterial and fungal taxa. Although bulk soil viral biogeography resembled that of prokaryotes, with significant structuring by moisture content, greater virome similarity between high-moisture bulk soils and rhizospheres suggests that conditions with high host activity selected for similar viral communities. In rhizospheres, while bacterial and fungal communities differed most over time, DNA and RNA viral communities differed most by sampling location, matching prokaryotic transcriptional patterns and further implicating host activity in viral biogeography. Similarly, AMF treatment induced changes in the prokaryotic transcriptome but, across biota, only significantly affected DNA viral communities. Overall, results indicate strong viral responses to spatiotemporally localized conditions, with viral biogeography reflecting both dispersal opportunities (high between neighboring bulk and rhizosphere soils, low across fields) and selection via local host activity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Viruses",
+      "agriculture",
+      "phages",
+      "rhizosphere",
+      "soil",
+      "viromes"
+    ],
+    "summary_zh": "研究番茄生长季节土壤病毒生物地理学，通过病毒组等分析，发现病毒受宿主活动影响，根际病毒多样性更高。",
+    "innovation": "病毒在根际与非根际间共享比例远高于细菌和真菌 | 宿主活动（湿度、时间、AMF）显著影响病毒群落 | 病毒生物地理学反映扩散机会和宿主活动选择",
+    "limitation": "未描述",
+    "study_object": "番茄农田根际和非根际土壤的病毒组、16S rRNA基因扩增子、ITS1扩增子和宏转录组",
+    "disease": "无",
+    "sample_size": "78个病毒组样本和33个根际宏转录组样本",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42455761",
+    "title": "Gut microbe-generated metabolite trimethylamine N-oxide and risk of abdominal aortic aneurysm: a cohort study.",
+    "doi": null,
+    "journal": "European heart journal",
+    "issn": "1522-9645",
+    "pub_date": "2026-07-15",
+    "authors": "Li Xinmin S; Wang Meng; Wang Zeneng; Fan Bingbing; Tian Melissa Y et al.",
+    "abstract": "BACKGROUND AND AIMS: Abdominal aortic aneurysms (AAAs) are associated with increased mortality in older adults. The gut microbe-generated metabolite trimethylamine N-oxide (TMAO) has been linked to AAA risk and promotes AAA progression in animal models. Whether circulating TMAO levels in apparently healthy older adults predict AAA development and adverse AAA outcomes remains unknown.\nMETHODS: Plasma TMAO levels were quantified using stable isotope dilution liquid chromatography-tandem mass spectrometry in 4442 community-dwelling adults (aged ≥65 years) in the Cardiovascular Health Study. Participants underwent ultrasound screening and prospective follow-up. Multivariable models assessed associations of serial TMAO levels with AAA development and incident risk for adverse AAA events, adjusting for traditional risk factors, renal function, socioeconomic status, and cardiometabolic lifestyle factors.\nRESULTS: Higher baseline TMAO levels were associated with larger infrarenal aortic diameter and increased AAA risk. Over a median 12.2-year follow-up (54 402 person-years), 79 participants experienced incident adverse AAA events (repair, rupture, or AAA-related death). Elevated TMAO levels were independently associated with higher risk of adverse AAA events, whether modelled continuously [adjusted hazard ratio (HR) 1.28, 95% confidence interval (CI) 1.07-1.54 per doubling], by quantiles (HR for tertile 3 vs tertile 1: 2.46, 95% CI 1.32-4.59), or using a clinical threshold (≥6.2 µM; HR 1.93, 95% CI 1.25-2.99).\nCONCLUSIONS: In community-based older adults, higher TMAO levels were independently associated with increased risk of AAA development and adverse AAA events. Findings support TMAO as a novel risk factor for AAA and a potential therapeutic target for AAA prevention.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "AAA repair",
+      "Abdominal aortic aneurysms",
+      "Aneurysm rupture",
+      "Gut microbiome",
+      "TMAO"
+    ],
+    "summary_zh": "通过前瞻性队列研究，发现社区老年人血浆TMAO水平升高与腹主动脉瘤风险及不良事件独立相关。",
+    "innovation": "首次在社区老年人中前瞻性评估TMAO与AAA风险关系 | 证实TMAO为AAA新型风险因素 | 提出TMAO作为AAA预防的潜在治疗靶点",
+    "limitation": "未描述",
+    "study_object": "社区老年人血浆样本，稳定同位素稀释液相色谱-串联质谱检测",
+    "disease": "腹主动脉瘤",
+    "sample_size": "4442名社区老年人",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42457696",
+    "title": "Joint contributions of host genetics and heritable gut microbiota to semen quality variation in Duroc boars.",
+    "doi": null,
+    "journal": "NPJ biofilms and microbiomes",
+    "issn": "2055-5008",
+    "pub_date": "2026-07-15",
+    "authors": "Guo Liangliang; Meng Xinran; Zhang Quan; Tan Jiajian; Sun Haiqing et al.",
+    "abstract": "Host genetics and gut microbiota jointly influence host phenotypes. To investigate the genetic and microbial factors affecting boar semen quality, we analyzed whole-genome resequencing and fecal 16S rRNA sequencing data from 1128 Duroc boars. Gut microbiota profiling showed that Firmicutes, Bacteroidetes, and Proteobacteria were dominant phyla, while farm type, herd type, strain, and age significantly affected microbial composition. Genome-wide association analysis identified 32 significant SNPs associated with semen traits, and microbiome-wide association analysis detected 251 genus-level associations. Variance component analysis indicated that host genetics, gut microbiota, and their interactions contributed substantially to semen quality variation. Heritability analysis identified 73 heritable genera, and microbial GWAS further detected 242 SNPs associated with 18 heritable genera. Mendelian randomization analysis further supported a significant association between the heritable genus Intestinibacter and sperm motility. Notably, overlapping genomic regions on chromosome 10 were associated with both Intestinibacter abundance and sperm motility, suggesting that host genetic variation may influence semen quality directly or indirectly through modulation of heritable gut microbiota. These findings provide new insights into host genetics-microbiota interactions underlying boar semen quality.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过全基因组重测序和16S rRNA测序分析1128头杜洛克公猪，发现宿主遗传与可遗传肠道菌群共同影响精液质量，Intestinibacter与精子活力存在因果关系。",
+    "innovation": "整合全基因组重测序和16S rRNA测序揭示宿主遗传与肠道菌群对精液质量的联合贡献 | 发现可遗传菌属Intestinibacter与精子活力的因果关系 | 发现10号染色体重叠区域关联菌群丰度和精子活力，提示宿主遗传通过菌群间接影响精液质量",
+    "limitation": "未描述",
+    "study_object": "杜洛克公猪粪便样本的16S rRNA测序和全基因组重测序",
+    "disease": "无",
+    "sample_size": "n=1128",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42455902",
+    "title": "Culturomics reveals Fusobacterium-Prevotella mutualism as a hallmark of nasopharyngeal tumor microbiota.",
+    "doi": null,
+    "journal": "Science translational medicine",
+    "issn": "1946-6242",
+    "pub_date": "2026-07-15",
+    "authors": "Lu Ying-Qi; Dai Jia-Hao; Duan Yu-Fei; Qin Guan-Jie; Huang Sai-Wei et al.",
+    "abstract": "The nasopharynx constitutes a critical niche in the upper respiratory tract, harboring a diverse microbiota linked to nasopharyngeal carcinoma (NPC), the mechanistic roles of which remain poorly understood. Here, we established the Nasopharyngeal Mucosal and Tumor-resident Bacterial Catalog (NMTBC) that comprises 5311 bacterial isolates representing 127 species, with 1006 of them being fully sequenced and annotated, providing a comprehensive culturable resource facilitating mechanistic dissection of the microbiome-tumor interactions. With NMTBC, we uncovered a Fusobacterium-Prevotella mutualism and revealed heterotypic bacterium-bacterium interactions involving transcriptional reprogramming and metabolic cross-talk. Using single-bacterial transcriptomics, we mapped a high-resolution transcriptomic trajectory, showing the ability of a single strain to differentiate into functionally distinct subpopulations that cooperate to sustain mutualism. By analyzing a multicenter NPC cohort, we showed that Fusobacterium and Prevotella co-colonization in NPC tumors correlated with unfavorable clinical outcomes after conventional radiochemotherapy. Analysis of RNA-seq data from two previous phase 3 clinical trials showed that coenrichment of Fusobacterium-Prevotella predicted better response to anti-PD-1 immunotherapy, highlighting their important role in microbiota-mediated immunomodulation. Overall, this study establishes a comprehensive nasopharyngeal bacterial catalog through culturomics, which offers valuable insights into microbiome-derived biomarker discovery and immunotherapy patient stratification in clinical practice.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Microbiota",
+      "Symbiosis",
+      "Nasopharyngeal Neoplasms",
+      "Fusobacterium",
+      "Prevotella",
+      "Nasopharyngeal Carcinoma",
+      "Transcriptome"
+    ],
+    "keywords": [],
+    "summary_zh": "通过培养组学建立鼻咽黏膜和肿瘤细菌目录，发现梭杆菌-普雷沃菌互惠共生，其共定殖与鼻咽癌放化疗不良预后及免疫治疗反应相关。",
+    "innovation": "建立了首个全面的鼻咽黏膜和肿瘤细菌目录 | 揭示了Fusobacterium-Prevotella互惠共生及细菌间转录重编程和代谢互作 | 采用单细菌转录组学解析菌株内功能分化亚群",
+    "limitation": "未描述",
+    "study_object": "鼻咽癌患者鼻咽黏膜和肿瘤样本 + 培养组学、全基因组测序、单细菌转录组学",
+    "disease": "鼻咽癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  },
+  {
+    "pmid": "42455659",
+    "title": "Bursa of Fabricius-independent B cells establish an IgA-mediated intestinal barrier that safeguards gut-liver homeostasis.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-07-15",
+    "authors": "Hirakawa Ryota; Hisamatsu Motoshi; Maekawa Sayoko; Asai Eiki; Ohta Miyuko et al.",
+    "abstract": "The bursa of Fabricius (BF), a specialized lymphoid structure in birds, regulates avian B-cell development. However, the BF starts to regress posthatching, suggesting that as-yet-unidentified structures assume this function during maturation. This study reveals that BF-independent B-cell genesis involving the gut cecal tonsils (CTs) predominates over the BF-dependent pathway posthatching. Although B-cell progenitors originating from the bone marrow (BM) typically migrate to the BF, we identified a population that instead migrates to the CTs through CXCL12/CXCR4-mediated chemotaxis. These BF-independent CXCR4+ pre-B cells acquired surface IgM expression within the CT follicular region (FR) and differentiated into immunoglobulin A (IgA)-producing plasma cells. Inhibition of CXCR4+ cell influx from the BM impaired formation of the FR, altered the responsiveness of intestinal IgA to commensal bacteria, promoted gut dysbiosis, allowed translocation of pathogenic bacteria (e.g., Streptococcus alactolyticus) to the liver, and ultimately caused hepatic inflammation and metabolic dysfunction. These abnormalities were reversed by administering an IgA-enriched fecal preparation derived from healthy chickens. Collectively, these results reveal the existence of a population of BF-independent B cells that function in CTs. These cells represent a promising target for maintaining and improving the immunological and microbiological environment of the avian intestinal tract, which is closely linked to hepatic homeostasis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Immunoglobulin A",
+      "Homeostasis",
+      "Bursa of Fabricius",
+      "B-Lymphocytes",
+      "Chickens",
+      "Liver",
+      "Intestinal Barrier Function",
+      "Receptors, CXCR4"
+    ],
+    "keywords": [
+      "B cells",
+      "bursa of Fabricius",
+      "cecal tonsils",
+      "host microbiome",
+      "immunoglobulin A"
+    ],
+    "summary_zh": "发现鸡法氏囊非依赖B细胞在盲肠扁桃体发生，通过IgA建立肠道屏障保护肝脏稳态。",
+    "innovation": "发现BF非依赖B细胞在盲肠扁桃体起源 | 揭示CXCL12/CXCR4介导骨髓B细胞迁移至盲肠扁桃体 | 证明IgA介导的肠道屏障维持肠肝稳态",
+    "limitation": "未描述",
+    "study_object": "鸡盲肠扁桃体和骨髓中B细胞，涉及CXCL12/CXCR4趋化作用和IgA分析",
+    "disease": "肝脏炎症和代谢功能障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-15"
+  }
+]
