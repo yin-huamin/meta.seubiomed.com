@@ -1,0 +1,81 @@
+[
+  {
+    "pmid": "42463645",
+    "title": "A microbiome meta-transcriptomics pipeline identifies a neutrophil elastase inhibitor that protects the colonic epithelial barrier.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-07-17",
+    "authors": "Stojkovic Bojan; Bekkers Matthijs; Violi Jake P; Neilan Brett A; Ying Tan Hui et al.",
+    "abstract": "Inflammatory Bowel Diseases (IBD) are lifelong conditions. Current therapeutic approaches target inflammatory signalling rather than improving barrier permeability or repair. The gut microbiome provides an exciting opportunity for novel drug discovery to leverage its role in healthy gut homeostasis. There is a clear need to identify bioactive molecules within the microbiota that could protect the intestinal barrier. Our group has developed a systematic pipeline using metatranscriptomic data to identify, produce, purify, and test microbial proteins in IBD, pinpointing multiple novel microbiota-derived proteins linked to disease activity. We identified a new microbiota protein (BMG-1), that specifically inhibits human neutrophil elastase, a pathogenic protease in IBD. This protease inhibition allows protection of the intestinal epithelial barrier from permeability and promotes epithelial healing. BMG-1 also reduces colon damage in a mouse model of colitis. Finally, we show that the native BMG-1 protein is not only present in human stool, but also significantly decreased in patients with high IBD activity. These findings demonstrate the gut microbiota can specifically regulate the balance of protease/anti-protease activity in the colon, and this represents a novel therapeutic strategy for IBD.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "利用宏转录组学管道从肠道微生物组中鉴定出新型蛋白BMG-1，通过抑制中性粒细胞弹性蛋白酶保护结肠上皮屏障，为IBD提供新治疗策略。",
+    "innovation": "开发系统性宏转录组学管道发现微生物蛋白 | 首次鉴定出BMG-1通过抑制中性粒细胞弹性蛋白酶保护肠道屏障 | 揭示肠道微生物调控蛋白酶/抗蛋白酶平衡的新机制",
+    "limitation": "未描述",
+    "study_object": "IBD患者粪便样本 + 宏转录组学",
+    "disease": "炎症性肠病（IBD）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-17"
+  },
+  {
+    "pmid": "42464261",
+    "title": "Aspartame and asthma: immunomodulatory effects on airway inflammation.",
+    "doi": null,
+    "journal": "Respiratory research",
+    "issn": "1465-993X",
+    "pub_date": "2026-07-17",
+    "authors": "Utami Fasty Arum; Huang Shih-Yi; Liu Yu-Hsiang; Hsu Jhih-Wei; Mazariegos Jose Roberto Rodriguez et al.",
+    "abstract": "BACKGROUND AND OBJECTIVE: Asthma is a heterogeneous inflammatory airway disease influenced by genetic and environmental factors, including diet. Aspartame, a widely used artificial sweetener, has been implicated in immunometabolic changes that may affect asthma risk, but the potential role evidence remains limited. We aimed to examine the association between aspartame intake and asthma outcomes using integrated human analyses and complementary animal experiments.\nMETHODS: Human data were obtained from 1021 adolescents in the Taiwan Puberty Longitudinal Study. Aspartame consumption, assessed using a validated food frequency questionnaire, was categorized as none, low, or high based on median intake. Asthma status was determined based on physician diagnosis and symptom history. In parallel, BALB/c mice were sensitized with house dust mite (HDM) extract and administered oral aspartame at 15, 30, or 60 mg/kg/day for 10 weeks. Immunological, microbiome, metabolic, and histopathological parameters were evaluated.\nRESULTS: Low aspartame consumption was significantly associated with higher odds of asthma (odds ratio = 2.852; 95% confidence interval: 1.038-8.014; p = 0.0369). In mice, aspartame exposure increased serum IgE levels, airway inflammation, and MMP-12 and MCP-1 expression. Although lung function changes were not statistically significant, histological analyses revealed more pronounced goblet cell hyperplasia, peribronchial collagen deposition, and eosinophilic infiltration, especially in the 60 mg/kg group. Aspartame also reduced microbial α-diversity and altered microbial composition. Short-chain fatty acids profiling revealed significantly decreased isobutyric, hexanoic, and heptanoic acid levels in aspartame-treated mice.\nCONCLUSIONS: Aspartame intake exacerbates asthma-related immunological, microbial, and histological disturbances.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Airway Inflammation",
+      "Aspartame",
+      "Asthma",
+      "Microbiota",
+      "Non-nutritive Sweeteners",
+      "Short-chain fatty acids"
+    ],
+    "summary_zh": "通过人类流行病学调查和小鼠实验，发现阿斯巴甜摄入增加哮喘风险并加剧气道炎症和菌群失调。",
+    "innovation": "整合人类分析和动物实验 | 揭示阿斯巴甜通过免疫调节和微生物组变化影响哮喘",
+    "limitation": "未描述",
+    "study_object": "人类青少年（问卷/诊断数据）和BALB/c小鼠（血清、肺组织、肠道微生物）",
+    "disease": "哮喘",
+    "sample_size": "人类1021例",
+    "ai_done": true,
+    "fetch_date": "2026-07-17"
+  },
+  {
+    "pmid": "42029478",
+    "title": "A Urinary Three-Metabolite Signature Enables Noninvasive Identification of Patients with High-Risk Ovarian Cancer.",
+    "doi": null,
+    "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+    "issn": "1557-3265",
+    "pub_date": "2026-07-17",
+    "authors": "Funk Alexander Max; Brieske Mareike; Schwarz Franziska Maria; Link Theresa; Jonas Sophie et al.",
+    "abstract": "PURPOSE: Reliable prognostic tools in ovarian cancer are urgently needed to guide risk-adapted treatment decisions, yet the clinical utility of urinary metabolites for noninvasive risk stratification remains largely undefined. Here, we define a clinically relevant urinary metabolite signature that enables noninvasive prognostic risk stratification in ovarian cancer.\nEXPERIMENTAL DESIGN: We used targeted 1H nuclear magnetic resonance spectroscopy to profile 149 metabolites related to energy metabolism, oxidative stress, mitochondrial function, nitrogen metabolism, amino acid degradation, gut microbiome activity, and inflammation. Metabolites were measured in preoperative urine samples from 199 consecutive patients with newly diagnosed ovarian cancer treated in routine clinical practice between 2013 and 2022.\nRESULTS: Unsupervised clustering revealed biologically heterogeneous subgroups but lacked prognostic resolution and alignment with overt clinical phenotypes. However, single-metabolite analysis identified a condensed three-metabolite prognostic signature comprising glycine, alanine, and citrate. A final parsimonious model integrating this metabolite signature with clinical covariates outperformed established risk factors alone (Fédération Internationale de Gynécologie et d'Obstétrique stage and surgical outcome), accurately predicted 60-month overall survival (AUC = 0.839), and stratified risk. Patients in the highest-risk quartile (Q4) had markedly shorter progression-free survival [Δmedian ≈ 56 months; HR, 2.63; 95% confidence interval (CI), 1.54-4.52; P < 0.001] and overall survival (Δmedian ≈ 86 months; HR, 2.49; 95% CI, 1.39-4.46; P = 0.009) compared with the lowest-risk group (Q1).\nCONCLUSIONS: We define a urinary three-metabolite signature that enables noninvasive identification of patients with high-risk ovarian cancer beyond established clinical factors. This signature may support molecular stratification and risk-adapted clinical decisions, thereby underscoring the clinical scalability of urine as a matrix for metabolic risk profiling in ovarian cancer.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过核磁共振分析卵巢癌患者术前尿液代谢物，发现甘氨酸、丙氨酸和柠檬酸组成的三代谢物特征可非侵入性识别高风险患者，优于传统临床因素。",
+    "innovation": "定义了首个尿液三代谢物特征用于卵巢癌风险分层 | 该特征超越传统分期和手术结果，显著提高预测准确性 | 验证了尿液作为代谢风险分型基质的临床可行性",
+    "limitation": "未描述",
+    "study_object": "卵巢癌患者 + 尿液样本 + 靶向核磁共振波谱",
+    "disease": "卵巢癌",
+    "sample_size": "199例",
+    "ai_done": true,
+    "fetch_date": "2026-07-17"
+  }
+]
