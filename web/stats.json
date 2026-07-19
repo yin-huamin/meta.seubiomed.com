@@ -1,8 +1,8 @@
 {
-  "total": 4534,
+  "total": 4540,
   "by_type": {
-    "研究论文": 3588,
-    "综述": 439,
+    "研究论文": 3592,
+    "综述": 441,
     "Benchmark": 150,
     "临床试验": 135,
     "其他": 92,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 61
   },
   "by_year": {
-    "2026": 508,
+    "2026": 514,
     "2025": 817,
     "2024": 684,
     "2023": 560,
@@ -39,7 +39,7 @@
     "ISME communications": 74,
     "Journal of translational medicine": 65,
     "Cell host & microbe": 65,
-    "Communications biology": 61,
+    "Communications biology": 62,
     "Scientific data": 46,
     "Gut": 45,
     "Gastroenterology": 45,

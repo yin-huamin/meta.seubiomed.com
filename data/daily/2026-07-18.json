@@ -1,0 +1,169 @@
+[
+  {
+    "pmid": "42470286",
+    "title": "The Vape, the Mouth, and the Mycobiome: A Comparative Metagenomic Analysis.",
+    "doi": null,
+    "journal": "Journal of dental research",
+    "issn": "1544-0591",
+    "pub_date": "2026-07-18",
+    "authors": "Nikam R; Kalani K; Beverly M; Kumar P S",
+    "abstract": "Electronic nicotine delivery systems (ENDS), including e-cigarettes, are increasingly marketed as safer alternatives to combustible tobacco, yet their effects on oral health remain underexplored. Although the role of ENDS in creating dysbiotic oral bacterial communities is documented, effects on the oral mycobiome remain underexplored. This study compared the subgingival fungal communities of 123 periodontally and systemically healthy e-cigarette-only users, smokers, dual users, former smokers, and never-smokers using whole-genome shotgun sequencing for functional profiling. Taxonomic assignment using Kraken 2 and the PlusPF database identified 98 fungal taxa, and functional annotation with the Kyoto Encyclopedia of Genes and Genomes identified 2,960 fungal genes. Cross-domain bacterial-fungal interactions were interrogated using a correlation threshold of |r| ≥ 0.7 and P ≤ 0.001. E-cigarette users demonstrated a significantly higher α-diversity than smokers and never-smokers did (P < 0.001; P < 0.005) and a mycobiome enriched with Candida albicans, Aspergillus oryzae, and Schizosaccharomyces pombe. Functional profiling revealed enrichment of genes encoding or DNA repair, xenobiotic degradation, membrane transport, and stress response. The mycobiome of dual users and former smokers using e-cigarettes did not differ from that of e-cigarette users. Cross-kingdom networks identified 5- to 10-fold higher bacterial-fungal connectivity in e-cigarette users, with fungi capable of enhanced stress tolerance, DNA repair capacity, and metabolic adaptability acting as network anchors. Our data support an association between e-cigarette use and remodeling of the oral mycobiome and microbiome, driven by enhanced polymicrobial interactions and increased functional complexity, suggesting that assumptions regarding the biological neutrality of e-cigarette aerosols warrant further investigation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Candida",
+      "e-cigarettes",
+      "electronic nicotine delivery systems",
+      "microbiota",
+      "mycobiome",
+      "smokers"
+    ],
+    "summary_zh": "使用全基因组鸟枪测序比较电子烟使用者与吸烟者口腔真菌组，发现电子烟使用者真菌多样性更高，功能复杂，交叉互作增强。",
+    "innovation": "首次聚焦电子烟对口腔真菌组的影响 | 使用全基因组鸟枪测序进行功能分析 | 发现交叉王国网络增强",
+    "limitation": "未描述",
+    "study_object": "人类健康志愿者龈下菌斑样本全基因组鸟枪测序",
+    "disease": "无",
+    "sample_size": "123",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  },
+  {
+    "pmid": "42470720",
+    "title": "B vitamin-mediated interactions in synthetic microbial communities.",
+    "doi": null,
+    "journal": "Current opinion in microbiology",
+    "issn": "1879-0364",
+    "pub_date": "2026-07-18",
+    "authors": "Suazo Dennis D; Wang Eleanor; Taga Michiko E",
+    "abstract": "Microbial communities drive fundamental processes across the globe, from biogeochemical cycling to human health. Yet, their complexity often obscures mechanistic understanding. Synthetic communities (SynComs) have emerged as powerful tools to distill this complexity into tractable, rationally designed systems to study community function. Metabolic interactions - competition and sharing of resources between organisms - are a frequent focus of these controlled studies. The role of B vitamin cross-feeding remains a critical frontier because B vitamins are required in trace quantities for metabolism, but not all organisms can make their own, necessitating cross-feeding interactions. Here, we review recent advances in microbial ecology that use SynComs to investigate B vitamin-mediated interactions through mechanistic approaches across scales, domains of life, environments, and disciplines. We highlight key findings that demonstrate how auxotrophy, obligate cross-feeding networks, precursor sharing, exploitation and interference competition, and cell lysis together encompass B vitamin interactions. Collectively, these processes demonstrate how microbial B vitamin exchanges drive macroscale community functions like host-microbiome interdependencies. The mechanistic insights into microbial community interactions synthesized from these integrative approaches provide foundational insight into the structure and function of natural microbial communities, advancing the potential to engineer microbiomes for therapeutic and environmental applications.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述利用合成微生物群落研究B族维生素介导的相互作用，揭示交叉喂养机制驱动群落功能。",
+    "innovation": "通过合成群落系统性研究B族维生素交叉喂养的多种机制，跨尺度、跨生命域、跨环境整合 | 揭示B族维生素交换驱动宏观群落功能（如宿主-微生物组互依关系）",
+    "limitation": "未描述",
+    "study_object": "综述（合成微生物群落、B族维生素交叉喂养）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  },
+  {
+    "pmid": "42471503",
+    "title": "Characterization of immunomodulatory dialkylresorcinols from the human-associated HACEK bacteria.",
+    "doi": null,
+    "journal": "Communications chemistry",
+    "issn": "2399-3669",
+    "pub_date": "2026-07-18",
+    "authors": "Xia Jiangnan; Liang Juan; Luo Yan; Sun Yu; Niu Chen et al.",
+    "abstract": "Endogenous metabolites from the human microbiome play a crucial role in human health and disease. Their involvement in immune and inflammatory regulatory processes both under physiological conditions and diseases renders them essential for pathological research and therapeutic development. However, the microbial metabolites that mediate interactions between the host and microbiome remain largely undefined. Here, we explored a group of ketoacyl synthases from Eikenella spp. that constitute the HACEK group of human opportunistic pathogens through global genome mining. In vivo and in vitro verification of these enzymes resulted in the production of three dialkylresorcinols, which were found to act as agonists of the aryl hydrocarbon receptor and reduce the inflammatory factors of multiple immune cells. These results demonstrate that human-associated Eikenella spp. are capable of producing bioactive aromatic polyketides, which may suggest a molecular mechanism of immunomodulation by the human microbiota.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "研究通过基因组挖掘发现HACEK细菌Eikenella spp.产生二烷基间苯二酚，作为芳烃受体激动剂降低免疫细胞炎症因子，揭示菌群免疫调节分子机制。",
+    "innovation": "首次发现HACEK细菌产生二烷基间苯二酚作为免疫调节分子 | 证实其通过芳烃受体激动作用降低炎症因子",
+    "limitation": "未描述",
+    "study_object": "人类相关HACEK细菌（Eikenella spp.） + 细菌培养物 + 全球基因组挖掘、体内外酶学验证",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  },
+  {
+    "pmid": "42470923",
+    "title": "Therapeutic potential of curcumin in Alzheimer's disease: Multi-target mechanisms of action, experimental and clinical evidence, safety aspects.",
+    "doi": null,
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "issn": "1950-6007",
+    "pub_date": "2026-07-18",
+    "authors": "Aydoğdu Gökçe Sueda; Ağagündüz Duygu; Roviezzo Fiorentina; Romano Barbara; Capasso Raffaele",
+    "abstract": "Alzheimer's disease is a neurodegenerative disorder characterized by memory loss and impaired cognitive functions; its prevalence is increasing with the growth of the global elderly population. Unfortunately, early diagnostic and treatment methods developed by modern medicine have limited effectiveness for this disease. This situation has increased interest in natural ingredients, such as curcumin, which have beneficial effects on health. Some preclinical studies evaluating the efficacy of curcumin in Alzheimer's disease suggest that it may have preventive, protective, and therapeutic effects through various mechanisms, including anti-amyloidogenic effects, improvement of tau pathology, cholinesterase inhibition, anti-inflammatory and antioxidant effects, metal chelation, microbiota modulation, and epigenetic regulation. Similarly, some preclinical studies indicate that curcumin-based probes may offer a promising approach to the diagnosis of Alzheimer's disease. However, inconsistencies exist between preclinical and clinical studies. Curcumin's low bioavailability and high systemic elimination may be among the most significant causes of these inconsistencies. It is also thought that this situation may be related to differences and limitations in preclinical and clinical study designs. There is a need for preclinical studies that follow comprehensive, standardized protocols and for larger-scale, long-term, well-designed clinical trials to evaluate the effectiveness of curcumin in the early diagnosis, prevention, and treatment of Alzheimer's disease. In addition, potential risks, such as the toxicological effects of curcumin with increased bioavailability and curcumin-drug interactions in Alzheimer's patients, should be evaluated.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Alzheimer's Disease",
+      "Anti-inflammatory",
+      "Antioxidant",
+      "Curcumin",
+      "Epigenetics",
+      "Microbiome",
+      "Safety"
+    ],
+    "summary_zh": "综述姜黄素在阿尔茨海默病中的多靶点机制、实验与临床证据及安全性，认为有防治潜力但需更多标准化研究。",
+    "innovation": "多靶点机制（抗淀粉样蛋白、改善tau、抗炎等） | 姜黄素基探针用于阿尔茨海默病诊断",
+    "limitation": "低生物利用度和高全身消除 | 临床前与临床研究设计差异和局限性",
+    "study_object": "未描述",
+    "disease": "阿尔茨海默病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  },
+  {
+    "pmid": "42471440",
+    "title": "Metatranscriptomics reveals urbanization-driven divergence in rodent viromes and zoonotic risks in Chinese megacities.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-07-18",
+    "authors": "Xiang Zhou-Fu; Wang Hui; Yang Fan; Chen Si-Jun; Huang Ting-Sheng et al.",
+    "abstract": "Metagenomic sequencing has advanced our understanding of wildlife-associated viruses and enabled identification of potential zoonotic pathogens. However, most studies remain geographically limited, with few systematic comparisons of virome compositions across urbanization gradients. To address this gap, we conducted large-scale sampling in two densely populated Chinese megacities-Wuhan and Shenzhen-with distinct climates. We collected 1,072 rodents from four species that frequently interact with humans, enabling comparative analysis of urban rectal virome dynamics and zoonotic risks in rodents. We identified 35 vertebrate-associated viruses. Among them, 9 were potentially novel species, including Norovirus and Orthopicobirnavirus species, and 3 had zoonotic potential, namely Orthohantavirus seoulense and human coronavirus OC43 (HCoV_OC43). We also discovered two viruses previously unreported in rodents, Erinaceus hedgehog Seoul orthohantavirus and Canine astrovirus, which revealed cross-order transmission risk. Additionally, 22 high-risk viruses were identified, with Wuhan and Shenzhen showing distinct prevalence patterns. Our analysis shows that inter-city rectal virome divergence is structured by meteorological variables, independently explaining 5.0% of the variation in viral community composition. Our findings highlight the importance of spatial distance in shaping the distribution and transmission of rodent-borne viruses. These insights are essential for proactive surveillance and mitigation of emerging zoonotic threats in high-density urban environments.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过宏转录组测序分析中国两个特大城市啮齿动物直肠病毒组，发现城市化驱动的病毒组成差异及人畜共患风险。",
+    "innovation": "大规模跨城市比较城市化梯度对啮齿动物病毒组的影响 | 发现9种潜在新病毒和3种有人畜共患潜力的病毒 | 发现两种之前未在啮齿动物中报道的病毒",
+    "limitation": "未描述",
+    "study_object": "城市环境 + 啮齿动物直肠样本 + 宏转录组测序",
+    "disease": "无",
+    "sample_size": "1072",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  },
+  {
+    "pmid": "42470521",
+    "title": "Plasma metabolomic signatures of heterogeneous multimorbidity trajectories in ageing: a population-based cohort study.",
+    "doi": null,
+    "journal": "GeroScience",
+    "issn": "2509-2723",
+    "pub_date": "2026-07-18",
+    "authors": "Toki Ryota; Iba Chisato; Omoto Yuki; Matsumoto Minako; Iida Miho et al.",
+    "abstract": "Age-related disease burden accumulates heterogeneously from later midlife to older age, but the biology underlying these divergent trajectories is poorly understood. We analysed 7199 adults aged 40 years and over in the Tsuruoka Metabolomics Cohort Study, Japan, with baseline fasting plasma metabolomics (94 metabolites measured by capillary electrophoresis-mass spectrometry) and linked health insurance claims. Monthly cumulative Charlson Comorbidity Index scores were constructed from aligned cohort entry to 60 months to capture accumulation of newly documented Charlson conditions after follow-up start. K-means clustering identified six trajectories of claims-recorded disease burden, and ordinal logistic regression related metabolites to ordered trajectory severity with adjustment for demographic and lifestyle factors. Six trajectories ranged from minimal accumulation to rapid progression. Nineteen metabolites were associated with greater trajectory severity after false discovery rate correction. Glutamate showed the strongest positive association (odds ratio, 1.18 per standard deviation; 95% confidence interval, 1.12-1.24), whereas cysteine-glutathione disulfide showed the strongest inverse association (odds ratio, 0.89; 95% confidence interval, 0.86-0.93). Eighteen of these metabolites were also associated with time to first newly documented Charlson disease. Disease-specific analyses linked glutamate to diabetes with complications, mild liver disease, and cerebrovascular disease. Exploratory cluster-specific analyses identified hippurate as a distinctive marker of a late-acceleration trajectory. These findings implicate amino acid metabolism, redox balance, and microbiome-host interactions as candidate biological pathways underlying heterogeneous patterns of age-related disease accumulation, and warrant replication in independent cohorts. These signals may inform biomarker development for accelerated disease-burden accumulation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ageing",
+      "Biomarkers of ageing",
+      "Charlson comorbidity index",
+      "Metabolomics",
+      "Multimorbidity"
+    ],
+    "summary_zh": "通过血浆代谢组学分析7199名日本人，识别出六种疾病累积轨迹，发现19种代谢物与轨迹严重性相关，提示氨基酸代谢等通路参与。",
+    "innovation": "识别出六种不同的疾病累积轨迹 | 发现19种代谢物与轨迹严重性相关，其中谷氨酸为最强正相关，半胱氨酸-谷胱甘肽二硫化物为最强负相关 | 发现马尿酸为晚期加速轨迹的特异性标志物",
+    "limitation": "需要独立队列验证",
+    "study_object": "人类血浆+毛细管电泳-质谱代谢组学",
+    "disease": "多病共病（年龄相关疾病累积）",
+    "sample_size": "7199",
+    "ai_done": true,
+    "fetch_date": "2026-07-18"
+  }
+]
