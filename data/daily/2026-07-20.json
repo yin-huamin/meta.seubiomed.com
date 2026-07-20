@@ -1,0 +1,31 @@
+[
+  {
+    "pmid": "42473187",
+    "title": "Akkermansia muciniphila enhances washed microbiota transplantation in the treatment of epilepsy.",
+    "doi": null,
+    "journal": "Chinese medical journal",
+    "issn": "2542-5641",
+    "pub_date": "2026-07-20",
+    "authors": "Li Qianqian; He Ruiqiao; Wang Xianglu; Long Chuyan; He Zhi et al.",
+    "abstract": "BACKGROUND: Refractory epilepsy remains a global clinical challenge. This first-in-human cohort study aimed to evaluate the efficacy and safety of washed microbiota transplantation (WMT) in the treatment of epilepsy.\nMETHODS: A prospective, single-center, open-label study of WMT in patients with epilepsy was conducted at the Second Affiliated Hospital of Nanjing Medical University from November 2016 to November 2023. The primary outcome was the clinical response rate (≥50% reduction in seizure frequency) at one month post-WMT. Parallel experiments using a pentylenetetrazole-induced epileptic mouse model were performed to validate clinical findings and investigate the role of specific core bacterial species.\nRESULTS: Among 21 patients (mean age, 18.9 years), including 18 with refractory epilepsy, the clinical response rates were 43% (9/21), 57% (12/21), and 38% (8/21) at one, three, and six months post-WMT, respectively. A second maintenance WMT course at three months was associated with a higher response rate at six months compared to no maintenance therapy (odds ratio [OR] >999, 95% confidence interval [CI]: [1.12, +infinity], P = 0.080). WMT significantly increased Akkermansia muciniphila (A. muciniphila) levels in responders (P = 0.038). A higher baseline A. muciniphila abundance was associated with improved clinical outcomes (Z = 3.28, P = 0.001). The preclinical study confirmed that A. muciniphila augmented the effects of WMT against seizures, significantly reducing seizure severity and duration, and prolonging seizure latency.\nCONCLUSIONS: Integrating clinical and preclinical findings, this study demonstrates that A. muciniphila synergistically enhances the effects of WMT against epileptic seizures. This study provides evidence for a new concept of microbiome-based therapeutics in epilepsy treatment.\nTRIAL REGISTRATION: Clinicaltrials.gov, NCT02889627.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Epilepsy",
+      "Fecal microbiota transplant",
+      "Gut–brain axis",
+      "Seizures"
+    ],
+    "summary_zh": "通过临床队列和小鼠模型，首次证实洗涤微生物群移植（WMT）治疗癫痫有效，且阿克曼菌增强其抗癫痫效果。",
+    "innovation": "首个在人体中评估WMT治疗癫痫的队列研究 | 结合临床与临床前实验证实A. muciniphila协同增强WMT抗癫痫作用",
+    "limitation": "样本量较小（21例） | 单中心、开放标签设计",
+    "study_object": "人（癫痫患者）和小鼠（癫痫模型）的肠道微生物，WMT及微生物分析",
+    "disease": "癫痫（难治性癫痫）",
+    "sample_size": "21例患者",
+    "ai_done": true,
+    "fetch_date": "2026-07-20"
+  }
+]
