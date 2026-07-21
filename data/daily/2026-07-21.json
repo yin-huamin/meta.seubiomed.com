@@ -1,0 +1,27 @@
+[
+  {
+    "pmid": "42477314",
+    "title": "From association to causality: mechanistic pathways linking the gut microbiome to psychiatric disorders.",
+    "doi": null,
+    "journal": "Translational psychiatry",
+    "issn": "2158-3188",
+    "pub_date": "2026-07-21",
+    "authors": "Almarzooqi Sultan; Yassin Lidya K; Alnuaimi Fatima; Alketbi Salma; Skrabulyte-Barbulescu Jurga et al.",
+    "abstract": "The microbiota-gut-brain axis (MGBA) has emerged as a key framework for understanding how peripheral biological systems influence brain function and behaviour. However, despite extensive associative evidence linking gut microbiome to psychiatric disorders, robust causal and mechanistic insights remain limited. This review critically evaluates current evidence to determine whether microbiome alterations contribute to psychiatric pathophysiology and inform therapeutic strategies. We outline methodological frameworks for causal inference, highlighting the limitations of cross-sectional designs and the need for convergent evidence from longitudinal studies, experimental models, and human genetic approaches. We then synthesize mechanistic pathways linking the microbiota to brain function, including immune signaling, neuroendocrine regulation via the hypothalamic-pituitary-adrenal (HPA) axis, neural communication through vagal and enteric pathways, and intestinal and blood-brain barrier (BBB) integrity. Across these systems, microbial metabolites and immune mediators emerge as key mediators, although direct causal mechanisms in humans remain incompletely established. Disorder-specific evaluation across major depressive disorder (MDD), anxiety disorders, bipolar disorder (BD), schizophrenia (SCZ), and post-traumatic stress disorder (PTSD) reveals heterogeneous but converging evidence for microbiome involvement. Although preclinical and interventional studies support biological plausibility, human evidence remains constrained by confounding, variability, and limited mechanistic validation. Translational strategies, including psychobiotics, dietary interventions, fecal microbiota transplantation (FMT), and microbiome-based biomarkers, show promise but remain methodologically limited. Overall, the gut microbiome represents a biologically plausible and modifiable contributor to psychiatric disorders. Advancing toward clinical application will require integrative, longitudinal, and mechanism-driven research to enable precision psychiatry grounded in causal evidence.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述批判性评估肠道微生物组与精神疾病的因果机制，指出当前证据局限性并展望未来机制驱动研究。",
+    "innovation": "批判性评估因果推断方法框架，结合免疫、神经内分泌等多通路综合分析，针对多种精神疾病进行异质性评估",
+    "limitation": "人类证据受混杂因素、变异性和有限机制验证的限制 | 横断面研究居多，因果证据不足",
+    "study_object": "人类 + 粪便样本 + 综述",
+    "disease": "重度抑郁障碍、焦虑障碍、双相障碍、精神分裂症、创伤后应激障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-21"
+  }
+]
