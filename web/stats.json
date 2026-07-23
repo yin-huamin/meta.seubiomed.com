@@ -1,16 +1,16 @@
 {
-  "total": 4544,
+  "total": 4555,
   "by_type": {
-    "研究论文": 3593,
-    "综述": 444,
+    "研究论文": 3601,
+    "综述": 446,
     "Benchmark": 150,
     "临床试验": 135,
-    "其他": 92,
+    "其他": 93,
     "案例报告": 69,
     "系统综述/Meta分析": 61
   },
   "by_year": {
-    "2026": 518,
+    "2026": 529,
     "2025": 817,
     "2024": 684,
     "2023": 560,
@@ -24,7 +24,7 @@
     "2015": 91
   },
   "top_journals": {
-    "Microbiome": 325,
+    "Microbiome": 326,
     "Nature communications": 272,
     "Gut microbes": 229,
     "The ISME journal": 216,
@@ -41,9 +41,9 @@
     "Cell host & microbe": 65,
     "Communications biology": 62,
     "Scientific data": 46,
+    "Nature": 45,
     "Gut": 45,
-    "Gastroenterology": 45,
-    "Nature": 44
+    "Gastroenterology": 45
   },
   "top_diseases": {
     "结直肠癌": 68,

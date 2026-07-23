@@ -1,0 +1,62 @@
+[
+  {
+    "pmid": "42487516",
+    "title": "Clinical Trial: Multi-Strain Probiotic Improves Bile Acid Profile, Microbiome, and Metabolomic Parameters in Patients With History of Bile Acid Malabsorption-A Randomized, Controlled Trial.",
+    "doi": null,
+    "journal": "Alimentary pharmacology & therapeutics",
+    "issn": "1365-2036",
+    "pub_date": "2026-07-23",
+    "authors": "Damianos John A; Matar Ayah; Carlson Paula; Busciglio Irene; Jencks Kara J et al.",
+    "abstract": "BACKGROUND: Bile acid (BA) malabsorption (BAM) is a common cause of chronic diarrhoea and may occur in some patients due to abnormalities of the gut microbiota. Effects of probiotics on faecal secretory BAs, particularly the primary BA, chenodeoxycholic acid, are unclear.\nAIM/METHODS: We conducted a randomized, double-blind, placebo-controlled trial of the De Simone formulation 8-strain probiotic in 24 patients previously diagnosed with BAM. Patients were randomized to 3 weeks of the probiotic (900 billion bacteria) or placebo (maltose), both administered three times daily. Symptoms, serum 7αC4, faecal primary BAs, intestinal permeability by 13C-mannitol-lactulose test (0.1 and 1 g of the sugars respectively) over 24 h, faecal short chain fatty acids (SCFA), microbiome, and metabolome were assessed at baseline and post-intervention.\nRESULTS: Data from 22 patients were included. Probiotic supplementation was associated with a significant decrease in % faecal primary BAs (chenodeoxycholic acid and cholic acid) with median change from baseline -5.7 [IQR -10.3, 0.9]% compared to 9.8 [IQR 0.2, 20.6]% on placebo (p = 0.012). The faecal microbiome was significantly different in the probiotic group after intervention, driven by probiotic-specific species. There were no significant differences in symptoms, intestinal permeability, or SCFA. However, there was a numerical difference in the changes from baseline in 0-2 h 13C-mannitol excretion -1.9 [-13.9, 4.2] mg for the probiotic and 1.0 (-0.5, 12.7) mg for placebo (p = 0.084).\nCONCLUSIONS: The De Simone formulation probiotic induced significant microbiome and metabolome changes in patients with BAM, ultimately leading to a decrease in % faecal primary BAs and possible reduction in intestinal permeability.\nCLINICAL TRIALS: gov registration NCT #06609148, January 2, 2025.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "chenodeoxycholic",
+      "diarrhoea",
+      "permeability",
+      "primary bile acid"
+    ],
+    "summary_zh": "多菌株益生菌可降低胆汁酸吸收不良患者粪便初级胆汁酸比例，改变微生物组和代谢组，可能减少肠道通透性。",
+    "innovation": "首次评估多菌株益生菌对BAM患者粪便初级胆汁酸的影响 | 随机双盲安慰剂对照设计，同时分析微生物组、代谢组及肠道通透性 | 发现益生菌可降低粪便初级胆汁酸比例并可能改善肠道屏障功能",
+    "limitation": "样本量较小（仅22例） | 干预时间仅3周，未评估长期效果",
+    "study_object": "人类宿主 + 粪便样本 + 益生菌干预",
+    "disease": "胆汁酸吸收不良",
+    "sample_size": "24例（最终纳入22例）",
+    "ai_done": true,
+    "fetch_date": "2026-07-23"
+  },
+  {
+    "pmid": "42488935",
+    "title": "How the social lives of bacteria affect their pangenome.",
+    "doi": null,
+    "journal": "Essays in biochemistry",
+    "issn": "1744-1358",
+    "pub_date": "2026-07-23",
+    "authors": "Whelan Fiona Jane",
+    "abstract": "Although the study of microbes started with type strains and reference genomes, advances in sequencing technology and new interest in mixed microbial communities have made us aware that a single genome cannot and does not reflect the diversity of a given bacterial species. Bacteria rarely occupy an environmental or host niche alone and quickly diversify into strains upon colonization of a new niche. The genetic diversity present within a phylogenetically related set of bacterial strains (the 'pangenome') is influenced by the niche that they occupy and how they interact with the other microorganisms that they share that niche with. In this review, I examine how the social lives of bacteria can affect their genetic diversity and the bioinformatic techniques that we use to detect that diversity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "bioinformatics",
+      "meta-pangenomes",
+      "metagenomics",
+      "microbe-microbe interactions",
+      "microbiome",
+      "pangenomes"
+    ],
+    "summary_zh": "综述细菌社会互动如何影响其泛基因组遗传多样性及检测该多样性的生物信息学技术。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "细菌（泛基因组分析）+ 生物信息学技术",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-23"
+  }
+]
