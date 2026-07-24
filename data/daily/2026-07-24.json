@@ -1,0 +1,121 @@
+[
+  {
+    "pmid": "42494273",
+    "title": "Microbiota Signatures in Early Life and Their Association With Food Allergy: A Systematic Review.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-07-24",
+    "authors": "Ventura Eduard Flores; Corriger Jeremy; Omer Hélène; Bodinier Marie; Haller Dirk et al.",
+    "abstract": "Food allergy (FA) is increasing worldwide, and early life may be a critical window for immune training. We systematically reviewed observational human studies linking early-life microbiota (infant, maternal, environmental, or extraintestinal) profiled using culture-based and/or culture-independent methods (including sequencing-based approaches) to subsequent FA or food sensitization outcomes in infants, children, and adolescents up to 18 years of age. PubMed, Web of Science Core Collection, Embase, Scopus, and LILACS were searched from database inception to March 2026. Inclusion required microbiota sampling during pregnancy or childhood and clinically ascertained FA/sensitization; non-human studies and studies without sequencing or clinical outcomes were excluded. Risk of bias was assessed using QUIPS. Owing to heterogeneity, we performed narrative synthesis. Forty studies were included (n = 6530 participants; 2077 cases). Across cohorts, cases were associated with lower diversity, early beta-divergence (1-6 months), neonatal enrichment of Proteobacteria (Pseudomonadota)/Enterobacteriaceae and selected taxa (Clostridium, Streptococcus, Sutterella), and depletion within the first year of Bifidobacterium, Blautia, and butyrate producers (Roseburia, Faecalibacterium). Functional profiles often suggested delayed maturation and reduced short-chain fatty acid capacity. Evidence was limited by moderate risk of bias, residual confounding, and heterogeneous outcome definitions. These findings support distinct early-life microbial configurations associated with FA susceptibility versus tolerance, informing mechanism-based prevention. Trial Registration: PROSPERO CRD420251234739.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "16S rRNA gene sequencing",
+      "early‐life microbiome",
+      "food allergy",
+      "infant microbiota",
+      "oral tolerance",
+      "short‐chain fatty acids",
+      "systematic review"
+    ],
+    "summary_zh": "系统综述40项观察性研究，发现早期微生物群特征（多样性低、特定菌群变化）与食物过敏易感性相关，支持机制性预防。",
+    "innovation": "系统整合早期生活微生物群（婴儿、母体、环境）与食物过敏的关联 | 揭示新生儿变形菌富集和丁酸产菌缺失等特定菌群模式",
+    "limitation": "存在中等偏倚风险、残余混杂及结局定义异质性",
+    "study_object": "早期（孕期/儿童期）宿主（婴儿、母体、环境、肠外）微生物群，基于培养和/或不依赖培养（包括测序）方法",
+    "disease": "食物过敏",
+    "sample_size": "40项研究，共6530名参与者（2077例病例）",
+    "ai_done": true,
+    "fetch_date": "2026-07-24"
+  },
+  {
+    "pmid": "42495760",
+    "title": "Gut‑liver‑kidney axis: A systems biology framework for understanding and treating chronic kidney disease (Review).",
+    "doi": null,
+    "journal": "International journal of molecular medicine",
+    "issn": "1791-244X",
+    "pub_date": "2026-07-24",
+    "authors": "Hou Jinyi; Li Yaotan; Lin Shijia; Liu Qingqing; Zheng Huijuan et al.",
+    "abstract": "Chronic kidney disease (CKD) is traditionally studied through an organ‑centric paradigm, despite its frequent coexistence with intestinal dysbiosis and metabolic dysfunction‑associated steatotic liver disease, which confers a 38% increased CKD risk. Multi‑organ crosstalk along the gut‑liver‑kidney axis remains inadequately addressed in current guidelines. The present study aimed to establish the gut‑liver‑kidney axis as an integrated systems biology framework for understanding CKD progression and to translate this framework into diagnostic, therapeutic and clinical trial strategies. The present review aimed to combine mechanistic summaries with systems biology perspectives, including weighted gene co‑expression network analysis, Bayesian causal inference and ordinary differential equation‑based dynamic modeling, to map bidirectional signaling across microbial, metabolic, inflammatory and hemodynamic dimensions, with diabetic kidney disease (DKD) as the principal exemplar. The axis operates through anatomically and molecularly defined positive feedback loops in which gut dysbiosis drives barrier failure and endotoxemia, amplifying hepatic lipotoxicity and bile acid dysregulation, precipitating renal tubular injury and fibrosis. This self‑perpetuating cycle, sustained by uremic toxin signaling, dysregulated peroxisome proliferator‑activated receptor/farnesoid X receptor (FXR)/Takeda G protein‑coupled receptor 5 (TGR5) pathways and trained immunity (a persistent hyperinflammatory state of innate immune cells driven by epigenetic and metabolic reprogramming), is most pronounced in DKD. Microbiome‑targeted interventions and FXR/TGR5 modulators are as the most clinically advanced axis‑directed strategies, though most remain at preclinical or early‑phase stages. Reframing CKD as gut‑liver‑kidney axis dysfunction enables systems‑level mechanistic integration, precision diagnostics through composite microbiome‑metabolomic signatures, and adaptive trial designs targeting upstream pathology, providing a foundation for incorporating axis‑based approaches into future CKD management.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "chronic kidney disease",
+      "future perspective",
+      "gut‑liver‑kidney axis",
+      "systems biology framework"
+    ],
+    "summary_zh": "建立肠-肝-肾轴系统生物学框架，整合机制与系统方法理解慢性肾病进展，提出诊断与治疗策略。",
+    "innovation": "提出肠-肝-肾轴作为多器官正反馈循环的整合框架 | 应用加权基因共表达网络分析、贝叶斯因果推断等系统生物学方法 | 强调训练免疫和FXR/TGR5通路在轴中的作用",
+    "limitation": "未描述",
+    "study_object": "慢性肾病患者 + 肠道、肝脏、肾脏样本 + 系统生物学与微生物组分析",
+    "disease": "慢性肾病（糖尿病肾病）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-24"
+  },
+  {
+    "pmid": "42493753",
+    "title": "The Role of Skin Surface pH in Age Associated Pruritus: Mechanistic and Clinical Insights.",
+    "doi": null,
+    "journal": "American journal of clinical dermatology",
+    "issn": "1179-1888",
+    "pub_date": "2026-07-24",
+    "authors": "Pielak Rafal M; Butler Daniel C",
+    "abstract": "Skin aging is characterized by progressive structural and biochemical changes that impair epidermal barrier function, alter the cutaneous microbiome, and predispose to chronic pruritus. Epidermal thinning, reduced lipid synthesis, and slowed barrier repair increase transepidermal water loss and vulnerability to irritation. Concurrently, age-related disruption of the acid mantle leads to elevation of skin surface pH, impairing acid-dependent lipid-processing enzymes while enhancing serine protease activity. These changes disrupt lamellar organization, weaken stratum corneum cohesion, and further compromise barrier integrity. Elevated pH and barrier dysfunction also reshape the skin microbiome. These changes favor alkalinity-tolerant and proinflammatory species while reducing protective commensals, thereby reinforcing inflammation and sensory irritation. Barrier impairment, dysbiosis, and pH-driven protease activation converge with neuroimmune dysregulation to sensitize peripheral nerves and promote chronic itch. Important contributors include kallikrein-protease-activated receptor-2 (PAR2) signaling and cytokines such as interleukin-31. This review highlights the pH-protease-itch axis as a unifying framework for pruritus in aging skin and discusses restoration of physiological acidity as a rational therapeutic strategy.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述皮肤老化导致pH升高、屏障受损、微生物组改变及慢性瘙痒机制，提出pH-蛋白酶-瘙痒轴框架。",
+    "innovation": "提出pH-蛋白酶-瘙痒轴作为年龄相关瘙痒的统一框架 | 强调恢复生理酸性作为合理治疗策略",
+    "limitation": "未描述",
+    "study_object": "人类皮肤/综述",
+    "disease": "年龄相关瘙痒（慢性瘙痒）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-24"
+  },
+  {
+    "pmid": "42490446",
+    "title": "Eukaryotic-like microtubules and dynamic instability of Asgard archaeal tubulins.",
+    "doi": null,
+    "journal": "Science advances",
+    "issn": "2375-2548",
+    "pub_date": "2026-07-24",
+    "authors": "Löwe Jan; von Kügelgen Andriko; Planelles-Herrero Vicente J; McAndrew Martin B L; Oliva María A et al.",
+    "abstract": "Eukaryotic cells change their shapes, actively segregate their DNA, and contain membrane networks, facilitated by a complex cytoskeleton containing actin filaments, microtubules made from tubulin, and other components. These filaments have ancient evolutionary origins because actin- and tubulin-like proteins form prokaryotic cytoskeletons in archaea and bacteria. Bona fide eukaryotic F-actin can be traced back to crenarchaea and Asgard archaea, which are the closest known relatives of eukaryotes. A possible Asgard archaeal origin of microtubules was suggested recently with the discovery of a lokiarchaeon containing AtubAB mini microtubules that share architectural features with their eukaryotic counterparts. Using phylogenetic analyses of metagenomic data, here we report the broad occurrence of tubulins in Asgard archaea. Biochemical and structural analyses showed that one of our previously unidentified heimdallarchaeial AtubAB tubulin pairs forms four-protofilament mini microtubules that show dynamic instability and are inhibited by the tubulin drug maytansine. Our work raises the possibility that microtubule architecture and dynamics evolved in Asgard archaea prior to eukaryogenesis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Tubulin",
+      "Microtubules",
+      "Archaea",
+      "Phylogeny",
+      "Archaeal Proteins",
+      "Models, Molecular",
+      "Eukaryota"
+    ],
+    "keywords": [],
+    "summary_zh": "通过宏基因组分析发现Asgard古菌中微管蛋白广泛存在，并证明一种新型微管蛋白对形成动态不稳定的微型微管，暗示微管演化早于真核生物起源。",
+    "innovation": "首次揭示Asgard古菌中微管蛋白广泛存在 | 发现新型微管蛋白对形成四原丝微型微管并具有动态不稳定性 | 提示微管的真核样特征在古菌中已出现",
+    "limitation": "未描述",
+    "study_object": "Asgard古菌（宏基因组数据）+ 微管蛋白（系统发育分析、生化与结构分析）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-24"
+  }
+]
