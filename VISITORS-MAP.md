@@ -14,7 +14,54 @@
 
 ---
 
-## 1. 本地一次性准备（不在服务器）
+## 1. 推荐：GitHub Actions 自动刷新（日常零手动）
+
+已内置工作流 `.github/workflows/visitors.yml`：每天北京时间 02:10 自动运行，
+在 **GitHub Runner** 内 `scp` 拉取服务器 nginx 日志 → 用 geoip2 + GeoLite2 处理 →
+提交 `web/visitors.json` → 推送。**服务器只做 `git pull` 同步，不装任何软件。**
+
+### 一次性操作（只需做一次）
+
+**A. 服务器（唯一需要碰服务器的地方，零软件安装）**
+生成一对专供 Actions 使用的 SSH 密钥，把公钥加进服务器 `authorized_keys`：
+
+```bash
+# 在你本地任意机器执行
+ssh-keygen -t ed25519 -N "" -f github_actions_key
+# 把公钥装到服务器（SSH_USER 需能读取 nginx 日志，通常是 root）
+ssh-copy-id -i github_actions_key.pub root@你的服务器
+# 或手动：cat github_actions_key.pub >> ~/.ssh/authorized_keys
+```
+
+> 仅添加一行公钥，服务器不安装任何程序。日志路径：
+> `/var/log/nginx/meta.seubiomed.com.access.log`（SSH_USER 须有读权限，
+> 若用非 root 账号，请把该用户加入 `adm` 组或放宽日志文件权限）。
+
+**B. GitHub 仓库 Secrets**（仓库 Settings → Secrets and variables → Actions → New repository secret）
+
+| Secret 名             | 值                                        |
+|-----------------------|-------------------------------------------|
+| `SSH_HOST`            | 服务器 IP 或域名                           |
+| `SSH_USER`            | 可读取 nginx 日志的账号（如 `root`）       |
+| `SSH_PORT`            | SSH 端口（默认 `22`，可省略）              |
+| `SSH_PRIVATE_KEY`     | 上面生成的 `github_actions_key` 私钥全文   |
+| `MAXMIND_LICENSE_KEY` | 你的 MaxMind License Key（本地已用过）     |
+
+> 设置完即永久生效，之后每天自动跑，无需任何手动操作。
+> 想立即验证？到 Actions 页面手动 `Run workflow` 触发一次即可。
+
+### 原理
+- geoip2、GeoLite2 数据库都装在 GitHub Runner（别人的机器），不在你的服务器。
+- 与现有 `daily.yml`（PubMed 每日更新）同一模式：Runner 算完 → `git push` → 服务器 `git pull` 同步静态站。
+- 如需停止自动刷新：在 Actions 页面 Disable 该 workflow 即可。
+
+---
+
+## 2. 本地手动（备选方案）
+
+若不想用 GitHub Actions（如服务器 SSH 对 GitHub IP 不可达），可改回本地手动：
+
+### 2.1 本地一次性准备（不在服务器）
 
 ```bash
 # 本地 Python 环境
@@ -27,9 +74,7 @@ pip install geoip2
 
 > 只需在本地做一次。之后每次刷新地图，复用这个环境即可。
 
----
-
-## 2. 本地生成并推送（日常刷新流程）
+### 2.2 本地生成并推送（日常刷新流程）
 
 ```bash
 # 1) 把服务器上的访问日志取到本地（任选其一）

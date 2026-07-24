@@ -1,0 +1,70 @@
+name: 访客地图更新
+
+# ── 说明 ────────────────────────────────────────────────────────────────
+# 生成真实访客分布 (web/visitors.json)。数据来自服务器 nginx 访问日志，
+# 由 GitHub Runner 通过 SSH 拉取后，在 Runner 内用 geoip2 + GeoLite2 处理。
+# 服务器本身无需安装任何软件（不装 geoip2、不下载数据库、不跑 cron）。
+# 与 daily.yml 类似的模式：Runner 算完 → git push → 服务器 git pull 同步。
+# ────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    # 北京时间每天 02:10 = UTC 18:10（凌晨跑，覆盖前一天全天访问）
+    - cron: '10 18 * * *'
+  workflow_dispatch:  # 允许在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  visitors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 允许 rebase，避免与 daily.yml 并发提交冲突
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖（仅运行在 GitHub Runner，不在你的服务器）
+        run: pip install geoip2
+
+      - name: 下载 GeoLite2-City 数据库（需 MaxMind License Key）
+        run: |
+          curl -sL "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key=${{ secrets.MAXMIND_LICENSE_KEY }}&suffix=tar.gz" -o geoip.tar.gz
+          tar xzf geoip.tar.gz
+          mv GeoLite2-City_*/GeoLite2-City.mmdb GeoLite2-City.mmdb
+          ls -lh GeoLite2-City.mmdb
+
+      - name: 从服务器拉取 nginx 访问日志（SSH，服务器零安装）
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT || '22' }}
+          source: "/var/log/nginx/meta.seubiomed.com.access.log"
+          target: "server_log"
+          strip_components: 3
+
+      - name: 生成访客分布 JSON（最近 30 天）
+        run: |
+          python scripts/gen_visitors.py \
+            --log server_log/meta.seubiomed.com.access.log \
+            --mmdb GeoLite2-City.mmdb \
+            --days 30 \
+            --out web/visitors.json
+
+      - name: 提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/visitors.json
+          git diff --cached --quiet && echo "无变化，跳过提交" && exit 0
+          git commit -m "chore: 刷新访客地图 $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
