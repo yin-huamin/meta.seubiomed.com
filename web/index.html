@@ -1683,7 +1683,10 @@ loadData();
         var ok = renderReal(data.points);
         var note = document.querySelector('.map-note');
         if (ok) {
-          if (note) note.textContent = '访客分布（基于访问日志）';
+          if (note) {
+            if (data.source === 'sample') note.textContent = '访客分布（示例数据）';
+            else note.textContent = '访客分布（基于访问日志）';
+          }
         } else {
           renderFallback();
           if (note) note.textContent = '访客分布（暂无数据）';

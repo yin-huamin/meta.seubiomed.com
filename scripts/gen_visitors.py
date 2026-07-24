@@ -9,25 +9,33 @@ nginx 已经在 access_log 中记录每个访客的真实 IP。本脚本解析 c
 日志，用 MaxMind GeoLite2-City 数据库把 IP 转成经纬度 / 国家，按坐标聚合成
 "热点"，输出给前端 (web/index.html) 绘制真实访客地图。
 
+重要（部署约束）
+----------------
+为遵守"服务器不安装额外软件"的约定，**geoip2 + GeoLite2 数据库只装在
+你的本地机器 / 开发机**，本脚本在本地运行，把输出的 `web/visitors.json`
+提交进仓库即可。生产服务器只是静态托管这个 JSON 文件，**无需 pip install、
+无需下载任何数据库、无需 cron**。
+
 特点
 ----
-- 零额外常驻服务：cron 每日跑一次即可，前端直接 fetch 静态 JSON。
+- 服务器零安装：只需静态托管 web/visitors.json，不跑任何后端进程。
 - 不依赖任何第三方统计服务（无 ClustrMaps / Google Analytics 之类外部请求）。
 - geoip2 或 mmdb 缺失时优雅降级：--demo 可生成样例数据用于本地测试。
 
 用法
 ----
-  # 真实模式（服务器端）
+  # 真实模式（在你本地机器 / 开发机运行，不在服务器）
   python scripts/gen_visitors.py \
-      --log /var/log/nginx/meta.seubiomed.com.access.log \
-      --mmdb /usr/share/GeoIP/GeoLite2-City.mmdb \
+      --log ~/meta.seubiomed.com.access.log \
+      --mmdb ~/GeoLite2-City.mmdb \
       --out web/visitors.json
+  git add web/visitors.json && git commit && git push   # 推到仓库即上线
 
-  # 本地测试：生成样例数据
+  # 本地测试：生成样例数据（source 标记为 sample，前端会标注"示例数据"）
   python scripts/gen_visitors.py --demo --out web/visitors.json
 
-依赖
-----
+依赖（仅本地需要，服务器不需要）
+----------------------------------
   真实模式需要: pip install geoip2  +  下载 GeoLite2-City.mmdb (免费, 需 MaxMind 账号)
 """
 
@@ -177,7 +185,7 @@ def build_demo():
     return points, countries, total
 
 
-def to_json(points, countries, total):
+def to_json(points, countries, total, source="nginx-access-log"):
     pts = [
         {"lat": k[0], "lon": k[1], "count": v["count"],
          "country": v["country"], "city": v["city"]}
@@ -191,7 +199,7 @@ def to_json(points, countries, total):
     )[:12]
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "nginx-access-log",
+        "source": source,
         "total": total,
         "points": pts,
         "countries": top_countries,
@@ -220,8 +228,9 @@ def main():
         since = datetime.now(timezone.utc) - timedelta(days=args.days)
 
     if args.demo:
-        sys.stderr.write("[info] demo 模式：生成样例访客数据\n")
+        sys.stderr.write("[info] demo 模式：生成样例访客数据（source=sample）\n")
         points, countries, total = build_demo()
+        source = "sample"
     else:
         if not os.path.exists(args.log):
             sys.stderr.write(f"[error] 日志文件不存在: {args.log}\n")
@@ -231,8 +240,9 @@ def main():
         points, countries, total = build_from_log(args.log, reader, since=since)
         if reader is not None:
             reader.close()
+        source = "nginx-access-log"
 
-    data = to_json(points, countries, total)
+    data = to_json(points, countries, total, source)
     out_dir = os.path.dirname(os.path.abspath(args.out))
     os.makedirs(out_dir, exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:

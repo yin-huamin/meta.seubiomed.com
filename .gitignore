@@ -26,7 +26,6 @@ web/data.json
 web/data/
 web/memory.json
 web/stats.json
-web/visitors.json
 
 # ─── 工作文件 ───
 .workbuddy/

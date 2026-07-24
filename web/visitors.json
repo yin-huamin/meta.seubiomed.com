@@ -1,0 +1,162 @@
+{
+  "generated_at": "2026-07-24T09:30:04.498012+00:00",
+  "source": "sample",
+  "total": 5174,
+  "points": [
+    {
+      "lat": 39.9,
+      "lon": 116.4,
+      "count": 1150,
+      "country": "CN",
+      "city": "Beijing"
+    },
+    {
+      "lat": 31.2,
+      "lon": 121.5,
+      "count": 905,
+      "country": "CN",
+      "city": "Shanghai"
+    },
+    {
+      "lat": 40.7,
+      "lon": -74.0,
+      "count": 536,
+      "country": "US",
+      "city": "New York"
+    },
+    {
+      "lat": 51.5,
+      "lon": -0.1,
+      "count": 472,
+      "country": "GB",
+      "city": "London"
+    },
+    {
+      "lat": 35.7,
+      "lon": 139.7,
+      "count": 401,
+      "country": "JP",
+      "city": "Tokyo"
+    },
+    {
+      "lat": 37.8,
+      "lon": -122.4,
+      "count": 365,
+      "country": "US",
+      "city": "San Francisco"
+    },
+    {
+      "lat": -33.8,
+      "lon": 151.0,
+      "count": 217,
+      "country": "AU",
+      "city": "Sydney"
+    },
+    {
+      "lat": 52.5,
+      "lon": 13.4,
+      "count": 200,
+      "country": "DE",
+      "city": "Berlin"
+    },
+    {
+      "lat": 1.4,
+      "lon": 103.8,
+      "count": 167,
+      "country": "SG",
+      "city": "Singapore"
+    },
+    {
+      "lat": 43.7,
+      "lon": -79.4,
+      "count": 160,
+      "country": "CA",
+      "city": "Toronto"
+    },
+    {
+      "lat": -23.5,
+      "lon": -46.6,
+      "count": 145,
+      "country": "BR",
+      "city": "São Paulo"
+    },
+    {
+      "lat": 48.9,
+      "lon": 2.4,
+      "count": 140,
+      "country": "FR",
+      "city": "Paris"
+    },
+    {
+      "lat": 52.4,
+      "lon": 4.9,
+      "count": 119,
+      "country": "NL",
+      "city": "Amsterdam"
+    },
+    {
+      "lat": 13.0,
+      "lon": 77.6,
+      "count": 99,
+      "country": "IN",
+      "city": "Bangalore"
+    },
+    {
+      "lat": 37.6,
+      "lon": 127.0,
+      "count": 98,
+      "country": "KR",
+      "city": "Seoul"
+    }
+  ],
+  "countries": [
+    {
+      "code": "CN",
+      "count": 2055
+    },
+    {
+      "code": "US",
+      "count": 901
+    },
+    {
+      "code": "GB",
+      "count": 472
+    },
+    {
+      "code": "JP",
+      "count": 401
+    },
+    {
+      "code": "AU",
+      "count": 217
+    },
+    {
+      "code": "DE",
+      "count": 200
+    },
+    {
+      "code": "SG",
+      "count": 167
+    },
+    {
+      "code": "CA",
+      "count": 160
+    },
+    {
+      "code": "BR",
+      "count": 145
+    },
+    {
+      "code": "FR",
+      "count": 140
+    },
+    {
+      "code": "NL",
+      "count": 119
+    },
+    {
+      "code": "IN",
+      "count": 99
+    }
+  ]
+}
