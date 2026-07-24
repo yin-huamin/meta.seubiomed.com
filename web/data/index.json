@@ -26,37 +26,37 @@
   },
   {
     "year": "2020",
-    "count": 375,
+    "count": 373,
     "file": "data/2020.json"
   },
   {
     "year": "2021",
-    "count": 456,
+    "count": 450,
     "file": "data/2021.json"
   },
   {
     "year": "2022",
-    "count": 574,
+    "count": 569,
     "file": "data/2022.json"
   },
   {
     "year": "2023",
-    "count": 560,
+    "count": 558,
     "file": "data/2023.json"
   },
   {
     "year": "2024",
-    "count": 684,
+    "count": 681,
     "file": "data/2024.json"
   },
   {
     "year": "2025",
-    "count": 817,
+    "count": 809,
     "file": "data/2025.json"
   },
   {
     "year": "2026",
-    "count": 529,
+    "count": 530,
     "file": "data/2026.json"
   }
 ]
