@@ -1,0 +1,63 @@
+[
+  {
+    "pmid": "42503162",
+    "title": "Hematodinium sp. infection alters haemolymph bacteriome composition and function in shore crabs, carcinus maenas.",
+    "doi": null,
+    "journal": "Virulence",
+    "issn": "2150-5608",
+    "pub_date": "2026-07-26",
+    "authors": "Thomas Jessica E; Lurgi Miguel; Davies Charlotte E; Rowley Andrew F; Coates Christopher J",
+    "abstract": "Hematodinium sp. is a parasitic dinoflagellate that infects and causes disease in a large fraction of decapod crustaceans in the Northern Hemisphere. The shore crab Carcinus maenas is susceptible to this parasite in its native range of European coastlines and along its invasive fronts. The parasite enters the host from the surrounding water, and fueled by the hemolymph (blood) resources, proliferates until host tissues are overrun. To improve our knowledge of the shore crab-Hematodinium pathosystem, we profiled the hemolymph microbiome of control and Hematodinium-positive crabs with low (early clinical) and high (late clinical) parasite levels through bacterial 16S rRNA V3-V4 meta-barcoding (n = 64). Concurrently, we assessed hemolymph condition through quantification of circulating hemocytes (immune cells) and bacterial colony forming units. Progression of Hematodinium sp. infection coincided with gradual changes in bacterial community composition. These changes were driven by shifts in relative abundances of specific taxa, e.g. Corynebacterium, Flavobacterium. Furthermore, alterations in bacterial communities were accompanied by marked shifts in metabolic signatures from stress and virulence dominated (including biofilm formation) to catabolism, peptide transport and tissue putrefaction at the terminal stage of parasitemia. We present the first account of microbiome dynamics in healthy shore crabs and those overcome by Hematodinium sp. Our experiments reveal a clear link between bacterial community structure-function and the advancing disease state.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "16S rRNA metabarcoding",
+      "dysbiosis",
+      "host-pathogen interactions",
+      "innate immunity",
+      "marine disease",
+      "pathobiome"
+    ],
+    "summary_zh": "通过16S rRNA扩增子测序，研究寄生虫Hematodinium sp.感染对滨海蟹血淋巴微生物组组成和功能的影响，发现感染进展伴随细菌群落和代谢功能变化。",
+    "innovation": "首次描述健康及被Hematodinium感染的滨海蟹血淋巴微生物组动态 | 揭示细菌群落结构与功能与疾病进展的明确联系",
+    "limitation": "未描述",
+    "study_object": "滨海蟹血淋巴 + 16S rRNA V3-V4宏条形码",
+    "disease": "Hematodinium sp.感染",
+    "sample_size": "64",
+    "ai_done": true,
+    "fetch_date": "2026-07-26"
+  },
+  {
+    "pmid": "42502970",
+    "title": "Influence of cell-cell distance on the ecology and evolution of microbial communities.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-07-26",
+    "authors": "Huang Ailin; Ramesh Divvya; Nie Yong; Zhao Kun; Wang Miaoxiao",
+    "abstract": "Microorganisms assemble into spatially structured communities in which neighboring cells are separated by highly heterogeneous cell-cell distances. These spatial distances are not merely geometric features but key ecological variables that determine whether cells can exchange metabolites, compete through toxins, sense one another, or transfer genes, thereby profoundly influencing community assembly, productivity, and the evolution of microorganisms residing in communities. In this review, we synthesize recent progress on how cell-cell distance in microbial communities is determined, as well as how it modulates microbial interactions that lead to diverse ecological and evolutionary consequences. Specifically, we propose several testable conceptual frameworks that help quantify complicated distance-interaction relationships. We discuss emerging imaging, automated analysis, and spatial engineering approaches that now make it possible to quantify and manipulate cell-cell distance with increasing precision. Viewing microbial communities through the lens of cell-cell distance provides a unifying framework for linking microscale spatial organization to microbiome function, offering new opportunities to predict and engineer microbial communities.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "cell-cell distance",
+      "microbial communities",
+      "microbial evolution",
+      "microbial interactions",
+      "spatial ecology"
+    ],
+    "summary_zh": "综述细胞间距离决定微生物群落空间结构，影响代谢、竞争等相互作用，提出概念框架和量化操控技术。",
+    "innovation": "提出量化复杂距离-相互作用关系的可测试概念框架 | 讨论新兴成像、自动分析和空间工程方法",
+    "limitation": "未描述",
+    "study_object": "微生物群落空间结构综述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-26"
+  }
+]
