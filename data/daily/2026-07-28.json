@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42515990",
+    "title": "Tryptophan in nutrition, health and disease.",
+    "doi": null,
+    "journal": "Nutrition research reviews",
+    "issn": "1475-2700",
+    "pub_date": "2026-07-28",
+    "authors": "Aust Anne-Christine; Wagenlehner Florian; Thon Vojtech",
+    "abstract": "Tryptophan (TRP) is an essential amino acid that needs to be ingested into the human body with food. Once ingested in the human body, it is metabolised by gut microbiota into indole metabolites. These indole metabolites can bind to the aryl hydrocarbon receptor (AhR) and pregnane X receptor (PXR). AhR is expressed in many immune cells. The innate and adaptive immune system is modulated by the binding of the indole metabolites to this receptor, and anti-inflammatory signal cascades are activated. PXR is enriched in the enterohepatic system and is essential in handling xenobiotics. Our analysis of results showed that the amino acid TRP and its indole metabolites are ligands, which can modulate mucosal barrier integrity and regulate disease states. The TRP indole metabolites were shown to be a possibility for the supported treatment of diseases such as inflammatory bowel disease, ischemic diseases, and neurodegenerative and autoimmune diseases, including multiple sclerosis. This review shows that the gut microbiome can be altered by supplementation in the nutrition of these bacterial metabolites. As shown in the examples here in this review, inclusive experimental models, the supplementation of TRP and its metabolites could be an alternative approach for treating patients. This review highlights the nutritional aspects of tryptophan and its biochemistry. Further, it sheds light on nutrition and the role of TRP malnutrition.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "gastrointestinal tract",
+      "human gut microbiota",
+      "nutrition",
+      "tryptophan metabolism"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-07-28"
+  }
+]

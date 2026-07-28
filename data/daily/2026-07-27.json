@@ -1,0 +1,238 @@
+[
+  {
+    "pmid": "42509323",
+    "title": "The urinary microbiome, overactive bladder and bladder pain syndrome/interstitial cystitis - mechanisms, diagnostics and therapeutic opportunities.",
+    "doi": null,
+    "journal": "Nature reviews. Urology",
+    "issn": "1759-4820",
+    "pub_date": "2026-07-27",
+    "authors": "Spazzapan Martina; Raison Nicholas; Steves Claire; Sahai Arun",
+    "abstract": "Overactive bladder and bladder pain syndrome/interstitial cystitis are prevalent, multifactorial disorders with poorly understood pathophysiology. The discovery of the urinary microbiome has overturned the sterile urine paradigm and created new opportunities for mechanistic and translational research. Increasing evidence suggests that bladder microbial communities are associated with urothelial signalling, immune tone and neural pathways that influence urgency, pain and treatment response. In overactive bladder, Lactobacillus-predominant profiles are associated with lower symptom burden and improved response to pharmacotherapy, whereas Gardnerella-enriched and Pseudomonadota-enriched communities positively correlate with refractory disease. In bladder pain syndrome/interstitial cystitis, microbial alterations are not based on a single pathogenic signature but converge on metabolic and immune dysregulation. Multi-omics studies integrating metagenomics, metabolomics and host immune data are beginning to define functional pathways linking microbial metabolites, epithelial barrier function and nociceptor sensitization. Results from emerging clinical trials suggest that urinary microbiome profiling might enable patient stratification and inform treatment selection, whereas interventions, such as probiotics, oestrogen therapy or dietary modulation, hold potential as adjunctive strategies. Together, these advances position the urinary microbiome as a promising contributor to lower urinary tract health and a potential target for precision urology, although the functional importance and causal role of the low-biomass urinary microbiome in disease remain crucial unresolved questions.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述尿路微生物组在膀胱过度活动症和膀胱疼痛综合征中的作用，探讨诊断和治疗潜力，指出低生物量微生物组功能重要性仍为关键问题。",
+    "innovation": "发现尿路微生物组并关联疾病机制 | 多组学整合研究揭示代谢-免疫-神经通路 | 微生物组谱用于患者分层和精准治疗",
+    "limitation": "低生物量尿路微生物组的功能重要性和因果作用仍未明确。",
+    "study_object": "人尿液微生物组（宏基因组学、代谢组学等多组学）",
+    "disease": "膀胱过度活动症；膀胱疼痛综合征/间质性膀胱炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42509322",
+    "title": "Designing fiber-gut microbiome interactions with active learning.",
+    "doi": null,
+    "journal": "Nature chemical biology",
+    "issn": "1552-4469",
+    "pub_date": "2026-07-27",
+    "authors": "Connors Bryce M; Thompson Jaron; Gangan Manasi Subhash; Quinn-Bohmann Nick; Gibbons Sean M et al.",
+    "abstract": "Identifying synergies between dietary fibers and beneficial bacteria holds promise for precision interventions that optimize gut health, yet these interactions remain largely unexplored. Here we integrate machine learning, Bayesian optimization and high-throughput community construction to investigate how dietary fibers shape health-relevant functions of human gut microbial communities. To efficiently navigate the landscape of fiber-microbiome interactions, we implemented a design-test-learn cycle to identify fiber-species combinations that maximize a multiobjective function capturing beneficial community properties. Our model-guided approach revealed a highly butyrogenic and robust ecological motif characterized by the copresence of inulin, Bacteroides uniformis and Anaerostipes caccae and a higher-order interaction with Prevotella copri. Human fecal communities invaded with model-designed species-fiber combinations displayed predictable gut-beneficial outputs. In sum, we demonstrate a framework for designing synthetic microbial communities with desired functions in response to key nutrients.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "本研究整合机器学习、贝叶斯优化和高通量群落构建，探索膳食纤维与肠道微生物的协同作用，发现了一种高度产丁酸的生态基序，并展示了设计合成微生物群落的框架。",
+    "innovation": "整合机器学习、贝叶斯优化和高通量群落构建研究纤维-微生物相互作用 | 发现由菊粉、普通拟杆菌和Anaerostipes caccae组成的产丁酸生态基序，以及与Prevotella copri的高阶相互作用 | 模型设计的物种-纤维组合可预测肠道有益输出",
+    "limitation": "未描述",
+    "study_object": "人类粪便样本 + 高通量群落构建 + 机器学习",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42507910",
+    "title": "Digestion-resistant proteins support the healthy metabolite profiles associated with plant-based diets.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-07-27",
+    "authors": "AbuSalim Jenna E; MacArthur Michael M; Gupta Meera; Roichman Asael; Hunter Craig J et al.",
+    "abstract": "Plant-based diets are associated with both positive health outcomes and a diverse gut microbiome. Such diets alter the microbiome's metabolic outputs, including increasing phenylalanine-derived phenols associated with beneficial health outcomes (hippuric acid and 3-phenylpropionate), while decreasing tyrosine-derived phenols considered uremic toxins (phenol sulfate and p-cresol sulfate). The mechanisms linking plant eating to these phenol metabolites are not known. Plant-based foods are fiber and phytochemical rich. They also contain proteins that are resistant to host digestion and thus reach the gut microbiome. Here, we show that fiber and digestion-resistant protein work in concert to shift the phenol profile by altering gut microbiome nutrient supply. Through isotope-tracing studies, we reveal that host secreted proteins are a source for phenol sulfate and p-cresol sulfate, while digestion-resistant dietary protein is the source for hippuric acid and 3-phenylpropionate. Fiber decreases bacterial digestion of host secreted proteins (e.g., mucins) and thus suppresses tyrosine-derived phenol sulfate and p-cresol sulfate, whose levels correlate with the mucin-digesting bacterial family Oscillospiraceae. Digestion-resistant dietary protein increases bacterial access to phenylalanine and thereby boosts phenylalanine-derived hippuric acid and 3-phenylpropionate. Thus, digestion-resistant plant protein modulates microbiome metabolism and, together with fiber, supports healthy metabolite profiles associated with plant-based diets.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "gut microbiome",
+      "isotope tracing",
+      "microbiome metabolism",
+      "nutrition",
+      "plant-based diets"
+    ],
+    "summary_zh": "通过同位素示踪揭示抗消化蛋白和纤维协同调节肠道微生物组酚类代谢物谱的机制。",
+    "innovation": "首次发现抗消化蛋白是马尿酸和3-苯丙酸的前体 | 揭示宿主分泌蛋白是酚硫酸盐和对甲酚硫酸盐的来源 | 证明纤维抑制宿主蛋白降解从而降低酪氨酸衍生物水平",
+    "limitation": "未描述",
+    "study_object": "植物性饮食、肠道微生物组、同位素示踪",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42505077",
+    "title": "A Comprehensive Microbial Gene Catalog of the Human Airway Microbiome Across Anatomical Sites and Geographic Regions.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-07-27",
+    "authors": "Zhang Qing; Li Dashu; Liu Bo; Zhang Yue; Li Min et al.",
+    "abstract": "The respiratory microbiota is a critical determinant of airway health, yet functional characterization remains challenging due to the lack of a high-resolution reference catalog. To address this gap and enable systematic investigation at both species and gene levels, we constructed the integrated Human Airway Microbiome Gene Catalog (iHAMGC) through high-throughput metagenomic analysis of 12,273 airway samples. This catalog comprises 24,185,985 non-redundant microbial genes and provides extensive taxonomic and functional annotations, with a particular focus on clinically relevant elements, including antibiotic resistance genes, virulence factors, and antimicrobial peptides. We further resolved the bacterial hosts of resistance genes and virulence factor genes, as well as taxa contributing to antimicrobial peptide activity. The iHAMGC captures site-specific microbial and functional variations across distinct airway niches and reveals regional differences in functional potential. By offering a comprehensive, publicly accessible reference for airway microbial genes, the iHAMGC serves as a foundational resource for advancing our understanding of the airway microbiota in respiratory health and disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "antibiotic resistance genes",
+      "antimicrobial peptides",
+      "gene catalog",
+      "human airway microbiota",
+      "virulence factor genes"
+    ],
+    "summary_zh": "基于12273份气道样本构建人类气道宏基因组基因目录(iHAMGC)，包含2419万基因，提供功能注释及临床相关元件资源。",
+    "innovation": "构建了首个综合性人类气道微生物组基因目录(iHAMGC) | 系统注释了抗生素抗性基因、毒力因子和抗菌肽等临床相关元件 | 解析了抗性基因和毒力因子的细菌宿主及抗菌肽活性分类群",
+    "limitation": "未描述",
+    "study_object": "人类气道微生物组（气道样本，宏基因组）",
+    "disease": "呼吸道健康与疾病",
+    "sample_size": "12273",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42515932",
+    "title": "Established and Emerging Biomarkers to Characterize Persons at Risk for Obesity-Paving the Way for Targeted Clinical Intervention Trials-A Comprehensive Position Paper.",
+    "doi": null,
+    "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+    "issn": "1467-789X",
+    "pub_date": "2026-07-27",
+    "authors": "Vahid Farhad; Stopa Victoria; Malisoux Laurent; Devaux Yvan; Lamy Elsa et al.",
+    "abstract": "Despite all efforts, obesity remains a major health concern worldwide, with continuously increasing rates, affecting approx. 14% of the total world population, being as high as 43% in some countries. As obesity is related to numerous comorbidities, including type 2 diabetes, cardiovascular diseases, and some types of cancer, the consequences for the individual and society at large are drastic. Therefore, it is crucial to understand and predict who is at risk of developing obesity in order to implement early prevention strategies. Many individual risk factors have been emphasized. However, as obesity is a rather multifactorial complication, single markers/biomarkers have thus far not allowed for an efficient prediction of obesity. In addition to less modifiable parameters, such as environment and socio-demographics, studies have revealed that obesity is related to several interacting aspects, including host factors such as genetics/epigenetics or gut microbiota, and more readily modifiable factors, including nutrition and physical activity, as well as sleep patterns and psychological well-being. It is likely that combining markers from across different domains, that is, multimodal markers, allows for better predictability for the risk of developing obesity. However, it must be considered that not all markers are fully predictive; many are rather reactive or even both. In this review and position paper, we emphasize the state-of-the-art regarding (bio)markers that have successfully been employed for predicting obesity risk. An emphasis will rest on novel, emerging biomarkers, and the need for a more integrative, multimodal assessment of obesity risk for a combined assessment aimed at improving risk prediction.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "diet and health",
+      "gut microbiome",
+      "multimodal biomarkers",
+      "multiomics",
+      "obesogenic environment",
+      "predictive vs. reactive markers",
+      "sedentary behavior",
+      "socio‐cultural variables"
+    ],
+    "summary_zh": "综述预测肥胖风险的现有与新兴生物标志物，强调多模态组合评估以改进风险预测。",
+    "innovation": "强调新兴生物标志物在肥胖风险预测中的作用 | 提出多模态、综合性评估策略以替代单一标志物",
+    "limitation": "未描述",
+    "study_object": "人类（肥胖风险人群）",
+    "disease": "肥胖",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42506909",
+    "title": "Molecular characterization of norovirus false-positive results on the BioFire FilmArray gastrointestinal panel.",
+    "doi": null,
+    "journal": "Journal of clinical microbiology",
+    "issn": "1098-660X",
+    "pub_date": "2026-07-27",
+    "authors": "Reed Jonathan C; Mauer Clarice; Mack Andrew R; Theriault Erez A; Tansarli Giannoula S et al.",
+    "abstract": "UNLABELLED: Molecular syndromic panels such as the BioFire FilmArray Gastrointestinal Panel (BF-GIP) have been widely adopted for gastrointestinal illness diagnosis due to their fast turnaround times and broad pathogen coverage. Recently, the BF-GIP demonstrated increased rates of norovirus false-positive detections, prompting a Class II recall of more than two million tests in February 2024 and resulting in an estimated burden of more than a quarter-million false-positive norovirus results reported over the last 5 years. We examined the prevalence of BF-GIP norovirus false positives across four hospitals from December 2024 to June 2025. Among 185 BF-GIP norovirus-positive results confirmed with the BD MAX Enteric Viral Panel, the false discovery rate ranged from 31% to 74% across sites, with the highest rate seen at a specialized cancer care hospital. Deep sequencing of BF-GIP pouches (n = 42) confirmed the Noro-1 assay as the primary source of off-target amplification, identifying 78 off-target species-predominantly commensal stool bacteria-compared to only two species for the Noro-2 assay. Off-target species amplified by the Noro-1 assay were recovered from both false-positive and true-negative pouches, suggesting no single species accounted for the false-positive results. Partial primer complementarity at off-target loci and amplicon Tm values within the acceptable range support mispriming of gut microbiota as the underlying cause. False-positive pouches exhibited significantly higher crossing point values than true-positive pouches for both assays (Noro-1: 26.6 vs 11.1, P = 0.013; Noro-2: 30.0 vs 13.1, P < 0.001), consistent with low-level off-target amplification. These findings highlight the high false discovery rate of the Noro-1 assay, identify bacterial species involved in mispriming, and demonstrate the need to redesign this assay to ensure reliable testing and improved patient care.\nIMPORTANCE: Syndromic molecular panels have revolutionized gastrointestinal diagnostics. However, recent data have suggested significant norovirus false-positive results associated with the BioFire FilmArray Gastrointestinal Panel. Here, we investigate a major diagnostic failure associated with the 2024 Class II recall of this assay, revealing norovirus false discovery rates as high as 74% in certain clinical settings. By deep sequencing amplicons from FilmArray pouches, we identified widespread cross-reactivity of the Noro-1 assay with stool microbiome nucleic acid. Off-target Noro-1 amplicons were detected from 78 bacterial species across 42 clinical pouches. For 16 species with the highest read counts per pouch, amplicons mapped to discrete genomic loci with partial primer overlap, consistent with mispriming. The identification of these discrete loci, combined with the repeatedly high false discovery rate reported across multiple studies, creates a clinical imperative to redesign this assay. Our work also highlights the ongoing need for rigorous post-market surveillance and the utility of deep sequencing in troubleshooting diagnostic assay failures.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "BioFire",
+      "FDA recall",
+      "bioMérieux",
+      "false positive",
+      "gut microbiota",
+      "norovirus"
+    ],
+    "summary_zh": "研究调查了BioFire FilmArray胃肠道面板的诺如病毒假阳性问题，在四家医院发现假阳性率高达74%，深度测序显示Noro-1检测与肠道菌群交叉反应是主因。",
+    "innovation": "深度测序鉴定Noro-1检测假阳性源于78种肠道细菌的交叉反应 | 发现部分引物互补和Tm值支持误引发机制 | 提出重新设计检测及加强上市后监测的必要性",
+    "limitation": "未描述",
+    "study_object": "人类患者粪便样本的分子诊断检测（BioFire FilmArray胃肠道面板）",
+    "disease": "诺如病毒感染",
+    "sample_size": "185例BF-GIP阳性结果，42个pouch深度测序",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42509022",
+    "title": "Methodological Considerations Regarding the Biliary Multi-Omics Landscape: Comments on the Biliary Multi-Omics Landscape Integrating Microbiome and Metabolomics in Gallbladder Carcinogenesis.",
+    "doi": null,
+    "journal": "Journal of gastroenterology and hepatology",
+    "issn": "1440-1746",
+    "pub_date": "2026-07-27",
+    "authors": "Naz Areesha; Saqib Muhammad Hamza; Nadeem Umema",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "gallbladder cancer",
+      "metabolomics",
+      "metaproteomics",
+      "microbiome",
+      "multi‐omics"
+    ],
+    "summary_zh": "对胆道多组学景观在胆囊癌发生中整合微生物组和代谢组学的方法学考虑。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "胆囊癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  },
+  {
+    "pmid": "42508765",
+    "title": "Oxygen exposure and diffusion are key formulation barriers in the microencapsulation of extremely oxygen-sensitive next-generation probiotics.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-07-27",
+    "authors": "Zhong Yijia; Harvey Harry J; Corrigan Sarah; Ta Phuong Linh; Shen Kele et al.",
+    "abstract": "Extremely oxygen-sensitive (EOS) next-generation probiotics are increasingly recognised as promising microbial biotherapeutics; however, their strict intolerance to oxygen poses major challenges for formulation and long-term stability as oral therapies. Many established bioencapsulation approaches, including prilling-based microencapsulation, were developed for the controlled delivery of aerotolerant probiotic strains, and such methods may be unsuitable for these next-generation EOS organisms. This study systematically evaluated whether prilling-based hydrogel bioencapsulation, a platform conventionally developed and optimised for aerotolerant probiotic strains, is suitable for the formulation of EOS probiotics. Using Anaerobutyricum hallii as an EOS organism and Lactobacillus johnsonii as an aerotolerant comparator, we show that oxygen exposure during all stages of microencapsulation, in addition to post-encapsulation storage, compromises EOS survival, while aerotolerant strains remained unaffected. When this conventional prilling workflow was modified to maintain oxygen-free conditions, EOS viability was preserved through the early processing stages; however, recovery remained low following complete MC formation, even under oxygen-free conditions (2.8-11.6%). Post-encapsulation storage revealed rapid EOS viability loss under oxygen-replete conditions and progressive decline even under anaerobic storage. Direct physical measurements of oxygen transport within MCs demonstrated that calcium cross-linking slowed, but did not prevent, oxygen diffusion, with oxygen ingress occurring in a particle-size-dependent manner. These findings establish oxygen exposure as a critical design constraint in the formulation of EOS probiotics and demonstrate that prilling-based bioencapsulation workflows developed for conventional probiotic delivery are not directly transferable to these organisms. Future EOS microbiome therapeutics will require oxygen-controlled manufacturing workflows and biomaterial systems specifically engineered to preserve viability from processing through gastrointestinal delivery.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Anaerobutyricum hallii",
+      "Bioencapsulation",
+      "Extremely oxygen-sensitive probiotics",
+      "Hydrogel microcomposites",
+      "Lactobacillus johnsonii",
+      "Prilling",
+      "Probiotic viability"
+    ],
+    "summary_zh": "评估prilling微胶囊化对极度厌氧益生菌的适用性，发现氧气暴露和扩散是关键障碍，需氧控制造工艺。",
+    "innovation": "系统性评估常规prilling方法对极度厌氧益生菌的不适用性 | 直接测量微胶囊内氧气传输 | 证明氧气暴露是极度厌氧益生菌制剂的关键设计约束",
+    "limitation": "未描述",
+    "study_object": "微胶囊 + prilling水凝胶包封",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-27"
+  }
+]

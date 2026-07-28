@@ -1,8 +1,8 @@
 {
-  "total": 4538,
+  "total": 4545,
   "by_type": {
-    "研究论文": 3587,
-    "综述": 446,
+    "研究论文": 3591,
+    "综述": 449,
     "Benchmark": 150,
     "临床试验": 135,
     "其他": 92,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 60
   },
   "by_year": {
-    "2026": 538,
+    "2026": 545,
     "2025": 809,
     "2024": 681,
     "2023": 558,
@@ -34,8 +34,8 @@
     "Nature microbiology": 102,
     "Nutrients": 94,
     "Genome biology": 89,
+    "Proceedings of the National Academy of Sciences of the United States of America": 81,
     "Briefings in bioinformatics": 81,
-    "Proceedings of the National Academy of Sciences of the United States of America": 80,
     "ISME communications": 74,
     "Journal of translational medicine": 65,
     "Cell host & microbe": 65,
@@ -47,7 +47,7 @@
   },
   "top_diseases": {
     "结直肠癌": 67,
-    "肥胖": 42,
+    "肥胖": 43,
     "COVID-19": 36,
     "溃疡性结肠炎": 34,
     "克罗恩病": 31,
