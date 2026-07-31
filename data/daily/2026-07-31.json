@@ -1,0 +1,219 @@
+[
+  {
+    "pmid": "42116498",
+    "title": "Timing matters in type 2 diabetes: Early high-Fiber nutrition enhances glycemic control and reshapes gut microbiota.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-07-31",
+    "authors": "Wang Limin; Liang Chenghong; Yu Jiawei; Zhang Yu; Li Hong et al.",
+    "abstract": "Early, intensive dietary intervention may open a therapeutic window for type 2 diabetes (T2D) remission. We conducted a randomized, 2:1 crossover trial in 34 newly diagnosed overweight or obese patients with T2D. Participants were assigned to receive either high-fiber nutritional therapy (HFNT)-a 7-day very-low-calorie, high-fiber diet followed by a 23-day standard diabetes diet-or conventional diabetes treatment (control condition). Each treatment was administered for 90 days before crossover. Compared with the control condition, early HFNT led to greater reductions in HbA1c [-9.45% (-18.04, -4.63) vs 1.44% (-7.73, 3.08); P = 0.010] and fasting plasma glucose [-12.70% (-24.51, -6.01) vs 3.46% (-8.14, 0.94); P = 0.005], while changes in BMI and HOMA-IR were not significant (P > 0.05). Gut microbiome profiling revealed enrichment of short-chain fatty acid-producing taxa (Eubacterium ruminantium group, Blautia, Roseburia, Akkermansia muciniphila, Oscillospira) and depletion of pathogenic genera (Escherichia-Shigella) after HFNT, with compositional shifts correlating with improved glycemic control. Notably, glycemic benefits in participants receiving HFNT first persisted after crossover, whereas participants receiving conventional care first did not achieve full metabolic recovery after switching. These findings suggest that in newly diagnosed T2D, early, fiber-enriched, intermittent energy restriction can induce durable glycemic improvements, potentially mediated by gut microbiota remodeling. This trial highlights a narrow but impactful nutritional intervention window that may alter the trajectory of T2D progression.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Diabetes Mellitus, Type 2",
+      "Dietary Fiber",
+      "Cross-Over Studies",
+      "Glycemic Control",
+      "Female",
+      "Middle Aged",
+      "Male",
+      "Blood Glucose",
+      "Gastrointestinal Microbiome",
+      "Time Factors",
+      "Obesity",
+      "Glycated Hemoglobin",
+      "Caloric Restriction",
+      "Overweight"
+    ],
+    "keywords": [
+      "Diet",
+      "Gut microbiota",
+      "High-fiber nutrition",
+      "Intermittent energy restriction",
+      "Type 2 diabetes"
+    ],
+    "summary_zh": "随机交叉试验显示，早期高纤维营养干预可改善新诊断2型糖尿病血糖控制，并重塑肠道菌群。",
+    "innovation": "揭示早期干预时间窗的重要性 | 高纤维饮食结合间歇性热量限制 | 发现肠道菌群重塑与血糖改善相关",
+    "limitation": "未描述",
+    "study_object": "新诊断超重/肥胖2型糖尿病患者的肠道菌群分析",
+    "disease": "2型糖尿病",
+    "sample_size": "34例",
+    "ai_done": true,
+    "fetch_date": "2026-07-31"
+  },
+  {
+    "pmid": "42116465",
+    "title": "Development and characterization of seriguela (Spondias purpurea) water kefir: metagenomic insights and functional potential of a spray-dried probiotic powder.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-07-31",
+    "authors": "Ozaki Giovanni Eiji do Nascimento; Maciel Emanuela Stefany de Oliveira; Souza Bruna Peregrino de; da Silva-Padilha Marluci Palazzolli; Santos Nádia Monalisa Mendes Oliveira et al.",
+    "abstract": "Water kefir is a fermented probiotic beverage suitable for those with lactose intolerance, dairy allergies, or vegan diets. Adding fruits during fermentation can modulate microbial dynamics, sensory attributes, and biochemical composition, thereby enhancing functional properties. In this context, Spondias purpurea (seriguela), a bioactive-rich fruit native to the Americas, represents a promising yet underexplored substrate for the development of functional beverages. Therefore, this study investigated the composition of seriguela and its application in water kefir production, followed by physicochemical and metagenomic characterization and the evaluation of spray-dried formulations. Seriguela fruits exhibited an acidic pH (3.63), the presence of coumarins, steroids, and tannins, and remarkable antioxidant activity. Seriguela-flavored kefir maintained microbial levels comparable to those of traditional kefir (7.1 and 6.8 log CFU/mL for bacteria and yeasts, respectively), promoting a predominance of Komagataeibacter saccharivorans, Acetobacter aceti, A. lovaniensis, Liquorilactobacillus mali, Clostridium pasteurianum, and yeasts from the Saccharomyces genus. This change in the microbiota of seriguela-flavored kefir indicates a more homogeneous fermentation with pronounced acetic characteristics and probiotic potential. Furthermore, the spray-dried kefir demonstrated good physical properties, remarkable resistance under simulated gastrointestinal conditions, and moderate stability during refrigerated storage throughout 30 days (75.7% and 82.9% of survival for bacteria and yeasts, respectively, enumerated on De Man, Rogosa & Sharpe agar and potato dextrose agar), highlighting its potential as a stable probiotic product. Overall, these results demonstrate the suitability of seriguela as a functional ingredient in water kefir and confirm spray-drying as a viable strategy for producing stable fermented powders with potential health-promoting properties.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Kefir",
+      "Probiotics",
+      "Anacardiaceae",
+      "Fermentation",
+      "Food Microbiology",
+      "Hydrogen-Ion Concentration",
+      "Antioxidants",
+      "Powders",
+      "Fruit",
+      "Food Handling",
+      "Metagenome"
+    ],
+    "keywords": [
+      "Bioactive compounds",
+      "Fermentation",
+      "Seriguela",
+      "Spondias purpurea",
+      "Water kefir"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-07-31"
+  },
+  {
+    "pmid": "42116511",
+    "title": "Analysis of microbiome succession and metabolome dynamics in Jiupei during Chinese strong-flavor Baijiu fermentation.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-07-31",
+    "authors": "Xu Haiyan; Kong Weiping; Tang Qinglan; Fan Kequan; Liu Menghua et al.",
+    "abstract": "Microbial successions during Jiupei fermentation are critical for the flavor synthesis of strong-flavor Baijiu, but their dynamics and associated metabolites across different vertical Jiupei layers have not yet been characterized in detail. This study employed metagenomic sequencing combined with metabolomic techniques to investigate the complex relationship between microbial succession and metabolite formation in Jiupei of strong-favor Baijiu fermentation. Results demonstrated that a total of 2940 compounds were identified and classified into 13 classes; of which over 94.7% of amino acids and derivatives, 57.5% of organic acids, and certain sugar alcohols increased during fermentation, whereas more than 81.8% of flavonoids decreased, particularly in the lower Jiupei layer. The volatile compounds, including ethyl caproate and ethyl lactate, showed a significant increase. Meanwhile, microbial diversity and richness dropped sharply from day 0 to day 30, with a recovery by day 60 in the middle and lower layers. The early stage of fermentation is characterized by the fungi Paecilomyces variotii, Lichtheimia ramosa, Rhizopus arrhizus, and Aspergillus chevalieri, as well as the bacteria Saccharopolyspora rectivirgula, Lactiplantibacillus plantarum, Leuconostoc citreum, and Weissella confusa, which secrete amylases and glycosylases to hydrolyze starch into sugars via enrichment of carbohydrate-related pathways, such as starch and sucrose metabolism, glycolysis/gluconeogenesis, and fructose and mannose metabolism. Acetilactobacillus jinshanensis, Lentilactobacillus diolivorans, and Philodulcilactobacillus myokoensis sharply increased in the later stage of fermentation, alongside enriched pathways for fatty acid and secondary metabolite biosynthesis. Acetilactobacillus jinshanensis ‌might synergistically accumulate characteristic flavor compounds through transferase and ligase reactions. These findings reveal the stage-specific microbial metabolic characteristics and synergistic mechanisms in flavor formation, providing a scientific basis for optimizing Baijiu fermentation processes to enhance Baijiu quality.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Fermentation",
+      "Microbiota",
+      "Volatile Organic Compounds",
+      "Food Microbiology",
+      "Metabolome",
+      "Wine",
+      "Taste",
+      "Bacteria",
+      "Metabolomics",
+      "Alcoholic Beverages",
+      "Amino Acids"
+    ],
+    "keywords": [
+      "Metabolic changes",
+      "Metabolomics",
+      "Metagenomics",
+      "Microbial succession",
+      "Strong-flavor Jiupei",
+      "Volatile substances"
+    ],
+    "summary_zh": "本研究用宏基因组测序和代谢组学分析浓香型白酒酒醅发酵中微生物演替与代谢物动态，揭示阶段特异性特征及风味形成协同机制。",
+    "innovation": "结合宏基因组与代谢组学解析酒醅不同垂直层微生物与代谢物关系 | 揭示早期真菌细菌分泌淀粉酶水解淀粉、后期乳杆菌富集脂肪酸及次级代谢途径 | 发现Acetilactobacillus jinshanensis通过转移酶和连接酶协同积累特征风味化合物",
+    "limitation": "未描述",
+    "study_object": "浓香型白酒发酵酒醅样本；宏基因组测序和代谢组学分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-31"
+  },
+  {
+    "pmid": "42116470",
+    "title": "Fructooligosaccharides alleviate early-life antibiotic-exposed food allergy via the Indole-3-propionic acid-AhR-Nrf2 Axis: A multi-omics prospective cohort study.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-07-31",
+    "authors": "Wang Lei; Zhu Ning; Cai Fangyuan; Lin Xixi; Lai Chuqiao et al.",
+    "abstract": "BACKGROUND: Gut microbiota is critical in food allergy (FA) development. While early-life antibiotics increase FA risk, the mechanism is unclear, and current treatments cannot correct underlying immune defects.\nOBJECTIVE: To investigate how early-life antibiotics exacerbate FA and whether fructo-oligosaccharides (FOS) can restore gut-immune balance.\nMETHODS: We linked early-life antibiotic use to gut dysbiosis and metabolites in a birth cohor, modeled mechanisms and FOS intervention in antibiotic-exposed FA mice, and validated FOS efficacy in a pediatric trial.\nRESULTS: Early-life antibiotics caused persistent gut dysbiosis (notably Lactobacillus depletion) and disrupted tryptophan metabolism, ultimately resulting in oxidative stress, barrier damage, and T-cell imbalance. FOS restored Lactobacillus and the tryptophan metabolite indole-3-propionic acid (IPA). IPA alleviates mitochondrial dysfunction and reactive oxygen species accumulation via activation of the aryl hydrocarbon receptor (AhR)-nuclear factor erythroid 2-related factor 2 (Nrf2)-heme oxygenase-1 (HO-1) antioxidant pathway, and enhances intestinal barrier integrity, ultimately rebalancing T-cell homeostasis and attenuating FA. In a pediatric trial, metagenomic sequencing revealed that FOS enriches both Lactobacillus johnsonii and Clostridium sporogenes, synergistically promoting IPA production-which correlates with reduced SCORAD scores and improved weight gain.\nCONCLUSIONS: Early-life antibiotics cause lasting disruptions in gut microbiota and metabolism that worsen FA. FOS mitigates FA by boosting microbiota-derived IPA to activate the protective AhR-Nrf2-HO-1 pathway, highlighting its therapeutic potential for FA, particularly in patients with prior antibiotic exposure.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "NF-E2-Related Factor 2",
+      "Animals",
+      "Oligosaccharides",
+      "Food Hypersensitivity",
+      "Anti-Bacterial Agents",
+      "Indoles",
+      "Humans",
+      "Dysbiosis",
+      "Receptors, Aryl Hydrocarbon",
+      "Gastrointestinal Microbiome",
+      "Mice",
+      "Prospective Studies",
+      "Oxidative Stress",
+      "Female"
+    ],
+    "keywords": [
+      "AhR-Nrf2-HO-1 pathway",
+      "Early-life antibiotic-exposed food allergy",
+      "FOS",
+      "Intestinal barrier",
+      "Multi-omics"
+    ],
+    "summary_zh": "研究早期抗生素暴露加重食物过敏的机制，发现低聚果糖通过IPA-AhR-Nrf2轴改善肠道屏障和免疫平衡，缓解过敏。",
+    "innovation": "揭示早期抗生素暴露通过肠道菌群及色氨酸代谢紊乱加重食物过敏的新机制 | 证明低聚果糖通过IPA-AhR-Nrf2-HO-1通路发挥治疗作用，并在儿科试验中验证",
+    "limitation": "未描述",
+    "study_object": "人类出生队列和儿科试验及抗生素暴露的食物过敏小鼠模型，采用多组学方法（含宏基因组测序）",
+    "disease": "食物过敏",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-07-31"
+  },
+  {
+    "pmid": "42398246",
+    "title": "Invasive giant African snails as potential reservoirs of antimicrobial resistance and bacterial pathogens in urban park.",
+    "doi": null,
+    "journal": "Journal of environmental management",
+    "issn": "1095-8630",
+    "pub_date": "2026-07-31",
+    "authors": "Zhang Yiyue; Tang Zhonghui; Shangguan Huayuan; Zhu Rui; Xie An et al.",
+    "abstract": "Urban parks serve millions of visitors annually, yet antimicrobial resistance (AMR) surveillance programs rarely consider invasive species as environmental reservoirs. Here, we investigated antibiotic resistance genes (ARGs) and potential zoonotic pathogens in invasive giant African snails (Lissachatina fulica) across 23 urban parks in Xiamen, China, with comparative analysis of dog feces and earthworm casts collected from the same parks. Metagenomic profiling revealed that snails harbored extensive ARG diversity (1222 subtypes) comparable to dogs (1,393) and substantially exceeding earthworms (492), with 936 ARG subtypes shared between invasive snails and dogs. Invasive snails also carried substantial relative abundances of potential zoonotic pathogens (mean 15.7% relative abundance), including clinically relevant taxa such as Escherichia, Pseudomonas, and Enterococcus. Phenotypic testing of representative isolates confirmed the presence of antibiotic-resistant bacteria in snail and dog fecal samples. The convergence of broad ARG diversity, substantial potential zoonotic pathogen burdens, and coprophagous behavior suggests that invasive snails may represent previously unmonitored environmental hosts associated with AMR in urban parks. Field observations of snails consuming dog feces, together with the greater resistome similarity between snails and dogs than between snails and earthworms, are consistent with exposure to animal feces as a potential source of ARGs. This study underscores the need to integrate invasive species into One Health AMR surveillance and urban environmental management strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Parks, Recreational",
+      "Snails",
+      "Dogs",
+      "Introduced Species",
+      "Drug Resistance, Microbial",
+      "China",
+      "Feces",
+      "Drug Resistance, Bacterial"
+    ],
+    "keywords": [
+      "Antimicrobial resistance",
+      "Environmental health management",
+      "Invasive snail",
+      "Potential zoonotic pathogen",
+      "Urban parks"
+    ],
+    "summary_zh": "研究入侵非洲大蜗牛在城市公园中作为抗生素耐药性储存库的潜力，采用宏基因组测序比较其与狗粪、蚯蚓粪的耐药基因和病原菌，发现蜗牛携带大量ARGs和潜在人畜共患病菌。",
+    "innovation": "首次提出将入侵物种纳入城市AMR监测 | 宏基因组测序结合表型验证耐药菌 | 比较蜗牛、狗粪和蚯蚓粪三种环境样本的耐药组",
+    "limitation": "未描述",
+    "study_object": "城市公园入侵非洲大蜗牛（Lissachatina fulica）及狗粪便、蚯蚓粪便，宏基因组测序",
+    "disease": "无",
+    "sample_size": "23个城市公园",
+    "ai_done": true,
+    "fetch_date": "2026-07-31"
+  }
+]
