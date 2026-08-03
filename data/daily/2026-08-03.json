@@ -1,0 +1,57 @@
+[
+  {
+    "pmid": "42370841",
+    "title": "Gut microbiome in surgical oncology: mechanisms, perioperative outcomes, and therapeutic opportunities.",
+    "doi": null,
+    "journal": "The British journal of surgery",
+    "issn": "1365-2168",
+    "pub_date": "2026-08-03",
+    "authors": "Dang Jerry; Lee Yung; Wills Mélissa V; Brown J Mark; Madsen Karen et al.",
+    "abstract": "BACKGROUND: The gut microbiome is a fundamental determinant of gastrointestinal physiology. It is essential in maintaining host homeostasis while also implicated in cancer pathogenesis and alteration in physiological response to surgical stress. The aim of this narrative review was to evaluate the microbiome's mechanistic role in surgical oncology, assessing it as a biomarker for risk stratification and an emerging therapeutic target.\nMETHODS: The current literature was synthesized to examine microbial impacts on tumorigenesis and perioperative surgical outcomes across the lower and upper gastrointestinal tracts (including the gut-lung axis), the hepatopancreatobiliary system, and extra-abdominal malignancies (breast cancer and melanoma).\nRESULTS: Dysbiotic microbial signatures, termed the oncobiome, actively drive tumour progression and immune evasion. Perioperative interventions induce acute microbial shifts linked to serious complications such as anastomotic leaks and pneumonia. Clinically, targeted modulation yields significant benefits, as demonstrated by perioperative synbiotics reducing infectious complications by up to 45% in colorectal surgery and 64% in major liver surgery. Furthermore, preoperative oral care reduces post-oesophagectomy pneumonia by up to 50%, while Helicobacter pylori eradication halves metachronous gastric cancer risk. However, a detrimental 'antibiotic paradox' exists in melanoma, where pretreatment antibiotic exposure severely impairs immune checkpoint inhibitor efficacy. Conversely, faecal microbiota transplantation can reverse this immunotherapy resistance, achieving up to 80% response rates in trials.\nCONCLUSION: The microbiome is a critical, modifiable determinant of both short-term surgical recovery and long-term oncological survival. Future surgical oncology practice will need to integrate precision surgical microbiome-mediated biotherapeutics to optimize outcomes in multidisciplinary cancer care.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述评估肠道微生物组在手术肿瘤学中的机制、围手术期结果和治疗机会，发现菌群失调促进肿瘤进展，调节菌群可改善预后。",
+    "innovation": "系统总结微生物组在手术肿瘤学中的机制与治疗靶点 | 指出围术期合生元可将结直肠手术感染并发症降低45%、肝脏手术降低64% | 发现粪菌移植可逆转黑色素瘤免疫治疗耐药，应答率可达80%",
+    "limitation": "未描述",
+    "study_object": "手术肿瘤患者的肠道微生物组（文献综述）",
+    "disease": "乳腺癌、黑色素瘤、胃癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-03"
+  },
+  {
+    "pmid": "42543381",
+    "title": "Cancer drug response and resistance: molecular mechanisms and combating strategies.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-08-03",
+    "authors": "Cheng Xiaoxia; Xu Miaochun; Wei Juncheng; Cao Canhui",
+    "abstract": "Despite remarkable advances in cancer drug treatment, including chemotherapy, targeted therapy, and immunotherapy, therapeutic resistance remains a formidable clinical barrier, limiting durable responses and long-term survival. Drug resistance can be broadly categorized as intrinsic, where tumors fail to respond to initial treatment, or acquired, which emerges during or after therapy due to adaptive or evolutionary processes. A comprehensive understanding of the multifactorial and dynamic nature of resistance is essential for improving treatment efficacy. In this review, we systematically examine the molecular and cellular determinants of drug response and resistance across 22 cancer types, highlighting key resistance mechanisms such as compensatory pathway activation, phenotypic plasticity, immune evasion, enhanced DNA damage repair, and the survival of drug-tolerant persister cells. These mechanisms are further contextualized across major therapeutic modalities, supported by clinical trials. We also present emerging strategies to overcome resistance, including rational drug combinations, novel agents, microbiome modulation, adaptive and intermittent therapies and advanced drug delivery systems, each illustrated with representative clinical studies. Moreover, we discuss cutting-edge tools that are revolutionizing resistance research, including single-cell and spatial multiomic profiling, patient-derived tumor organoid and xenograft (PDO/PDX) models, and artificial intelligence (AI)-powered predictive analytics. By integrating insights across molecular, cellular, and clinical dimensions, this review offers a strategic framework for understanding and tackling cancer drug resistance, with important translational implications for the future of precision oncology.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Drug Resistance, Neoplasm",
+      "Neoplasms",
+      "Animals",
+      "Antineoplastic Agents"
+    ],
+    "keywords": [],
+    "summary_zh": "该综述系统梳理22种癌症的药物耐药机制，提出联合用药、微生物调节等克服策略及前沿研究工具。",
+    "innovation": "系统梳理22种癌症的耐药机制 | 整合分子、细胞、临床维度提出战略框架 | 介绍单细胞、空间多组学、AI等前沿工具",
+    "limitation": "未描述",
+    "study_object": "22种癌症类型的药物反应与耐药机制（综述）",
+    "disease": "癌症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-03"
+  }
+]

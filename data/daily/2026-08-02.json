@@ -1,0 +1,96 @@
+[
+  {
+    "pmid": "42543003",
+    "title": "Effect of Abrocitinib on the Skin Microbiome in Patients With Moderate-to-Severe Atopic Dermatitis.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-08-02",
+    "authors": "Kim Madeline; Del Duca Ester; Correa Da Rosa Joel; Pulsinelli Juliana; Estrada Yeriel et al.",
+    "abstract": "BACKGROUND: Atopic dermatitis (AD) is characterized by microbial dysbiosis, notably an overabundance of Staphylococcus species. This study aimed to evaluate the effects of abrocitinib, a Janus kinase 1-selective inhibitor, on the skin microbiome and clinical outcomes in patients with moderate-to-severe AD.\nMETHODS: Patients enrolled in JADE MOA (NCT03915496) were randomly assigned to receive once-daily abrocitinib (100 or 200 mg) or placebo for 12 weeks. Skin swabs collected at baseline and Weeks 2, 4, and 12 underwent 16S rRNA gene amplicon sequencing to determine microbial composition. Disease severity was assessed at the same time points using established clinical metrics. Associations between microbial abundance and clinical metrics, as well as inflammatory and skin barrier markers, were investigated.\nRESULTS: Data from 43 patients were included. Alpha diversity increased significantly at Week 12 of treatment with abrocitinib 200 mg. Beta diversity analysis revealed clustering of the abrocitinib groups away from placebo as early as Week 2; divergence continued through Week 12. Staphylococcus and S. aureus relative abundance decreased in a dose-dependent manner from Week 2 through Week 12 of abrocitinib treatment. Changes in skin microbial composition corresponded with improvements in clinical metrics of disease severity as well as immune markers of AD.\nCONCLUSIONS: Abrocitinib treatment is associated with beneficial changes in the skin microbiome, notably a reduction in S. aureus and increased microbial diversity. These findings provide insight into the mechanism of action of abrocitinib and the interplay of immunomodulation and the skin microbiome in AD.\nTRIAL REGISTRATION: ClinicalTrials.gov identifier: NCT03915496.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Staphylococcus aureus",
+      "JAK",
+      "JAK 1",
+      "abrocitinib",
+      "atopic dermatitis",
+      "inflammation",
+      "microbiome"
+    ],
+    "summary_zh": "研究阿布昔替尼对中重度特应性皮炎患者皮肤微生物组的影响，发现其剂量依赖性降低葡萄球菌丰度、增加多样性，并伴随临床改善。",
+    "innovation": "发现阿布昔替尼治疗使皮肤微生物组向有益方向变化 | 剂量依赖性降低金黄色葡萄球菌丰度 | 微生物变化与临床及免疫指标改善相关",
+    "limitation": "未描述",
+    "study_object": "中重度特应性皮炎患者的皮肤微生物组（16S rRNA基因扩增测序）",
+    "disease": "特应性皮炎",
+    "sample_size": "43例",
+    "ai_done": true,
+    "fetch_date": "2026-08-02"
+  },
+  {
+    "pmid": "42544021",
+    "title": "Hepatotoxicity in the Era of Precision Medicine: Toxicological Mechanisms and Management of Immune and Cell Therapy-Induced Liver Injury.",
+    "doi": null,
+    "journal": "Medicinal research reviews",
+    "issn": "1098-1128",
+    "pub_date": "2026-08-02",
+    "authors": "Fan Yujian; Guo Xiaokai; Lyu Jiaying; Wang Xinyu; Xu Fanjie et al.",
+    "abstract": "Immune checkpoint inhibitors and adoptive cell therapies have revolutionized cancer treatment, yet their success is accompanied by immune-related hepatotoxicity that can range from asymptomatic enzyme elevation to life-threatening liver failure. Unlike conventional drug-induced liver injury, immune-mediated hepatotoxicity arises from complex, therapy-specific mechanisms that remain incompletely understood, creating critical knowledge gaps in risk prediction and prevention. This review incorporates current evidence on the clinical presentation, mechanistic pathways, and risk factors underlying hepatotoxicity across major immune and cell therapy platforms, with emphasis on translating mechanistic insights into actionable management strategies. We systematically examine hepatotoxicity patterns for immune checkpoint inhibitors, CAR-T cell therapies, bispecific T-cell engagers, and tumor-infiltrating lymphocyte therapy, integrating clinical trial data, real-world evidence, and mechanistic studies. Our analysis shows distinct injury mechanisms: T-cell-mediated hepatocyte destruction following checkpoint blockade, cytokine-driven bystander injury during cytokine release syndrome, and emerging on-target/off-tumor toxicity from engineered lymphocytes. Critical risk modifiers include pre-existing liver disease, concomitant hepatotoxic medications, gut microbiome dysbiosis from antibiotic exposure, and host pharmacogenomic variation. We propose three priority research directions: development of predictive biomarkers enabling pretreatment risk stratification, microbiome-directed interventions to preserve hepatic immune tolerance, and implementation of Safety-by-Design engineering strategies that integrate hepatotoxicity prevention into therapeutic design. This review provides a mechanistic framework for transitioning from reactive toxicity management to predictive, personalized prevention, essential for maximizing the therapeutic potential of immune and cell therapies while protecting patient safety in this rapidly expanding treatment landscape.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "CAR‐T cell therapy",
+      "drug‐induced liver injury",
+      "hepatotoxicity",
+      "immune checkpoint inhibitors",
+      "immune‐related adverse events"
+    ],
+    "summary_zh": "本综述整合机制和临床证据，阐明免疫及细胞治疗相关肝损伤机制，提出预测性个体化预防策略。",
+    "innovation": "系统整合临床数据、真实世界证据和机制研究，区分不同免疫治疗平台的肝损伤机制 | 提出预测性生物标志物、微生物组干预和Safety-by-Design三大研究方向",
+    "limitation": "未描述",
+    "study_object": "癌症患者中免疫检查点抑制剂和过继细胞治疗相关肝损伤的综述（机制与管理）",
+    "disease": "癌症、免疫相关肝损伤（肝毒性）、肝衰竭、肝病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-02"
+  },
+  {
+    "pmid": "42543494",
+    "title": "Bacterial communities on upper and lower leaf surfaces show distinct seasonal response patterns.",
+    "doi": null,
+    "journal": "The New phytologist",
+    "issn": "1469-8137",
+    "pub_date": "2026-08-02",
+    "authors": "Yin Xiangbo; Ramirez Lirey; Lampei Christian; Azarbad Hamed; Greif Dominik et al.",
+    "abstract": "Leaf surfaces represent one of the largest microbial habitats on Earth, which can be divided into upper and lower leaf surfaces. Upper and lower leaf surfaces offer contrasting microenvironments that vary through the seasons. This variation has rarely been quantified; however, in spite of it being highly relevant for leaf-microbiome contributions to terrestrial ecosystems, especially forests. To address this gap, we tracked bacterial communities on both surfaces of the same pooled leaves of Quercus robur in situ from spring to autumn, using genetically identical ramets to control host and genotypic variation. We combined 16S rRNA sequencing with analyses of leaf structural and physiological traits to link bacterial taxonomic, phylogenetic, and assembly characteristics. The two surfaces hosted distinct bacterial communities whose divergence intensified through the growing season. Upper-surface bacterial diversity remained relatively stable and was mainly associated with dynamic leaf traits, whereas lower-surface communities showed faster compositional and assembly-related shifts and were associated with both dynamic and stable leaf traits. These contrasting seasonal patterns reveal that within-leaf heterogeneity represents a fundamental axis of variation for bacterial seasonal dynamics, providing new insight into how microhabitat structure and host traits jointly shape phyllosphere functioning.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Quercus robur L.",
+      "adaxial–abaxial divergence",
+      "functional traits",
+      "phyllosphere microbiomes",
+      "plant–microbial interaction",
+      "seasonal dynamics"
+    ],
+    "summary_zh": "研究欧洲栎叶片上下表面细菌群落的季节性变化，发现两表面群落差异随生长季加剧，下表面变化更快。",
+    "innovation": "结合16S rRNA测序与叶片结构生理性状分析 | 揭示上下叶表面细菌群落季节性响应模式不同 | 强调叶内微生境异质性对群落动态的作用",
+    "limitation": "未描述",
+    "study_object": "欧洲栎叶片（上下表面）+ 16S rRNA测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-02"
+  }
+]
