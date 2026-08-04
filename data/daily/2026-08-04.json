@@ -1,0 +1,35 @@
+[
+  {
+    "pmid": "42548287",
+    "title": "Protecting the gut microbiome when treating bloodstream infections: the price of anaerobic coverage.",
+    "doi": null,
+    "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+    "issn": "1537-6591",
+    "pub_date": "2026-08-04",
+    "authors": "Kolodyazhna Aryna; Wiersinga Willem Joost",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Anaerobic",
+      "Anti-Bacterial Agents",
+      "Bacteremia",
+      "Bacteria",
+      "Bloodstream infections",
+      "Fatty Acids",
+      "Gastrointestinal Microbiome",
+      "Sepsis"
+    ],
+    "summary_zh": "标题探讨治疗血流感染时保留肠道微生物组的代价，但无摘要可供概括。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "血流感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-04"
+  }
+]
