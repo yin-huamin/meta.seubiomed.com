@@ -1,0 +1,103 @@
+[
+  {
+    "pmid": "40693591",
+    "title": "Dynamic balance of the lung microbiome in health and respiratory diseases.",
+    "doi": null,
+    "journal": "Chinese medical journal",
+    "issn": "2542-5641",
+    "pub_date": "2026-08-05",
+    "authors": "Wang Xin; Bi Lingfeng; Li Jiayi; Liu Dan; Li Weimin et al.",
+    "abstract": "Recent studies have challenged the once prevalent notion that the human lungs are sterile, instead unveiling a dynamic microbial environment that interacts intricately with both the host and external factors. This review describes the distinct microbial compositions between healthy individuals and those with respiratory diseases, as well as discussing the variations in microbial composition across different disease states. We explore the crucial role of the lung microbiome in maintaining respiratory health and describe its implications in various respiratory diseases. We discuss how these microbial differences correlate with the severity and progression of respiratory diseases, including chronic obstructive pulmonary disease, cystic fibrosis, lung cancer, asthma, coronavirus disease 2019, and tuberculosis. Furthermore, we analyze the pathogenic mechanisms of the lung microbiome, as well as the associations between changes in the lung microbiome and systemic effects, including the emerging concepts of the gut-lung axis and brain-lung axis, which highlight the interconnected influence of the microbiota on lung health. This review aims to provide a comprehensive understanding of the profound impact of microbial dynamics on respiratory health and disease, suggesting new avenues for targeted diagnostic and therapeutic strategies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Microbiota",
+      "Lung",
+      "Cystic Fibrosis",
+      "Pulmonary Disease, Chronic Obstructive",
+      "Asthma",
+      "Lung Diseases",
+      "Animals"
+    ],
+    "keywords": [
+      "Asthma",
+      "Chronic obstructive pulmonary disease",
+      "Cystic fibrosis",
+      "Health",
+      "Immune mechanism",
+      "Lung cancer",
+      "Lung disease",
+      "Respiratory diseases",
+      "Respiratory microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-05"
+  },
+  {
+    "pmid": "42552305",
+    "title": "Migration of immune cells in tumors and inflammation: molecular mechanisms and therapeutic targets.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-08-05",
+    "authors": "Lu Yufeng; Shao Di; Xiao Yi; Jiang Yi-Zhou; Shao Zhi-Ming",
+    "abstract": "Cancer and inflammatory diseases are critically influenced by dynamic interactions between pathological tissues and the host immune system. The precise migration of immune cells into the local microenvironments of tumors or inflammation is a fundamental prerequisite for them to exert their functions. Immune reservoirs, including tertiary lymphoid structures, secondary lymphoid structures, bone marrow and the intestinal tract, serve as critical mobilization hubs for diverse lymphoid and myeloid populations to infiltrate tumors or inflamed sites. The directional migration of immune cells is orchestrated through complex regulatory networks involving chemokine or cytokine-receptor pairs, adhesion molecule interactions, extracellular vesicle signaling, metabolic reprogramming and microbiota modulation. In both tumors and inflammation, immune cell trafficking shapes the local immune landscape, contributing to either immune protection or pathological progression. Contemporary therapeutic strategies targeting immune cell migration encompass the following axes: precision modulation of chemokine or cytokine networks, architectural reprogramming of lymphatic structures or extracellular matrix, dietary intervention and strategic manipulation of microbiome. Nevertheless, clinical translation remains hindered by microenvironmental heterogeneity, suboptimal migratory efficiency, and technical limitations in longitudinal tracking of cellular dynamics. This review integrates recent findings from oncology and inflammatory diseases to explore the origins, phenotypes and trafficking mechanisms of migratory immune cells, highlighting how advances in understanding immune migration across cancer and inflammation can inform therapeutic innovation and precision immunomodulation.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Neoplasms",
+      "Inflammation",
+      "Tumor Microenvironment",
+      "Cell Movement",
+      "Animals",
+      "Chemokines"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-05"
+  },
+  {
+    "pmid": "42551913",
+    "title": "Enriching Microbial Cell-Free DNA in Clinical Metagenomics Using Epigenetic Filters.",
+    "doi": null,
+    "journal": "Clinical chemistry",
+    "issn": "1530-8561",
+    "pub_date": "2026-08-05",
+    "authors": "Liao Tiepeng; Ding Spencer C; Yu Jingru; Gu Wei",
+    "abstract": "INTRODUCTION: Noninvasive cell-free DNA (cfDNA) metagenomic sequencing enables hypothesis-free detection of microbial pathogens in patients with suspected infections. However, its clinical sensitivity is often limited by the overwhelming background of host-derived cfDNA, which can obscure low-abundance microbial signals. We developed an epigenetically guided enrichment strategy, termed Epigenetically filtered Metagenomic Sequencing (EpiMeta-seq), to selectively enrich microbial cfDNA based on fundamental differences in DNA methylation between microbial and human genomes.\nMETHODS: EpiMeta-seq uses the methylation-sensitive restriction enzyme HpaII to selectively digest unmethylated CCGG sites, which are prevalent in microbial genomes but largely methylated in human DNA. Only fragments cleaved once at unmethylated sites are incorporated into sequencing libraries, thereby enriching microbial cfDNA prior to sequencing. We assessed plasma samples from patients with microbiologically confirmed infections. Metagenomics informatics involved alignment, removal of host DNA, and taxonomic classification of sequencing reads to a curated reference database.\nRESULTS: In spike-in experiments at a 1:1000 dilution, EpiMeta-seq achieved a mean enrichment of 24.5-fold for fungal species and 11.4-fold for bacterial species compared with unenriched whole-genome sequencing. In 23 clinical plasma samples representing 12 pathogens, EpiMeta-seq produced an average 10.0-fold increase in microbial reads per million. Viral DNA showed the highest enrichment (mean 11.5-fold), while bacterial enrichment varied across species (1.2- to 30.8-fold).\nCONCLUSIONS: By leveraging genome-wide methylation differences between host and microbial DNA, EpiMeta-seq is a proof-of-concept, orthogonal enrichment strategy for improving microbial cfDNA signal-to-background ratio across diverse pathogen types in metagenomic sequencing.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "开发基于甲基化差异的EpiMeta-seq，利用HpaII酶富集微生物cfDNA，在临床样本中平均实现10倍富集。",
+    "innovation": "首创表观遗传引导的微生物cfDNA富集策略 | 利用甲基化敏感酶HpaII选择性消化宿主DNA | 跨真菌、细菌和病毒多种病原体类型显著提高信号",
+    "limitation": "未描述",
+    "study_object": "感染患者血浆样本，基于甲基化敏感酶的宏基因组测序技术",
+    "disease": "感染",
+    "sample_size": "23例临床血浆样本",
+    "ai_done": true,
+    "fetch_date": "2026-08-05"
+  }
+]
