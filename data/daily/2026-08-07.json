@@ -1,0 +1,44 @@
+[
+  {
+    "pmid": "42563687",
+    "title": "Multi‑omics insights into uveitis: From mechanisms to precision medicine (Review).",
+    "doi": null,
+    "journal": "International journal of molecular medicine",
+    "issn": "1791-244X",
+    "pub_date": "2026-08-07",
+    "authors": "Liu Chengzhi; Wu Qiong; Yuan Mingzhen; Liu Mingyue; Wang Xinyu et al.",
+    "abstract": "Uveitis encompasses a group of intraocular inflammatory disorders that notably contribute to global visual morbidity. Persistent challenges include early diagnosis, accurate subtype classification and individualized treatment. Recent advances in omics technologies, including genomics, epigenetics, transcriptomics, single‑cell omics, proteomics, metabolomics, lipidomics and microbiome profiling, have reshaped the current understanding of uveitis pathogenesis by uncovering disease‑associated genetic variants, dynamic transcriptional landscapes, inflammatory proteins, metabolic alterations, and microbe‑host interactions. Notably, single‑cell RNA sequencing offers unprecedented insights into retinal immune cell heterogeneity and functional states, while radiomics is emerging as a valuable platform for imaging biomarkers. The present review summarizes key findings from multi‑omics studies in uveitis, described the sample sources and analytical strategies employed, and highlighted the transformative potential of integrative omics in precision ophthalmology. Multi‑omics approaches hold promise for identifying novel biomarkers and therapeutic targets, refining disease classification, and enabling tailored interventions for patients with uveitis.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Multiomics",
+      "Uveitis",
+      "Precision Medicine",
+      "Biomarkers",
+      "Genomics",
+      "Metabolomics",
+      "Proteomics",
+      "Animals"
+    ],
+    "keywords": [
+      "biomarkers",
+      "intraocular inflammation",
+      "multi‑omics",
+      "single‑cell RNA sequencing",
+      "therapeutic targets",
+      "uveitis"
+    ],
+    "summary_zh": "综述多组学技术在葡萄膜炎研究中的应用，揭示发病机制并展望精准医学前景。",
+    "innovation": "整合多组学技术全面解析葡萄膜炎发病机制 | 单细胞RNA测序揭示视网膜免疫细胞异质性 | 影像组学作为新兴影像生物标志物平台",
+    "limitation": "未描述",
+    "study_object": "葡萄膜炎患者的多组学样本（基因组、转录组、单细胞、蛋白质组等）",
+    "disease": "葡萄膜炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-07"
+  }
+]
