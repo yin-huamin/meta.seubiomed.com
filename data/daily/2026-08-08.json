@@ -1,0 +1,209 @@
+[
+  {
+    "pmid": "42570316",
+    "title": "Associations of self-reported and actigraphic sleep with gut microbiome composition and diversity among older adults.",
+    "doi": null,
+    "journal": "Sleep",
+    "issn": "1550-9109",
+    "pub_date": "2026-08-08",
+    "authors": "Tilves Curtis; Holingue Calliope; Wanigatunga Sarah K; Chia Chee W; Zhao Ni et al.",
+    "abstract": "STUDY OBJECTIVES: Poor sleep is linked to adverse health outcomes. Animal studies suggest the gut microbiome may influence sleep, but human findings remain inconsistent. We examined associations of self-reported insomnia symptoms, daytime sleepiness, and actigraphy-measured sleep with gut microbiome diversity and composition in older adults.\nMETHODS: We studied 869 Baltimore Longitudinal Study of Aging participants with self-reported sleep and shotgun metagenomic sequencing; 332 also had actigraphy. We tested associations of sleep with alpha diversity, beta diversity, and species composition using regression, PERMANOVA, and ANCOM-BC2, adjusting for age, sex, BMI, physical activity, education, and depressive symptoms.\nRESULTS: Participants had mean age 70.7 years; 54.8% were female and 66.9% White. Trouble falling asleep ≥5 times/week was associated with higher Shannon diversity (β=0.41 SD; 95% CI: 0.09, 0.73) and Pielou's evenness, but not richness metrics. No actigraphy-measured sleep variables were associated with alpha or beta diversity. Beta diversity analyses suggested excessive sleepiness (1-2 o 3-4 times/week) was associated with different microbial composition, though variance explained was small. In species-level analyses, frequent insomnia symptoms or excessive sleepiness were associated with depleted or undetected Eubacterium sp. CAG:251. In exploratory actigraphy models, each doubling of sleep efficiency was associated with higher Eubacterium sp. CAG:251 prevalence (PR=2.15; 95% CI: 1.47, 3.14), while each 30-minute increase in wake after sleep onset was associated with lower prevalence (PR=0.49; 95% CI: 0.29, 0.81).\nCONCLUSIONS: Global diversity findings were limited and inconsistent, whereas subjective and objective sleep disturbances converged on Eubacterium sp. CAG:251. Findings are exploratory and require longitudinal replication.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "actigraphy",
+      "aging",
+      "insomnia",
+      "microbiome",
+      "sleep"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42570745",
+    "title": "Detection, occurrence, development, diagnosis and treatment of vaginal microbiome in gynecological cancers.",
+    "doi": null,
+    "journal": "Critical reviews in oncology/hematology",
+    "issn": "1879-0461",
+    "pub_date": "2026-08-08",
+    "authors": "Xia Han; Xie Jing; Wang Xin-Yun; Wang Yudong",
+    "abstract": "Gynecological cancers, including cervical, endometrial, and ovarian cancers, represent a growing global health burden with increasing incidence and mortality. The vaginal microbiome has emerged as a promising target for early cancer diagnosis and therapeutic intervention. Therefore, this review summarizes the composition and dynamics of the vaginal microbiome, emphasizing its association with the pathogenesis of gynecological cancers through chronic inflammation, immune modulation, and hormonal interactions. Advances in technologies such as 16S rRNA sequencing, metagenomics, and multi-omics have enabled the identification of potential microbial biomarkers. Probiotics, antibiotics, and vaginal microbiota transplantation are treatment technologies of gynecological cancers demonstrating considerable potential in restoring microbial balance and improving clinical outcomes. Furthermore, significant challenges persist in standardizing microbial biomarkers and translating research findings into precision therapies. Future studies should prioritize large-scale clinical validation and develop integrative strategies to harness the potential of the vaginal microbiome for cancer prevention and personalized treatment.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "gynecological cancers",
+      "microbe-cancer interactions",
+      "microbial biomarkers",
+      "vaginal microbiome"
+    ],
+    "summary_zh": "综述阴道微生物组在妇科肿瘤中的组成、动态、检测及治疗潜力，强调其通过炎症和免疫调节关联肿瘤发生。",
+    "innovation": "系统总结阴道微生物组与妇科肿瘤发病机制的多重关联 | 概述益生菌、抗生素及阴道菌群移植等治疗技术潜力",
+    "limitation": "微生物标志物标准化和临床转化仍面临重大挑战",
+    "study_object": "妇科肿瘤患者阴道微生物组，结合16S rRNA测序、宏基因组学及多组学技术",
+    "disease": "妇科肿瘤（宫颈癌、子宫内膜癌、卵巢癌）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42570864",
+    "title": "Genome-scale modeling of the influence of microbiota-derived butyrate on the regulation of human metabolism by the histone deacetylase SIRT1.",
+    "doi": null,
+    "journal": "The American journal of clinical nutrition",
+    "issn": "1938-3207",
+    "pub_date": "2026-08-08",
+    "authors": "Pi Jordi Roma; Alberto Jean-Marc; Paoli Justine; Baspinar Okan; Guéant-Rodriguez Rosa-Maria et al.",
+    "abstract": "BACKGROUND: Genome-scale metabolic models predict metabolic flux distributions but typically lack explicit transcriptional regulation, limiting their ability to simulate graded effects of epigenetic modulators such as Sirtuin1.\nOBJECTIVE: To develop and validate a continuous regulatory-metabolic framework integrating Sirtuin T1-dependent transcriptional control into human genome-scale metabolism and to quantify the metabolic impact of microbiome-derived butyrate in intestinal epithelial cells.\nMETHODS: A curated Sirtuin1-centered regulatory network comprising 8 transcriptional regulators, 487 metabolic genes, and 2,296 reactions (∼22% of Recon3D) was integrated into the Recon3D reconstruction to generate iSirtuin1_HumanMet. Continuous regulatory logic was implemented within steady-state regulatory flux balance analysis. Tissue-specific models were derived from genotype-tissue expression transcriptomic data using FASTCORE. Human Caco-2 intestinal epithelial cells were treated with 0-9 mM sodium butyrate for 72 h. Sirtuin1 protein expression was quantified by Western blot and modeled using an inverse exponential regression (R2 = 0.669). Predicted maximal intracellular production capacities were compared with independent metabolomics data using Spearman correlation.\nRESULTS: Simulated Sirtuin1 activation (0.0-1.0) modulated 2,296 reactions, with 34.2% of upregulated reactions belonging to fatty acid oxidation. Increasing Sirtuin1 promoted gluconeogenesis and lipid utilization while repressing glycolysis and nucleotide interconversion. Tissue-specific simulations across 54 tissues revealed distinct clustering of metabolic responses. Incorporation of experimentally derived butyrate-Sirtuin1 inhibition resulted in concordant monotonic trends between predicted and measured intracellular metabolites for 11 of 13 metabolites (85%), with Spearman ρ ranging from -0.64 to 0.94 (median ρ ≈ 0.74). Integration of microbiome-predicted butyrate fluxes showed strong host metabolic associations, including correlations up to ρ = -0.92 (p = 8.77 × 10-22).\nCONCLUSIONS: In Caco-2 intestinal epithelial cells and tissue-specific human metabolic models, continuous integration of Sirtuin1 regulation enables quantitative simulation of graded transcriptional control and microbiome-derived metabolic modulation, providing a systems-level framework to study diet-microbiome-host metabolic interactions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Genome-scale modeling",
+      "SIRT1",
+      "butyrate",
+      "metabolic regulation",
+      "microbiome"
+    ],
+    "summary_zh": "构建整合SIRT1调控的基因组规模代谢模型，结合丁酸盐实验，定量模拟微生物代谢物对肠道上皮细胞代谢的影响。",
+    "innovation": "构建连续调控-代谢框架iSirtuin1_HumanMet，整合SIRT1转录调控 | 将实验测量的丁酸盐-SIRT1抑制关系整合进模型 | 结合微生物组丁酸盐通量评估宿主代谢关联",
+    "limitation": "未描述",
+    "study_object": "人类肠道上皮细胞Caco-2，基因组规模代谢模型与转录组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42570966",
+    "title": "Author Correction: Comprehensive cross-cohort analysis reveals global gut microbiome signatures of celiac disease.",
+    "doi": null,
+    "journal": "Communications medicine",
+    "issn": "2730-664X",
+    "pub_date": "2026-08-08",
+    "authors": "Prendergast Peter J; Bishop Haig V; Herbold Craig W; Verdu Elena F; Dobson Renwick C J et al.",
+    "abstract": "",
+    "pub_types": [
+      "Published Erratum"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "通过跨队列分析，揭示乳糜泻的肠道微生物组特征。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "乳糜泻患者的肠道微生物组（跨队列分析）",
+    "disease": "乳糜泻",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42570689",
+    "title": "A least-input nitrogen fertilizer reduction strategy sustains peanut yield with lower nitrogen inputs.",
+    "doi": null,
+    "journal": "Journal of advanced research",
+    "issn": "2090-1224",
+    "pub_date": "2026-08-08",
+    "authors": "Jiao Yubing; Shen Ruixia; Xu Manlin; Liang Hui; Jiang Lianqiang et al.",
+    "abstract": "INTRODUCTION: Synthetic nitrogen (N) fertilizers underpin global food security but drive escalating environmental costs, including greenhouse gas (GHG) emissions and soil degradation. Conventional N-reduction strategies face a fundamental trade-off: lowering fertilizer inputs typically compromises crop productivity and farmer income. Nanotechnology offers a pathway to decouple yield from N dependency, yet scalable, low-cost solutions remain elusive.\nOBJECTIVES: This study aimed to develop a least-input foliar fertilization strategy using bio-derived nanocarbon (BNC) that enables a 30% reduction in synthetic N input in peanut (Arachis hypogaea L.) without sacrificing crop yield, nutritional quality, or economic returns, while elucidating the underlying physiological and microbiological mechanisms.\nMETHODS: Field trials were conducted with peanut (cv. Huayu 22) over two consecutive growing seasons (2024-2025) in Laixi, Shandong, China, under four treatments: N (conventional N, 100% urea), N-30 (reduced N, 70% urea), N + BNC (100% urea + foliar BNC), and N-30 + BNC (70% urea + 18 g ha-1 foliar BNC). Photosynthetic parameters, oxidative stress markers, and 15N isotope tracing were assessed. Transcriptomic, metabolomic, and 16S rRNA microbiome analyses characterized systemic signaling and rhizosphere responses. GHG emissions were modeled using the DNDC framework, and economic benefits were calculated based on yield and input costs.\nRESULTS: BNC application under N-30% maintained yield parity with the N control by sustaining photosynthetic electron transport and reducing reactive oxygen species (ROS). This enhanced carbon status upregulated the transcription factor HY5, activating nitrate transporter AhNRT1.2 and ammonium transporter AhAMT1.1 and increasing 15N uptake. Changes in root-exudate composition were accompanied by shifts in the rhizosphere bacterial community, including higher relative abundance of taxa associated with nitrification and nutrient turnover (Nitrospira and Gemmatimonas), and coincided with 21% and 14% higher root NO3--N and NH4+-N contents, respectively. Nitrogen use efficiency (NUE) improved by 16.0%, total GHG emissions decreased by 34.8%, and net profit increased by 27.0%.\nCONCLUSION: A micro-dosage of upcycled BNC (∼$0.02 ha-1) orchestrates HY5-mediated shoot-to-root signaling and rhizosphere microbiome restructuring to sustain crop productivity under reduced N inputs. This commercially viable, low-input framework offers a scalable route for climate-smart agriculture that reconciles food security with environmental sustainability.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Circular nano-agriculture",
+      "Nitrogen reduction",
+      "Nitrogen use efficiency",
+      "Photosynthetic carbon–nitrogen synergy"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42570323",
+    "title": "Natural transformation drives large-scale genome mosaicism in human gut bifidobacteria.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-08-08",
+    "authors": "Watanabe Yohei; Orihara Kento; Tsukuda Naoki; Hara Taeko; Matsuki Takahiro",
+    "abstract": "Although horizontal gene transfer drives bacterial diversification, its contribution to chromosome-scale variation in human gut commensals remains unclear. This study demonstrated that human-associated bifidobacteria undergo extensive chromosomal transfer through natural transformation. Comparative genomics of coexisting Bifidobacterium pseudocatenulatum isolates from a single individual revealed extensive recombination signatures between the lineages. We experimentally reproduced this recombination by co-culturing strains, resulting in the transfer of multiple chromosomal regions and generation of mosaic genomes. Individual recombination tracts reached up to 247 kb per site, with cumulative replacements accounting for up to 28.9% of the recipient chromosome. These transfers occurred with heat-killed donors or purified DNA and were abolished by DNase, thereby identifying natural transformation as the underlying mechanism. Furthermore, we observed that environmental factors strongly influenced transformation frequency, suggesting that gut environmental conditions play a role regulating this process. Using natural transformation, we established a simple markerless genome-editing method that enables efficient gene deletions. Deletions of the Tad pili, ComEA-ComEC, or DprA-ComM-YraN gene clusters abolished transformation, defining the core machinery. The conservation of these genes across the genus Bifidobacterium and experimental demonstration of natural transformation in Bifidobacterium longum and Bifidobacterium breve indicate that natural transformation capacity is widespread within the genus. Our findings establish natural transformation as a key mechanism that promotes genome plasticity and contributes to adaptive evolution in bifidobacteria, thereby expanding our current understanding of horizontal gene transfer in the human gut microbiota.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "adaptive evolution",
+      "antibiotic resistance",
+      "bifidobacteria",
+      "genetic engineering",
+      "genome mosaicism",
+      "horizontal gene transfer",
+      "human gut microbiome",
+      "markerless genome manipulation",
+      "natural transformation"
+    ],
+    "summary_zh": "本研究通过比较基因组学和共培养实验，证明自然转化驱动人肠道双歧杆菌大规模基因组嵌合，并开发了基因组编辑方法。",
+    "innovation": "首次证明人源双歧杆菌通过自然转化进行大范围染色体转移 | 揭示了自然转化的核心基因簇及其调控 | 开发了基于自然转化的无标记基因组编辑方法",
+    "limitation": "未描述",
+    "study_object": "人肠道双歧杆菌分离株 + 比较基因组学与转化实验",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  },
+  {
+    "pmid": "42569868",
+    "title": "A Universal Fenton-Like Strategy for Selective Generation of 1O2 in Mixed Industrial Wastewater Treatment and Green Chemical Synthesis.",
+    "doi": null,
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "issn": "1521-3773",
+    "pub_date": "2026-08-08",
+    "authors": "Zhao Zhiyong; Yue Shuai; Yang Mengxue; Zhang Jiachen; Li Fei et al.",
+    "abstract": "Sustained and selective generation of singlet oxygen (1O2) in Fenton-like catalytic systems is highly desirable for diverse applications, from freshwater resource management to green chemical synthesis. Despite advances in advanced oxidation processes, there remains a lack of generalizable methods that reliably modulate 1O2 selectivity. Here, we propose a descriptor-assisted coordination modulation strategy, in which machine-learning analysis identifies the d-band center as an important electronic descriptor associated with 1O2 selectivity. Through N-coordination modulation, the CoN5 catalyst exhibited near-complete 1O2 selectivity among the quantified reactive oxygen species (ROS) with a steady-state concentration of 394 µM, outperforming recent reports. As an internal-circulation pre-oxidation module, the CoN5/peroxymonosulfate (CoN5/PMS) system continuously raised wastewater biochemical oxygen demand/chemical oxygen demand (BOD/COD) to above 0.5 over 192 h, increased bioavailable dissolved organic matter (DOM), and showed high microbiome compatibility, evidenced by reduced Vibrio fischeri inhibition and microbial diversity ordination clustering near the background with greater shared-taxa overlap. This system also enabled selective thioanisole oxidation, achieving 90.6% conversion and 99.5% selectivity, with green synthesis potential demonstrated in a three-chamber continuous single-pass reactor. These results establish a generalizable coordination principle for steering ROS pathways and provide a deployable, low-ecological-risk route for both mixed wastewater treatment and green chemical synthesis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Fenton‐like catalysis",
+      "ML‐assisted descriptor analysis",
+      "green synthesis",
+      "mixed wastewater pre‐oxidation",
+      "singlet oxygen"
+    ],
+    "summary_zh": "提出机器学习辅助描述符识别d带中心的配位调控策略，CoN5催化剂实现近完全1O2选择性，用于混合工业废水处理及绿色化学合成。",
+    "innovation": "机器学习识别d带中心为1O2选择性描述符 | N配位调控实现CoN5近完全1O2选择性 | CoN5/PMS体系提升废水可生化性且微生物组兼容",
+    "limitation": "未描述",
+    "study_object": "混合工业废水处理系统，CoN5/过氧单硫酸盐催化体系，机器学习辅助配位调控技术",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-08"
+  }
+]
