@@ -1,0 +1,73 @@
+[
+  {
+    "pmid": "42364790",
+    "title": "Reprogramming chronic wounds: the emerging role of microbiome-targeted therapies in diabetic foot ulcers.",
+    "doi": null,
+    "journal": "International journal of pharmaceutics",
+    "issn": "1873-3476",
+    "pub_date": "2026-08-10",
+    "authors": "Kamal Raj; Chauhan Abhishek; Bhargava Shrey Kumar; Dhiman Sonia; Singh Thakur Gurjeet et al.",
+    "abstract": "Diabetic foot ulcers (DFUs) represent one of the most severe complications of diabetes mellitus, frequently leading to chronic infection, delayed wound healing, and lower-limb amputations. Despite advances in wound care, current therapeutic strategies largely rely on broad-spectrum antibiotics and mechanical interventions, which often fail to address the complex biological environment of non-healing wounds. Emerging evidence indicates that DFUs are strongly associated with alterations in the wound microbiome, including microbial dysbiosis, polymicrobial biofilm formation, and persistent inflammatory responses. These factors collectively contribute to impaired tissue regeneration and resistance to conventional therapies. Consequently, microbiome-targeted therapeutic strategies are gaining increasing attention as a promising approach for DFU management. Novel interventions such as bacteriophage therapy, probiotic and postbiotic-based wound dressings, and CRISPR-mediated genome editing provide precise tools for disrupting pathogenic biofilms, attenuating microbial virulence, and overcoming antimicrobial resistance while preserving beneficial microbial communities. In parallel, advances in rapid microbiome diagnostics, smart wound dressings, nanotechnology-based drug delivery systems, and data-driven personalized treatment platforms are enabling more adaptive and targeted wound management. By shifting the perspective from treating DFUs as simple infections to understanding them as complex microbial ecosystems, these emerging strategies offer new opportunities to enhance healing outcomes.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Diabetic Foot",
+      "Microbiota",
+      "Wound Healing",
+      "Biofilms",
+      "Animals",
+      "Probiotics",
+      "Anti-Bacterial Agents",
+      "Dysbiosis"
+    ],
+    "keywords": [
+      "Biofilms",
+      "Dysbiosis",
+      "Genome-editing",
+      "Nanotherapeutics",
+      "Postbiotics"
+    ],
+    "summary_zh": "本文综述糖尿病足溃疡中微生物组改变及靶向治疗（如噬菌体、益生菌、CRISPR）的新兴作用，强调从感染转向生态系统管理。",
+    "innovation": "提出从单纯感染转向微生物生态系统视角 | 介绍噬菌体、益生菌/后生元敷料、CRISPR基因编辑等新型抗生物膜策略 | 结合快速微生物组诊断和智能敷料实现个性化管理",
+    "limitation": "未描述",
+    "study_object": "糖尿病足溃疡患者伤口微生物组",
+    "disease": "糖尿病足溃疡",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-10"
+  },
+  {
+    "pmid": "42572807",
+    "title": "Letter: Beyond the Last Sachet-Unanswered Questions in a Probiotic Trial for Bile Acid Malabsorption.",
+    "doi": null,
+    "journal": "Alimentary pharmacology & therapeutics",
+    "issn": "1365-2036",
+    "pub_date": "2026-08-10",
+    "authors": "Zavos Christos",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "bile acid diarrhoea",
+      "bile acid malabsorption",
+      "metabolomic parameters",
+      "microbiome",
+      "multi‐strain probiotic"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-10"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "42571869",
+    "title": "Shotgun Metagenomic Analysis Reveals Taxonomic and Functional Transitions in the Salivary Microbiome During Periodontal Disease Progression.",
+    "doi": null,
+    "journal": "Journal of clinical periodontology",
+    "issn": "1600-051X",
+    "pub_date": "2026-08-09",
+    "authors": "Manzoor Muhammed; Leskelä Jaakko; Könönen Eija; Lahti Leo; Putaala Jukka et al.",
+    "abstract": "AIM: To characterise multi-kingdom salivary microbiome profiles across clinically defined periodontal states and identify stage-specific taxonomic and functional alterations using shotgun metagenomic sequencing.\nMATERIALS AND METHODS: In this cross-sectional study, 204 adults (mean age 40.3 ± 7.6 years) from the SECRETO study (NCT01934725) underwent clinical and radiographic oral examinations and were classified into six periodontal groups: periodontal health, localised gingivitis, generalised gingivitis, gingivitis with pockets, mild periodontitis (Stages I-II) and severe periodontitis (Stages III-IV). Saliva samples were analysed using shotgun metagenomic sequencing to evaluate microbial diversity, taxonomic composition and functional pathways.\nRESULTS: Beta diversity differed between periodontal health and the different disease states (Bray-Curtis: p = 0.049; Jaccard: p = 0.043). Gingivitis with pockets and severe periodontitis showed a significant enrichment of disease-associated species Porphyromonas gingivalis, Tannerella forsythia, Treponema denticola, Porphyromonas endodontalis, Fusobacterium nucleatum and Parvimonas micra. Among non-bacterial taxa, Candida, Moineauvirus, Pyricularia and Roseolovirus were the predominant genera. A composite metagenomic classifier showed high discriminative performance for gingivitis with pockets (AUC = 0.90; 95% CI: 0.770-1.000) and severe periodontitis (AUC = 0.865; 95% CI: 0.762-0.968).\nCONCLUSION: Salivary multi-kingdom microbiome transitions closely reflect the progression of periodontal disease and provide promising biomarkers for identifying at-risk individuals.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "gingivitis",
+      "microbial dysbiosis",
+      "multi‐kingdom interactions",
+      "oral biomarkers",
+      "oral microbiome",
+      "periodontitis",
+      "saliva metagenomics"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-09"
+  },
+  {
+    "pmid": "42571814",
+    "title": "Gut microbial DL-endopeptidase protects against alcohol-associated liver disease via hepatocyte NOD2 signaling.",
+    "doi": null,
+    "journal": "Free radical biology & medicine",
+    "issn": "1873-4596",
+    "pub_date": "2026-08-09",
+    "authors": "Ge Shuang; Sun Meiling; He Jiaqi; Pan Yu; Xu Yi et al.",
+    "abstract": "Chronic alcohol consumption disrupts gut-liver homeostasis not only by inducing direct hepatotoxic injury, but also by perturbing host-microbial defense mechanisms that normally protect the liver from metabolic and inflammatory stress. We show that hepatocyte-specific deletion of Nod2 exacerbates ethanol-induced steatosis, oxidative stress, and mitochondrial dysfunction, establishing NOD2 as a critical protective factor in alcohol-associated liver disease (ALD). Importantly, beyond its direct hepatotoxic effects, ethanol exposure simultaneously diminishes this protective NOD2 pathway by limiting microbiota-derived ligand availability. Guided by this functional deficit, clinical metagenomic analysis (n=1,516) revealed that alcohol consumption is associated with a selective depletion of gut microbial DL-endopeptidase, a rate-limiting enzyme for NOD2 ligand generation, which inversely correlated with liver injury severity. Mice receiving fecal microbiota from donors with low DL-endopeptidase activity showed increased susceptibility to ALD. Importantly, supplementation with a NOD2 ligand or its clinical analogue, mifamurtide, restored mitochondrial homeostasis and alleviated liver injury. Together, these findings identify the gut microbial DL-endopeptidase-NOD2 axis as a key protective mechanism against ethanol-induced liver injury and a promising therapeutic target in alcohol-associated liver disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Alcoholic-associated liver diseases",
+      "DL-endopeptidase",
+      "NOD2",
+      "Peptidoglycan",
+      "mitochondria"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-09"
+  }
+]
