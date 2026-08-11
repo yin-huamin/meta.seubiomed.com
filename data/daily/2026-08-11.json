@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42576226",
+    "title": "Antibiotic exposure during weaning disrupts oral microbiota assembly in piglets.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-08-11",
+    "authors": "Zhu Cuipeng; Hu Ping; Yuan Peng; Yu Jiajun; Zhu Miaonan et al.",
+    "abstract": "BACKGROUND: The use of antibiotics in swine production during the stressful weaning period is widespread. While their impact on the gut microbiome is documented, their effect on the developing oral microbiota, a critical gateway to systemic health, remains poorly understood. This study investigated how chronic exposure to tylosin (TYL) or a chlortetracycline-sulfadiazine-penicillin combination (CSP) shapes oral microbiota assembly in piglets from 21 to 60 days of age.\nRESULTS: Healthy piglets exhibited a defined ecological succession, transitioning from an early, Pseudomonadota-dominated types of oral microbiota, or referred to as orotypes (driven by Moraxellaceae) at weaning to a stable, mature Bacillota-dominated state (driven by Lachnospiraceae) by 40 days of age. Antibiotic exposure disrupted this developmental program. CSP treatment locked the microbiota in an immature, Pseudomonadota-dominated state, while TYL promoted a dispersed and unstable Bacillota community. Dysbiosis was marked by enrichment of pathobionts (e.g., Moraxella, Bergeyella) and depletion of beneficial commensals like Veillonella and Phocaeicola, with the latter reduced in both the oral and gut microbiota. These structural shifts were linked to dysregulated microbial energy and lipid metabolism. Crucially, antibiotics compromised mucosal immunity, reducing salivary secretory IgA (SIgA), and provoked inflammation, evidenced by elevated salivary extracellular ATP (eATP), histological damage and transcriptome alteration in oral tissue, and changed serum metabolites.\nCONCLUSIONS: Our findings demonstrate that early-life antibiotic exposure disrupts the developmental programming of the oral ecosystem. The oral microbiota serves as a sensitive indicator of antibiotic impact and a key mediator of systemic health, highlighting the need for strategies that safeguard microbial succession to promote sustainable swine health.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotic exposure",
+      "IgA",
+      "Inflammation",
+      "Oral microbiota",
+      "Orotype",
+      "Weaning piglets"
+    ],
+    "summary_zh": "研究断奶期抗生素暴露对猪仔口腔菌群组装的影响，发现其破坏菌群正常演替并损害黏膜免疫。",
+    "innovation": "首次探究断奶期抗生素对口腔菌群动态组装的影响 | 揭示口腔菌群作为抗生素影响的敏感指标和系统健康介质 | 结合多组学分析口腔组织转录组及血清代谢变化",
+    "limitation": "未描述",
+    "study_object": "猪仔口腔微生物群（口腔组织、唾液、血清）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-11"
+  }
+]
