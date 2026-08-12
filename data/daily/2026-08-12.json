@@ -1,0 +1,44 @@
+[
+  {
+    "pmid": "42581224",
+    "title": "Microbiome-Inflammation-Mitochondria Coupling in Neurodegeneration and Depression: An Integrative Opinion.",
+    "doi": null,
+    "journal": "Molecular neurobiology",
+    "issn": "1559-1182",
+    "pub_date": "2026-08-12",
+    "authors": "Stefano George B; Esch Tobias",
+    "abstract": "There is increasing evidence that gut microbiome dysbiosis, systemic inflammation, and mitochondrial dysfunction interact in ways that influence psychiatric and neurodegenerative disease vulnerability. Recent findings indicate that microbial signaling, inflammatory activation, and mitochondrial stress responses form dynamic bidirectional networks that may influence neurotransmission, neuroplasticity, metabolism, and behavior. This integrative opinion article distinguishes major depressive disorder (MDD), Parkinson's disease (PD), and Alzheimer's disease (AD) as mechanistically distinct disorders while proposing that they may share overlapping upstream modulatory pathways involving inflammation, microbial dysregulation, and mitochondrial dysfunction. Importantly, the microbiome-inflammation-mitochondria axis is presented as a disease-modifying and vulnerability-associated framework rather than a singular unifying etiology. Current limitations including reverse causation, microbiome heterogeneity, and differences in treatment responsiveness are also discussed.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Mitochondria",
+      "Animals",
+      "Inflammation",
+      "Depression",
+      "Neurodegenerative Diseases",
+      "Microbiota",
+      "Gastrointestinal Microbiome",
+      "Nerve Degeneration"
+    ],
+    "keywords": [
+      "Alzheimer’s disease",
+      "Major depressive disorder",
+      "Microbiome",
+      "Microbiota–gut–brain axis",
+      "Mitochondria",
+      "Parkinson’s disease"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-12"
+  }
+]
