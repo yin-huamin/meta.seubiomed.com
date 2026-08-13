@@ -1,87 +1,80 @@
-2026-08-12 13:25:06 [INFO] ▶ 开始每日更新...
-2026-08-12 13:25:06 [INFO] ===== 开始每日更新 2026-08-12 =====
-2026-08-12 13:25:06 [WARNING] 检测到缺少数据: 2026-08-12
-2026-08-12 13:25:06 [INFO] 需要补全数据: ['2026-08-12']
-2026-08-12 13:25:06 [INFO] 
+2026-08-13 13:26:40 [INFO] ▶ 开始每日更新...
+2026-08-13 13:26:40 [INFO] ===== 开始每日更新 2026-08-13 =====
+2026-08-13 13:26:40 [WARNING] 检测到缺少数据: 2026-08-13
+2026-08-13 13:26:40 [INFO] 需要补全数据: ['2026-08-13']
+2026-08-13 13:26:40 [INFO] 
 ==================================================
-2026-08-12 13:25:06 [INFO] 开始抓取 2026-08-12 的论文
-2026-08-12 13:25:06 [INFO] ==================================================
-2026-08-12 13:25:06 [INFO] Step 1: 抓取 PubMed 新论文
-2026-08-12 13:25:06 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-08-12 13:25:06 [INFO] 已有 595 篇文献记录，不再重复检索
-2026-08-12 13:25:06 [INFO] 正在搜索 2026/08/12 的新论文...
-2026-08-12 13:25:06 [INFO] 搜索到 3 篇 PMID
-2026-08-12 13:25:06 [INFO]   其中新增 3 篇（过滤已有 0 篇）
-2026-08-12 13:25:07 [INFO]   内容过滤: 排除 0 篇，保留 3 篇
-2026-08-12 13:25:07 [INFO]   期刊过滤: 排除 2 篇，保留 1 篇
-2026-08-12 13:25:07 [INFO] 
-2026-08-12 13:25:07 [INFO] ================================================================================
-2026-08-12 13:25:07 [INFO]   📋 本次搜索论文汇总（共 3 篇）
-2026-08-12 13:25:07 [INFO] ================================================================================
-2026-08-12 13:25:07 [INFO]   ✅ 已收录 (1 篇):
-2026-08-12 13:25:07 [INFO]     [1] PMID 42581224 | Molecular neurobiology
-2026-08-12 13:25:07 [INFO]         Microbiome-Inflammation-Mitochondria Coupling in Neurodegeneration and Depression: An Integrative Opinion.
-2026-08-12 13:25:07 [INFO]   📵 期刊过滤排除 (2 篇):
-2026-08-12 13:25:07 [INFO]     [1] PMID 42581286 | Clinical oral investigations
-2026-08-12 13:25:07 [INFO]         Associations between the oral microbiome, age, and cumulative dental caries experience: a cross-sectional study.
-2026-08-12 13:25:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Clinical oral investigations
-2026-08-12 13:25:07 [INFO]     [2] PMID 42557068 | Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases
-2026-08-12 13:25:07 [INFO]         [Chinese expert consensus on the diagnosis and treatment of pneumoconiosis complicated with tuberculosis].
-2026-08-12 13:25:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Zhonghua jie he he hu xi za zhi = Zhonghua jiehe he huxi zazhi = Chinese journal of tuberculosis and respiratory diseases
-2026-08-12 13:25:07 [INFO] ================================================================================
-2026-08-12 13:25:07 [INFO] 
-2026-08-12 13:25:08 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-08-12.json
-2026-08-12 13:25:08 [INFO] Step 2: AI 摘要生成
-2026-08-12 13:25:08 [INFO] 共需处理 1 个文件
-2026-08-12 13:25:08 [INFO] 处理: 2026-08-12.json
-2026-08-12 13:25:08 [INFO]   [1/1] PMID 42581224 | Microbiome-Inflammation-Mitochondria Coupling in Neurodegene
-2026-08-12 13:25:17 [WARNING] LLM 返回 JSON 解析失败: Unterminated string starting at: line 2 column 17 (char 18)
-2026-08-12 13:25:19 [INFO]   ✓ 已更新 2026-08-12.json（1 篇）
-2026-08-12 13:25:19 [INFO] 
+2026-08-13 13:26:40 [INFO] 开始抓取 2026-08-13 的论文
+2026-08-13 13:26:40 [INFO] ==================================================
+2026-08-13 13:26:40 [INFO] Step 1: 抓取 PubMed 新论文
+2026-08-13 13:26:40 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-08-13 13:26:40 [INFO] 已有 596 篇文献记录，不再重复检索
+2026-08-13 13:26:40 [INFO] 正在搜索 2026/08/13 的新论文...
+2026-08-13 13:26:40 [INFO] 搜索到 2 篇 PMID
+2026-08-13 13:26:40 [INFO]   其中新增 2 篇（过滤已有 0 篇）
+2026-08-13 13:26:41 [INFO]   内容过滤: 排除 0 篇，保留 2 篇
+2026-08-13 13:26:41 [INFO]   期刊过滤: 排除 2 篇，保留 0 篇
+2026-08-13 13:26:41 [INFO] 
+2026-08-13 13:26:41 [INFO] ================================================================================
+2026-08-13 13:26:41 [INFO]   📋 本次搜索论文汇总（共 2 篇）
+2026-08-13 13:26:41 [INFO] ================================================================================
+2026-08-13 13:26:41 [INFO]   📵 期刊过滤排除 (2 篇):
+2026-08-13 13:26:41 [INFO]     [1] PMID 42586552 | The Journal of infectious diseases
+2026-08-13 13:26:41 [INFO]         Ozone Hydrotherapy Improves Seborrheic Dermatitis by Regulating Scalp Microbiome and Mitochondrial Lactate Shuttle in Keratinocytes.
+2026-08-13 13:26:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: The Journal of infectious diseases
+2026-08-13 13:26:41 [INFO]     [2] PMID 42590998 | Journal of cutaneous medicine and surgery
+2026-08-13 13:26:41 [INFO]         The Metabolic Revolution in Dermatology: Obesity, Insulin Resistance, and Ultra-Processed Diets as Drivers of Skin Inflammation.
+2026-08-13 13:26:41 [INFO]         原因: 期刊不在 journal_info.tsv 中: Journal of cutaneous medicine and surgery
+2026-08-13 13:26:41 [INFO] ================================================================================
+2026-08-13 13:26:41 [INFO] 
+2026-08-13 13:26:42 [INFO] 今日无新增论文
+2026-08-13 13:26:42 [INFO] Step 2: AI 摘要生成
+2026-08-13 13:26:42 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-08-13.json
+2026-08-13 13:26:42 [INFO] 
 Step 3: 整合数据
-2026-08-12 13:25:19 [INFO] 累积基础 4671 篇 + 新增 12 篇 = 共 4683 篇
-2026-08-12 13:25:19 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-08-12 13:25:19 [INFO] 分区过滤: 排除 12 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4671 篇
-2026-08-12 13:25:19 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4225 KB)
-2026-08-12 13:25:19 [INFO]   2015: 91 篇 -> 2015.json
-2026-08-12 13:25:19 [INFO]   2016: 94 篇 -> 2016.json
-2026-08-12 13:25:19 [INFO]   2017: 86 篇 -> 2017.json
-2026-08-12 13:25:19 [INFO]   2018: 106 篇 -> 2018.json
-2026-08-12 13:25:19 [INFO]   2019: 183 篇 -> 2019.json
-2026-08-12 13:25:19 [INFO]   2020: 373 篇 -> 2020.json
-2026-08-12 13:25:19 [INFO]   2021: 450 篇 -> 2021.json
-2026-08-12 13:25:19 [INFO]   2022: 569 篇 -> 2022.json
-2026-08-12 13:25:19 [INFO]   2023: 558 篇 -> 2023.json
-2026-08-12 13:25:19 [INFO]   2024: 681 篇 -> 2024.json
-2026-08-12 13:25:19 [INFO]   2025: 809 篇 -> 2025.json
-2026-08-12 13:25:19 [INFO]   2026: 671 篇 -> 2026.json
-2026-08-12 13:25:19 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-08-12 13:25:19 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-08-12 13:25:19 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-08-12 13:25:19 [INFO] 
+2026-08-13 13:26:42 [INFO] 累积基础 4672 篇 + 新增 11 篇 = 共 4683 篇
+2026-08-13 13:26:42 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-08-13 13:26:42 [INFO] 分区过滤: 排除 13 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4670 篇
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4224 KB)
+2026-08-13 13:26:42 [INFO]   2015: 91 篇 -> 2015.json
+2026-08-13 13:26:42 [INFO]   2016: 94 篇 -> 2016.json
+2026-08-13 13:26:42 [INFO]   2017: 86 篇 -> 2017.json
+2026-08-13 13:26:42 [INFO]   2018: 106 篇 -> 2018.json
+2026-08-13 13:26:42 [INFO]   2019: 183 篇 -> 2019.json
+2026-08-13 13:26:42 [INFO]   2020: 373 篇 -> 2020.json
+2026-08-13 13:26:42 [INFO]   2021: 450 篇 -> 2021.json
+2026-08-13 13:26:42 [INFO]   2022: 569 篇 -> 2022.json
+2026-08-13 13:26:42 [INFO]   2023: 558 篇 -> 2023.json
+2026-08-13 13:26:42 [INFO]   2024: 681 篇 -> 2024.json
+2026-08-13 13:26:42 [INFO]   2025: 809 篇 -> 2025.json
+2026-08-13 13:26:42 [INFO]   2026: 670 篇 -> 2026.json
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-08-13 13:26:42 [INFO] 
 ==================================================
-2026-08-12 13:25:19 [INFO] ===== 完成！共 4671 篇文献 =====
-2026-08-12 13:25:19 [INFO] 已补全 1 天的数据
-2026-08-12 13:25:19 [INFO] ==================================================
-2026-08-12 13:25:19 [INFO] ✓ 每日更新完成
-2026-08-12 13:25:19 [INFO] ▶ 开始整合数据...
-2026-08-12 13:25:19 [INFO] 累积基础 4671 篇 + 新增 12 篇 = 共 4683 篇
-2026-08-12 13:25:19 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-08-12 13:25:19 [INFO] 分区过滤: 排除 11 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4672 篇
-2026-08-12 13:25:19 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4226 KB)
-2026-08-12 13:25:19 [INFO]   2015: 91 篇 -> 2015.json
-2026-08-12 13:25:19 [INFO]   2016: 94 篇 -> 2016.json
-2026-08-12 13:25:19 [INFO]   2017: 86 篇 -> 2017.json
-2026-08-12 13:25:19 [INFO]   2018: 106 篇 -> 2018.json
-2026-08-12 13:25:19 [INFO]   2019: 183 篇 -> 2019.json
-2026-08-12 13:25:19 [INFO]   2020: 373 篇 -> 2020.json
-2026-08-12 13:25:19 [INFO]   2021: 450 篇 -> 2021.json
-2026-08-12 13:25:19 [INFO]   2022: 569 篇 -> 2022.json
-2026-08-12 13:25:20 [INFO]   2023: 558 篇 -> 2023.json
-2026-08-12 13:25:20 [INFO]   2024: 681 篇 -> 2024.json
-2026-08-12 13:25:20 [INFO]   2025: 809 篇 -> 2025.json
-2026-08-12 13:25:20 [INFO]   2026: 672 篇 -> 2026.json
-2026-08-12 13:25:20 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-08-12 13:25:20 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-08-12 13:25:20 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-08-12 13:25:20 [INFO] ✓ 整合完成！共 4672 篇文献
+2026-08-13 13:26:42 [INFO] ===== 完成！共 4670 篇文献 =====
+2026-08-13 13:26:42 [INFO] 已补全 1 天的数据
+2026-08-13 13:26:42 [INFO] ==================================================
+2026-08-13 13:26:42 [INFO] ✓ 每日更新完成
+2026-08-13 13:26:42 [INFO] ▶ 开始整合数据...
+2026-08-13 13:26:42 [INFO] 累积基础 4670 篇 + 新增 13 篇 = 共 4683 篇
+2026-08-13 13:26:42 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-08-13 13:26:42 [INFO] 分区过滤: 排除 11 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4672 篇
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4226 KB)
+2026-08-13 13:26:42 [INFO]   2015: 91 篇 -> 2015.json
+2026-08-13 13:26:42 [INFO]   2016: 94 篇 -> 2016.json
+2026-08-13 13:26:42 [INFO]   2017: 86 篇 -> 2017.json
+2026-08-13 13:26:42 [INFO]   2018: 106 篇 -> 2018.json
+2026-08-13 13:26:42 [INFO]   2019: 183 篇 -> 2019.json
+2026-08-13 13:26:42 [INFO]   2020: 373 篇 -> 2020.json
+2026-08-13 13:26:42 [INFO]   2021: 450 篇 -> 2021.json
+2026-08-13 13:26:42 [INFO]   2022: 569 篇 -> 2022.json
+2026-08-13 13:26:42 [INFO]   2023: 558 篇 -> 2023.json
+2026-08-13 13:26:42 [INFO]   2024: 681 篇 -> 2024.json
+2026-08-13 13:26:42 [INFO]   2025: 809 篇 -> 2025.json
+2026-08-13 13:26:42 [INFO]   2026: 672 篇 -> 2026.json
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-08-13 13:26:42 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-08-13 13:26:42 [INFO] ✓ 整合完成！共 4672 篇文献
