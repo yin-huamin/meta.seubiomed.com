@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "42301752",
+    "title": "Redefining Radiotherapy: The Gut as an Active Target in Immuno-oncology.",
+    "doi": null,
+    "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+    "issn": "1557-3265",
+    "pub_date": "2026-08-14",
+    "authors": "Deutsch Eric; Levy Antonin; Zitvogel Laurence",
+    "abstract": "Low-dose intestinal irradiation challenges the long-standing view of the gut as a radiation-sensitive organ to avoid. Clinical and mechanistic data suggest that targeted exposure of the small intestine within a 1- to 3-Gy window can remodel the microbiome and enhance systemic antitumor immunity. See related article by Huang et al., p. 3586.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Neoplasms",
+      "Gastrointestinal Microbiome",
+      "Immunotherapy",
+      "Intestine, Small"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-14"
+  },
+  {
+    "pmid": "42596834",
+    "title": "Polyphenol‑based interventions in breast cancer: Signaling pathways, molecular mechanisms and translational therapeutic strategies (Review).",
+    "doi": null,
+    "journal": "Oncology reports",
+    "issn": "1791-2431",
+    "pub_date": "2026-08-14",
+    "authors": "Zeng Jingjing; Hu Jinyan; Ma Zhiyuan; Zhu Suansuan; Lv Xiangling et al.",
+    "abstract": "Breast cancer (BC) comprises multiple molecular subtypes with distinct epidemiological, biological and therapeutic features. Although advances in diagnosis and systemic therapy have improved patient outcomes, therapeutic resistance, treatment‑related toxicity and disease recurrence remain major clinical challenges. Growing evidence suggests that plant‑derived polyphenols may influence BC progression through multiple biological mechanisms. These compounds can inhibit tumor‑cell proliferation, migration, angiogenesis, inflammation, epithelial‑mesenchymal transition and metastasis, while promoting apoptosis, autophagy, cell‑cycle arrest and tumor‑suppressive responses. Mechanistically, polyphenols may regulate several interconnected signaling pathways involved in BC development and progression, including PI3K/AKT/mTOR, p53, NF‑κB, STAT3, Wnt/β‑catenin and MAPK signaling. In addition to their direct effects on tumor cells, polyphenols may interact with the gut microbiome, which in turn influences polyphenol metabolism, estrogen homeostasis, immune regulation, inflammation and bioavailability. Probiotics, prebiotics and microbiota‑derived metabolites may further influence this polyphenol‑gut microbiome‑BC axis. Polyphenols have also been explored as adjuvant or supportive agents in combination with chemotherapy, endocrine therapy and radiotherapy, as well as in novel delivery systems designed to improve their bioavailability and therapeutic efficacy. However, most current evidence remains preclinical. Well‑designed clinical trials are therefore needed to define the optimal formulations, doses, safety profiles, pharmacokinetics and therapeutic relevance of polyphenol‑based interventions in BC.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "adjuvant therapy",
+      "breast cancer",
+      "drug delivery",
+      "gut microbiome",
+      "polyphenols",
+      "signaling pathways"
+    ],
+    "summary_zh": "综述多酚类化合物在乳腺癌中的信号通路和分子机制，探讨肠道菌群互作及转化治疗策略，指出临床证据不足。",
+    "innovation": "系统总结多酚调控多条信号通路 | 提出多酚-肠道菌群-乳腺癌轴 | 探讨联合治疗与新型递送系统",
+    "limitation": "现有证据多为临床前研究，需高质量临床试验验证。",
+    "study_object": "未描述",
+    "disease": "乳腺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-14"
+  }
+]
