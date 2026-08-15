@@ -1,0 +1,106 @@
+[
+  {
+    "pmid": "42225474",
+    "title": "Harnessing the gut microbiome for MASLD management: opportunities and challenges.",
+    "doi": null,
+    "journal": "Science bulletin",
+    "issn": "2095-9281",
+    "pub_date": "2026-08-15",
+    "authors": "Bao Wu; Li Gaopeng; Ding Yuan; Wang Yuhao",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "探讨利用肠道微生物组管理MASLD的机会与挑战。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "肠道微生物组",
+    "disease": "代谢功能障碍相关脂肪性肝病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-15"
+  },
+  {
+    "pmid": "42203014",
+    "title": "Air purification modulates PM-associated nasal microbiota and exhaled metabolome to enhance cardiopulmonary health in children: A randomized crossover trial.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-08-15",
+    "authors": "Wang Shengchun; Cheng Hong; Shao Jiyuan; Wang Yiwen; Feng Chang et al.",
+    "abstract": "Recent studies have identified the association between exposure to environmental particulate matter (PM) and upper respiratory tract microbiota or lower respiratory tract metabolites; however, direct evidence linking the respiratory microbiome to metabolomic responses remains limited. This study examines how short-term air purification influences PM-related health outcomes, nasal microbiota, and exhaled breath condensate (EBC) metabolites in children. In a randomized crossover trial involving 67 children living near a coking plant, the linear mixed-effects model analyses showed that PM exposure was associated with changes in vital capacity and heart rate. Moreover, PM exposure reduced the abundance of nasal Rothia, which was closely connected to changes in EBC metabolites, including hexylresorcinol and β-carotene. Network and mediation analyses revealed that the PM-Rothia-metabolite axis may exert a significant impact on cardiopulmonary function, among which β-carotene is likely to mediate the effect of PM on vital capacity. Our findings indicate that short-term air purification can reduce PM-associated cardiopulmonary risks in children by modulating Rothia-dependent metabolic pathways.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Metabolome",
+      "Particulate Matter",
+      "Air Pollutants",
+      "Cross-Over Studies",
+      "Microbiota",
+      "Child",
+      "Male",
+      "Female",
+      "Air Pollution"
+    ],
+    "keywords": [
+      "Air purification",
+      "Children",
+      "Exhaled breath condensate metabolomics",
+      "Nasal Rothia",
+      "PM"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-15"
+  },
+  {
+    "pmid": "42217765",
+    "title": "The first toxicological assessment of copper exposure in Cipangopaludina cathayensis: Integrative insights from gut microbiota and hepatopancreas responses.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-08-15",
+    "authors": "Li Linli; Wei Jinyou; Deng Yufan; Yu Jing; Wei Xiayun et al.",
+    "abstract": "Copper (Cu) is an essential trace element for biological organisms; however, excessive levels beyond biological tolerance can induce significant toxicity. Cipangopaludina cathayensis is a widely distributed freshwater gastropod in China and an important aquaculture species, yet information regarding its toxic responses to Cu exposure remains limited. In this study, the 96 h LC50 (median lethal concentration) of Cu for C. cathayensis was determined to be 0.150 mg/L, with a calculated safety concentration of 0.015 mg/L. Based on these values, 20% and 30% of the LC50 were selected as exposure concentrations for a 14-day experiment. Under Cu exposure, gut microbial α-diversity significantly increased, the Firmicutes/Bacteroidota ratio markedly decreased, potentially beneficial genera such as Bacteroides declined, whereas potentially pathogenic taxa including Aeromonas became enriched. Cu exposure induced infiltration of inflammatory cells and structural disruption of the intestinal mucosal layer, while the hepatopancreas exhibited vacuolation and tubular lumen dilation. The antioxidant defense system was severely impaired, as indicated by reduced SOD, CAT, and GSH levels and elevated MDA accumulation. Regarding metabolic responses, Cu exposure disrupted standard metabolism, with both oxygen consumption and ammonia excretion significantly reduced. Functional analyses of the gut microbiome and hepatopancreas metabolome revealed inhibited carbohydrate metabolism pathways. In contrast, lipid metabolism pathways were upregulated-although Cu exposure may disrupt normal lipid metabolic functions-possibly suggesting a compensatory strategy to meet energy demands under Cu stress. Additionally, the upregulation of protein (amino acid) metabolism-related pathways likely contributes to tissue repair processes.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Copper",
+      "Hepatopancreas",
+      "Water Pollutants, Chemical",
+      "Gastrointestinal Microbiome",
+      "Snails",
+      "Oxidative Stress"
+    ],
+    "keywords": [
+      "Cipangopaludina cathayensis",
+      "Heavy metal",
+      "Intestinal function",
+      "Metabolism",
+      "Oxidative stress"
+    ],
+    "summary_zh": "本研究首次评估铜对中华圆田螺的毒性，发现铜暴露改变肠道菌群、损伤肝胰腺和抗氧化系统，并干扰代谢通路。",
+    "innovation": "首次对中华圆田螺进行铜暴露的毒理学评估 | 整合肠道菌群与肝胰腺代谢组分析铜毒性机制",
+    "limitation": "未描述",
+    "study_object": "中华圆田螺（淡水螺） 肠道菌群与肝胰腺 微生物组测序及代谢组分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-15"
+  }
+]
