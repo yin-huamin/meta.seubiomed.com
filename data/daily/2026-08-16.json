@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "42604542",
+    "title": "Strawberry micropropagation simplifies endomicrobiome and highlights potential for in vitro biotization with beneficial rhizobacteria.",
+    "doi": null,
+    "journal": "Plant biology (Stuttgart, Germany)",
+    "issn": "1438-8677",
+    "pub_date": "2026-08-16",
+    "authors": "Sepúlveda A M G; da Conceição Jesus E; Molina Y C; Buttrós V H; Carvalho L Q et al.",
+    "abstract": "Strawberry micropropagation produces uniform, disease-free planting material. However, repeated in vitro subculturing can simplify the endophytic microbiome, reducing plant vigour and acclimatization success. This study investigated the impact of successive in vitro generations on the endomicrobiome of Fragaria × ananassa cv. San Andreas and determined if targeted biotization with beneficial rhizobacteria can enhance plant performance. Profiled endophytic bacterial and fungal communities were analysed in the mother plant and across three in vitro generations using amplicon sequencing of the 16S rRNA gene and ITS markers. Ten plant growth-promoting bacterial strains were tested in vitro. The most effective strains were combined into consortia, and their impact on growth, survival and phenolic and flavonoid accumulation was assessed under in vitro and ex vitro acclimatization conditions. Successive subcultures simplified the endophytic assemblage. The mother plant exhibited substantially higher bacterial alpha-diversity than in vitro generations, with richness and Shannon diversity declining significantly (P <0.001) across all subcultures. In vitro biotization with A. brasilense Ab-V5 and A. brasilense Ab-V6 increased total dry biomass from 190.63 mg in the control to 216.75 mg and 209.11 mg, respectively. Under ex vitro conditions, several inoculated treatments achieved 100% survival compared with 75% in the non-inoculated control. Prolonged in vitro maintenance reduces the complexity of the strawberry endomicrobiome by imposing a selective bottleneck. Targeted introduction of beneficial bacteria partially compensates by enhancing growth, survival and secondary metabolite accumulation, supporting microbiome-assisted strategies to improve tissue culture performance and ex vitro establishment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Azospirillum brasilense",
+      "Bacillus subtilis",
+      "endophytes",
+      "flavonoids",
+      "phenolics"
+    ],
+    "summary_zh": "研究草莓微繁殖连续继代对内生微生物组的影响，发现继代简化菌群，接种有益菌株可提升生长和存活。",
+    "innovation": "揭示微繁殖连续继代对内生微生物组的简化作用 | 发现特定固氮螺菌菌株可提高干生物量 | 提出微生物组辅助策略改善组织培养和驯化",
+    "limitation": "未描述",
+    "study_object": "草莓（Fragaria × ananassa cv. San Andreas）内生微生物组，通过16S rRNA和ITS扩增子测序分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-16"
+  },
+  {
+    "pmid": "42605004",
+    "title": "Cystic Fibrosis and Colorectal Cancer Risk: Reprogramming of the Intestinal Epithelial Niche and Cell-State Plasticity in the CFTR Modulator Era.",
+    "doi": null,
+    "journal": "Cell proliferation",
+    "issn": "1365-2184",
+    "pub_date": "2026-08-16",
+    "authors": "Umashankar Bala; Pankonien Ines; Amaral Margarida; Ooi Chee Y; Jardé Thierry et al.",
+    "abstract": "Cystic fibrosis (CF) has shifted from a fatal paediatric lung disease to a multi-organ, lifespan-spanning disorder in which gastrointestinal (GI) complications and malignancies are increasingly prominent. With improved survival into mid- and late adulthood, aided by newborn screening, optimised nutrition and the advent of highly effective CF transmembrane conductance regulator (CFTR) modulators, implementation of colonoscopic surveillance has highlighted a several-fold increase in early-onset colorectal cancer (CRC) and a broader spectrum of intestinal pathology. In parallel, work in mouse models, human tissue and patient-derived intestinal organoids now places the CFTR at the centre of a complex epithelial compartment that integrates ion and pH homeostasis, mucus biology, microbiota, redox balance and immune/stromal function. In this review, we advance the hypothesis that CF may be conceptualised as a niche-centric hereditary CRC predisposition syndrome, in which germline CFTR dysfunction chronically destabilises epithelial identity in addition to increasing mutational burden. We synthesise evidence that CFTR loss remodels stem cell regulation, promotes hypoxia and oxidative stress, perturbs microbial ecosystems, drives chronic immune activation and stromal remodelling, and induces epithelial-mesenchymal plasticity (EMP) and DNA-damage vulnerability, collectively creating a pre-neoplastic intestinal ecosystem. We situate this model within contemporary CRC frameworks that emphasise cell-state transitions, hybrid epithelial-mesenchymal (E/M) states and specialised stromal niches, and we distinguish it from oncofoetal reprogramming, an APC-driven programme that CF does not clearly recapitulate. We propose that CF may provide a naturally occurring human context in which chronic epithelial stress sustains EMP-like pressure, a concept that requires direct validation in human CF intestinal tissue. Finally, we consider how CFTR modulators, microbiome-directed therapies and redox-targeted interventions might re-programme the CF intestinal niche and outline experimental and clinical strategies needed to determine whether early, ecosystem-level correction can prevent GI cancers in this high-risk population.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "CFTR",
+      "CFTR modulator therapy",
+      "colorectal cancer",
+      "cystic fibrosis",
+      "epithelial–mesenchymal plasticity",
+      "intestinal stem cells"
+    ],
+    "summary_zh": "综述提出囊性纤维化可作为结直肠癌易感综合征，通过重塑肠上皮生态位和细胞可塑性增加癌症风险。",
+    "innovation": "将CF概念化为生态位中心的遗传性结直肠癌易感综合征 | 综合CFTR缺失导致上皮间质可塑性、缺氧、微生物紊乱等证据",
+    "limitation": "需在人类CF肠道组织中直接验证",
+    "study_object": "人类肠道组织、小鼠模型、患者来源肠道类器官",
+    "disease": "囊性纤维化、结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-16"
+  }
+]
