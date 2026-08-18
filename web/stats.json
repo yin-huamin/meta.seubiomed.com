@@ -1,16 +1,16 @@
 {
-  "total": 4682,
+  "total": 4696,
   "by_type": {
-    "研究论文": 3667,
-    "综述": 497,
-    "Benchmark": 151,
+    "研究论文": 3674,
+    "综述": 503,
+    "Benchmark": 152,
     "临床试验": 139,
     "其他": 98,
     "案例报告": 68,
     "系统综述/Meta分析": 62
   },
   "by_year": {
-    "2026": 682,
+    "2026": 696,
     "2025": 809,
     "2024": 681,
     "2023": 558,
@@ -26,7 +26,7 @@
   "top_journals": {
     "Microbiome": 326,
     "Nature communications": 272,
-    "Gut microbes": 232,
+    "Gut microbes": 233,
     "The ISME journal": 218,
     "Nucleic acids research": 119,
     "NPJ biofilms and microbiomes": 115,
@@ -34,7 +34,7 @@
     "Frontiers in immunology": 103,
     "Nutrients": 94,
     "Genome biology": 89,
-    "Proceedings of the National Academy of Sciences of the United States of America": 81,
+    "Proceedings of the National Academy of Sciences of the United States of America": 82,
     "Briefings in bioinformatics": 81,
     "ISME communications": 74,
     "Cell host & microbe": 66,

@@ -1,0 +1,72 @@
+[
+  {
+    "pmid": "42579494",
+    "title": "Microbiota-derived isovalerate ameliorates sex-specific gut barrier dysfunction in malnutrition.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-08-18",
+    "authors": "Lynch Lauren E; Soni Krishnakant G; Spinler Jennifer K; Ambati Chandra Shekar R; Putluri Nagireddy et al.",
+    "abstract": "Malnutrition increases intestinal permeability and the risk of sepsis, yet mechanisms underlying malnutrition-induced gut barrier dysfunction are poorly defined. Here, we aimed to determine how the gut microbiome and microbiota-derived metabolites influence intestinal barrier function in the malnourished host. We induced malnutrition in specific pathogen-free (SPF) and germ-free (GF) mice using a low-protein, low-fat diet. Colonic permeability was quantified in Ussing chambers and invasive bacteria were cultured from liver and spleen. Targeted metabolomics identified microbial metabolites depleted in malnutrition. Candidate metabolites were screened in human-derived colonoid monolayers and administered to malnourished mice to determine whether gut barrier dysfunction can be rescued. Malnutrition thinned the colonic mucus layer, increased gut barrier permeability, and facilitated bacterial translocation in male, but not female, SPF mice. Malnourished GF mice exhibited normal barrier function. In the malnourished intestine, a subset of microbial short-chain fatty acids, the branched-chain fatty acids (BCFAs), was depleted in SPF mice of both sexes. Treating human-derived colonoid monolayers with BCFAs, especially isovalerate, increased transepithelial electrical resistance and altered the expression of genes associated with epithelial junction complexes. In malnourished male SPF mice, either enemas with isovalerate or gavages with its branched-chain amino acid fermentation substrate, leucine, restored the localization of the integral membrane protein claudin-8 within the colonic crypt and reduced barrier permeability. Together, these findings identify BCFAs, including isovalerate, as microbiota-derived regulators of intestinal junction complexes and barrier integrity. We propose the branched-chain amino acid leucine as a microbiota-directed precision nutrition therapy that could target intestinal barrier dysfunction in malnutrition.",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Female",
+      "Intestinal Barrier Function",
+      "Mice",
+      "Malnutrition",
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Intestinal Mucosa",
+      "Pentanoic Acids",
+      "Permeability",
+      "Colon",
+      "Mice, Inbred C57BL",
+      "Bacterial Translocation"
+    ],
+    "keywords": [
+      "branched-chain fatty acids",
+      "gut microbiome",
+      "intestinal barrier",
+      "malnutrition",
+      "prebiotic"
+    ],
+    "summary_zh": "通过小鼠模型和类器官研究发现微生物代谢物异戊酸改善营养不良引起的性别特异性肠屏障功能障碍，提出亮氨酸精准营养疗法。",
+    "innovation": "揭示支链脂肪酸（BCFAs）特别是异戊酸调节肠道屏障功能 | 发现营养不良肠屏障损伤的性别特异性机制 | 提出基于亮氨酸的微生物导向精准营养治疗",
+    "limitation": "未描述",
+    "study_object": "SPF和GF小鼠结肠组织、人源结肠类器官，结合微生物组、靶向代谢组学及Ussing chamber技术",
+    "disease": "营养不良",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-18"
+  },
+  {
+    "pmid": "42608579",
+    "title": "Joint-RPCA: domain-aware multi-omics integration for systems microbiology.",
+    "doi": null,
+    "journal": "Molecular systems biology",
+    "issn": "1744-4292",
+    "pub_date": "2026-08-18",
+    "authors": "Cordazzo Vargas Bianca; Martino Cameron; Dilmore Amanda Hazel; Metcalf Jessica L; Burcham Zachary M et al.",
+    "abstract": "Integrating multi-omics data is essential for microbiome research, as microbial communities are shaped by and respond to interdependent processes, including taxonomic composition, metabolite production and utilization, and gene expression. However, accurately capturing ecosystem-wide patterns across these modalities is statistically challenging due to differences in scale, sparsity, and compositionality. While a growing number of multi-omics methods have emerged, they differ in their mathematical objectives and modeling assumptions, which in turn shape how biological patterns are represented and interpreted. This underscores the need for tools that explicitly account for the statistical properties of microbial ecosystems. Here, we present Joint Robust Principal Component Analysis (Joint-RPCA), a method designed with these statistical properties in mind and broadly applicable to multi-omics settings with similar challenges. Built on the OptSpace matrix completion framework, Joint-RPCA assumes an underlying shared low-rank structured component across modalities to identify shared variation and cross-modal associations from matched samples. Within this setting and under these statistical assumptions, Joint-RPCA showed stronger performance than the benchmarked general-purpose methods in phenotype separation and feature association tasks, achieving up to sixfold improvement in classification accuracy and over 100-fold faster runtimes. Applied to real-world datasets, including the Integrative Human Microbiome Project (iHMP), mammalian gut microbiomes, and decomposition studies, Joint-RPCA reveals replicable and interpretable multi-omic patterns, offering a scalable and domain-aware solution for systems-level microbiome analysis. Joint-RPCA is available in both Python ( https://github.com/biocore/gemelli ) and R ( https://bioconductor.org/packages/mia ).",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-18"
+  }
+]
