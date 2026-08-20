@@ -1,0 +1,45 @@
+[
+  {
+    "pmid": "42618835",
+    "title": "Early-Onset Colorectal Cancer: From Epidemiologic Shift to Life-Course Carcinogenesis and Age-Attuned Care.",
+    "doi": null,
+    "journal": "Current oncology reports",
+    "issn": "1534-6269",
+    "pub_date": "2026-08-20",
+    "authors": "Grześkiewicz-Szostak Magda; Gęca Katarzyna; Skórzewska Magdalena",
+    "abstract": "PURPOSE OF REVIEW: Early-onset colorectal cancer (EOCRC), conventionally defined as colorectal cancer diagnosed before the age of 50 years, has become one of the most important and unsettling epidemiologic shifts in gastrointestinal oncology. This review critically synthesizes recent evidence on EOCRC epidemiology, risk architecture, life-course carcinogenesis, molecular and microbiome-associated mechanisms, diagnostic delay, screening limitations, treatment considerations, and survivorship needs, with the aim of reframing EOCRC as an age-attuned clinical and biological challenge rather than a simple early presentation of conventional colorectal cancer.\nRECENT FINDINGS: Recent population-based analyses confirm that EOCRC incidence is increasing across multiple countries and birth cohorts, with a disproportionate contribution of distal colon and rectal cancers. These data suggest that the rise of EOCRC is unlikely to be explained by improved detection alone and instead points toward changing generational exposures. Contemporary studies have moved the field beyond hereditary predisposition as the dominant explanatory model: although germline syndromes remain essential to identify, most EOCRC is sporadic or incompletely explained by known inherited risk. Recent literature increasingly implicates metabolic dysfunction, obesity, westernized dietary patterns, early-life exposures, inflammation, antibiotic-associated microbial disruption, and host-microbiome disequilibrium. Particularly important are emerging genomic data linking colibactin-associated mutational signatures to younger-onset disease, supporting the hypothesis that microbial genotoxicity may imprint early driver events long before clinical diagnosis. In parallel, recent clinical studies show that EOCRC is frequently symptomatic, yet diagnosis is commonly delayed because alarm features such as rectal bleeding, abdominal pain, altered bowel habits, and anaemia are often underestimated in younger adults. EOCRC is best understood as a heterogeneous, life-course disease shaped by the convergence of inherited susceptibility, environmental and metabolic exposures, microbiome-mediated biology, tumour site, diagnostic-system factors, and survivorship context. Lowering the average-risk screening age to 45 years is necessary but insufficient, because many cases still occur below routine screening thresholds. A modern EOCRC strategy must therefore combine risk-adapted prevention, improved family-history capture, timely investigation of red-flag symptoms, systematic germline and tumour profiling, and treatment planning that accounts for decades of survivorship. Future progress will depend on moving beyond age alone toward integrated models that connect epidemiology, exposome biology, microbial mutagenesis, precision early detection, and age-specific care.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Colorectal Neoplasms",
+      "Age of Onset",
+      "Risk Factors",
+      "Carcinogenesis",
+      "Genetic Predisposition to Disease"
+    ],
+    "keywords": [
+      "Ccolorectal cancer screening",
+      "Colibactin",
+      "Diagnostic delay",
+      "Eearly-onset colorectal cancer",
+      "Hereditary predisposition",
+      "Life-course carcinogenesis",
+      "Microbiome",
+      "Precision prevention",
+      "Survivorship",
+      "Young-onset colorectal cancer"
+    ],
+    "summary_zh": "综述早发性结直肠癌的流行病学、多因素机制和年龄适应性诊疗，强调其作为生命历程疾病的独特生物学特征。",
+    "innovation": "将早发性结直肠癌重新定义为年龄适应性临床和生物学挑战而非传统癌症的早发表现 | 提示colibactin相关突变特征可能是早期驱动事件，支持微生物遗传毒性假说",
+    "limitation": "未描述",
+    "study_object": "早发性结直肠癌（宿主为50岁以下成人）的流行病学、分子和微生物组机制、临床诊疗综合评述",
+    "disease": "早发性结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-20"
+  }
+]
