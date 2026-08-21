@@ -1,0 +1,71 @@
+[
+  {
+    "pmid": "42625439",
+    "title": "High dietary B12 is associated with reduced gut microbial B12 biosynthesis capacity and lower fecal short-chain fatty acids in healthy United States adults.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-08-21",
+    "authors": "Hilliard Margaret A; Oliver Andrew; Wilson Stephanie M G; Shahab-Ferdows Setareh; Hampel Daniela et al.",
+    "abstract": "Vitamin B12 is acquired through the consumption of animal-source foods and supplements. In animal models, interventions with B12 and/or methionine influence fecal short-chain fatty acid (SCFA) concentration. Yet the relevance of dietary B12 to microbially produced SCFAs in humans is unknown. This study determined associations between dietary B12 and the gut microbiome in a deeply phenotyped cohort of healthy U.S. adults. Habitual diet and fecal shotgun metagenomes were integrated alongside measurements of fecal SCFAs, plasma SCFAs, and plasma B12 (n = 277). Vitamin B12 intake ranged from 2.4 to 1062 µg/day, and nearly all participants were B12 replete. Stratification of participants into adequate (2.4-8.51 µg/day) and high B12 intake (>8.51 µg/day) groups revealed the association of high intake with a reduction in bacteria capable of anaerobic B12 biosynthesis. High B12 intake was also associated with lower fecal SCFA concentrations even after controlling for fiber and methionine intake. Differences in microbial taxa between dietary groups were limited. However, machine learning models demonstrated the ability to predict fecal propionate and butyrate from microbial pathways in the adequate or no supplement groups, but not in the high intake or supplement groups. Our results indicate that dietary B12 greater than 8.51 µg/day may be associated with reduced microbial synthesis of B12 and lower fecal SCFA production.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Feces",
+      "Humans",
+      "Fatty Acids, Volatile",
+      "Vitamin B 12",
+      "Male",
+      "Adult",
+      "Gastrointestinal Microbiome",
+      "Female",
+      "United States",
+      "Bacteria",
+      "Middle Aged",
+      "Diet",
+      "Young Adult"
+    ],
+    "keywords": [
+      "Diet",
+      "SCFA",
+      "gut microbiota",
+      "machine learning",
+      "vitamin B12"
+    ],
+    "summary_zh": "研究健康美国成年人膳食B12与肠道微生物组及SCFA的关系，发现高B12摄入与微生物B12合成能力降低和粪便SCFA减少相关。",
+    "innovation": "首次在人类中探究膳食B12与微生物合成SCFA的关联 | 整合饮食、宏基因组和代谢物多组学数据 | 利用机器学习预测粪便丙酸和丁酸水平",
+    "limitation": "未描述",
+    "study_object": "健康美国成年人；粪便和血浆样本；粪便宏基因组测序及SCFA测量",
+    "disease": "无",
+    "sample_size": "n=277",
+    "ai_done": true,
+    "fetch_date": "2026-08-21"
+  },
+  {
+    "pmid": "42625107",
+    "title": "Non-invasive Assessment and Therapeutic Targeting in Metabolic Dysfunction-Associated Steatohepatitis (MASH): Overcoming the Dissonance Between Drug Development and Precision Medicine.",
+    "doi": null,
+    "journal": "Drugs",
+    "issn": "1179-1950",
+    "pub_date": "2026-08-21",
+    "authors": "Theocharidou Eleni; Arvanitakis Konstantinos; Koufakis Theocharis; Tsochatzis Emmanouil; Francque Sven et al.",
+    "abstract": "Despite two decades of therapeutic clinical trials in metabolic dysfunction-associated steatotic liver disease (MASLD), only two drugs have been approved so far for those with metabolic dysfunction-associated steatohepatitis (MASH) with fibrosis but not cirrhosis. Treatment responses are variable and difficult to predict, reflecting the complexity of disease pathophysiology as well as the current inability to capture disease heterogeneity, all precluding making informed individualized choices that potentially might improve treatment results. Liver biopsy for diagnosis and efficacy assessment is to date a prerequisite in late-stage trials, which limits large-scale trials and translation to routine clinical practice, and also fails to capture that heterogeneity. Several non-invasive tests (NITs) have been developed as a diagnostic surrogate to reflect disease severity, mostly addressing fibrosis, which is the strongest predictor of liver-related outcomes. This article highlights the dissonance between drug development for 'at-risk' MASH that targets both active disease and fibrosis relying on strict histological criteria, and current NITs that have been proposed for patient selection for pharmacotherapy and monitoring in clinical practice but largely reflect fibrosis. Although increasing evidence suggests their usefulness in diagnosis and follow-up, their ability to capture disease heterogeneity and select the right patients for the right treatments seems limited. Emerging NITs are derived from disease pathophysiological mechanisms and integrate lipidomic and proteomic analysis with existing biomarkers, as well as with other parameters such as the genetic background, the liver microenvironment, or the gut microbiome. Utilizing novel NITs therefore has the potential to identify appropriate candidates for therapy and also monitor responses, allowing in the future for true personalized medicine. Furthermore, understanding the complex pathophysiological mechanisms can potentially unravel not only novel diagnostics but also innovative therapeutic targets. This could lead to (personalized) choices of drugs and drug combinations that engage multiple pathways to improve efficacy, not only in terms of liver disease, but also in relation to the cardiometabolic risk profile. Moving towards precision medicine in MASLD, information provided non-invasively via circulating biomarkers (liquid liver biopsy) may hence guide risk stratification and therapeutic decisions in the near future.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "探讨MASH非侵入性评估与治疗靶向，指出传统NITs与药物开发脱节，新兴NITs有望实现个性化医疗。",
+    "innovation": "提出利用新兴NITs整合多组学与遗传、微生物等参数实现精准医疗 | 强调通过病理机制探索新诊断和治疗方法 | 倡导液体肝活检指导风险分层和治疗决策",
+    "limitation": "当前NITs捕获疾病异质性及选择合适患者的能力有限 | 肝活检限制大规模试验和临床转化",
+    "study_object": "MASH患者；循环生物标志物；非侵入性检测（脂质组学、蛋白质组学等）",
+    "disease": "代谢功能障碍相关脂肪性肝病（MASLD）及脂肪性肝炎（MASH）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-21"
+  }
+]
