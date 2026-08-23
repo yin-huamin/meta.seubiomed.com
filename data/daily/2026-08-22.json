@@ -1,0 +1,101 @@
+[
+  {
+    "pmid": "42632425",
+    "title": "Ergothioneine as an Emerging Food-Derived Bioactive Compound Protecting against Age-related Diseases: Issues Needing More Research.",
+    "doi": null,
+    "journal": "The American journal of clinical nutrition",
+    "issn": "1938-3207",
+    "pub_date": "2026-08-22",
+    "authors": "Halliwell Barry",
+    "abstract": "Ergothioneine (ET) is a chemically-stable, tasteless, odourless, highly water-soluble diet-derived compound that is avidly absorbed and retained by the human body using a selective transporter, organic cation transporter novel 1, OCTN1 (often called the ET transporter, ETT). A substantial and growing body of evidence supports a role for ET in maintaining human health and protecting against age-related diseases, especially neurodegenerative diseases, and multiple studies indicate that low blood/plasma/serum ET levels increase the risk of developing age-related diseases. Despite the growing interest in ET, much fundamental work remains to be done to investigate its metabolism, actions (if any) on the genome, lipidome, metabolome and proteome, intracellular and intercellular transport (especially in the brain), precise mechanisms of cytoprotection, interactions with the microbiome, mycobiome and human pathogens, and identifying the factors that control body ET levels. This narrative review explores these issues and suggests what research needs to be done to improve our understanding of ET biology.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Ergothioneine",
+      "M. tuberculosis",
+      "OCTN1",
+      "antioxidant",
+      "microbiome",
+      "mitochondria",
+      "mycobiome"
+    ],
+    "summary_zh": "本文综述麦角硫因作为食物来源化合物对年龄相关疾病的保护作用，并探讨其作用机制及未来研究需求。",
+    "innovation": "未描述",
+    "limitation": "目前对麦角硫因的代谢、作用机制、体内运转及与微生物组相互作用等尚不清楚，需更多研究",
+    "study_object": "未描述",
+    "disease": "年龄相关疾病（尤其是神经退行性疾病）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-22"
+  },
+  {
+    "pmid": "42632547",
+    "title": "Immunopharmacological reprogramming of innate immune memory in Alzheimer's disease: From microglial priming to therapeutic resilience.",
+    "doi": null,
+    "journal": "Biochemical pharmacology",
+    "issn": "1873-2968",
+    "pub_date": "2026-08-22",
+    "authors": "Abdelaziz Ahmed M; Eladawy Reem M",
+    "abstract": "Alzheimer's disease (AD) is increasingly recognized as a disorder driven by dysregulated innate immunity rather than merely amyloid‑β accumulation. Microglia, the brain's resident innate immune cells, acquire long‑term functional memory, a process known as trained immunity or innate immune memory, through epigenetic and metabolic reprogramming. In AD, chronic exposure to amyloid‑β and tau aggregates locks microglia into a maladaptive primed state characterized by altered histone modifications (H3K4me3, H3K27ac), sustained glycolysis via the HIF‑1α/mTOR axis, and impaired phagocytic function, perpetuating neuroinflammation and neurodegeneration. This review critically synthesizes recent advances that define the molecular architecture of microglial immune memory, including epigenetic rewiring, immunometabolic shifts, and intercellular crosstalk with astrocytes and the gut microbiome. We evaluate the emerging immunopharmacological toolbox designed to reverse maladaptive priming and restore neuroprotective resilience, focusing on small‑molecule NLRP3 inflammasome inhibitors (HT‑6184, DFV890, BGE‑102), TREM2 agonists (VG‑3927, MNA‑001), metabolic modulators (metformin, rapamycin), trained immunity‑based vaccination (BCG), specialized pro‑resolving mediators (maresin 1, resolvin D1, lipoxin A4), and senolytics. Clinical‑stage agents and their mechanisms of action are highlighted. We argue that the next generation of AD therapeutics must move beyond target suppression toward the functional reprogramming of brain innate immunity, and we propose a biomarker-guided, patient-stratified framework that integrates multimodal immunopharmacology, combining NLRP3 inhibition, TREM2 agonism, metabolic reprogramming, and resolution pharmacology to restore immune homeostasis. Harnessing the plasticity of innate immune memory offers a transformative paradigm for disease‑modifying therapy in AD.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Alzheimer’s disease",
+      "BCG vaccine",
+      "Epigeneticre programming",
+      "Immunometabolism",
+      "Microglial priming",
+      "NLRP3inflammasome",
+      "Resolution pharmacology",
+      "TREM2",
+      "Trained immunity"
+    ],
+    "summary_zh": "本文综述阿尔茨海默病中小胶质细胞先天免疫记忆的表观遗传与代谢机制，提出通过免疫药理学重编程逆转病理状态、恢复免疫稳态的治疗策略。",
+    "innovation": "提出AD治疗应从靶点抑制转向先天免疫功能重编程 | 构建整合NLRP3抑制、TREM2激动、代谢重编程和消退药理学的多模式框架 | 强调利用先天免疫记忆可塑性作为疾病修饰疗法的变革性范式",
+    "limitation": "未描述",
+    "study_object": "阿尔茨海默病小胶质细胞（综述）",
+    "disease": "阿尔茨海默病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-22"
+  },
+  {
+    "pmid": "42632487",
+    "title": "Clinical validation of an optimised metagenomic nanopore sequencing method for detecting viral respiratory pathogens.",
+    "doi": null,
+    "journal": "The Journal of infection",
+    "issn": "1532-2742",
+    "pub_date": "2026-08-22",
+    "authors": "Sanderson Nicholas D; Dingle Kate E; Hopkins Katie M V; Vaughan Ali; Colpus Matthew et al.",
+    "abstract": "BACKGROUND: Clinical metagenomics (CMg) offers high-throughput respiratory pathogen detection with a wider range than targeted, probe-dependent diagnostics. Sequencing cost and the challenges of high host biomass are barriers to the use of CMg in high-throughput respiratory pathogen detection in non-invasive samples such as nasopharyngeal swabs.\nMETHODS: We optimised a nanopore sequencing workflow to detect RNA viruses in nasopharyngeal swabs, employing pathogen enrichment, by background nucleic acid depletion and SISPA amplification, and Oxford Nanopore Technology (ONT) sequencing. As a pre-requisite for agnostic pathogen detection, we first derived quality control (QC) criteria and diagnostic thresholds against a gold-standard comprising 23 pathogen targets detected by routine multiplex PCR. In this diagnostic accuracy study we validated this workflow using 344 prospectively collected upper respiratory tract samples submitted for routine testing.\nFINDINGS: Using pre-defined QC and positivity criteria, the workflow's sensitivity versus PCR was 51% (95%CI: 45%-57%) (133/260 positive targets detected) (ranging from 19%-85% across pathogens with >20 gold- standard detections), and specificity 99.8% (95%CI: 99.6%-99.9%) (3836/3845 negative targets not detected). Sensitivity improved to 58% (159/274) using post-hoc optimised thresholds, 61% (159/260) only considering RNA pathogens, 70% (144/207) excluding rhinovirus/enterovirus and 83% (140/169) excluding samples with post workflow qPCR Ct values ≥35. Read crossover from multiplex sequencing contributed most (7/9) false-positives. Only 2 plausible additional pathogens were identified (rhinovirus and coronavirus OC43). 41 respiratory syncytial virus (RSV), 13 influenza A and 10 rhinovirus/enterovirus were successfully sub-typed by sequencing. Multiplexed nanopore sequencing costs were £112/sample.\nINTERPRETATION: Although CMg has substantial diagnostic potential, this validation study demonstrates the technical limitations of current metagenomic sequencing methods applied to viral detection in upper respiratory tract samples with high host and low pathogen biomass. Its greater sensitivity at higher viral loads demonstrates the importance of identifying the most appropriate use cases to maximise its utility and value.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Diagnostic",
+      "Metagenomics",
+      "Nanopore",
+      "Respiratory viruses",
+      "SISPA",
+      "Validation"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-22"
+  }
+]
