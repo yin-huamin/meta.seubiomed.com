@@ -1,0 +1,81 @@
+[
+  {
+    "pmid": "42263665",
+    "title": "Plant-based whole-food diets are feasible during auto-HCT and are associated with dose-dependent microbiome modulation.",
+    "doi": null,
+    "journal": "Blood advances",
+    "issn": "2473-9537",
+    "pub_date": "2026-08-25",
+    "authors": "Ueland Katherine; Elahi Taara; Rasmussen Mary; Wolfe Alex E; Purcell Hayley et al.",
+    "abstract": "Plant-based whole food diets may represent a tractable approach to mitigating microbiome disruption and improving outcomes in patients undergoing autologous hematopoietic cell transplantation (auto-HCT) for multiple myeloma, a population in whom intestinal dysbiosis has been linked with inferior survival. We conducted a single-arm clinical trial at our center, in which participants undergoing auto-HCT (n = 22) received fresh, pre-prepared, plant-based meals for 5 weeks spanning conditioning, neutropenia, and early recovery, with the goal of supporting the consumption of nutrient-dense, high-fiber foods. The primary end points were feasibility and tolerability, defined by successful enrollment and patient-reported intake of study meals. Dietary intake was quantified using prospective food diaries and 24-hour dietary recall surveys. Secondary end points included changes in gut microbiome composition and function assessed by shotgun metagenomic sequencing and stool short-chain fatty acid (SCFA) measurements. The intervention was feasible and generally well tolerated, with all participants consuming delivered meals to some degree, with adherence sufficient to support planned dietary and correlative analyses. Greater intake of study meals was associated with more pronounced shifts in gut microbial communities, including enrichment of SCFA-producing taxa and compositional changes consistent with a fiber-responsive microbiome. Stool SCFA concentrations increased from baseline to the end of the intervention, suggesting a potential influence of the dietary strategy on microbial metabolite production during the peritransplant period. These findings demonstrate that a plant-based meal delivery intervention is implementable during auto-HCT and suggest dose-dependent modulation of the gut microbiome and its metabolic output. The trial was registered at ClinicalTrials.gov as NCT06559709.",
+    "pub_types": [
+      "Journal Article",
+      "Clinical Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Hematopoietic Stem Cell Transplantation",
+      "Diet, Plant-Based",
+      "Female",
+      "Middle Aged",
+      "Gastrointestinal Microbiome",
+      "Male",
+      "Transplantation, Autologous",
+      "Microbiota",
+      "Adult",
+      "Aged"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-25"
+  },
+  {
+    "pmid": "42611994",
+    "title": "Select intratumoral riboflavin-auxotrophic Enterococcus species enhance cell surface MR1 expression and MAIT TCR activation in lung cancer.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-08-25",
+    "authors": "Birla Pakhi; Yang Lansaol; Shan Wanting; Minamisawa Sakura; Dhaygude Omkar et al.",
+    "abstract": "Mucosal-associated invariant T (MAIT) cells are innate-like T cells capable of MR1-dependent immune surveillance, but how intratumoral bacteria modulate MR1 expression in human lung tumors remains unclear. We studied intratumoral MAIT cells from paired single-cell RNA and TCR sequencing datasets of tumor-infiltrating CD3 T cells isolated from non-small cell lung cancer tumors in patients receiving neoadjuvant PD-1 blockade therapy. MAIT cells were subclustered to identify conventional MAIT-associated TCR clonotypes, which were then used to examine how bacterial exposure impacts cell-surface MR1 expression and downstream MAIT TCR activation. We found that select intratumoral Enterococcus species (spp.) did not directly activate MAIT cells but enhanced MR1-dependent MAIT activation in the presence of exogenous 5-OP-RU by increasing cell-surface MR1 expression on antigen-presenting cells including dendritic cells, B cells, and mononuclear phagocytes. This increase in MR1 cell surface expression is modulated through a posttranscriptional mechanism consistent with altered intracellular processing and trafficking of MR1. These findings reveal a role for tumor-associated bacteria in modulating MR1-dependent innate-like T cell activation and provide a basis for future studies examining whether this process influences response to immune checkpoint blockade.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Mucosal-Associated Invariant T Cells",
+      "Lung Neoplasms",
+      "Enterococcus",
+      "Receptors, Antigen, T-Cell",
+      "Histocompatibility Antigens Class I",
+      "Minor Histocompatibility Antigens",
+      "Riboflavin",
+      "Lymphocyte Activation",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Ribitol",
+      "Uracil"
+    ],
+    "keywords": [
+      "Enterococcus",
+      "MAIT",
+      "MR1",
+      "tumor microbiome"
+    ],
+    "summary_zh": "通过单细胞测序分析肺癌肿瘤中MAIT细胞，发现特定肠球菌经增加MR1表达增强MAIT活化，揭示肿瘤菌群调控免疫机制。",
+    "innovation": "发现特定肠球菌通过上调细胞表面MR1表达增强MAIT细胞活化，而非直接激活 | 揭示肿瘤相关细菌调控MR1依赖性T细胞激活的新机制",
+    "limitation": "未描述",
+    "study_object": "非小细胞肺癌患者肿瘤组织CD3 T细胞，单细胞RNA和TCR测序",
+    "disease": "非小细胞肺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-25"
+  }
+]
