@@ -1,0 +1,199 @@
+[
+  {
+    "pmid": "42658951",
+    "title": "Beyond wrinkles.",
+    "doi": null,
+    "journal": "Science (New York, N.Y.)",
+    "issn": "1095-9203",
+    "pub_date": "2026-08-27",
+    "authors": "Jalili Sasan; Oh Julia",
+    "abstract": "Can the skin microbiome shape healthy aging?",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Skin Microbiome",
+      "Skin Aging",
+      "Skin",
+      "Animals"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  },
+  {
+    "pmid": "42658613",
+    "title": "Microbiome Science and the Kidney-Vascular Axis: Plenty of Mechanisms, Little Medicine.",
+    "doi": null,
+    "journal": "Clinical journal of the American Society of Nephrology : CJASN",
+    "issn": "1555-905X",
+    "pub_date": "2026-08-27",
+    "authors": "Zoccali Carmine; Glorieux Griet; Mallamaci Francesca; Vanholder Raymond",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  },
+  {
+    "pmid": "42657534",
+    "title": "Latent tuberculosis infection shapes gut microbiome and immune-metabolic interactions in people living with HIV.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-08-27",
+    "authors": "Devadiga Pratik; Batgire Jyoti; Karandikar Kalyani; Bhowmick Shilpa; Birje Shantanu et al.",
+    "abstract": "The silent presence of latent tuberculosis infection (LTBI) in people living with HIV (PLHIV) increases the annual risk of tuberculosis (TB) reactivation by 3%-16%. Although gut dysbiosis is well documented in HIV, microbiome alterations associated with LTBI in PLHIV remain poorly characterized. Using integrated cross-sectional and exploratory longitudinal analyses, we investigated the gut microbiome composition, predicted function, and immune-metabolic interactions in ART-naive individuals categorized as HIV-LTBI-, HIV-LTBI+, HIV+LTBI-, HIV+LTBI+, and HIV+TB+. Against the dysbiotic background associated with HIV, LTBI was associated with a distinct gut microbial and immune-metabolic profile. Compared with HIV+LTBI-, HIV+LTBI+ individuals exhibited alpha diversity comparable to the HIV-negative groups while forming a distinct microbial community, characterized by a lower Firmicutes/Bacteroidota ratio, depletion of butyrate-producing Firmicutes, enrichment of ASVs assigned to Megasphaera, Prevotella, Bifidobacterium, and Streptococcus, reduced predicted aromatic amino acid metabolic pathways, maintained fecal propionate concentrations, and a densely connected co-occurrence network with greater vulnerability to hub-node loss. Staged correlation analyses revealed progressive remodeling of host‒microbiome associations across HIV and TB disease states, including associations between Prevotella ASVs, PD-1+CD8+ T cells, plasma IP-10, and, in HIV+TB+, increased calprotectin and sCD14 together with reduced associations among butyrate-associated taxa. In exploratory longitudinal analyses, ART did not restore a microbiome resembling that of HIV-negative individuals; instead, the microbiome composition remained closer to the baseline HIV+LTBI+ profile, while microbiome divergence and SCFA profiles were associated with the CD4/CD8 ratio rather than CD4 count alone. These findings identify LTBI as an important modifier of the gut microbiome composition and immune-metabolic interactions in PLHIV and provide a framework for future studies investigating microbiome changes associated with progression to active TB.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Latent Tuberculosis",
+      "Gastrointestinal Microbiome",
+      "HIV Infections",
+      "Cross-Sectional Studies",
+      "Male",
+      "Female",
+      "Adult",
+      "Dysbiosis",
+      "Bacteria",
+      "Longitudinal Studies",
+      "Middle Aged",
+      "Feces"
+    ],
+    "keywords": [
+      "Gut microbiome",
+      "HIV",
+      "Prevotella",
+      "latent tuberculosis",
+      "predictive functional pathways",
+      "short-chain fatty acids"
+    ],
+    "summary_zh": "研究LTBI对HIV感染者肠道菌群及免疫代谢的影响，发现LTBI塑造独特菌群谱，ART未恢复菌群。",
+    "innovation": "首次揭示LTBI在HIV感染者中与肠道菌群和免疫代谢的关联 | 采用整合横断面和探索性纵向设计 | 发现菌群组成与CD4/CD8比值相关",
+    "limitation": "未描述",
+    "study_object": "HIV感染者的肠道微生物组，基于16S rRNA基因ASV分析",
+    "disease": "HIV感染，潜伏性结核感染，活动性结核",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  },
+  {
+    "pmid": "42657533",
+    "title": "Microbiome-based therapeutics for Clostridioides difficile infection: additive, subtractive, and modulatory strategies in modern clinical practice.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-08-27",
+    "authors": "Cristian Roxana-Elena; Vrancianu Corneliu Ovidiu; Constantin Marian; Paun Mihaela; Milea Eduard C et al.",
+    "abstract": "Microbiome-based therapeutics have rapidly evolved into a transformative field at the intersection of infectious diseases, microbial ecology, and precision medicine. Clostridioides difficile infection (CDI) represents the most extensively studied model, providing a framework for understanding microbiome-driven disease and ecological restoration. This review synthesizes three major therapeutic strategies, additive, subtractive, and modulatory, and integrates recent advances from basic, translational, and clinical research. Additive approaches, including fecal microbiota transplantation (FMT), live biotherapeutic products (LBPs), and defined microbial consortia, aim to restore microbial diversity and colonization resistance. Subtractive strategies selectively target C. difficile or its ecological advantages through targeted antibiotics, bacteriocins, bacteriophages, and CRISPR-based antimicrobials. Modulatory therapies reshape host-microbe and microbe-microbe interactions, targeting toxin activity, bile acid metabolism, and spore germination. Together, these approaches reflect a paradigm shift from pathogen-centered treatment toward ecological therapeutics targeting the dysbiotic niche underlying CDI persistence and recurrence. Understanding the similarities and differences between these strategies can help guide the design of future microbiome-targeted interventions and explore their potential beyond CDI across microbiome-mediated diseases.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Clostridium Infections",
+      "Clostridioides difficile",
+      "Fecal Microbiota Transplantation",
+      "Animals",
+      "Anti-Bacterial Agents",
+      "Gastrointestinal Microbiome",
+      "Biological Therapy"
+    ],
+    "keywords": [
+      "Clostridioides difficile",
+      "Microbiome therapeutics",
+      "anti-toxin therapy",
+      "defined microbial consortia",
+      "fecal microbiota transplantation",
+      "live biotherapeutic products"
+    ],
+    "summary_zh": "综述艰难梭菌感染的添加、削减和调节三类微生态治疗策略，指出从病原中心转向生态治疗",
+    "innovation": "系统整合添加、削减、调节三类微生态治疗策略 | 提出从病原中心转向生态治疗的范式转变 | 探索超越艰难梭菌感染的微生态治疗潜力",
+    "limitation": "未描述",
+    "study_object": "艰难梭菌感染相关的微生态治疗策略综述",
+    "disease": "艰难梭菌感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  },
+  {
+    "pmid": "42649273",
+    "title": "Maternal microbiome promotes offspring ovarian reserve via bile acid metabolism.",
+    "doi": null,
+    "journal": "EMBO reports",
+    "issn": "1469-3178",
+    "pub_date": "2026-08-27",
+    "authors": "Wang Han; Li Yukang; Niu Yilin; Chen Xin; Liu Jing et al.",
+    "abstract": "The maternal microbiome plays a crucial role in host ovarian function and fertility, yet its influence on in-utero ovarian development in offspring remains poorly understood. Here, we demonstrate that maternal antibiotic-induced microbiome disruption in mice leads to diminished ovarian reserve (DOR) in the offspring, while fecal microbiota transplantation (FMT) alleviates this effect. Metabolomic analysis reveals that maternal microbiome disruption alters metabolomic profiles in the maternal serum, with pathway enrichment analysis indicating reduced bile acid secretion in the maternal serum of ABX dams. Importantly, supplementation of key bile acid metabolites and transplantation of Lactobacillus gasseri (L. gasseri), a known promoter of bile acid metabolism, to antibiotic-treated dams abrogated maternal microbiome disruption-induced DOR. Additionally, through in vitro fertilization assay, we found that maternal microbiome disruption impaired oocyte quality in offspring, while FMT and supplementation with bile acid metabolites alleviated this effect. Together, our findings highlight the critical role of the maternal microbiome in offspring fertility, potentially through microbially mediated bile acid metabolism in the maternal serum.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "本研究以小鼠为模型，发现母体抗生素致微生物组紊乱通过胆汁酸代谢导致子代卵巢储备减退，粪菌移植或补充胆汁酸可缓解。",
+    "innovation": "揭示母体微生物组经血清胆汁酸代谢调控子代卵巢储备的新机制 | 发现Lactobacillus gasseri可改善母体菌群紊乱导致的子代卵巢储备减退",
+    "limitation": "未描述",
+    "study_object": "小鼠母体粪便微生物组与血清代谢组，结合粪菌移植及体外受精实验",
+    "disease": "卵巢储备功能减退（DOR）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  },
+  {
+    "pmid": "42658680",
+    "title": "Complete genome-derived metabolic interactions reveal the impact of gut ecology on human health.",
+    "doi": null,
+    "journal": "Cell reports",
+    "issn": "2211-1247",
+    "pub_date": "2026-08-27",
+    "authors": "Gu Yuzheng; Wang Haoyu; Yang Jinlong; Zeng Tao; Liang Hewei et al.",
+    "abstract": "Metabolic interactions govern gut microbiome assembly, yet their functional rules remain obscured by genomic incompleteness and fragmentation. Here, we leverage 1,150 complete genomes to construct genome-scale metabolic models, demonstrating that draft assemblies introduce systematic artifacts and omit critical transport functions. We observe that genomic traits and niche specialization, rather than random association, shape microbial metabolic competition and complementarity. Interaction asymmetry stratifies strains into four ecological groups, including active players, resource predators, resource utilizers, and resource contributors, with distinct signatures of metabolite exchange, competition, and secondary metabolism. In inflammatory bowel disease, these groups show subtype-specific temporal instability, and group-specific dysbiosis predicts clinical phenotypes better than the whole-community profiles. Keystone features derived from integrated metabolic interaction and co-occurrence networks also improve cross-validated disease classification. Together, these findings connect genome completeness with microbial ecological organization and provide a framework for linking metabolic interactions to microbiome-associated disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "CP: genomics",
+      "CP: microbiology",
+      "bacteria",
+      "complete genomes",
+      "gut",
+      "keystone",
+      "metabolic interactions",
+      "metabolic models"
+    ],
+    "summary_zh": "利用1150个完整基因组构建代谢模型，揭示肠道微生物代谢互作规则，并改善炎症性肠病表型预测。",
+    "innovation": "基于完整基因组而非草稿组装构建代谢模型，发现草稿组装引入系统性伪影 | 提出基于互作不对称性的四种生态群分类 | 整合代谢互作与共现网络的关键特征提升疾病分类",
+    "limitation": "未描述",
+    "study_object": "人类肠道微生物组（完整基因组、基因组尺度代谢模型）",
+    "disease": "炎症性肠病",
+    "sample_size": "1150个完整基因组",
+    "ai_done": true,
+    "fetch_date": "2026-08-27"
+  }
+]
