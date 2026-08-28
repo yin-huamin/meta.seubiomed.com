@@ -1,0 +1,63 @@
+[
+  {
+    "pmid": "42664326",
+    "title": "Intestinal fructose catabolism promotes obesity and insulin resistance via ileal lacteal remodeling.",
+    "doi": null,
+    "journal": "Science advances",
+    "issn": "2375-2548",
+    "pub_date": "2026-08-28",
+    "authors": "Lopez Miranda L; Kang Taekyung; Espeleta Ana M; Rubtsova Varvara I; Baek Jongwon et al.",
+    "abstract": "High-fructose corn syrup (HFCS) consumption is a risk factor for obesity and diabetes, yet the underlying mechanisms, especially at the specific organ level, are incompletely understood. Catabolism of dietary fructose primarily occurs in the small intestine and liver, with fructose breakdown in the liver being pathological, while small intestinal fructose clearance protects the liver. Here, we report that inhibition of fructose catabolism specifically in the murine small intestine unexpectedly mitigates fructose-induced obesity and insulin resistance. Such phenotypes are attributed to decreased dietary fat absorption by the shortening of ileal lacteals. Fecal transplantation experiments revealed that the microbiome altered by blunted host intestinal fructose catabolism decreases ileal macrophages essential for lacteal growth. Thus, altered intestinal lacteal architecture likely contributes to the synergistic effects of high fat and sugar on metabolic disorders. It may also be relevant to the clinical evidence that pharmacologic suppression of fructose catabolism mitigates diet-induced obesity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Fructose",
+      "Insulin Resistance",
+      "Obesity",
+      "Mice",
+      "Ileum",
+      "Macrophages"
+    ],
+    "keywords": [],
+    "summary_zh": "通过小鼠模型发现抑制小肠果糖分解可减轻肥胖和胰岛素抵抗，机制涉及回肠乳糜管重塑和微生物组改变。",
+    "innovation": "发现小肠内果糖分解代谢抑制可减轻肥胖，而非肝脏 | 揭示回肠乳糜管缩短减少脂肪吸收的机制 | 通过粪便移植证实微生物组-巨噬细胞轴参与调控",
+    "limitation": "未描述",
+    "study_object": "小鼠小肠（回肠）组织 + 粪便移植样本 + 基因干预",
+    "disease": "肥胖、胰岛素抵抗",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-28"
+  },
+  {
+    "pmid": "42663042",
+    "title": "Phytohormone-microbiome interactions and epigenetic regulation of plant stress responses and priming.",
+    "doi": null,
+    "journal": "Journal of experimental botany",
+    "issn": "1460-2431",
+    "pub_date": "2026-08-28",
+    "authors": "Araujo Ademir Sergio Ferreira; de Almeida Lopes Angela Celis; Martins Livia do Vale; Ferreira Gerson do Nascimento Costa; da Costa Romario Martins et al.",
+    "abstract": "Plants continuously face fluctuating environmental conditions, requiring tightly coordinated regulatory systems to balance growth and stress responses. This review synthesizes current knowledge on phytohormones as central integrators of plant-microbiome interactions, highlighting their dual role as internal regulators and ecological gatekeepers that shape microbiome assembly and function. Phytohormones, such as auxins, cytokinins, gibberellins, abscisic acid, ethylene, salicylic acid, and jasmonates, dynamically regulate plant development, immunity, and rhizosphere chemistry, thereby influencing microbial recruitment and activity. In turn, plant-associated microbes actively modulate hormonal pathways through biosynthesis, degradation, and interference with signaling and transport processes, thereby reconfiguring plant physiological responses. Emerging evidence demonstrates that these interactions underpin microbial priming, enabling enhanced responsiveness to subsequent stresses without constitutive defense costs. Such primed states are frequently associated with epigenetic modifications, including DNA methylation and histone modifications, which contribute to stress memory and may persist across generations. We propose that microbiome-driven hormonal regulation represents a key mechanism for plant adaptation to environmental stress and that its integration can offer promising opportunities to enhance resilience, reduce agrochemical dependence, and improve agricultural sustainability under climate change.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Epigenetic regulation",
+      "Hormonal priming",
+      "Phytohormones",
+      "Plant–microbiome interactions"
+    ],
+    "summary_zh": "综述植物激素-微生物组互作及表观遗传调控在植物应激反应和启动中的作用，提出微生物驱动激素调控是适应胁迫的关键机制。",
+    "innovation": "综合植物激素作为植物-微生物互作整合子的双重作用 | 提出微生物驱动的激素调控是植物适应环境胁迫的关键机制",
+    "limitation": "未描述",
+    "study_object": "植物-微生物组互作（综述）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-08-28"
+  }
+]
