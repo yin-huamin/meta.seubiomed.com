@@ -1,0 +1,57 @@
+[
+  {
+    "pmid": "42668272",
+    "title": "Gut microbiota and blood biomarkers as correlating factors in patients with postoperative delirium: analysis of three prospective observational studies.",
+    "doi": null,
+    "journal": "Molecular psychiatry",
+    "issn": "1476-5578",
+    "pub_date": "2026-08-30",
+    "authors": "Song Wenyu; Singh Shrishti; Xiang Wang; Baldyga Kathryn; Stevens Kali et al.",
+    "abstract": "Postoperative delirium is associated with both gut microbiota alterations and Tau phosphorylation; however, how these factors interact and jointly contribute to postoperative delirium remains poorly understood. This prospective observational cohort study screened 491 patients aged ≥65 years undergoing elective laminectomy or hip or knee replacement under general or spinal anesthesia at Massachusetts General Hospital (2016-2020). The study aimed to assess the correlation between plasma Tau protein levels, specific gut microbiota, and the gut microbiota-derived metabolite indole-3-propionic acid (IPA) in participants with and without postoperative delirium. Exclusion criteria included major neurological disease, smoking history, sensory impairment, and recent antibiotic use. Delirium was assessed 24-48 h postoperatively. Out of 491 screened participants, 139 had blood biomarker data, and 86 had gut microbiota data included in the final analysis. Ten percent of the participants experienced postoperative delirium. Co-occurrence network analysis demonstrated that microbial interactions differed between postoperative delirium and non-postoperative delirium groups. Significant associations among gut microbiota, IPA, and Tau biomarkers were observed only in postoperative delirium participants. Additionally, three machine learning classifiers distinguished postoperative delirium cases from non-postoperative delirium cases with Area Under the Curve values above 50%. The results suggest that plasma Tau may interact with gut microbiota, and this interaction is associated with postoperative delirium, suggesting the involvement of a gut-blood-brain axis in postoperative delirium vulnerability. These findings implicate a microbiota-Tau interaction that may represent both a potential pathogenic mechanism and a therapeutic target for postoperative delirium pending confirmative studies. Furthermore, machine learning classifiers utilizing microbiome-derived features demonstrate a potential in distinguishing patients with and without postoperative delirium.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "分析三个前瞻性队列，发现术后谵妄患者血浆Tau与肠道微生物及IPA相关，微生物-Tau互作可能参与发病。",
+    "innovation": "揭示血浆Tau与肠道微生物在术后谵妄中的相互作用 | 采用共现网络分析和机器学习分类器区分谵妄状态",
+    "limitation": "未描述",
+    "study_object": "年龄≥65岁术后患者，血液及肠道微生物样本，微生物组与生物标志物分析",
+    "disease": "术后谵妄",
+    "sample_size": "筛查491例，血液生物标志物139例，肠道微生物86例",
+    "ai_done": true,
+    "fetch_date": "2026-08-30"
+  },
+  {
+    "pmid": "42669029",
+    "title": "Lpb. plantarum inhalation powders for the reduction of lung inflammation and S. aureus growth control in non-CF bronchiectasis.",
+    "doi": null,
+    "journal": "Expert opinion on drug delivery",
+    "issn": "1744-7593",
+    "pub_date": "2026-08-30",
+    "authors": "Glieca Stefania; Tambassi Martina; Schianchi Chiara; Quarta Eride; Bottari Benedetta et al.",
+    "abstract": "INTRODUCTION: The reduced diversity of the lung microbiome in respiratory conditions, including bronchiectasis, promotes bacterial infection and inflammation, contributing to worsening clinical outcomes. Traditional treatments often fail to address both infection and inflammation. Because of their potential dual-action, lactic acid bacteria (LAB) directly administered to the lungs could represent an innovative therapeutic approach for these diseases.\nRESEARCH DESIGN AND METHODS: Two powders for inhalation containing Lpb. plantarum, lactose, l-leucine with and without raffinose, a prebiotic, were produced by spray drying and in vitro tested. The focus was on investigating their potential in vitro anti-inflammatory and anti-microbial activities against S. aureus.\nRESULTS: The powders showed a fine particle fraction (<5 µm) >40% and allowed to maintain anti-inflammatory activity in vitro for both treatment and prevention. Moreover, both the powders led to a significant reduction in S. aureus growth. The stability study of the powders in capsules at different storage conditions showed the preservation of the LAB up to 90 days in refrigerated conditions (4°C/-20°C).\nCONCLUSIONS: This proof-of-concept study shows that inhalable spray-dried live LABs retain biological activity and are suitable for pulmonary delivery, supporting their potential as a microbiota-modulating therapy which, however, requires further preclinical validation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Inhalation",
+      "lactic acid bacteria",
+      "non-cystic fibrosis bronchiectasis",
+      "probiotics",
+      "respiratory diseases",
+      "spray-dried powders"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-08-30"
+  }
+]
