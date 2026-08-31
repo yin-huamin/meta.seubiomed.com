@@ -1,0 +1,89 @@
+[
+  {
+    "pmid": "42215097",
+    "title": "Integrating multi-omics to link core and region-specific microbiota to flavor metabolism in medium-temperature Daqu.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-08-31",
+    "authors": "Wang Zhenyong; Ding Yuqing; Cheng Shujin; Xun Zhichang; Li Ze et al.",
+    "abstract": "Medium-temperature Daqu (MTD) is a critical fermentation starter for strong-aroma Baijiu, where its complex microbiota governs flavor development. We combined metagenomics with GC-MS metabolomics to analyze 15 MTD samples from six major producing regions in China, moving from descriptive profiling to mechanistic insight. Although microbial communities exhibited substantial regional variation, a conserved core microbiota emerged, consisting of eight fungal genera, including Aspergillus and Rhizopus, and five bacterial genera such as Bacillus. Beta diversity analysis indicated that producer-specific practices were more influential than geography in structuring these communities. Functional metagenomic profiling showed enriched pathways for carbohydrate, amino acid, and ester metabolism. Volatile metabolite analysis identified 94 compounds, primarily esters, with 12 common to all samples. We constructed multi-omics correlation networks to predict functional linkages, which notably connected genera like Talaromyces and Aspergillus to key flavor esters. Based on these predictions, we isolated Wickerhamomyces anomalus and Bacillus velezensis from Daqu. In vitro validation demonstrated their functional roles: W. anomalus produced ethyl acetate, while co-culturing B. velezensis with Saccharomyces cerevisiae significantly enhanced the yield of ethyl decanoate and ethyl laurate. This work delineates both the core and region-specific metabolic features of MTD and translates multi-omics correlations into confirmed microbial activities. It thereby establishes a targeted framework for identifying flavor-active microorganisms, offering a scientific foundation for quality control and directed bioaugmentation in Daqu production.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Multiomics",
+      "Microbiota",
+      "Fermentation",
+      "Alcoholic Beverages",
+      "Gas Chromatography-Mass Spectrometry",
+      "Volatile Organic Compounds",
+      "China",
+      "Metabolomics",
+      "Food Microbiology",
+      "Taste",
+      "Flavoring Agents",
+      "Metagenomics",
+      "Bacteria",
+      "Temperature",
+      "Fungi"
+    ],
+    "keywords": [
+      "Functional microorganisms",
+      "Medium-temperature Daqu (MTD)",
+      "Microbial ecology",
+      "Multi-omics integration",
+      "Volatile flavor compounds"
+    ],
+    "summary_zh": "结合宏基因组与GC-MS代谢组分析中温大曲，揭示核心菌群与风味代谢关联，并验证功能菌株。",
+    "innovation": "将多组学相关网络与体外验证结合，筛选风味活性菌 | 揭示生产者实践比地理更影响菌群结构 | 构建预测功能关联并验证",
+    "limitation": "未描述",
+    "study_object": "中温大曲样本（宏基因组与GC-MS代谢组分析）",
+    "disease": "无",
+    "sample_size": "15个样本（来自6个产区）",
+    "ai_done": true,
+    "fetch_date": "2026-08-31"
+  },
+  {
+    "pmid": "42215125",
+    "title": "Rind-core microbial niche differentiation at centimeter-scale modulates the sensory quality of solid-state high-temperature Daqu.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-08-31",
+    "authors": "Wu Tingting; Sun Shupei; Zhu Ziyi; Zhu Guojun; Tang Shaopei et al.",
+    "abstract": "High-temperature Daqu (HTD) is a vital microbial starter for Moutai-flavor Baijiu, providing the essential enzymes and flavor precursors required for fermentation. However, restricted mass and heat transfer during the solid-state process drive pronounced spatial heterogeneity across the Daqu brick, yet how this niche differentiation modulates HTD quality remains elusive. In this study, we analyzed a comprehensive dataset (n = 134) spanning 12 production batches, performing centimeter-scale characterization of physicochemical properties and microbial succession in both high-quality and ordinary-quality HTD. Our results showed that while whole-sample analysis failed to detect differences between high-quality and ordinary-quality Daqu, spatial partitioning revealed that ordinary-quality rind had significantly lower acidity than high-quality rind during the early fermentation stage (S1, days 9-12), with no difference in the core. Furthermore, significant microbial differentiation was observed between the rind and core of HTD, with this spatial divergence occurring at an accelerated rate in ordinary-quality samples during fermentation. Redundancy analysis (RDA) and laboratory validation further confirmed that these micro-ecological variations were primarily driven by gradients in acidity and water content Our study highlights the importance of considering centimeter-scale microbial heterogeneity, providing insight into its relationship with microbial succession rates and how these factors contribute to the final quality of HTD.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Fermentation",
+      "Hot Temperature",
+      "Food Microbiology",
+      "Taste",
+      "Microbiota",
+      "Alcoholic Beverages",
+      "Wine",
+      "Bacteria",
+      "Hydrogen-Ion Concentration"
+    ],
+    "keywords": [
+      "Fermented food",
+      "Microbial community assembly",
+      "Microbiome",
+      "Solid-state fermentation",
+      "Spatial heterogeneity",
+      "Temporal dynamics"
+    ],
+    "summary_zh": "对134份高温大曲进行厘米尺度分析，发现皮芯微生物生态位分化及酸度、水分梯度影响大曲品质。",
+    "innovation": "首次在厘米尺度揭示高温大曲皮芯微生物生态位分化与品质的关系 | 发现全样分析无法区分品质，空间分区可识别酸度差异 | 结合冗余分析和实验验证确定酸度和水分是主要驱动因素",
+    "limitation": "未描述",
+    "study_object": "固态高温大曲（Daqu）砖；厘米尺度理化性质与微生物群落分析",
+    "disease": "无",
+    "sample_size": "n=134，12个生产批次",
+    "ai_done": true,
+    "fetch_date": "2026-08-31"
+  }
+]
