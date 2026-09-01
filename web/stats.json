@@ -1,17 +1,17 @@
 {
-  "total": 4773,
+  "total": 4835,
   "by_type": {
-    "研究论文": 3723,
-    "综述": 526,
+    "研究论文": 3750,
+    "综述": 556,
     "Benchmark": 152,
     "临床试验": 140,
-    "其他": 102,
+    "其他": 103,
     "案例报告": 68,
-    "系统综述/Meta分析": 62
+    "系统综述/Meta分析": 66
   },
   "by_year": {
-    "2026": 773,
-    "2025": 809,
+    "2026": 834,
+    "2025": 810,
     "2024": 681,
     "2023": 558,
     "2022": 569,
@@ -30,7 +30,7 @@
     "The ISME journal": 219,
     "Nucleic acids research": 119,
     "NPJ biofilms and microbiomes": 116,
-    "Nature microbiology": 106,
+    "Nature microbiology": 107,
     "Frontiers in immunology": 103,
     "Nutrients": 94,
     "Genome biology": 89,
@@ -41,16 +41,16 @@
     "Journal of translational medicine": 65,
     "Communications biology": 62,
     "Gut": 50,
-    "Gastroenterology": 46,
+    "Gastroenterology": 48,
     "Scientific data": 46,
     "The Journal of infection": 45
   },
   "top_diseases": {
-    "结直肠癌": 71,
+    "结直肠癌": 72,
     "肥胖": 44,
     "COVID-19": 36,
-    "溃疡性结肠炎": 34,
-    "克罗恩病": 32,
+    "溃疡性结肠炎": 35,
+    "克罗恩病": 33,
     "癌症": 29,
     "帕金森病": 26,
     "炎症性肠病": 22,
@@ -64,7 +64,7 @@
     "复发性艰难梭菌感染": 13,
     "1型糖尿病": 13,
     "肺炎": 13,
-    "炎症性肠病（IBD）": 12,
-    "下呼吸道感染": 12
+    "哮喘": 12,
+    "炎症性肠病（IBD）": 12
   }
 }
