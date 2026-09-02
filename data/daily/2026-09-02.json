@@ -1,0 +1,177 @@
+[
+  {
+    "pmid": "42683734",
+    "title": "Microbiome and Metabolomics in Obesity: Advances in Understanding and Interventions Across the Lifespan.",
+    "doi": null,
+    "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+    "issn": "1467-789X",
+    "pub_date": "2026-09-02",
+    "authors": "Kalafati Ioanna Panagiota; Krongauz David; Bosco Alice; Noto Antonio; Piras Cristina et al.",
+    "abstract": "Obesity arises from intertwined and reciprocal diet-microbiome-host pathways that reshape energy balance, insulin sensitivity, and inflammation. This review synthesizes mechanistic links between microbial functions and metabolic control, charts lifestyle-related lifecourse dynamics from birth to older age, examines how GLP-1-based therapies may perturb gut ecology and metabolite output and surveys AI/ML frameworks for multi-omics integration. Plant-based, fiber-rich dietary patterns generally enrich saccharolytic guilds, boost SCFAs production, and modulate bile acid signaling, whereas Westernized patterns favor bile-tolerant, amino acid-fermenting consortia and proinflammatory metabolites. Preclinical data suggest that incretin-based therapies remodel the microbiome-metabolome axis, but human causal mediation remains unproven and observed changes may partly reflect weight loss or metabolic improvement. Function-centered metrics outperform phylum-level ratios for translation. Harmonized longitudinal cohorts and explainable ML-derived microbial and metabolomic signatures are now pivotal to identify responder subtypes and actionable microbe-metabolite targets, enabling precision nutrition alongside pharmacotherapy across the lifespan.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "gut microbiome",
+      "interventions",
+      "metabolomics",
+      "obesity"
+    ],
+    "summary_zh": "综述肥胖中微生物组与代谢组学关联机制，探讨生命周期影响及药物干预，提出功能指标和可解释ML促进精准营养。",
+    "innovation": "提出功能中心指标优于门水平比率 | 强调可解释机器学习整合多组学用于微生物代谢特征",
+    "limitation": "人类中介因果证据未证实 | 药物对菌群作用可能部分反映体重下降等混杂因素",
+    "study_object": "人类 + 未描述样本类型 + 微生物组与代谢组学",
+    "disease": "肥胖",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-02"
+  },
+  {
+    "pmid": "42112933",
+    "title": "Bacterial weaponry and the ecological factors of competitive success.",
+    "doi": null,
+    "journal": "Essays in biochemistry",
+    "issn": "1744-1358",
+    "pub_date": "2026-09-02",
+    "authors": "Gee Mia; Sharp Connor",
+    "abstract": "Bacteria have evolved complex protein systems known as bacterial weapons to inhibit or kill their competitors. These bacterial weapons are a remarkably diverse arsenal that influence the composition and function of important microbial communities such as the human microbiome. In turn, the spatial constraints, nutrient availability, environmental stressors, and the presence of competitors determine not only whether weapons are expressed, but which weapons provide the greatest advantage. While bacterial weaponry is widespread, the types, mechanisms, and abundance of these systems vary between, and even within, species. Recent research has highlighted the importance of bacterial weaponry in community invasion and pathogenicity. Their potency and narrow killing spectrum have also generated interest in exploiting bacterial weapons to engineer microbial communities or develop therapeutics that avoid the disruption of broad-spectrum antibiotics. Understanding how ecological context affects weapon efficacy could reveal new virulence mechanisms used by pathogens and inform the design of novel treatments and microbiome-based therapies. This review outlines three of the best-studied bacterial weapon systems (protein bacteriocins, the type VI secretion system, and contact-dependent inhibition), highlighting their roles in microbial ecology, pathogenicity and their potential as therapeutics.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Bacteria",
+      "Humans",
+      "Microbiota",
+      "Bacteriocins",
+      "Type VI Secretion Systems",
+      "Animals",
+      "Bacterial Proteins"
+    ],
+    "keywords": [
+      "Bacteria",
+      "Bacterial warfare",
+      "Microbiome"
+    ],
+    "summary_zh": "综述细菌武器系统种类、机制及其在微生物生态和致病性中的作用，探讨生态因素和潜在治疗应用。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "细菌武器系统（蛋白细菌素、VI型分泌系统、接触依赖性抑制）及其生态因素",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-02"
+  },
+  {
+    "pmid": "42683728",
+    "title": "Metagenome-scale modeling to assess microbiome metabolic complementarity for precision microbiota transplantation therapies.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-09-02",
+    "authors": "Zhang Zetian; Holton Mark; Ferrer Daniel M; Tripp Arielle D; Richter Alexander et al.",
+    "abstract": "Fecal microbiota transplantation (FMT) holds therapeutic promise beyond recurrent Clostridioides difficile infection, but clinical outcomes remain unpredictable and donor-selection strategies remain limited, in part because the role of donor‒recipient metabolic interactions in shaping the post-FMT community remains poorly understood. Here, we leverage metagenome-scale metabolic modeling to quantify metabolic niche complementarity between donor and recipient microbiomes and predict post-FMT community composition. Using MICOM-derived metabolic models, we show that donor genomes whose metabolic flux profiles are more dissimilar from the recipient community colonize at significantly higher rates in a murine FMT model. In a human IBS trial, the same metric predicted post-FMT community composition via leave-one-out cross-validation and captured known disease-associated alterations in short-chain fatty acid, sulfur, and gas metabolism. We then performed 2,548 in silico FMT simulations between IBS-D/M patients and donors from the OpenBiome biobank to evaluate personalized donor screening, identifying super-donors characterized by high taxonomic diversity, broad metabolic niche coverage, and community interaction networks dominated by cross-feeding rather than competition. Together, these results support metabolic niche complementarity as a potential determinant of post-FMT community composition and provide a mechanistic basis for evaluating donor-recipient metabolic compatibility. This framework offers a scalable approach for generating testable hypotheses for personalized donor selection.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "FMT",
+      "Fecal microbiota transplantation",
+      "IBS",
+      "MICOM",
+      "bacterial therapeutics",
+      "colonization resistance",
+      "community-scale metabolic modeling",
+      "irritable bowel syndrome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-02"
+  },
+  {
+    "pmid": "42683650",
+    "title": "Protease-serpin-microbiome interactions in inflammatory bowel disease: toward integrated biomarkers of gut health.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-09-02",
+    "authors": "Almalki Meshal; De Pierri Camilla R; Méric Tristan; Mkaouar Héla; Slimani Donia et al.",
+    "abstract": "Proteolytic imbalance involving host and microbial serine proteases and their inhibitors (serpins) contributes to intestinal barrier disruption and chronic inflammation in inflammatory bowel disease (IBD). However, the interplay among these components remains insufficiently characterized. Here, we survey 13,304 publications over five decades, to map protease-serpin-microbiome literature in IBD. Our analysis reveals a fragmented literature structure, with uneven coverage and limited cross-domain integration among host proteases, microbial proteases, and inhibitory pathways. We synthesize evidence linking these components to intestinal barrier integrity, mucosal immunity, extracellular-matrix remodeling, and microbial ecology. Considering the protease-serpin-microbiome axis may provide an integrative direction for future studies of IBD pathogenesis, including the investigation of mechanisms underlying disease heterogeneity, prioritizing future biomarker and therapeutic studies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Inflammatory Bowel Diseases",
+      "Serpins",
+      "Biomarkers",
+      "Intestinal Barrier Function",
+      "Gastrointestinal Microbiome",
+      "Animals",
+      "Peptide Hydrolases",
+      "Intestinal Mucosa",
+      "Bacteria",
+      "Serine Proteases",
+      "Immunity, Mucosal"
+    ],
+    "keywords": [
+      "Inflammatory bowel diseases",
+      "host-microbiome axis",
+      "human gut microbiome",
+      "serine proteases",
+      "serpins"
+    ],
+    "summary_zh": "综述IBD中蛋白酶-serpin-微生物组相互作用，发现文献碎片化，提出整合该轴以促进发病机制和生物标志物研究。",
+    "innovation": "系统调查5年内13,304篇文献，揭示研究结构碎片化 | 提出蛋白酶-serpin-微生物组轴作为IBD综合生物标志物和治疗的整合方向",
+    "limitation": "现有文献结构碎片化，跨领域整合有限",
+    "study_object": "炎症性肠病中的蛋白酶-serpin-微生物组文献（综述）",
+    "disease": "炎症性肠病（IBD）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-02"
+  },
+  {
+    "pmid": "42681694",
+    "title": "Dietary green tea residue improves growth and antioxidant capacity via rumen microbiota and glutathione modulation in finishing beef cattle.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-09-02",
+    "authors": "Shi Changxiao; Deng Jiajie; Zhang Hongliang; Li Yingqi; Zhang Shuo et al.",
+    "abstract": "BACKGROUND: Green tea residue (GTR) is an abundant by-product rich in polyphenols. This study aimed to investigate the effects of GTR on growth performance, rumen microbiota, and systemic metabolism in finishing beef cattle.\nRESULTS: Forty-five 18‑month‑old finishing Angus steers with an average initial body weight of 474.44 ± 14.03 kg (mean ± SD) were individually housed and randomly assigned to three dietary treatments (n = 15 per group) using stratified randomization by initial body weight: control group (CG group, 150 g rice straw), low-dose GTR group (LG group, 75 g rice straw +75 g GTR), and high-dose GTR group (HG group, 150 g GTR). The feeding trial lasted 70 d with a 10-day adaptation period. To elucidate the regulatory mechanisms of GTR on beef cattle growth, we thoroughly assessed growth performance, nutrient digestibility, ruminal fermentation parameters, conducted bacterial 16S rRNA sequencing, analysed plasma biochemical and antioxidant markers, and executed an untargeted plasma metabolomic analysis. The LG group tended to increase average daily gain (ADG). Meanwhile, the LG group exhibited elevated plasma concentrations of β-hydroxybutyrate and glucose, increased activities of superoxide dismutase and glutathione S-transferase, an increased glutathione (GSH)/glutathione disulfide (GSSG) ratio, and reduced GSSG content. GTR treatment decreased reactive oxygen species and oxidative stress index. Furthermore, dietary GTR significantly modified the rumen microbial community structure, enriching Xylanibacter and Prevotellaceae_UCG-003, while reducing the abundance of Rikenellaceae_RC9_gut_group. Plasma metabolomics revealed that GTR treatment enriched GSH Metabolism and the Pentose Phosphate Pathway. Notably, gamma-glutamylcysteine was identified as a key mediator of the association between Xylanibacter and ADG in fattening beef cattle supplemented with GTR.\nCONCLUSIONS: Dietary supplementation with 75 g/steer/d GTR improved growth performance and systemic antioxidant capacity in finishing beef cattle by modulating the rumen microbiota and activating the glutathione system. GTR represents a promising functional feed additive that simultaneously valorizes tea by‑products and enhances livestock productivity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antioxidant",
+      "Beef cattle",
+      "Glutathione",
+      "Green tea residue",
+      "Growth performance",
+      "Microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-02"
+  }
+]
