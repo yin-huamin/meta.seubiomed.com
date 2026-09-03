@@ -1,0 +1,34 @@
+[
+  {
+    "pmid": "42689363",
+    "title": "Catechins and Their Effect on the Gut Microbiome in Health and Cancer.",
+    "doi": null,
+    "journal": "Phytotherapy research : PTR",
+    "issn": "1099-1573",
+    "pub_date": "2026-09-03",
+    "authors": "Monika Prakash; Sadanandan Bindu; Tejashree Honnamachanahalli Ramachandraiah; Darbha Maitreyi; Gupta Kirti et al.",
+    "abstract": "Catechins are a group of flavonoids found primarily in green tea, fruits, and berries; they play a significant role in the modulation of the gut microbiota, thereby having an impact on gut health and cancer prevention. Owing to their low bioavailability, catechins are transformed by the gut microbiota into various bioactive metabolites such as valerolactones and glucuronides, which support the growth of several beneficial bacterial species including Bifidobacterium and Lactobacillus while inhibiting harmful strains like Clostridium difficile and Escherichia coli. These interactions enhance metabolic balance, reduce inflammation, and help maintain gut homeostasis, which is critical for preventing gut dysbiosis. Dysbiosis is characterized by a shift from symbiotic to pathogenic microbial populations and is closely associated with cancer development, especially in the gut. This review explores how catechins, particularly epigallocatechin gallate (EGCG), contribute to cancer prevention by promoting a symbiotic microbial environment, supporting immune modulation, and inhibiting inflammatory pathways. By examining the role of catechins in both health and cancer, this paper aims to emphasize their therapeutic potential as dietary supplements in maintaining gut health and reducing cancer risk.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "EGCG",
+      "cancer",
+      "catechins",
+      "gut dysbiosis",
+      "gut microbiome",
+      "gut microbiota"
+    ],
+    "summary_zh": "综述儿茶素（尤其EGCG）经肠道菌群代谢，调节菌群平衡、抑制炎症，改善肠道健康并降低癌症风险。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "健康与癌症人群的肠道菌群；儿茶素作用的综述研究",
+    "disease": "癌症（尤其肠道癌症）；肠道菌群失调",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-03"
+  }
+]
