@@ -1,0 +1,40 @@
+[
+  {
+    "pmid": "42685222",
+    "title": "Bifidobacterium animalis subsp. lactis V9 overcomes CYFRA 21-1-linked immunochemotherapy resistance in NSCLC via microbial metabolites.",
+    "doi": null,
+    "journal": "Science advances",
+    "issn": "2375-2548",
+    "pub_date": "2026-09-04",
+    "authors": "Feng Cuijiao; Gao Guangqi; He Qiuwen; Kwok Lai-Yu; Liu Cong et al.",
+    "abstract": "Gut dysbiosis drives therapeutic resistance, yet the relationships among typical tumor markers, gut microbiota, and treatment efficacy remain poorly defined. Here, elevated serum CYFRA 21-1 in advanced non-small cell lung cancer (NSCLC) correlates with gut dysbiosis, including Bifidobacterium animalis depletion and reduced immunomodulatory metabolites. Fecal supernatant from patients with high-CYFRA attenuated immunochemotherapy efficacy in tumor-bearing mice, linked to disrupted tryptophan and phenylalanine metabolism. Adjuvant B. animalis subsp. lactis V9 enhanced tumor control and antitumor immunity, coinciding with elevated quinaldic acid and catechol, metabolites associated with caspase-dependent apoptosis and ferroptosis. Cell-free fecal supernatant transferred antitumor effects, independent of bacterial colonization. In a randomized, double-blind, placebo-controlled pilot trial (n = 30), adjunctive B. lactis V9 associated with a higher objective response rate (47% versus 33%), disease control rate (87% versus 67%), and prolonged progression-free survival in responders, who exhibited enriched B. animalis and elevated quinaldic acid/catechol (area under the curve = 0.73/0.82). These findings suggest CYFRA 21-1 may identify a modifiable, microbiome-linked state of treatment resistance.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Animals",
+      "Lung Neoplasms",
+      "Bifidobacterium animalis",
+      "Antigens, Neoplasm",
+      "Mice",
+      "Keratin-19",
+      "Drug Resistance, Neoplasm",
+      "Female",
+      "Immunotherapy",
+      "Male"
+    ],
+    "keywords": [],
+    "summary_zh": "研究发现NSCLC患者血清CYFRA 21-1升高与肠道菌群失调相关，补充动物双歧杆菌乳亚种V9通过代谢物增强免疫化疗疗效，并改善临床结局。",
+    "innovation": "揭示CYFRA 21-1与肠道菌群失调及治疗抵抗的关联 | 证明双歧杆菌V9通过代谢物（喹哪酸、儿茶酚）而非定植发挥抗肿瘤作用 | 随机双盲安慰剂对照试验显示V9提高客观缓解率和无进展生存期",
+    "limitation": "样本量较小（n=30） | 未描述",
+    "study_object": "晚期非小细胞肺癌患者粪便样本及肿瘤小鼠模型，采用微生物组测序和代谢组学",
+    "disease": "非小细胞肺癌",
+    "sample_size": "n=30",
+    "ai_done": true,
+    "fetch_date": "2026-09-04"
+  }
+]
