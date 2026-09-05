@@ -1,0 +1,42 @@
+[
+  {
+    "pmid": "42537823",
+    "title": "Beyond the parasite: reframing cutaneous leishmaniasis as a host-microbiome-vector ecosystem.",
+    "doi": null,
+    "journal": "International journal of pharmaceutics",
+    "issn": "1873-3476",
+    "pub_date": "2026-09-05",
+    "authors": "Laetitia Huët Marie Andrea; Bhaw-Luximon Archana",
+    "abstract": "Disease outcomes of cutaneous leishmaniasis (CL) result from dynamic interactions between host immunity, Leishmania parasites and the host-sandfly microbiomes. Current treatments focus on parasite elimination but are limited by toxicity, drug resistance, side effects and poor wound healing. These challenges highlight the need for multi-targeted interventions by transforming CL treatment from a single-infection model to an integrated host-microbe-parasite model. This review features advances in host-microbe-parasite-vector-based strategies for CL treatment, including emerging engineering and synthetic biology approaches. We also discuss the growing role of computational and artificial intelligence (AI)-driven frameworks in guiding the design of novel therapeutics and enhancing the efficacy of existing treatments. Climate change through rising temperatures, altered precipitation, and extended suitable habitats, is likely to increase the risk and geographic range of CL in many parts of the world. By integrating these engineering platforms with AI-guided approaches, this review outlines a systems-level strategy for developing next-generation therapies aimed at reducing the global burden of CL.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Animals",
+      "Leishmaniasis, Cutaneous",
+      "Humans",
+      "Leishmania",
+      "Psychodidae",
+      "Host-Parasite Interactions",
+      "Insect Vectors",
+      "Antiprotozoal Agents",
+      "Ecosystem"
+    ],
+    "keywords": [
+      "Engineered therapeutics",
+      "Leishmaniasis",
+      "Multi-targeted therapy",
+      "System biology"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-05"
+  }
+]
