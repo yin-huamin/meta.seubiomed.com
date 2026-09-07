@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42703634",
+    "title": "Comparative Diagnostic Performance of Oral Microbial Habitats for Periodontitis.",
+    "doi": null,
+    "journal": "Journal of dental research",
+    "issn": "1544-0591",
+    "pub_date": "2026-09-07",
+    "authors": "Tomás I; Suárez-Rodríguez B; Blanco-Pintos T; Sánchez-Barco A; Alonso-Sampedro M et al.",
+    "abstract": "Periodontitis affects more than 1 billion people worldwide but remains largely underdiagnosed. The oral microbiota offers a noninvasive diagnostic window, but studies based on 16S rRNA data have reported heterogeneous and often suboptimal performance. It remains unclear which oral habitat and modeling strategy best support clinical decision making. We analyzed 2,303 adult samples from 33 publicly available 16S rRNA V3-V4 Illumina projects encompassing saliva, supragingival, and subgingival habitats. Amplicon sequence variants (ASVs) were identified against the expanded Human Oral Microbiome Database. Compact microbial signatures were identified through multivariate techniques (sparse partial least squares discriminant analysis and a customized genetic algorithm). Five machine-learning algorithms were benchmarked under repeated cross-validation and test-set evaluation. Diagnostic performance was assessed using the area under the receiver-operating characteristic curve (AUC), and clinical net benefit was assessed using decision curve analysis (DCA). Generalized additive models (GAMs) provided the best discrimination with compact panels of 6 to 12 ASVs. Saliva and supragingival achieved the best discrimination (AUC = 0.928 and 0.903; sensitivity = 92.4% and 87.6%; specificity = 85.3% and 81.7%), significantly outperforming subgingival plaque (0.803, 78.2% and 75.1%, respectively; adjusted P ≤ 0.001). DCA further demonstrated the highest and most stable net clinical benefit in saliva (AUC-DCA = 0.437), followed by supragingival (0.419) and subgingival (0.331). Forty-eight taxonomically annotated ASVs emerged as predictors, underscoring the models' biological interpretability. In subgingival sites, the most prevalent features were health-associated commensals, such as Streptococcus oralis subsp. dentisani. Supragingival plaque and saliva predominantly revealed periodontitis-associated taxa, including Porphyromonas gingivalis and Filifactor alocis. Thus, saliva and supragingival plaque better capture the microbial fingerprint of periodontitis-associated dysbiosis. Oral microbiome-based models across habitats showed consistent diagnostic performance for periodontitis. The GAM algorithm with compact, interpretable microbial signatures achieved strong discrimination and superior net benefit in saliva and supragingival samples, highlighting its potential for translation into scalable, noninvasive diagnostic tools for precision periodontics.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [
+      "biomarkers",
+      "dental plaque",
+      "machine learning",
+      "microbiota",
+      "periodontal diseases",
+      "saliva"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-07"
+  }
+]

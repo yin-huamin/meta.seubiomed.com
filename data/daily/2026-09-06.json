@@ -1,0 +1,154 @@
+[
+  {
+    "pmid": "42702821",
+    "title": "Determinants of enteric hyperoxaluria in the SAMP1/YitFc mouse model of spontaneous ileitis.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-09-06",
+    "authors": "Zaidan Nadim; Jaber Karim; Ho Melody; Zhou Boyan; Pei Zhiheng et al.",
+    "abstract": "Enteric hyperoxaluria (EH) results from increased oxalate bioavailability in the gastrointestinal (GI) tract, often affecting patients with inflammatory bowel disease (IBD). We investigated the pathophysiology of EH in an ileitis mouse model, hypothesizing that fat malabsorption, increased gut permeability, and microbial shifts collectively contribute to the hyperoxaluric phenotype in the setting of GI tract inflammation. SAMP1/YitFc (SAMP1) mice and their parental AKR controls were fed one of three diets varying in fat content (10%, 45%, or 60% kcal), each supplemented with 1% oxalate, for 6 weeks. Plasma (P), urine (U), oxalate (Ox), and creatinine (Cr) levels were measured, while stool lipid species were analyzed using mass spectrometry. Intestinal permeability was assessed using sucralose and 13C2 oxalate gastric gavage in SAMP1 and AKR mice. Histology, qPCR, and Western blotting were performed on kidney, liver, and GI tissues. Microbial DNA was analyzed at the community, genus, and functional levels. Changes in bacterial metabolic pathways were investigated in the mice fed the highest fat content. The oxalobiome of SAMP1 and AKR mice was characterized using our bioinformatics pipeline. On high-fat diets, SAMP1 mice had higher UOx, POx, and PCr levels than AKR mice. Increased levels of diacylglycerols and free fatty acids in SAMP1 stool samples suggested fat malabsorption. A decrease in ZO1 and occludin intestinal expression, coupled with significantly increased urinary sucralose and oxalate levels, indicated increased intestinal permeability. Microbiome analysis revealed the enrichment of Lactobacilli and Bacteroides in SAMP1 mice, with bacterial pathways favoring lipid synthesis and glyoxylate metabolism. Ileal SLC26A6 protein expression was significantly reduced in SAMP1 mice. SAMP1 mice also developed progressive kidney injury with interstitial inflammation. These findings highlight fat malabsorption as a central pathophysiologic disturbance in EH that reduces luminal calcium availability for oxalate binding, is associated with enhanced intestinal permeability, and accompanies microbiome and enzymatic pathway alterations.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Hyperoxaluria",
+      "Mice",
+      "Disease Models, Animal",
+      "Ileitis",
+      "Gastrointestinal Microbiome",
+      "Oxalates",
+      "Permeability",
+      "Intestinal Barrier Function",
+      "Male",
+      "Bacteria",
+      "Mice, Inbred AKR",
+      "Feces",
+      "Ileum",
+      "Diet, High-Fat",
+      "Kidney"
+    ],
+    "keywords": [
+      "Gut microbiome",
+      "chronic kidney disease",
+      "enteric hyperoxaluria",
+      "ileitis",
+      "malabsorption",
+      "permeability"
+    ],
+    "summary_zh": "研究回肠炎小鼠模型中肠源性高草酸尿症的病理生理，发现脂肪吸收不良、肠道通透性增加及菌群变化等机制。",
+    "innovation": "使用SAMP1/YitFc自发性回肠炎模型研究EH病理生理 | 结合脂质组学、微生物组与功能实验揭示多因素机制 | 应用生物信息学管道表征oxalobiome",
+    "limitation": "未描述",
+    "study_object": "SAMP1/YitFc自发回肠炎小鼠及AKR对照，粪便、尿液、血浆及肠道/肾脏等组织样本，结合脂质组学、微生物组和分子生物学分析",
+    "disease": "肠源性高草酸尿症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-06"
+  },
+  {
+    "pmid": "42702245",
+    "title": "Biological mechanisms underlying avoidant/restrictive food intake disorder (ARFID).",
+    "doi": null,
+    "journal": "Neuroscience",
+    "issn": "1873-7544",
+    "pub_date": "2026-09-06",
+    "authors": "Dremuk Irina A; Smolensky Ilya V",
+    "abstract": "Avoidant/restrictive food intake disorder (ARFID) is a complex eating disorder characterized by persistent avoidance or restriction of food intake that is not driven by concerns about body weight or shape. ARFID is characterized by an extremely low food intake and may be driven by sensory aversions to certain foods, a low interest in food, and/or traumatic experiences related to food intake, leading to avoidance. Although ARFID has a number of specific criteria and symptoms, many aspects of its diagnosis, development, and treatment remain unclear. In this narrative review, we summarize the available evidence on molecular, cellular, and neurobiological mechanisms potentially underlying the core manifestations of ARFID, including food avoidance and restriction, sensory-based food aversion, and fear of aversive consequences. The potential mechanisms discussed include altered sensory processing, dysregulation of hunger and satiety signals, conditioned taste aversion and other forms of associative learning, alterations in the microbiome-gut-brain axis, immune mechanisms, and genetic factors. Because direct evidence from ARFID populations remains limited, we also consider findings from related but diagnostically distinct conditions and phenotypes, including picky or selective eating, food neophobia, and sensory food aversion. Such findings may provide insights into mechanisms relevant to ARFID but cannot be assumed to be specific to the disorder. By integrating evidence across these biological domains, this review aims to identify potential mechanisms underlying the heterogeneous manifestations of ARFID and highlight priorities for future research.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Avoidant/restrictive food intake disorder",
+      "Food avoidance",
+      "Hunger/satiety signals",
+      "Selective eating disorder",
+      "TAS2R38",
+      "Taste aversion"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-06"
+  },
+  {
+    "pmid": "42670175",
+    "title": "Vaginal drug delivery for precision therapy in polyendocrine metabolic ovarian syndrome: emerging technologies, translational challenges and future perspectives.",
+    "doi": null,
+    "journal": "Expert opinion on drug delivery",
+    "issn": "1744-7593",
+    "pub_date": "2026-09-06",
+    "authors": "Shah Shailvi; Parikh Ankit; Garg Sanjay; Mehta Tejal",
+    "abstract": "INTRODUCTION: Polyendocrine Metabolic Ovarian Syndrome (PMOS) is an endocrine disorder characterized by metabolic dysfunction, hormonal imbalance, inflammation, and clinical manifestations. Current treatments, systemic drugs, may provide limited benefits because of adverse effects, variable efficacy, and poor adherence, highlighting the need for personalized therapeutic strategies. Vaginal administration offers an underexplored approach that may enable localized delivery, reduce systemic exposure, and dosing frequency. Furthermore, the vaginal microenvironment can influence drug stability, absorption, retention, and therapeutic outcomes.\nAREAS COVERED: This review examines the pathophysiological basis of PMOS and recent advances in vaginal drug delivery (VDD) systems for precision therapy. It highlights the transition from conventional approaches to nanoscale carriers, bioresponsive formulations, genetic and microbiome-informed strategies, and 3D-printed devices. The roles of artificial intelligence, machine learning, point-of-care diagnostics, and theranostic platforms in personalized therapy are discussed, together with translational and regulatory considerations. Relevant literature was compiled by searching PubMed, Scopus, Web of Science, and Google Scholar.\nEXPERT OPINION: VDD represents a promising precision medicine approach for PMOS; however, clinical translation remains challenged by vaginal microenvironment variability, limited safety evidence, formulation scalability, patient acceptance, and insufficient clinical validation. Future progress will require interdisciplinary integration of biomaterial engineering, biology, drug delivery, microbiome science, and digital health.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "PCOS",
+      "PMOS",
+      "nanomedicine",
+      "targeted therapy",
+      "vaginal drug delivery"
+    ],
+    "summary_zh": "综述多内分泌代谢性卵巢综合征的病理生理及阴道给药系统用于精准治疗的进展，指出其潜力与临床转化挑战。",
+    "innovation": "提出阴道给药作为PMOS精准治疗的新策略 | 涵盖纳米载体、生物响应制剂、微生物组及3D打印等技术 | 整合人工智能和数字健康以推动个性化治疗",
+    "limitation": "阴道微环境变异、安全性证据不足、制剂规模化困难、患者接受度低及临床验证不足",
+    "study_object": "多内分泌代谢性卵巢综合征患者的阴道药物递送系统（综述）",
+    "disease": "多内分泌代谢性卵巢综合征（PMOS）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-06"
+  },
+  {
+    "pmid": "42701924",
+    "title": "Polyglutamic acid-functionalized carbon dots enhance cadmium tolerance in Houttuynia cordata through coordinated regulation of physiological responses, gene expression and the rhizosphere microbiome.",
+    "doi": null,
+    "journal": "Plant cell reports",
+    "issn": "1432-203X",
+    "pub_date": "2026-09-06",
+    "authors": "Zhao Beibei; Li Mei; Liu Dan; Liu Chuanhuan; Jiang Jie et al.",
+    "abstract": "polyglutamic acid-functionalized carbon dots improve Cadmium tolerance in Houttuynia cordata by reducing Cadmium accumulation, restoring physiological functions, and reshaping rhizosphere microbial communities. Cadmium (Cd) pollution significantly inhibits the growth and development of H. cordata and poses a serious threat to the safe production of this medicinal plant. In this study, polyglutamic acid-functionalized carbon dots (PGA-CDs) were synthesized by the hydrothermal method, and the mechanism of their role in alleviating Cd stress in H. cordata was systematically investigated. The results showed that compared with the Cd group, the biomass of H. cordata in the Cd+PGA-CDs group significantly increased, and the Cd2+ concentration in the plant decreased. At the same time, PGA-CDs effectively removed reactive oxygen species and regulated the activity of related antioxidant enzymes to alleviate oxidative damage. Moreover, PGA-CDs significantly alleviated the damage to the ultrastructure of chloroplasts caused by Cd stress and enhanced the photosynthetic capacity of the plants. Transcriptome analysis indicated that PGA-CDs treatment significantly changed the expression patterns of genes related to photosynthesis, secondary metabolism, lipid metabolism, and signal response, and regulated the expression of multiple transcription factors and genes related to metal ion homeostasis and transport. Additionally, PGA-CDs increased the α diversity of the rhizosphere microbial community and promoted the enrichment of microbial groups related to plant symbiosis or environmental adaptation, such as the Pseudomonadota, Bacteroidota and Verrucomicrobiota. Through integrated analysis, it further revealed the potential synergistic relationship between gene expression changes, rhizosphere microbial composition, and plant physiological indicators. This study provides new insights into the use of nanomaterials to enhance the adaptability of plants to heavy metals stress.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Cadmium",
+      "Carbon Quantum Dots",
+      "Rhizosphere",
+      "Polyglutamic Acid",
+      "Houttuynia",
+      "Gene Expression Regulation, Plant",
+      "Microbiota",
+      "Photosynthesis",
+      "Reactive Oxygen Species"
+    ],
+    "keywords": [
+      "Antioxidant enzymes",
+      "Cadmium stress",
+      "Carbon dots",
+      "Photosynthesis",
+      "Rhizosphere microbiome",
+      "Transcriptional regulation"
+    ],
+    "summary_zh": "本研究合成聚谷氨酸功能化碳点，通过生理、转录组和根际微生物分析，揭示其缓解鱼腥草镉胁迫的机制。",
+    "innovation": "开发聚谷氨酸功能化碳点用于缓解植物重金属胁迫 | 整合转录组和根际微生物组揭示协同调控机制",
+    "limitation": "未描述",
+    "study_object": "鱼腥草植株及根际微生物，转录组分析和微生物群落分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-06"
+  }
+]

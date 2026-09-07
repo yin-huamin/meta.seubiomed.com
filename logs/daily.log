@@ -1,77 +1,139 @@
-2026-09-06 15:20:01 [INFO] ▶ 开始每日更新...
-2026-09-06 15:20:01 [INFO] ===== 开始每日更新 2026-09-06 =====
-2026-09-06 15:20:01 [WARNING] 检测到缺少数据: 2026-09-06
-2026-09-06 15:20:01 [INFO] 需要补全数据: ['2026-09-06']
-2026-09-06 15:20:01 [INFO] 
+2026-09-07 17:39:37 [INFO] ▶ 开始每日更新...
+2026-09-07 17:39:37 [INFO] ===== 开始每日更新 2026-09-07 =====
+2026-09-07 17:39:37 [WARNING] 检测到缺少数据: 2026-09-07
+2026-09-07 17:39:37 [WARNING] 检测到缺少数据: 2026-09-06
+2026-09-07 17:39:37 [INFO] 需要补全数据: ['2026-09-07', '2026-09-06']
+2026-09-07 17:39:37 [INFO] 
 ==================================================
-2026-09-06 15:20:01 [INFO] 开始抓取 2026-09-06 的论文
-2026-09-06 15:20:01 [INFO] ==================================================
-2026-09-06 15:20:01 [INFO] Step 1: 抓取 PubMed 新论文
-2026-09-06 15:20:01 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-09-06 15:20:01 [INFO] 已有 773 篇文献记录，不再重复检索
-2026-09-06 15:20:01 [INFO] 正在搜索 2026/09/06 的新论文...
-2026-09-06 15:20:01 [INFO] 搜索到 1 篇 PMID
-2026-09-06 15:20:01 [INFO]   其中新增 1 篇（过滤已有 0 篇）
-2026-09-06 15:20:02 [INFO]   内容过滤: 排除 0 篇，保留 1 篇
-2026-09-06 15:20:02 [INFO]   期刊过滤: 排除 1 篇，保留 0 篇
-2026-09-06 15:20:02 [INFO] 
-2026-09-06 15:20:02 [INFO] ================================================================================
-2026-09-06 15:20:02 [INFO]   📋 本次搜索论文汇总（共 1 篇）
-2026-09-06 15:20:02 [INFO] ================================================================================
-2026-09-06 15:20:02 [INFO]   📵 期刊过滤排除 (1 篇):
-2026-09-06 15:20:02 [INFO]     [1] PMID 42701321 | Critical reviews in food science and nutrition
-2026-09-06 15:20:02 [INFO]         Non-hormonal strategies for menopausal health: the role of phytoestrogens.
-2026-09-06 15:20:02 [INFO]         原因: 期刊不在 journal_info.tsv 中: Critical reviews in food science and nutrition
-2026-09-06 15:20:02 [INFO] ================================================================================
-2026-09-06 15:20:02 [INFO] 
-2026-09-06 15:20:03 [INFO] 今日无新增论文
-2026-09-06 15:20:03 [INFO] Step 2: AI 摘要生成
-2026-09-06 15:20:03 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-09-06.json
-2026-09-06 15:20:03 [INFO] 
+2026-09-07 17:39:37 [INFO] 开始抓取 2026-09-06 的论文
+2026-09-07 17:39:37 [INFO] ==================================================
+2026-09-07 17:39:37 [INFO] Step 1: 抓取 PubMed 新论文
+2026-09-07 17:39:37 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-09-07 17:39:37 [INFO] 已有 773 篇文献记录，不再重复检索
+2026-09-07 17:39:37 [INFO] 正在搜索 2026/09/06 的新论文...
+2026-09-07 17:39:38 [INFO] 搜索到 9 篇 PMID
+2026-09-07 17:39:38 [INFO]   其中新增 9 篇（过滤已有 0 篇）
+2026-09-07 17:39:39 [INFO]   内容过滤: 排除 2 篇，保留 7 篇
+2026-09-07 17:39:39 [INFO]   期刊过滤: 排除 3 篇，保留 4 篇
+2026-09-07 17:39:39 [INFO] 
+2026-09-07 17:39:39 [INFO] ================================================================================
+2026-09-07 17:39:39 [INFO]   📋 本次搜索论文汇总（共 9 篇）
+2026-09-07 17:39:39 [INFO] ================================================================================
+2026-09-07 17:39:39 [INFO]   ✅ 已收录 (4 篇):
+2026-09-07 17:39:39 [INFO]     [1] PMID 42702821 | Gut microbes
+2026-09-07 17:39:39 [INFO]         Determinants of enteric hyperoxaluria in the SAMP1/YitFc mouse model of spontaneous ileitis.
+2026-09-07 17:39:39 [INFO]     [2] PMID 42702245 | Neuroscience
+2026-09-07 17:39:39 [INFO]         Biological mechanisms underlying avoidant/restrictive food intake disorder (ARFID).
+2026-09-07 17:39:39 [INFO]     [3] PMID 42670175 | Expert opinion on drug delivery
+2026-09-07 17:39:39 [INFO]         Vaginal drug delivery for precision therapy in polyendocrine metabolic ovarian syndrome: emerging technologies, translational challenges and future perspectives.
+2026-09-07 17:39:39 [INFO]     [4] PMID 42701924 | Plant cell reports
+2026-09-07 17:39:39 [INFO]         Polyglutamic acid-functionalized carbon dots enhance cadmium tolerance in Houttuynia cordata through coordinated regulation of physiological responses, gene expression and the rhizosphere microbiome.
+2026-09-07 17:39:39 [INFO]   🚫 内容过滤排除 (2 篇):
+2026-09-07 17:39:39 [INFO]     [1] PMID 42702307 | Plant science : an international journal of experimental plant biology
+2026-09-07 17:39:39 [INFO]         Context-dependent responses of Festuca rubra subsp. pruinosa to salinity, nutrient availability, and Epichloë festucae.
+2026-09-07 17:39:39 [INFO]         原因: 内容含排除词: plant
+2026-09-07 17:39:39 [INFO]     [2] PMID 42702999 | Omics : a journal of integrative biology
+2026-09-07 17:39:39 [INFO]         Unveiling the Molecular Secrets of Seaweeds: A Comprehensive Review of Bioinformatics Applications in Algal Research.
+2026-09-07 17:39:39 [INFO]         原因: 内容含排除词: seaweed
+2026-09-07 17:39:39 [INFO]   📵 期刊过滤排除 (3 篇):
+2026-09-07 17:39:39 [INFO]     [1] PMID 42702945 | British journal of haematology
+2026-09-07 17:39:39 [INFO]         Predicted microbiome-associated metabolic pathways are linked to immune checkpoint modulation in chronic lymphocytic leukaemia.
+2026-09-07 17:39:39 [INFO]         原因: 期刊不在 journal_info.tsv 中: British journal of haematology
+2026-09-07 17:39:39 [INFO]     [2] PMID 42702160 | Ultrasonics sonochemistry
+2026-09-07 17:39:39 [INFO]         Metagenomic and physicochemical insights into ultrasound-assisted fermentation: Reprogramming Komagataeibacter intermedius metabolic efficiency for astringency control.
+2026-09-07 17:39:39 [INFO]         原因: 期刊不在 journal_info.tsv 中: Ultrasonics sonochemistry
+2026-09-07 17:39:39 [INFO]     [3] PMID 42701321 | Critical reviews in food science and nutrition
+2026-09-07 17:39:39 [INFO]         Non-hormonal strategies for menopausal health: the role of phytoestrogens.
+2026-09-07 17:39:39 [INFO]         原因: 期刊不在 journal_info.tsv 中: Critical reviews in food science and nutrition
+2026-09-07 17:39:39 [INFO] ================================================================================
+2026-09-07 17:39:39 [INFO] 
+2026-09-07 17:39:40 [INFO] 已保存 4 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-09-06.json
+2026-09-07 17:39:40 [INFO] Step 2: AI 摘要生成
+2026-09-07 17:39:40 [INFO] 共需处理 1 个文件
+2026-09-07 17:39:40 [INFO] 处理: 2026-09-06.json
+2026-09-07 17:39:40 [INFO]   [1/4] PMID 42702821 | Determinants of enteric hyperoxaluria in the SAMP1/YitFc mou
+2026-09-07 17:39:47 [INFO]   [2/4] PMID 42702245 | Biological mechanisms underlying avoidant/restrictive food i
+2026-09-07 17:39:55 [WARNING] LLM 返回 JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-09-07 17:39:57 [INFO]   [3/4] PMID 42670175 | Vaginal drug delivery for precision therapy in polyendocrine
+2026-09-07 17:40:07 [INFO]   [4/4] PMID 42701924 | Polyglutamic acid-functionalized carbon dots enhance cadmium
+2026-09-07 17:40:13 [INFO]   ✓ 已更新 2026-09-06.json（4 篇）
+2026-09-07 17:40:13 [INFO] 
+==================================================
+2026-09-07 17:40:13 [INFO] 开始抓取 2026-09-07 的论文
+2026-09-07 17:40:13 [INFO] ==================================================
+2026-09-07 17:40:13 [INFO] Step 1: 抓取 PubMed 新论文
+2026-09-07 17:40:13 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-09-07 17:40:13 [INFO] 已有 777 篇文献记录，不再重复检索
+2026-09-07 17:40:13 [INFO] 正在搜索 2026/09/07 的新论文...
+2026-09-07 17:40:13 [INFO] 搜索到 2 篇 PMID
+2026-09-07 17:40:13 [INFO]   其中新增 2 篇（过滤已有 0 篇）
+2026-09-07 17:40:14 [INFO]   内容过滤: 排除 0 篇，保留 2 篇
+2026-09-07 17:40:14 [INFO]   期刊过滤: 排除 1 篇，保留 1 篇
+2026-09-07 17:40:14 [INFO] 
+2026-09-07 17:40:14 [INFO] ================================================================================
+2026-09-07 17:40:14 [INFO]   📋 本次搜索论文汇总（共 2 篇）
+2026-09-07 17:40:14 [INFO] ================================================================================
+2026-09-07 17:40:14 [INFO]   ✅ 已收录 (1 篇):
+2026-09-07 17:40:14 [INFO]     [1] PMID 42703634 | Journal of dental research
+2026-09-07 17:40:14 [INFO]         Comparative Diagnostic Performance of Oral Microbial Habitats for Periodontitis.
+2026-09-07 17:40:14 [INFO]   📵 期刊过滤排除 (1 篇):
+2026-09-07 17:40:14 [INFO]     [1] PMID 42703853 | Immunological investigations
+2026-09-07 17:40:14 [INFO]         Maternal Tuberculosis and Infant Gut and Immune Development: Implications for Maternal-Child Health.
+2026-09-07 17:40:14 [INFO]         原因: 期刊不在 journal_info.tsv 中: Immunological investigations
+2026-09-07 17:40:14 [INFO] ================================================================================
+2026-09-07 17:40:14 [INFO] 
+2026-09-07 17:40:15 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-09-07.json
+2026-09-07 17:40:15 [INFO] Step 2: AI 摘要生成
+2026-09-07 17:40:15 [INFO] 共需处理 1 个文件
+2026-09-07 17:40:15 [INFO] 处理: 2026-09-07.json
+2026-09-07 17:40:15 [INFO]   [1/1] PMID 42703634 | Comparative Diagnostic Performance of Oral Microbial Habitat
+2026-09-07 17:40:23 [WARNING] LLM 返回 JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-09-07 17:40:25 [INFO]   ✓ 已更新 2026-09-07.json（1 篇）
+2026-09-07 17:40:25 [INFO] 
 Step 3: 整合数据
-2026-09-06 15:20:03 [INFO] 累积基础 4843 篇 + 新增 16 篇 = 共 4859 篇
-2026-09-06 15:20:03 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-09-06 15:20:03 [INFO] 分区过滤: 排除 17 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4842 篇
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4364 KB)
-2026-09-06 15:20:03 [INFO]   2015: 91 篇 -> 2015.json
-2026-09-06 15:20:03 [INFO]   2016: 94 篇 -> 2016.json
-2026-09-06 15:20:03 [INFO]   2017: 86 篇 -> 2017.json
-2026-09-06 15:20:03 [INFO]   2018: 106 篇 -> 2018.json
-2026-09-06 15:20:03 [INFO]   2019: 183 篇 -> 2019.json
-2026-09-06 15:20:03 [INFO]   2020: 373 篇 -> 2020.json
-2026-09-06 15:20:03 [INFO]   2021: 450 篇 -> 2021.json
-2026-09-06 15:20:03 [INFO]   2022: 569 篇 -> 2022.json
-2026-09-06 15:20:03 [INFO]   2023: 558 篇 -> 2023.json
-2026-09-06 15:20:03 [INFO]   2024: 681 篇 -> 2024.json
-2026-09-06 15:20:03 [INFO]   2025: 810 篇 -> 2025.json
-2026-09-06 15:20:03 [INFO]   2026: 841 篇 -> 2026.json
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-09-06 15:20:03 [INFO] 
+2026-09-07 17:40:25 [INFO] 累积基础 4843 篇 + 新增 21 篇 = 共 4864 篇
+2026-09-07 17:40:25 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-09-07 17:40:25 [INFO] 分区过滤: 排除 17 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4847 篇
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4368 KB)
+2026-09-07 17:40:25 [INFO]   2015: 91 篇 -> 2015.json
+2026-09-07 17:40:25 [INFO]   2016: 94 篇 -> 2016.json
+2026-09-07 17:40:25 [INFO]   2017: 86 篇 -> 2017.json
+2026-09-07 17:40:25 [INFO]   2018: 106 篇 -> 2018.json
+2026-09-07 17:40:25 [INFO]   2019: 183 篇 -> 2019.json
+2026-09-07 17:40:25 [INFO]   2020: 373 篇 -> 2020.json
+2026-09-07 17:40:25 [INFO]   2021: 450 篇 -> 2021.json
+2026-09-07 17:40:25 [INFO]   2022: 569 篇 -> 2022.json
+2026-09-07 17:40:25 [INFO]   2023: 558 篇 -> 2023.json
+2026-09-07 17:40:25 [INFO]   2024: 681 篇 -> 2024.json
+2026-09-07 17:40:25 [INFO]   2025: 810 篇 -> 2025.json
+2026-09-07 17:40:25 [INFO]   2026: 846 篇 -> 2026.json
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-09-07 17:40:25 [INFO] 
 ==================================================
-2026-09-06 15:20:03 [INFO] ===== 完成！共 4842 篇文献 =====
-2026-09-06 15:20:03 [INFO] 已补全 1 天的数据
-2026-09-06 15:20:03 [INFO] ==================================================
-2026-09-06 15:20:03 [INFO] ✓ 每日更新完成
-2026-09-06 15:20:03 [INFO] ▶ 开始整合数据...
-2026-09-06 15:20:03 [INFO] 累积基础 4842 篇 + 新增 17 篇 = 共 4859 篇
-2026-09-06 15:20:03 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-09-06 15:20:03 [INFO] 分区过滤: 排除 16 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4843 篇
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4365 KB)
-2026-09-06 15:20:03 [INFO]   2015: 91 篇 -> 2015.json
-2026-09-06 15:20:03 [INFO]   2016: 94 篇 -> 2016.json
-2026-09-06 15:20:03 [INFO]   2017: 86 篇 -> 2017.json
-2026-09-06 15:20:03 [INFO]   2018: 106 篇 -> 2018.json
-2026-09-06 15:20:03 [INFO]   2019: 183 篇 -> 2019.json
-2026-09-06 15:20:03 [INFO]   2020: 373 篇 -> 2020.json
-2026-09-06 15:20:03 [INFO]   2021: 450 篇 -> 2021.json
-2026-09-06 15:20:03 [INFO]   2022: 569 篇 -> 2022.json
-2026-09-06 15:20:03 [INFO]   2023: 558 篇 -> 2023.json
-2026-09-06 15:20:03 [INFO]   2024: 681 篇 -> 2024.json
-2026-09-06 15:20:03 [INFO]   2025: 810 篇 -> 2025.json
-2026-09-06 15:20:03 [INFO]   2026: 842 篇 -> 2026.json
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-09-06 15:20:03 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-09-06 15:20:03 [INFO] ✓ 整合完成！共 4843 篇文献
+2026-09-07 17:40:25 [INFO] ===== 完成！共 4847 篇文献 =====
+2026-09-07 17:40:25 [INFO] 已补全 2 天的数据
+2026-09-07 17:40:25 [INFO] ==================================================
+2026-09-07 17:40:25 [INFO] ✓ 每日更新完成
+2026-09-07 17:40:25 [INFO] ▶ 开始整合数据...
+2026-09-07 17:40:25 [INFO] 累积基础 4847 篇 + 新增 17 篇 = 共 4864 篇
+2026-09-07 17:40:25 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-09-07 17:40:25 [INFO] 分区过滤: 排除 15 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 4849 篇
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4370 KB)
+2026-09-07 17:40:25 [INFO]   2015: 91 篇 -> 2015.json
+2026-09-07 17:40:25 [INFO]   2016: 94 篇 -> 2016.json
+2026-09-07 17:40:25 [INFO]   2017: 86 篇 -> 2017.json
+2026-09-07 17:40:25 [INFO]   2018: 106 篇 -> 2018.json
+2026-09-07 17:40:25 [INFO]   2019: 183 篇 -> 2019.json
+2026-09-07 17:40:25 [INFO]   2020: 373 篇 -> 2020.json
+2026-09-07 17:40:25 [INFO]   2021: 450 篇 -> 2021.json
+2026-09-07 17:40:25 [INFO]   2022: 569 篇 -> 2022.json
+2026-09-07 17:40:25 [INFO]   2023: 558 篇 -> 2023.json
+2026-09-07 17:40:25 [INFO]   2024: 681 篇 -> 2024.json
+2026-09-07 17:40:25 [INFO]   2025: 810 篇 -> 2025.json
+2026-09-07 17:40:25 [INFO]   2026: 848 篇 -> 2026.json
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-09-07 17:40:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-09-07 17:40:25 [INFO] ✓ 整合完成！共 4849 篇文献
