@@ -1,0 +1,70 @@
+[
+  {
+    "pmid": "42437307",
+    "title": "Decoding preeclampsia: A fusion of multi-view machine learning and multi-omics to identify putative inflammation-related mechanisms.",
+    "doi": null,
+    "journal": "Molecular therapy. Nucleic acids",
+    "issn": "2162-2531",
+    "pub_date": "2026-09-08",
+    "authors": "Guo Yuting; Liang Yuchao; Liu Lingxuan; Zhou Yan; Yang Xiaoyan et al.",
+    "abstract": "Preeclampsia (PE) is a leading cause of maternal and fetal morbidity and mortality worldwide, with placental inflammation recognized as a central pathogenic feature, yet the upstream triggers and inflammatory mechanisms remain incompletely understood. Here, we combined placental single-cell transcriptomics with gut metagenomic and metabolomic profiling to characterize inflammatory signatures in PE. Stratified analyses across clinical subgroups-defined by fetal number, onset timing, and fetal sex-revealed that placental single-cell transcriptomics coupled with multi-view machine learning consistently prioritized bacteria-associated inflammatory features across all subgroups. Superimposed on this shared foundation, we identified subgroup-specific trajectories: twin PE exhibited IL-1-dominant inflammation with compensatory antioxidant metabolic shifts, while singleton PE showed IFN-II-associated immune activation. Early-onset PE displayed sexual dimorphism-male fetuses featured bacterial defense pathways, lipid metabolic programs, and trophoblast-confined glycolysis, while female fetuses exhibited angiogenesis, chemotaxis, nitric oxide signaling pathways, and glycolytic reprogramming in immune cells, whereas late-onset PE exhibited comparatively attenuated inflammatory activity. Gut metagenomic profiling revealed enrichment of lipopolysaccharide (LPS)-producing taxa and depletion of beneficial commensals in PE, accompanied by metabolomic alterations that aligned with inflammatory pathways also highlighted in placental analyses. Collectively, these findings reveal a conserved bacteria-associated inflammatory program in PE that is modulated by clinical context and linked to gut microbial dysbiosis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "MT: Bioinformatics",
+      "gut microbiota",
+      "inflammation",
+      "lipopolysaccharide",
+      "machine learning",
+      "preeclampsia"
+    ],
+    "summary_zh": "结合胎盘单细胞转录组与肠道宏基因组、代谢组，利用多视图机器学习，揭示子痫前期存在保守的细菌相关炎症程序及亚组特异特征。",
+    "innovation": "多视图机器学习与多组学数据融合分析 | 按临床亚组（胎儿数、发病时间、胎儿性别）分层揭示共有及特异炎症机制 | 发现肠道菌群失调与胎盘炎症程序的关联",
+    "limitation": "未描述",
+    "study_object": "子痫前期患者的胎盘组织及肠道样本，采用单细胞转录组、宏基因组和代谢组学分析",
+    "disease": "子痫前期",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-08"
+  },
+  {
+    "pmid": "42673455",
+    "title": "Kelp forest collapse alters the reef microbiome and associated metabolome.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-09-08",
+    "authors": "Farrell Shane P; D'Angelo Timothy; Yiu Dara S; Kelminal Pakkir Shah Abzer; Stincone Paolo et al.",
+    "abstract": "In many temperate regions experiencing rapid ocean warming, kelp forests are being replaced by low-lying turf algae. Yet, whether this change in biogenic habitat alters reef-level microbial structure and function, including carbon and nutrient cycling, remains largely unknown. Here, we integrated shotgun metagenomics and nontargeted metabolomics to reveal that kelp forest loss alters the composition of the reef microbial community and its associated biochemical machinery, resulting in distinct metabolomes and microbially driven elemental use/transformations on kelp- vs. turf-dominated reefs. Our results therefore suggest that microbes play a key role in shaping kelp forest ecosystem functioning. Further, they demonstrate that human-induced ocean warming has cascading effects on microbially mediated chemistry, with implications for coastal carbon storage and nutrient regeneration.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Microbiota",
+      "Kelp",
+      "Metabolome",
+      "Coral Reefs",
+      "Ecosystem",
+      "Climate Change"
+    ],
+    "keywords": [
+      "climate change",
+      "kelp",
+      "microbiome",
+      "state shift",
+      "turf"
+    ],
+    "summary_zh": "利用宏基因组和代谢组学揭示海带森林崩溃改变珊瑚礁微生物群落组成及代谢功能，影响碳和养分循环。",
+    "innovation": "整合鸟枪法宏基因组学与非靶向代谢组学揭示海带与草丛珊瑚礁微生物生态差异 | 发现微生物驱动元素转化在生态系统功能中的关键作用",
+    "limitation": "未描述",
+    "study_object": "温带珊瑚礁（海带森林与草丛珊瑚礁）微生物群落，样本类型未明确，技术为鸟枪法宏基因组学与非靶向代谢组学",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-08"
+  }
+]
