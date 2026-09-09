@@ -1,0 +1,390 @@
+[
+  {
+    "pmid": "42573458",
+    "title": "mGem: Dentistry is strategically positioned yet underleveraged in the battle against antimicrobial resistance.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-09-09",
+    "authors": "Baker Jonathon L; Dahle Ulf R; Petersen Fernanda C",
+    "abstract": "Dentists account for roughly 10% of global antibiotic prescriptions and maintain a substantial patient contact footprint. As a result, dentistry is strategically positioned in the global response to the antimicrobial resistance (AMR) crisis, offering unique opportunities to impact antibiotic stewardship, AMR surveillance, and infection prevention. However, these opportunities are underleveraged because antibiotic stewardship is insufficiently emphasized in dental education curricula and competencies, and because dentistry is inconsistently integrated into AMR policy and national action plans. This disconnect perpetuates fragmentation in prescribing practices and weakens the alignment of dentistry with global One Health efforts. Furthermore, it leaves dentistry alienated from broader AMR research, funding, and educational frameworks. Specific integration of dentistry into AMR National Action Plans and implementation of unified, research-supported prescribing guidelines, targeted clinician education, and oral resistome surveillance could help transform dentistry from a blind spot to a fulcrum in the global AMR response.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Dentistry",
+      "Anti-Bacterial Agents",
+      "Antimicrobial Stewardship",
+      "Drug Resistance, Bacterial"
+    ],
+    "keywords": [
+      "antimicrobial resistance",
+      "dentistry",
+      "oral microbiome"
+    ],
+    "summary_zh": "本文指出牙科占全球抗生素处方约10%，但在应对抗菌药物耐药性方面未被充分利用，需加强教育、政策整合与监测。",
+    "innovation": "提出牙科在抗微生物药物耐药性应对中的战略定位未被充分利用 | 建议将牙科纳入国家行动计划并开展口腔耐药组监测",
+    "limitation": "未描述",
+    "study_object": "牙科领域、抗生素处方、教育课程与政策框架",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42623063",
+    "title": "Novelty, diversity, and genetic dark matter in enterococci of invertebrates.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-09-09",
+    "authors": "Sgardioli Bruna F; Phillips Matthew C; Miklos Arjun; Fleiszig-Evans Kailey; Manson Abigail L et al.",
+    "abstract": "Enterococci appear to have originated in the guts of early terrestrializing arthropods and invertebrates over 425 million years ago-hosts that are now highly diverse and widespread in nature today. Yet most knowledge of the genus comes from human infection-associated lineages with genomes swollen by the recent accretion of foreign DNA conveyed by mobile elements. Because invertebrates dominate terrestrial animal diversity and biomass, they would be predicted to constitute a major but little-explored reservoir of enterococcal diversity. We therefore systematically examined Enterococcus association and species diversification in invertebrate hosts of the comparatively natural, isolated, but well-characterized environment of the Azorean island of Terceira. Over 100 invertebrate specimens were examined for associated enterococci, which were taxonomically classified by whole-genome sequencing. Supporting the existence of a large pool of uncharacterized enterococci and Enterococcus-adapted genes, 40% (eight of 20) of the Enterococcus species identified were either undescribed, including four candidate new species described here, or very recently discovered. In contrast, control isolates from vertebrates were exclusively of known species typical of sampling elsewhere, discounting geographic isolation as a main driver of the novelty observed. Further, because of the abundance of E. casseliflavus and E. flavescens in this collection, we obtained the resolution necessary to quantify the divergence and decipher the drivers of speciation in the controversial division between these naturally vancomycin-resistant species. These findings provide robust support for the existence of a large pool of new species and unexplored adaptive traits in invertebrate-associated enterococci-diverse environmental survival traits optimized for expression in an enterococcal background, and well positioned for transmission into human-associated enterococcal strains.IMPORTANCEEnterococci are auxotrophic gut-associated bacteria that co-evolved with their terrestrial hosts over many eons. In the last 75 years-the \"antibiotic era\"-E. faecalis and E. faecium gained genes for antibiotic resistance and enhanced virulence, emerging as leading causes of multidrug-resistant infection. Little is known about the source of those genes or the pathway by which they entered human-associated strains. A recent global survey suggested a potentially large repository of uncharacterized genetic diversity in the enterococci of invertebrates. We directly tested this prospect by examining enterococci of invertebrate hosts in a largely natural and pastoral environment. Our findings provide clear evidence that invertebrates naturally harbor vast unexplored enterococcal diversity. Moreover, associations are likely driven by intrinsic host selection factors rather than geographic isolation. This expands our knowledge of Enterococcus biodiversity, including the identification of four novel species, identifying a vast reservoir of enterococcal genes available to species that colonize and infect humans.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Invertebrates",
+      "Enterococcus",
+      "Genetic Variation",
+      "Phylogeny",
+      "Genome, Bacterial",
+      "Whole Genome Sequencing",
+      "Humans"
+    ],
+    "keywords": [
+      "Enterococcus",
+      "antibiotic resistance",
+      "evolutionary biology",
+      "genomics",
+      "host association",
+      "invertebrate microbiome",
+      "microbial ecology",
+      "vertebrate microbiome"
+    ],
+    "summary_zh": "通过对亚速尔群岛无脊椎动物肠球菌进行全基因组测序，发现大量未描述新种，证实无脊椎动物是肠球菌多样性及基因库的重要来源。",
+    "innovation": "系统研究自然环境中无脊椎动物相关肠球菌的多样性与种化 | 发现40%物种为未描述或新近发现种，包括4个候选新种 | 利用高丰度样本解析了E. casseliflavus与E. flavescens的种化驱动因素",
+    "limitation": "未描述",
+    "study_object": "无脊椎动物（节肢动物等）肠道相关肠球菌 + 全基因组测序",
+    "disease": "无",
+    "sample_size": "超过100个无脊椎动物标本",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42545010",
+    "title": "Nonantibiotic-driven evolution reveals rare but predictable routes to broad antibiotic resistance.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-09-09",
+    "authors": "Li Carmen; Mitchell Amir",
+    "abstract": "Many medications not prescribed to treat infectious diseases have antibacterial activity at physiologically relevant concentrations, raising the risk that chronic administration of such nonantibiotics may inadvertently select for resistance in the host microbiome. However, how frequently such exposures select for adaptations that impact broad drug resistance, including to antibiotics, remains unclear. Here, we systematically evolved Escherichia coli under exposure to 40 antibiotics and nonantibiotics and profiled the cross-resistance of the drug-adapted strains to 21 antibiotics representing all major classes. Our measurements revealed that most drug-adapted strains did not become multidrug resistant. However, five nonantibiotics and three antibiotics emerged as exceptions and were repeatedly selected for broad antibiotic resistance. Whole-genome sequencing of all 168 evolved strains revealed that changes in the regulation of efflux pumps repeatedly underlay broad drug resistance and converged into two key regulatory genes, acrR and lon. Our work suggests that although inadvertent antibiotic cross-resistance is rare, specific nonantibiotics can still potentially pose a risk for the emergence of multidrug resistance.IMPORTANCEMany medications not typically prescribed to treat infectious diseases have potent antimicrobial activity at physiological concentrations. This anti-bacterial activity raises concern that long-term administration of such nonantibiotics might unintentionally select for multidrug resistance, including resistance to antibiotics. Using Escherichia coli, we show that in most cases, these nonantibiotics do not broadly select for resistance to antibiotics in vitro. However, we identified five nonantibiotics that repeatedly selected for resistance to multiple antibiotics through a shared mechanism of action-upregulation of the multidrug efflux pump AcrAB-TolC. These findings highlight that while the overall risk is low, certain nonantibiotics may still contribute to the emergence of multidrug resistance. Identifying these high-risk drugs can help guide safer prescribing practices and inform strategies to limit the spread of antibiotic resistance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Escherichia coli",
+      "Anti-Bacterial Agents",
+      "Drug Resistance, Multiple, Bacterial",
+      "Evolution, Molecular",
+      "Whole Genome Sequencing",
+      "Microbial Sensitivity Tests",
+      "Escherichia coli Proteins",
+      "Membrane Transport Proteins"
+    ],
+    "keywords": [
+      "Escherichia coli",
+      "antibiotic resistance",
+      "drug resistance evolution",
+      "efflux pumps",
+      "genome analysis",
+      "multidrug resistance"
+    ],
+    "summary_zh": "对大肠杆菌进行40种药物暴露进化，发现少数非抗生素可通过外排泵调控突变反复导致广谱抗生素耐药。",
+    "innovation": "系统评估40种药物暴露后对21种抗生素的交叉耐药谱 | 揭示非抗生素仅通过外排泵调控基因突变即可反复选择广谱耐药 | 识别出5种高风险非抗生素",
+    "limitation": "仅限体外实验（in vitro）",
+    "study_object": "大肠杆菌进化菌株，全基因组测序，药敏实验",
+    "disease": "无",
+    "sample_size": "168个进化菌株",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42623488",
+    "title": "Etiologic diagnosis of suspected tuberculous meningitis by multiplex PCR of cerebrospinal fluid.",
+    "doi": null,
+    "journal": "Journal of clinical microbiology",
+    "issn": "1098-660X",
+    "pub_date": "2026-09-09",
+    "authors": "Wang Haohao; Huang Mingxiang; Song Jiabao; Zhang Jinding; Yang Shangying et al.",
+    "abstract": "UNLABELLED: Distinguishing tuberculous meningitis (TBM) from other causes of meningitis remains challenging in high-burden settings because clinical features overlap and existing assays often delay etiologic confirmation. We evaluated MeltArray CNS, a highly multiplexed PCR assay targeting 85 meningitis-associated pathogens, for etiologic diagnosis in patients with suspected meningitis. Analytical performance was assessed using pre-characterized targets. MeltArray was compared head-to-head with metagenomic next-generation sequencing (mNGS) in 79 cerebrospinal fluid (CSF) specimens, with discrepant results adjudicated by Sanger sequencing, and was then prospectively evaluated in 255 consecutive patients with suspected meningitis. Biomarker-based models using routine CSF and serum parameters were also explored. The assay achieved limits of detection of 5 copies/reaction for Mycobacterium tuberculosis (MTB) and 50 copies/reaction for other targets, with no false-positive results in analytical specificity testing. Within its targeted range, MeltArray yielded more confirmed detections than mNGS. In the prospective cohort, MeltArray showed 100.00% sensitivity for definite TBM (35/35; 95% confidence interval [CI], 90.11-100.00%) and 100.00% specificity for MTB detection among non-TBM meningitis cases (39/39; 95% CI, 89.32-100.00%). Among 49 MTB-positive TBM cases, 21 (42.86%) showed co-detections of additional pathogens. Test areas under the curve (AUCs) were 0.877 (95% CI, 0.760-0.994) for distinguishing infectious meningitis from noninfectious mimics and 0.776 (95% CI, 0.617-0.934) for distinguishing MTB-positive from MTB-negative cases. MeltArray enables rapid etiologic confirmation and may facilitate earlier TBM diagnosis in high-burden settings. Co-detections highlight microbiologic complexity with potential treatment implications, although viral findings should be interpreted cautiously. Biomarker models may aid triage and risk stratification but do not replace pathogen confirmation.\nIMPORTANCE: Tuberculous meningitis (TBM) is a life-threatening infection that requires a rapid and accurate diagnosis to guide effective treatment. Conventional diagnostic methods are often slow or insufficiently sensitive, leading to delays in therapy and potential exposure to unnecessary medications. In this study, we evaluated a rapid multiplex molecular assay for patients with suspected tuberculous meningitis. Rapid detection of Mycobacterium tuberculosis together with alternative infectious causes of meningitis was achieved within approximately 2.5 h, supporting earlier etiologic clarification during initial clinical evaluation. Detection of additional pathogens in some patients further supported the value of broad-spectrum molecular testing in the differential diagnosis of central nervous system infections in high-burden settings. Routine laboratory biomarkers may assist clinical triage but do not replace rapid pathogen confirmation.",
+    "pub_types": [
+      "Journal Article",
+      "Evaluation Study"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Tuberculosis, Meningeal",
+      "Multiplex Polymerase Chain Reaction",
+      "Sensitivity and Specificity",
+      "Mycobacterium tuberculosis",
+      "Female",
+      "Prospective Studies",
+      "Male",
+      "Adult",
+      "Middle Aged",
+      "Molecular Diagnostic Techniques",
+      "Cerebrospinal Fluid",
+      "Young Adult",
+      "Aged",
+      "Biomarkers",
+      "Adolescent",
+      "High-Throughput Nucleotide Sequencing"
+    ],
+    "keywords": [
+      "MeltArray",
+      "Mycobacterium tuberculosis",
+      "biomarker differentiation",
+      "cerebrospinal fluid",
+      "mNGS",
+      "multiplex PCR",
+      "rapid diagnostics",
+      "tuberculous meningitis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42657515",
+    "title": "Maternal gut microbiota-psychotropic drug interactions and their impact on offspring neurodevelopment.",
+    "doi": null,
+    "journal": "Clinical science (London, England : 1979)",
+    "issn": "1470-8736",
+    "pub_date": "2026-09-09",
+    "authors": "Craig Ashlee M; Clemens Kelly J; Leigh Sarah-Jane",
+    "abstract": "Pregnancy is associated with a unique and dynamic gut microbiota profile that supports fetal growth and neurodevelopment. Psychotropic drug-gut microbiota interactions are documented in the general population, yet less well described in pregnant women. Research has independently linked both perinatal psychotropic exposure and alterations to the maternal gut microbiome with potential changes to offspring neurodevelopment; therefore, it is plausible that similar interactions occur during pregnancy where they may influence maternal-fetal signaling pathways relevant to brain development. The aim of the present review is to explore the potential for interactions between perinatal psychotropic exposure and the maternal gut microbiota to shape long-term offspring neurodevelopment and psychiatric outcomes. By focusing on antidepressants, opioids/analgesics, and psychostimulants, potential mechanistic insights and gaps in the literature are highlighted to inform future research directions and therapeutic interventions. Collectively, the present review proposes the maternal gut microbiota as a previously underexplored yet significant modulator of neurodevelopment in the context of psychotropic drug exposure.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Pregnancy",
+      "Gastrointestinal Microbiome",
+      "Psychotropic Drugs",
+      "Neurodevelopment",
+      "Prenatal Exposure Delayed Effects",
+      "Animals",
+      "Brain"
+    ],
+    "keywords": [
+      "gut microbiome",
+      "neurodevelopment",
+      "pharmacomicrobiomics",
+      "pregnancy",
+      "psychotropic drug use"
+    ],
+    "summary_zh": "综述探讨产前精神药物暴露与母体肠道菌群相互作用对后代神经发育的影响机制，并提出研究方向。",
+    "innovation": "首次提出母体肠道微生物是精神药物暴露背景下影响后代神经发育的重要但未充分探索的调节因子 | 系统整合抗抑郁药、阿片类/镇痛药和精神兴奋剂三类药物与母体菌群的潜在交互作用",
+    "limitation": "未描述",
+    "study_object": "孕妇 肠道菌群 精神药物暴露（抗抑郁药、阿片类/镇痛药、精神兴奋剂） 综述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42550055",
+    "title": "Combined administration of fructooligosaccharides and Clostridium butyricum attenuates bowel cleansing-induced dysbiosis and safeguards mucosal defense in a murine model.",
+    "doi": null,
+    "journal": "Clinical science (London, England : 1979)",
+    "issn": "1470-8736",
+    "pub_date": "2026-09-09",
+    "authors": "Xu Xinyu; Zhou Mingxia; Zhang Ruoqi; Liu Wan; Liu Menglian et al.",
+    "abstract": "Bowel preparation with polyethylene glycol electrolyte solution is indispensable for gastrointestinal endoscopy and related procedures. However, it disrupts gut microbial homeostasis and increases host vulnerability to ensuing infection. In a murine model, we optimized a synbiotic intervention consisting of fructooligosaccharides (FOS) and Clostridium butyricum (C. butyricum) to improve post-cleansing microbiome resilience and mucosal defense. We evaluated its efficacy and longitudinally monitored the dynamics of gut microbiota in response to bowel cleaning and concurrent bacterial challenge infection. Our data show that the bowel preparation induced a persistent microbial perturbation, resulting in an incomplete spontaneous recovery 15 days after the procedure. A 12-day symbiotic intervention significantly enriched alpha diversity and restored the dysbiosis induced by the cleaning. The intervention also increased the Firmicutes/Bacteroidota ratio and the abundance of several key beneficial bacteria in the genera Lactobacillus, Mucispirillum, and Butyricicoccus. Under infectious stress, bowel cleansing markedly aggravated colitis phenotypes, while the intervention alleviated crypt hyperplasia and attenuated inflammatory injury in mice infected with Citrobacter rodentium, resulting in a significant improvement in several colitis indicators. The synbiotic was accompanied by enhanced IL-12/IFN-γ-related antimicrobial responses, increased expression of Muc2 and sIgA, and reshaped bacterial interaction networks disrupted by challenge infection. Our findings demonstrate that the combined administration of FOS and C. butyricum promotes gut microbial homeostasis and host defense. This approach may provide insights into potential dietary strategies for mitigating bowel cleansing-induced microbial disturbances.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Clostridium butyricum",
+      "Oligosaccharides",
+      "Dysbiosis",
+      "Gastrointestinal Microbiome",
+      "Disease Models, Animal",
+      "Intestinal Mucosa",
+      "Mice, Inbred C57BL",
+      "Synbiotics",
+      "Mice",
+      "Colitis",
+      "Colon",
+      "Male",
+      "Citrobacter rodentium"
+    ],
+    "keywords": [
+      "Bowel cleansing",
+      "Clostridium butyricum",
+      "Fructooligosaccharides",
+      "Gut microbiota",
+      "infection"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42535843",
+    "title": "Differential pro-tumorigenic effects of Helicobacter pylori and Streptococcus anginosus on AGS cells: contact-dependent versus metabolite-driven mechanisms.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-09-09",
+    "authors": "Luan Luan; Song Xiuling; Zeng Yunfei; Xie Yunyun; Hong Yongxuan et al.",
+    "abstract": "Gastric cancer remains a major global health burden, ranking fifth worldwide in both incidence and mortality. While Helicobacter pylori is a well-established Group I carcinogen, increasing evidence suggests that non-H. pylori bacteria, including Streptococcus anginosus, may also contribute to gastric carcinogenesis. However, their comparative pathogenic roles and interactions remain poorly defined. In this study, public databases showed stage-dependent abundance changes of H. pylori and S. anginosus but no significant correlation during gastric cancer progression. We further quantified both bacteria in gastric fluid samples collected from 500 individuals using a non-invasive gastric string test and in fecal samples from an independent cohort of 500 individuals by qPCR. In the two cohorts, no significant correlations were observed between the two bacterial pathogens, suggesting distinct colonization and pathogenic patterns. To evaluate functional differences, AGS cell co-culture models were established to explore their pro-tumorigenic effects. H. pylori predominantly exerted tumor-promoting effects through bacterial cell-associated mechanisms, whereas S. anginosus exerted stronger pro-tumorigenic effects via its metabolites. In particular, transcriptomic analysis revealed that proliferation-associated genes, including DEK and RTF1, were significantly upregulated by 21.9-fold and 19.2-fold, respectively, in cells treated with Streptococcus anginosus metabolite (SAM). Metabolomic profiling of SAM identified increased levels of spermidine and polyamine-related metabolites. Among these, N-acetylcadaverine, N-acetyltyrosine, N-acetyltryptophan, and urocanic acid were experimentally validated to significantly promote AGS cell proliferation. Collectively, these findings demonstrate that H. pylori and S. anginosus drive gastric tumorigenesis through contact-dependent and metabolite-mediated mechanisms, respectively, highlighting bacterial metabolites as emerging contributors to gastric cancer progression.IMPORTANCEThe gastric microbiota plays a critical role in gastrointestinal health and disease. However, the ecological interactions between Helicobacter pylori and non-H. pylori bacteria remain poorly understood. Among established bacterial pathogens linked to gastric carcinogenesis, H. pylori and Streptococcus anginosus are recognized as major contributors. In this study, we systematically evaluated infection patterns and potential associations between these two pathogens using public metagenomic data sets and qPCR analysis of clinical samples (feces and gastric fluid) from multicenter cohorts. We found no significant association between their infection statuses (P > 0.05), indicating independent colonization patterns and likely differences in their pathogenic mechanisms within the human host. Complementary in vitro and cellular analyses further showed that H. pylori primarily acts through direct mucosal colonization and virulence factors, whereas S. anginosus influences host responses mainly via its metabolic products. These findings demonstrate that H. pylori and S. anginosus operate through distinct colonization strategies and pathogenic pathways. They underscore the importance of accounting for mechanistic heterogeneity in gastric microbiome research and provide a conceptual framework for future investigations into microbe-driven pathogenesis of gastric disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Helicobacter pylori",
+      "Streptococcus anginosus",
+      "Humans",
+      "Stomach Neoplasms",
+      "Cell Line, Tumor",
+      "Helicobacter Infections",
+      "Carcinogenesis",
+      "Coculture Techniques"
+    ],
+    "keywords": [
+      "AGS cells",
+      "Helicobacter pylori",
+      "Streptococcus anginosus",
+      "gastric cancer",
+      "metabolomics",
+      "transcriptomics"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42714425",
+    "title": "Gut Microbiota and Aldosterone Regulate Natriuretic Peptide B Expression to Drive Mitophagy and Metabolic Reprogramming in Sepsis-Like Model of Myocardial Injury.",
+    "doi": null,
+    "journal": "Journal of the American Heart Association",
+    "issn": "2047-9980",
+    "pub_date": "2026-09-09",
+    "authors": "Yang Hang; Feng Lin; Jiang Zhenjie; Weng Jing; Qiu Jiapeng et al.",
+    "abstract": "BACKGROUND: Myocardial injury is a major contributor to mortality in sepsis, yet the mechanisms underlying gut-heart communication in sepsis-induced myocardial injury remain insufficiently defined. Natriuretic peptide B (NPPB) is a cardiac stress-responsive gene, but its involvement in mitochondrial homeostasis and metabolic regulation is unclear. This study investigated how gut microbiota and aldosterone influence myocardial mitophagy and metabolic reprogramming through NPPB in sepsis-induced myocardial injury.\nMETHODS: A sepsis-like myocardial injury model was induced in mice by intraperitoneal lipopolysaccharide (LPS). Fecal microbiota transplantation from septic mice into pseudo-germ-free recipients assessed microbial contributions. Metagenomic, metabolomic, and transcriptomic analyses identified disrupted metabolites and cardiac gene signatures. Heart-specific NPPB-knockout mice were used to determine its in vivo role. Mitochondrial function and metabolic alterations were evaluated by energy metabolism assays. In vitro, aldosterone-treated AC16 cardiomyocytes were used to examine NPPB-mediated mitophagy and metabolic changes. Molecular docking, dynamics simulation, and machine-learning screening identified Lestaurtinib, whose therapeutic effects were validated pharmacologically.\nRESULTS: Sepsis caused pronounced microbial dysbiosis and elevated aldosterone levels. Multi-omics analysis identified NPPB as a central regulator of mitophagy and metabolic remodeling. NPPB deficiency mitigated mitochondrial impairment and metabolic disturbances in vivo. Aldosterone upregulated NPPB in cardiomyocytes, promoting mitophagy and metabolic reprogramming. Lestaurtinib, identified as a candidate targeting the aldosterone-NPPB axis, improved cardiac structure and function while partially restoring microbial and metabolic homeostasis.\nCONCLUSIONS: This study uncovers a novel gut microbiota-aldosterone-NPPB axis driving LPS-induced myocardial injury through dysregulated mitophagy and metabolism and highlights Lestaurtinib as a potential therapeutic strategy for sepsis-induced myocardial injury.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "NPPB",
+      "gut microbiota",
+      "metabolic reprogramming",
+      "mitophagy",
+      "sepsis‐induced myocardial injury"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42714137",
+    "title": "Real-time volatilomics reveals microbiota and pathogen fingerprints in the honey bee.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-09-09",
+    "authors": "Fido Mateusz; Moriano-Gutierrez Silvia; Lan Jiayi; Pirat Aurélien; Zufferey Léa et al.",
+    "abstract": "UNLABELLED: Understanding the complex relationship between gut microbiota and their hosts often relies on invasive sampling techniques. Honey bees provide a tractable model for host-microbe studies. Here, we establish single-bee volatilomics using secondary electrospray ionization-high-resolution mass spectrometry (SESI-HRMS) to examine volatile organic compounds released to the air around an individual live honey bee. Specifically, we focused on the primary gut microbiota metabolites present in gnotobiotic bees. Our findings reveal distinct volatilome profiles in honey bees that depend on their gut bacterial colonization state. We cross-validated our findings using an established metabolomics technique, liquid chromatography-high-resolution mass spectrometry (LC-HRMS), to compare and contrast the metabolites detectable with each method. Finally, we assessed the ability of SESI-HRMS to detect colonization with the bee pathogen Serratia marcescens. By comparing the volatile signature of this bacterium grown in liquid culture with that of infected honey bee headspace, we identified overlapping compounds, including butane-2,3-diol, that were elevated in infected bees relative to uninfected controls. Non-invasive SESI-HRMS volatilomics, paired with LC-HRMS, therefore, have the potential to identify biomarkers of bee microbiome composition and infection at the level of individual insects. These biomarkers represent practical targets for the development of simple, field-ready diagnostic tools for monitoring pollinator health.\nIMPORTANCE: Honey bees are vital to various ecosystems and human agriculture as globally present pollinators. Current declines in bee populations threaten crop productivity and biodiversity and are driven by many factors, including habitat loss, pesticides, and pathogenic infections. The findings presented in this work demonstrate how the analysis of volatile species can precisely detect products of metabolic activity coming from the honey bee and its associated gut microbial community. We were able to demonstrate how high-resolution mass spectrometry can be used to study the host-microbiota relationship on the level of an individual insect. This technique, combined with volatilomics, allowed us to outline a volatile signature of infection in honey bees, which could become a target for in-field beehive disease monitoring.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "environmental microbiology",
+      "gut microbiota",
+      "honey bee",
+      "host response",
+      "host-microbiota interactions",
+      "host-pathogen interactions",
+      "mass spectrometry",
+      "pathogenesis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  },
+  {
+    "pmid": "42713891",
+    "title": "Understanding the Type 2 Immunity: An Evolving View Beyond Allergic Diseases.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-09-09",
+    "authors": "Jiménez-Saiz Rodrigo; Iborra Salvador; Blanco Carlos; González-Pérez Ruperto; Nuñez-Borque Emilio et al.",
+    "abstract": "Type 2 (T2) immunity is classically associated with defense against helminths and environmental threats, from a physiological perspective, and with allergies and eosinophilic inflammatory diseases, in a pathological sense. However, growing evidence reveals that T2 pathways also support other essential homeostatic functions, including tissue protection and repair. There are major clues from the early evolution of T2 responses for protection against massive tissue damage and positive selection for survival against parasites starting over 500 million years ago. These responses likely co-evolved stepwise with immune-regulatory circuits, culminating in the emergence of the fully functional human-type IgG4 in the great apes (Hominidae) within the last ~10 million years. The involvement of body barriers along with the strong influence of local epithelial cells and their interaction with the microbiome and the immune system is a common characteristic of T2 inflammation. An expanding list of new T2 diseases is being reported, characterized by epithelial cell and immune system activation, epithelial barrier damage, and microbial dysbiosis, including opportunistic pathogen colonization and loss of commensals. This evolving understanding coincides with the clinical success of biologics targeting key T2 mediators such as IL-4, IL-5, IL-13, IL-31, TSLP, and IgE, which have transformed the management of severe allergic diseases and other T2-driven pathologies. However, the contribution of T2 immunity to homeostatic programs raises questions about the long-term consequences of sustained T2 suppression. In this review, we examine the dual role of T2 immunity in health and disease, revisit its evolutionary origins, highlight its protective functions beyond allergy, and discuss the potential implications of prolonged T2 pathway blockade.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Type 2 immunity",
+      "allergy",
+      "biologics",
+      "homeostasis",
+      "inflammation"
+    ],
+    "summary_zh": "综述T2免疫的双重作用，探讨其进化起源、组织保护功能及长期阻断疗法的潜在影响。",
+    "innovation": "从进化视角梳理T2免疫从虫害防御到组织修复的演变 | 提出长期抑制T2通路可能影响稳态功能的新问题",
+    "limitation": "未描述",
+    "study_object": "人类T2免疫相关综述",
+    "disease": "过敏性疾病、嗜酸性炎症性疾病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-09-09"
+  }
+]
