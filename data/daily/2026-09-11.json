@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42723101",
+    "title": "Gut microbiota-driven indole-3-propionic acid and kynurenine production is associated with improved metabolic adaptation in periparturient dairy cows.",
+    "doi": null,
+    "journal": "Journal of animal science and biotechnology",
+    "issn": "1674-9782",
+    "pub_date": "2026-09-11",
+    "authors": "Liu Xiaojing; Yang Zhantao; Zhang Xinyue; Tang Weixuan; Wang Yajing et al.",
+    "abstract": "BACKGROUND: Gastrointestinal microbes convert tryptophan into various bioactive metabolites that influence host energy metabolism; however, these mechanisms are not well understood in periparturient dairy cows, which experience marked metabolic challenges during this period.\nRESULTS: In this study, we used periparturient dairy cows with rumen and ileal cannulas as in vivo models. Blood, rumen fluid, ileal digesta, and fecal samples were collected at four time points during the periparturient period. By combining metagenome-assembled genomes (MAGs) and targeted metabolite quantification, we characterized microbial tryptophan metabolism and associated metabolite profiles during the periparturient period. The results showed that postpartum cows exhibited significantly increased serum concentrations of triglyceride (TG), aspartate aminotransferase (AST), β-hydroxybutyrate (BHBA), and total bilirubin (T-Bil) compared with prepartum cows, together with decreased levels of several tryptophan metabolites, including indole-3-propionic acid (IPA) and kynurenine (KYN), indicating that tryptophan deficiency might aggravate metabolic disturbances. Metagenomic analysis identified 578 high-quality MAGs, of which 461 contained genes involved in microbial tryptophan metabolic pathways. Among these, the ruminal taxon CAG-791 harbors acdA and contributes to IPA production, whereas the hindgut taxon Treponema_D harbors kynB and promotes KYN formation. Decreases in both taxa were consistent with the reduced levels of these metabolites observed above. In a follow-up in vivo trial with tryptophan supplementation, the abundance of CAG-791 and Treponema_D increased, along with tryptophan-derived metabolites (IPA and KYN), which further partially mitigated metabolic disturbances.\nCONCLUSIONS: These findings characterize spatial and temporal changes in tryptophan metabolites and gut microbial features in periparturient dairy cows, and provide integrated evidence that alterations in tryptophan metabolism are associated with postpartum metabolic adaptation, thereby supporting the potential of tryptophan-targeted nutritional strategies to improve metabolic health in dairy cows.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Gastrointestinal microbiome",
+      "Metabolic regulation",
+      "Metagenome-assembled genomes",
+      "Microbial biotransformation",
+      "Tryptophan"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-11"
+  }
+]
