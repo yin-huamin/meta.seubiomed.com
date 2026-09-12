@@ -1,0 +1,38 @@
+[
+  {
+    "pmid": "42692038",
+    "title": "Porcine kidney xenotransplantation as a bridge to allotransplantation: a first-in-human study.",
+    "doi": null,
+    "journal": "Lancet (London, England)",
+    "issn": "1474-547X",
+    "pub_date": "2026-09-12",
+    "authors": "Riella Leonardo V; Borges Thiago J; Rosales Ivy A; Avillach Claire T; Palsson Ragnar et al.",
+    "abstract": "BACKGROUND: Kidney xenotransplantation offers a potential solution to the organ shortage, but questions remain regarding durability, zoonotic infection risk, and whether the immunological response to the xenograft elicits sensitisation that could complicate subsequent allotransplantation. We report outcomes from a porcine kidney xenograft in a living recipient followed by human allotransplantation.\nMETHODS: A patient with end-stage kidney disease, a prolonged anticipated waiting time for deceased donor transplantation, and with no suitable living donor underwent transplantation at Massachusetts General Hospital (Boston, MA, USA) with a gene-edited porcine kidney (EGEN-2784; eGenesis [Cambridge, MA, USA]) incorporating the deletion of major glycan xenoantigens, inactivation of porcine endogenous retroviruses, and insertion of seven human transgenes. The recipient received costimulation blockade-based immunosuppression with complement inhibition. Monitoring included renal function, flow cytometric crossmatch, anti-HLA antibodies, and porcine microbial surveillance, including metagenomic sequencing. This report describes the first recipient in a planned three-patient study conducted under a US Food and Drug Administration Expanded Access Investigational New Drug application.\nFINDINGS: The xenograft functioned immediately after transplantation on Jan 25, 2025, and sustained dialysis independence for 271 days. A biopsy on day 14 showed T-cell-mediated rejection, which resolved with treatment. Graft function remained stable for approximately 6 months until immunosuppression was reduced in the setting of non-zoonotic bacterial infection. Microvascular inflammation with endothelial injury subsequently emerged, progressing to thrombotic microangiopathy despite persistently negative donor-specific crossmatch, leading to graft failure and nephrectomy. Tissue analysis showed a macrophage and natural-killer-cell-predominant infiltrate with minimal T-cell involvement. No porcine pathogen transmission was detected. Anti-HLA antibodies remained unchanged. 82 days after explantation, the patient underwent human kidney allotransplantation with immediate graft function and no evidence of sensitisation during 231 days of follow-up.\nINTERPRETATION: This case shows that porcine kidney xenotransplantation can provide prolonged renal support and be discontinued without clinically significant allosensitisation or zoonotic infection. Early cellular rejection resolved with treatment, whereas later graft failure was associated with microvascular injury progressing to thrombotic microangiopathy despite a negative donor-specific crossmatch, supporting the possibility that mechanisms beyond conventional antibody-mediated rejection contributed to late graft injury. Kidney xenotransplantation has the potential to provide prolonged dialysis-free support while also serving as a bridge to subsequent human allotransplantation.\nFUNDING: Massachusetts General Hospital and eGenesis.",
+    "pub_types": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "article_type": "案例报告",
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Graft Rejection",
+      "Heterografts",
+      "Kidney Failure, Chronic",
+      "Kidney Transplantation",
+      "Swine",
+      "Transplantation, Heterologous",
+      "Transplantation, Homologous",
+      "Bridge Therapy"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-12"
+  }
+]
