@@ -1,0 +1,56 @@
+[
+  {
+    "pmid": "42763811",
+    "title": "Molecular based diagnostic testing for urinary tract infections: the results remain unclear.",
+    "doi": null,
+    "journal": "World journal of urology",
+    "issn": "1433-8726",
+    "pub_date": "2026-09-20",
+    "authors": "Reddy Meghana; Sze Christina; Prokesch Bonnie C; Zimmern Philippe",
+    "abstract": "INTRODUCTION: Recent advances have led to a rise in metagenomic and molecular-based testing for more rapid diagnosis of urinary tract infections (UTI). We conducted a contemporary systematic review to understand how these molecular tests affect clinical outcomes.\nMETHODS: A systematic review was conducted for articles in adults from January 2023 to October 2025 as an update to previous scoping reviews. Cochrane and PRISMA standards were utilized with the following databases: PubMed, OVID, and Embase (PROSPERO number: CRD420251070022). Data was extracted from the selected full-text papers including the type of study (microbiology versus clinical), patient demographics, key findings, and funding source. Excluded studies were abstracts, non-English manuscripts, and those involving only men or children.\nRESULTS: The search resulted in 12 full-text articles. Among those, 7 were published in clinical-based journals and 5 were in Microbiology. Two clinical studies were randomized controlled trials (RCTs) which included a total of 773 patients, mostly female and above the age of 65. Compared to a standard urine culture, molecular based testing, specifically with polymerase chain reaction (PCR) testing yielded superior sensitivity despite lack of specificity and guided antibiotic therapy to reduce UTI baseline symptomatology in the short term (i.e. 28 days) in both RCT analyses. Of note, the RCT analyses and several of the prospective studies (5/10) were funded by the companies that developed the molecular tests.\nCONCLUSIONS: Based on the increase in publications over the last three years, new industry-funded RCTs, and the limited clinical outcome data reported, this systematic review indicates the urgent need for prospective and multicentric studies to better understand the role of these molecular tests in UTI management.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Molecular testing",
+      "Rapid diagnostics",
+      "UTI",
+      "Urinary tract infections"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-20"
+  },
+  {
+    "pmid": "42763326",
+    "title": "Beyond the blood-brain barrier: humanised mice, the missing link in glioblastoma research.",
+    "doi": null,
+    "journal": "Oncogene",
+    "issn": "1476-5594",
+    "pub_date": "2026-09-20",
+    "authors": "Shirazi Nia Reza; Lu Jian; De Vega Daniel; Poudine Niloufar; Pan Chaoyue et al.",
+    "abstract": "Glioblastoma (GBM) remains a major challenge in neuro-oncology, associated with a high rate of mortality despite decades of intensive research and therapeutic advancements, underscoring the urgent need for innovative preclinical platforms that can more accurately recapitulate the biological and pathological features of human disease. While conventional animal models have contributed to our understanding of GBM biology and the evaluation of treatment efficacy, they fail to capture the full complexity and heterogeneity of the tumour microenvironment (TME). Ex vivo models are associated with certain advantages in this context; however, they can not mirror the complex dynamic and multicellular interactions present in living organisms, particularly the critical treatment barriers unique to the central nervous system: the blood-brain barrier (BBB), blood-cerebrospinal fluid barrier (BCSFB) and blood-meningeal barrier (BMB). In response to these limitations, humanised mouse models have emerged as an advanced platform capable of faithfully mimicking the molecular, pathological and immunological features of human GBM. These models enable the replication of complex in vivo crosstalk between the immune system and the TME, while preserving the relevant treatment barriers that govern drug delivery to the brain. Accumulating evidence indicates that humanised mouse models closely reproduce the infiltration of human immune components into the TME, enabling the study of clinically relevant interactions that contribute to therapeutic resistance and treatment failure in GBM. This review aims to provide a comprehensive and systematic overview of the currently employed humanised mouse models in GBM research, highlighting their applications and comparative advantages. Finally, we evaluate the opportunities and challenges associated with each model and discuss future directions to increase the translational relevance and predictive power of preclinical GBM research. Humanised mouse models provide a valuable translational platform combining the human immune system and PDX orthotopic engraftment. Compared to conventional models and ex vivo models, these models can reproduce the complex cross-talk between tumour cells and the immune system, tumour heterogeneity, immunosuppressive TME, as well as complex in vivo interactions such as brain-specific barriers, including BBB, BCSFB and BMB. Future implementation of the human gut microbiome in these models has the potential to further increase translational relevance and precision in GBM research. Created in BioRender.com.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-20"
+  }
+]

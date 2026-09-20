@@ -1,0 +1,76 @@
+[
+  {
+    "pmid": "42762163",
+    "title": "A network dynamical simulation model for the study of antibiotic resistance in microbial communities.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-09-19",
+    "authors": "Silva-Magaña Miguel Atl; Mora-Flores Lorena Patricia; Pita-Galeana Marco A; Hernández-Lemus Enrique; de Anda-Jáuregui Guillermo",
+    "abstract": "Antibiotic resistance emerges from ecological and evolutionary processes occurring within complex microbial communities. Interactions among microorganisms can shape the pathways through which resistance traits spread and persist, yet many theoretical approaches treat microbial populations as homogeneous compartments. Here we present a simulation-based network dynamical model that represents microbial communities as ecological association networks. In this formulation, nodes correspond to bacterial populations, metapopulations, or taxon-level ecological units, while resistant counterparts represent state-expanded subpopulations associated with the same ecological unit. Edges represent co-occurrence-based ecological proximity rather than direct physical contacts or confirmed horizontal gene transfer events. Using stochastic simulations across multiple network topologies, we explore how structural properties of microbial communities influence the emergence and persistence of resistance. Parameter sweeps across transmission probability, initial resistance fraction, and antibiotic intervention timing allow us to characterize regimes in which resistance either remains localized or spreads through the community. The model produces time series of resistant and susceptible states and snapshots of evolving network configurations, enabling qualitative comparison across simulation scenarios. Our results show that network structure strongly modulates resistance dynamics. Highly clustered networks tend to trap resistance within local neighborhoods, whereas heterogeneous networks with hub nodes facilitate rapid dissemination. Antibiotic perturbations can either suppress resistance or paradoxically accelerate its expansion depending on network topology and intervention timing. These findings should be interpreted as qualitative results from a minimal proof-of-concept model, not as a direct reconstruction of plasmid transfer, species replacement, or patient-specific microbiome responses.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Anti-Bacterial Agents",
+      "Microbiota",
+      "Bacteria",
+      "Computer Simulation",
+      "Models, Biological",
+      "Drug Resistance, Bacterial",
+      "Drug Resistance, Microbial"
+    ],
+    "keywords": [
+      "Enterobacter interaction network",
+      "antibiotic perturbation",
+      "antimicrobial resistance",
+      "microbial community dynamics",
+      "microbiome networks"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-19"
+  },
+  {
+    "pmid": "42762890",
+    "title": "Rapidly Fermentable Prebiotic Substrates: Benefits, FODMAP Effects and Host Tolerance.",
+    "doi": null,
+    "journal": "Clinical nutrition ESPEN",
+    "issn": "2405-4577",
+    "pub_date": "2026-09-19",
+    "authors": "Ibrahim Fandi",
+    "abstract": "Rapidly fermentable prebiotic substrates occupy a contradictory position in human nutrition. In microbiome and functional-food research, low molecular weight non-digestible carbohydrates such as inulin, fructo-oligosaccharides, galacto-oligosaccharides are added to foods and supplements to promote bifidogenic, metabolic and gastrointestinal benefits. In parallel, clinical nutrition often restricts the same substrates as FODMAPs to reduce symptoms in irritable bowel syndrome and related disorders of gut-brain interaction, while food-science research seeks to reduce raffinose-family oligosaccharides because of their flatulence-producing and antinutritional effects. This review examines these contradictory framings and asks whether the same rapidly fermentable substrates should be understood as beneficial prebiotics, symptom-provoking FODMAPs, or tolerance-limiting food components. It argues that the physiological effects of these substrates are not fixed properties of the compounds alone but also arise from interactions between intrinsic fermentability and host context. Rapidly fermentable substrates may support beneficial microbial and metabolic responses in tolerant individuals, but may contribute to gas production, osmotic effects, luminal distension, symptom generation or even immune activation in susceptible contexts. Future research should move beyond defining prebiotic efficacy primarily by enrichment of selected bacterial taxa. Instead, each substrate should be tested through dose-response studies that establish both beneficial and tolerance thresholds across healthy individuals and clinically relevant phenotypes. Future studies should also examine prebiotics within a host-ecology framework, testing whether benefit depends less on maximising microbial stimulation and more on maintaining a controlled, spatially contained and clinically tolerable microbiome.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "FODMAPs",
+      "Prebiotics",
+      "dietary fibre",
+      "fermentation kinetics",
+      "fructo-oligosaccharides",
+      "galacto-oligosaccharides",
+      "gut microbiota",
+      "host tolerance",
+      "inulin",
+      "raffinose-family oligosaccharides"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-19"
+  }
+]
