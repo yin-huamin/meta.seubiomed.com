@@ -1,0 +1,73 @@
+[
+  {
+    "pmid": "42765955",
+    "title": "Microbial physiological trait shifts link heavy metal remediation to enhanced soil carbon storage potential.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-09-21",
+    "authors": "Xue Rui; Li Jian; Hu Shilin; Ding Jiazhi; Wang Cheng et al.",
+    "abstract": "Widespread and chronic heavy metal pollution resulting from industrial activities has compromised the sustainability of soil ecosystems. Increasing and stabilizing soil carbon storage is central to soil development, but how remediation reshapes soil carbon cycling processes during the mitigation of heavy-metal contamination remains unclear. Here, we tracked genome-scale microbial metabolism, community turnover, and phenotype-level physiological responses during a 120-day remediation of heavy metal-contaminated soils with several decades of pollution histories and resolved their dynamic interplay with microbial carbon use efficiency (CUE) and CO2 emissions. We found that heavy-metal stress accelerated microbial respiratory carbon loss from soils, with contaminated soils exhibiting significantly higher cumulative CO₂ emissions than both nearby uncontaminated and remediated soils. Metagenomic profiles were enriched in oxidative-stress defense and metal-detoxification functions, consistent with elevated maintenance costs that may contribute to enhanced respiration. In contrast, remediation significantly reduced soil CO₂ emissions while increasing microbial growth rate and CUE, indicating a shift toward greater soil carbon storage potential. Raman-based in situ monitoring further showed that biomolecules associated with microbial growth, including phospholipids, nucleic acids, and proteins, increased progressively throughout the remediation process. Structural equation modelling further revealed that microbial physiological traits, particularly metabolic activity and intracellular biomolecular composition, exerted stronger direct effects on CUE than community traits, including community stability and life-history strategy. These results identify microbial physiological traits as a key link between environmental stress and soil carbon cycling. Together, these findings suggest that remediating heavy metal-contaminated soils may represent an underappreciated pathway for enhancing terrestrial carbon sequestration.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Heavy metal",
+      "Microbial ecology",
+      "Single-cell Raman spectroscopy",
+      "Soil carbon cycle",
+      "Soil remediation"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-21"
+  },
+  {
+    "pmid": "42764315",
+    "title": "From Dysbiosis to Blood-Brain Barrier Disruption: The Metabolite-Mediated Gut-Brain Axis in Alzheimer's Disease.",
+    "doi": null,
+    "journal": "Molecular neurobiology",
+    "issn": "1559-1182",
+    "pub_date": "2026-09-21",
+    "authors": "Shao Yang; Zhang Rui Feng; Wang Zhonghe; Gan Jiali; Jiang Xi Juan et al.",
+    "abstract": "Alzheimer's disease (AD) is not merely a central nervous system disorder; rather, it is a systemic condition profoundly influenced by the peripheral internal environment. Recent research has revealed that imbalances in the gut microbiota (GM) and metabolite disturbances contribute to AD onset and progression. Clinical and animal studies have indicated that AD patients commonly exhibit reduced GM diversity, decreased populations of short-chain fatty acid (SCFA)-producing and indole-producing bacteria, disrupted bile acid (BA) profiles, and elevated levels of trimethylamine N-oxide (TMAO) and kynurenine pathway (KP) activity. These alterations not only reflect gut dysbiosis, but also impair blood-brain barrier (BBB) integrity and amplify neuroinflammation by modulating tight junction proteins and inflammatory signaling through their effects on receptors and transporters such as G protein-coupled receptors(GPR41/43), aryl hydrocarbon receptor(AhR), Farnesoid X receptor(FXR)/ Takeda G protein-coupled receptor 5(TGR5), L-type amino acid transporter 1(LAT1), and Major Facilitator Superfamily Domain containing 2A(MFSD2A). From an integrative perspective, these changes -including short-Chain Fatty Acids (SCFAs) deficiency, elevated TMAO and toxic BA levels, overactivation of the KP, and Lipopolysaccharides (LPS) leakage-often act synergistically, collectively forming key pathological nodes in the \"metabolic network-BBB-AD\" axis. GM-targeted strategies such as dietary interventions, probiotics and fecal microbiota transplantation (FMT) have demonstrated potential in improving metabolite profiles and BBB homeostasis. Future research should utilize induced pluripotent stem cell-derived organoids and multi-omics integration approaches to elucidate the spatiotemporal dynamics of metabolites within the gut-brain axis (GBA), thereby laying the foundation for precise microbiome-based interventions in AD.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Blood-Brain Barrier",
+      "Animals",
+      "Alzheimer Disease",
+      "Dysbiosis",
+      "Gastrointestinal Microbiome",
+      "Brain-Gut Axis",
+      "Brain"
+    ],
+    "keywords": [
+      "Alzheimer’s disease",
+      "Blood–brain barrier",
+      "Gut microbiota",
+      "Gut-brain axis",
+      "Metabolite",
+      "Therapeutic intervention"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-21"
+  }
+]
