@@ -1,0 +1,106 @@
+[
+  {
+    "pmid": "42776010",
+    "title": "A probiotic Bifidobacterium pseudocatenulatum converts hesperidin to bioactive hesperetin and improves metabolic dysfunction in aging mice.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-09-23",
+    "authors": "Shen Zhao-Qing; Thuy Tran Thi Dieu; Lu Chung-Kuang; Nguyen Thanh-Sang; Tung Chien-Yi et al.",
+    "abstract": "Dietary flavonoids often require microbial metabolism to generate bioactive metabolites that influence host physiology. Hesperidin, a citrus flavanone glycoside, exhibits limited intestinal absorption and depends on gut microbial biotransformation to yield its active aglycone, hesperetin. Hesperetin activates CDGSH iron-sulfur domain 2 (CISD2), a pro-longevity gene whose expression declines with age, and its pharmacological activation has emerged as a strategy to promote healthy aging. Here, we identified a probiotic strain, Bifidobacterium pseudocatenulatum CL256B, that efficiently converts hesperidin to hesperetin via coordinated α-L-rhamnosidase and β-glucosidase activities, achieving ~90% bioconversion efficiency. In naturally aging mice challenged with a Western diet, six-month treatment with probiotic-derived hesperetin significantly improved age-associated metabolic phenotypes, including reduced body weight and adiposity, increased lean mass, enhanced muscle integrity and grip strength, and attenuation of hepatic steatosis. In addition, glucose tolerance, insulin sensitivity, and whole-body energy metabolism were improved. Transcriptomic analyses revealed activation of SIRT1 and HNF4α signaling in the liver and restoration of ribosome homeostasis in skeletal muscle. These findings support a microbiome-enabled strategy in which probiotic-assisted hesperetin bioconversion activates the CISD2 longevity pathway to improve metabolic health during aging.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Hesperidin",
+      "Animals",
+      "Probiotics",
+      "Aging",
+      "Mice",
+      "Bifidobacterium pseudocatenulatum",
+      "Mice, Inbred C57BL",
+      "Male",
+      "Energy Metabolism",
+      "Biotransformation"
+    ],
+    "keywords": [
+      "Bifidobacterium pseudocatenulatum",
+      "CISD2 activator",
+      "glucose homeostasis",
+      "healthy aging",
+      "hesperetin",
+      "insulin resistance",
+      "metabolic dysfunction-associated fatty liver disease (MAFLD)",
+      "sarcopenia"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-23"
+  },
+  {
+    "pmid": "42775881",
+    "title": "Parasite-associated microbiomes in Ascaris and Trichuris nematodes: current evidence, challenges, and future directions.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-23",
+    "authors": "Shahrizal Shezryna; Aazmi Mohd Shafiq; Lim Yvonne Ai Lian; Muslim Azdayanti",
+    "abstract": "Soil-transmitted helminth (STH) parasites, particularly Ascaris lumbricoides and Trichuris trichiura, co-exist and co-evolve with a complex human microbiota within the gut ecosystem. Most research has focused on how parasitic nematodes affect the host gut microbial structure and its consequences. In contrast, studies on the parasites' own associated microbiota remain underexplored. Understanding this gap is crucial, as it adds another layer of complexity to holobiont-holobiont interactions. Driven by the Parasite Microbiome Project, this review summarizes current evidence on Ascaris- and Trichuris-associated microbiomes from both natural and experimental studies, with a focus on their compositions, potential functional roles, challenges, and future directions. Existing findings are largely based on microbiomes associated with the gut of the parasites and are often characterized by transient, host-derived communities acquired through horizontal transmission, which may contribute to parasite survival and host interaction. We therefore emphasize the need to expand investigations to other specific tissues, particularly reproductive organs, as potential sites of a stable and conserved microbiota in STH parasites. Understanding this aspect is essential for advancing our knowledge of parasite-microbiome-host interactions in STH infections and may uncover the potential of microbiome-based therapeutic interventions for STH control and prevention.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Ascaris",
+      "Trichuris",
+      "gut microbiota",
+      "parasite-associated microbiomes"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-23"
+  },
+  {
+    "pmid": "42775892",
+    "title": "A novel human Streptomyces strain redresses malignancy by inducing apoptosis and regaining gut homeostasis.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-23",
+    "authors": "Wang Yu-Hui; Yuan Bao-Juan; Meng Yao; Xu Hong-Tao; Gao Xin-Yu et al.",
+    "abstract": "UNLABELLED: Colorectal cancer is among the deadliest malignancies globally. The modern therapies do not lead to ideal outcomes due mostly to drug resistance and recurrence. Previously, we treated cancer patients by ameliorating the gut microbiome and achieved curative effects. We hypothesize that anticancer bacteria might be ubiquitous in the gut but suppressed under certain conditions, pointing to a possibility that an ameliorated gut ecology may help regain the abundance or functions of the hypothetical anticancer bacteria. Here, we show our successful isolation and polyphasic characterization of a gut bacterial strain, CGMCC 17111, which exhibited potent suppressive effects on colorectal cancer. CGMCC 17111 belongs to Streptomyces and is most closely related to the type strain of Streptomyces albidoflavus, DSM 40455T. However, DSM 40455T does not show any appreciable anticancer effects. Genetic, phenotypic, and functional analyses established CGMCC 17111 as representing a novel gut bacterial species with peculiar activities to redress malignancy without eliciting violent inflammatory reactions in the host.\nIMPORTANCE: The human gut bacterial strain Streptomyces sp. CGMCC 17111 represents a genetically distinct gut-derived Streptomyces lineage that exhibited antitumor activity in both in vitro and in vivo experimental models. As a resident member of the human gut microbiota, CGMCC 17111 may contribute to host-microbiota interactions that influence tumor-associated biological processes. The findings of this study provide a foundation for future research into gut-derived microbial products and their potential applications in cancer therapy while preserving host physiological homeostasis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Streptomyces",
+      "colorectal cancer",
+      "gut ecology",
+      "homeostasis",
+      "natural species of bacteria"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-23"
+  }
+]
