@@ -1,0 +1,170 @@
+[
+  {
+    "pmid": "42417540",
+    "title": "Interleukin-17A mediates cardiorenal injury in oxalate nephropathy.",
+    "doi": null,
+    "journal": "Cardiovascular research",
+    "issn": "1755-3245",
+    "pub_date": "2026-09-24",
+    "authors": "Wimmer Moritz I; Reichel Martin; Thiele Arne; Yarritu Alex; Matz-Rauch Ariana et al.",
+    "abstract": "AIMS: Cardiovascular disease (CVD) is the leading cause of mortality in chronic kidney disease (CKD). While CKD is known to give rise to systemic inflammation, its inciting factors remain poorly defined. Oxalate, long implicated in rare genetic kidney disorders, accumulates with decreased kidney function and has emerged as a driver of inflammation and independent risk factor for CVD. Here, we investigate the immunological mechanisms linking oxalate nephropathy to systemic inflammation, cardiac damage and kidney injury.\nMETHODS AND RESULTS: Oxalate nephropathy was induced in C57BL6/N mice through an oxalate-enriched diet. Oxalate induced systemic immune activation, renal fibrosis, and adverse cardiac remodelling, including pulmonary congestion with systolic and diastolic dysfunction. Flow cytometry analysis identified interleukin (IL)-17A as a dominant inflammatory effector, with expansion of Th17 and Th17-like Treg in the kidney, intestine, and spleen. Bulk mRNA sequencing confirmed these findings in kidney and heart. In line, plasma IL-17A was increased in oxalate-fed mice. Confirming the oxalate-IL-17A relationship, plasma IL-17A was elevated in patients with primary hyperoxaluria. Gut microbiome analysis by 16S amplicon sequencing showed only mild oxalate-induced alterations in mice. However, soluble oxalate directly enhanced Th17 polarization and disrupted mitochondrial respiration in vitro. In vivo, antibody-mediated IL-17A blockade improved kidney function, cardiac fibrosis, reduced neutrophil infiltration, and partially restored cardiac function in oxalate-fed mice.\nCONCLUSION: Our study identifies oxalate as a systemic immunometabolic stressor and IL-17A as a central mediator of oxalate-induced cardiorenal injury. These findings establish the oxalate-IL-17A axis as a mechanistic link between CKD and CVD and suggest IL-17A inhibition as a potential therapeutic strategy to reduce cardiovascular damage in CKD.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Interleukin-17",
+      "Mice, Inbred C57BL",
+      "Disease Models, Animal",
+      "Th17 Cells",
+      "Male",
+      "Fibrosis",
+      "Humans",
+      "Kidney",
+      "T-Lymphocytes, Regulatory",
+      "Signal Transduction",
+      "Hyperoxaluria",
+      "Inflammation Mediators",
+      "Oxalates",
+      "Ventricular Remodeling",
+      "Mitochondria, Heart",
+      "Cardio-Renal Syndrome"
+    ],
+    "keywords": [
+      "Cardiovascular disease",
+      "Interleukin-17A",
+      "Oxalate nephropathy",
+      "T cells"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-24"
+  },
+  {
+    "pmid": "42307225",
+    "title": "The microbiome in reptile health, disease, and ecology.",
+    "doi": null,
+    "journal": "Microbiology and molecular biology reviews : MMBR",
+    "issn": "1098-5557",
+    "pub_date": "2026-09-24",
+    "authors": "Hoffbeck Carmen; Taylor Michael W",
+    "abstract": "SUMMARYReptiles are a diverse and speciose class of animals that are broadly threatened by habitat loss, climate change, and other factors. From a microbiological perspective, reptiles have historically been examined as a source of disease, particularly salmonellosis, with most studies being culture-based investigations into causative agents of disease and potential for zoonoses. More recent work has sought to characterize the oral, skin, and gut microbiomes of reptiles more broadly to understand their contribution to reptile health and digestion. Non-avian reptiles are particularly interesting as ectothermic tetrapods, which usually lay eggs and have limited interaction with their young, as their digestion and life history strategies diverge substantially from the more well-studied mammals. Here, we review the reptile skin, oral, gut, eggshell, and nest microbiomes, along with the relationship between the microbiome and temperature stress. We present findings that distinguish the reptile microbiome from those of other studied vertebrate taxa, and place them in the context of their phylogenetic and ecological similarities to other animals. We discuss major disease-causing agents in reptiles, which was historically the main lens through which to view reptile microbiology, along with potential zoonoses. Finally, we examine how temperature and thermoregulation interact with the microbiome in reptiles, and how the microbiome may play a role in reptile conservation.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Animals",
+      "Reptiles",
+      "Microbiota",
+      "Zoonoses",
+      "Ecosystem",
+      "Phylogeny"
+    ],
+    "keywords": [
+      "conservation",
+      "disease",
+      "diversity",
+      "ectothermy",
+      "reptile",
+      "transmission"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-24"
+  },
+  {
+    "pmid": "42785658",
+    "title": "The oral microbiome of prediabetes: a scoping review.",
+    "doi": null,
+    "journal": "Journal of dentistry",
+    "issn": "1879-176X",
+    "pub_date": "2026-09-24",
+    "authors": "Zhang Ronnie Ruonan; Gong Zhuohong; Chen Zigui; Ho Mandy Man; Lam Walter Yu-Hang et al.",
+    "abstract": "OBJECTIVE: To map evidence on oral bacterial microbiome shifts in adults with prediabetes and compare them with normoglycemic and type 2 diabetes populations.\nDATA AND SOURCES: A scoping review in accordance with PRISMA-ScR was conducted. PubMed, Cochrane Central Register of Controlled Trials, Web of Science, Embase, and Scopus, were searched from inception to May 1, 2026, including English-language original clinical studies using high-throughput sequencing of oral samples from adults with prediabetes and normoglycemic and/or type 2 diabetes comparison groups. Findings were narratively synthesized by sample size, diversity measure, taxonomic composition and relative abundance, and predicted microbial function.\nSTUDY SELECTION/RESULTS: 2,320 publications were screened, and nine cross-sectional studies met eligibility criteria. Samples composed of saliva, tongue coating, oral rinse, and dental plaque; all studies used 16S rRNA gene sequencing. Alpha and beta-diversity findings were heterogeneous, partly reflecting differences in sample size, glycemic definitions, study populations, and analytical methods. Prediabetes was not consistently distinguishable from normoglycemia, while diabetes more frequently differed from normoglycemia and/or prediabetes. Actinomyces and Prevotella were among the taxa more often reported as enriched at higher glycemic status, whereas Haemophilus and Neisseria were more frequently reported as depleted; however, taxonomic findings were not uniform across studies. Only one study reported computationally predicted functional profiles.\nCONCLUSION: Current evidence suggests that prediabetes may be associated with subtle oral microbiome alterations, but there is insufficient consistency to define a reproducible prediabetes-specific microbial signature. Standardized, longitudinal, and functionally resolved studies are needed to establish temporality, clinical utility, and potential mechanisms.\nCLINICAL SIGNIFICANCE: Identifying prediabetes-associated oral microbiome shifts may support earlier recognition of metabolic dysregulation and inform future preventive strategies. Longitudinal and functionally oriented studies are needed to determine whether oral microbiome changes precede, accompany, or result from progression toward diabetes.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "16s rRNA",
+      "Dental Plaque",
+      "Hyperglycemia",
+      "Metagenomics",
+      "Mouth flora",
+      "Oral microbiome",
+      "Prediabetes",
+      "Saliva"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-24"
+  },
+  {
+    "pmid": "42786310",
+    "title": "Multi-modality profiling identifies Neisseria flavescens as a central geroprotective oral commensal in humans.",
+    "doi": null,
+    "journal": "Nature aging",
+    "issn": "2662-8465",
+    "pub_date": "2026-09-24",
+    "authors": "Chen Jiawei; Ren Ya; Zhou Yong; Wang Ziyang; Li Jiyang et al.",
+    "abstract": "Aging is accompanied by progressive physiological decline, yet the microbiome determinants that modulate aging remain unclear. Here, we identify Neisseria flavescens (Nf) as an oral commensal associated with decelerated aging in humans. Using AURORA, a generative multi-modality framework, we developed multi-modality aging clocks, performed in silico screening for age-gap-reducing interventions and predicted Nf as a top hit. In silico perturbations linked increased Nf abundance to favorable physiological signatures, beneficial gut taxa and biosynthesis of beneficial metabolites. We isolated two Nf strains and validated their production of beneficial metabolites. Functional assays demonstrated that live Nf extended lifespan and healthspan in Caenorhabditis elegans. In aged mice, heat-killed Nf supplementation restored the serum metabolome, liver transcriptome and gut microbiome toward younger states. By establishing an AI-driven intervention discovery engine and identifying Nf as a geroprotective microorganism, these findings highlight the oral microbiome as an underestimated axis of systemic aging and a candidate for geroprotective interventions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-24"
+  },
+  {
+    "pmid": "42786289",
+    "title": "Gut microbiome shifts in chronic systolic heart failure are associated with disease severity and clinical improvement.",
+    "doi": null,
+    "journal": "Nature cardiovascular research",
+    "issn": "2731-0590",
+    "pub_date": "2026-09-24",
+    "authors": "Mamic Petra; Shi Handuo; Zhou Wenyu; Bararpour Nasim; Contrepois Kevin et al.",
+    "abstract": "The contribution of the gut microbiome to chronic heart failure (HF) remains poorly defined. We performed integrated microbiome and host multi-omic profiling of adults with chronic systolic HF due to nonischemic cardiomyopathy (n = 59) and healthy participants (n = 50), including longitudinal sampling in some cases. Here we show that patients with HF have depletion of anti-inflammatory Bifidobacterium and reduced short-chain fatty acid biosynthetic potential, alongside altered microbiome-immune system interactions. Longitudinal analysis revealed that higher Bifidobacterium abundance was associated with clinical improvement. Multi-omic integration prioritized indole-3-propionic acid (IPA), a gut metabolite with cardioprotective properties, as a candidate mechanistic link. We confirmed that Bifidobacterium species can produce IPA in vitro and circulating IPA levels were associated with milder HF severity. Together, these findings define gut microbiome alterations in chronic systolic HF, identify candidate microbiome biomarkers of disease severity and trajectory, and suggest microbiome-derived metabolites as potential therapeutic targets.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-24"
+  }
+]

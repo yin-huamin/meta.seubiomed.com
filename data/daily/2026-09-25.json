@@ -1,0 +1,138 @@
+[
+  {
+    "pmid": "42191017",
+    "title": "Lavandula angustifolia and microbial bioaugmentation synergistically reshape rhizosphere microbiome and enhance heavy metals removal in historically contaminated soils.",
+    "doi": null,
+    "journal": "New biotechnology",
+    "issn": "1876-4347",
+    "pub_date": "2026-09-25",
+    "authors": "Cavone Cristina; De Paola Domenico; Naclerio Gino; Bucci Antonio; Barra Caracciolo Anna et al.",
+    "abstract": "Heavy metal contamination poses a serious threat to soil ecosystems and requires sustainable remediation approaches capable of restoring both chemical quality and microbial functionality. This study evaluates the effectiveness of plant-assisted bioremediation (Lavandula angustifolia) and bioaugmentation with a selected bacterial consortium of four strains (Gordonia amicalis, Rhodococcus erythropolis, Acinetobacter puyangensis, and A. tibetensis) in soils that have been historically contaminated with multiple pollutants - such as heavy metals (HMs) and polychlorinated biphenyls (PCBs). Microcosms were created with four treatments, i.e. Historically Contaminated Soil (HCS), Plant-assisted bioremediation (PLANT), microbial bioaugmentation (BIOAUG) and the combination of plant-assisted bioremediation and bioaugmentation (PLANT+BIOAUG) and monitored over a 90-days period through chemical analyses, 16S rDNA sequencing, diversity metrics, differential abundance tests and functional prediction. The PLANT+BIOAUG combination demonstrated the highest removal efficiency of Pb (44.75%) and Sn (66.87%), suggesting a robust synergistic interaction between plant and microbial inoculum. Microbial α-diversity remained stable across treatments, while β-diversity analyses (Bray-Curtis, PERMANOVA p = 0.001) revealed significant community restructuring. Taxonomic analyses highlighted shifts in key genera and an enrichment of bacterial families associated with metal transformation, redox processes, and stress tolerance. The functional prediction identified 7959 KEGG functions, with the combined treatment showing the highest functional redundancy in metal efflux systems, siderophore production, electron transport pathways, and EPS/biofilm formation. Overall, integrating L. angustifolia with a metal-resistant microbial consortium could improve both contaminant removal and microbial functional potential, supporting a robust and sustainable strategy for the remediation of multi-contaminated soils. These results provide valuable insights into synergistic plant-microbe processes and offer practical guidelines for in situ bioremediation within the framework of the circular economy and nature-based models.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Metals, Heavy",
+      "Soil Pollutants",
+      "Biodegradation, Environmental",
+      "Soil Microbiology",
+      "Microbiota",
+      "Rhizosphere",
+      "Bacteria",
+      "RNA, Ribosomal, 16S"
+    ],
+    "keywords": [
+      "16S rDNA",
+      "Bioremediation",
+      "Metagenomics",
+      "Microbial communities",
+      "heavy metal contamination"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-25"
+  },
+  {
+    "pmid": "42786922",
+    "title": "Pathogenesis of hidradenitis suppurativa: From susceptibility to chronicity.",
+    "doi": null,
+    "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+    "issn": "1468-3083",
+    "pub_date": "2026-09-25",
+    "authors": "van Straalen Kelsey R; Chandran Nisha S; Fletcher Jean M; Giamarellos-Bourboulis Evangelos J; Rosi Elia et al.",
+    "abstract": "Hidradenitis suppurativa (HS) is a chronic, recurrent inflammatory skin disease characterized by painful nodules, abscesses, draining tunnels and scarring, with substantial effects on quality of life. Although the therapeutic landscape has expanded with biologics targeting TNF, IL-17A and IL-17A/F, many patients do not achieve sustained disease control, and chronic, draining tunnels remain difficult to treat. Recent data support a more integrated view of HS as a heterogeneous, stage-dependent disease in which inherited susceptibility, modifiable risk factors, epithelial dysfunction, immune activation and microbial ecology converge. In this review, we summarize clinically relevant advances in HS epidemiology, genetics, immunopathogenesis and microbiome research. Global studies highlight substantial variation in prevalence, sex distribution and clinical phenotype across populations, suggesting differences in risk architecture and disease expression. Genetic studies have moved the field beyond rare γ-secretase-associated familial disease towards a polygenic model involving follicular and epithelial regulatory programmes, antigen presentation and immune regulation. Single cell and spatial studies further indicate that HS pathogenesis evolves from epithelial stress and perifollicular inflammation in HS-prone skin, through IL-1-, TNF-, neutrophil- and IL-17-associated acute inflammation, towards chronic immune-stromal niches characterized by epithelialized tunnels, B cells, plasma cells, tertiary lymphoid structures, NETosis and fibrosis. In parallel, microbiome studies suggest that dysbiosis, particularly anaerobe-rich and biofilm-like communities within tunnels, acts primarily as an amplifier of chronicity rather than as a proven initiating event. Together, these findings support a shift from single-pathway models towards stage-specific and patient-stratified approaches aimed at earlier diagnosis, rational treatment selection and prevention of irreversible tissue damage.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "epidemiology",
+      "genetics",
+      "hidradenitis suppurativa",
+      "immunopathogenesis",
+      "microbiome",
+      "microbiota",
+      "phenotype",
+      "risk factors"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-25"
+  },
+  {
+    "pmid": "42788735",
+    "title": "Clinical severity score-guided metagenomic analysis identifying gut microbial taxonomic and functional markers for severe hepatitis E progression.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-25",
+    "authors": "Shi Haiyan; Chen Yanfei; Liu Xiaoli; Yang Jiezuan; Yan Dong et al.",
+    "abstract": "Although gut microbiome alterations have been reported in hepatitis E (HE), the taxonomic and functional determinants of disease severity remain poorly defined. Here, we performed shotgun metagenomic sequencing of fecal samples from 125 individuals spanning acute non-icteric hepatitis (ANIH), acute icteric hepatitis (AIH), acute liver failure (ALF), and healthy controls. We constructed a surrogate clinical severity index from routine blood parameters and developed an integrative analytical framework that combined XGBoost-based taxonomic modeling with LASSO-driven functional feature selection to explore microbiome-severity associations. The taxonomic model discriminated patients from controls (area under the curve [AUC] = 0.944) and identified nine bacterial species significantly associated with severity, independent of age, sex, and body mass index (BMI) (permutation test, P < 0.05), with Veillonella atypica emerging as the most robust candidate biomarker. The signature featured enrichment of lactate-utilizing Veillonella spp. and Ligilactobacillus salivarius, alongside depletion of beneficial commensals (Dorea longicatena, Ruminococcus timonensis, Eubacterium ramulus), collectively suggesting a pathogenic \"lactate axis.\" The HE-enriched lactate utilizers were positively associated with 13 core severity-increasing KOs involved in oxidative stress adaptation (npr, hemQ, NUDT1, nfr1) and secretion/biofilm formation (gspD, fhaC, vpr, sinR) and negatively with three severity-decreasing KOs, including the butyrate fermentation gene (K14534). Strikingly, the stringent 16-KO core (intersection of four methods) explained more variance in disease severity than the broader set identified by at least three methods (R² = 0.61 vs. 0.47). Collectively, these findings reveal a strong link between microbiome-derived lactate metabolism and HE severity, highlighting its potential as a basis for microbiome-based severity stratification and motivating further mechanistic exploration.IMPORTANCEHepatitis E virus (HEV) infection ranges from ANIH to ALF, yet the role of the gut microbiome remains poorly understood across the severity spectrum. By performing shotgun metagenomic sequencing on fecal samples from 125 individuals and applying an integrative framework combining XGBoost-based taxonomic modeling with LASSO-driven functional selection, we identified robust microbiome-severity associations as quantified by a surrogate clinical severity index derived from routine blood parameters. These associations were characterized by enrichment of lactate-utilizing Veillonella species (notably Veillonella atypica), depletion of beneficial butyrate-producing commensals, and severity-linked shifts in microbial functional gene profiles. Such patterns are consistent with a perturbed microbial \"lactate axis\" in gut-liver crosstalk, although all associations remain correlational. Our findings nominate candidate microbial markers for severity stratification in hepatitis E and provide a hypothesis-generating framework to guide future mechanistic studies and microbiome-based therapeutic strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "LASSO",
+      "Streptococcus",
+      "Veillonella",
+      "XGBoost",
+      "hepatitis type E"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-25"
+  },
+  {
+    "pmid": "42786257",
+    "title": "Fermented protein foods as modulators of the gut-muscle axis: mechanisms, evidence, and future directions.",
+    "doi": null,
+    "journal": "Communications biology",
+    "issn": "2399-3642",
+    "pub_date": "2026-09-25",
+    "authors": "Farsi Dominic N; Cotter Paul D; O'Sullivan Orla",
+    "abstract": "Skeletal muscle has a profound influence on metabolic health, functional capacity and resilience across the lifespan. Beyond dietary protein and physical activity, the gut microbiome may have the capacity to impact skeletal muscle mass and function through the bidirectional network termed the gut-muscle axis (GMA). Fermented protein foods (FPFs) are protein rich matrices transformed by microbial activity that integrate modified protein structures, bioactive peptides, and live microorganisms, or components thereof, which could modulate skeletal muscle physiology. Here, we review mechanistic, preclinical and human evidence concerning the potential of FPFs to influence skeletal muscle health through GMA modulation. Although emerging human studies suggest favourable effects on metabolic regulation, inflammatory pathways and gut microbial ecology, direct evidence that FPFs impact muscle protein synthesis, muscle mass or function remains limited. Furthermore, the literature is characterised by considerable heterogeneity in interventions and outcome measures. Studies integrating comprehensive microbiome characterisation, multi-omics approaches and direct skeletal muscle phenotyping are needed to determine whether FPFs confer advantages over conventional protein foods or more established microbiome targeted strategies such as probiotic supplementation. Such studies will be essential to elucidate their role in targeted nutritional strategies for ageing, metabolic disease, muscle atrophy, and physical performance.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Muscle, Skeletal",
+      "Animals",
+      "Gastrointestinal Microbiome",
+      "Fermented Foods",
+      "Dietary Proteins"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-25"
+  }
+]
