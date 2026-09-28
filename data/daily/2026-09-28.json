@@ -1,0 +1,96 @@
+[
+  {
+    "pmid": "42803567",
+    "title": "Beyond the parasite: skin-intrinsic cytolytic circuits drive disease in cutaneous leishmaniasis and reveal targets for host-directed therapy.",
+    "doi": null,
+    "journal": "Microbiology and molecular biology reviews : MMBR",
+    "issn": "1098-5557",
+    "pub_date": "2026-09-28",
+    "authors": "Novais Fernanda O; Scott Phillip",
+    "abstract": "SUMMARYCutaneous leishmaniasis (CL) is a globally prevalent parasitic disease in which tissue pathology often arises primarily from immune-mediated damage rather than uncontrolled parasite replication. Despite effective Th1 responses and the production of IFN-γ, lesions often fail to resolve, highlighting an uncoupling of protective immunity from disease pathogenesis. This review synthesizes evidence from experimental models and human studies demonstrating that skin-intrinsic cytolytic inflammatory circuits-rather than parasite burden-are dominant drivers of lesion persistence and treatment failure in CL. Central to this pathway is the accumulation of cytotoxic CD8+ T cells within lesions, where perforin-dependent cell death triggers NLRP3 inflammasome activation and IL-1β production. IL-1β acts as a potent amplifier of inflammation by promoting neutrophil recruitment, tissue injury, and local hypoxia, which further programs pathogenic CD8+ T-cell differentiation. These responses are exacerbated by alterations of the skin microbiome, particularly the dominance of Staphylococcus aureus, and are normally constrained by Foxp3+ regulatory T cells that limit excessive IFN-γ-driven cytotoxicity. In parallel, parasite persistence within permissive macrophage subsets provides a continuous antigenic stimulus that sustains inflammation without achieving sterilizing immunity. Together, these interconnected pathways form a self-reinforcing inflammatory circuit that promotes ulceration, chronic disease, and therapeutic failure. Importantly, this pathogenic network is largely dispensable for parasite control and, therefore, provides multiple targets for host-directed therapies that could complement anti-parasitic drugs and improve clinical outcomes in CL.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "CD8+ T cells",
+      "T regulatory cells",
+      "cutaneous leishmaniasis",
+      "host-directed therapy",
+      "hypoxia",
+      "immunopathogenesis",
+      "skin microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-28"
+  },
+  {
+    "pmid": "42803537",
+    "title": "Integrated cross-sectoral surveillance of antimicrobial resistance genotypes and phenotypes across disparate reservoirs.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-28",
+    "authors": "Watts Thomas D; Jirapanjawat Thanavit; Perlaza-Jiménez Laura; Ricci Francesco; Tudor-Matthew Eve et al.",
+    "abstract": "Antimicrobial-resistant (AMR) bacteria and genes are continually exchanged among humans, animals, and environmental reservoirs. Disparate and siloed surveillance methods present a major challenge for tracing and disrupting AMR transmission, with clinical monitoring focusing on detecting specific pathogens or specific genes of interest, and environmental surveys often relying on inferences drawn from indicator organisms. Here, we demonstrate that, following sample-specific pre-processing, common surveillance approaches can be applied consistently to profile AMR abundance, distribution, and phenotypes across diverse reservoirs in both urban and agricultural settings. Across all sample types, three core methods provided complementary insights: (i) quantitative PCR (qPCR) arrays to measure multiple AMR genes, (ii) gene- and genome-centric metagenomics for comprehensive resistome profiling, and (iii) culture-based genomics with susceptibility testing to link genotypes to phenotypes. We applied this approach to profile 1,032 metagenome-assembled genomes, 66 bacterial isolate genomes, and 78 and 6,642 AMR genes/reference sequences via qPCR and metagenomics, respectively. This integrated framework revealed the prevalence and diversity of resistance mechanisms in both putative pathogens and non-pathogenic bacteria with potentially transmissible genes, with wastewater especially enriched in AMR genes. We detected mismatches between genotype and phenotype predictions and a prevalence of intermediate resistance phenotypes, highlighting how many mechanisms of environmental resistance remain poorly understood. Overall, this study demonstrates that unified, field-leading surveillance methods can be used in diverse environmental and animal samples while highlighting that multiple methods are needed to capture the diverse AMR genotypes and phenotypes in these settings to enable comprehensive monitoring and adaptive solutions to restrict transmission.IMPORTANCEAntimicrobial resistance (AMR) is driven by the exchange of resistant bacteria and genes across interconnected human, animal, and environmental reservoirs, yet fragmented surveillance limits our ability to track transmission and intervene effectively. We demonstrate that widely used surveillance methods can be applied cohesively across diverse sample types, including wastewater, soil, water, agricultural environments, and fecal samples, to generate comparable insights into AMR abundance, diversity, and phenotype. By integrating qPCR, metagenomics, and culture-based genomics, we reveal resistance in both pathogenic and non-pathogenic bacteria, reaffirm wastewater as a major AMR reservoir, and uncover frequent mismatches between genetic predictions and observed susceptibility. The prevalence of intermediate resistance further suggests that many environmental resistance mechanisms remain poorly understood. These findings show that no single method captures AMR complexity and highlight the need for unified, multi-method surveillance to support comprehensive monitoring and strategies to control the spread of resistance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "antibiotic resistance",
+      "bacterial isolation",
+      "environmental microbiology",
+      "metagenomics",
+      "qPCR",
+      "surveillance"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-28"
+  },
+  {
+    "pmid": "42803208",
+    "title": "Geographic Variation and Core Signatures of the Root Canal Microbiome: A Cross-Country Comparative Study.",
+    "doi": null,
+    "journal": "International endodontic journal",
+    "issn": "1365-2591",
+    "pub_date": "2026-09-28",
+    "authors": "Leimarembi Devi Naorem; Rakhimova Olena; Staley Christopher; Ordinola-Zapata Ronald; Moliz Maria Teresa Arias et al.",
+    "abstract": "AIM: Root canal infections harbour complex microbial communities that may vary across geographic populations. This study aimed to compare the root canal microbiome across Spain, Sweden, and the USA, identifying key microbial taxa, compositional and functional differences, and cohort-associated microbial signatures.\nMETHODS: 16S rRNA gene sequencing datasets from primary root canal infections were retrieved from three geographic cohorts (Spain n = 32, Sweden n = 14, USA n = 25). All samples targeted the V3-V4 region and were sequenced using the Illumina MiSeq platform. Alpha and beta diversity metrics were assessed to evaluate within- and between-sample variation. Taxonomic composition was characterized, followed by differential abundance analysis and identification of the core microbiome. Microbial co-occurrence networks were inferred using the SPRING method, and hub taxa were identified based on eigenvector centrality.\nRESULTS: Significant differences in microbial richness between cohorts were observed based on Chao1 index and observed richness. Beta diversity analyses revealed statistically significant but modest separation of microbial communities among populations (R2 = 6.8%), with substantial overlap between cohorts. Bacillota, Bacteroidota, Fusobacteriota, and Actinomycetota were dominant across cohorts, although their relative abundances varied. Core microbiome analysis identified both shared and cohort-associated taxa at genus and species levels. SPRING-based co-occurrence networks identified cohort-associated hub taxa, including Fretibacterium fastidiosum in the USA, Dialister pneumosintes in Spain, and Treponema denticola in Sweden. Furthermore, predictive functional profiling suggested differences in microbial functional potential among geographic cohorts.\nCONCLUSION: While root canal infections share a core microbiome, subtle population-specific microbial signatures were identified. However, the modest effect size suggests that geographic variation alone explains only a limited proportion of microbial composition. Larger and more balanced studies are required to further evaluate geographic influences on the root canal microbiome and their potential clinical relevance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "core microbiome",
+      "co‐occurrence networks",
+      "differentially abundant microbes",
+      "microbial diversity",
+      "root canal microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-28"
+  }
+]

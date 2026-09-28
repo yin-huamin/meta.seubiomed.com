@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42801677",
+    "title": "Supramolecular Zinc-Polyphenol Coordination Assemblies Mitigate Colonic Inflammation by Regulating Mucosal Barrier and Microbiome.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-09-27",
+    "authors": "Xie Qiwen; Ye Mai; Liu Xuexia; Wang Jing; Chen Ying et al.",
+    "abstract": "To overcome the poor bioavailability and environmental instability of physical polyphenol co-assemblies while maximizing their preventive efficacy, the authors engineered carrier-free, metal-phenolic coordination nanoparticles (ZnCA NPs) utilizing divalent zinc (Zn2+) to bridge curcumin and anthocyanin. This coordination chemistry transforms the binary polyphenols into a stable, quasi-amorphous state, substantially enhancing their aqueous dispersibility and gastrointestinal stability. Benefiting from this structural evolution, ZnCA NPs exhibited superior colonic accumulation and efficient reactive oxygen and nitrogen species scavenging. In zebrafish and murine colitis models, ZnCA NPs effectively reinforced the mucosal barrier and mitigated microenvironmental inflammation. Mechanistically, transcriptomic profiling revealed that ZnCA NPs modulated the colonic microenvironment by downregulating core NF-κB, MAPK, and JAK-STAT signaling cascades. Crucially, ZnCA NPs enriched beneficial commensals, most prominently Muribaculaceae, to attenuate dextran sulfate sodium-induced dysbiosis; the functional contribution of this remodeled microbiota in maintaining colonic homeostasis was microbiota transplantation. This study transitions polyphenol nanomedicine from fragile physical self-assembly to robust metal-phenolic coordination for enhanced prevention of intestinal inflammation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "RONS scavenging",
+      "colitis prevention",
+      "dysbiosis regulation",
+      "epithelial barrier integrity",
+      "metal–phenolic networks (MPNs)",
+      "zinc coordination"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-27"
+  }
+]
