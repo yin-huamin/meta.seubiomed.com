@@ -1,8 +1,8 @@
 {
-  "total": 4933,
+  "total": 4936,
   "by_type": {
-    "研究论文": 3810,
-    "综述": 588,
+    "研究论文": 3812,
+    "综述": 589,
     "Benchmark": 155,
     "临床试验": 142,
     "其他": 103,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 66
   },
   "by_year": {
-    "2026": 932,
+    "2026": 935,
     "2025": 810,
     "2024": 681,
     "2023": 558,
@@ -33,7 +33,7 @@
     "Nature microbiology": 107,
     "Frontiers in immunology": 103,
     "Nutrients": 94,
-    "Proceedings of the National Academy of Sciences of the United States of America": 91,
+    "Proceedings of the National Academy of Sciences of the United States of America": 93,
     "Genome biology": 89,
     "Briefings in bioinformatics": 81,
     "ISME communications": 74,

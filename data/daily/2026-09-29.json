@@ -1,0 +1,155 @@
+[
+  {
+    "pmid": "42805970",
+    "title": "Spatially resolved single cell atlas deciphers SAA1 inflammatory epithelial cells.",
+    "doi": null,
+    "journal": "International journal of oral science",
+    "issn": "2049-3169",
+    "pub_date": "2026-09-29",
+    "authors": "Wu Yajie; Su Zhifei; Zhang Bowen; Zhou Fangjie; Xi Ranhui et al.",
+    "abstract": "Disruption of epithelial integrity is a pivotal event in inflammation, disease pathogenesis, and tissue homeostasis. To investigate these processes in chronic inflammatory disease, we performed spatial transcriptomics integrated with single-cell RNA sequencing (scRNA-seq) on human gingival tissue, coupled with metagenomic analysis of matched subgingival plaque. This approach allowed in situ characterization of epithelial heterogeneity and microbiome-epithelium-connective tissue crosstalk. We identified a distinct inflammatory epithelial subpopulation (SAA1+Epi), situated within the junctional epithelium, that becomes activated through the TLR2-PITX2 axis by Porphyromonas gingivalis lipopolysaccharide. These SAA1+Epi cells secrete TGFβ, which induces an inflammatory program in the connective tissue by driving the differentiation of inflammation-associated fibroblasts (C3+FB) via the PI3K/Akt pathway. Concurrently, SAA1+Epi cells express chemotactic factors such as CXCL6 to recruit NK cells, thereby sustaining the inflammatory niche. The transcription factor PITX2 emerged as a critical regulator of SAA1+Epi differentiation; targeting PITX2 suppressed  C3+FB induction and natural killer (NK) cells recruitment, ultimately attenuating periodontitis progression. Our findings position SAA1+Epi as a frontline responder to dysbiotic bacteria at the inflammatory interface and underscore its essential role in regulating epithelial-connective tissue homeostasis during inflammation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Epithelial Cells",
+      "Serum Amyloid A Protein",
+      "Porphyromonas gingivalis",
+      "Inflammation",
+      "Transcription Factors",
+      "Cell Differentiation",
+      "Periodontitis",
+      "Single-Cell Analysis",
+      "Gingiva"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-29"
+  },
+  {
+    "pmid": "42752199",
+    "title": "Promotion of long-term health in early life.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-09-29",
+    "authors": "Stocker Martin; Klingenberg Claus; Rogers John A; Patel Neil; Morgillo Davide et al.",
+    "abstract": "Noncommunicable chronic diseases (NCDs) are on the rise in high-income countries, leading to substantial morbidity and mortality and contributing to increased resource demands and healthcare costs. Early-life exposures can initiate trajectories that culminate in NCDs later in life. Examples include the metabolic-endocrine pathway to obesity, diabetes, and cardiovascular diseases; the immune-mediated pathway to asthma and allergies; or the neurodevelopmental-psychological pathway to mental health problems. The interconnected trajectories involving microbiome composition, epigenetic signatures, nutrition, and psychological factors in early life can establish a basis for long-term health. While universal vaccination programs are in place to prevent infectious diseases, a coordinated effort to mitigate the rise of NCDs is missing. Examples of how to balance short- and long-term effects in early life include the use of appropriate medications, balanced healthcare interventions, optimized nutrition, and a nurturing care in early life. While these examples will not provide simple answers, they may stimulate important discussions and research into the overarching question: How can we deliver care in early life that achieves optimal short-term outcomes while promoting long-term health trajectories and well-being? While it is imperative to underscore the significance of subsequent periods to circumvent a deterministic conceptualization of a singular period as the primary catalyst for the development of physical and mental health, early life remains an underexploited window of opportunity fostering long-term health and mitigating the growing resource challenges faced by healthcare systems.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Health Promotion",
+      "Noncommunicable Diseases",
+      "Chronic Disease"
+    ],
+    "keywords": [
+      "epigenome",
+      "microbiome",
+      "neonates",
+      "nurturing care",
+      "nutrition"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-29"
+  },
+  {
+    "pmid": "41995611",
+    "title": "Sulfur as a central integrator of plant-microbe interactions: from nutrient cycling to immune signalling and microbiome assembly.",
+    "doi": null,
+    "journal": "Journal of experimental botany",
+    "issn": "1460-2431",
+    "pub_date": "2026-09-29",
+    "authors": "Elkatmis Büsra; Türksoy Gözde Merve; Rodríguez Enrique; Rahmoune Bilal; Koprivova Anna et al.",
+    "abstract": "Sulfur is an essential macronutrient that underpins plant growth, stress resilience, and immunity. Beyond its role in primary metabolism, sulfur is incorporated into a diverse array of secondary metabolites that mediate plant-microbe interactions. In this review, we summarize current knowledge on how microbial sulfur metabolism contributes to plant sulfur nutrition and how plant-derived sulfur-containing compounds shape microbial community assembly and disease outcomes. Microorganisms mobilize organic sulfur in soils through sulfatase activity, volatile sulfur production, and sulfoquinovose degradation, thereby enhancing plant sulfur availability, particularly under limiting conditions. Conversely, plants deploy sulfur-rich metabolites, including volatile organic compounds, glucosinolates, and the phytoalexin camalexin, to restrict pathogens, modulate beneficial associations, and structure rhizosphere communities. These compounds act not only as antimicrobial agents but also as ecological filters that balance defense with microbiome homeostasis. Emerging evidence indicates that sulfur availability and metabolic flux influence the composition and function of plant-associated microbiota, linking primary nutrient assimilation to immune regulation. By integrating insights from sulfur biochemistry, microbial ecology, and plant immunity, we highlight sulfur metabolism as a central node in plant-microbe interactions. Understanding the dynamic exchange of sulfur between plants and their microbiota will be essential for improving crop resilience and sustainable nutrient management in sulfur-limited agricultural systems.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Sulfur",
+      "Microbiota",
+      "Plant Immunity",
+      "Plants",
+      "Signal Transduction"
+    ],
+    "keywords": [
+      "Camalexin",
+      "S-containing metabolites",
+      "glucosinolates",
+      "microbiome",
+      "plant defense",
+      "plant growth-promoting bacteria",
+      "sulfur",
+      "volatiles"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-29"
+  },
+  {
+    "pmid": "42766739",
+    "title": "Candida in the lower respiratory tract induces barrier disruption in mice and predicts poor outcomes in mechanically ventilated humans.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-09-29",
+    "authors": "Tolman Nathanial J; Choi Wonseok; Coulter Riley; Snyder Mark E; Sharma Lokesh et al.",
+    "abstract": "Candida albicans (Calb) in the lower respiratory tract (LRT) is considered a rare cause of pneumonia, yet its frequent recovery from LRT secretions of mechanically ventilated patients associates with poor clinical outcomes. To determine whether Calb contributes to lung injury, we conducted a translational investigation spanning two independent, prospective human cohorts, murine models of lung injury, and in vitro assays. In critically ill patients, Calb was the most abundant fungus in LRT specimens, and its detection associated with increased markers of lung injury, prolonged mechanical ventilation, and increased mortality. In a murine model, intratracheal Calb was sufficient to disrupt the air-blood barrier and recruit neutrophils, effects markedly attenuated with heat-killed Calb. Neutrophil depletion led to uncontrolled fungal growth, systemic dissemination and mortality, with surviving mice exhibiting worsened barrier disruption, demonstrating that neutrophils support pathogen control while lung injury is driven by the live organism. Calb induced lung epithelial cytotoxicity as well as barrier disruption in human alveolar epithelial cells at air liquid interface. Yeast-locked mutants without hyphal morphogenesis demonstrated attenuated barrier disruption in human alveolar cells and diminished lung injury in mice, despite higher fungal burden. In human cohort data, LRT microbiome profiles with high Calb abundance and codominant bacterial pathogens predicted worse mortality, and mouse models confirmed that Calb amplifies lung barrier disruption when followed by Pseudomonas aeruginosa inoculation, an effect requiring hyphal morphogenesis. These findings establish that LRT Calb causes direct air-blood barrier disruption through hyphal morphogenesis and amplifies bacterial lung injury, challenging the prevailing view of Candida as an innocent respiratory bystander.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "Candida albicans",
+      "Respiration, Artificial",
+      "Candidiasis",
+      "Male",
+      "Disease Models, Animal",
+      "Neutrophils",
+      "Female",
+      "Lung Injury",
+      "Mice, Inbred C57BL",
+      "Lung"
+    ],
+    "keywords": [
+      "Candida albicans",
+      "hyphae",
+      "lung injury",
+      "respiratory failure"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-29"
+  }
+]
