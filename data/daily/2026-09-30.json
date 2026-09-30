@@ -1,0 +1,208 @@
+[
+  {
+    "pmid": "42409534",
+    "title": "Temperature-modulated microbial succession governs sulforaphane bioconversion during natural enriched fermentation of broccoli.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-09-30",
+    "authors": "García Vivian; Vega-Gálvez Antonio; Bernal Giuliano; Ramírez-Rivera Sebastián; Bernal Claudia et al.",
+    "abstract": "Sulforaphane, a potent anti-cancer isothiocyanate from broccoli, shows limited bioavailability in raw vegetables, restricting functional food applications. This study suggests for the first time that native lactic acid bacteria fermentation systematically enhances sulforaphane bioconversion through controlled temperature and matrix optimization. Broccoli inflorescences were fermented at 20-35 °C with different pretreatments (raw, blanched, sterilized), followed by HPLC-DAD quantification, 16S rRNA gene amplicon sequencing, and biochemical characterization including myrosinase activity and glucosinolate-isothiocyanate conversion efficiency. Fermentation at 35 °C with blanching achieved high sulforaphane concentrations of 84,000 μg/kg d.w. a 44-fold increase over unfermented raw broccoli values. Pearson correlation analysis revealed a strong positive association (r = 0.93, p < 0.01) between sulforaphane accumulation and microbial succession from Lactococcus to Lactiplantibacillus plantarum dominance across three distinct fermentation phases. This work supports the potential of natural fermentation biotransforms cruciferous vegetables into sulforaphane-enriched functional foods without chemical extraction, enabling sustainable microbiome-driven bioprocessing strategies for nutraceutical development and cancer chemoprevention applications.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Brassica",
+      "Isothiocyanates",
+      "Sulfoxides",
+      "Fermentation",
+      "Temperature",
+      "Glycoside Hydrolases",
+      "Lactiplantibacillus plantarum",
+      "Food, Processed",
+      "Food Microbiology",
+      "Glucosinolates",
+      "Anticarcinogenic Agents"
+    ],
+    "keywords": [
+      "Isothiocyanate bioconversion",
+      "Lactic acid fermentation",
+      "Lactiplantibacillus plantarum",
+      "Microbial dynamics",
+      "Sulforaphane enrichment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  },
+  {
+    "pmid": "42813812",
+    "title": "Cold-water gut isolate from threespine stickleback (Gasterosteus aculeatus) reveals polypropylene surface oxidation and co-culture inhibition.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-30",
+    "authors": "Pasqualetti Sarah M; Atwood Jolie; Aderibigbe Abiodun; Russell Edward; O'Keefe Kayleigh et al.",
+    "abstract": "Polyethylene terephthalate (PET) and polypropylene (PP), two of the most widely produced plastics in the United States, persist in diverse environments worldwide and may persist longer in cold-water environments where plastic-degrading microbial taxa have been poorly characterized. Understanding how gut microbes interact and contribute to plastic degradation is essential for developing potential microbiome-based bioremediation strategies. We isolated 184 microbes from wild Alaskan threespine stickleback (Gasterosteus aculeatus) guts across six bodies of water and screened them for their plastic-degrading potential using lipase/esterase assays and biofilm formation on PET and PP. We discovered that while some members of the stickleback gut microbiota have high lipase, esterase, and biofilm activity, that activity is enhanced or suppressed by other microbes. Isolates with the highest plastic-degrading potential were incubated in minimal media with PET or PP as the primary carbon source to determine whether plastic degradation occurs. While no detectable changes were observed on PET, surface analysis identified a Pseudomonas trivialis strain that exhibited evidence of PP surface oxidation in monoculture; however, this activity was suppressed in the presence of another gut isolate, Pseudomonas germanica. These results demonstrate that microbes associated with the gut microbiome of a cold-water fish possess plastic-degrading potential and provide insights into how microbial interactions can inhibit bioremediation of plastic pollution in cold-water environments.IMPORTANCEPlastic pollution persists in cold, freshwater environments and presents a significant challenge to the ecosystem, where low temperatures slow abiotic degradation, and microbial contributions remain poorly understood and understudied. Here, we isolated 184 microbes from adult Alaskan threespine stickleback guts across six bodies of water and screened for plastic-degradation potential using plate-based assays under both monoculture and co-culture conditions. We identified a stickleback gut-associated microbe that can oxidize polypropylene and identified a second microbe, isolated from the same environment, that can significantly suppress polymer oxidation when in co-culture. Together, these findings demonstrate that microbial interactions influence plastic-degradation abilities and support efforts to identify ecologically relevant microbes or enzymes for bioremediation efforts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "bioremediation",
+      "co-culture dynamics",
+      "cold-water bacteria",
+      "plastic biodegradation",
+      "polyethylene terephthalate",
+      "polypropylene",
+      "threespine stickleback"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  },
+  {
+    "pmid": "42409501",
+    "title": "Metagenomic-metabolomic integration elucidates stage-specific dynamics of microbial communities and metabolites driving pork spoilage in commercial supply chains.",
+    "doi": null,
+    "journal": "Food research international (Ottawa, Ont.)",
+    "issn": "1873-7145",
+    "pub_date": "2026-09-30",
+    "authors": "Huang Caiyan; Zhao Yingxin; Gu Minghui; Li Zhuobei; Li Xiao et al.",
+    "abstract": "Microbial-metabolic axis drives meat quality deterioration and shelf-life changes along commercial supply chains. This study tracked pork quality and freshness from postmortem processing to retail sale by integrating untargeted metabolomic and metagenomic analyses. Over the first 1700 min postmortem, pork showed a decline in pH and increases in L*, a* and b* values, cooking loss, shear force, total volatile basic nitrogen and total viable counts. At the point of sale, the meat remained in rigor mortis and retained acceptable freshness. Metabolic profiles remained dynamic after warehousing and were further modified by ambient exposure during transport and retail sale. Results revealed that differential metabolites were predominantly enriched in purine metabolism, nucleotide metabolism, lysosome pathway, as well as alanine, aspartate and glutamate metabolism. Likewise, several genera potentially associated with spoilage or contamination-associated bacteria were influenced by commercial condition along the supply chain, with increased abundance of Acinetobacter, Bacillus, Listeria, Psychrobacter, Salmonella andEnterobacter during transport and retail sale, while Listeria, Salmonella andEnterobacter may originate from environmental or processing-associated sources. These findings identify stage-specific metabolic and microbial signatures shaped by commercial handling, such as temperature, relative humidity and provide insights for improving pork quality and safety management during the early postmortem period.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Metabolomics",
+      "Metagenomics",
+      "Swine",
+      "Food Microbiology",
+      "Microbiota",
+      "Bacteria",
+      "Red Meat",
+      "Pork Meat",
+      "Food, Processed",
+      "Food Handling"
+    ],
+    "keywords": [
+      "Freshness",
+      "Meat quality",
+      "Metabolites",
+      "Microbial communities",
+      "Omics"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  },
+  {
+    "pmid": "42813815",
+    "title": "Rarefaction is better than robust Aitchison PCA and other compositional data analysis methods at controlling for uneven sequencing effort.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-30",
+    "authors": "Schloss Patrick D",
+    "abstract": "UNLABELLED: Amplicon sequencing typically results in a wide distribution in the number of sequences obtained from each sample. How best to account for this variation has been a persistent problem in the microbial ecology literature. Historically, rarefaction has been used in ecology and this practice was adopted by microbial ecologists. However, rarefaction has been strongly criticized, leading to the development of compositional data analysis and normalization methods. Therefore, I reassessed the benchmarking data that were generated by the developers of one such method, robust Aitchison PCA. I found numerous problems in the Python code that led to the support of robust Aitchison PCA. These problems extended to the creation of simulated data sets, implementation of machine learning methods, and choice of analysis parameters. Furthermore, the analysis of the simulated and case study data sets was done in a manner that was foreign to standard microbiome analyses. I corrected the problems in the original code, added data sets with smaller effect sizes, and expanded the collection of methods that purport to correct for uneven sequencing effort. Contrary to the claims of the original analysis, robust Aitchison PCA was not insensitive to uneven sequencing effort and did not perform as well as rarefaction. In fact, even using the benchmarking framework from the original analysis, rarefaction outperformed robust Aitchison PCA, other compositional data analysis methods, and other normalization methods. Rarefaction remains the preferred method of controlling for uneven sampling effort in amplicon sequence studies.\nIMPORTANCE: Efforts to connect the structure of microbial communities with environmental processes and host health have captured widespread interest among scientists and the general public. The methods used to generate the sequencing data that are fundamental to these efforts result in wide variation in the number of sequences per sample. This variation and how to account for it can have detrimental effects on the ability to draw valid conclusions. Compositional data analysis methods, including robust Aitchison principal component analysis (PCA), have grown in popularity for mitigating these effects and have been proposed as alternatives to rarefaction. In this study, I reviewed and fixed the code that was used to benchmark robust Aitchison PCA and expanded the analysis. With this improved and expanded analysis, I found that rarefaction was still superior to robust Aitchison PCA and other methods of controlling for uneven sequencing effort.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [
+      "16S rRNA gene",
+      "amplicon sequencing",
+      "bioinformatics",
+      "microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  },
+  {
+    "pmid": "42813801",
+    "title": "Comparative gut microbiome in diarrheal and non-diarrheal children: an individually matched case-control study.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-09-30",
+    "authors": "Xu Jialiang; Fan Yufeng; Qu Geruo; Li Jiaqi; Peng Yao et al.",
+    "abstract": "Diarrhea, a leading cause of under-five mortality in developing countries, drives therapeutic challenges amid global antibiotic resistance. This study aimed to compare gut microbiota, antibiotic resistance genes (ARGs), mobile genetic elements (MGEs), and virulence factors (VFs) in diarrheal and non-diarrheal children, explore reasons for asymptomatic pathogen carriage, and develop a microbiome-based model to predict the potential etiology of diarrhea. This individually matched case-control study analyzed 42 paired fecal samples (selected from 716 diarrhea/non-diarrhea cases) to compare gut microbiome profiles, ARGs, MGEs, and VFs using metagenomic sequencing and pathogen-specific PCR. Diarrheal children showed reduced alpha diversity, increased Proteobacteria, and elevated VFs and MGEs. Surprisingly, ARGs were more abundant in non-diarrheal children, suggesting ARG colonization in healthy hosts. Actinomyces was enriched in non-diarrheal pathogen carriers and may be associated with asymptomatic bacterial pathogen carriage. A random forest (RF) model incorporating non-pathogenic bacteria achieved high accuracy in predicting diarrheal status and pathogen carriage. This study reveals distinct microbial ecologies between diarrheal and healthy children. The enrichment of specific bacterial taxa in asymptomatic carriers may be associated with pathogen tolerance. The unexpected ARG abundance in healthy children highlights a hidden antimicrobial resistance reservoir. These findings inform microbiome-based diagnostics and antibiotic stewardship in pediatric diarrhea.IMPORTANCEThis study is significant because it provides robust, individually matched case-control evidence linking childhood diarrhea to gut microbiome dysbiosis and the distribution of pathogenic and resistance-related genetic elements. By integrating metagenomic sequencing with pathogen-specific polymerase chain reaction (PCR), it offers a comprehensive comparison of microbial composition, virulence factors (VFs), mobile genetic elements (MHEs), and antibiotic resistance genes (ARGs) between diarrheal and non-diarrheal children. The findings demonstrate reduced microbial diversity and enrichment of Proteobacteria, virulence factors, and mobile genetic elements in diarrheal cases, highlighting microbiome instability during infection. Importantly, the unexpectedly higher abundance of antibiotic resistance genes in non-diarrheal children underscores the underestimated role of healthy populations as reservoirs of resistance. Furthermore, the establishment of predictive models for diarrhea status and pathogen carriage enhances the translational value of the study. Overall, this work advances the understanding of pediatric diarrheal disease and informs prevention, surveillance, and treatment strategies in the context of global antimicrobial resistance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "diarrheal children",
+      "gut microbiota",
+      "individually matched case-control study",
+      "metagenomics",
+      "non-diarrheal children"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  },
+  {
+    "pmid": "42811751",
+    "title": "Host Genetic Variation Is Associated with Root-Associated Microbiome Assembly and Resistance to Fusarium oxysporum in Tobacco.",
+    "doi": null,
+    "journal": "Plant physiology",
+    "issn": "1532-2548",
+    "pub_date": "2026-09-30",
+    "authors": "Su Huan; Liu Huabing; Tao Jiemeng; Qu Zechao; Wang Qiao et al.",
+    "abstract": "Plant-microbe interactions are essential for plant health, yet the genetic basis of host control over root-associated microbiome assembly in Nicotiana tabacum remains unclear. We integrated whole-genome resequencing, amplicon sequencing, and metabolomics across 50 tobacco cultivars, together with microbial genome-wide association and mediation analyses, to investigate host-microbiome covariation. Host genotype significantly influenced the diversity and composition of root-associated microbial communities, particularly in the rhizosphere. Several host loci were associated with heritable microbial taxa linked to nutrient acquisition and stress responses. Mediation analysis suggested that associations between host genetic variation and Pseudomonadaceae abundance were partly transmitted through secondary metabolites variation, particularly terpenoids, whereas this mediating effect was less pronounced for other taxa. Functional assays further showed that several genotype-associated bacterial isolates antagonized Fusarium oxysporum. Among them, Pseudomonas aeruginosa FZ1 suppressed pathogen growth, enhanced host defense responses, and reduced disease severity in greenhouse experiments. These findings suggest that host genetic variation is associated with shifts in the tobacco root microbiome and that secondary metabolites may contribute to the assembly of specific microbial taxa. The study provides a basis for future mechanistic and breeding-oriented investigations of microbiome-associated traits.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Pseudomonas",
+      "GWAS",
+      "heritability",
+      "microbiota",
+      "plant-microbe interactions",
+      "tobacco"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-09-30"
+  }
+]
