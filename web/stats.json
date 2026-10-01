@@ -1,16 +1,16 @@
 {
-  "total": 4943,
+  "total": 4998,
   "by_type": {
-    "研究论文": 3818,
-    "综述": 589,
+    "研究论文": 3845,
+    "综述": 608,
     "Benchmark": 156,
-    "临床试验": 142,
-    "其他": 103,
+    "临床试验": 144,
+    "其他": 110,
     "案例报告": 69,
     "系统综述/Meta分析": 66
   },
   "by_year": {
-    "2026": 942,
+    "2026": 997,
     "2025": 810,
     "2024": 681,
     "2023": 558,
@@ -42,8 +42,8 @@
     "Communications biology": 63,
     "Gut": 50,
     "Gastroenterology": 48,
-    "Scientific data": 46,
-    "The Journal of infection": 45
+    "Microbiological research": 47,
+    "Nature": 46
   },
   "top_diseases": {
     "结直肠癌": 73,
