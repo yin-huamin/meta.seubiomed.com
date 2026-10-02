@@ -1,0 +1,143 @@
+[
+  {
+    "pmid": "42423461",
+    "title": "Obesity and Age Elevate Tissue-Resident Microbiota Akkermansia muciniphila to Induce Oxidative Stress and Promote Breast Cancer Risk.",
+    "doi": null,
+    "journal": "Cancer research",
+    "issn": "1538-7445",
+    "pub_date": "2026-10-02",
+    "authors": "Clear Kenysha Y J; Arnone Alana A; Tsai Yu-Ting; Wilson Adam S; Carneiro Buchele Maria L et al.",
+    "abstract": "UNLABELLED: Obesity is a modifiable risk factor for postmenopausal breast cancer. As obesity-gut microbiome interactions are well known, obesity might also affect tissue-resident microbiome populations as a mechanism promoting breast cancer. Using noncancerous breast tissue samples, we demonstrated that obesity and aging interact to shift the tissue-resident microbiome in patients with breast cancer. Breast tissue from postmenopausal women with obesity displayed significantly different α-diversity and β-diversity compared with pre- and postmenopausal women without obesity. At the species level, breast tissue from postmenopausal women with obesity expressed elevated Akkermansia muciniphila abundance when compared with all other groups. A secondary cohort of noncancerous breast tissue from reduction mammoplasty patients indicated that participant body mass index correlates with breast A. muciniphila abundance. Elevated mammary gland (MG) A. muciniphila in female MMTV-PyMT mice fed a high-fat Western diet increased tumorigenesis, tumor multiplicity, and oxidative stress markers, and the administration of the antioxidant N-acetylcysteine reduced A. muciniphila-induced tumorigenesis and redox perturbations. In an orthotopic progression model, MG A. muciniphila in Western diet-fed mice promoted estrogen receptor-positive tumor growth and lung metastases. Taken together, these results suggest that obesity and aging interact to enrich breast A. muciniphila abundance, modifying tissue redox balance as a risk factor for obesity-mediated postmenopausal breast cancer.\nSIGNIFICANCE: Obesity and aging alter the breast tissue microbiome, increasing abundance of tissue-resident Akkermansia muciniphila that promotes tumorigenesis and oxidative stress, revealing a microbial mechanism contributing to postmenopausal obesity-associated breast cancer risk.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Female",
+      "Animals",
+      "Humans",
+      "Obesity",
+      "Oxidative Stress",
+      "Breast Neoplasms",
+      "Akkermansia",
+      "Mice",
+      "Aging",
+      "Microbiota",
+      "Middle Aged",
+      "Risk Factors",
+      "Postmenopause"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-02"
+  },
+  {
+    "pmid": "42823565",
+    "title": "Gut Microbiome and Fecal Metabolome Analysis Reveal Potential Non-Invasive Biomarkers For Acute Myocardial Infarction.",
+    "doi": null,
+    "journal": "Probiotics and antimicrobial proteins",
+    "issn": "1867-1314",
+    "pub_date": "2026-10-02",
+    "authors": "Khan Ikram; Xie Xiaodong; Li Zhiqiang",
+    "abstract": "Although the gut microbiome is recognized as crucial for human health, its combined effects with microbial metabolites on acute myocardial infarction (AMI) remain poorly understood. This study investigated gut microbiome composition using 16 S rRNA sequencing and untargeted LC-MS metabolomics profiles from 24 AMI patients and 24 healthy individuals to identify microbial biomarkers, metabolite signatures, and key functional pathways. No significant difference was observed in alpha diversity, whereas beta diversity differed significantly between AMI patients and controls. At the taxonomic level, Bacteroidota, Proteobacteria, Escherichia_Shigella, Collinsella, and Klebsiella were increased, while Firmicutes, Actinobacteriota, and Bifidobacterium were decreased in the AMI group compared with controls. Metabolomic profiling identified seven metabolites with strong discriminatory power for AMI, with area under the curve (AUC) values ranging from 0.91 to 0.99. Among these, S‑adenosyl‑L‑homocysteine, Cyanidin 3‑[6‑(4‑glucosylcoumaryl)sophoroside] 5‑glucoside, and 5‑Methyltetrahydrofolate were found to be upregulated, whereas Prostaglandin J2, Leukotriene A4, and 5‑HEPE were downregulated. Based on these findings, the upregulated metabolites S‑Adenosyl‑L‑homocysteine, Cyanidin 3‑[6‑(4‑glucosylcoumaryl)sophoroside] 5‑glucoside, 5‑Methyltetrahydrofolate, and the downregulated metabolites Prostaglandin J2, Leukotriene A4, and 5‑HEPE represent candidate non‑invasive biomarkers for AMI that warrant further validation. Functional pathway analysis highlighted pronounced disruptions in arginine biosynthesis and the folate-mediated one-carbon metabolism. Spearman correlation analysis showed that specific gut microbial taxa were significantly associated with clinical parameters and metabolites implicated in AMI-related pathways. These findings revealed distinct microbial and metabolic profiles in Chinese patients with AMI compared to healthy controls. Future research should investigate causal mechanisms and evaluate microbiota-targeted approaches for cardiovascular disease prevention and therapy.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Acute myocardial infarction",
+      "Correlation",
+      "Fecal metabolome",
+      "Functional pathways",
+      "Gut microbiome"
+    ],
+    "summary_zh": "采用16S rRNA测序和LC-MS代谢组学比较24例AMI患者与24例健康人，发现菌群代谢差异及潜在无创标志物。",
+    "innovation": "联合肠道微生物组与粪便代谢组分析AMI | 发现7个对AMI具有强判别力的代谢物，AUC为0.91-0.99 | 功能通路分析揭示精氨酸生物合成和叶酸介导一碳代谢明显紊乱",
+    "limitation": "候选非侵入性生物标志物仍需进一步验证 | 因果关系尚未明确，未来需研究机制并评估靶向微生物群的方法",
+    "study_object": "人类（中国AMI患者与健康对照） + 粪便/肠道 + 16S rRNA测序与非靶向LC-MS代谢组学",
+    "disease": "急性心肌梗死",
+    "sample_size": "24例AMI患者和24例健康对照（共48例）",
+    "ai_done": true,
+    "fetch_date": "2026-10-02"
+  },
+  {
+    "pmid": "42825349",
+    "title": "Novel insights into the role of the renal interstitial microenvironment in Randall's plaque formation (Review).",
+    "doi": null,
+    "journal": "International journal of molecular medicine",
+    "issn": "1791-244X",
+    "pub_date": "2026-10-02",
+    "authors": "Wang Jialiang; Liao Zhangcheng; Liu Minghui; Wang Yizhou; Cui Yu et al.",
+    "abstract": "Randall's plaque (RP) consists of subepithelial hydroxyapatite (HAP) deposits within renal papillae and provides a well‑established attachment substrate for a subset of idiopathic calcium oxalate (CaOx) kidney stones. However, RP has traditionally been viewed as a passive mineral surface onto which crystals accrete, with comparatively less focus on the cellular and molecular events that build the plaque itself. The renal papillary interstitium has been indicated as a dynamic microenvironment that undergoes molecular remodeling during plaque‑associated mineralization. The present review aimed to organize the current evidence regarding interconnected processes that may overlap in vivo rather than occur in a fixed sequence. Physicochemical conditions in the inner medullary interstitium favor HAP nucleation and provide the foundation for plaque formation. Epithelial injury responses, regulated cell death, osteogenic‑like fibroblasts and immune remodeling may contribute to the development of a pro‑calcific microenvironment; however, the spatial relationship, temporal order and plaque specificity of these processes remain incompletely defined. Macrophage polarization may influence whether local crystal‑associated inflammation and mineralization are amplified or reduced. As interstitial HAP deposits enlarge and become exposed through focal disruption of the renal papillary epithelium, these deposits can interact with pelvic urine and support CaOx nucleation and overgrowth. Systemic metabolic abnormalities and urinary or gut microbiome alterations are associated with stone disease and may modify the papillary microenvironment; however, direct evidence that they alter human RP burden is lacking to date. Of note, available animal and cell models demonstrate selected aspects of mineralization or crystal injury but do not reproduce the chronic, progressive interstitial HAP plaque observed in humans. In conclusion, considering RP as an interstitial microenvironmental disorder may help identify potential biomarkers of early papillary remodeling and generate potential therapeutic strategies for stone prevention in the future.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "Cellular Microenvironment",
+      "Calcium Oxalate",
+      "Kidney Medulla",
+      "Kidney Calculi",
+      "Kidney",
+      "Durapatite"
+    ],
+    "keywords": [
+      "Randall's plaque",
+      "calcium oxalate nephrolithiasis",
+      "osteogenic reprogramming",
+      "renal interstitial microenvironment",
+      "renal papilla"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-02"
+  },
+  {
+    "pmid": "42825323",
+    "title": "Personalized Nutrition for Hypertension: Current Evidence and Future Directions.",
+    "doi": null,
+    "journal": "Circulation. Genomic and precision medicine",
+    "issn": "2574-8300",
+    "pub_date": "2026-10-02",
+    "authors": "Cheong Phoebe; Mangan Cass; Clarke Erin D; Stanford Jordan; Cairns Murray J et al.",
+    "abstract": "Hypertension is a leading risk factor for cardiovascular disease, with lifestyle interventions, particularly diet, playing a pivotal role in its management. Recent advancements in personalized nutrition that tailor dietary recommendations based on an individual's unique biology (eg, genetics, microbiome) and lifestyle factors can potentially improve blood pressure control. Indeed, emerging evidence suggests that personalized nutrition can result in more effective and sustained blood pressure reductions than general dietary guidelines. This review explores the current evidence supporting personalized nutrition as a novel strategy for managing hypertension, while leveraging established approaches for controlling glycemia. We evaluate studies integrating genetic markers and genomics, gut microbiome profiles, and metabolic phenotypes to design personalized dietary interventions to reduce blood pressure. Specifically, we discuss how nutritional factors, including sodium and fiber intake and diets such as the Dietary Approaches to Stop Hypertension, interact with an individual's genetic predisposition and gut microbiota composition to influence blood pressure outcomes. However, challenges remain in translation to clinical practice, including the need for larger, long-term trials in real-world settings, accessibility of advanced dietary assessments, considerations of patient adherence, and equity. We highlight the potential of personalized nutrition to refine hypertension treatment and call for further research to optimize its implementation at the public health and clinical practice levels. Particularly in low- and middle-income countries, where hypertension prevalence is higher, cost is an important consideration for successful implementation. However, some personalized treatments focusing on diet are cost-effective and should be prioritized. Ultimately, a personalized nutrition approach may offer a powerful tool for mitigating the global burden of hypertension through targeted, individualized dietary strategies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "blood pressure",
+      "diet",
+      "genetics",
+      "hypertension",
+      "metabolites",
+      "microbiome",
+      "sodium"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-02"
+  }
+]
