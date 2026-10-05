@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42830139",
+    "title": "Age-related shifts in the salivary microbiome linked to cariogenic changes: A cross-sectional study.",
+    "doi": null,
+    "journal": "Journal of dentistry",
+    "issn": "1879-176X",
+    "pub_date": "2026-10-04",
+    "authors": "Hayashi-Okamura Yuka; Shintani Tomoaki; Obayashi Nami; Morihara Nagisa; Oki Yoshifumi et al.",
+    "abstract": "INTRODUCTION: Although the prevalence of dental caries in older individuals is increasing, there are limited reports on the dental health of this population. In this cross-sectional study, we compared caries risk assessed using saliva and microbiome components between older and younger individuals.\nMETHODS: Between February 2022 and September 2025, 229 younger people (12-35 years) and 111 older people (≥50 years) underwent caries risk testing and oral bacterial count measurement using stimulated saliva at the Oral Examination Center of Hiroshima University Hospital. Caries risk was assessed using salivary secretion volume, salivary pH, buffering capacity, and cultures of Mutans streptococci (MS), Lactobacillus, and Candida species. The DMFT index and plaque control record were obtained from medical records. Bacterial DNA was extracted from a randomly selected subset of 30 younger-group samples and 58 older-group samples. The diversity and composition of the microbiome were analyzed by 16S rRNA sequencing. Data were compared between the two groups using univariate and multivariate analyses.\nRESULTS: MS levels and salivary buffering capacity were significantly higher in the older group compared to the younger group (p < 0.05). Microbial diversity was lower in the older group. Prevotellaceae and Actinomycetota were among the most prevalent bacteria in the older group. Kyoto Encyclopedia of Genes and Genomes pathway analysis showed elevated expression of genes involved in anaerobic metabolism and glucose metabolism in the older group compared to the younger group.\nCONCLUSION: These findings suggest that age-related ecological shifts in the oral microbiome may increase the risk of dental caries.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "16s rRNA sequencing",
+      "aging",
+      "dental caries",
+      "ecological shift",
+      "salivary microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-04"
+  }
+]

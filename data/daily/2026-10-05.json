@@ -1,0 +1,100 @@
+[
+  {
+    "pmid": "42831354",
+    "title": "PanGBank: a large-scale resource of precomputed microbial pangenomes built with PPanGGOLiN.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-10-05",
+    "authors": "Mainguy Jean; Lemane Téo; Bazin Adelme; Arnoux Jérôme; Gautreau Guillaume et al.",
+    "abstract": "PanGBank (https://pangbank.genoscope.cns.fr) is a comprehensive open-access database providing precomputed prokaryotic pangenomes at a broad taxonomic scale. Built upon PPanGGOLiN partitioned pangenome graphs, PanGBank addresses the growing need for large-scale comparative genomics through a standardized, regularly updated, and fully accessible resource. The initial release comprises two complementary collections covering >4600 prokaryotic species from the Genome Taxonomy Database (GTDB), encompassing over 393 000 genomes: GTDB_all, maximizing taxonomic and environmental diversity through the inclusion of metagenome-assembled genomes and single-cell amplified genomes, and GTDB_refseq, focusing on high-quality, annotation-rich genomes. Each species-level pangenome integrates graph-based statistical partitions into persistent, shell, and cloud gene families, together with regions of genomic plasticity (panRGP) and co-localized functional modules (panModule). PanGBank offers multiple access modes, including a REST API, a command-line interface, and an interactive web interface. By combining large-scale pangenome resources with advanced graph-based analyses, PanGBank provides a scalable framework for exploring microbial diversity, genome evolution, functional variation, and the dissemination of adaptive traits across prokaryotic populations, as illustrated by a use case on Acinetobacter baumannii pangenome investigating the distribution and evolution of antimicrobial resistance determinants.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-05"
+  },
+  {
+    "pmid": "42830277",
+    "title": "Metagenomic analysis of rhizosphere soil microbiota in wild and cultivated Notopterygium incisum, an umbelliferae medicinal herb.",
+    "doi": null,
+    "journal": "BMC microbiology",
+    "issn": "1471-2180",
+    "pub_date": "2026-10-05",
+    "authors": "Feng Tianqing; Shang Jun; Ma Yonggui; Li Juan; Qin Yanrong et al.",
+    "abstract": "Notopterygium incisum is not only a traditional Chinese medicine but also an endemic herb. Artificial domestication and large-scale cultivation are crucial for resolving the crisis of wild resources and the supply-demand imbalance of N. incisum, yet current techniques have failed to stably provide the herb medicine in good quality. Metagenomic analyses revealed significant differences in the rhizomicrobiota between wild and cultivated N. incisum, particularly in microbial composition, gene functions, and community assembly. The rhizomicrobiota of the wild N. incisum from 3 different sites with an altitude drop over 1400 m had a similar composition when being compared with the cultivated samples. The wild N. incisum had higher abundances of beneficial microbes, particularly Hyphomicrobiales (Rhizobiales) (21.27% on average). In contrast, the rhizosphere microbial communities of the cultivated N. incisum showed a high prevalence of functional genes involved in the pathways of DNA repair and recombination proteins, replication and repair, peptidases and inhibitors, DNA replication proteins, and transfer RNA biogenesis. The co-occurrence networks analysis indicated that the stability of the wild samples' network remained significantly more robust when nodes were proportionally removed, as the wild samples' network had approximately the same positive and negative links while the cultivated samples' network had nearly all positive links and many fewer connectors. This is related to the conclusion that wild N. incisum exhibits superior efficacy, as reported in previous studies. Additionally, it can be observed from the sampling images that the root surface of wild N. incisum has more pronounced tiny protrusions, which may be associated with rhizobial attachment, thereby enhancing the nitrogen fixation process. Importantly, the observed shifts in rhizosphere microbial communities, particularly the enrichment of beneficial rhizobia in wild plants, are closely linked to enhanced accumulation of bioactive secondary metabolites such as coumarins and volatile oils. These microbiome-driven differences are likely associated with the superior medicinal quality of wild N. incisum compared to cultivated counterparts, highlighting the pivotal role of rhizosphere microbes in shaping therapeutic efficacy.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Rhizosphere",
+      "Soil Microbiology",
+      "Metagenomics",
+      "Apiaceae",
+      "Plants, Medicinal",
+      "Microbiota",
+      "Bacteria"
+    ],
+    "keywords": [
+      "Bradyrhizobium",
+      "Notopterygium incisum",
+      "Metagenomic sequencing",
+      "Qinghai-Tibet Plateau",
+      "Rhizobiales",
+      "Rhizosphere microorganisms"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-05"
+  },
+  {
+    "pmid": "42831621",
+    "title": "Leviathan: fast, memory-efficient, and scalable taxonomic and pathway profiling for (pan)genome-resolved metagenomics and metatranscriptomics.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-05",
+    "authors": "Espinoza Josh L; Phillips Allan J; Dupont Chris L",
+    "abstract": "Functional profiling of meta-omics is essential for understanding microbial communities, yet support for custom genome-resolved reference databases is limited. We introduce Leviathan for integrated taxonomic and functional profiling at both genome and pangenome resolution. Leviathan combines Sylph for ultrafast alignment-free taxonomic profiling with Salmon for pseudo-alignment-based read quantification in DNA space against (pan)genome-resolved gene catalogs, producing dual metrics per (pan)genome: pathway abundance and graph-based pathway coverage. Benchmarking alignment backends on synthetic metagenomes, we show that DNA-space pseudo-alignments retain competitive (pan)genome-level classification performance compared to traditional alignment, reducing resource requirements, while translated searches in protein space lose classification resolution from ambiguous mapping events. Leviathan's utility is demonstrated through two case studies: a marine plastisphere metagenomics data set analyzing metabolic shifts between early and mature biofilm communities, and a dental caries metatranscriptomics data set where co-expression network analysis identified organism-specific transcriptional patterns diagnostic of health and disease states. Leviathan is available at https://github.com/jolespin/leviathan.IMPORTANCEUnderstanding what microbes can do, not just which ones are present, is central to translating microbiome research into actionable insight. Existing functional profiling tools either rely on fixed reference databases or require complex multi-step pipelines when applied to custom genome collections, and none natively compute per-(pan)genome pathway abundance and graph-based pathway completeness in a single workflow. This limits the ability for researchers to directly compare functional profiles to tangential analyses on their specific genome catalogs. Leviathan addresses this gap with integrated taxonomic and functional profiling against user-defined (pan)genome-resolved references using pseudo-alignment, achieving competitive classification accuracy, with lower resource requirements compared to current methods. Native pangenome support enables routine quantification of metabolic potential and transcriptional activity at both genome and pangenome resolution, revealing functional variation across related strains that single-genome or community-level analyses obscure.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [
+      "bioinformatics",
+      "functional profiling",
+      "genome-resolved metagenomics",
+      "metagenomics",
+      "metatranscriptomics",
+      "microbial ecology",
+      "microbiome",
+      "pangenome",
+      "pathway profiling",
+      "taxonomic profiling"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-05"
+  }
+]
