@@ -1,0 +1,32 @@
+[
+  {
+    "pmid": "42836409",
+    "title": "Tanshinone IIA Ameliorates Sleep Deprivation-Induced Cognitive Impairment: Involvement of Gut Microbiota and the TLR4/NF-κB Signaling Pathway.",
+    "doi": null,
+    "journal": "The American journal of Chinese medicine",
+    "issn": "1793-6853",
+    "pub_date": "2026-10-07",
+    "authors": "Yin Chao; Zhang Meiya; Zhang Shunbo; Ren Tian; Ding Li et al.",
+    "abstract": "Previous studies have indicated that Salvia miltiorrhiza Bunge (Danshen, DS) improves sleep deprivation (SD)-induced cognitive deficits, suggesting that tanshinone IIA (Tan IIA) may be a key pharmacodynamic substance. However, the mechanism behind this remains unclear. This study aims to evaluate the protective effects of Tan IIA on learning and memory abilities in SD model rats and to explore its potential mechanisms related to gut microbiota. The Morris water maze (MWM) test was used to assess cognitive function, while Hematoxylin and Eosin (H&E) staining, Nissl staining, immunofluorescence, and Alcian blue-periodic acid Schiff (AB-PAS) staining were employed to examine histopathology and barrier proteins. Enzyme-linked immunosorbent assay (ELISA), Western blot, and 16S rRNA microbiome sequencing were used to explore the mechanism of Tan IIA in the SD rat model. Tan IIA significantly protected cognitive function in SD model rats, rescued the BBB function (ZO-1 and Occludin), reduced hippocampal inflammation and neuronal death, and alleviated hippocampal microglial inflammatory activation and Aβ42 deposition. Additionally, Tan IIA treatment markedly reduced systemic inflammation (serum TNF-α, IL-1β, and IL-6), intestinal inflammation, and intestinal barrier disruption (MUC-2, ZO-1, and Occludin). 16S rRNA microbiome sequencing indicated that the therapeutic effects of Tan IIA were associated with gut microbiota regulation, reducing lipopolysaccharide (LPS) production and leakage, thereby modulating abnormal expression of the TLR4/NF-κB signaling pathways and the abnormal expression of downstream inflammatory cytokines (TNF-α, IL-1β, IL-6) and enzymes (iNOS and COX2). In conclusion, Tan IIA protects cognitive function in SD rats through anti-inflammatory mechanisms, in part by reshaping the gut microbiota and modulating the TLR4/NF-κB signaling pathway, providing a theoretical basis for the clinical application of Tan IIA in the prevention and treatment of SD-related cognitive impairment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cognitive Impairment",
+      "Gut Microbiota",
+      "Sleep Deprivation",
+      "TLR4/NF-κB Signaling Pathway",
+      "Tanshinone IIA"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-07"
+  }
+]
