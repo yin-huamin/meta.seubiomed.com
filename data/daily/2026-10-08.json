@@ -1,0 +1,109 @@
+[
+  {
+    "pmid": "42845237",
+    "title": "Gut microbial metabolism of peanuts generates immunoregulatory metabolites.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-10-08",
+    "authors": "Shannon Emer; Devotta Hannah; Ndwandwe Cebile; Kim Songhui; Yao Lu et al.",
+    "abstract": "Early life introduction of potentially allergenic foods such as peanuts is important for the prevention of food allergy. We hypothesized that peanut consumption may indirectly influence the immune system via effects on gut microbiota composition and metabolism. In vitro human fecal fermentations with peanuts were performed. Changes in taxa and metabolism were measured using 16S rRNA gene sequencing and untargeted metabolomics respectively. Ten Bifidobacterium strains were cultured in vitro in the presence of peanuts and human peripheral blood mononuclear cells (PBMCs) were used to assess culture supernatant immunomodulatory effects. Fecal samples were sequenced from children at 12 months (n = 343) using whole genome metagenomic sequencing. An online questionnaire was used to collect dietary data. Human fecal bioreactor fermentation of peanut flour, previously subjected to in vitro simulated gastrointestinal digestion, resulted in significant production of short-chain fatty acids (SCFA), associated with increased relative abundance of Megasphaera and bifidobacteria. 188 metabolites were significantly altered following peanut fermentation. Bifidobacterium longum subspecies longum strain 160 efficiently metabolized peanut associated with secretion of indole-3-lactic acid (ILA). Following growth on peanuts, bifidobacterial supernatants enhanced IL-10 secretion, but reduced TNF-alpha and IL-5 secretion from stimulated PBMCs. Peanut consumption by 12-month-old children was associated with significant changes in gut microbiota composition including increased levels of Prevotella buccae, Megasphaera micronuciformis and Blautia wexlerae. Peanuts are metabolized by microbes generating immunoregulatory metabolites such as SCFAs and ILA. These metabolites may represent one potential mechanism underlying the allergy-protective effects of early peanut consumption, which requires further validation in high-risk allergy cohorts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Arachis",
+      "Bifidobacterium",
+      "Feces",
+      "Gastrointestinal Microbiome",
+      "Leukocytes, Mononuclear",
+      "Fermentation",
+      "Infant",
+      "Bacteria",
+      "Fatty Acids, Volatile",
+      "RNA, Ribosomal, 16S",
+      "Female",
+      "Male",
+      "Interleukin-10",
+      "Cytokines"
+    ],
+    "keywords": [
+      "Microbiota",
+      "allergy",
+      "complementary feeding",
+      "infants",
+      "peanuts"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-08"
+  },
+  {
+    "pmid": "42844060",
+    "title": "Engineering anaerobic fungal-bacterial consortia for direct conversion of lignocellulosic biomass into medium-chain fatty acids.",
+    "doi": null,
+    "journal": "Trends in biotechnology",
+    "issn": "1879-3096",
+    "pub_date": "2026-10-08",
+    "authors": "Kim Byung-Chul R; Blair Elaina M; Howard Joel P; Gois Ian M; Flick Robert et al.",
+    "abstract": "Lignocellulosic biomass is a renewable feedstock for sustainable fuels and chemicals, yet industrial conversion remains constrained by carbohydrate solubilization. Inspired by herbivore rumen microbiomes, we engineered an anaerobic fungal-bacterial consortium thatconverts native lignocellulose into medium-chain fatty acids (MCFAs) without pretreatment. Systematic screening identified the anaerobic fungus isolated here, Neocallimastix sp. FC1, togetherwith Megasphaerahexanoica, as a top-performing consortium, achieving a lignocellulose-to-MCFA yield of 21.0% (carbon-to-carbon basis) through tight lactate cross-feeding without competition for soluble sugars. Fungal lactate production limited the growth of M. hexanoica in co-culture, and the bacterium reallocated protein from growth toward chain elongation, resulting in increased MCFA production. These findings identify fungal lactate production as the primary biological constraint, and balancing lactate production and consumption as a key engineering strategy for improving lignocellulose-to-MCFA conversion. Techno-economic analysis identified high cultivation medium costs as the primary economic constraint and established quantitative cost-yield targets for profitable MCFA production.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "anaerobic fungi",
+      "industrial biomanufacturing",
+      "lignocellulosic biorefinery",
+      "medium-chain fatty acids",
+      "microbial chain elongation",
+      "microbiome engineering"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-08"
+  },
+  {
+    "pmid": "42845110",
+    "title": "The Gut-Brain Axis in Parkinson's Disease: From Clinical Observation toward Mechanism-Based Precision Medicine.",
+    "doi": null,
+    "journal": "Movement disorders : official journal of the Movement Disorder Society",
+    "issn": "1531-8257",
+    "pub_date": "2026-10-08",
+    "authors": "Scheperjans Filip; Borghammer Per; Pfeiffer Ronald F; Appel-Cresswell Silke; Keshavarzian Ali",
+    "abstract": "Gastrointestinal dysfunction is increasingly recognized as a core feature of Parkinson's disease (PD), affecting quality of life, nutrition, medication response, and potentially the earliest stages of pathogenesis. This perspective traces the evolution of the gut from a neglected source of non-motor symptoms to a central component of biological models of PD. Gastrointestinal manifestations are physiologically heterogeneous and require objective phenotyping to distinguish dysphagia, gastroparesis, slow transit, defecatory dysfunction, and overlapping mechanisms. The body-first/brain-first framework further suggests that Lewy pathology may follow distinct anatomical trajectories, with early enteric and autonomic involvement defining a subgroup in which gut-directed biomarkers and therapies may be especially relevant. Alterations of the gut microbiome are reproducibly associated with PD, although geography, constipation, medication, diet, disease stage, and reverse causation complicate interpretation. Emerging work is shifting from taxonomy toward microbial functions and host pathways, including barrier integrity, immune and enteroendocrine signaling, short-chain fatty acids, glucagon-like peptide-1 (GLP-1), host genetic susceptibility, α-synuclein aggregation and propagation, and microbial levodopa metabolism. Trials of probiotics, fecal microbiota transplantation, and dietary interventions remain heterogeneous and have not established disease-modifying efficacy. Progress will require longitudinal studies in prodromal and subtype-defined populations, objective gastrointestinal measurements, integrated microbial, host-genetic and other multi-omics, mechanistic human and animal models, and clinical trials combining target-engagement markers with meaningful outcomes. Such an approach may enable precision gut-brain medicine for appropriately selected patients with PD. © 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Parkinson's disease",
+      "gastrointestinal dysfunction",
+      "gut–brain axis",
+      "microbiota",
+      "precision medicine"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-08"
+  }
+]
