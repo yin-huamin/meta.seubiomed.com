@@ -1,0 +1,234 @@
+[
+  {
+    "pmid": "42852904",
+    "title": "Comparative performance of reference-based metagenomic tools to identify species-level taxa among families of bacteria: benchmarking Mycobacteriaceae and Neisseriaceae.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-09",
+    "authors": "Harrison Luke B; Ahmed Juba O; Coulibaly Gnéré M; Veyrier Frédéric J",
+    "abstract": "UNLABELLED: Hypotheses concerning the ecology and evolution of bacteria commonly relate to the presence and abundance of species in various settings and conditions. Shotgun metagenomics may address these hypotheses, which previously relied on PCR or culture. However, the problem of determining the presence/absence of a given species of interest is not trivial, particularly when closely related species are present in the reference database or metagenomic sample. Reference-based methods for detecting species-level taxa mostly rely on thresholding of aligned reads or mapped k-mers, or derivative metrics such as genomic coverage, creating a trade-off between recall/completeness and precision/purity. New methods for species-level profiling (YACHT, Metapresence, and sylph) have recently been published. Here, we test the performance of these methods, along with Kraken2/bracken and MetaPhlAn4, to detect related species of interest using simulated metagenomic samples from genomes in the families Mycobacteriaceae and Neisseriaceae, which contain closely related genomes. Among methods tested, Metapresence, when used with an alignment quality filter, and sylph offer the best overall performance. Sylph maintains high precision but requires a depth of coverage greater than approximately 0.1× to reliably detect a genome's presence. Metapresence has a lower limit of detection of hundreds of reads, but this is balanced against relatively lower precision. Both methods are relatively robust to the presence of reads from genomes outside the groups of interest. We demonstrate the application of these methods in two real-world data sets: a mycobacterial community in a drinking water system and the community of Neisseriaceae present in the human oral cavity.\nIMPORTANCE: Detecting which bacterial species of interest are present in a given sample is fundamental to studies of microbial ecology and evolution and to applied microbiology (e.g., clinical diagnostics). Culture-dependent and culture-independent (e.g., PCR) approaches are increasingly complemented by metagenomic approaches, but methods to accurately identify specific low-abundance species-level genomes in a shotgun metagenomic sample are still being refined. Here, we comprehensively test YACHT, Kraken2/bracken, Metapresence, MetaPhlAn4, and sylph using two simulated data sets of bacterial families, Mycobacteriaceae and Neisseriaceae, that contain closely related species. Our simulations exploit natural genomic diversity to create a challenging benchmark. We demonstrate that Metapresence and sylph perform best, with the former being well suited to low-biomass host-associated data sets and the latter with environmental metagenomic samples. This study is the first extensive benchmark of these methods for this use case and demonstrates that these methods can accurately identify closely related species of interest.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [
+      "Metapresence",
+      "Mycobacteriaceae",
+      "Neisseriaceae",
+      "metagenome",
+      "metagenomics",
+      "sylph",
+      "yacht"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42852882",
+    "title": "Metaplasia creates a permissive niche for select Fusobacterium species in the stomach.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-10-09",
+    "authors": "Gómez-Garzón Camilo; O'Brien Valerie P; Chen Qiwen; Garman Katherine S; Salama Nina R",
+    "abstract": "Infection with Helicobacter pylori is the major risk factor for gastric cancer worldwide; yet the exact mechanisms behind this link remain unclear. H. pylori-associated tissue changes often disrupt the gastric microbiome, enabling secondary gastric colonization by oral bacteria. Among these secondary colonizers, Fusobacterium species have documented associations with several gastrointestinal cancers. We found that both F. animalis and F. nucleatum invade cultured human gastric adenocarcinoma cells, but F. animalis exhibited higher adherence and invasion, and hypoxic conditions promoted higher bacterial survival. Both adherence and invasion were inhibited by exogenous GalNAc, a glycan commonly observed in membrane glycoproteins of adenocarcinoma cells and a target of the fusobacterial adhesin Fap2. Using a mouse model of stomach metaplasia, we found that F. animalis colonized gastric tissue only after metaplasia onset, growing in multispecies biofilms in the mucus layer, while F. nucleatum colonized neither healthy nor metaplastic gastric tissue. Metaplasia led to upregulation of Gal-GalNAc in the stomach, and reduced gastric acidity allowed higher F. animalis loads in this model. By contrast, inflammation and the presence of H. pylori did not significantly influence stomach colonization by F. animalis. Further assessment of additional Fusobacterium species and strains revealed that whereas all tested species can invade gastric cancer cells in vitro, only F. animalis and F. polymorphum robustly colonize the metaplastic gastric tissue of the mouse model similar to F. animalis. Overall, our data support a model in which H. pylori-induced metaplasia makes the stomach susceptible to secondary infection by other cancer-associated microbes, including some Fusobacterium species.IMPORTANCEHelicobacter pylori infection is the primary risk factor for gastric cancer worldwide, yet the underlying cancer-promoting mechanisms are not fully defined. Our study shows that metaplasia, a precancerous condition typically triggered by H. pylori and characterized by specific changes in gene expression and tissue remodeling, can enable secondary infection by other cancer-associated bacteria. Specifically, we found that certain species of the genus Fusobacterium, linked to several gastrointestinal cancers, colonize the stomach only after the onset of metaplasia. Metaplasia-associated changes in the stomach include altered surface sugars and reduced acidity, which together may create a more permissive environment for bacterial growth. Our findings support a model in which disruptions of gastric tissue architecture induced by chronic H. pylori infection facilitate colonization by other cancer-related bacteria, contributing to the growing body of evidence highlighting the role of bacteria in cancer development.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Fusobacterium",
+      "Helicobacter pylori",
+      "cancer microbiome",
+      "gastric cancer",
+      "metaplasia",
+      "stomach cancer"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42850252",
+    "title": "Metabolic immune checkpoints (MICs) in cancer: from molecular mechanisms to challenges and opportunities in clinical translation.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-10-09",
+    "authors": "Yang Jinru; Cai Xing; He Fajian; Zhang Junhong; Zhang Ziqiang et al.",
+    "abstract": "Metabolic reprogramming is a core feature of tumor cells in adapting to microenvironmental stress and acquiring malignant phenotypes. It not only supports rapid proliferation but also mediates immune escape by reshaping the immune microenvironment. In recent years, the \"metabolism-immune axis\", serving as a central hub for the crosstalk between metabolic regulation and immune suppression, has provided a new perspective for understanding tumor immune evasion. This review systematically discusses how metabolic pathways, including glucose, lipid, and amino acid metabolism, along with mitochondrial function and other related processes, shape the immunosuppressive tumor microenvironment by regulating immune cell function, immune checkpoint expression, and immune signaling networks, thereby promoting tumor immune escape. The concept of \"metabolic immune checkpoints (MICs)\" is innovatively proposed and classified into three categories based on their mechanisms of action: (1) MIC-I: metabolic modification-type immune checkpoints, exemplified by posttranslational modifications of immune checkpoint molecules such as PD-L1 lactylation, acetylation and glycosylation, etc.; (2) MIC-II: metabolic enzyme-dependent immune regulatory nodes, represented by enzymes such as indoleamine 2,3-dioxygenase 1 and others that directly influence immune cell function; and (3) MIC-III: microbial metabolite-coupled immune regulatory targets, including receptors for microbe-derived metabolites such as short-chain fatty acid receptors. By integrating molecular interaction networks of key targets such as lactate dehydrogenase A and ATP citrate lyase, this review explores synergistic therapeutic strategies that combine small-molecule inhibitors targeting MICs with immune checkpoint blockade. This highlights how metabolic intervention can restore immune cell function and reverse exhaustion. Current key challenges in clinical translation include limitations in metabolic dynamic monitoring technologies, lack of patient stratification biomarkers and insufficient specificity in microbiome regulation. Future directions will focus on personalized treatment guided by multiomics, integrating single-cell metabolic flux analysis, deep learning-driven target prediction, and synthetic microbiome engineering, driving tumor immunotherapy into the era of precision metabolic regulation. By integrating the fundamental mechanisms of MICs with translational medical research, this review not only provides a systematic paradigm but also establishes a foundation for the development of new-generation precision combination therapies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Neoplasms",
+      "Metabolic Reprogramming",
+      "Tumor Microenvironment",
+      "Immune Checkpoint Proteins",
+      "Animals"
+    ],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42850991",
+    "title": "gutMDisorder v3.0: an updated database for dysbiosis of the gut and oral microbiota in phenotypes and interventions.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-10-09",
+    "authors": "Guan Siyuan; Qi Changlu; Liu Xingwang; Li Baifeng; Zhang Yuanming et al.",
+    "abstract": "Microbiota plays an essential role in host health, and dysbiosis of microbial communities has been widely associated with diverse phenotypes and intervention responses. With the rapid development of microbiome research, microbiome studies are no longer restricted to gut-derived samples, and the oral microbiota has emerged as another important microbial habitat closely connected with both local and systemic conditions. To meet the growing need for integrative resources across body sites, we updated gutMDisorder to version 3.0. In this version, the scope was expanded from gut microbiota to both gut and oral microbiota in humans and mice. We extensively reviewed previous publications and newly published studies, resulting in 13 402 manually curated literature-based associations under diverse comparison conditions. In addition, raw sequencing datasets from gut and oral samples were collected and reprocessed using standardized workflows, yielding 22 241 raw data-based associations, and corresponding host metadata were manually curated. To facilitate data exploration, gutMDisorder v3.0 provides sample-source-aware browsing, improved filtering options, interactive visualizations for raw data-based associations, and downloadable resources. The backend processing and frontend rendering logic were also optimized to improve page responsiveness and user experience. The database is freely available at https://bio-computing.hrbmu.edu.cn/gutMDisorder/.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42852908",
+    "title": "Multi-omics elucidate octapeptin mechanisms in alleviating intestinal injury in mice challenged with ETEC K88 via modulated microbial and host pathways.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-09",
+    "authors": "Zhao Jianfei; Lu Zhongqian; Liu Qiuyang; Liu Jingbo; Wang Li et al.",
+    "abstract": "The mechanisms whereby antimicrobial peptides (AMPs) confer intestinal protection during enteric bacterial infection remain unclear. Here, we examined the protective effects and underlying mechanisms of the AMP, octapeptin, against intestinal infection induced by enterotoxigenic Escherichia coli K88 (ETEC K88) in mice. Octapeptin ameliorated intestinal injury by modulating gut microbiome-host interactions. When compared with ETEC K88 mice, octapeptin significantly attenuated growth retardation, systemic oxidative stress, pro-inflammatory cytokine elevation, and ileal morphological damage. Integrated cecal microbiome, metabolome, and ileal transcriptome analyses revealed that octapeptin reversed ETEC K88-induced dysbiosis, notably increasing beneficial genera abundance. Concomitantly, octapeptin altered microbial metabolite profiles and significantly influenced ileal gene expression in circadian rhythm regulation. Correlation analysis and variance partitioning further identified a coherent \"microbiota-metabolite-transcriptome\" axis underlying these phenotypic improvements. Thus, octapeptin alleviates ETEC K88-induced intestinal injury via multi-level interactions that restore microbial ecology and regulate host circadian and immune pathways, thereby highlighting host-directed AMP mechanisms.IMPORTANCEAntimicrobial peptides are promising alternatives to antibiotics, but how they work inside the body remains poorly understood. Using a multi-omics approach, this study shows that octapeptin, a natural cyclic lipopeptide, protects mice against intestinal infection by reshaping the gut microbiota, reprogramming gut metabolites, and stabilizing host circadian clock genes that are disrupted by infection. These findings reveal a previously unrecognized link between gut microbes and the intestinal circadian clock. This mechanistic framework could guide the development of peptide-based strategies to prevent enteric infections in animals.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Ligilactobacillus and Butyribacter",
+      "antimicrobial peptides",
+      "circadian rhythms",
+      "octapeptin"
+    ],
+    "summary_zh": "本研究用多组学探究八肽菌素缓解ETEC K88致小鼠肠道损伤的机制，发现其经菌群-代谢-转录轴调控宿主昼夜节律和免疫。",
+    "innovation": "整合盲肠微生物组、代谢组与回肠转录组多组学分析 | 鉴定出“微生物群-代谢物-转录组”轴介导表型改善 | 揭示肠道微生物与肠道昼夜节律钟之间此前未认识的联系",
+    "limitation": "未描述",
+    "study_object": "小鼠 + 盲肠微生物组/代谢组与回肠转录组 + 多组学",
+    "disease": "ETEC K88诱导的肠道感染和肠道损伤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42850800",
+    "title": "Towards Personalised Therapeutics for Epidermal Differentiation Disorders: Integrating Host Genetics, Immuno-Endotypes and the Skin Microbiome.",
+    "doi": null,
+    "journal": "The British journal of dermatology",
+    "issn": "1365-2133",
+    "pub_date": "2026-10-09",
+    "authors": "Sharkey Thomas; Eisner Mark; Common John; Rajan Neil",
+    "abstract": "Epidermal differentiation disorders (EDDs), are a rare, heterogeneous grouping of monogenic disorders. EDDs, comprising the previously termed congenital ichthyosis, are characterised by epidermal barrier dysfunction, cutaneous inflammation, and associated morbidity. Immunomodulatory therapies, particularly repurposed biologics, are an emerging approach for management. However, clinical implementation has been impeded by a variable and unpredictable response rate, reflecting the genetic and immunological heterogeneity of EDD as well as raising questions over other contributory pathogenic mechanisms. Patient genotyping and immune profiling have revealed a shared immune polarisation across EDD subtypes, predominantly Th17, with some subtypes demonstrating a mixed immuno-endotype with contribution from Th2 or lL-36 mediated signalling. This improved immunological understanding has informed the repurposing of established biologics targeting IL-4R, IL-17, IL-12/23, alongside emerging interest in JAK inhibitors. Metagenomic microbiome profiling has revealed a homeostatic disruption across EDD subtypes with depleted commensal organisms, including Cutibacterium acnes and Malassezia species, and enrichment of pathobiont Staphylococcus and Corynebacterium species. Patients may be further stratified into dysbiotic groupings, with pathogenic variant and phenotypic severity influencing microbial composition. Ecological dysbiosis may contribute to immune polarisation through an \"outside-inside-outside\" model of host-microbe interactions, potentially underlying the variable response rates to repurposed biologics. In this review, we propose a \"host genome and microbiome\" framework for personalised EDD clinical management, integrating the EDD genotype and immuno-endotype (\"Host genome\"), and cutaneous microbiome as candidate simultaneous stratifiable elements. Genomic diagnosis, spurred by recent EDD reclassification, provides mechanistic context. Immuno-endotyping may enable a rational biologic selection but requires prospective validation. Microbiome profiling may guide emerging therapeutics or serve as a biomarker. We propose that a route to therapeutic restoration in EDD may require simultaneous targeting of the host-microbe axis. Delineation of the complex interplay between host genetics, immuno-endotypes, epidermal barrier dysfunction, and skin microbiome is a key priority for future research to bring this approach to the clinic.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42852641",
+    "title": "From microbial tryptophan metabolism to crystal injury: an IPA-AhR checkpoint in calcium oxalate nephropathy.",
+    "doi": null,
+    "journal": "The Journal of pathology",
+    "issn": "1096-9896",
+    "pub_date": "2026-10-09",
+    "authors": "Zhong Lin; Purushothaman Bhagyalakshmi; Tu Qiang; Boopathi Seenivasan",
+    "abstract": "Calcium oxalate nephrolithiasis is commonly viewed as a consequence of urinary supersaturation, although crystal retention and renal injury are also influenced by gut microbiota dysbiosis and local tissue environment. In a recent study by Li et al, published in The Journal of Pathology, the authors integrated human metagenomic and metabolomic analyses with mouse and tubular cell models to identify indole-3-propionic acid (IPA) as a key gut-derived metabolite associated with kidney stone disease. Patients with calcium oxalate stones showed altered gut microbial composition and reduced serum IPA levels, which were inversely related to stone burden. In experimental models, IPA supplementation reduced renal crystal deposition, preserved kidney function, and limited tubular injury and apoptosis. Mechanistic studies showed that IPA activated aryl hydrocarbon receptor (AhR) in tubular epithelial cells, increased suppressor of cytokine signaling 3 (SOCS3) expression, and suppressed signal transducer and activator of transcription 1 (STAT1) phosphorylation and nuclear accumulation. These findings were supported by complementary activation, inhibition, knockdown, and overexpression experiments. Collectively, the data suggest that IPA protects renal epithelial cells through the AhR-SOCS3-STAT1 signaling pathway and may offer a potential therapeutic approach for calcium oxalate nephropathy. © 2026 The Pathological Society of Great Britain and Ireland.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "aryl hydrocarbon receptor",
+      "calcium oxalate",
+      "gut microbiota",
+      "indole‐3‐propionic acid",
+      "nephrolithiasis"
+    ],
+    "summary_zh": "本研究整合人类宏基因组与代谢组及小鼠/细胞模型，发现肠道IPA经AhR-SOCS3-STAT1通路减轻草酸钙晶体肾损伤。",
+    "innovation": "整合人类宏基因组和代谢组与小鼠及肾小管细胞模型 | 发现肠道来源代谢物IPA与草酸钙结石负担负相关 | 揭示IPA通过AhR-SOCS3-STAT1通路保护肾小管上皮细胞",
+    "limitation": "未描述",
+    "study_object": "人类草酸钙结石患者及小鼠/肾小管细胞模型；肠道微生物组、血清代谢组和肾组织/细胞样本；宏基因组、代谢组及细胞/动物实验",
+    "disease": "草酸钙肾结石病/草酸钙肾病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  },
+  {
+    "pmid": "42852494",
+    "title": "Gut microbiota-derived tryptophan metabolite attenuates calcium oxalate nephropathy by suppressing renal tubular cell apoptosis through the AhR-SOCS3-STAT1 axis.",
+    "doi": null,
+    "journal": "The Journal of pathology",
+    "issn": "1096-9896",
+    "pub_date": "2026-10-09",
+    "authors": "Li Ya; Chen Jiawei; Lin Lede; Jian Zhongyu; Liu Linhu et al.",
+    "abstract": "Calcium oxalate (CaOx) nephropathy is a highly prevalent urological disease worldwide. Gut microbiota dysbiosis and host metabolic dysregulation are recognized as pivotal drivers in disease pathogenesis, yet the underlying mechanisms remain incompletely understood. In this study, by integrating metagenomics and metabolomics, we identified dysregulation of tryptophan metabolites in patients with CaOx nephrolithiasis, with microbiota-derived indole-3-propionic acid (IPA) as the most discriminatory differential metabolite. Oral IPA supplementation markedly reduced renal CaOx crystal deposition and tubular injury in a CaOx nephropathy murine model. Mechanistically, IPA activated the aryl hydrocarbon receptor (AhR), which translocated to the nucleus and transcriptionally upregulated suppressor of cytokine signaling 3 (SOCS3)-a negative regulator of signal transducer and activator of transcription 1 (STAT1)-thereby suppressing STAT1 phosphorylation, alleviating oxalate-induced tubular cell injury and apoptosis, and inhibiting CaOx crystal deposition. Our findings identify tryptophan metabolite alteration as a critical metabolic signature of CaOx nephropathy and demonstrate that microbiota-derived IPA attenuates oxalate-induced renal tubular cell injury and apoptosis via the AhR-SOCS3-STAT1 axis. © 2026 The Pathological Society of Great Britain and Ireland.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "aryl hydrocarbon receptor",
+      "calcium oxalate nephropathy",
+      "cell apoptosis",
+      "gut microbiome",
+      "tryptophan metabolism"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-09"
+  }
+]
