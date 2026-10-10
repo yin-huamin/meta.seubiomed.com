@@ -1,0 +1,82 @@
+[
+  {
+    "pmid": "42603665",
+    "title": "Emerging bacterial membrane vesicles from microbial messengers to therapeutic nanocarriers.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-10-10",
+    "authors": "Stewart Giulia Elayna; Guo Yitong; Cao Shijie",
+    "abstract": "Bacterial membrane vesicles (BMVs) are nanoscale vesicles that are naturally released by bacteria into the extracellular environment. By retaining the bacterium's membrane and luminal cargo, BMVs represent natural nanocarriers and long-distance messengers capable of influencing human health and disease progression. Depending on the bacterial species of origin, BMVs present important transport roles by carrying diverse native molecular cargo, protecting luminal cargo from degradation, promoting intracellular delivery and cytosolic release, crossing biological barriers, and mediating interactions with host cells. Recently, engineering strategies have emerged to harness these natural nanocarriers for the improved delivery of a wide range of therapeutic cargos, including proteins, antigens, nucleic acids, oncolytic viruses, polymers, and nanoparticles. These engineering strategies include genetic engineering, encapsulation, surface modification, and detoxification methods. Together, these strategies provide features including superior loading efficiency, targeted delivery, controlled release, longer circulation time, and multi-composite delivery approaches. This review discusses BMVs as versatile, multi-functional, and bio-active delivery vehicles along with current preparation methods, delivery routes, engineering strategies, highlighting unique features and challenges for translation.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Bacteria",
+      "Animals",
+      "Drug Delivery Systems",
+      "Nanoparticles",
+      "Drug Carriers",
+      "Cell Membrane"
+    ],
+    "keywords": [
+      "Bacterial membrane vesicles",
+      "Cytoplasmic membrane vesicles",
+      "Drug delivery systems",
+      "Engineering strategies",
+      "Microbiome",
+      "Outer membrane vesicles"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-10"
+  },
+  {
+    "pmid": "42323003",
+    "title": "Immunotherapy resistance in triple-negative breast cancer: Mechanisms and emerging therapeutic strategies.",
+    "doi": null,
+    "journal": "Cancer letters",
+    "issn": "1872-7980",
+    "pub_date": "2026-10-10",
+    "authors": "Zhao Hui; Tian Huizhong; Nuerbieke Tangnuer; Ma Kexin; Li Wei et al.",
+    "abstract": "Triple-negative breast cancer (TNBC) is an aggressive subtype of breast cancer with limited treatment options and a poor prognosis. Immunotherapies, particularly immune checkpoint inhibitors (ICIs), have expanded the therapeutic options for TNBC. Despite the revolutionary breakthroughs in the treatment of TNBC, some patients still exhibit primary or acquired resistance to immunotherapy. A comprehensive understanding of the mechanisms of immunotherapy resistance is crucial for developing new strategies to overcome the resistance. In this review, we discuss the multifactorial resistance mechanisms to immunotherapy in TNBC, including tumor cell-intrinsic mechanisms (low tumor mutation burden, driver gene mutations, antigen presentation defect, and aberrant PD-L1 expression) and alterations in the tumor microenvironment (T cells, dendritic cells, cancer-associated fibroblasts, tumor-associated macrophages, mast cells, B cells, myeloid-derived suppressor cells, cytokines, hypoxia, metabolic reprogramming, neurological factors, ferroptosis, cuproptosis, and microbiome). Furthermore, we discuss strategies to overcome immunotherapy resistance (including combination of ICIs with other existing treatments and nanotechnology-assisted immunotherapy), and identify emerging biomarkers enabling the selection of patients who may benefit from immunotherapy. Therefore, our review provides insights into immunotherapy resistance mechanisms, developing novel therapeutic strategies, and guiding treatment plans.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Drug Resistance, Neoplasm",
+      "Tumor Microenvironment",
+      "Triple Negative Breast Neoplasms",
+      "Female",
+      "Immunotherapy",
+      "Immune Checkpoint Inhibitors",
+      "Biomarkers, Tumor",
+      "Animals"
+    ],
+    "keywords": [
+      "Immune checkpoint inhibitor",
+      "Immunotherapy resistance",
+      "Triple-negative breast cancer",
+      "Tumor microenvironment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-10"
+  }
+]
