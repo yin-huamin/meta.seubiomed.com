@@ -1,0 +1,156 @@
+[
+  {
+    "pmid": "42862002",
+    "title": "Sex- and Time-Resolved Physiological and Gut Ecosystem Responses to a Food-Grade Microbiome-Targeted Intervention in Collegiate Endurance Athletes.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-10-12",
+    "authors": "Zhang Meng; Ge Le; Liu Kaiyang; Liu Yanrong; Zhao Guolin et al.",
+    "abstract": "Endurance athletes experience sustained physiological demands during high-volume training, yet evidence for microbiome-targeted interventions in real-world settings remains limited. We conducted a two-stage, randomized, double-blind, placebo-controlled trial in 150 athletes allocated 2:1 to combined probiotics-yeast extract (CPYE) or placebo for 6 weeks; 44 completers confirmed for the 12th Inner Mongolia Autonomous Region University Games entered an exploratory 6-week extension with intensified training. Integrating wearable-derived phenotyping, field-based cardiorespiratory indices, clinical assessments, fecal metagenomics, and metabolomics, we found that during the randomized short-term phase, CPYE was associated with changes in device-estimated maximal oxygen uptake, exercise heart-rate indices, lactate, and redox biomarkers versus placebo. Exploratory sex-stratified analyses suggested heterogeneous response patterns, while the selected long-term extension indicated time-dependent changes requiring confirmation. Multi-omics identified sex- and phase-associated differences in microbial taxa, functions, metabolites, and network topology. Indirect-effect models nominated candidate features (rmlD, PISD-linked phosphatidylethanolamine pathways, Bacteroides ovatus, and folate-related functions) as potential indirect correlates of host outcomes. These findings support further evaluation of CPYE-associated responses in collegiate endurance athletes; subgroup, long-term, network, and indirect-effect results are hypothesis-generating.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "collegiate endurance athletes",
+      "digital phenotyping",
+      "gut microbiome",
+      "indirect‐effect analysis",
+      "metabolomics",
+      "microbiome‐targeted intervention",
+      "sex differences"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-12"
+  },
+  {
+    "pmid": "42861577",
+    "title": "Toward \"Obesityomics\": Domain-Specific Omics in Precision Obesity Medicine with a Brief AI Perspective.",
+    "doi": null,
+    "journal": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+    "issn": "1467-789X",
+    "pub_date": "2026-10-12",
+    "authors": "Samra Nadia Abu; Suliman Sara G I; Al-Hadad Mohammed; Boomsma Dorret I; Alhantoobi Fadwa et al.",
+    "abstract": "BACKGROUND: Obesity's global rise has outpaced the effectiveness of \"one-size-fits-all\" prevention and treatment strategies. The promise of precision medicine lies in addressing the etiological and biological diversity of obesity and transforming it into actionable endotypes.\nOBJECTIVES: In a narrative review, we analyze \"obesityomics,\" looking at the contributions each omics layer makes to understanding and managing obesity. The areas we evaluate are genomics (heritability, polygenic risk, and monogenic forms), epigenomics (development and environment imprinting), transcriptomics (tissue-specific programs of adipose, liver, muscle, and hypothalamus), proteomics (signaling networks and adipokines), metabolomics and lipidomics (fuel partitioning, lipotoxicity, and metabolic inflection points), and microbiome science (metabolites, host-microbe interactions, and microbial ecology). Our domain-by-domain (single-omics) approach demonstrates how disease taxonomy, causal pathways, and biomarkers can be refined and targeted therapeutically.\nDISCUSSION: We argue that \"obesityomics\" is a pragmatic approach to aligning omics modalities to the right questions at the right time, not a wholesale merger of datasets. Artificial intelligence (AI)-including machine learning and deep learning-should be used in conjunction with quality control, feature selection, modest data integration, and obesity intervention prediction. Among the key challenges in managing sensitive multilayer data are harmonization, standardization, reproducibility, equitable representation, and governance. The translation priorities include prospective studies related to patient-centered outcomes, biomarker panels that are clinic-ready, interoperability standards, and cost-effectiveness evaluations.\nCONCLUSION: The review maps concrete steps to assist people with obesity in making better choices by identifying what each omics domain excels at and introducing a brief AI perspective.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "AI",
+      "obesity",
+      "omics",
+      "personalized medicine"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-12"
+  },
+  {
+    "pmid": "42861994",
+    "title": "Comparative transcriptional network analysis reveals ecological specialization in infant-associated species of Bifidobacterium.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-12",
+    "authors": "Melis-Arcos Felipe; Arita Masanori; Garrido Daniel",
+    "abstract": "UNLABELLED: Bifidobacterium species are important microorganisms in the infant gut microbiota displaying substantial genomic diversity, yet how this variability is reflected in transcriptional regulatory architecture remains an open question. Here, we integrated pangenome analysis with transcription factor binding site inference and network-based approaches to compare regulatory architectures across Bifidobacterium longum subsp. infantis, Bifidobacterium breve, and B. longum subsp. longum using over 300 high-quality genomes. All three species exhibited open pangenomes, with regulatory interactions frequently involving accessory genes. Inferred network metrics were compared with score-randomized controls across motif-score thresholds. Increasing score stringency reduced network size while increasing the number of detected communities, indicating greater fragmentation of the retained networks rather than a measured increase in modularity. NrdR showed an intermediate overlap in the Clusters of Orthologous Groups (COG) category sets represented among its predicted targets and species-dependent target prevalence. HMO-related regulators (FucR, NanR, and NagR) differed descriptively between Bifidobacterium infantis and B. breve, the two species included in the complete three-regulator comparison, in predicted target counts, represented COG category sets, and genomic-prevalence patterns; only FucR showed a significant difference in accessory-target fraction. These findings identify species-dependent differences in predicted regulon composition and genomic prevalence and provide testable hypotheses about how regulatory architecture may relate to ecological specialization in the infant gut.\nIMPORTANCE: Bifidobacterium species are among the most abundant microorganisms in the breast-fed infant gut microbiota, where they display distinct patterns of genomic diversification and host association. However, the transcriptional regulatory mechanisms underlying these species-specific differences remain incompletely characterized. Here, we reconstructed and compared genome-scale transcriptional regulatory networks across three infant-associated Bifidobacterium species, integrating pangenome structure with transcription factor binding site inference across more than 300 genomes. Our analyses identified predicted regulatory interactions involving accessory genes and species-specific differences in network structure, regulon composition, and target prevalence. These associations provide hypotheses for experimental studies of how gene content and regulatory architecture may contribute to niche adaptation. This pangenome-scale framework can support the prioritization of regulatory hypotheses for future functional studies of infant-associated Bifidobacterium.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bifidobacterium",
+      "gut microbiome",
+      "pangenome",
+      "transcriptional regulatory network"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-12"
+  },
+  {
+    "pmid": "42861989",
+    "title": "Association of quantitative sputum Candida load with respiratory dysbiosis and airway inflammation in suspected invasive pulmonary candidiasis.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-12",
+    "authors": "Wang Guangli; Zhang Ningqing; Peng Yanfeng; Wen Xu; Chen Xianlian et al.",
+    "abstract": "UNLABELLED: The clinical significance of Candida species isolation from sputum remains ambiguous due to the colonization-infection dilemma. Integrating quantitative culture with microbiome profiling may clarify its role, yet systematic evidence is scarce. In this exploratory study (June 2023-June 2026), we enrolled 140 hospitalized patients suspected of invasive pulmonary candidiasis (IPC) and stratified them into possible IPC (n = 36), probable IPC (n = 71), and negative control (n = 33) groups based on clinical criteria. All underwent quantitative fungal culture of sputum and metagenomic next-generation sequencing (mNGS). Patients were stratified by sputum Candida species load into low (<105 CFU/mL), high (≥105 CFU/mL), and negative control (0 CFU/mL) groups. We investigated associations between Candida species burden, respiratory microbiota, local inflammation (IL-8), and clinical outcomes. Higher Candida species load was significantly associated with prolonged hospitalization, elevated sputum IL-8, an increased microbial dysbiosis index, and depletion of key commensals (e.g., Neisseria, Prevotella, Rothia, Streptococcus, and Veillonella). Counterintuitively, it correlated negatively with several classic bacterial pathogens (such as Acinetobacter baumannii, Escherichia coli, Klebsiella pneumoniae, Mycobacterium tuberculosis, and Pseudomonas aeruginosa). A random forest model identified a nine-species microbiome signature that effectively discriminated probable from possible IPC (AUC, 0.877; 95% CI, 0.662-0.944). In patients with suspected IPC, higher sputum Candida species load is associated with exacerbated respiratory dysbiosis and airway inflammation. Quantitative Candida species assessment combined with microbiome signatures may serve as a complementary tool for stratifying disease severity and ecological disruption, meriting further validation in larger, multicenter cohorts.\nIMPORTANCE: Respiratory specimens dominate clinical fungal cultures, yet interpreting the role of Candida spp. in sputum remains a diagnostic dilemma. Here, by integrating quantitative culture with metagenomic sequencing, we show that a high sputum Candida species load is a marker of profound ecological disruption. High Candida species burden was associated with significant depletion of key commensals, an elevated dysbiosis index, and heightened local inflammation. Counterintuitively, it correlated negatively with several classic bacterial pathogens, revealing a distinct dysbiotic signature. Moreover, a microbiome-based model accurately discriminated patients with probable invasive pulmonary candidiasis. Our findings suggest that quantitative sputum Candida species load, interpreted within the context of the microbial community, may be a practical biomarker for identifying patients with significant respiratory dysbiosis and inflammation, offering a path toward more refined, ecology-informed therapeutic strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Candida spp.",
+      "biomarker",
+      "interleukin-8",
+      "invasive pulmonary candidiasis",
+      "metagenomics",
+      "microbiota dysbiosis",
+      "sputum quantitative culture"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-12"
+  },
+  {
+    "pmid": "42861963",
+    "title": "A global atlas of the gut virome reveals subtype-specific and functional alterations in irritable bowel syndrome.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-12",
+    "authors": "Xie Peiwei; Luo Mei; Fan Jiahui; Xiong Lishou",
+    "abstract": "The gut virome is a critical component of the microbiome-gut-brain axis; however, its role in irritable bowel syndrome (IBS) remains poorly understood due to limited sample sizes and geographic bias. We aimed to construct a comprehensive global atlas of the IBS gut virome to elucidate its composition, functional potential, and clinical relevance across diverse populations and IBS subtypes. We integrated multi-cohort data comprising 1,104 samples (790 IBS patients and 314 healthy controls) from 11 cohorts across 10 geographic regions. A standardized bioinformatic pipeline was employed to perform viral mining from metagenomic and virus-like particle-enriched metaviromic data. The IBS virome exhibited significant taxonomic alterations, with specific viral signatures distinguishing IBS-D, IBS-C, and IBS-M subtypes. Geographic region was identified as a significant factor influencing the viral community structure. Functionally, the IBS virome was enriched in auxiliary metabolic genes involved in carbon metabolism and neurotransmitter precursor synthesis (histidine and tryptophan metabolism), as well as a distinct profile of virulence factors and antibiotic resistance genes. Furthermore, in a specific cohort, certain viral taxa were significantly correlated with the severity of anxiety and depression. Machine learning models based on viral signatures achieved robust performance for IBS subtyping (area under the curve = 0.92). This study establishes a global baseline for the IBS gut virome, demonstrating that viral communities are dynamically shaped by geography and disease subtypes while encoding gene repertoires with the potential to influence host physiology, thereby providing a foundational resource for precision medicine.IMPORTANCEResearch on the human gut microbiome in IBS has focused primarily on bacteria, leaving the viral component as a vast and poorly understood reservoir. By profiling over 1,000 human samples globally, this study characterizes the taxonomic and functional features of the IBS gut virome. We demonstrate that these viral communities vary across geographic populations and IBS subtypes and are enriched in specific auxiliary metabolic genes, virulence factors, and antibiotic resistance genes. In addition, certain viral profiles show significant correlations with patient psychological symptoms such as anxiety and depression. This study also evaluates the potential of virome-based diagnostic biomarkers. Consequently, our findings provide a valuable reference for future in-depth research into the specific roles and mechanistic contributions of the gut virome in the pathogenesis of IBS.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "IBS subtypes",
+      "auxiliary metabolic genes",
+      "geographic regions",
+      "gut virome",
+      "irritable bowel syndrome",
+      "virome function"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-12"
+  }
+]

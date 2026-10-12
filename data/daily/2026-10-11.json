@@ -1,0 +1,102 @@
+[
+  {
+    "pmid": "42860688",
+    "title": "Integrated Quantitative and Relative Microbiome Profiling Reveals a Bacterial Group Associated With Primary Apical Periodontitis Severity and Sharing a Predicted Virulence-Associated Functional Signature.",
+    "doi": null,
+    "journal": "International endodontic journal",
+    "issn": "1365-2591",
+    "pub_date": "2026-10-11",
+    "authors": "Liu Yefei; Hu Yufeng; Xu Mi; Ma Zhifei; Li Jiayang et al.",
+    "abstract": "AIM: To overcome the confounding effects of taxonomic heterogeneity in primary apical periodontitis (AP), this study aimed to characterize the quantitative and compositional profiles of the root canal microbiota associated with severe clinical features (percussion tenderness, large periapical lesions, and sinus tracts) using integrated relative (RMP) and quantitative microbiome profiling (QMP).\nMETHODOLOGY: Root canal samples from 52 patients (out of 62 initially enrolled) with primary AP were analysed using spike-in-based 16S rRNA sequencing. Microbial load, diversity, and taxonomic composition were evaluated across these three predefined clinical features (with large lesions defined as ≥ 5 mm). Spearman correlation analysis was applied to assess the associations between differentially abundant genera and clinical severity. Furthermore, PICRUSt2 was used to infer functional profiles and calculate taxonomic contributions to enriched pathways under both RMP and QMP frameworks.\nRESULTS: Samples with percussion tenderness exhibited significantly elevated microbial loads, with similar trends observed for large periapical lesions and sinus tracts. Percussion-positive samples also showed significantly higher Inverse Simpson index and Pielou's evenness index, whereas no significant differences in alpha diversity were observed for large periapical lesions or sinus tracts. Beta diversity did not differ significantly across any of the three clinical features under either QMP or RMP. Spearman correlation analysis identified a core bacterial group-Porphyromonas, Treponema, Tannerella, Peptostreptococcus, Selenomonas, Fusobacterium, and Fretibacterium-whose members showed broadly positive associations with all three clinical features in both relative and absolute abundance. Functional inference revealed these taxa collectively accounted for a shared set of virulence-associated pathways (e.g., lipopolysaccharide/peptidoglycan biosynthesis and protein export) consistently enriched in severe cases.\nCONCLUSIONS: Despite taxonomic heterogeneity in the root canal microbiota, severe clinical features of primary AP were associated with elevated microbial load and with increased relative and absolute abundances of a candidate bacterial group, whose members converged on a shared set of virulence-associated pathways, suggesting that compositionally diverse communities may nevertheless converge on common virulence-related functions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "16S rRNA gene sequencing",
+      "apical periodontitis",
+      "microbiota",
+      "root canal microbiota",
+      "spike‐in"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-11"
+  },
+  {
+    "pmid": "42860590",
+    "title": "Vagal sensing of altered gut microbiota links to externalizing behaviors.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-10-11",
+    "authors": "Lee Min Joung; Kim In Soo; Ahn So-Hyun; Chung Woosuk; Kang Yea Eun et al.",
+    "abstract": "Interoceptive brain responses triggered by intestinal microbiota influence mood-related behaviors such as anxiety and depression. Although genetic mutations can alter the gut microbiome, how alterations in the gut microbiome associated with host genetic variations relate to behavioral outcomes is not fully understood. We investigated how Sirtuin 3 (Sirt3) deficiency is linked to altered gut-brain interactions and mood-related behaviors. Gut microbiota composition and behavior were compared between Sirt3-knockout (KO) and wild-type (WT) mice. Cohousing and heterozygous littermate controls were used to assess microbiome-related contributions to behavioral differences. Transcriptomic profiling assessed region-specific gene expression in the limbic system. Metabolites in the nucleus of the solitary tract (NTS), potentially related to gut-brain vagal signaling, were analyzed. The role of the vagus nerve was further tested using subdiaphragmatic vagotomy in the Sirt3-KO mouse model, along with measurements of plasma choline levels in mice. Sirt3-KO mice displayed mood-related neurobehavioral changes and alterations in synaptic plasticity-related genes in the amygdala and the bed nucleus of the stria terminalis (BNST), accompanied by alterations in gut microbiome composition. Elevated plasma choline levels in Sirt3-KO mice, together with reduced neurotransmitter-related metabolites (e.g., γ-aminobutyric acid [GABA] in the NTS), suggest that externalizing behaviors in Sirt3-KO mice involve vagus nerve-dependent gut-brain axis signaling. Consistent with the involvement of vagal signaling, vagotomized Sirt3-KO mice were similar to WT mice in these measures, including GABA levels in the NTS and synaptic plasticity-related changes in the amygdala and BNST. Our findings support a model in which host genetic variation-associated microbiome alterations are sensed through sustained gut-vagal signaling under non-stressed conditions, correlating with NTS neurotransmitter alterations and externalizing behavioral phenotypes.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Gastrointestinal Microbiome",
+      "Vagus Nerve",
+      "Mice",
+      "Mice, Knockout",
+      "Male",
+      "Solitary Nucleus",
+      "Amygdala",
+      "Mice, Inbred C57BL",
+      "Behavior, Animal"
+    ],
+    "keywords": [
+      "Gut microbiota",
+      "mood disorder",
+      "nucleus of the solitary tract: gut–brain axis",
+      "vagus nerve"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-11"
+  },
+  {
+    "pmid": "42860521",
+    "title": "Structural Variants in the Human Genome Associated With Gut Microbiome and Blood Metabolic Traits With Potential Causal Links.",
+    "doi": null,
+    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+    "issn": "2198-3844",
+    "pub_date": "2026-10-11",
+    "authors": "Zhou Qun; Wang Keqing; Chen Junhong; Wang Haoyu; Tan Xinjiang et al.",
+    "abstract": "Research on genetic variants affecting the gut microbiome and blood metabolites has mainly focused on single nucleotide variants (SNPs), leaving structural variants (SVs) largely unexplored. Here, we analyzed high-coverage (∼42×) whole-genome sequencing data from 2002 individuals and constructed a catalog of 138 859 high-confidence SVs, including 44.3% variants not represented in public SV resources. Genome-wide association analyses of 22 519 common SVs identified 30 microbiome-associated and 48 metabolite-associated SV loci, including 19 study-wide significant associations. Notable signals included an Asian-specific 6.5k deletion at TENT2 associated with Coprobacillus sp. 29_1 abundance (β = 0.158, p = 2.5 × 10-9) and a deletion covering HBA1/HBA2/HBM/HBQ1 linked to nine blood metabolic traits (strongest for MCV; β = -0.570, p = 1.22 × 10-91). Conditional and variance-partitioning analyses indicated that SVs capture complementary genetic information beyond tested SNP signals. SV-based Mendelian randomization delineated putative directional relationships, including Clostridium ramosum with serum uric acid and hyperuricemia. In vitro experiments further supported three predicted metabolite-microbe interactions, showing that vitamin K1 inhibited Coprococcus comes, hydroxyproline inhibited Veillonella parvula, and cysteine promoted Fusobacterium mortiferum growth. Together, our study provides a comprehensive SVs resource and highlights SVs as overlooked genetic determinants of host-microbiome-metabolome interactions relevant to human physiology and disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "blood metabolites",
+      "genome‐wide association analysis",
+      "gut microbiome",
+      "host‐microbe interactions",
+      "structural variants"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-11"
+  }
+]
