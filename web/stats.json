@@ -1,8 +1,8 @@
 {
-  "total": 5033,
+  "total": 5038,
   "by_type": {
-    "研究论文": 3870,
-    "综述": 616,
+    "研究论文": 3874,
+    "综述": 617,
     "Benchmark": 158,
     "临床试验": 144,
     "其他": 110,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 66
   },
   "by_year": {
-    "2026": 1032,
+    "2026": 1037,
     "2025": 810,
     "2024": 681,
     "2023": 558,
@@ -32,8 +32,8 @@
     "NPJ biofilms and microbiomes": 116,
     "Nature microbiology": 107,
     "Frontiers in immunology": 103,
+    "Proceedings of the National Academy of Sciences of the United States of America": 94,
     "Nutrients": 94,
-    "Proceedings of the National Academy of Sciences of the United States of America": 93,
     "Genome biology": 89,
     "Briefings in bioinformatics": 81,
     "ISME communications": 74,
