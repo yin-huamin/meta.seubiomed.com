@@ -1,0 +1,27 @@
+[
+  {
+    "pmid": "42870741",
+    "title": "Phytochemicals in colorectal cancer therapy: emerging mechanisms, translational opportunities, and global research evolution.",
+    "doi": null,
+    "journal": "Journal of materials chemistry. B",
+    "issn": "2050-7518",
+    "pub_date": "2026-10-14",
+    "authors": "Adil Muhammad; Dawe Gavin Stewart; Subramaniyan Vetriselvan",
+    "abstract": "Colorectal cancer is still a leading cause of cancer morbidity and mortality in the world. This is a reflection of the limitations of current chemotherapy and the need for additional therapeutic strategies. Phytochemicals from plants have been of great interest recently because they can affect several pathways involved in cancer. In this review, we combine bibliometric mapping with a narrative synthesis to discuss the changing nature of phytochemical research in colorectal cancer. A total of 1029 records from Web of Science, covering January 2000 to December 2025, were analyzed using VOSviewer, Bibliometrix, and CiteSpace. The trend of publications is steadily increasing, particularly since 2020. Keyword mapping revealed some common themes, particularly apoptosis, flavonoids, curcumin, quercetin, network pharmacology, nanoparticles, and ferroptosis. The literature shows a transition from early screening studies to more in-depth mechanistic and translational studies. From the bibliometric findings, five areas are identified that might influence the future development of the field. These areas include modulation of multiple signaling pathways, regulated cell death, interactions between the gut microbiome and immune system, overcoming chemoresistance, and innovative delivery systems to enhance bioavailability. Taken together, these findings suggest that phytochemicals act as multi-target compounds rather than single cytotoxic agents with promising potential in combination therapies for colorectal cancer. Materials and delivery research accounts for a rising share of this corpus, increasing from 0.0% of records published between 2000 and 2011 to 16.0% of those published between 2020 and 2025, and nanoparticles emerge as a major keyword cluster although no materials term appears in the search string. The review therefore treats biomaterial design as a component of the field rather than as an adjunct to it, covering polymeric, lipid, inorganic, biomimetic and stimuli-responsive platforms against a common set of performance criteria.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-14"
+  }
+]
