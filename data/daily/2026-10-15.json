@@ -1,0 +1,318 @@
+[
+  {
+    "pmid": "42471135",
+    "title": "Antibiotic intervention reshapes gut microbiome and modulates deoxynivalenol-induced gut - liver axis disturbances.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-15",
+    "authors": "Li Fangfang; Hu Yafan; Tai Bowen; Huangfu Bingxin; He Xiaoyun et al.",
+    "abstract": "Deoxynivalenol (DON) is a prevalent foodborne mycotoxin, and its toxicity is closely associated with gut-liver axis dysfunction. However, the role of antibiotic-induced gut microbiome modulation in DON-induced intestinal and hepatic injury remains unclear. In this study, mice were exposed to DON with or without antibiotic (ABX) treatment for 4 weeks to investigate the contribution of gut microbiome to DON toxicity. DON exposure significantly impaired growth performance and induced hepatic injury, as evidenced by increased serum alanine aminotransferase (ALT), aspartate aminotransferase (AST), and endotoxin (LPS) levels, accompanied by systemic inflammatory responses. Mechanistically, DON disrupted gut microbiome homeostasis, reduced microbial diversity, and compromised intestinal barrier integrity, leading to enhanced translocation of bacterial endotoxins into circulation. Importantly, ABX treatment was associated with reduced DON-induced hepatic injury, despite further impairment of intestinal epithelial integrity. This effect was associated with gut microbiome remodeling, decreased abundance of pro-inflammatory and LPS-associated bacterial taxa, and altered LPS-TLR4/MyD88-related inflammatory signaling responses in the liver. Moreover, correlation analysis revealed weakened associations between specific microbial genera and hepatic inflammatory markers in the ABX-treated group, suggesting a decoupling of microbiome-liver inflammatory crosstalk. Collectively, these findings suggest that DON-induced hepatotoxicity involves intestinal barrier impairment and gut microbiome-associated endotoxin signaling. ABX reshapes gut microbial communities and modulates LPS-related hepatic inflammatory responses, highlighting the potential role of the gut-liver axis in mycotoxin-associated toxicity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Trichothecenes",
+      "Gastrointestinal Microbiome",
+      "Mice",
+      "Anti-Bacterial Agents",
+      "Liver",
+      "Male"
+    ],
+    "keywords": [
+      "Antibiotics",
+      "Combined exposure",
+      "Deoxynivalenol",
+      "Gut - liver axis",
+      "Gut microbiome",
+      "LPS–TLR4 signaling"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42585834",
+    "title": "Cancer immunotherapy under immune pressure: Mechanisms of resistance and the shift toward precision immune engineering.",
+    "doi": null,
+    "journal": "International immunopharmacology",
+    "issn": "1878-1705",
+    "pub_date": "2026-10-15",
+    "authors": "Anwer Muneera",
+    "abstract": "Cancer immunotherapy has transformed the treatment landscape across multiple malignancies; however, durable responses remain limited to a subset of patients due to the emergence of intrinsic and acquired resistance. Increasing evidence suggests that therapeutic immune pressure itself acts as a selective force that shapes tumour evolution, driving the outgrowth of resistant clones. In this review, we synthesise current understanding of the molecular and cellular mechanisms underlying resistance to major immunotherapeutic modalities, including immune checkpoint inhibitors, adoptive cell therapies, and cancer vaccines. We discuss tumour-intrinsic alterations such as defects in antigen presentation and immune signalling pathways, alongside tumour-extrinsic factors including immunosuppressive cell populations, metabolic constraints, and microbiome-mediated modulation. We further examine how these mechanisms converge within the tumour microenvironment to limit therapeutic efficacy. Emerging strategies to overcome resistance are highlighted, including rational combination therapies, next-generation engineered cellular platforms, and precision-guided approaches enabled by multi-omics profiling and artificial intelligence. Collectively, we propose that resistance should be understood as an adaptive consequence of therapeutic immune pressure. Building upon the principles of cancer immunoediting, we discuss how precision immune engineering, the rational design of personalised immunotherapeutic strategies informed by tumour biology, immune context, and predictive biomarkers, may be used to anticipate and overcome evolutionary escape mechanisms.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Neoplasms",
+      "Immunotherapy",
+      "Animals",
+      "Tumor Microenvironment",
+      "Cancer Vaccines",
+      "Precision Medicine",
+      "Drug Resistance, Neoplasm",
+      "Immune Checkpoint Inhibitors",
+      "Immunoediting, Cancer",
+      "Tumor Escape"
+    ],
+    "keywords": [
+      "CAR-T cell therapy",
+      "Cancer vaccines",
+      "Combination therapy",
+      "Immune checkpoint inhibitors",
+      "Immune resistance",
+      "Precision oncology",
+      "Tumour evolution",
+      "Tumour microenvironment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42710643",
+    "title": "Characterizing the role of the gut microbiota-inflammation-brain axis in major depressive disorder: an integrative multi-omics study.",
+    "doi": null,
+    "journal": "NeuroImage",
+    "issn": "1095-9572",
+    "pub_date": "2026-10-15",
+    "authors": "Zhao Wenming; Zhu Dao-Min; Zhao Xufeng; Zhu Shukun; Fang Jie et al.",
+    "abstract": "BACKGROUND: Gut microbial dysbiosis and inflammation have been implicated in the pathophysiology of major depressive disorder (MDD). However, no attempts have been made to comprehensively investigate the potential relationship between gut microbiota, inflammation, brain function, and clinical features in MDD.\nMETHODS: We conducted an integrative multi-omics study to examine the multi-dimensional differences in gut microbiome, inflammatory cytokines, brain functional connectivity, and clinical features between 60 MDD patients and 70 healthy controls. Furthermore, the potential associations between these multi-omics alterations were assessed using correlation and serial mediation analyses.\nRESULTS: MDD patients exhibited both depleted beneficial gut microbes and enriched detrimental bacteria, elevated interleukin-1 beta (IL-1β) level, a mix of decreased and increased functional connectivity of multiple brain regions. More important, we found that decreased abundance of anti-inflammatory bacterium (i.e., Blautia) led to increased IL-1β level, which in turn resulted in functional abnormalities in fronto-parietal regions that were associated with clinical symptoms and executive dysfunction.\nCONCLUSION: Our findings may corroborate the gut microbiota-inflammation-brain axis hypothesis in depression, as well as highlight the potential use of targeting gut microbiota as anti-inflammatory intervention strategies in the prevention or treatment for MDD patients.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Major Depressive Disorder",
+      "Female",
+      "Male",
+      "Gastrointestinal Microbiome",
+      "Adult",
+      "Multiomics",
+      "Inflammation",
+      "Brain",
+      "Magnetic Resonance Imaging",
+      "Middle Aged",
+      "Cytokines",
+      "Dysbiosis",
+      "Interleukin-1beta"
+    ],
+    "keywords": [
+      "Brain function",
+      "Gut microbiota",
+      "Inflammation",
+      "Magnetic resonance imaging",
+      "Major depressive disorder"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42876023",
+    "title": "Skin Microbiome Metabolism in Cutaneous Microenvironments: Implications for Skin Health and Disease.",
+    "doi": null,
+    "journal": "The British journal of dermatology",
+    "issn": "1365-2133",
+    "pub_date": "2026-10-15",
+    "authors": "Li Yue; Wang Yu; Huang Xinyu; Yang Lan; Wu Rourou et al.",
+    "abstract": "The human skin surface harbors a complex ecosystem in which epidermal cells, resident microbiota, and surface metabolites cooperate to maintain a stable barrier against external stressors. Disruption of host or microbial metabolism at this interface is closely associated with impaired epidermal barrier integrity and the development of localized skin diseases. Such conditions can drive microbial dysbiosis and metabolic imbalance, leading to altered skin physiology and pathological manifestations. These changes arise from abnormal host secretions, including those from sebaceous glands, sweat glands, and keratinocytes, and are further shaped by shifts in microbial communities and their metabolites. This review focuses on microbial metabolic activity at the skin surface, examines disease-associated changes in the cutaneous metabolic microenvironment, and critically evaluates the physiological and translational relevance of microbiota-derived metabolites. By systematically elucidating the interactions among the skin barrier, skin microbiota, and surface metabolites, we further assess the translational potential and current limitations of microbiome-derived metabolites and microbiome-based interventions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "41192727",
+    "title": "Gut microbiota from adolescents with social anxiety disorder is associated with behavioral alterations and metabolic changes in the medial prefrontal cortex.",
+    "doi": null,
+    "journal": "Journal of affective disorders",
+    "issn": "1573-2517",
+    "pub_date": "2026-10-15",
+    "authors": "Lai Junyu; Yang Beibei; Ju Peijun; Sun Ying; Sun Xiujia et al.",
+    "abstract": "BACKGROUND: Social anxiety disorder (SAD) is a prevalent and burdensome neuropsychiatric disorder characterised by pronounced and persistent fear and anxiety in social situations. While evidence links gut microbiota to neuropsychiatric disorders, its role in SAD remains poorly understood.\nAIM: In this study, we aimed to investigate the potential involvement of gut microbiota in SAD pathophysiology through fecal microbiota transplantation.\nMETHOD: We collected demographic data and fecal samples from 40 first-episode, comorbidity-free, and drug-naive adolescent patients with SAD, along with 32 demographically matched healthy controls. Fecal samples underwent 16S rDNA amplicon sequencing and were pooled for transplantation into neonatal rats from postnatal day 1 through late adolescence. Recipient rats were evaluated with behavioral tests, microbiota detection, and non-targeted metabolomics of the medial prefrontal cortex.\nRESULT: Patients with SAD displayed alterations in gut microbiota composition. Rats colonized with SAD-associated microbiota exhibited anxiety-like behaviors and reduced social novelty preference, alongside microbial profiles partially overlapping with those of patients. These behavioral changes were correlated with microbiota differences, and distinct metabolic alterations were detected in the medial prefrontal cortex of SAD-colonized rats.\nCONCLUSION: Gut microbiota from adolescents with SAD is associated with behavioral and metabolic alterations in a rodent model, suggesting a potential role of the gut-brain axis in SAD. Further studies are warranted to establish causality and elucidate underlying mechanisms.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Prefrontal Cortex",
+      "Phobia, Social",
+      "Adolescent",
+      "Rats",
+      "Gastrointestinal Microbiome",
+      "Female",
+      "Humans",
+      "Male",
+      "Fecal Microbiota Transplantation",
+      "Feces",
+      "Disease Models, Animal",
+      "Anxiety",
+      "RNA, Ribosomal, 16S"
+    ],
+    "keywords": [
+      "Fecal transplant",
+      "Microbiome",
+      "Microbiota-gut-brain axis",
+      "Psychiatry",
+      "Social anxiety disorder",
+      "Social phobia"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42520872",
+    "title": "Chronic exposure to environmentally relevant diazepam alters behaviour, gut microbiome, and offspring phenotype in zebrafish (Danio rerio).",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-15",
+    "authors": "Xu Ting; Huang Yilin; Yang Guiling; Tu Wenqin; Luo Ting et al.",
+    "abstract": "The widespread consumption and incomplete wastewater removal of the psychoactive drug diazepam (DZP) have led to its ubiquitous presence in aquatic environments, posing profound ecological risks. While the direct toxicity of DZP is well-documented, its chronic and mechanistic impacts, particularly those concerning the gut-brain axis and intergenerational effects on offspring, remain largely unexplored. To investigate the multigenerational toxicity of DZP, adult female zebrafish were chronically exposed to environmentally relevant concentrations (1 and 10 μg/L) for 28 days, and their offspring were subsequently collected. Our findings revealed that DZP exposure induced severe gut damage and disrupted the gut microbiota and metabolite profiles in female zebrafish. This microecological dysbiosis was linked to impaired oocyte development and reduced brain γ-aminobutyric acid (GABA) levels, culminating in reproductive dysfunction and abnormal neurobehavior. Crucially, these toxicological effects were maternally transferred to the offspring, which exhibited corresponding developmental abnormalities and neurobehavioral deficits. Overall, this study demonstrates that environmentally relevant concentrations of DZP exert covert but profound intergenerational toxicity, potentially mediated by disruptions in the gut-brain axis, making it highly necessary to establish stricter regulatory guidelines regarding the discharge of psychoactive drugs into water environments.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Zebrafish",
+      "Diazepam",
+      "Female",
+      "Water Pollutants, Chemical",
+      "Gastrointestinal Microbiome",
+      "Behavior, Animal",
+      "Phenotype"
+    ],
+    "keywords": [
+      "Diazepam",
+      "Gut microbiota",
+      "Intergenerational effects",
+      "Reproductive toxicity",
+      "γ-aminobutyric acid"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42431300",
+    "title": "Shifts of antibiotic resistance genes across an estuarine meandering bend and dissemination risks to offshore oceans.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-15",
+    "authors": "Zou Yina; Wang Dianqi; Chen Wenlong; Jin Zepeng; Xie Yue et al.",
+    "abstract": "Meandering is a fundamental geomorphic feature of rivers that plays a critical role in regulating pollutant attenuation. To elucidate its impact on antibiotic resistance genes (ARGs) distribution in estuarine intertidal sediments, samples were collected from both the landward side (freshwater-dominated) and the seaward side (tide-dominated) of a meander bend during ebb and flood tides. The total relative abundance of ARGs was approximately 2.7 times higher on the landward side, peaking during the ebb tide. Microbial composition analysis showed that genera Acinetobacter and Pseudomonas were dominant at the landward sites, while halophilic genera such as Marinobacter and Exiguobacterium were abundant at the seaward sites. Further analysis of metagenome-assembled genomes (MAGs) demonstrated that the dominant landward genus Acinetobacter acted as a key host of ARGs, with two of four MAGs encoding more than ten ARGs. Notably, the total relative abundance of mobile genetic elements was high but consistent between sides and tidal cycles (p > 0.05). Given this high dissemination risk, we further forecasted the ARGs transfer scenarios to oceanic settings based on a set of offshore MAGs (n = 3626). Three ARGs, i.e., acrA, vanSL, and AAC(2')-Ia, were inferred to have transfer potential, supported by neighboring MGEs detected in marine microorganisms. Analysis of the genomes of predicted recipients in the SRA database confirmed the predicted mobilizations. Together, this study highlights that the meandering planform may serve as a significant barrier, attenuating the discharge of ARGs from terrestrial sources into the marine environment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Estuaries",
+      "Drug Resistance, Microbial",
+      "Oceans and Seas",
+      "Environmental Monitoring",
+      "Geologic Sediments",
+      "Genes, Bacterial",
+      "Bacteria"
+    ],
+    "keywords": [
+      "Antibiotic resistance genes (ARGs)",
+      "Dissemination risks",
+      "Estuarine intertidal zones",
+      "Meanders",
+      "Microbial community structure"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  },
+  {
+    "pmid": "42462951",
+    "title": "Linking oral microbiota to clinic air during ultrasonic scaling: Quantitative sequencing and CFD modeling reveal pathogenic aerosol emissions, infection risk, and control strategies.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-15",
+    "authors": "Jin Yongjun; Liu Jia; Liu Zhijian; Yuan Yaohua; Cui Haihang et al.",
+    "abstract": "Microbial aerosols from dental procedures pose a recognized yet unquantified airborne infection risk. During ultrasonic scaling, we performed multi-site sampling (saliva, air, surfaces) and combined metagenomics with quantitative 16S rRNA and ITS amplicon sequencing to profile viral, bacterial, and fungal communities. Using size-resolved aerosol sampling and absolute quantification, we determined the emission strength and size distribution of pathogenic bacterial aerosols (PBA), which were key inputs for computational fluid dynamics (CFD) simulations performed at ventilation velocities of 0.1, 0.2, and 0.4 m/s, corresponding to air exchange per hour (ACH) of 2.4, 4.7, and 9.4 h-1, respectively. We first linked patient oral microbiota to clinic aerosols, identifying a shared core of 51 viral, 55 bacterial, and 23 fungal families, of which three bacterial families (Streptococcaceae, Pasteurellaceae, Nocardiaceae) were pathogenic. The emission strength of PBA was ∼3.06 × 103 copies/min, with 66.7% concentrated in the 2.1∼4.7 μm fraction, a size associated with higher deposition in the lower respiratory tract. CFD simulations, fed with real pathogen concentrations and aerodynamic size spectra, revealed that increasing ACH from 0.1 to 0.4 m/s reduced PBA suspension (-26.4%) and surface deposition (-12.7%) during scaling, lowering the inhalation infection risk (IIR) at the dentist's position by 80.8% and keeping overall IIR below 25%. After scaling, lower velocity favours particle removal, supporting a dynamic ventilation strategy (high during treatment, low afterwards). This integrated framework provides a direct scientific basis for infection control in dental operatories.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Aerosols",
+      "Microbiota",
+      "Air Microbiology",
+      "Mouth",
+      "Humans",
+      "Hydrodynamics",
+      "Bacteria",
+      "Dental Scaling"
+    ],
+    "keywords": [
+      "Aerodynamic diameter distribution",
+      "Aerosol microbiome",
+      "Emission strength",
+      "Ultrasonic scaling",
+      "Ventilation"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-15"
+  }
+]
