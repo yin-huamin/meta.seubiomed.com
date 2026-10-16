@@ -1,0 +1,198 @@
+[
+  {
+    "pmid": "42885922",
+    "title": "Acetate modulates host physiology and bacterial energetics to improve antibiotic efficacy during obesity-associated infection.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-10-16",
+    "authors": "Hussain Arsalan; Bhardwaj Prateek; Ray Ashish Kumar; Singh Aakash; Sett Abhiroop et al.",
+    "abstract": "UNLABELLED: Antibiotic efficacy is conventionally attributed to the susceptibility of the infecting pathogen. However, obese patients experience disproportionately poor infection outcomes despite receiving antibiotics to which pathogens remain genetically susceptible. These observations suggest that host-associated factors can influence treatment outcomes independently of the bacterial genotype, although the underlying mechanisms remain poorly understood. Using a mechanistic comparison of diet-induced obese and healthy mice infected with Acinetobacter baumannii, we demonstrate that the effect of antibiotics is not solely a property of the pathogen but can be governed by a gut microbiota-derived metabolite acting on both host immunity and bacterial physiology. We identify obesity-associated acetate depletion as a key driver of antibiotic treatment failure, linking gut microbial metabolism to antibiotic activity during infection. We observed that this depletion impaired innate immune activation, reducing cytokine responses and neutrophil-mediated bacterial clearance. Under these conditions, A. baumannii displayed enhanced tolerance to bactericidal antibiotics, particularly tobramycin. Given these findings, we investigated whether acetate could be leveraged therapeutically to restore antibiotic efficacy. We observed that oral acetate supplementation remodeled the dysbiotic microbiome, whereas systemic acetate restored innate immune competence and neutrophil-mediated bacterial clearance. Most importantly, acetate reversed antibiotic tolerance and restored aminoglycoside killing by directly sensitizing host-induced tolerant bacterial populations. Mechanistically, acetate directly reprogrammed bacterial physiology to enhance aminoglycoside-mediated killing. Combined acetate-tobramycin treatment resulted in eradication of tolerant populations and markedly improved bacterial clearance in vivo. Our findings establish a mechanistic link between host metabolic state and antibiotic efficacy and identify acetate as a therapeutic intervention for obesity-associated gram-negative infections.\nIMPORTANCE: Antibiotic treatment failure in obese patients remains poorly understood and therapeutically unaddressed. This study reveals that host metabolic state can control antibiotic response through a gut microbiota-derived metabolite that acts on both host defense and bacterial physiology. We identify obesity-driven depletion of microbiota-derived acetate as a previously unrecognized determinant of antibiotic failure, operating independently of bacterial resistance. By simultaneously restoring gut microbial balance, rescuing impaired innate immunity, and directly sensitizing pathogens to aminoglycoside killing through bacterial membrane alteration, acetate supplementation addresses the host-pathogen-microbiome axis through a single intervention. Given its established clinical safety, acetate represents a compelling combination therapy alongside aminoglycosides in obesity-associated gram-negative infections in a population for which host-directed treatment strategies are currently limited.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "aminoglycosides",
+      "gram-negative infections",
+      "host-directed therapy",
+      "short-chain fatty acids",
+      "treatment failure"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-16"
+  },
+  {
+    "pmid": "42743886",
+    "title": "Circulating free bacterial DNA as a novel biomarker for monitoring therapy response in patients with advanced pancreatic cancer.",
+    "doi": null,
+    "journal": "European journal of cancer (Oxford, England : 1990)",
+    "issn": "1879-0852",
+    "pub_date": "2026-10-16",
+    "authors": "Surendran Sai Agash; Guenther Michael; Nemati Niloofar; Incera Marina Lopez; Zhang Danmei et al.",
+    "abstract": "BACKGROUND: Monitoring therapy response in pancreatic cancer (PDAC) remains challenging. The microbiome affects therapy efficacy, but its role in response prediction is unclear. We assessed whether changes in circulating free bacterial DNA (cfbDNA) levels predict outcome of advanced PDAC (aPDAC) patients treated with systemic chemotherapy.\nPATIENTS AND METHODS: We analyzed the prognostic impact of serum cfbDNA dynamics of 13 patients with aPDAC receiving mFOLFIRINOX (FFX) before treatment initiation and after two chemotherapy cycles. We validated the findings in the samples of 47 patients with locally advanced pancreatic cancer from the NEOLAP-AIO-PAK-0113 trial.\nRESULTS: Decreased cfbDNA during FFX treatment was associated with improved PFS (14.3 vs. 2.9 months; p < 0.001) and OS (23.2 vs. 8.4 months; p = 0.006) in the exploratory cohort. Equal or increased cfbDNA was associated with inferior OS in univariate analyses (HR, 7.74; 95% CI, 1.38-43.24; p = 0.020) and a model adjusted for CA-19-9 group (HR, 11.75; 95% CI, 1.87-73.85; p = 0.009). In the NEOLAP cohort, decreased cfbDNA was associated with improved PFS (12.4 vs. 8.7 months, p = 0.003) and OS (39.8 vs. 14.7 months, p = 0.001) in FFX treated patients, whereas in patients continuing on gemcitabine plus nab-paclitaxel (GnP), decreased cfbDNA was associated with shorter PFS (6.2 vs. 11.5 months, p < 0.001) and OS (12.9 vs. 18.8 months, p = 0.013).\nCONCLUSIONS: cfbDNA dynamics may serve as blood-based biomarker for monitoring therapy response in aPDAC. Its treatment-dependent predictive impact may inform clinical decisions. These findings suggest therapy-specific host-microbiome-tumor interactions and warrant prospective validation.\nCLINICAL TRIAL NUMBER: NCT02125136.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Pancreatic Neoplasms",
+      "Antineoplastic Combined Chemotherapy Protocols",
+      "Biomarkers, Tumor",
+      "Female",
+      "Male",
+      "Paclitaxel",
+      "Aged",
+      "DNA, Bacterial",
+      "Fluorouracil",
+      "Middle Aged",
+      "Oxaliplatin",
+      "Irinotecan",
+      "Leucovorin",
+      "Albumins",
+      "Deoxycytidine",
+      "Prognosis",
+      "Gemcitabine",
+      "Carcinoma, Pancreatic Ductal"
+    ],
+    "keywords": [
+      "Circulating free bacterial DNA",
+      "FOLFIRINOX",
+      "Gemcitabine-nab-Paclitaxel",
+      "Pancreatic cancer",
+      "Tumor microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-16"
+  },
+  {
+    "pmid": "42885915",
+    "title": "Targeting the microbiota-gut-brain axis in Alzheimer's and Parkinson´s disease: recent therapeutic approaches.",
+    "doi": null,
+    "journal": "Expert opinion on therapeutic targets",
+    "issn": "1744-7631",
+    "pub_date": "2026-10-16",
+    "authors": "Gries Manuela; Schäfer Karl-Herbert; Endres Kristina",
+    "abstract": "INTRODUCTION: Alzheimer's disease (AD) and Parkinson's disease (PD) are the most common neurodegenerative disorders with limited disease-modifying treatment options. Evidence suggests that the microbiota-gut-brain axis (MGBA) plays a role in these diseases by facilitating communication between the gut and the central nervous system. Associations have been found between altered gut microbiota composition and function, impaired barrier integrity, dysregulated metabolite production, and immune activation to neuroinflammation and progressive neurodegeneration.\nAREAS COVERED: This review summarizes and critically assesses recent studies from the past year to provide an updated overview of therapeutic strategies targeting the MGBA in both diseases. We discuss dietary interventions, probiotics, postbiotics, microbial metabolites, and approaches targeting gut barrier function. We also highlight strategies such as fecal transplantation, photobiomodulation, and PD-targeted metabolism therapies using butyrate and resistant starch.\nEXPERT OPINION: While these interventions have shown promising results in preclinical and early clinical trials, their clinical application is limited by methodological heterogeneity, interindividual variability and a lack of standardized protocols. Successful implementation requires carefully designed clinical trials, particularly longitudinal studies of presymptomatic cohorts, standardized microbiome analyses, and integrated multi-omics approaches to elucidate causal relations and facilitate personalized treatment strategies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Alzheimer’s disease",
+      "Parkinson’s disease",
+      "bacterial metabolites",
+      "microbiome",
+      "microbiota-gut-brain axis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-16"
+  },
+  {
+    "pmid": "42885316",
+    "title": "Gut microbiota in patients receiving dialysis: Mechanisms, complications and the road to personalized microbiome‑based care (Review).",
+    "doi": null,
+    "journal": "Molecular medicine reports",
+    "issn": "1791-3004",
+    "pub_date": "2026-10-16",
+    "authors": "Jin Chenxia; Wang Yanping",
+    "abstract": "Gut dysbiosis is increasingly recognized as a potential contributor to poor outcomes in patients receiving dialysis, yet its mechanistic complexity and therapeutic implications remain incompletely understood in clinical practice. The uremic environment, dietary restrictions, polypharmacy and dialysis modality‑specific factors collectively reshape the gut microbial ecology, promoting the overproduction of deleterious metabolites such as indoxyl sulfate, p‑cresyl sulfate and trimethylamine N‑oxide while depleting protective short‑chain fatty acids. These alterations compromise intestinal barrier integrity, fuel systemic inflammation through endotoxemia and NOD‑like receptor family pyrin domain containing 3 inflammasome activation and have been associated with cardiovascular disease, immune dysfunction, peritonitis, protein‑energy wasting and cognitive impairment. Although probiotic, prebiotic, synbiotic and dietary interventions show promise, heterogeneous responses across trials underscore the inadequacy of one‑size‑fits‑all strategies. Multi‑omics profiling has revealed substantial interindividual variability in microbial composition and metabolic capacity, providing a rationale for personalized approaches. The present review synthesizes current evidence on the mechanisms underlying dysbiosis and complications in patients receiving dialysis and proposes a roadmap toward personalized microbiome‑based care to improve clinical outcomes.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Renal Dialysis",
+      "Dysbiosis",
+      "Precision Medicine"
+    ],
+    "keywords": [
+      "cardiovascular disease",
+      "dialysis",
+      "dysbiosis",
+      "gut microbiota",
+      "inflammation",
+      "multi‑omics",
+      "personalized microbiome‑based care",
+      "uremic toxins"
+    ],
+    "summary_zh": "本综述总结透析患者肠道菌群失调的机制与并发症，并提出基于个性化微生物组的诊疗路线图以改善临床结局。",
+    "innovation": "系统整合尿毒症环境、饮食限制、多重用药及透析方式等因素重塑肠道菌群生态的机制 | 基于多组学揭示的微生物组成与代谢能力个体间差异，提出个性化微生物组护理路线图",
+    "limitation": "益生菌、益生元、合生元及饮食干预在各试验中反应异质，一刀切策略不足",
+    "study_object": "透析患者 / 肠道微生物组 / 多组学分析（综述）",
+    "disease": "透析（终末期肾病），并涉及心血管疾病、免疫功能障碍、腹膜炎、蛋白质-能量消耗和认知障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-16"
+  },
+  {
+    "pmid": "42886170",
+    "title": "Schizophrenia-associated gut microbiota are linked to reduced colonic PRODH expression and behavioral changes in mice.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-10-16",
+    "authors": "Park Keontae; Joo Min-Kyung; Lee Im-Ho; Woo Jeong-Hwa; Park Hee-Seo et al.",
+    "abstract": "Schizophrenia (SCZ) is a chronic neuropsychiatric disorder whose biological basis remains incompletely understood. Growing evidence implicates the gut-brain axis in SCZ, but the host pathways through which disease-associated microbiota may influence behavior remain unclear. Here, we examined whether the gut microbiota from patients with SCZ is associated with behavioral and metabolic alterations in male C57BL/6N mice. Fecal microbiota transplantation (FMT) from patients with SCZ was associated with impaired short-term recognition memory, reduced social novelty preference, and decreased prepulse inhibition in recipient mice. Transcriptomic profiling of colonic tissue identified reduced expression of Prodh, which encodes proline dehydrogenase (PRODH), together with elevated plasma proline levels. Comparative microbiome analyses identified a five-species candidate consortium associated with the SCZ donor microbiome - Escherichia fergusonii, Shigella sonnei, Morganella morganii, Citrobacter freundii, and Enterococcus faecalis. Oral administration of this five-species mixture (5-SM) was associated with similar behavioral changes, reduced colonic PRODH expression, and hyperprolinemia in mice. Together, these findings support a possible association between schizophrenia-associated changes in the gut microbiota, altered intestinal proline metabolism, and behavioral changes in mice.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Male",
+      "Proline Oxidase",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Schizophrenia",
+      "Gastrointestinal Microbiome",
+      "Colon",
+      "Humans",
+      "Fecal Microbiota Transplantation",
+      "Bacteria",
+      "Behavior, Animal",
+      "Proline"
+    ],
+    "keywords": [
+      "PRODH",
+      "Schizophrenia",
+      "gut microbiota",
+      "gut–brain axis",
+      "hyperprolinemia",
+      "proline metabolism"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-16"
+  }
+]
