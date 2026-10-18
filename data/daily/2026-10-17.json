@@ -1,0 +1,106 @@
+[
+  {
+    "pmid": "42892520",
+    "title": "Site-Specific Cutaneous Inflammation: Mechanisms and Therapeutic Implications.",
+    "doi": null,
+    "journal": "The Journal of allergy and clinical immunology",
+    "issn": "1097-6825",
+    "pub_date": "2026-10-17",
+    "authors": "Marella Sahiti; Shao Shuai; Tsoi Lam C; Naik Shruti; Andersen Bogi et al.",
+    "abstract": "Inflammatory skin diseases exhibit prominent anatomical distribution patterns that have long guided clinical diagnosis, yet the biological mechanisms underlying site specificity remain incompletely defined. These regional predilections arise from structural, immunological, and microbial heterogeneity across human skin. Epidermal barrier architecture, which varies substantially between body sites, including 10- to 100-fold differences in stratum corneum thickness, and prevalence and types of hair follicles and glands, creates distinct microenvironments that shape resident immune populations, microbial communities and host antimicrobial defenses. The skin harbors an estimated 20 billion tissue-resident memory T cells that persist within anatomically restricted niches, providing a mechanistic basis for disease recurrence at the same sites. In parallel, the skin microbiome contributes to regional specialization by forming distinct communities in oily, moist, and dry regions, which are disrupted in disease-specific ways, while environmental exposures such as ultraviolet radiation, mechanical stress, and humidity further reinforce regional variation. Recent advances in single-cell and spatial transcriptomic technologies have enabled inflammatory responses to be mapped with high precision, allowing detailed interrogation of site-specific cellular interactions and signaling pathways across the skin. Collectively, these findings support a unifying model in which regional tissue properties and local immune ecosystems shape disease-specific inflammatory circuits, accounting for the anatomical predilection of inflammatory diseases and underscoring the importance of tissue context for precision therapeutics.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "anatomic specialization of the skin",
+      "cutaneous microenvironment",
+      "precision dermatology",
+      "single-cell transcriptomics",
+      "site-specific skin immunity",
+      "spatial transcriptomics"
+    ],
+    "summary_zh": "综述皮肤部位特异性炎症的结构、免疫与微生物机制，提出区域微环境塑造炎症回路并指导精准治疗。",
+    "innovation": "提出区域组织特性与局部免疫生态系统塑造疾病特异性炎症回路的统一模型 | 整合单细胞与空间转录组技术高精度解析皮肤部位特异性炎症反应",
+    "limitation": "部位特异性炎症的生物学机制仍未完全明确",
+    "study_object": "人类皮肤及皮肤微生物组；单细胞与空间转录组技术",
+    "disease": "炎症性皮肤病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-17"
+  },
+  {
+    "pmid": "42891708",
+    "title": "Compatibility among Bacillus strains is linked to synthetic communities function, rhizosphere microbiome assembly and plant performance.",
+    "doi": null,
+    "journal": "Plant cell reports",
+    "issn": "1432-203X",
+    "pub_date": "2026-10-17",
+    "authors": "Khan Abdur Rashid; Ali Qurban; Khalid Sadia; Ayaz Muhammad; Li Li et al.",
+    "abstract": "Microbial compatibility is an important consideration for synthetic communities (SynCom) function, but its ecological and physiological consequences for plant-microbe interactions remain insufficiently understood. We investigated compatible and incompatible Bacillus-based SynComs and their effects on tomato growth, rhizosphere microbiome assembly, and microbial network organization. Compatible co-cultures exhibited enhanced co-culture phenotypes, including merged colony morphology, enhanced biofilm formation, and altered growth dynamics, whereas incompatible combinations formed demarcation zones, indicative of antagonism. The compatible pair NMCN6+LNXM12 showed higher attached biomass and relative indole-3-acetic acid production compared with most incompatible or single-strain inoculations. Greenhouse experiments revealed that compatible SynComs significantly promoted tomato growth, increased plant height, root length, photosynthesis, and stomatal conductance, while incompatible combinations showed distinct soluble sugar responses rather than consistent evidence of plant stress. Amplicon sequencing revealed treatment-associated variation in rhizosphere bacterial community composition. Compatible SynComs were associated with enrichment of specific bacterial taxa and produced more interconnected and stable co-occurrence networks, whereas incompatible combinations showed distinct taxonomic profiles and comparatively fragmented microbial associations. Community composition differed significantly among individual treatments but not among broader compatibility categories with unequal within-group dispersion. Collectively, the observed co-culture, plant, and microbiome responses highlight differences among the selected Bacillus combinations that cannot be attributed to compatibility alone. These findings may provide the selection of Bacillus strain combinations for further evaluation as plant inoculants.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Rhizosphere",
+      "Bacillus",
+      "Microbiota",
+      "Plant Roots",
+      "Soil Microbiology",
+      "Solanum lycopersicum",
+      "Coculture Techniques",
+      "Indoleacetic Acids",
+      "Biomass",
+      "Biofilms"
+    ],
+    "keywords": [
+      "Bacillus compatibility",
+      "Community structure",
+      "Microbial interactions",
+      "Plant-microbe interactions",
+      "Rhizosphere microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-17"
+  },
+  {
+    "pmid": "42891649",
+    "title": "Selective plant-microbe communication shapes microbiome-assisted immunity.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-10-17",
+    "authors": "Afzal Muhammad Rahil; Lin Sisi; Liang Mingjie; Jin Linhong; Chang Ming et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Bacillus",
+      "disease resistance",
+      "lipopeptide",
+      "microbiota",
+      "plant–microbe interaction",
+      "rhizosphere bacteria"
+    ],
+    "summary_zh": "探讨植物-微生物选择性通讯如何塑造微生物组辅助免疫；摘要缺失，方法与结论未描述。",
+    "innovation": "未描述",
+    "limitation": "摘要缺失，无法评估研究细节",
+    "study_object": "植物与微生物（样本类型、技术类型未描述）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-17"
+  }
+]
