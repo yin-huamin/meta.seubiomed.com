@@ -1,0 +1,65 @@
+[
+  {
+    "pmid": "42895327",
+    "title": "Seasonal and evolutionary patterns of planktonic Hikarchaeia reveal ecological niches of marine rare biosphere constituents.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-10-19",
+    "authors": "Wittmers Fabian; Dames Nicole R; Michelsen Michelle; Spezzano Rachele; Comstock Jacqueline et al.",
+    "abstract": "Members of Marine Group IV, now termed Hikarchaeia, hold an important transitional evolutionary position among Archaea but remain uncultivated, and their ecology remains uncharacterized. Over a 5-year period, we performed monthly profile sampling in the North Atlantic Subtropical Gyre and sequenced V4 16S rRNA gene amplicons, while also collecting additional size-fractionated and metagenomic samples. Hikarchaeal relative abundance annually peaked at ~1% of prokaryotic amplicons. Their relative abundances were significantly higher after deep winter mixing when thermal stratification isolated exported dissolved organic matter in the twilight zone (TZ), the boundary region between the epipelagic and mesopelagic. A diminutive 1.17 Mbp complete hikarchaeal genome was recovered by sequencing and co-assembling diel TZ metagenomes from 200 m during summer, where their relative abundances were highest. Phylogenomic reconstruction incorporating our new metagenome-assembled genome (MAG) and public MAGs established five clades. Clades I and III were in subtropical and tropical environments, with vertical partitioning: Clade I dominated the TZ, and Clade III detection initiated in the lower mesopelagic and extended into the bathypelagic. Clade V is polar-associated. Data sparsity makes Clade II and IV distributions unclear. All Hikarchaeia recovered thus far appear to be free-living aerobes capable of heterotrophy. Unlike MGI, MGII, and MGIII Archaea, and most marine pelagic bacteria, the Hikarchaeia encode bacterioruberin biosynthesis, except deep Clade III. Hikarchaeia also have nitrile hydratases alongside enzymes for carbon monoxide oxidation and menaquinone biosynthesis, suggesting previously unrecognized roles in nitrogen and carbon cycling. Collectively, our studies reveal niche partitioning of evolutionarily distinct uncultivated Hikarchaeia clades and patterning within the rare biosphere.IMPORTANCEThe ocean and its vertical water-column structure are changing with planetary warming; yet, there are many enigmatic microbes, especially those that inhabit the deep ocean. Here, we illuminate a group of uncultivated Archaea that were discovered over two decades ago but still lack clear distributions and habitat preferences. With the first complete hikarchaeal genome now in hand, we identified distinct lineages within the Hikarchaeia that occupy different marine niches. Strong reoccurring seasonal patterns were observed that closely followed the annual cycle of temperature-driven ocean stratification. Given rapid natural and anthropogenic perturbations at hand, establishing baselines for these Archaea is critical for improving our understanding and modeling of marine microbiomes and their biogeochemical functions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Archaea",
+      "BATS",
+      "Hikarchaeia",
+      "Marine Group IV",
+      "archaeal evolution",
+      "ocean time series",
+      "seasonality"
+    ],
+    "summary_zh": "通过北大西洋5年逐月16S与宏基因组采样，揭示Hikarchaeia季节峰值、完整基因组及五个分支的生态位分化。",
+    "innovation": "5年逐月采样揭示Hikarchaeia丰度季节峰值及冬季深混后的显著升高 | 获得1.17 Mbp完整Hikarchaeia基因组并构建五个进化分支 | 发现不同分支的垂直生态位分化及bacterioruberin、腈水合酶等潜在代谢特征",
+    "limitation": "Hikarchaeia仍未培养；Clade II和IV因数据稀疏分布尚不明确",
+    "study_object": "海洋（北大西洋副热带环流）海水浮游样本；16S rRNA基因V4扩增子测序与宏基因组测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-19"
+  },
+  {
+    "pmid": "42894355",
+    "title": "The Microbiome-Metabolokine-Adipokine Axis in Insulin Resistance: Adaptive and Maladaptive FGF21-GDF15 Signaling.",
+    "doi": null,
+    "journal": "Endocrine reviews",
+    "issn": "1945-7189",
+    "pub_date": "2026-10-19",
+    "authors": "Mustakin P K; Arief Mansyur; Nurrahmi K; Kurniawan Liong Boy; Amirul Reswara Ihza Makarim",
+    "abstract": "Insulin resistance emerges from disturbances in interorgan metabolic communication in which nutrient exposure, microbial metabolism, and host endocrine responses interact across multiple metabolic compartments. This state-of-the-art review proposes a revised Microbiome-Metabolokine-Adipokine (MMA) Axis as a focused framework linking gut microbial metabolic signals with enteroendocrine, hepatic, and adipose responses and the stress-responsive metabolokines fibroblast growth factor 21 (FGF21) and growth differentiation factor 15 (GDF15). Microbiome-derived and microbiome-modified signals, including short-chain fatty acids, bile acids, branched-chain amino acid-related metabolites, tryptophan-derived metabolites, and microbial inflammatory products, can influence intestinal receptor signaling, incretin secretion, hepatic nutrient sensing, adipose lipid buffering, and systemic insulin sensitivity. Within this network, FGF21 and GDF15 are positioned as distinct but complementary adaptive endocrine signals rather than components of a fixed sequential pathway: FGF21 predominantly coordinates responses to nutrient and metabolic stress, whereas GDF15 communicates broader cellular stress through GFRAL-RET-dependent regulation of nutrient intake and energy balance. Importantly, persistent elevation of either metabolokine during insulin-resistant states should not automatically be interpreted as endocrine resistance or maladaptation. We instead propose that progression toward insulin resistance reflects a context-dependent mismatch between increasing metabolic stress and the capacity of integrated endocrine responses to maintain metabolic flexibility and substrate homeostasis. Current evidence strongly supports individual microbiome-metabolite, enteroendocrine, hepatic, adipose, FGF21, and GDF15 signaling modules, but a direct causal microbiome-FGF21-GDF15 sequence has not been established in humans. The revised MMA Axis therefore provides a testable framework for defining how microbiome-derived metabolic signals interface with host endocrine adaptation during the development of insulin resistance.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "FGF21",
+      "GDF15",
+      "endocrine adaptation",
+      "gut microbiome",
+      "insulin resistance",
+      "metabolokines"
+    ],
+    "summary_zh": "综述提出修订的微生物组-代谢因子-脂肪因子轴，连接微生物代谢物与FGF21/GDF15，解释胰岛素抵抗适应失衡，指出人类因果链未证实。",
+    "innovation": "提出修订的微生物组-代谢因子-脂肪因子轴框架 | 将FGF21与GDF15定位为不同但互补的适应性内分泌信号而非固定顺序通路 | 提出胰岛素抵抗进展是代谢应激与内分泌适应能力之间的情境依赖不匹配",
+    "limitation": "未在人类中建立直接的微生物组-FGF21-GDF15因果序列 | 现有证据仅支持各独立信号模块",
+    "study_object": "宿主代谢系统（肠道微生物组、肠内分泌、肝、脂肪） + 未描述样本类型 + 综述",
+    "disease": "胰岛素抵抗",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-19"
+  }
+]
