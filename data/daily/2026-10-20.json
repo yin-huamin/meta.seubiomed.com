@@ -1,0 +1,70 @@
+[
+  {
+    "pmid": "42863060",
+    "title": "Discovery and characterization of miranthins, \"Trojan horse\" antibiotic modulators of bacterial composition in the oral microbiome.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-10-20",
+    "authors": "Dalvano Brielle E; Covington Brett C; Seyedsayamdost Mohammad R",
+    "abstract": "Bacteria of the human microbiota encode an abundance of natural products that likely mediate bacterial competition, local colonization patterns, and human health and disease. However, very few of these compounds have been identified and characterized to date. During our investigation of Streptococcus mitis, an important early colonizer of the oral cavity, we identified and structurally characterized a family of peptide natural products, termed miranthins herein, that contain an unusual macrocycle formed by an Asp-Cys β-carbon thioether crosslink. We determined that the most abundantly secreted miranthin is a \"Trojan horse\" antibiotic that enters sensitive cells via the Ami oligopeptide transporter, is hydrolyzed and activated by aminopeptidase N, and subsequently inhibits ribosomal translation to curb the growth of streptococcal competitors. The miranthins are narrow-spectrum antibiotics that could enable S. mitis to modulate community dynamics in the oral cavity, highlighting the importance of peptide natural products in interspecies competition in the microbiome.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Microbiota",
+      "Humans",
+      "Anti-Bacterial Agents",
+      "Mouth",
+      "Streptococcus mitis",
+      "Peptides",
+      "Biological Products"
+    ],
+    "keywords": [
+      "RiPPs",
+      "human oral microbiome",
+      "natural products",
+      "ribosome targeting antibiotics",
+      "streptococci"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-20"
+  },
+  {
+    "pmid": "42896859",
+    "title": "Effects of Protein Intake on Gut Microbiota in Physically Active Individuals: A Systematic Review and Meta-Analysis.",
+    "doi": null,
+    "journal": "Nutrition reviews",
+    "issn": "1753-4887",
+    "pub_date": "2026-10-20",
+    "authors": "Bao Zihan; Jiao Meng; Zhao Mengqi; Huang Fang-Yingzi; Liu Yunyang et al.",
+    "abstract": "CONTEXT: Protein (PRO) intake supports exercise adaptation and recovery, but its effects on gut microbiota (GM) in physically active individuals remain inconsistent across doses, PRO sources, and exercise conditions.\nOBJECTIVE: To systematically evaluate and meta-analyze the effects of PRO intake on GM in physically active individuals.\nDATA SOURCES: The PubMed, EBSCOhost, the Cochrane Library, and Web of Science databases were searched through June 2026. Reference lists of relevant studies and reviews were also examined.\nDATA EXTRACTION: Two reviewers independently screened records and extracted study, participant, intervention, and outcome data. Eligible studies quantified PRO intake, included an exercise or physical-activity component, and reported extractable GM outcomes. Risk of bias and evidence certainty were assessed using the Cochrane Risk of Bias 2.0 tool and Grading of Recommendations, Assessment, Development and Evaluation approach, respectively.\nDATA ANALYSIS: Random-effects meta-analyses using Hedges' g, subgroup analyses, and meta-regression were performed. Eighteen studies (n = 819 participants) were included. Protein intake significantly increased the Shannon and Chao1 indices but not the Simpson index or observed operational taxonomic units (OTUs). A significant U-shaped association was observed between PRO dose and the α-diversity effect size, with the fitted curve reaching its lowest point at 1.5-2.0 g kg-1 d-1. Protein intake significantly decreased populations of Actinobacteria, Bifidobacterium, and Firmicutes, and the Firmicutes to Bacteroidetes ratio, and increased Bacteroidetes numbers. Subgroup findings suggested that age, body mass index, intervention duration, PRO dose, and exercise modality and intensity moderated the effects on Shannon diversity and Bifidobacterium abundance.\nCONCLUSIONS: Protein intake appears to improve gut microbial diversity in physically active individuals but may also induce notable shifts in beneficial taxa, particularly reductions in Bifidobacterium. Future studies should prioritize individualized microbiome-informed strategies, evaluate long-term safety, and clarify the ecological impact of different PRO sources to optimize exercise nutrition interventions.\nSYSTEMATIC REVIEW REGISTRATION: PROSPERO registration No. CRD420261288197.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "gut microbiota",
+      "meta-analysis",
+      "physical activity",
+      "protein",
+      "systematic review"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-20"
+  }
+]
