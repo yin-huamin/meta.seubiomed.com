@@ -1,0 +1,35 @@
+[
+  {
+    "pmid": "42901916",
+    "title": "Nanotherapeutic macrophage reprogramming through immunometabolic and microbial modulation for sepsis treatment.",
+    "doi": null,
+    "journal": "Signal transduction and targeted therapy",
+    "issn": "2059-3635",
+    "pub_date": "2026-10-21",
+    "authors": "Lu Xintong; Wang Wenhui; Zhang Bingjie; Li Qian; Chen Ye et al.",
+    "abstract": "Sepsis is a life-threatening syndrome characterized by dysregulated immune responses and metabolic dysfunction, and remains a major cause of global mortality. While nanomedicine offers new opportunities for sepsis therapy, current strategies rarely achieve comprehensive modulation of macrophage immunometabolism and microenvironmental signaling. Here, we develop a glutathione-responsive nanotherapeutic platform (EONPs) by conjugating the stimulator of interferon genes (STING) inhibitor 4-octyl itaconate to polyethylene glycol, followed by encapsulation of the dihydroorotate dehydrogenase (DHODH) inhibitor EA6. Integrated transcriptomic, metabolomic, and metagenomic analyses combined with pharmacological assessments reveal that EONPs suppress systemic hyperinflammation, reprogram macrophages toward an anti-inflammatory phenotype, restore gut microbial homeostasis, and protect against multi-organ injury in septic models. Notably, EONPs enhance the production of the microbiota-derived metabolite 5-hydroxyindoleacetic acid (5-HIAA), which is functionally linked to the anti-inflammatory response and may further support macrophage reprogramming. Our findings establish a previously unrecognized strategy for precise metabolic and microbiota-driven modulation of macrophages, offering a conceptual framework for further investigation of macrophage-targeted nanotherapeutics in sepsis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Sepsis",
+      "Macrophages",
+      "Animals",
+      "Humans",
+      "Mice",
+      "Succinates",
+      "Metabolic Reprogramming",
+      "Cellular Reprogramming"
+    ],
+    "keywords": [],
+    "summary_zh": "构建谷胱甘肽响应纳米平台EONPs，通过免疫代谢与微生物调控重编程巨噬细胞，在脓毒症模型中减轻炎症和多器官损伤。",
+    "innovation": "构建谷胱甘肽响应型EONPs，将STING抑制剂4-辛基衣康酸偶联至PEG并包载DHODH抑制剂EA6 | 整合转录组、代谢组和宏基因组分析，揭示EONPs可抑制系统性高炎症、重编程巨噬细胞、恢复肠道微生物稳态并保护多器官 | 发现EONPs增强微生物来源代谢物5-HIAA产生，并与抗炎反应及巨噬细胞重编程相关",
+    "limitation": "未描述",
+    "study_object": "脓毒症模型中的巨噬细胞与肠道微生物；转录组、代谢组和宏基因组分析",
+    "disease": "脓毒症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-21"
+  }
+]

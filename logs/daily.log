@@ -1,119 +1,118 @@
-2026-10-20 16:44:06 [INFO] ▶ 开始每日更新...
-2026-10-20 16:44:06 [INFO] ===== 开始每日更新 2026-10-20 =====
-2026-10-20 16:44:06 [WARNING] 检测到缺少数据: 2026-10-20
-2026-10-20 16:44:06 [WARNING] 检测到缺少数据: 2026-10-18
-2026-10-20 16:44:06 [INFO] 需要补全数据: ['2026-10-20', '2026-10-18']
-2026-10-20 16:44:06 [INFO] 
+2026-10-21 17:01:15 [INFO] ▶ 开始每日更新...
+2026-10-21 17:01:15 [INFO] ===== 开始每日更新 2026-10-21 =====
+2026-10-21 17:01:15 [WARNING] 检测到缺少数据: 2026-10-21
+2026-10-21 17:01:15 [WARNING] 检测到缺少数据: 2026-10-18
+2026-10-21 17:01:15 [INFO] 需要补全数据: ['2026-10-21', '2026-10-18']
+2026-10-21 17:01:15 [INFO] 
 ==================================================
-2026-10-20 16:44:06 [INFO] 开始抓取 2026-10-18 的论文
-2026-10-20 16:44:06 [INFO] ==================================================
-2026-10-20 16:44:06 [INFO] Step 1: 抓取 PubMed 新论文
-2026-10-20 16:44:06 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-10-20 16:44:06 [INFO] 已有 987 篇文献记录，不再重复检索
-2026-10-20 16:44:06 [INFO] 正在搜索 2026/10/18 的新论文...
-2026-10-20 16:44:06 [INFO] 搜索到 4 篇 PMID
-2026-10-20 16:44:06 [INFO]   其中新增 4 篇（过滤已有 0 篇）
-2026-10-20 16:44:07 [INFO]   内容过滤: 排除 0 篇，保留 4 篇
-2026-10-20 16:44:07 [INFO]   期刊过滤: 排除 4 篇，保留 0 篇
-2026-10-20 16:44:07 [INFO] 
-2026-10-20 16:44:07 [INFO] ================================================================================
-2026-10-20 16:44:07 [INFO]   📋 本次搜索论文汇总（共 4 篇）
-2026-10-20 16:44:07 [INFO] ================================================================================
-2026-10-20 16:44:07 [INFO]   📵 期刊过滤排除 (4 篇):
-2026-10-20 16:44:07 [INFO]     [1] PMID 42567327 | Behavioural brain research
-2026-10-20 16:44:07 [INFO]         Akkermansia muciniphila gavage alleviates depression-like behaviors in female A53T α-synuclein transgenic mice.
-2026-10-20 16:44:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Behavioural brain research
-2026-10-20 16:44:07 [INFO]     [2] PMID 42893466 | Environmental geochemistry and health
-2026-10-20 16:44:07 [INFO]         Covariation of DOM molecular characteristics and bacterial carbon metabolism potential along a reservoir-agricultural river nutrient gradient.
-2026-10-20 16:44:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental geochemistry and health
-2026-10-20 16:44:07 [INFO]     [3] PMID 42893380 | Lupus
-2026-10-20 16:44:07 [INFO]         The "living well with lupus" lifestyle intervention: Effects on gut microbiota in patients with systemic lupus erythematosus and high cardiovascular risk.
-2026-10-20 16:44:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: Lupus
-2026-10-20 16:44:07 [INFO]     [4] PMID 42894744 | International journal of genomics
-2026-10-20 16:44:07 [INFO]         Hypothesis-Generating Single-Cell Analysis of the Endometrial Cancer Immune Microenvironment With Complementary Multiomics Evidence.
-2026-10-20 16:44:07 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of genomics
-2026-10-20 16:44:07 [INFO] ================================================================================
-2026-10-20 16:44:07 [INFO] 
-2026-10-20 16:44:08 [INFO] 今日无新增论文
-2026-10-20 16:44:08 [INFO] Step 2: AI 摘要生成
-2026-10-20 16:44:08 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-10-18.json
-2026-10-20 16:44:08 [INFO] 
+2026-10-21 17:01:15 [INFO] 开始抓取 2026-10-18 的论文
+2026-10-21 17:01:15 [INFO] ==================================================
+2026-10-21 17:01:15 [INFO] Step 1: 抓取 PubMed 新论文
+2026-10-21 17:01:15 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-10-21 17:01:15 [INFO] 已有 989 篇文献记录，不再重复检索
+2026-10-21 17:01:15 [INFO] 正在搜索 2026/10/18 的新论文...
+2026-10-21 17:01:15 [INFO] 搜索到 4 篇 PMID
+2026-10-21 17:01:15 [INFO]   其中新增 4 篇（过滤已有 0 篇）
+2026-10-21 17:01:16 [INFO]   内容过滤: 排除 0 篇，保留 4 篇
+2026-10-21 17:01:16 [INFO]   期刊过滤: 排除 4 篇，保留 0 篇
+2026-10-21 17:01:16 [INFO] 
+2026-10-21 17:01:16 [INFO] ================================================================================
+2026-10-21 17:01:16 [INFO]   📋 本次搜索论文汇总（共 4 篇）
+2026-10-21 17:01:16 [INFO] ================================================================================
+2026-10-21 17:01:16 [INFO]   📵 期刊过滤排除 (4 篇):
+2026-10-21 17:01:16 [INFO]     [1] PMID 42567327 | Behavioural brain research
+2026-10-21 17:01:16 [INFO]         Akkermansia muciniphila gavage alleviates depression-like behaviors in female A53T α-synuclein transgenic mice.
+2026-10-21 17:01:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Behavioural brain research
+2026-10-21 17:01:16 [INFO]     [2] PMID 42893466 | Environmental geochemistry and health
+2026-10-21 17:01:16 [INFO]         Covariation of DOM molecular characteristics and bacterial carbon metabolism potential along a reservoir-agricultural river nutrient gradient.
+2026-10-21 17:01:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Environmental geochemistry and health
+2026-10-21 17:01:16 [INFO]     [3] PMID 42893380 | Lupus
+2026-10-21 17:01:16 [INFO]         The "living well with lupus" lifestyle intervention: Effects on gut microbiota in patients with systemic lupus erythematosus and high cardiovascular risk.
+2026-10-21 17:01:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: Lupus
+2026-10-21 17:01:16 [INFO]     [4] PMID 42894744 | International journal of genomics
+2026-10-21 17:01:16 [INFO]         Hypothesis-Generating Single-Cell Analysis of the Endometrial Cancer Immune Microenvironment With Complementary Multiomics Evidence.
+2026-10-21 17:01:16 [INFO]         原因: 期刊不在 journal_info.tsv 中: International journal of genomics
+2026-10-21 17:01:16 [INFO] ================================================================================
+2026-10-21 17:01:16 [INFO] 
+2026-10-21 17:01:17 [INFO] 今日无新增论文
+2026-10-21 17:01:17 [INFO] Step 2: AI 摘要生成
+2026-10-21 17:01:17 [WARNING] 文件不存在: /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-10-18.json
+2026-10-21 17:01:17 [INFO] 
 ==================================================
-2026-10-20 16:44:08 [INFO] 开始抓取 2026-10-20 的论文
-2026-10-20 16:44:08 [INFO] ==================================================
-2026-10-20 16:44:08 [INFO] Step 1: 抓取 PubMed 新论文
-2026-10-20 16:44:08 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
-2026-10-20 16:44:08 [INFO] 已有 987 篇文献记录，不再重复检索
-2026-10-20 16:44:08 [INFO] 正在搜索 2026/10/20 的新论文...
-2026-10-20 16:44:08 [INFO] 搜索到 2 篇 PMID
-2026-10-20 16:44:08 [INFO]   其中新增 2 篇（过滤已有 0 篇）
-2026-10-20 16:44:09 [INFO]   内容过滤: 排除 0 篇，保留 2 篇
-2026-10-20 16:44:09 [INFO]   期刊过滤: 排除 0 篇，保留 2 篇
-2026-10-20 16:44:09 [INFO] 
-2026-10-20 16:44:09 [INFO] ================================================================================
-2026-10-20 16:44:09 [INFO]   📋 本次搜索论文汇总（共 2 篇）
-2026-10-20 16:44:09 [INFO] ================================================================================
-2026-10-20 16:44:09 [INFO]   ✅ 已收录 (2 篇):
-2026-10-20 16:44:09 [INFO]     [1] PMID 42863060 | Proceedings of the National Academy of Sciences of the United States of America
-2026-10-20 16:44:09 [INFO]         Discovery and characterization of miranthins, "Trojan horse" antibiotic modulators of bacterial composition in the oral microbiome.
-2026-10-20 16:44:09 [INFO]     [2] PMID 42896859 | Nutrition reviews
-2026-10-20 16:44:09 [INFO]         Effects of Protein Intake on Gut Microbiota in Physically Active Individuals: A Systematic Review and Meta-Analysis.
-2026-10-20 16:44:09 [INFO] ================================================================================
-2026-10-20 16:44:09 [INFO] 
-2026-10-20 16:44:10 [INFO] 已保存 2 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-10-20.json
-2026-10-20 16:44:10 [INFO] Step 2: AI 摘要生成
-2026-10-20 16:44:10 [INFO] 共需处理 1 个文件
-2026-10-20 16:44:10 [INFO] 处理: 2026-10-20.json
-2026-10-20 16:44:10 [INFO]   [1/2] PMID 42863060 | Discovery and characterization of miranthins, "Trojan horse"
-2026-10-20 16:44:16 [WARNING] LLM 返回 JSON 解析失败: Unterminated string starting at: line 4 column 17 (char 235)
-2026-10-20 16:44:17 [INFO]   [2/2] PMID 42896859 | Effects of Protein Intake on Gut Microbiota in Physically Ac
-2026-10-20 16:44:22 [WARNING] LLM 返回 JSON 解析失败: Expecting value: line 1 column 1 (char 0)
-2026-10-20 16:44:24 [INFO]   ✓ 已更新 2026-10-20.json（2 篇）
-2026-10-20 16:44:24 [INFO] 
+2026-10-21 17:01:17 [INFO] 开始抓取 2026-10-21 的论文
+2026-10-21 17:01:17 [INFO] ==================================================
+2026-10-21 17:01:17 [INFO] Step 1: 抓取 PubMed 新论文
+2026-10-21 17:01:17 [INFO] 已加载期刊过滤表: 1016 个期刊（IF>=5 + JCR Q1/Q2 + 中科院1/2区，来自 journal_info.tsv）
+2026-10-21 17:01:17 [INFO] 已有 989 篇文献记录，不再重复检索
+2026-10-21 17:01:17 [INFO] 正在搜索 2026/10/21 的新论文...
+2026-10-21 17:01:17 [INFO] 搜索到 2 篇 PMID
+2026-10-21 17:01:17 [INFO]   其中新增 2 篇（过滤已有 0 篇）
+2026-10-21 17:01:18 [INFO]   内容过滤: 排除 0 篇，保留 2 篇
+2026-10-21 17:01:18 [INFO]   期刊过滤: 排除 1 篇，保留 1 篇
+2026-10-21 17:01:18 [INFO] 
+2026-10-21 17:01:18 [INFO] ================================================================================
+2026-10-21 17:01:18 [INFO]   📋 本次搜索论文汇总（共 2 篇）
+2026-10-21 17:01:18 [INFO] ================================================================================
+2026-10-21 17:01:18 [INFO]   ✅ 已收录 (1 篇):
+2026-10-21 17:01:18 [INFO]     [1] PMID 42901916 | Signal transduction and targeted therapy
+2026-10-21 17:01:18 [INFO]         Nanotherapeutic macrophage reprogramming through immunometabolic and microbial modulation for sepsis treatment.
+2026-10-21 17:01:18 [INFO]   📵 期刊过滤排除 (1 篇):
+2026-10-21 17:01:18 [INFO]     [1] PMID 42902048 | International microbiology : the official journal of the Spanish Society for Microbiology
+2026-10-21 17:01:18 [INFO]         Metagenomic analysis of oral microbiota in Chinese children with obesity.
+2026-10-21 17:01:18 [INFO]         原因: 期刊不在 journal_info.tsv 中: International microbiology : the official journal of the Spanish Society for Microbiology
+2026-10-21 17:01:18 [INFO] ================================================================================
+2026-10-21 17:01:18 [INFO] 
+2026-10-21 17:01:19 [INFO] 已保存 1 篇新论文 → /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/data/daily/2026-10-21.json
+2026-10-21 17:01:19 [INFO] Step 2: AI 摘要生成
+2026-10-21 17:01:19 [INFO] 共需处理 1 个文件
+2026-10-21 17:01:19 [INFO] 处理: 2026-10-21.json
+2026-10-21 17:01:19 [INFO]   [1/1] PMID 42901916 | Nanotherapeutic macrophage reprogramming through immunometab
+2026-10-21 17:01:24 [INFO]   ✓ 已更新 2026-10-21.json（1 篇）
+2026-10-21 17:01:24 [INFO] 
 Step 3: 整合数据
-2026-10-20 16:44:24 [INFO] 累积基础 5057 篇 + 新增 18 篇 = 共 5075 篇
-2026-10-20 16:44:24 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-10-20 16:44:24 [INFO] 分区过滤: 排除 17 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 5058 篇
-2026-10-20 16:44:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4506 KB)
-2026-10-20 16:44:24 [INFO]   2015: 91 篇 -> 2015.json
-2026-10-20 16:44:24 [INFO]   2016: 94 篇 -> 2016.json
-2026-10-20 16:44:24 [INFO]   2017: 86 篇 -> 2017.json
-2026-10-20 16:44:24 [INFO]   2018: 106 篇 -> 2018.json
-2026-10-20 16:44:24 [INFO]   2019: 183 篇 -> 2019.json
-2026-10-20 16:44:24 [INFO]   2020: 373 篇 -> 2020.json
-2026-10-20 16:44:24 [INFO]   2021: 450 篇 -> 2021.json
-2026-10-20 16:44:24 [INFO]   2022: 569 篇 -> 2022.json
-2026-10-20 16:44:24 [INFO]   2023: 558 篇 -> 2023.json
-2026-10-20 16:44:24 [INFO]   2024: 681 篇 -> 2024.json
-2026-10-20 16:44:24 [INFO]   2025: 810 篇 -> 2025.json
-2026-10-20 16:44:24 [INFO]   2026: 1057 篇 -> 2026.json
-2026-10-20 16:44:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-10-20 16:44:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-10-20 16:44:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-10-20 16:44:24 [INFO] 
+2026-10-21 17:01:24 [INFO] 累积基础 5059 篇 + 新增 17 篇 = 共 5076 篇
+2026-10-21 17:01:24 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-10-21 17:01:24 [INFO] 分区过滤: 排除 17 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 5059 篇
+2026-10-21 17:01:24 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4507 KB)
+2026-10-21 17:01:24 [INFO]   2015: 91 篇 -> 2015.json
+2026-10-21 17:01:24 [INFO]   2016: 94 篇 -> 2016.json
+2026-10-21 17:01:24 [INFO]   2017: 86 篇 -> 2017.json
+2026-10-21 17:01:24 [INFO]   2018: 106 篇 -> 2018.json
+2026-10-21 17:01:24 [INFO]   2019: 183 篇 -> 2019.json
+2026-10-21 17:01:24 [INFO]   2020: 373 篇 -> 2020.json
+2026-10-21 17:01:24 [INFO]   2021: 450 篇 -> 2021.json
+2026-10-21 17:01:24 [INFO]   2022: 569 篇 -> 2022.json
+2026-10-21 17:01:24 [INFO]   2023: 558 篇 -> 2023.json
+2026-10-21 17:01:24 [INFO]   2024: 681 篇 -> 2024.json
+2026-10-21 17:01:25 [INFO]   2025: 810 篇 -> 2025.json
+2026-10-21 17:01:25 [INFO]   2026: 1058 篇 -> 2026.json
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-10-21 17:01:25 [INFO] 
 ==================================================
-2026-10-20 16:44:24 [INFO] ===== 完成！共 5058 篇文献 =====
-2026-10-20 16:44:24 [INFO] 已补全 2 天的数据
-2026-10-20 16:44:24 [INFO] ==================================================
-2026-10-20 16:44:24 [INFO] ✓ 每日更新完成
-2026-10-20 16:44:24 [INFO] ▶ 开始整合数据...
-2026-10-20 16:44:24 [INFO] 累积基础 5058 篇 + 新增 17 篇 = 共 5075 篇
-2026-10-20 16:44:24 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
-2026-10-20 16:44:24 [INFO] 分区过滤: 排除 16 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 5059 篇
-2026-10-20 16:44:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4507 KB)
-2026-10-20 16:44:25 [INFO]   2015: 91 篇 -> 2015.json
-2026-10-20 16:44:25 [INFO]   2016: 94 篇 -> 2016.json
-2026-10-20 16:44:25 [INFO]   2017: 86 篇 -> 2017.json
-2026-10-20 16:44:25 [INFO]   2018: 106 篇 -> 2018.json
-2026-10-20 16:44:25 [INFO]   2019: 183 篇 -> 2019.json
-2026-10-20 16:44:25 [INFO]   2020: 373 篇 -> 2020.json
-2026-10-20 16:44:25 [INFO]   2021: 450 篇 -> 2021.json
-2026-10-20 16:44:25 [INFO]   2022: 569 篇 -> 2022.json
-2026-10-20 16:44:25 [INFO]   2023: 558 篇 -> 2023.json
-2026-10-20 16:44:25 [INFO]   2024: 681 篇 -> 2024.json
-2026-10-20 16:44:25 [INFO]   2025: 810 篇 -> 2025.json
-2026-10-20 16:44:25 [INFO]   2026: 1058 篇 -> 2026.json
-2026-10-20 16:44:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
-2026-10-20 16:44:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
-2026-10-20 16:44:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
-2026-10-20 16:44:25 [INFO] ✓ 整合完成！共 5059 篇文献
+2026-10-21 17:01:25 [INFO] ===== 完成！共 5059 篇文献 =====
+2026-10-21 17:01:25 [INFO] 已补全 2 天的数据
+2026-10-21 17:01:25 [INFO] ==================================================
+2026-10-21 17:01:25 [INFO] ✓ 每日更新完成
+2026-10-21 17:01:25 [INFO] ▶ 开始整合数据...
+2026-10-21 17:01:25 [INFO] 累积基础 5059 篇 + 新增 17 篇 = 共 5076 篇
+2026-10-21 17:01:25 [INFO] Journal lookup loaded: 2154 names, 3083 ISSNs
+2026-10-21 17:01:25 [INFO] 分区过滤: 排除 17 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 5059 篇
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data.json (4507 KB)
+2026-10-21 17:01:25 [INFO]   2015: 91 篇 -> 2015.json
+2026-10-21 17:01:25 [INFO]   2016: 94 篇 -> 2016.json
+2026-10-21 17:01:25 [INFO]   2017: 86 篇 -> 2017.json
+2026-10-21 17:01:25 [INFO]   2018: 106 篇 -> 2018.json
+2026-10-21 17:01:25 [INFO]   2019: 183 篇 -> 2019.json
+2026-10-21 17:01:25 [INFO]   2020: 373 篇 -> 2020.json
+2026-10-21 17:01:25 [INFO]   2021: 450 篇 -> 2021.json
+2026-10-21 17:01:25 [INFO]   2022: 569 篇 -> 2022.json
+2026-10-21 17:01:25 [INFO]   2023: 558 篇 -> 2023.json
+2026-10-21 17:01:25 [INFO]   2024: 681 篇 -> 2024.json
+2026-10-21 17:01:25 [INFO]   2025: 810 篇 -> 2025.json
+2026-10-21 17:01:25 [INFO]   2026: 1058 篇 -> 2026.json
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/data/index.json（12 个年份）
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/stats.json
+2026-10-21 17:01:25 [INFO] 已写入 /home/runner/work/meta.seubiomed.com/meta.seubiomed.com/web/memory.json
+2026-10-21 17:01:25 [INFO] ✓ 整合完成！共 5059 篇文献
