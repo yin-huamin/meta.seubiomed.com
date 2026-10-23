@@ -1,0 +1,33 @@
+[
+  {
+    "pmid": "42908433",
+    "title": "From Clinical Question to Defensible Inference: A Decision Framework for Integrated Gut Microbiome-Metabolome Studies.",
+    "doi": null,
+    "journal": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
+    "issn": "2501-062X",
+    "pub_date": "2026-10-22",
+    "authors": "Manciulea Profir Monica; Ionescu Ruxandra F; Popescu Roşu Oana A; Stancu Alin Constantin; Cucu Ioana et al.",
+    "abstract": "The rapid expansion of microbiome and metabolome technologies has transformed the study of host-microbial interactions, but methodological choices are still often driven by technical availability rather than by the question and intended claim. This review examines how biological compartment, microbiome profiling, metabolomics platform, data-integration strategy and validation determine the strength of inference in integrated gut microbiome-metabolome research. We distinguish descriptive association from functional interpretation, clinical prediction and causal evidence, and identify the analytical safeguards required for credible biomarker development. We then propose a five-stage decision framework that begins with definition of the intended scientific or clinical claim, links that claim to compartment and analytical resolution, selects integration according to purpose, and limits interpretation to the achieved validation level. Building on recent calls for question-driven multi-omics integration, its practical contribution is to connect prospective design choices to the intended claim and make the weakest validated component of the analytical chain - rather than technology choice alone - the explicit ceiling for the permissible claim, illustrated by two worked design examples. This question-driven approach is intended to improve design transparency, reproducibility and the responsible clinical translation of integrated microbiome-metabolome studies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Biomarkers",
+      "Gastrointestinal Microbiome",
+      "Metabolomics",
+      "Metagenomics",
+      "Precision Medicine",
+      "Research Design"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-22"
+  }
+]

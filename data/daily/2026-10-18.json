@@ -1,0 +1,31 @@
+[
+  {
+    "pmid": "42904169",
+    "title": "Halogenated flame retardant exposure was associated with pediatric gut microbiome profiles in a Canadian cohort.",
+    "doi": null,
+    "journal": "Gut microbes reports",
+    "issn": "2993-3935",
+    "pub_date": "2026-10-18",
+    "authors": "Zhang Yidan; Gao Feng; Gao Peng; Fan Yihan; Wang Xinlei et al.",
+    "abstract": "Environmental chemical exposures have been linked to gut microbiome dysregulation and adverse health outcomes in children. Halogenated flame retardants (HFRs) are persistent chemicals with substantial early-life exposure, yet evidence on their effects on the pediatric gut microbiome remains limited. We examined associations between HFR exposures and the gut microbiome among 8-12-y-old children from the GESTation and Environment (GESTE) cohort in Sherbrooke, Canada. In a multi-matrix, multi-omics design, 10 HFRs were quantified in plasma (n = 140) and stool (n = 182), with shotgun metagenomic and metatranscriptomic sequencing characterized microbial species and functional pathways. After false discovery rate correction, plasma BDE-47 and BDE-99 were inversely associated with Clostridium sp. CAG:221 and Bacteroides dorei, respectively (q < 0.2). Stool BDE-153 was negatively associated with short-chain fatty acid-producing taxa, including Eubacterium spp. and Roseburia intestinalis, and positively associated with Alistipes putredinis and Faecalibacterium spp. Stool BDE-153 and anti-DP were associated with higher activity of pathways involved in phospholipid homeostasis and 4-aminobutanoate degradation. Mediation analysis suggested that Faecalibacterium spp. partly mediated the association between stool BDE-153 and cytidine diphosphate-diacylglycerol biosynthesis. Our findings suggest that childhood HFR exposure is associated with alterations in gut microbiome composition and function, with potential implications for pediatric health.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Halogenated flame retardants",
+      "metagenome",
+      "metatranscriptome",
+      "pediatric gut microbiome"
+    ],
+    "summary_zh": "在加拿大儿童队列中，采用多基质多组学分析10种HFR暴露与肠道微生物组关联，发现HFR与菌群组成和功能改变相关。",
+    "innovation": "采用血浆与粪便多基质、宏基因组与宏转录组多组学设计 | 同时量化10种HFR并关联微生物物种与功能通路 | 使用中介分析提示Faecalibacterium spp.的部分中介作用",
+    "limitation": "未描述",
+    "study_object": "加拿大GESTE队列8-12岁儿童/血浆与粪便样本/鸟枪法宏基因组与宏转录组测序",
+    "disease": "无",
+    "sample_size": "血浆n=140，粪便n=182",
+    "ai_done": true,
+    "fetch_date": "2026-10-18"
+  }
+]
