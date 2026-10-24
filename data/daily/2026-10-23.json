@@ -1,0 +1,373 @@
+[
+  {
+    "pmid": "42909824",
+    "title": "Circadian rhythms in health and disease.",
+    "doi": null,
+    "journal": "Molecular biomedicine",
+    "issn": "2662-8651",
+    "pub_date": "2026-10-23",
+    "authors": "Liu Xiaoyan; Du Xuguang; Qi Shihong; Yuan Lin; Liu Liyu et al.",
+    "abstract": "Circadian rhythms, serving as a crucial temporal bridge linking neural activity and pathological biology, are regulated by central pacemaker neurons to maintain cellular homeostasis and coordinate diverse biological processes. Circadian rhythm disruption is closely associated with various diseases, including neurodegenerative disorders, metabolic disorders, and cancer. Circadian rhythms are controlled by core clock genes, such as BMAL1 and CLOCK, modulating numerous physiological processes, encompassing metabolism, immune responses, neural activity, and hormone regulation. Circadian rhythms disruptions arising from shift work, jet lag, or inconsistent sleep schedules are implicated in both the onset and progression of numerous diseases, notably Alzheimer's disease, Parkinson's disease, diabetes, and cardiovascular disease. The article highlights how circadian dysregulation alters cellular processes to potentially accelerate disease progression. Circadian disruption results in impaired immune function, further promoting disease development and resistance to treatment. Potential therapeutic applications based on circadian biology, such as chronotherapy and personalized medicine, are also discussed. Recent technological advances, embodied in wearable devices and omics approaches, are increasingly providing deeper insights into circadian biology. Further unveiling the role of circadian in health and disease opens new avenues for tailoring treatment timing to patients' biological rhythms, thereby enhancing therapeutic outcomes across various diseases. By bridging fundamental circadian mechanisms with clinical pathology, this review provides a roadmap for future chronotherapeutic interventions in precision medicine.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Circadian Rhythm",
+      "Animals"
+    ],
+    "keywords": [
+      "Clock",
+      "Gut microbiome",
+      "Long non-coding RNA",
+      "Melatonin",
+      "Neuron",
+      "Serotonin"
+    ],
+    "summary_zh": "本文综述昼夜节律核心机制及其紊乱与神经退行性、代谢、癌症等疾病的关系，并探讨时辰治疗与精准医学前景。",
+    "innovation": "将昼夜节律基础机制与临床病理相结合，提出精准医学中时辰治疗干预的路线图 | 讨论基于昼夜生物学的时辰治疗和个性化医疗 | 强调可穿戴设备与组学技术对深入理解昼夜节律的推动作用",
+    "limitation": "未描述",
+    "study_object": "人类昼夜节律与疾病；未描述具体样本类型；综述（涉及可穿戴设备和组学技术）",
+    "disease": "神经退行性疾病、代谢性疾病、癌症、阿尔茨海默病、帕金森病、糖尿病、心血管疾病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42914984",
+    "title": "Bacteria inside kidney tumors associate with myeloid inflammation and disease progression: A TRACERx Renal study.",
+    "doi": null,
+    "journal": "Med (New York, N.Y.)",
+    "issn": "2666-6340",
+    "pub_date": "2026-10-23",
+    "authors": "Martin Alice C; Cattin Anne-Laure; Lockwood Parise K; Zepeda-Rivera Martha A; Becker Clara et al.",
+    "abstract": "BACKGROUND: Intratumoral bacteria are increasingly recognized as active contributors to neutrophil-driven inflammation and disease progression in solid tumors. Yet, in clear cell renal cell carcinoma (ccRCC), where myeloid inflammation is a key feature of aggressive disease, live bacterial presence, their intratumoral distribution, and interaction with the tumor microenvironment remain unexplored.\nMETHODS: We genetically characterized the microbiome of primary ccRCC tumors across two independent cohorts (TRACERx: 616 samples, 143 patients; The Cancer Genome Atlas [TCGA]: 511 samples and patients), confirming live bacterial presence through culture. Multi-regional sampling enabled within-tumor analysis of bacterial distribution. Associations with the tumor microenvironment were explored at scale using bulk RNA sequencing (RNA-seq) across both cohorts and corroborated in depth through spatial transcriptomics and in vitro infection assays.\nFINDINGS: Across both cohorts, the commensal Cutibacterium emerged as the dominant genus, accumulating in discrete niches enriched toward the tumor center and associating with more advanced (TRACERx p = 0.024; TCGA p = 0.0011) tumors and shorter progression-free survival (TRACERx p = 0.0022; TCGA p = 4.4 × 10-4). Both across and within tumors, Cutibacterium accumulation associated with neutrophil recruitment and myeloid inflammation. In vitro, Cutibacterium induced sustained expression of neutrophil-attracting chemokines in macrophages, recapitulating patient tumor findings.\nCONCLUSIONS: These findings establish intratumoral bacteria as novel prognostic components of the ccRCC tumor microenvironment and suggest an active role in shaping local myeloid inflammation, laying the groundwork for investigating their potential as therapeutic targets.\nFUNDING: This work was supported by the Francis Crick Institute (Cancer Research UK, MRC, Wellcome Trust). TRACERx Renal is funded by Cancer Research UK (C50947/A18176).",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Cutibacterium",
+      "Translation to patients",
+      "ccRCC",
+      "intratumoral bacterial",
+      "myeloid inflammation",
+      "renal cancer",
+      "tumor microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42918601",
+    "title": "Metagenomic Insights into Microplastic Micro-interfaces: Transforming Pollutants and Spreading Resistance.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-23",
+    "authors": "Tian Hongyu; Liu Jianwei; Zhang Yuxiu",
+    "abstract": "Microplastic micro-interfaces (MPMI) in wastewater treatment plants (WWTPs) serve as critical hubs for microbial colonization, pollutant transformation, and antibiotic resistance gene (ARG) dissemination. In this study, a large-scale genome-resolved metagenomic approach was employed to reconstruct 463 high-quality metagenome-assembled genomes (MAGs) from biofilms established on polyethylene terephthalate (PET), polyethylene (PE), and polypropylene (PP) within a municipal WWTP. Taxonomic profiling revealed that MPMI selectively enriched strict anaerobes and uncultured taxa, driving a profound ecological shift from the surrounding water and indicating the formation of localized hypoxic micro-niches. Functionally, the MPMI microbiome constructed a highly integrated metabolic network. Key dominant lineages were found to synergistically couple aromatic hydrocarbon degradation (via the shikimate pathway and β-oxidation) with complex carbon, nitrogen, and sulfur cycling, while deploying energy-efficient nucleotide salvage strategies to ensure biofilm stabilization under nutrient stress. Crucially, horizontal gene transfer (HGT) emerged as a fundamental mechanism for functional diversification, facilitating the active cross-genomic exchange of key adaptive traits associated with pollutant metabolism and biofilm regulation. Furthermore, MPMI harbored a highly diverse resistome comprising 36 ARG categories and 289 subtypes, highlighted by the critical genomic co-localization of mobile elements and clinical resistance markers (e.g., mcr-5.1, mupA) in core colonizers. Ultimately, these genomic insights elucidate the MPMI as a profound ecological hotspot driving the concurrent adaptation of metabolic networks and the resistome, thereby exacerbating the risks of ARG dissemination in aquatic environments.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Antibiotic resistance gene",
+      "Horizontal gene transfer",
+      "Metabolic-resistance co-occurrence",
+      "Metagenome-assembled genomes",
+      "Microplastic micro-interface"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42919656",
+    "title": "Sodium oligomannate remodels gut redox adaptation and promotes microbiota-derived indole-3-propionic acid production to alleviate Alzheimer's disease.",
+    "doi": null,
+    "journal": "Gut",
+    "issn": "1468-3288",
+    "pub_date": "2026-10-23",
+    "authors": "Zhang Deqiang; Chu Heling; Zhang Yu; Wang Ying; Zhang Yan et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "BRAIN/GUT INTERACTION",
+      "MICROBIOME",
+      "MOLECULAR MECHANISMS",
+      "PHARMACOLOGY"
+    ],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "阿尔茨海默病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42919974",
+    "title": "Microbiome interactions in renal cell carcinoma: evidence, challenges and opportunities.",
+    "doi": null,
+    "journal": "Nature reviews. Urology",
+    "issn": "1759-4820",
+    "pub_date": "2026-10-23",
+    "authors": "Lindgaard Cecilie; Hvidt Astrid Korning; Keller Anna Krarup; Thingholm Louise; Kristensen Sara Schou et al.",
+    "abstract": "Renal cell carcinoma (RCC) is a heterogeneous malignancy with limited predictive biomarkers to guide treatment. Emerging evidence suggests that the microbiome might influence systemic immunity, therapeutic response and clinical outcomes. In metastatic RCC, the gut microbiome has been linked to the efficacy of immune checkpoint inhibitors, whereas the existence of a tumour microbiome remains a topic of debate. Circulating microbial DNA in blood has been proposed as a minimally invasive window into systemic immune status, offering a potential tool for monitoring treatment response, but its role in RCC is largely unexplored. Evidence from mechanistic studies, primarily from other solid cancer types, suggests that microbiome-immune crosstalk, microbial metabolites and functionally redundant pathways across taxa could modulate tumour biology. However, progress in RCC microbiome research remains limited by small cohorts, methodological variability and challenges in working with samples with a low microbial biomass, which are highly prone to contamination. Emerging spatial and multi-omics technologies now enable high-resolution mapping of these complex interactions, offering the potential to transform our understanding of the cancer microbiome. A structured roadmap is required to overcome technical and analytical challenges in RCC microbiome studies, enabling the identification of clinically relevant microbial signatures and their role in shaping tumour immunity.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述肾细胞癌微生物组与免疫及治疗反应证据，指出技术挑战并展望空间多组学路线图。",
+    "innovation": "提出循环微生物DNA可作为RCC微创监测治疗反应的潜在窗口 | 强调空间与多组学技术可高分辨率解析微生物-免疫互作 | 提出需建立结构化路线图以克服RCC微生物组研究挑战",
+    "limitation": "现有RCC微生物组研究受小队列、方法学差异及低微生物生物量样本易污染限制 | 循环微生物DNA在RCC中的作用及肿瘤微生物组的存在性仍待探索",
+    "study_object": "肾细胞癌患者；肠道、肿瘤及血液样本；微生物组与空间/多组学技术（综述）",
+    "disease": "肾细胞癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42920144",
+    "title": "Engineering adaptive polysaccharide biomaterials: integrated biotechnology framework for regenerative medicine.",
+    "doi": null,
+    "journal": "Journal of biological engineering",
+    "issn": "1754-1611",
+    "pub_date": "2026-10-23",
+    "authors": "Ali Sameh S; Khan Kashif; Hassan Hend Elkahlawy; Ali Asmaa; El Aziz Fatma Abd et al.",
+    "abstract": "Natural polysaccharides are versatile building blocks for regenerative biomaterials because of their structural diversity, generally favorable biocompatibility and biodegradability, chemical tunability, and capacity for biologically relevant interactions. Advances in biotechnology and materials engineering have expanded their role from primarily structural matrices to multifunctional platforms that can influence cellular, immune, and biochemical processes during tissue repair. This review presents an integrated biological engineering framework linking polysaccharide source and molecular architecture with extraction and purification, chemical functionalization, crosslinking, advanced fabrication, biological recognition, and translational performance. Particular emphasis is placed on structure-function relationships, stereospecific glycan-receptor interactions, immune-instructive biomaterials, protein-mediated cell-material interactions, microbiome-responsive systems, and emerging artificial intelligence-assisted approaches for biomaterial design. The importance of material purity is also critically considered, particularly the potential for residual endotoxin contamination to confound interpretation of immunomodulatory responses and compromise reproducibility. Representative applications in skin, musculoskeletal, cardiovascular, neural, and other regenerative systems illustrate how material composition, scaffold architecture, biofunctionalization, and manufacturing strategy collectively influence biological performance. Finally, challenges associated with scalable manufacturing, batch-to-batch reproducibility, sterilization, storage stability, quality control, regulatory translation, and clinical implementation are examined. By integrating molecular design, biological mechanisms, fabrication, and translational requirements, this review provides engineering principles for the development of adaptive polysaccharide biomaterials and identifies priorities for advancing reproducible and clinically translatable regenerative technologies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Adaptive polysaccharide biomaterials",
+      "Biofabrication",
+      "Biological engineering",
+      "Regenerative medicine",
+      "Tissue engineering",
+      "Translational biomaterials"
+    ],
+    "summary_zh": "综述提出连接多糖来源结构、提取纯化、功能化、交联、制备与转化性能的整合框架，并讨论再生医学应用与挑战。",
+    "innovation": "提出连接多糖来源与分子结构、提取纯化、化学功能化、交联、先进制备、生物识别和转化性能的整合生物工程框架 | 重点关注糖-受体相互作用、免疫指导性材料、蛋白质介导细胞-材料相互作用、微生物组响应系统及人工智能辅助设计 | 批判性考虑内毒素残留对免疫调节反应解读和可重复性的影响",
+    "limitation": "作为综述，未提供原始实验数据 | 摘要指出规模化制造、批间重现性、灭菌、储存稳定性、质量控制和监管转化等挑战",
+    "study_object": "再生医学组织（皮肤、肌肉骨骼、心血管、神经等）/多糖生物材料/综述与生物材料工程框架",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42912803",
+    "title": "Gut virome remodeling after fecal microbiota transplantation is associated with virus-bacteria co-variation and metabolic response in obesity and type 2 diabetes.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-10-23",
+    "authors": "Jiang Hui; Peng Ye; Lam Brian; Yang Keli; Lin Yu et al.",
+    "abstract": "Fecal microbiota transplantation (FMT) modifies gut bacterial composition and improves metabolic outcomes in subjects with obesity and type 2 diabetes (ObT2), but bacterial changes alone do not fully explain the heterogeneity in clinical response. We performed virus-like particle (VLP)-enriched metagenomic sequencing coupled with bulk-DNA metagenomic sequencing on longitudinal fecal samples from a randomized controlled FMT trial in ObT2. Using random forest classification, post-FMT virome changes showed accuracy comparable to bacteriome changes (84.8% vs 81.4%) in distinguishing LDL responders from non-responders. Donor-derived viral contig engraftment was detected in 64.7% (11/17) of recipients receiving FMT alone and 58.8% (10/17) receiving FMT with lifestyle intervention (LSI), versus 5.6% (1/18) in the sham with LSI group. FMT was associated with increased virome diversity, compositional shifts toward the donor virome, and coordinated virus-bacteria associations, with most responsive viral contigs classified as Caudoviricetes. FMT-responsive viral contigs that were shared between the two FMT groups were predicted to infect Roseburia and Bifidobacterium, while contigs associated with clinical responses were predicted to infect Escherichia, Roseburia, Blautia, and Enterococcus. These findings suggest that the gut virome is a complementary ecological component associated with FMT responses and metabolic outcomes in ObT2.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Diabetes Mellitus, Type 2",
+      "Fecal Microbiota Transplantation",
+      "Obesity",
+      "Virome",
+      "Feces",
+      "Bacteria",
+      "Gastrointestinal Microbiome",
+      "Viruses"
+    ],
+    "keywords": [
+      "Gut virome",
+      "fecal microbiota transplantation",
+      "metabolic response",
+      "obesity",
+      "type 2 diabetes mellitus",
+      "viral engraftment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42919965",
+    "title": "The human microbiome and chronic disease: ten strategic priorities for research and public health.",
+    "doi": null,
+    "journal": "Nature medicine",
+    "issn": "1546-170X",
+    "pub_date": "2026-10-23",
+    "authors": "Blaser Martin J; Bushman Frederic D; Dominguez-Bello Maria Gloria; Elinav Eran; Khare Sangeeta et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "本文围绕人类微生物组与慢性病，提出研究与公共卫生领域的十项战略优先事项。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "慢性病（仅标题提及）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42920146",
+    "title": "Amino acid availability influences Staphylococcus aureus interaction with the nasal microbiota in a strain- and community-specific manner.",
+    "doi": null,
+    "journal": "Microbiome",
+    "issn": "2049-2618",
+    "pub_date": "2026-10-23",
+    "authors": "Camus Laura; Franz Jessica; Gerlach David; Lange Anna; Power Jeffrey John et al.",
+    "abstract": "BACKGROUND: Only some individuals carry Staphylococcus aureus in the nose, predisposing them to endogenous infections. While microbial cooperation and competition are known to shape environmental and intestinal microbial communities, their impact on pathogen colonization within the nasal microbiome is largely unknown.\nRESULTS: Using a newly curated nasal strain collection and systematic pairwise interaction analysis, we investigated competitive and collaborative traits between diverse S. aureus strains and nasal communities. Our experiments revealed that nasal species strongly modulate S. aureus growth in a strain- and community-specific manner both in vitro and in gnotobiotic mice. Nutrient-dependent interactions emerged as key drivers. In one example, we found that tyrosine provided by synthetic communities supported proliferation of an auxotrophic S. aureus strain. Screening of a large collection of S. aureus strains identified tyrosine dependency in 8% of strains, with colonization impaired in the absence of supportive communities, indicating broader relevance of this interaction.\nCONCLUSIONS: Our findings reveal distinct metabolic adaptations that enable S. aureus to exploit specific features of resident nasal communities, highlighting complex interspecies networks that influence colonization in the human nose. These insights may inform microbiome-editing strategies to displace S. aureus from the nasal niche. Video Abstract.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Staphylococcus aureus",
+      "Animals",
+      "Mice",
+      "Humans",
+      "Microbiota",
+      "Nose",
+      "Amino Acids",
+      "Staphylococcal Infections",
+      "Microbial Interactions",
+      "Germ-Free Life",
+      "Tyrosine",
+      "Female"
+    ],
+    "keywords": [
+      "Staphylococcus aureus",
+      "Amino acid auxotrophy",
+      "Bacterial interactions",
+      "Commensal microbiota",
+      "Gnotobiotic mice",
+      "Nasal colonization",
+      "Synthetic communities",
+      "Tyrosine metabolism"
+    ],
+    "summary_zh": "研究氨基酸可利用性如何影响金黄色葡萄球菌与鼻腔菌群的互作，通过体外配对实验与无菌小鼠证实营养依赖的菌株及群落特异性定植机制。",
+    "innovation": "新建鼻腔菌株库并系统开展配对互作分析 | 发现酪氨酸可由合成菌群提供并支持营养缺陷型金黄色葡萄球菌增殖 | 在体外与无菌小鼠中同时验证菌株与群落特异性的营养依赖互作",
+    "limitation": "未描述",
+    "study_object": "人类鼻腔+金黄色葡萄球菌与鼻腔菌群+体外共培养及无菌小鼠定植实验",
+    "disease": "金黄色葡萄球菌鼻腔携带（易感内源性感染）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42918359",
+    "title": "From ecosystem engineering to living computers: integrating dual-paradigm bacterial therapeutics for solid tumor microenvironment reprogramming.",
+    "doi": null,
+    "journal": "International journal of pharmaceutics",
+    "issn": "1873-3476",
+    "pub_date": "2026-10-23",
+    "authors": "Elmetwalli Alaa; Algehainy Naseh A; Altemani Faisal H; Alanazi Mohammad A; Altemani Abdullah H",
+    "abstract": "Recent advances in tumor microbiome biology and synthetic biology have made bacteria attractive therapeutic agents capable of reprogramming tumor-associated microbial ecosystems and serving as programmable living systems in solid tumors. In this review, we construct a dual-paradigm framework combining engineered bacterial therapeutics and ecosystem editing. In the first paradigm, phage-mediated targeting, competitive displacement, and metabolic reprogramming are used to alter tumor-associated microbial communities. In the second paradigm, engineered bacteria are equipped with environmental sensors, genetic logic circuits, and therapeutic payloads. We discuss the mechanistic interplay of these strategies in terms of ecological niche formation, bacterial colonization, immune and metabolic remodeling, and microbiome-host feedback. Clinical experience still varies across platforms due to differences in bacterial strain, attenuation, route of administration, tumor biology, treatment context, and patient characteristics. Major translational challenges include biocontainment, genetic stability, manufacturing and potency control, predictive biomarker validation, and product-specific regulatory requirements. We propose an additional hypothesis-generating framework for patient stratification and adaptive treatment monitoring. These concepts together provide a structured framework for exploring bacterial therapeutics as components of precision oncology, while highlighting the need for prospective clinical validation.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Cancer resistance",
+      "Clinical translation",
+      "Oncomicrobiome",
+      "Precision oncology",
+      "Tumor microbiome"
+    ],
+    "summary_zh": "本文构建工程菌治疗与生态编辑双范式框架，探讨其重塑实体瘤微环境机制，并提出分层监测思路，尚需前瞻性临床验证。",
+    "innovation": "构建工程菌治疗与生态系统编辑相结合的双范式框架 | 提出用于患者分层和适应性治疗监测的假设生成框架",
+    "limitation": "尚需前瞻性临床验证；临床经验因菌株、减毒、给药途径、肿瘤生物学、治疗背景和患者特征差异而不一致 | 转化挑战包括生物防护、遗传稳定性、生产与效力控制、预测性生物标志物验证及产品特异性监管要求",
+    "study_object": "实体瘤患者与肿瘤微环境；工程菌/噬菌体等细菌疗法；综述",
+    "disease": "实体瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  },
+  {
+    "pmid": "42912418",
+    "title": "A stratified human colon model reveals SCFA cross-feeding-driven host-microbe dynamics associated with epithelial and immune responses.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-10-23",
+    "authors": "Kim Taewon; Park Joon-Young; Kim Minae; Kim Na Young; Jang Seol-A et al.",
+    "abstract": "Host-microbe interactions are essential for maintaining intestinal homeostasis, yet most in vitro models lack physiological oxygen gradients, mucosal architecture, and reproducibility. We developed the Mucosal Mimetic 3D-Host Aerobic Microbiota Anaerobic Co-culture (Mm 3D-HaeMan) system, a colon-mimetic, oxygen-stratified platform enabling stable co-culture of colonic epithelial cells, human peripheral blood mononuclear cells (hPBMCs), and obligate anaerobes. Oxygen profiling confirmed a stable gradient consistent with human colonic stratification. Using a canonical short-chain fatty acid (SCFA) cross-feeding pair (Anaerostipes caccae and Bifidobacterium bifidum, AcBb consortium), we performed integrated, multilayered analyzes of the host-microbe interface. Co-culture with the SCFA-producing AcBb consortium was associated with enhanced epithelial-mitochondrial respiration, maintenance of transepithelial resistance, tight junction protein expression without barrier disruption, and rebalanced cytokine profiles. Host transcriptomics identified 41 differentially expressed genes (15 upregulated, 26 downregulated) associated with homeostatic-relevant epithelial responses. Simultaneously, bacterial metatranscriptomics revealed 29 differentially expressed gene families; notably, glaK was enriched in bacteria-only cultures; SORD, nuoG, and nuoE were specifically induced during co-culture, indicating host-associated bacterial transcriptional changes. The compartmentalized design permits independent sampling for layer-resolved multi-omics and functional readouts. These findings establish Mm 3D-HaeMan as a physiologically grounded platform for dissecting bidirectional host-microbe responses and immune-associated interactions. This model offers broad applicability for mechanistic research and translational screening of probiotics and microbiome-based therapeutics.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Colon",
+      "Fatty Acids, Volatile",
+      "Host Microbial Interactions",
+      "Coculture Techniques",
+      "Epithelial Cells",
+      "Intestinal Mucosa",
+      "Leukocytes, Mononuclear",
+      "Gastrointestinal Microbiome",
+      "Bifidobacterium bifidum",
+      "Intestinal Barrier Function"
+    ],
+    "keywords": [
+      "Anaerostipes caccae",
+      "Bifidobacterium bifidum",
+      "Colon-epithelial barrier function",
+      "Host–microbe interactions",
+      "SCFA cross-feeding",
+      "mitochondrial bioenergetics",
+      "three-dimensional co-culture model"
+    ],
+    "summary_zh": "开发氧分层结肠模拟共培养平台，整合多组学揭示SCFA交叉喂养驱动宿主-微生物动态。",
+    "innovation": "建立氧分层、结肠模拟的Mm 3D-HaeMan平台，可稳定共培养结肠上皮细胞、hPBMCs与专性厌氧菌 | 采用分区设计支持分层多组学与功能读出的独立采样 | 整合宿主转录组与细菌宏转录组解析共培养下双向宿主-微生物响应",
+    "limitation": "未描述",
+    "study_object": "人类结肠/体外氧分层三维共培养模型（结肠上皮细胞、hPBMCs与专性厌氧菌）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-23"
+  }
+]
