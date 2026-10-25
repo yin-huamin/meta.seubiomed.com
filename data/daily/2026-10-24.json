@@ -1,0 +1,87 @@
+[
+  {
+    "pmid": "42926212",
+    "title": "The intestinal microbiome in inflammatory bowel disease and spondyloarthritides.",
+    "doi": null,
+    "journal": "Communications medicine",
+    "issn": "2730-664X",
+    "pub_date": "2026-10-24",
+    "authors": "Alizadeh Madeline; Siaton Bernadette C; Hudhud Dania; von Rosenvinge Erik C; Cross Raymond K et al.",
+    "abstract": "Extraintestinal manifestations (EIMs) of inflammatory bowel disease (IBD) can affect any organ system, ranging in presentation, frequency, and severity; the most common EIM is IBD-associated arthritis (IAA), an inflammatory arthritis affecting both axial and peripheral joints. IAA is a form of seronegative spondyloarthritis (SpA), which includes multiple arthritides, and those with IAA are also likelier to have other clinical features observed in those with SpA without IBD, such as increased rates of uveitis, psoriasis, and HLA-B27 positivity. These overlapping features are not limited to clinical disease features; the microbiome has been heavily implicated in the development of both IBD and SpA and is associated with non-SpA EIMs. In this review, we offer an overview of several bacterial taxa and associated metabolites that have been identified as differentially abundant in both IBD and SpA, both in stool and mucosal assessment, and how these taxa are associated with differences in intestinal permeability and immune profiles. We also describe how the overlapping dysbiotic microbiome and associated metabolome in IBD, EIMs of IBD, and SpA may differentially modulate the immune system, thus contributing to the shared underlying etiopathogenesis of these diseases. Further work is needed to characterize causal, mechanistic relationships beyond pure computationally identified associations, and apply these findings towards targeted therapeutic intervention and personalized medicine in IBD.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述IBD与SpA肠道微生物组及代谢物差异，探讨其免疫调节与共同发病机制。",
+    "innovation": "总结粪便和黏膜中IBD与SpA共有的差异菌群及代谢物 | 提出重叠菌群失调与代谢组可能差异调节免疫并促成共同发病机制",
+    "limitation": "现有证据多为计算识别的关联，因果机制关系尚待明确 | 向靶向治疗和个性化医疗转化仍需进一步研究",
+    "study_object": "炎症性肠病及脊柱关节炎患者；粪便与黏膜样本；微生物组和代谢组（综述）",
+    "disease": "炎症性肠病、脊柱关节炎（含IBD相关关节炎）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-24"
+  },
+  {
+    "pmid": "42926093",
+    "title": "Source Apportionment and Resistome Signatures of Community and Hospital Effluents in Urban Sewer Networks.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-24",
+    "authors": "Li Xin; Liu Haodong; Wu Jianfeng; Xi Chuanwu",
+    "abstract": "Antibiotic resistance surveillance has traditionally focused on clinical settings, potentially overlooking broader microbial reservoirs in the community. Wastewater-based epidemiology (WBE) provides a powerful tool for capturing these population-level signals. This study aimed to identify source-specific resistome characteristics and estimate the relative compositional contributions of hospital and residential wastewater to the downstream wastewater treatment plant (WWTP). By integrating droplet digital polymerase chain reaction (ddPCR) with metagenomic sequencing, spatiotemporal dynamics across an urban sewer network were characterized. Bacterial 16S rRNA gene concentrations did not differ significantly between hospital and residential wastewater. Under the specified flow scenarios, hospital wastewater represented a small fraction of the estimated total influent volume. Bayesian source tracking further indicated that residential sources collectively accounted for nearly 80% of the inferred source contribution to the influent antibiotic resistance genes (ARGs) profile and 70.9% of the influent microbial community composition, whereas hospital wastewater accounted for only 5.5% of the inferred resistome contribution. These findings show that hospital wastewater contained clinically important resistance genes (e.g., blaKPC-2), whereas the sampled residential references accounted for the largest combined inferred contribution to the influent microbiome and resistome. Together, these results highlight the importance of incorporating community surveillance through wastewater-based approaches within the One Health framework.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "SourceTracker2",
+      "Wastewater-based epidemiology",
+      "antibiotic resistance",
+      "hospital wastewater",
+      "residential wastewater"
+    ],
+    "summary_zh": "研究结合ddPCR、宏基因组测序和贝叶斯溯源解析城市污水耐药组来源，发现住宅源对下游进水ARGs和微生物组贡献最大。",
+    "innovation": "整合ddPCR、宏基因组测序与贝叶斯溯源解析城市下水道网络中医院和住宅污水对下游耐药组的来源贡献 | 揭示医院污水含临床重要耐药基因blaKPC-2，但住宅源对进水微生物组和耐药组贡献最大",
+    "limitation": "来源贡献估算基于特定流量情景，外推至其他情景需谨慎",
+    "study_object": "城市下水道网络/污水处理厂进水 + 医院与住宅污水样本 + ddPCR与宏基因组测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-24"
+  },
+  {
+    "pmid": "42926092",
+    "title": "Time-resolved profiling reveals nonlinear dose-time trajectories of gut microbiota in PM2.5 and PFOS exposure models.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-10-24",
+    "authors": "Ruan Cheng; He Yuhang; Ran Na; Wang Zhenglu",
+    "abstract": "The gut microbiota is a dynamic ecological system, yet environmental microbiome studies often provide only limited temporal resolution. We characterized gut microbial responses across multiple exposure levels and sampling stages in two independent but complementary mouse models of PM2.5 inhalation and perfluorooctane sulfonate (PFOS) drinking-water exposure. Time-resolved 16S rRNA gene sequencing, ecological analyses, PICRUSt2-based functional inference, and generalized additive models (GAMs) were integrated to examine temporal succession and nonlinear dose-time relationships. Under unexposed conditions, temporal microbial succession was evident in both models, highlighting the importance of accounting for background community dynamics. Within the PM2.5 model, community restructuring was most apparent during early-to-intermediate exposure stages, with prominent nonlinear trajectories in Lactobacillus, Prevotella, and the Firmicutes/Bacteroidetes ratio. In the PFOS model, microbial restructuring extended across a longer observation period and involved taxa including Akkermansia, Allobaculum, and UBA7173. PICRUSt2 suggested temporal and dose-associated variation in predicted pathways related to nitrogen metabolism, carbohydrate utilization, and fermentation, although these functions were not directly measured. GAMs identified stage-specific nonlinear response windows in both models. These findings highlight the importance of jointly considering dose and time in environmental microbiome studies and demonstrate the value of time-resolved modeling for detecting microbial response patterns that may be missed by endpoint analyses.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "PFOS",
+      "PM(2.5)",
+      "generalized additive model",
+      "gut microbiota",
+      "temporal dynamics"
+    ],
+    "summary_zh": "研究PM2.5和PFOS暴露下小鼠肠道菌群时间动态，用16S测序和GAM揭示非线性剂量-时间响应轨迹。",
+    "innovation": "在PM2.5与PFOS两种小鼠模型中开展多暴露水平、多采样阶段的时间分辨菌群分析 | 整合GAM识别阶段特异性非线性剂量-时间响应窗口 | 强调剂量与时间联合分析可发现终点分析可能遗漏的响应模式",
+    "limitation": "功能通路基于PICRUSt2预测，未直接测量",
+    "study_object": "小鼠/PM2.5吸入与PFOS饮水暴露模型 + 肠道菌群 + 时间分辨16S rRNA基因测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-24"
+  }
+]
