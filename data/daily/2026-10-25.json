@@ -1,0 +1,35 @@
+[
+  {
+    "pmid": "42927796",
+    "title": "Persistent microbial-derived material accumulates after brain injury and associates with chronic neuroinflammation.",
+    "doi": null,
+    "journal": "Brain, behavior, and immunity",
+    "issn": "1090-2139",
+    "pub_date": "2026-10-25",
+    "authors": "Yang Hongmei; Shyong Olivia; Wu Limin; Marcet Evan; Dillon Brianne et al.",
+    "abstract": "OBJECTIVE: Traumatic brain injury (TBI) is associated with chronic neurodegenerative sequelae, including chronic traumatic encephalopathy (CTE), but mechanisms sustaining long-term neuroinflammation in the injured brain remain unclear. Persistent, poorly cleared biological material has been proposed as a driver of chronic inflammation. This study tested whether microbial-derived material is present in CTE and experimental brain injury, and whether reducing such material is associated with improved outcomes.\nMETHODS: Post-mortem brain tissue from individuals with CTE and controls was analyzed for the microbial polysaccharide poly-N-acetyl-glucosamine (PNAG) and phosphorylated tau (pTau). Mice were subjected to single and repetitive closed head injury (CHI), with assessment of brain PNAG and tau accumulation, behavior, and neuropathology. Purified PNAG was administered intracerebrally to evaluate biological effects. Passive antibody treatment and active vaccination targeting PNAG were used to determine whether reducing brain PNAG altered outcomes after CHI.\nRESULTS: PNAG accumulated in human CTE brains in a disease stage-dependent manner and colocalized with pTau. In mice, PNAG rapidly accumulated across multiple brain regions after CHI and remained elevated at two weeks. Intracerebral administration of purified PNAG induced physiological and behavioral deficits that differed by sex, whereas a lower dose produced no detectable behavioral deficits. Passive anti-PNAG antibody treatment reduced brain PNAG with limited functional benefit, whereas active vaccination in adolescence and early adulthood reduced brain PNAG accumulation and IBA1 immunoreactivity, was associated with lower pTau accumulation, and improved long-term motor outcomes one year after repetitive CHI.\nCONCLUSIONS: Persistent microbial-derived material is detectable in human CTE and experimental TBI. Reduction of PNAG-associated microbial-derived material is associated with attenuation of chronic neuroinflammation, pathological tau accumulation, and improved long-term neurological outcomes, supporting a model in which persistent microbial-derived material may contribute to chronic post-traumatic neuroinflammation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Chronic traumatic encephalopathy",
+      "Microbiome-brain axis",
+      "Microglia",
+      "Neuroinflammation",
+      "Persistent microbial material",
+      "Poly-N-acetyl-glucosamine (PNAG)",
+      "Tau phosphorylation",
+      "Traumatic brain injury"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-25"
+  }
+]
