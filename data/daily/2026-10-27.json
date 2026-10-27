@@ -1,0 +1,177 @@
+[
+  {
+    "pmid": "42937321",
+    "title": "Diagnosing pediatric skeletal system infections: you are as good as your lab.",
+    "doi": null,
+    "journal": "Journal of clinical microbiology",
+    "issn": "1098-660X",
+    "pub_date": "2026-10-27",
+    "authors": "Yagupsky Pablo",
+    "abstract": "Pediatric skeletal system infections are medical emergencies that may cause severe acute complications and long-term orthopedic disabilities. Because the clinical presentation of septic arthritis and osteomyelitis may mimic non-infectious conditions, early identification of the causative agent and determination of its antibiotic susceptibility profile are cornerstones of patient management. The etiology of childhood skeletal system infections has changed over time, reflecting the implementation of conjugate vaccines against Haemophilus influenzae type b and Streptococcus pneumoniae, as well as the development of sensitive molecular detection tests. These novel laboratory methods, coupled with rapid pathogen identification by MALDI-TOF technology, have reduced the fraction of \"culture-negative\" infections and shortened the turnaround time for pathogen identification from days to hours. However, even today, a substantial fraction of bone and joint infections remains microbiologically unconfirmed. Metagenomic next-generation sequencing holds great promise, but its high cost, the need for technical expertise, and the detection of commensal organisms of dubious significance severely limit its routine use. On the other hand, metagenomic next-generation sequencing has not expanded the list of known pediatric skeletal system pathogens, suggesting that underutilization of current diagnostic methodologies, rather than reduced sensitivity, drives suboptimal diagnosis.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "antibitic susceptibility testing",
+      "children",
+      "cultures",
+      "diagnosis",
+      "metagenomic next-generation sequencing",
+      "nucleic acid amplification tests",
+      "osteomyelitis",
+      "septic arthritis",
+      "spondylodiscitis"
+    ],
+    "summary_zh": "综述儿童骨骼感染诊断方法，指出当前诊断技术利用不足而非灵敏度低导致诊断欠佳。",
+    "innovation": "未描述",
+    "limitation": "mNGS成本高、需专业技术且共生菌意义不明，限制其常规应用 | 部分骨关节感染仍无法获得微生物学确诊",
+    "study_object": "儿童 + 骨关节感染样本 + 实验室诊断技术（培养、分子检测、MALDI-TOF、mNGS）",
+    "disease": "儿童骨骼系统感染（化脓性关节炎、骨髓炎）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-27"
+  },
+  {
+    "pmid": "42900725",
+    "title": "Methanogenic archaea Methanobrevibacter smithii and Methanosphaera stadtmanae promote mucosal homeostasis and protect from colitis.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-10-27",
+    "authors": "Byrd Emily E; Harris Benjamin W; Zhang Hongpan; Warren W Elise; Kolli Sree H et al.",
+    "abstract": "The intestinal microbiota is a critical determinant of mucosal homeostasis, yet the functional contributions of Archaea-which constitute up to 10% of the anaerobic community-remain largely undefined. Here, we provide evidence that the human methanogens Methanobrevibacter smithii (MSm) and Methanosphaera stadtmanae (MSt) promote colonic health. Transcriptomic analysis of germ-free mice reveals that MSm and MSt induce distinct colonic programs important for epithelial integrity. Using gnotobiotic and antibiotic-treated specific-pathogen-free mouse models, we show that MSm and MSt reinforce the epithelial barrier, characterized by increased goblet cell expansion, mucus thickening, and enhanced epithelial regeneration. Furthermore, methanogens expand Foxp3+ regulatory T cell (Treg) populations without inducing pro-inflammatory TH17 responses. Notably, MSm and MSt protect against dextran sodium sulfate-induced colitis. While MSt-mediated protection requires adaptive immunity, MSm retains partial efficacy in lymphocyte-deficient mice, revealing nonredundant protective mechanisms. These findings indicate that methanogenic archaea promote mucosal integrity during host association and suggest that methanogens may hold therapeutic potential for inflammatory bowel disease, though translation to human disease remains to be established.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Methanobrevibacter",
+      "Colitis",
+      "Homeostasis",
+      "Mice",
+      "Intestinal Mucosa",
+      "Methanobacteriaceae",
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Mice, Inbred C57BL",
+      "Dextran Sulfate",
+      "Germ-Free Life",
+      "T-Lymphocytes, Regulatory",
+      "Male",
+      "Colon",
+      "Methane"
+    ],
+    "keywords": [
+      "archaea",
+      "colitis",
+      "methanogen",
+      "microbiome",
+      "mucosa"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-27"
+  },
+  {
+    "pmid": "42934169",
+    "title": "ArthroVerse: mapping protein family diversity across arthropod-associated microbiomes.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-10-27",
+    "authors": "Chasapi Iro N; Aplakidou Eleni; Chasapi Maria N; Lamari Efthimia; Galaras Alexandros et al.",
+    "abstract": "Metagenomic studies of arthropod-associated microbiomes have generated vast amounts of sequence data, yet the functional and structural organization of these proteins remains largely unexplored. Here, we present ArthroVerse, the first comprehensive database of protein families derived from arthropod-associated metagenomes. Non-redundant protein families were generated after rigorous filtering, deduplication, and clustering. The protein families were further annotated with microbial taxonomy, host associations, protein structural information, and carbohydrate-active enzymes predictions. The resulting dataset integrates both metagenomic and reference genome-derived proteins, enabling systematic exploration of functional diversity, evolutionary relationships, and host-microbe interactions in insect microbiomes. ArthroVerse provides a valuable resource for the study of microbial ecology and arthropod physiology, offering unprecedented insight into the protein landscape of insect-associated microbial communities. ArthroVerse is publicly accessible at https://envofams.org/arthroverse/.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "构建首个节肢动物相关微生物组蛋白家族数据库ArthroVerse，整合并注释宏基因组与参考基因组蛋白，解析昆虫微生物组蛋白多样性。",
+    "innovation": "首个节肢动物相关微生物组蛋白家族综合数据库 | 整合宏基因组与参考基因组来源蛋白 | 注释微生物分类、宿主关联、蛋白结构和碳水化合物活性酶预测",
+    "limitation": "未描述",
+    "study_object": "节肢动物宿主相关微生物组 + 宏基因组及参考基因组蛋白序列 + 蛋白家族过滤、去冗余、聚类与注释",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-27"
+  },
+  {
+    "pmid": "42896052",
+    "title": "Biotic response networks are an important organizer of the transcriptome in wild Arabidopsis thaliana populations.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-10-27",
+    "authors": "Leite Montalvão Ana Paula; Murray Kevin D; Bezrukov Ilja; Betz Natalie; Henry Lucas P et al.",
+    "abstract": "Extensive laboratory experimentation has revealed conserved molecular pathways controlling growth and stress responses in plants, yet how these programs operate in natural settings remains poorly understood. We have investigated the organization of the transcriptome in wild populations of Arabidopsis thaliana by sampling plants across 60 natural sites in Europe and North America over two seasons. Transcriptomes varied extensively among individuals and were only weakly structured by geography or season. No groups of plants stood out due to clear biotic or abiotic stress signatures known from the laboratory. While only a small portion of transcriptome variance was explained by disease symptoms or environmental and phenotypic variables, infection-associated signals accounted for the largest share of the explainable fraction. Biotic-response networks identified in controlled laboratory conditions were well conserved in wild transcriptomes, while other networks, including abiotic-response networks were substantially reorganized in wild plants. Together, these results indicate that while certain transcriptional modules are easily reidentified when moving from the wild to controlled conditions, many regulatory relationships differ in these two contexts, highlighting how ecological complexity shapes transcriptome organization in natural populations.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Arabidopsis",
+      "Transcriptome",
+      "Gene Expression Regulation, Plant",
+      "Gene Regulatory Networks",
+      "Stress, Physiological",
+      "Europe",
+      "Gene Expression Profiling",
+      "North America"
+    ],
+    "keywords": [
+      "coexpression networks",
+      "ecological genomics",
+      "ecological transcriptomics",
+      "host–microbiome interactions",
+      "molecular ecology"
+    ],
+    "summary_zh": "对欧美60个自然样点两季野生拟南芥取样，分析转录组组织，发现生物响应网络保守而其他网络重排。",
+    "innovation": "在60个自然样点两季采样野生拟南芥，研究自然种群转录组组织 | 发现实验室鉴定的生物响应网络在野生转录组中高度保守 | 发现包括非生物响应网络在内的其他网络在野生植物中显著重排",
+    "limitation": "仅小部分转录组变异可由环境、表型和疾病症状解释",
+    "study_object": "野生拟南芥自然种群 + 植株样本 + 转录组分析",
+    "disease": "疾病症状（未指明具体疾病）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-27"
+  },
+  {
+    "pmid": "42934476",
+    "title": "Aerobic exercise training alters gastrointestinal microbiota and enhances exercise capacity in UM-HET3 mice.",
+    "doi": null,
+    "journal": "GeroScience",
+    "issn": "2509-2723",
+    "pub_date": "2026-10-27",
+    "authors": "Smith Casandra; Garza Kiara; Azari Hushyar; Vellers Heather; Abdelrahman Mostafa et al.",
+    "abstract": "Aerobic exercise attenuates age-related physiological decline, potentially through favorable modulation of gut microbiota diversity. The purpose of this study was to characterize aerobic exercise training (ET)-induced alterations in the gut microbiome of aging, genetically heterogeneous UM-HET3 mice and examine associations between microbial shifts and changes in body composition (body weight, lean mass, and fat mass) and exercise capacity (total work, distance, and duration). Male UM-HET3 mice were assigned to sedentary (SED; n = 16) or ET (n = 17) groups. ET mice trained 5 days per week for 4 weeks at 65% of maximal work output. Body composition and exercise capacity were assessed before and after the intervention. Post-intervention fecal samples were analyzed by 16S rRNA gene sequencing (SED, n = 13; ET, n = 13). ASVs were taxonomically classified using QIIME2 with the SILVA 138.1 reference database. Alpha and beta diversity analyses were conducted in R, and Spearman's correlations assessed relationships between phylum-level abundances and physiological outcomes. ET mice exhibited greater alpha diversity, with a higher median richness (219.5), although differences were not statistically significant. Principal coordinate analysis of beta diversity demonstrated significant separation between groups (P = 0.01), indicating distinct microbial community composition. At the phylum level, ET was associated with modest shifts in gut microbial composition, characterized by higher relative abundances of Firmicutes and Verrucomicrobiota and lower abundances of Bacteroidota and Desulfobacterota compared to SED mice. Collectively, these findings indicate that aerobic exercise training induces distinct shifts in gut microbiota composition in middle-aged UM-HET3 mice despite underlying genetic heterogeneity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Aerobic exercise training",
+      "Aging",
+      "Body composition",
+      "Gut microbiome",
+      "UM-HET3 mice"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-10-27"
+  }
+]
