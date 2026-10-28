@@ -1,0 +1,120 @@
+[
+  {
+    "pmid": "42949048",
+    "title": "Tumor-Immune Microenvironment of Early-Onset Colorectal Cancer: Implications for Immune-Based Prevention and Therapy.",
+    "doi": null,
+    "journal": "Cancer immunology research",
+    "issn": "2326-6074",
+    "pub_date": "2026-10-28",
+    "authors": "Perea José; González-Sanmartín María; Coiras Mayte; Ogino Shuji",
+    "abstract": "Early-onset colorectal cancer (EOCRC), typically defined as colorectal cancer diagnosed before 50 years of age, is increasing in incidence worldwide and exhibits distinctive clinical, molecular, and environmental features compared with later-onset (LOCRC) disease. However, the tumor-immune microenvironment (TiME) of EOCRC and its implications for prevention and therapy remain poorly characterized. In this review, we synthesize current evidence on the TiME of EOCRC and contrast it with that of conventional LOCRC. We first discuss global features of the EOCRC immune landscape, including innate and adaptive immune composition, functional states, and spatial organization, highlighting areas where apparent age-related differences reflect true biology versus confounding by tumor site, stage, or mismatch repair (MMR) status. We then examine immunogenomic and epigenomic determinants-such as MMR deficiency distribution, microbial mutational signatures, chromosomal instability, and age-conditioned methylation programs-that shape neoantigen landscapes, antigen presentation, and immune evasion in younger patients. Next, we review microbiome-driven immunomodulation, focusing on dysbiosis, genotoxic bacteria, and early-life and young-adult exposures as joint modifiers of mucosal immunity and tumor development. Finally, we explore how these insights inform immune-based prevention (risk stratification, screening, diet and microbiome interventions, and chemoprevention) and immunotherapy strategies, including checkpoint blockade and rational combinations in the predominant microsatellite-stable EOCRC population.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "本综述整合早发性结直肠癌肿瘤免疫微环境证据，与传统晚发性结直肠癌对比，并探讨其免疫预防和治疗启示。",
+    "innovation": "系统整合早发性结直肠癌肿瘤免疫微环境证据并与晚发性结直肠癌对比 | 辨析年龄相关免疫差异与肿瘤部位、分期、错配修复状态的混杂 | 将微生物组驱动的免疫调节与免疫预防及治疗策略相关联",
+    "limitation": "早发性结直肠癌的肿瘤免疫微环境仍缺乏充分表征 | 本文为综述，未提供原始研究数据",
+    "study_object": "早发性结直肠癌患者 + 肿瘤免疫微环境 + 文献综述",
+    "disease": "早发性结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-28"
+  },
+  {
+    "pmid": "42949268",
+    "title": "Nutrient control enables metabolic reconstruction of Lacticaseibacillus rhamnosus GG and analysis of secretions.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-10-28",
+    "authors": "Richmond Gracelyn R; Cunha Emanuel; Kelly Libusha; Dias Óscar; Chang Roger L",
+    "abstract": "UNLABELLED: Lacticaseibacillus rhamnosus GG (LGG) is an important gut commensal bacterial strain that has been extensively studied in both industrial and health settings. Despite its long history of study, a high-quality genome-scale metabolic network model (GEM) for LGG has yet to be reconstructed. Only automatically generated draft models have been published, which have notoriously limited functional accuracy. Furthermore, comprehensive nutrient requirements have not been established for well-controlled in vitro studies. Here, we present the first curated GEM for LGG using a new approach for reconstruction and validation that leverages multiple automatically generated draft models, applied study literature, and high-throughput defined media experiments. In addition, our results include a series of chemically defined media, extensive single-component nutrient dropout growth data, insights from in silico and in vitro experiments into secretion products, lactate, and indole-3-carboxaldehyde, a minimal medium, and in silico characterization of LGG's nutrient requirements. Our approach for developing interdisciplinary research tools for LGG metabolism comprises a new framework that could be applied to many understudied microorganisms, particularly useful in studying bacteria within the human microbiome.\nIMPORTANCE: This study provides an important foundation for understanding how the beneficial gut bacterium Lacticaseibacillus rhamnosus GG (LGG) grows and interacts with its environment. Although LGG is one of the most widely studied probiotic bacteria, used in both health and industrial applications, a reliable tool for simulating its metabolic behavior and a clear understanding of its nutritional needs is lacking. By developing the first manually curated metabolic model of LGG and validating it through extensive laboratory experiments, this study provides new understanding of LGG's requirements and capabilities for utilizing nutrients and resources to investigate its metabolism. Completely chemically defined growth media and associated single-component dropout growth effects are also presented, and pathways for production of important compounds influencing human health are explored. The methods developed in this work also provide a framework for studying other poorly characterized microbes, helping advance research on the human microbiome and its role in health and disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Lacticaseibacillus rhamnosus",
+      "defined media",
+      "genome-scale metabolic model",
+      "indole-3-carboxaldehyde",
+      "lactate fermentation",
+      "lactic acid bacteria",
+      "metabolism",
+      "network reconstruction",
+      "nutritional requirements"
+    ],
+    "summary_zh": "构建首个LGG人工校正基因组尺度代谢模型，结合定义培养基与高通量营养缺失实验验证，并分析分泌物。",
+    "innovation": "首次为LGG构建人工校正的基因组尺度代谢模型 | 提出整合多草图模型、文献和高通量定义培养基实验的重建验证新框架 | 提供系列化学限定培养基、单组分营养缺失数据及分泌产物分析",
+    "limitation": "未描述",
+    "study_object": "肠道共生菌LGG + 化学限定培养基/体外培养 + 基因组尺度代谢模型与高通量营养缺失实验",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-28"
+  },
+  {
+    "pmid": "42949032",
+    "title": "Preventing Clostridioides difficile Infection and Recurrence: Practical Strategies for Clinical Practice.",
+    "doi": null,
+    "journal": "The American journal of gastroenterology",
+    "issn": "1572-0241",
+    "pub_date": "2026-10-28",
+    "authors": "Axelrad Jordan E; Allegretti Jessica R",
+    "abstract": "Clostridioides difficile infection (CDI) is a major cause of morbidity, mortality, and healthcare utilization worldwide. Although advances in antimicrobial stewardship and infection prevention have reduced healthcare-associated disease in some settings, the incidence of community-associated CDI and the persistent burden of recurrent CDI (rCDI) continue to pose substantial clinical challenges. Because recurrent disease is fundamentally driven by persistent disruption of the intestinal microbiome and loss of colonization resistance, prevention has emerged as the central strategy for reducing long-term disease burden. This review summarizes contemporary evidence supporting prevention of both incident and rCDI, emphasizing practical approaches for gastroenterologists. Primary prevention centers on minimizing modifiable risk factors through antimicrobial stewardship, infection prevention and control, diagnostic stewardship to distinguish colonization from infection, and strategies to preserve the intestinal microbiome. For patients with CDI, we review evidence supporting extended antibiotic regimens, oral vancomycin prophylaxis during subsequent systemic antibiotic exposure, and microbiome restoration therapies, including conventional fecal microbiota transplantation and US Food and Drug Administration-approved microbiota-based therapies, which have transformed secondary prevention by restoring microbial diversity and colonization resistance. Special consideration is given to populations at particularly high risk for recurrence, including older adults, immunocompromised individuals, transplant recipients, and patients with inflammatory bowel disease. Finally, we discuss emerging preventive strategies, including precision risk stratification, microbiome- and metabolome-based biomarkers, bile acid modulation, and approaches targeting asymptomatic colonization. Together, these advances signal a paradigm shift from treating CDI episodes to implementing personalized preventive strategies that interrupt the cycle of recurrent disease and improve long-term patient outcomes.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "综述总结CDI及复发性CDI的预防证据，强调抗菌药物管理、微生物组恢复和个体化预防策略。",
+    "innovation": "系统整合CDI初发与复发的实用预防策略 | 强调从治疗单次感染转向个体化预防以阻断复发循环 | 讨论精准风险分层、微生物组/代谢组标志物及靶向无症状定植等新兴策略",
+    "limitation": "未描述",
+    "study_object": "CDI及复发性CDI患者（含老年、免疫抑制、移植受者及炎症性肠病人群） + 未描述样本类型 + 临床综述",
+    "disease": "Clostridioides difficile感染（CDI）、复发性CDI、炎症性肠病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-28"
+  },
+  {
+    "pmid": "42946708",
+    "title": "Early-life bovine respiratory virome analysis reveals phage-driven adaptation and cross-host evolutionary signatures.",
+    "doi": null,
+    "journal": "Nature communications",
+    "issn": "2041-1723",
+    "pub_date": "2026-10-28",
+    "authors": "Wang Yue; Kim Hanbeen; Malmuthuge Nilusha; Zhou Mi; Chen Yanhong et al.",
+    "abstract": "Past outbreaks of zoonotic viral infections highlight the importance of understanding respiratory virome ecology. As major food-producing animals with frequent human contact, cattle represent a critical host at the human-animal interface; however, the early-life establishment of their respiratory virome and its evolutionary connections to viruses from other hosts remain underexplored. Here, we longitudinally profile the upper respiratory tract (URT) virome of beef calves from birth to weaning using an optimized viral enrichment procedure and metagenomic workflow. Viral communities exhibited increased richness and turnover, reflecting ecological structuring during early life. Temperate phages dominate the URT phage community and share virulence- and mobility-associated genes with bacterial hosts, likely contributing to host adaptation and colonization persistence. Vertebrate-associated viruses emerge after the first week of life. Targeted reassembly from bovine URT viromes recovers near-complete betacoronavirus-like (CoV-D180) and adenovirus-like (AdV-D56) genomes positioned phylogenetically between bovine and human viral lineages. Competitive mapping of bovine-derived CoV-D180 and AdV-D56 to human respiratory metatranscriptomic datasets reveals genome-specific, regionally structured coverage patterns distinct from reference viruses, supporting shared sequence features in conserved genomic regions across host-associated viral lineages. Collectively, these findings reveal early-life assembly dynamics of the bovine respiratory virome and highlight cross-host signatures in a One Health framework.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "Virome",
+      "Bacteriophages",
+      "Phylogeny",
+      "Humans",
+      "Genome, Viral",
+      "Respiratory System",
+      "Metagenomics",
+      "Respiratory Tract Infections",
+      "Evolution, Molecular"
+    ],
+    "keywords": [],
+    "summary_zh": "纵向分析犊牛上呼吸道病毒组，揭示早期装配动态及噬菌体驱动适应与跨宿主进化信号。",
+    "innovation": "优化病毒富集与宏基因组流程纵向刻画出生至断奶犊牛上呼吸道病毒组 | 发现温带噬菌体主导并携带毒力/移动相关基因，可能促进宿主适应 | 重组获得牛源CoV-D180和AdV-D56近完整基因组并揭示跨宿主保守序列特征",
+    "limitation": "未描述",
+    "study_object": "肉犊牛上呼吸道病毒组，病毒富集结合宏基因组测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-28"
+  }
+]
