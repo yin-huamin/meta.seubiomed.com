@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "42952395",
+    "title": "BacMap 3.0: a comprehensive knowledgebase of annotated bacterial genomes.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-10-29",
+    "authors": "Kruger Ray; Kyes Megane; Oler Eponine; Saha Sukanta; Han Scott et al.",
+    "abstract": "BacMap 3.0 (https://bacmap.ca) is a comprehensive, freely accessible resource integrating 23 524 bacterial and archaeal species, 32 866 genomes, >100 million genes, 1756 primary metabolic pathways, and 45 284 metabolites within one interactive platform. Despite the extraordinary growth of bacterial and archaeal genome sequencing, relevant data remain distributed across numerous specialized databases, impeding comprehensive genome-to-function analysis. While existing microbial resources generally emphasize genome annotation, taxonomy, metabolic pathways, or phenotypes separately, BacMap 3.0 unifies these complementary information layers within an organism-centred framework. It resolves this fragmentation by consolidating genomic, functional, structural, metabolic, phenotypic, ecological, and phylogenetic information into richly detailed, organism-specific \"BacCards\". Each BacCard combines an interactive genome map with extensive annotations covering bacterium-specific taxonomy, physiology, morphology, metabolism, protein structures, pathways, and metabolites. To facilitate data exploration, BacMap 3.0 supports taxonomic and phenotype-based browsing, chemical structure searches, interactive genome visualization, as well as gene, genome, 16S RNA, and protein BLAST searches. Building on earlier releases devoted primarily to genome visualization, BacMap 3.0 increases organismal coverage by >13-fold and transforms BacMap into an integrated bacterial knowledgebase for genome-to-function investigation across multiple biological scales. By bringing diverse biological information together in a single searchable environment, BacMap 3.0 offers a powerful platform for comparative genomics, microbiome research, infectious disease investigation, and biotechnology with a goal of accelerating the interpretation of microbial diversity, biology, and function.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "构建整合细菌与古菌基因组、代谢及表型信息的BacMap 3.0知识库，支持比较基因组与微生物组研究。",
+    "innovation": "在以生物体为中心的BacCard中统一基因组、功能、结构、代谢、表型、生态和系统发育信息 | 覆盖23524种、32866个基因组，较早期版本物种覆盖增加逾13倍 | 支持分类/表型浏览、化学结构检索、交互式基因组可视化和多种BLAST搜索",
+    "limitation": "未描述",
+    "study_object": "细菌和古菌 + 基因组及代谢/表型等注释数据 + 数据库整合与BLAST/可视化检索技术",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-10-29"
+  }
+]
