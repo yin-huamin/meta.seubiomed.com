@@ -51,12 +51,12 @@
   },
   {
     "year": "2025",
-    "count": 810,
+    "count": 811,
     "file": "data/2025.json"
   },
   {
     "year": "2026",
-    "count": 1110,
+    "count": 1158,
     "file": "data/2026.json"
   }
 ]
