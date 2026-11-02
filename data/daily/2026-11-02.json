@@ -1,0 +1,159 @@
+[
+  {
+    "pmid": "42240277",
+    "title": "Gut Pathobionts Translocate into the Liver and Reshape Intrahepatic Microbiome to Facilitate Hepatocellular Carcinoma.",
+    "doi": null,
+    "journal": "Cancer discovery",
+    "issn": "2159-8290",
+    "pub_date": "2026-11-02",
+    "authors": "Liu Weixin; Wang Xueliang; Zhang Ying; Liu Jinkai; Li Meiyi et al.",
+    "abstract": "UNLABELLED: The role of intrahepatic microbiome in hepatocellular carcinoma (HCC) remains elusive. In this study, we profiled matched gut and intrahepatic microbiomes from patients with HCC and healthy subjects. Compared with healthy subjects, we observed increased gut-liver microbiome similarity and a gut pathobiont-centered network in HCC, implying microbial transfer via the gut-liver axis. Consistently, HCC stool transplantation to germ-free mice impaired gut barrier function and increased bacterial load in the liver. Multisite analysis of intrahepatic microbiome and host transcriptome revealed that gut pathobionts in tumor regions positively correlate with host cytokine expression and oncogenic pathways. Administration of HCC-enriched Bacteroides fragilis disrupted gut barrier in mice and led to live bacteria translocation to the liver. B. fragilis exacerbated liver damage and promoted HCC development in mice. Mechanistically, B. fragilis surface protein enolase interacts with and activates vimentin on hepatocytes, triggering oncogenic cascades. Our findings provide insight into how gut pathobionts translocate to the liver to promote hepatocarcinogenesis.\nSIGNIFICANCE: Parallel characterization of stool and intrahepatic microbiomes from patients with HCC and healthy subjects revealed gut-liver microbial transfer. The gut pathobiont B. fragilis disrupts gut barrier and translocates as live bacteria to the liver. Its surface protein enolase binds hepatocyte vimentin to activate proinflammatory and oncogenic signaling, thereby promoting liver tumorigenesis. See related commentary by Chojnacka and Grivennikov, p. 2214.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Liver Neoplasms",
+      "Carcinoma, Hepatocellular",
+      "Humans",
+      "Animals",
+      "Gastrointestinal Microbiome",
+      "Mice",
+      "Bacteroides fragilis",
+      "Liver",
+      "Male"
+    ],
+    "keywords": [],
+    "summary_zh": "配对分析肝癌与健康者肠道和肝内微生物组及小鼠实验，揭示肠道致病菌易位肝脏并经enolase-vimentin促癌。",
+    "innovation": "发现HCC中肠道-肝脏微生物组相似性增加及以肠道致病共生菌为中心的微生物网络 | 证实HCC富集的脆弱拟杆菌可破坏肠屏障并以活菌易位至肝脏，加重肝损伤并促进HCC | 揭示脆弱拟杆菌表面蛋白enolase结合并激活肝细胞vimentin，触发促炎和致癌信号",
+    "limitation": "未描述",
+    "study_object": "HCC患者、健康受试者及小鼠 | 粪便/肠道与肝内微生物组、肝组织转录组 | 微生物组分析、转录组分析及动物实验",
+    "disease": "肝细胞癌（HCC）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-02"
+  },
+  {
+    "pmid": "42969400",
+    "title": "Obesity-associated transcriptomic remodelling in hidradenitis suppurativa and treatment response.",
+    "doi": null,
+    "journal": "Journal of the European Academy of Dermatology and Venereology : JEADV",
+    "issn": "1468-3083",
+    "pub_date": "2026-11-02",
+    "authors": "Kapur Sahil; Solone Xzaviar K; Mi Randy; Sidhu Kermanjot S; Gershater Meyer et al.",
+    "abstract": "Obesity is characterized by chronic low-grade inflammation and metabolic dysfunction. It is a major risk factor for hidradenitis suppurativa (HS), where it is associated with increased disease severity and metabolic comorbidity. Obesity promotes a pro-inflammatory, immunometabolic state marked by adipokine imbalance and alters the local skin environment through mechanical stress, occlusion and microbiome disruption. Mechanistic transcriptomic analyses further suggest that obesity induces tissue-specific changes in HS skin, including metabolic signalling in lesions and early barrier dysfunction in perilesional skin. In practice, obesity is associated with more severe and treatment-refractory disease but remains a modifiable risk factor. Weight loss, bariatric surgery and metabolism-directed therapies show potential to reduce disease burden, although controlled studies are limited. Overall, obesity acts as both a systemic and local modifier of HS, supporting its classification as an immunometabolic disorder.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "extracellular matrix remodelling",
+      "hidradenitis suppurativa",
+      "immune‐metabolic dysfunction",
+      "obesity",
+      "transcriptomic analysis"
+    ],
+    "summary_zh": "综述肥胖通过系统与局部免疫代谢机制影响化脓性汗腺炎皮肤转录组及治疗反应，减重等可能减轻疾病负担。",
+    "innovation": "提出肥胖在化脓性汗腺炎中兼具系统性和局部修饰作用 | 指出肥胖可诱导皮损代谢信号及皮周皮肤早期屏障功能障碍的组织特异性转录组改变",
+    "limitation": "对照研究有限",
+    "study_object": "人类化脓性汗腺炎患者皮肤（皮损及皮周皮肤）+ 转录组分析",
+    "disease": "化脓性汗腺炎；肥胖",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-02"
+  },
+  {
+    "pmid": "42968651",
+    "title": "Breaking Barriers: Gut Pathobionts Promote Hepatocellular Carcinoma.",
+    "doi": null,
+    "journal": "Cancer discovery",
+    "issn": "2159-8290",
+    "pub_date": "2026-11-02",
+    "authors": "Chojnacka Katarzyna; Grivennikov Sergei I",
+    "abstract": "Although studies of microbiota in hepatocellular carcinoma (HCC) and possible involvement of the gut-liver axis are of significant interest, the origin and functional role of the liver and intratumoral microbiota in HCC have remained unclear. Liu and colleagues show that gut pathobionts, in particular Bacteroides fragilis, translocate through the gut-liver axis, colonize and reshape the intrahepatic microbiome, and promote HCC through a distinct mechanism in which bacterial enolase binds hepatocyte vimentin, revealing potential therapeutic opportunities. See related article by Liu et al., p. 2392.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Carcinoma, Hepatocellular",
+      "Humans",
+      "Liver Neoplasms",
+      "Gastrointestinal Microbiome",
+      "Animals",
+      "Bacteroides fragilis"
+    ],
+    "keywords": [],
+    "summary_zh": "评述肠道致病共生菌经肠肝轴易位、重塑肝内菌群，并通过烯醇化酶-波形蛋白互作促进肝细胞癌。",
+    "innovation": "揭示脆弱拟杆菌等肠道致病共生菌经肠肝轴易位并定植肝脏、重塑肝内微生物组 | 提出细菌烯醇化酶结合肝细胞波形蛋白促进肝细胞癌的新机制 | 提示潜在治疗机会",
+    "limitation": "未描述",
+    "study_object": "肝细胞癌肝内及肿瘤内微生物组与肠道致病共生菌（技术类型未描述）",
+    "disease": "肝细胞癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-02"
+  },
+  {
+    "pmid": "42969360",
+    "title": "Faecalibacterium prausnitzii-associated 18β-glycyrrhetinic acid protects against sepsis via ABCC1-mediated suppression of MAPK/NF-κB signaling.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-02",
+    "authors": "Wang Hong; Jiang Aolin; He Yi; Ding Kaixin; Xu Yue et al.",
+    "abstract": "Gut microbiota dysbiosis is increasingly recognized as a modifiable determinant of sepsis susceptibility and outcomes, yet protective commensals and microbiota-associated metabolites with actionable host mechanisms remain incompletely defined. Here, fecal 16S rRNA sequencing of septic and non-septic patients revealed a marked depletion of Faecalibacterium prausnitzii during sepsis. Oral administration of F. prausnitzii improved survival and alleviated multiorgan injury in mice subjected to cecal ligation and puncture. Untargeted metabolomics and liquid chromatography-tandem mass spectrometry identified 18β-glycyrrhetinic acid (18β-GA) as a major metabolite enriched in F. prausnitzii culture supernatants, and exogenous 18β-GA recapitulated key protective effects in vivo. In lipopolysaccharide-stimulated macrophages, 18β-GA reduced pro-inflammatory mediator expression and suppressed mitogen-activated protein kinase (MAPK) and nuclear factor kappa B (NF-κB) activation. Proteomics-guided prioritization and complementary pharmacological and genetic validation implicated ATP-binding cassette subfamily C member 1 (ABCC1) as a mediator involved in the protective effects of 18β-GA. Genetic silencing of ABCC1 attenuated the anti-inflammatory effects of 18β-GA, while pharmacological inhibition of ABCC1 by probenecid (PBN) and MK-571 partially reproduced the protective effects of 18β-GA. Collectively, these findings identify a F. prausnitzii-18β-GA-associated ABCC1 regulatory axis that contributes to the control of septic inflammation and highlight microbiota-derived metabolites as potential modulators of host inflammatory responses.IMPORTANCESepsis is a life-threatening syndrome with limited effective therapies beyond supportive care. Gut microbiota disruption is increasingly recognized as an important contributor to sepsis, but the protective microbes, effector metabolites, and host pathways involved are not well understood. Here, we show that F. prausnitzii is markedly depleted in sepsis and that supplementation with this commensal improves outcomes in experimental sepsis. We further identify 18β-glycyrrhetinic acid as a microbiota-associated metabolite with anti-inflammatory and organ-protective activity and implicate ABCC1 as a functionally relevant host target. Our findings provide mechanistic insight into how protective commensals can influence sepsis progression and support microbiome-informed, host-directed therapeutic strategies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "18β-glycyrrhetinic acid",
+      "ATP-binding cassette subfamily C member 1",
+      "Faecalibacterium prausnitzii",
+      "inflammation",
+      "intestinal microbiota",
+      "sepsis"
+    ],
+    "summary_zh": "患者16S测序及小鼠模型显示脓毒症中F. prausnitzii耗竭；其代谢物18β-GA经ABCC1抑制MAPK/NF-κB发挥保护。",
+    "innovation": "发现脓毒症中F. prausnitzii显著耗竭，补充该菌可改善小鼠脓毒症结局 | 鉴定F. prausnitzii培养上清富集的18β-GA为关键保护性代谢物 | 揭示18β-GA经ABCC1抑制MAPK/NF-κB的宿主调控轴",
+    "limitation": "未描述",
+    "study_object": "脓毒症患者粪便及小鼠脓毒症模型（CLP）/巨噬细胞；16S rRNA测序、非靶向代谢组学、LC-MS/MS和蛋白质组学",
+    "disease": "脓毒症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-02"
+  },
+  {
+    "pmid": "42969355",
+    "title": "Accuracy of plasma cell-free DNA PCR versus mNGS for non-invasive diagnosis of invasive mold disease.",
+    "doi": null,
+    "journal": "Journal of clinical microbiology",
+    "issn": "1098-660X",
+    "pub_date": "2026-11-02",
+    "authors": "Pusz-Bochenska Karolina; Murugesan Kanagavel; Senchyna Fiona; Lalljie Annalyse; Budvytiene Indre et al.",
+    "abstract": "UNLABELLED: Cell-free DNA (cfDNA) detection in plasma is a novel testing modality for non-invasive diagnosis of invasive mold disease (IMD) in immunocompromised patients. The accuracy of PCR compared to metagenomic next-generation sequencing (mNGS) for diagnosis of IMD remains unknown. Plasma samples from patients with proven and probable IMD and no IMD were tested with mold PCR and shotgun mNGS. Mold PCR detected Aspergillus species, Mucorales agents, Fusarium species, Scedosporium species, and Lomentospora prolificans. The sensitivity and specificity of mold PCR and mNGS were measured. Ninety-four patients with proven (48) and probable (48) IMD due to Aspergillus species (64), Mucorales agents (13), Scedosporium species and Lomentospora prolificans (13), and Fusarium species (6), and 62 patients with no IMD were included in this study. 99.4% (155) of the patients were immunosuppressed. The overall sensitivity and specificity were 62.5% (60/96; 95% CI 52.0-72.2) and 99.8% (535/536; 95% CI 99.0-100), respectively, for mold PCR and 43.8% (42/96; 95% CI 33.6-54.3; P < 0.001) and 99.6% (534/536; 95% CI 98.7-100; P = 1.0), respectively, for mNGS. The proportion of mold PCR-positive mNGS-negative results was 16.0% (4/25) in focal cases compared with 25.0% (11/44; P = 0.384) and 18.5% (5/27; P = 0.810) in multifocal and disseminated cases, respectively. The median PCR cycle threshold was 40.6 (IQR, 37.5-41.5) in PCR-positive mNGS-negative cases compared with 37.3 (IQR, 34.5-39.3; P = 0.004) in PCR-positive mNGS-positive cases. Plasma cfDNA PCR is more sensitive than mNGS for the diagnosis of IMD in immunocompromised patients. Lower sensitivity of mNGS was associated with lower mold cfDNA burden.\nIMPORTANCE: Invasive mold disease (IMD) is a major cause of morbidity and mortality in immunocompromised patients. Early diagnosis and initiation of tailored antifungal therapy are critical for optimizing outcomes in patients with IMD. Detection of circulating fungal cell-free DNA (cfDNA) in the acellular fraction of blood is a novel testing modality that is increasingly used for early and non-invasive diagnosis of IMD. This study represents the first head-to-head accuracy study to compare the sensitivity and specificity of PCR with mNGS for the diagnosis of IMD. The study showed that the overall mold PCR was significantly more sensitive compared with mNGS, while both assays demonstrated very high specificity. Similar trends were observed in a smaller subgroup of patients with invasive aspergillosis, mucormycosis, and scedosporiosis. The findings have implications for assay selection when seeking to non-invasively diagnose IMD in immunocompromised patients.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "immunocompromised hosts",
+      "invasive fungal disease",
+      "invasive mold disease",
+      "mNGS",
+      "mold PCR"
+    ],
+    "summary_zh": "比较血浆cfDNA PCR与mNGS对侵袭性霉菌病的诊断准确性，PCR敏感性更高且两者特异性均高。",
+    "innovation": "首个头对头比较PCR与mNGS诊断侵袭性霉菌病准确性的研究 | 发现PCR总体敏感性显著高于mNGS，而两者特异性均很高 | 发现mNGS敏感性较低与霉菌cfDNA载量较低相关",
+    "limitation": "未描述",
+    "study_object": "免疫抑制患者 + 血浆 + 霉菌cfDNA PCR与宏基因组二代测序（mNGS）",
+    "disease": "侵袭性霉菌病（IMD）；免疫抑制状态",
+    "sample_size": "94例侵袭性霉菌病患者和62例无IMD患者（共156例）",
+    "ai_done": true,
+    "fetch_date": "2026-11-02"
+  }
+]
