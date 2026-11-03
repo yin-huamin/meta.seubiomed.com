@@ -1,0 +1,228 @@
+[
+  {
+    "pmid": "42697520",
+    "title": "Microbiota-derived metabolite-GPCR signalling in neurodegeneration.",
+    "doi": null,
+    "journal": "Neuroscience",
+    "issn": "1873-7544",
+    "pub_date": "2026-11-03",
+    "authors": "Sharma Anshul; Jatana Nidhi",
+    "abstract": "The gut microbiome acts as a primary regulator of host homeostasis, influencing the entire body through bidirectional communication along the gut-brain axis (GBA). Dysbiosis, which is defined as a state of microbial imbalance involving alterations in community composition and function, can disrupt the synthesis of important microbiota-derived metabolites, such as short-chain fatty acids (SCFAs), bile acids and neurotransmitter precursors. This can lead to impaired essential host signalling pathways. There is growing evidence that metabolic alterations associated with dysbiosis contribute to the onset and progression of neurodegenerative disorders (NDDs), including Alzheimer's disease (AD), Parkinson's disease (PD), Huntington's disease (HD), multiple sclerosis (MS) and amyotrophic lateral sclerosis (ALS). In this context, G protein-coupled receptors (GPCRs) act as essential molecular transducers that link microbial metabolites to intracellular signalling networks. Aberrant GPCR activation, driven by altered metabolite profiles, modulates key downstream pathways including cAMP, MAPK, PI3K/Akt, NF-κB and Ca2 + signalling. This promotes neuroinflammation, oxidative stress, mitochondrial dysfunction and pathological protein aggregation - hallmark processes underlying neurodegeneration. By identifying convergent and disease-specific signalling pathways, the review highlights mechanistic nodes of therapeutic relevance and discusses GPCR-centric emerging and other microbiome-targeted strategies aimed at restoring metabolic and signalling homeostasis in neurodegenerative disorders.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Neurodegenerative Diseases",
+      "Receptors, G-Protein-Coupled",
+      "Animals",
+      "Signal Transduction",
+      "Gastrointestinal Microbiome",
+      "Brain",
+      "Dysbiosis"
+    ],
+    "keywords": [
+      "G protein-coupled receptors (GPCRs)",
+      "Gut microbiota dysbiosis",
+      "Gut-brain axis",
+      "Microbial metabolites",
+      "Neurodegenerative diseases",
+      "Neuroinflammation"
+    ],
+    "summary_zh": "综述肠道菌群代谢物通过GPCR信号影响神经退行性疾病的机制，并提出微生物组靶向治疗策略。",
+    "innovation": "从微生物代谢物-GPCR信号轴整合神经退行性疾病机制 | 识别趋同及疾病特异性信号通路 | 讨论以GPCR为中心及其他微生物组靶向治疗策略",
+    "limitation": "为综述性文章，未提供原始实验数据",
+    "study_object": "宿主肠道微生物群及微生物代谢物；神经退行性疾病；综述",
+    "disease": "阿尔茨海默病、帕金森病、亨廷顿病、多发性硬化、肌萎缩侧索硬化",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  },
+  {
+    "pmid": "42623301",
+    "title": "Exercise Modulates Microbial Metabolites and Induces Stromal Remodeling in Pancreatic Cancer.",
+    "doi": null,
+    "journal": "Cancer research",
+    "issn": "1538-7445",
+    "pub_date": "2026-11-03",
+    "authors": "Pareek Sumedha; Wright Robin D; Ballarò Riccardo; Xue Cayla; Bartelli Thais F et al.",
+    "abstract": "UNLABELLED: Exercise induces a variety of changes in the tumor microenvironment, with beneficial effects in several tumor types. However, a better understanding of the clinical effects of exercise and mediating mechanisms is needed to maximize the utility of exercise for patients. In this study, we analyzed tumors from patients with pancreatic ductal adenocarcinoma (PDAC) in the PancFit trial and identified an exercise-induced reduction in cells expressing α-smooth muscle actin (αSMA). Interrogation of changes in tumor stromal composition with exercise in a murine PDAC model revealed a microbially influenced reduction in αSMA+ cells and Il6-expressing inflammatory cancer-associated fibroblasts (iCAF). Cholic acid, a microbial bile acid, was increased in both patients and murine models with exercise, as a potential mediator of exercise-induced reduction in iCAFs. Consistent with these findings, patients that exercised more also exhibited fewer iCAFs and lower tumor IL6 expression, supporting a stromal remodeling effect of physical activity. In summary, this study demonstrates that the antitumor effect of exercise includes stromal remodeling, which is affected by microbial metabolites.\nSIGNIFICANCE: Exercise-induced changes in cancer-associated fibroblasts vary with microbiome composition, which may explain the heterogeneity in tumor responses to exercise and could guide future exercise trials in cancer patients.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Pancreatic Neoplasms",
+      "Mice",
+      "Tumor Microenvironment",
+      "Carcinoma, Pancreatic Ductal",
+      "Cancer-Associated Fibroblasts",
+      "Interleukin-6",
+      "Microbiota",
+      "Exercise",
+      "Stromal Cells",
+      "Actins",
+      "Male",
+      "Female"
+    ],
+    "keywords": [],
+    "summary_zh": "分析PancFit试验PDAC患者及小鼠模型，发现运动经微生物胆汁酸减少iCAF并重塑肿瘤基质。",
+    "innovation": "揭示运动可通过微生物代谢物胆汁酸介导肿瘤基质重塑 | 在PDAC患者和小鼠模型中一致发现运动减少αSMA+细胞和iCAF | 提出微生物组影响运动诱导的CAF变化，可解释肿瘤对运动反应的异质性",
+    "limitation": "未描述",
+    "study_object": "胰腺导管腺癌患者肿瘤组织及小鼠PDAC模型（运动干预）",
+    "disease": "胰腺导管腺癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  },
+  {
+    "pmid": "42974962",
+    "title": "Advances in HIV-associated pulmonary diseases: an official American Thoracic Society workshop report.",
+    "doi": null,
+    "journal": "Annals of the American Thoracic Society",
+    "issn": "2325-6621",
+    "pub_date": "2026-11-03",
+    "authors": "North Crystal M; Konstantinidis Ioannis; Attia Engi F; Auld Sara C; Cho Josalyn L et al.",
+    "abstract": "People with HIV (PWH) are at increased risk of a broad range of infectious and non-infectious pulmonary diseases. Since the last ATS Workshop on HIV-associated pulmonary disease, large national and international cohorts have demonstrated ongoing gaps in our understanding of lung disease in this vulnerable population that range from underappreciation of disease incidence and prevalence to lack of targeted treatments. Translational work on the underlying mechanisms of disease has demonstrated novel, HIV-specific mechanisms that may lend themselves to tailored therapies. Twenty-four experts in HIV-associated lung disease from across the translational spectrum were invited to participate in this ATS-sponsored Workshop utilizing a modified Delphi method that included a series of pre- and post-workshop electronic surveys and a two-day virtual workshop. Lung disease among PWH is driven by complex and interrelated mechanisms including persistent immune dysregulation, oxidative stress, accelerated aging, and microbiome alterations. Despite these advances in our understanding, important gaps persist between mechanistic insights and clinical care that include limited HIV-specific trials, underrepresentation of PWH in studies of lung disease, and the absence of tailored care strategies. These gaps are further accentuated by substantial variation in the availability of data from the most affected populations, particularly in sub-Saharan Africa and among children and adolescents. Overcoming these challenges will require coordinated, globally representative research efforts that leverage large cohorts, integrate multi-omics and longitudinal phenotyping, use mechanistic insights to inform clinical trials, and consider implementation science approaches with the ultimate goal of developing tailored prevention and treatment strategies for HIV-associated pulmonary diseases.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "HIV",
+      "antiretroviral therapy",
+      "pulmonary diseases",
+      "respiratory infections"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  },
+  {
+    "pmid": "42975129",
+    "title": "Host genotype-microbiota-metabolome interactions modulate semen quality in Holstein bulls.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-03",
+    "authors": "Ju Zhihua; Jiang Qiang; Li Yanqin; Zhang Yuanpei; Xiao Yao et al.",
+    "abstract": "UNLABELLED: Semen quality is critical for reproductive performance in dairy cattle; however, its microbial, metabolic, and genetic bases remain poorly understood. We integrated rumen microbiota, metabolome, and genome-wide variation from 55 Holstein bulls stratified into relative semen quality high (RSQH) and relative semen quality low (RSQL) groups based on semen quality records to investigate host-microbiome-metabolome interactions associated with fertility. The rumen microbiota was dominated by Bacteroidota, Firmicutes, and Proteobacteria, while Fibrobacter (phylum Fibrobacterota) was enriched in RSQH bulls and positively associated with sperm motility and density. The metabolome distinguished the two groups with 64 discriminatory metabolites, including elevated N-acetyl-L-phenylalanine and prostaglandin H2 in RSQH and sebacic acid in RSQL. Machine learning models were used to prioritize microbial and metabolic features, identifying candidate markers that may contribute to differences in semen quality. Fibrobacter, thromboxane B2, and N1-[4-(cyanomethyl)phenyl]-4-chlorobenzamide emerged as candidate indicators of semen quality, supported by machine learning, high heritability, and genome-wide association study signals. Overall, 511 single-nucleotide polymorphisms (SNPs) were jointly associated with Fibrobacter and these metabolites, including six significantly linked to sperm motility based on GWAS analysis. These SNPs were grouped into two contrasting types, with C1-type variants showing decreasing trends and C2-type variants showing increasing trends in semen quality-related traits. Structural equation modeling revealed that C2-type variants were positively associated with semen traits through microbial and metabolite enrichment, whereas C1-type variants were negatively associated with them. These findings highlight coordinated host genetic, microbial, and metabolic contributions to semen quality in Holstein bulls and provide candidate biomarkers for fertility-related research and breeding.\nIMPORTANCE: Improving bull fertility is important for reproductive efficiency in dairy production, but the biological factors underlying semen quality remain incompletely understood. This study shows that variation in semen quality in Holstein bulls is associated with coordinated differences in rumen microbiota, metabolites, and host genetic variation. In particular, Fibrobacter, thromboxane B2, and N1-[4-(cyanomethyl)phenyl]-4-chlorobenzamide emerged as promising indicators of semen quality. These findings provide a basis for future fertility biomarker research and may support the development of genetics- and microbiota-informed strategies for bull selection and reproductive management.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "bull fertility",
+      "genome-wide association study",
+      "heritability",
+      "multi-omics integration",
+      "rumen metabolites"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  },
+  {
+    "pmid": "42975318",
+    "title": "Rifamycin use and gut microbial antibiotic resistance genes in cirrhosis: Results from a double-blind, placebo-controlled clinical trial.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-03",
+    "authors": "Bajaj Jasmohan S; Davis Brian C; Puri Puneet; Gallagher Mary Leslie; Fagan Andrew et al.",
+    "abstract": "Antimicrobial resistance gene (ARG) carriage is associated with poor outcomes in patients with liver cirrhosis, which is worsened by repeated antibiotic exposure and hospitalizations. While the semi-synthetic rifamycin derivative, rifaximin, has recently been linked to ARG expansion preclinically, the effects of rifamycin SV MMX (RiVM) on the gut resistome remain unknown. We evaluated longitudinal resistome changes with RiVM in cirrhosis. The randomized, double-blind, placebo-controlled RIVET trial (15 RiVM, 15 placebo) included compensated cirrhosis patients who underwent shotgun metagenomic sequencing before/after 30 days of therapy. ARGs were annotated using the Comprehensive Antibiotic Resistance Database. The longitudinal resistome was evaluated using univariable and multi-variable methods (LEfSe, paired-Wilcoxon testing, and MaAsLin3), and machine learning (ML) was used to determine ARG changes at subject and group levels. RiVM induced minimal perturbation of the gut resistome, without significant change in ARGs versus after FDR adjustment. Complementary approaches (univariable and multivariable) identified a trend towards lower vancomycin resistance ARGs, including vanW and vanT operon-associated genes, after RiVM exposure. In contrast, several Enterobacteriaceae-associated multidrug efflux regulators (including evgS, emrK, and mdtA) showed nominal increases post-rifamycin that did not withstand FDR. Group-level ML demonstrated limited discrimination between groups; however, within-subject longitudinal models achieved improved classification performance. No increase in infections or treatment-related safety concerns was observed. We conclude that rifamycin MMX was not associated with infections and did not enrich antimicrobial resistance genes compared to placebo in a small randomized 30-day clinical trial in patients with compensated cirrhosis. There was a tendency towards reduced vancomycin resistance and ARG reduction after rifamycin exposure. Registration: NCT04082780 www.clinicaltrials.gov.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Rifamycins",
+      "Double-Blind Method",
+      "Liver Cirrhosis",
+      "Anti-Bacterial Agents",
+      "Female",
+      "Bacteria",
+      "Gastrointestinal Microbiome",
+      "Male",
+      "Middle Aged",
+      "Aged",
+      "Drug Resistance, Bacterial",
+      "Drug Resistance, Microbial"
+    ],
+    "keywords": [
+      "Enterobacteriaceae",
+      "Randomized clinical trial",
+      "cirrhosis",
+      "infections",
+      "rifamycin",
+      "rifaximin",
+      "vancomycin"
+    ],
+    "summary_zh": "双盲安慰剂对照试验用宏基因组测序评估利福霉素SV MMX对代偿期肝硬化肠道耐药基因组的影响，未见ARG富集或感染增加。",
+    "innovation": "在随机双盲安慰剂对照试验中评估利福霉素SV MMX对肝硬化患者肠道耐药基因组的影响 | 结合纵向鸟枪法宏基因组测序与机器学习分析个体和组水平ARG变化",
+    "limitation": "样本量小且干预仅30天；组水平机器学习区分能力有限",
+    "study_object": "代偿期肝硬化患者 + 肠道微生物组样本 + 鸟枪法宏基因组测序",
+    "disease": "肝硬化（代偿期）",
+    "sample_size": "n=30（RiVM组15例，安慰剂组15例）",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  },
+  {
+    "pmid": "42945246",
+    "title": "Viral metagenomics reveals heterogeneity in mammalian virus hosting, sharing, and spillover.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-11-03",
+    "authors": "Wang Yuhao; Qu Guanyu; Huang Zheng Y X; Zhang Xinyu; Li Hongfeng et al.",
+    "abstract": "Zoonotic viruses originating from mammals pose a persistent threat to global health. While rodents and bats are often considered \"special reservoirs,\" it is debated if spillover risk is driven by specific taxa or merely reflects mammalian species richness. However, most tests have focused on published host-virus association datasets, which can reflect systematic biases in host and virus sampling effort. To address this limitation, we analyzed a comprehensive repository of 4,685 metagenomic datasets, minimizing bias toward any one viral taxon and spanning 296 species across 14 mammalian orders. We characterized the global mammalian virome and found substantial heterogeneity in the capacity of different mammalian orders to harbor and share human-associated viruses. Counter to conventional wisdom, carnivores exhibited significantly higher propensities to carry human-associated viruses, with bats ranked lower in this metric of zoonotic risk. Network analyses of viral sharing further revealed higher cross-order virus sharing among specific mammalian orders (e.g., carnivores and artiodactyls). Phylogenetic comparative analyses revealed that host life-history traits (e.g., longevity) and anthropogenic factors (e.g., urban land use) were key ecological drivers of both virus richness and transmission centrality. Our study provides a data-driven framework that challenges prevailing narratives of zoonotic risk and offers a refined strategy for prioritizing surveillance and mitigating emerging zoonotic threats.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Metagenomics",
+      "Humans",
+      "Mammals",
+      "Phylogeny",
+      "Zoonoses",
+      "Virome",
+      "Viruses",
+      "Chiroptera"
+    ],
+    "keywords": [
+      "cross-species transmission",
+      "mammals",
+      "viral ecology",
+      "virome",
+      "zoonotic potential"
+    ],
+    "summary_zh": "分析4,685个哺乳动物病毒宏基因组数据集，揭示病毒宿主与跨物种传播异质性及人畜共患风险驱动因素。",
+    "innovation": "基于4,685个病毒宏基因组数据集的综合库分析，减少对单一病毒类群的采样偏倚 | 发现食肉目携带人相关病毒倾向更高、蝙蝠较低，挑战传统人畜共患风险叙事 | 结合网络与系统发育比较分析揭示宿主生活史和人为因素是病毒丰富度与传播中心性的驱动因素",
+    "limitation": "未描述",
+    "study_object": "哺乳动物（14目296种）+ 病毒宏基因组数据集 + 病毒宏基因组学",
+    "disease": "无",
+    "sample_size": "4,685个宏基因组数据集（296种、14目）",
+    "ai_done": true,
+    "fetch_date": "2026-11-03"
+  }
+]
