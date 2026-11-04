@@ -1,0 +1,87 @@
+[
+  {
+    "pmid": "42980350",
+    "title": "Scaffold-level validation is needed for phage-host inference from metagenome-assembled genomes.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-11-04",
+    "authors": "Yuan Ling; Anantharaman Karthik; Ma Bin; Camargo Antonio Pedro; Chen LinXing",
+    "abstract": "Accurate phage-host prediction underpins ecological interpretation and experimental validation of uncultivated phages, yet most current approaches rely heavily on metagenome-assembled genomes (MAGs). This reliance implicitly assumes that MAG-level quality metrics, such as completeness and contamination, ensure scaffold-level correctness. Here, we demonstrate that this assumption can be violated under particular challenging conditions. Tetranucleotide frequency (TNF) analyses reveal that CRISPR-associated regions often diverge compositionally from their host genomes, increasing the risk of misbinning, while experimentally validated phage-host genome pairs show consistent TNF separation between phages and their hosts, challenging compositional binning assumptions. Through controlled simulations, we further show that the incorporation of substantial amounts of TNF-matched, non-host phage sequences into high-quality MAGs does not substantially alter standard completeness and contamination estimates, rendering such errors largely undetectable. Together, these results expose a systematic and underappreciated source of bias in MAG-based phage-host inference and highlight the need for explicit scaffold-level validation beyond conventional genome-quality metrics. We further propose a practical scaffold-level validation framework that integrates structural linkage and taxonomic consistency to improve the reliability of phage-host inference from MAGs.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "genome binning",
+      "metagenome-assembled genomes",
+      "phage-host relationship",
+      "phages",
+      "viruses"
+    ],
+    "summary_zh": "研究揭示MAG推断噬菌体-宿主关系存在支架层面偏差，并提出整合结构连接与分类一致性的验证框架。",
+    "innovation": "揭示MAG质量指标无法检测TNF匹配的非宿主噬菌体序列混入 | 发现CRISPR相关区域组成常与宿主基因组偏离，增加错误分箱风险 | 提出整合结构连接与分类一致性的支架层面验证框架",
+    "limitation": "研究结论基于特定挑战性条件和受控模拟，外推需谨慎",
+    "study_object": "未培养噬菌体与宿主（环境未描述）+ MAGs/噬菌体-宿主基因组对/模拟数据 + 四核苷酸频率、CRISPR分析与支架层面验证",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-04"
+  },
+  {
+    "pmid": "42979986",
+    "title": "Environmental Changes and Their Effect on the Airway Microbiome: Implications for Airway Diseases.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-11-04",
+    "authors": "Rentzos Georgios; Fouka Evangelia; Lazarinis Nikolaos; Gülen Theo; Ramos-Ramirez Patricia et al.",
+    "abstract": "Obstructive airway diseases, including asthma and chronic obstructive pulmonary disease (COPD), represent the two major chronic airway inflammatory diseases. In both conditions, the airways are exposed to a variety of microbial and environmental stimuli. A healthy airway microbiome is characterized not only by microbial diversity but also by the absence of significant quantities of pathogens, and is signified by ecological stability, functional resilience, and balanced interactions with the host immune system. Although microbial diversity is often considered a marker of respiratory health, its association with disease depends on the anatomical site, host factors, and environmental exposures. Thus, microbial diversity alone should not be used as a universal marker of airway health-the occurrence of pathogens and the organ compartment are also factors that are important to consider. Disruption of this microbial homeostasis, known as dysbiosis, may involve reduced diversity of the commensal flora as well as increased quantity of key pathogens, and this condition is believed to stimulate inflammation that is associated with the progression of asthma and COPD, including exacerbations. Environmental changes, including air pollution, climate change, and urbanization, can disrupt microbial balance by reducing diversity and increasing the prevalence of pathogens. Several mechanisms contribute to this interaction, including damage to the airway epithelium, impaired mucociliary clearance, oxidative stress, and alterations in innate and adaptive immune responses. This review examines the interplay between external environmental factors and the airway microbiome, and how they affect airway obstructive diseases, asthma, and COPD to understand their immunopathology, and to improve disease prevention and treatment approaches. This is an area of great interest, and further research is required to elucidate these interactions so we can better help our patients.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "COPD",
+      "air pollution",
+      "airway microbiome",
+      "asthma",
+      "environmental changes"
+    ],
+    "summary_zh": "综述外部环境因素与气道微生物组互作及其对哮喘和慢性阻塞性肺疾病免疫病理的影响，强调需进一步研究以改善防治。",
+    "innovation": "系统综述空气污染、气候变化和城市化等环境变化通过降低多样性、增加病原体影响气道微生物组 | 强调微生物多样性不能单独作为气道健康通用标志，需结合病原体和解剖部位 | 归纳上皮损伤、黏液纤毛清除受损、氧化应激及免疫应答改变等机制",
+    "limitation": "为综述，未提供原始数据 | 摘要指出需进一步研究以阐明这些相互作用",
+    "study_object": "人类气道（哮喘/慢性阻塞性肺疾病）与环境暴露；样本类型未描述；技术类型未描述",
+    "disease": "哮喘、慢性阻塞性肺疾病、阻塞性气道疾病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-04"
+  },
+  {
+    "pmid": "42980522",
+    "title": "The role of gut microbiota on the tumor microenvironment in colorectal cancer: a systematic review and meta-analysis.",
+    "doi": null,
+    "journal": "Minerva gastroenterology",
+    "issn": "2724-5365",
+    "pub_date": "2026-11-04",
+    "authors": "Osman Mohamed H; Wang Qinghua",
+    "abstract": "BACKGROUND: This meta-analysis and systematic review examined gut microbial metabolites and the tumor microenvironment (TME) in colorectal cancer (CRC), as well as the influence of microbial metabolites on cancer development and treatment. The focus was on explaining how microbial metabolites influence cancer development and treatment outcome.\nMETHODS: A systematic search of PubMed, Embase, and the Cochrane Library was conducted (January 2010-December 2020) following the PRISMA 2020 guidelines.\nRESULTS: Literature search yielded 765 articles, from which 22 studies were identified as meeting inclusion criteria after stringent screening. Included studies encompassed in vitro, in vivo, and patient-derived data on the role of gut microbial metabolites (e.g., short-chain fatty acids [SCFAs], bile acids, polyamines, and trimethylamine-N-oxide) in characterizing the CRC TME. Meta-analysis found that SCFAs, particularly butyrate, consistently played protective and regulatory functions, suppressing inflammation and stimulating antitumor immunity. In contrast, bile acids and certain microbial populations (e.g., Fusobacterium nucleatum) were associated with tumor-promoting pathways, including NF-κB and STAT3 activation. The overall result was moderately heterogeneous (I2=40%, P<0.05), reflecting variability in study design and metabolite focus. Publication bias testing with Egger's regression and funnel plots showed no indication of large small-study effects (P=0.21). Overall, 59% of studies reviewed cited a positive or modulatory function of metabolites in the TME, 27% proposed context-dependent or mixed effects, and 14% exhibited tumor-promoting activities. Moderate evidence strength, with limitations by virtue of preclinical and observational evidence, was present. Gut microbiota metabolites have context-dependent roles in CRC, SCFAs tending to be protective, and bile acids typically tumor-promoting.\nCONCLUSIONS: The findings exhibit the therapeutic promise of microbiome-targeting treatments and dietary manipulation in modifying the TME. However, they remain to be confirmed by follow-up large-scale clinical trials to consolidate the evidence base.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "系统综述与Meta分析显示，肠道菌群代谢物影响结直肠癌肿瘤微环境，短链脂肪酸多具保护作用而胆汁酸常促癌。",
+    "innovation": "聚焦肠道微生物代谢物与结直肠癌肿瘤微环境的系统综述和Meta分析 | 整合体外、体内及患者来源证据评估代谢物对肿瘤微环境的双向作用",
+    "limitation": "证据主要来自临床前和观察性研究，证据强度中等 | 研究异质性中等，仍需后续大规模临床试验验证",
+    "study_object": "结直肠癌患者肠道 + 患者来源数据及体外/体内模型 + 系统综述与Meta分析",
+    "disease": "结直肠癌",
+    "sample_size": "22项研究（检索765篇文献）",
+    "ai_done": true,
+    "fetch_date": "2026-11-04"
+  }
+]
