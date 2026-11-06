@@ -1,0 +1,221 @@
+[
+  {
+    "pmid": "42992988",
+    "title": "Microbiota-derived indole-3-propionic acid regulates glucose homeostasis via remodeling of hepatic mitochondrial metabolism.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-06",
+    "authors": "Maalumi Or; Ben Moshe Ziv; Blank Or; Barkan-Michaeli Rachel; Yona Avihu H et al.",
+    "abstract": "The gut microbiota produces metabolites that circulate to host tissues and are increasingly linked to metabolic health, yet the mechanisms by which individual microbial products regulate liver glucose metabolism remain poorly defined. Here, we identify the tryptophan-derived microbial metabolite indole-3-propionic acid (IPA) as a direct modulator of hepatic glucose production. In primary hepatocytes, a focused screen of indole metabolites revealed that several indole-containing compounds suppress glucagon-stimulated glucose output, with IPA selected for further characterization. IPA selectively reduced glucose production from mitochondrial-dependent gluconeogenic substrates while largely preserving glycerol-supported glucose production, suggesting that it does not simply shut down gluconeogenesis but instead alters how hepatocytes use metabolic fuels. Mechanistic analyzes showed that IPA redirects lactate-derived carbon away from glucose production and reshapes mitochondrial metabolism, including redox balance, ATP availability, and urea cycle-linked metabolic activity. These effects occurred without detectable disruption of proximal insulin or glucagon signaling, supporting a model in which IPA acts primarily through intracellular metabolic remodeling. In mice, endogenous IPA levels varied with nutritional state, and short-term IPA administration improved fasting glycemia and glucose handling in Western diet-fed animals. Finally, microbiome-depleted mice colonized with IPA-producing Clostridium sporogenes displayed increased circulating IPA and improved glucose tolerance compared with mice colonized with an IPA-deficient mutant C. Sporogenes strain. Together, these findings identify IPA as a microbial metabolite that directly connects gut tryptophan metabolism to hepatic mitochondrial function and systemic glucose regulation, highlighting a mechanistic gut-liver pathway with potential therapeutic relevance to metabolic disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Indoles",
+      "Glucose",
+      "Homeostasis",
+      "Mice",
+      "Liver",
+      "Hepatocytes",
+      "Gluconeogenesis",
+      "Gastrointestinal Microbiome",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Propionates",
+      "Mitochondria",
+      "Mitochondria, Liver"
+    ],
+    "keywords": [
+      "Indole-3-propionic acid",
+      "glucagon",
+      "gluconeogenesis",
+      "gut microbiota",
+      "hepatic glucose production",
+      "mitochondrial metabolism"
+    ],
+    "summary_zh": "研究发现肠道菌源吲哚丙酸经重塑肝脏线粒体代谢抑制肝糖异生，改善小鼠糖耐量。",
+    "innovation": "鉴定IPA为直接调节肝脏葡萄糖生成的微生物代谢物 | 揭示IPA通过细胞内代谢重编程而非胰岛素或胰高血糖素信号发挥作用 | 利用产IPA菌与IPA缺陷突变株定植验证菌群-肝脏代谢轴",
+    "limitation": "未描述",
+    "study_object": "小鼠及原代肝细胞；肠道菌群代谢物与肝脏；细胞实验和动物实验",
+    "disease": "代谢疾病（潜在治疗相关性）；糖代谢异常",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  },
+  {
+    "pmid": "42992936",
+    "title": "Integrated optimization of experimental and computational workflows improves genome recovery in long-read gut metagenomics.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-06",
+    "authors": "Hu Yongjie; Sun Liuyong; Huang Ye; Jiang Fangfang; Tong Xin et al.",
+    "abstract": "Short-read metagenomic sequencing has been widely applied in microbial research due to its high quality and decreasing cost. However, short reads are inherently fragmented, which limits assembly contiguity and the recovery of complete microbial genomes. In contrast, long-read sequencing, with significantly longer read lengths, helps overcome these limitations. Achieving complete and accurate genome recovery is the core goal of metagenomics. To address this challenge, we systematically evaluated and optimized the long-read metagenomic workflow, from sample processing to computational assembly, using the CycloneSEQ platform.IMPORTANCEOur results suggest that upstream experimental protocols are important contributors to long-read metagenomic performance within the evaluated framework. In particular, magnetic-plate DNA extraction, together with pretreatment, was associated with more favorable input and downstream sequencing-related characteristics for long-read analysis. These changes were also associated with broader microbial recovery in the evaluated data sets. Assembly benchmarking further showed that integrating matched long-read (CycloneSEQ) and short-read (DNBSEQ) data sets provided a favorable balance across multiple evaluation dimensions. In our fecal metagenomic data set, long-read-first assembly followed by short-read polishing showed strong overall performance when recovery, contiguity, and sequence accuracy were considered together, although workflow performance remained metric dependent.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [],
+    "keywords": [
+      "CycloneSEQ",
+      "MAG",
+      "benchmarking",
+      "genome assembly",
+      "gut microbiome",
+      "long-read sequencing",
+      "metagenomics"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  },
+  {
+    "pmid": "42992834",
+    "title": "Industrialization restructures the domestic dog gut microbiome while preserving host specificity.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-06",
+    "authors": "Gautam Arya; Bhandari Dinesh; Gurung Kusha; Gyawali Aashish; Gurung Kshitiz et al.",
+    "abstract": "UNLABELLED: Industrialization has reshaped human gut microbiomes, but its effects on other human-associated mammals remain poorly understood. Domestic dogs provide an informative comparative system because they have shared human environments and food systems for millennia yet retain distinct host biology. However, most canine microbiome studies have focused on industrialized companion, colony, or controlled-feeding dogs, limiting our understanding of the ecological range of the domestic dog gut microbiome. We analyzed fecal 16S rRNA gene profiles from 261 dogs sampled across Nepal, Thailand, the United Arab Emirates, and the United States, spanning forager, agrarian, pastoralist, urban, and industrialized lifestyles; 257 dogs remained after excluding those with reported recent antibiotic exposure. Lifestyle was the strongest measured correlate of canine gut bacterial composition, and this association persisted in restricted analyses of mature, non-shelter dogs sampled from temperate regions. Industrialized dogs differed from non-industrialized dogs through directional genus-level shifts, prevalence-defined VANISH-like and BloSSUM-like bacterial guilds, coabundance structure, and shifts in predicted functional potential. Non-industrialized dogs were not microbiologically uniform: pastoralist dogs showed non-industrialized gut bacterial community profiles but diverged from a simple forager-to-industrialized continuum. Cross-species comparisons with humans sampled across matched lifestyle categories showed parallel lifestyle-associated restructuring in both hosts, but host species remained the dominant axis of variation, and genus-level responses were largely host specific. These findings expand the ecological baseline for canine gut bacterial communities and identify industrialization-associated lifestyle change as a major axis of gut bacterial community restructuring in a long-term human-associated mammal. More broadly, they show that shared lifestyle transitions can impose parallel ecological pressures across host species without overriding host-specific community assembly.\nIMPORTANCE: Domestic dogs are one of the closest animal companions of humans, yet we know surprisingly little about how their gut microbiomes vary outside industrialized pet populations. This study shows that industrialization-associated lifestyle change is not only relevant to human microbiomes but also a broader ecological force that reshapes gut microbial communities in animals living alongside us. By comparing dogs across diverse human lifestyles, we show that shared environments can impose parallel pressures on the gut bacterial communities of humans and dogs, while each host maintains a distinct microbial identity. These findings suggest that gut microbial communities are shaped by the interaction between host biology and changing ecological conditions. Expanding microbiome research beyond industrialized settings is therefore essential for understanding what microbial diversity has been retained, altered, or lost during recent lifestyle transitions.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "VANISH-like and BloSSUM-like taxa",
+      "canine gut microbiome",
+      "companion animal microbiome",
+      "comparative microbiome",
+      "dog microbiome",
+      "host-microbiome interactions",
+      "industrialization",
+      "lifestyle transition",
+      "microbial ecology"
+    ],
+    "summary_zh": "分析四国261只不同生活方式家犬粪便16S rRNA，发现工业化重塑肠道菌群但保留宿主特异性。",
+    "innovation": "跨四国比较觅食、农耕、游牧、城市和工业化生活方式家犬肠道菌群 | 与匹配生活方式人群作跨物种比较，发现平行重塑但宿主仍为主导轴 | 扩展家犬肠道菌群生态基线",
+    "limitation": "未描述",
+    "study_object": "家犬（并跨物种比较人类）肠道 + 粪便样本 + 16S rRNA基因测序",
+    "disease": "无",
+    "sample_size": "261只狗（排除近期抗生素暴露后257只）",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  },
+  {
+    "pmid": "42992852",
+    "title": "Differential metabolite production underlies disruption of the cystic fibrosis airway microbiota by pathogens.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-06",
+    "authors": "Morabbi Sydney M; Bhowmik Niladri; Sutherland Shaz; Wylie Evelyn A; Decker Reagan S et al.",
+    "abstract": "Cystic fibrosis (CF) results in accumulation of mucus in the airways that promotes pathogen colonization, leading to respiratory exacerbations, lung failure, and death. The CF airway harbors a complex microbiota, including pathogens and oropharyngeal bacteria. Here, we reanalyzed 5,260 16S rRNA gene microbiota data sets to infer associations between members of the CF microbiota. We determined that pathogens are more likely to proliferate and dominate when present, while oropharyngeal bacteria are generally present at lower abundances. We found that higher diversity and increasing numbers of pairwise associations between bacteria were positively correlated with lung function. In contrast, dominance of the microbiota by pathogens was associated with loss of lung function. We determined that pathogens are largely negatively associated with each other and oropharyngeal bacteria, suggesting they are antagonistic toward other bacteria. As a first test of this hypothesis, we cultured 1,597 isolates from 96 people with CF and performed 12,542 coculture assays against eight representative pathogens and oropharyngeal bacteria, finding 23% of interactions resulted in inhibition. Among our isolates, Pseudomonas were the most inhibitory, but we observed variable activity between different isolates. We further found Pseudomonas aeruginosa isolates, even those from the same donor and time point, exhibited significant differences in their metabolome and bioactivity profiles that correlated with acquisition of mutations. Together, our results suggest that pathogens may disrupt the CF microbiota and proliferate in part through bioactive metabolite production. Furthermore, these data highlight that characterizing multiple isolates is necessary to capture the full landscape of chemically mediated interactions within microbiomes.IMPORTANCEThe cystic fibrosis (CF) airway harbors a complex microbiota, including oropharyngeal bacteria and opportunistic pathogens that establish chronic infections. We found that microbiota diversity is correlated with health and that a pathogen-dominated microbiota is associated with low lung function. We then inferred potential microbial interactions by determining abundance associations between CF genera, which suggested that pathogens antagonize other bacteria. To test this prediction, we cultured bacteria from people with CF and performed thousands of coculture assays, finding that approximately one-quarter of interactions resulted in growth inhibition. Pseudomonas broadly inhibited other members of the CF airway microbiota. However, we observed marked variability in bioactivity and metabolite profiles of Pseudomonas aeruginosa isolates, even from the same donor at the same time. Our results suggest that pathogens disrupt the CF microbiota, possibly through bioactive metabolite production, and that characterizing multiple isolates is necessary to capture the complete picture of interactions in these communities.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Pseudomonas aeruginosa",
+      "antagonism",
+      "cystic fibrosis",
+      "lung microbiome",
+      "microbial ecology",
+      "microbial interactions",
+      "natural products",
+      "secondary metabolites"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  },
+  {
+    "pmid": "42992937",
+    "title": "Physiological, behavioral, and genetic factors that shape interactions in the plant growth-promoting maize rhizosphere synthetic community.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-06",
+    "authors": "Paulsen Ashley A; Roghair Stroud Marissa N; Halverson Larry J",
+    "abstract": "Profiling microbiomes is an important way to understand the function and composition of communities in the wild, but natural microbiomes are often highly complex and often unamenable to experimentation to reveal cause-and-effect relationships. By using a small group of cultivable strains to represent those found in the wild, synthetic communities are one solution to this problem. Here we describe the maize rhizosphere synthetic community (MARSc), a genome-enabled 31-member bacterial community representative of the diversity found on the roots of maize grown in Iowa soils. This community is built around Pseudomonas putida KT2440, a model maize rhizosphere colonist and synthetic biology chassis. We characterized microbe-microbe interactions and biofilm formation of MARSc members in a variety of environmental contexts, finding that both behaviors are broadly controlled by nutrient levels. Genomic analysis and microbiome profiling of these organisms revealed that annotated biofilm genes (such as surface attachment and exopolysaccharide production) were significantly correlated with rhizosphere abundance, but neither trait correlated to in vitro biofilm formation. In vitro interaction assay findings were surprisingly consistent with co-correlations of rhizosphere abundance among MARSc members on roots. Finally, we found that when applied to the roots, MARSc can increase maize biomass (dry weight) by up to 40%-50% under varying nitrogen fertilization levels. Altogether, MARSc is a useful tool for identifying some of the factors influencing rhizosphere microbiome assembly and will be a strong foundation for further work in this area.IMPORTANCEThe microbiome surrounding the roots of plants can play an integral role in plant health and growth, and it is composed of thousands of species of microbes that are specific to the plant and environment it is grown in. However, due to this complexity, little is known about the means by which microbiomes form. In this study, we developed the maize rhizosphere synthetic community (MARSc) to gain a better understanding of the formation and function of microbiomes on the roots of plants. This consortium consists of 30 bacterial isolates plus Pseudomonas putida KT2440, a model maize root colonist. In this study, we investigated the interactions between these organisms, their genomes, cultural characteristics, and growth on the roots of maize. We show that MARSc increases maize growth under low nitrogen fertilizer, suggesting it will be a useful tool for identifying the mechanisms behind microbiome formation and plant growth promotion.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Pseudomonas putida",
+      "biofilms",
+      "microbe-microbe interactions",
+      "plant growth promotion",
+      "rhizosphere",
+      "synthetic community"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  },
+  {
+    "pmid": "42992548",
+    "title": "Metabolic reprogramming of myeloid‑derived suppressor cells in colorectal cancer: Mechanistic insights and immunometabolic targeted rehabilitation (Review).",
+    "doi": null,
+    "journal": "Molecular medicine reports",
+    "issn": "1791-3004",
+    "pub_date": "2026-11-06",
+    "authors": "Zhu Liang-Xiao; Jiang Guang-Jie; Gao Feng-Hou; Du Yi-Qiao",
+    "abstract": "Metabolic reprogramming of myeloid‑derived suppressor cells (MDSCs) plays a role in immunotherapy resistance in colorectal cancer (CRC). This metabolic reprogramming appears to be coordinated by oncogenic mutations (such as adenomatous polyposis coli, KRAS and TP53) through a proposed self‑reinforcing 'mutation‑metabolism‑suppression' axis. In the present review, four core metabolic pillars sustaining MDSC pathogenicity and the epimetabolic regulation that durably locks them into a suppressive state were examined. Furthermore, two emerging dimensions were highlighted: The spatial metabolic antagonism through which MDSCs may construct a metabolically hostile zone to limit the functional activity of tertiary lymphoid structures, and the remote manipulation of MDSC function by gut and intratumoral microbiota‑derived metabolites. To transcend the limitations of non‑specific myeloid depletion, immunometabolic rehabilitation is proposed as a potentially transformative framework targeting intrinsic metabolic vulnerabilities to functionally reprogram MDSCs from an immunosuppressive to a homeostatic or immunostimulatory phenotype. By integrating emerging spatial omics for precise target validation, artificial intelligence‑guided rational drug design and microbiome modulation, this paradigm provides a strategic roadmap for next‑generation precision immunotherapy, aiming to achieve durable responses across both microsatellite stable and microsatellite instability‑high CRC.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Myeloid-Derived Suppressor Cells",
+      "Humans",
+      "Colorectal Neoplasms",
+      "Metabolic Reprogramming",
+      "Animals",
+      "Immunotherapy",
+      "Tumor Microenvironment"
+    ],
+    "keywords": [
+      "colorectal cancer",
+      "histone lactylation",
+      "immunometabolism",
+      "immunotherapy resistance",
+      "metabolic reprogramming",
+      "myeloid‑derived suppressor cells",
+      "spatial omics",
+      "tertiary lymphoid structures",
+      "tumor microenvironment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-06"
+  }
+]
