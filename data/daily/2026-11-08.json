@@ -1,0 +1,90 @@
+[
+  {
+    "pmid": "42999037",
+    "title": "Gut microbiome depletion aggravates glial-mediated Alzheimer's disease pathology through inflammatory, metabolic, and proteostatic dysregulation.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-08",
+    "authors": "Madamanchi Kishore; Gurrala Srinath; Watson John; Melkani Girish",
+    "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by chronic neuroinflammation, metabolic dysfunction, and impaired proteostasis. Emerging evidence suggests that the gut microbiome influences brain function through the gut-brain axis; however, the mechanisms by which this communication affects AD pathology remain poorly understood. In this study, we used humanized Drosophila AD models expressing human AD-related transgenes in glial cells to investigate how glial AD pathology influences the gut microbiome and how microbiome depletion affects behavior and disease progression. Our findings revealed significant alterations in the abundance of several gut microbial taxa, including Lactobacillus, Acetobacter, Enterococcus, Enterobacter, Pseudomonas, Leuconostoc, Providencia, and Gluconobacter, suggesting a potential interaction between the gut microbiome and AD progression. To further define the role of the gut microbiome in AD progression, we treated Drosophila with antibiotics to achieve substantial microbiome depletion (SMD) and evaluated the resulting behavioral, physiological, and molecular changes. Compared with conventional controls, flies with SMD exhibited enhanced inflammatory signaling and cell death, impaired autophagy, lipid dysregulation, and increased accumulation of amyloid β-42 (aβ42) and phospho-tau (pTau), with the extent of these changes varying among the different humanized AD models. These molecular alterations further exacerbated sleepcircadian disruption, altered locomotor performance, and worsened learning and memory deficits. Furthermore, we demonstrated a link between enhanced neuroinflammation and the accumulation of aβ42, pTau, and amyloid precursor protein (APP) proteins. Collectively, our findings demonstrate that gut microbiome depletion aggravates glial-mediated AD pathology through the coordinated disruption of inflammatory, metabolic, and proteostatic pathways, ultimately leading to behavioral dysfunction. These results identify the gut microbiome as a critical regulator of glial homeostasis and provide new insights into its contribution to the progression of neurodegenerative disorders.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Alzheimer Disease",
+      "Neuroglia",
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Disease Models, Animal",
+      "Amyloid beta-Peptides",
+      "Proteostasis",
+      "Brain",
+      "Drosophila",
+      "Drosophila melanogaster",
+      "Bacteria",
+      "Inflammation"
+    ],
+    "keywords": [
+      "Alzheimer’s disease",
+      "autophagy defects",
+      "aβ42",
+      "gut microbiome",
+      "gut–brain axis",
+      "memory impairment",
+      "neuroinflammation",
+      "phospho-tau",
+      "sleep-circadian homeostasis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-08"
+  },
+  {
+    "pmid": "42763148",
+    "title": "Design of experiments-driven optimization of dual ultra-high-performance liquid chromatography high resolution mass spectrometry for integrated fecal metabolomics and lipidomics.",
+    "doi": null,
+    "journal": "Analytica chimica acta",
+    "issn": "1873-4324",
+    "pub_date": "2026-11-08",
+    "authors": "De Troyer Tiffany; De Windt Kimberly; Pomian Beata; De Paepe Ellen; Plekhova Vera et al.",
+    "abstract": "Recently, feces has gained increased attention in metabolomics and lipidomics research due to its ability to reflect complex diet-host-microbiome interactions. Traditionally, these analyses rely on separate workflows, resulting in longer analysis times and increased instrument load. To address these limitations, we present a dual ultra-high-performance liquid chromatography coupled to high-resolution mass spectrometry (dual UHPLC-HRMS) approach. As a first step, two previously validated single UHPLC-HRMS methods for metabolomics and lipidomics, each demonstrating robust chromatographic separation of compounds, covering a broad physicochemical range (LogP -5.30 to 21.90), were selected. To integrate both workflows into the dual platform, thirteen critical LC-MS parameters were systematically optimized using a Design of Experiments (DoE). The parameters encompassed ion generation, transmission and detection, injection-related factors, unified column oven conditions, and source geometry. This approach enabled a robust dual workflow, achieving a 21% reduction in analysis time. Targeted evaluation demonstrated consistent detection of 287 metabolites (260 with CV<20%) and 162 lipids (144 with CV<20%), thereby outperforming the single methods, which detected 272 metabolites (232 with CV<20%) and 145 lipids (116 with CV<20%), respectively. Untargeted analysis further demonstrated increased coverage, with an additional 1652 metabolite and 3966 lipid features detected with the dual method without compromising repeatability of the feature signal intensities (79.4% vs. 81.2% for metabolomics and 87.4% vs. 82.7% for lipidomics, with CV<30%). Our novel dual UHPLC-HRMS workflow enhances analytical throughput, while also improving fecal metabolome and lipidome coverage and repeatability, offering a robust and cost-effective solution for large-scale studies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Feces",
+      "Chromatography, High Pressure Liquid",
+      "Metabolomics",
+      "Lipidomics",
+      "Liquid Chromatography-Mass Spectrometry",
+      "Lipids",
+      "Mass Spectrometry",
+      "Humans"
+    ],
+    "keywords": [
+      "Analytical method development",
+      "Gut phenotyping",
+      "Integrated multi-omics",
+      "Small molecules",
+      "Statistical design",
+      "Stool"
+    ],
+    "summary_zh": "本研究通过实验设计优化双UHPLC-HRMS平台，整合粪便代谢组与脂质组分析，缩短21%分析时间并提升检测覆盖度和重复性。",
+    "innovation": "采用DoE系统优化13个LC-MS参数以整合代谢组与脂质组双UHPLC-HRMS流程 | 实现分析时间缩短21% | 靶向和非靶向检测均显示覆盖度与重复性优于单一方法",
+    "limitation": "未描述",
+    "study_object": "粪便样本 + 代谢组学和脂质组学 + 双UHPLC-HRMS",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-08"
+  }
+]

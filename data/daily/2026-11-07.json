@@ -1,0 +1,125 @@
+[
+  {
+    "pmid": "42998368",
+    "title": "Microbial and antimicrobial resistance signatures differentiate healthy and inflamed ileal pouches in patients with ulcerative colitis.",
+    "doi": null,
+    "journal": "Journal of Crohn's & colitis",
+    "issn": "1876-4479",
+    "pub_date": "2026-11-07",
+    "authors": "Dall Sebastian Mølvang; Møllekær Alberte Holm; Kousgaard Sabrina Just; Jakobsen Sarah Søgaard; Larsen Lone et al.",
+    "abstract": "BACKGROUND AND AIMS: Fecal microbiota transplantation (FMT) from healthy donors with a normally functioning colon has limited clinical effect in the treatment of chronic pouchitis. However, a normally functioning ileal pouch-anal anastomosis (IPAA) physiology differs from individuals with a healthy intact colon. We aimed to investigate the microbial characteristics of patients with a normally functioning IPAA (HealthyPouch) compared with chronic pouchitis (SickPouch), ulcerative colitis (UC), and a healthy intact colon microbiome (NormalGut). Furthermore, we investigated how repeated antibiotic use influences antimicrobial resistance on a bacterial genome level.\nMETHODS: Fecal samples from 190 participants were collected; HealthyPouch (n = 38), SickPouch (n = 37), UC (n = 23), and NormalGut (n = 92) and sequenced with Illumina and taxonomically profiled. Samples from HealthyPouch, SickPouch, and NormalGut were also long-read sequenced using Oxford Nanopore Technologies for reconstruction of 12 282 metagenome-assembled genomes (MAGs). DNA methylation motifs were used for plasmid-host association.\nRESULTS: The HealthyPouch microbiome is distinct from both the UC, NormalGut, and SickPouch microbiome. Escherichia coli MAGs in the SickPouch (n = 21) microbiome had significantly higher co-occurring ciprofloxacin resistance mutations in the gyrA and parC genes, compared to both HealthyPouch (n = 26; BH adjusted P < .05) and NormalGut (n = 40; BH adjusted P < .05). Based on DNA methylation pattern, three plasmids were associated with E. coli carrying extended-spectrum beta lactamase genes.\nCONCLUSIONS: HealthyPouch microbiota differs from NormalGut microbiota, and could therefore be more appropriate for FMT treatment of chronic pouchitis. The association between E. coli and resistance gene-carrying plasmids underscores the importance of integrating plasmid analysis into metagenome-based approaches for personalized antibiotic treatment and resistance monitoring.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Colitis, Ulcerative",
+      "Pouchitis",
+      "Female",
+      "Colonic Pouches",
+      "Male",
+      "Feces",
+      "Adult",
+      "Middle Aged",
+      "Anti-Bacterial Agents",
+      "Gastrointestinal Microbiome",
+      "Drug Resistance, Bacterial",
+      "Escherichia coli",
+      "Fecal Microbiota Transplantation"
+    ],
+    "keywords": [
+      "antimicrobial resistance",
+      "gut microbiome",
+      "ileal pouch–anal anastomosis (IPAA)",
+      "metagenomics",
+      "plasmids",
+      "pouchitis",
+      "ulcerative colitis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-07"
+  },
+  {
+    "pmid": "42998127",
+    "title": "Antibiotic Exposure and Treatment Outcomes in Head and Neck Squamous Cell Carcinoma and Nasopharyngeal Carcinoma: A Systematic Review and Meta-Analysis.",
+    "doi": null,
+    "journal": "Current oncology reports",
+    "issn": "1534-6269",
+    "pub_date": "2026-11-07",
+    "authors": "Psyllia Dimitra; Stylianakis Dimitrios; Denaro Nerina; Pistis Marco; Lambertini Matteo et al.",
+    "abstract": "PURPOSE OF REVIEW: Systemic antibiotics may disrupt the gut and oral microbiome, potentially affecting anticancer treatment efficacy. Their prognostic relevance in head and neck squamous cell carcinoma (HNSCC) and nasopharyngeal carcinoma (NPC), particularly during immune checkpoint inhibitor (ICI)-based therapy or definitive chemoradiotherapy (CRT), remains uncertain. This systematic review and meta-analysis evaluated associations between systemic antibiotic exposure around treatment initiation and oncologic outcomes.\nMETHODS: PubMed/MEDLINE, Embase, and Scopus were searched from January 2015 to March 28, 2026. Eligible studies included patients with HNSCC or NPC receiving ICI, definitive CRT, or chemo-immunotherapy and reporting overall survival (OS), progression-free survival (PFS), or objective response rate (ORR). Random-effects models pooled hazard ratios (HRs) and 95% confidence intervals (CIs) for OS and PFS; ORR was synthesized descriptively. Risk of bias was assessed, as appropriate, using ROBINS-I, ROBINS-E, RoB 2, or the Newcastle-Ottawa Scale.\nRESULTS: Eleven studies involving 6,293 patients were included; nine studies (4,507 patients) contributed to survival meta-analyses. Antibiotic exposure was associated with worse OS (HR 1.78, 95% CI 1.52-2.08) and PFS (HR 1.58, 95% CI 1.28-1.96). Associations were consistent in ICI-treated cohorts (OS HR 1.80, 95% CI 1.53-2.13; PFS HR 1.67, 95% CI 1.24-2.25) and CRT cohorts (OS HR 1.73, 95% CI 1.29-2.32; PFS HR 1.53, 95% CI 1.11-2.11). Heterogeneity was low-to-moderate for OS (I2=28.6%) and negligible for PFS (I2=0%). Leave-one-out analyses showed stable OS (HR range 1.76-1.86) and PFS estimates (1.58-1.63). Worse OS was observed for both 30-60-day pre-ICI exposure (HR 2.04, 95% CI 1.43-2.90) and concurrent/peri-treatment exposure (HR 1.74, 95% CI 1.49-2.04). ORR was descriptively lower in antibiotic-exposed patients. Most studies had serious/high risk of bias, primarily due to confounding by indication.\nCONCLUSIONS: Systemic antibiotic exposure around treatment initiation is associated with inferior survival and response in HNSCC and NPC. However, predominantly observational evidence and substantial confounding preclude causal inference. Prospective microbiome-informed studies are needed.",
+    "pub_types": [
+      "Journal Article",
+      "Systematic Review",
+      "Meta-Analysis",
+      "Review"
+    ],
+    "article_type": "系统综述/Meta分析",
+    "mesh_terms": [
+      "Humans",
+      "Anti-Bacterial Agents",
+      "Squamous Cell Carcinoma of Head and Neck",
+      "Nasopharyngeal Carcinoma",
+      "Treatment Outcome",
+      "Nasopharyngeal Neoplasms",
+      "Immune Checkpoint Inhibitors",
+      "Chemoradiotherapy"
+    ],
+    "keywords": [
+      "Antibiotics",
+      "Chemoradiotherapy",
+      "Head and neck squamous-cell carcinoma (HNSCC)",
+      "Immune checkpoint inhibitors (ICI)",
+      "Microbiome",
+      "Nasopharyngeal carcinoma (NPC)",
+      "PD-1/PD-L1",
+      "Survival outcomes"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-07"
+  },
+  {
+    "pmid": "42998756",
+    "title": "Bacteriophage-Derived Endolysins in Atopic Dermatitis and Other Pruritic Dermatoses: Mechanistic Rationale, Clinical Evidence, and Limitations.",
+    "doi": null,
+    "journal": "The Journal of investigative dermatology",
+    "issn": "1523-1747",
+    "pub_date": "2026-11-07",
+    "authors": "Farhadi Leah; Khalil Nicole; Kowalczyk Wiktoria; Lio Peter; Yosipovitch Gil",
+    "abstract": "Chronic pruritus in atopic dermatitis (AD) is associated with cutaneous dysbiosis, including loss of protective commensals and expansion of Staphylococcus aureus. S. aureus can promote itch through secreted proteases and toxins that activate sensory neurons and amplify type 2 inflammation. Because broad-spectrum antimicrobials may disrupt commensal communities, bacteriophage-derived endolysins have been proposed as a more targeted approach. These enzymes cleave bacterial peptidoglycan and can rapidly lyse susceptible bacteria without requiring active growth, although their antimicrobial spectrum varies by enzyme. Preclinical studies support selective antistaphylococcal activity, but early clinical findings in AD are mixed. Therefore, endolysins should be considered alongside other microbiome-directed approaches, including topical bacteriotherapy with protective commensals. This review evaluates how endolysins work, the available clinical evidence, and the remaining questions about formulation, patient selection, inflammation caused by rapid bacterial breakdown, and toxins that may remain active after the bacteria are killed.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Staphylococcus aureus",
+      "atopic dermatitis",
+      "cutaneous dysbiosis",
+      "endolysin",
+      "protease-activated receptor 1"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-07"
+  }
+]
