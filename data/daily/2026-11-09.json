@@ -1,0 +1,64 @@
+[
+  {
+    "pmid": "43001898",
+    "title": "IBD is associated with species-specific changes in gut microbial gene diversity.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-09",
+    "authors": "Mazzoni Chiara; Yassour Moran",
+    "abstract": "UNLABELLED: Intra-species genomic variation provides the raw material for natural selection and can reflect the recent diversification history of microbial populations. Environmental stress may be regarded as the ultimate accelerator of the evolutionary process, especially for microorganisms, which can alter their DNA if presented with nutrient limitation, toxins, or pathogen attack. Chronic intestinal inflammation, as in inflammatory bowel disease (IBD), represents prolonged environmental stress for gut commensal bacteria, bringing many enteric species down to undetectable levels. However, it remains unclear how microbes that colonize IBD patients actually respond to IBD-associated stressors and whether stress-driven bacterial dynamics may be identified at the population level from the bacterial gut metagenome. To investigate IBD-associated strain-level population dynamics, we performed metagenomic analyses focusing on measuring within-individual bacterial diversity for a panel of gut commensals present across IBD patients and Controls. First, we found species-specific differences in genome-level bacterial diversity. Then, we found that certain genes and functions may harbor different levels and kinds of genetic divergence within the same species across IBD patients and Controls. Functions that were enriched in IBD with both neutral divergence and functional divergence were associated with motility and iron-scavenging, among others. These results may point toward functions that are under selection in the context of IBD stress and could inform future mechanistic work, exploring previously unknown routes of bacterial diversification and adaptation to stress in the gut microbiome.\nIMPORTANCE: Inflammatory bowel disease (IBD) is characterized by profound alterations in the gut microbiome composition, and most research so far has focused on changes in species-level abundance to understand gut microbiome contributions to disease dynamics. However, investigating strain-level variation has the potential to uncover previously unknown factors underlying bacterial persistence during gut inflammation, hence revealing key aspects driving gut dysbiosis. Here, we showed that IBD is associated with species-specific changes in gut microbial population-level genetic diversity and identified individual genes and functions that seem to harbor differential genetic diversity within IBD-associated strains. More broadly, our results highlight how intra-species population- and gene-level diversity could be used as sensors of environmental stress in the gut microbiome, and further studies could follow up on the functions highlighted in this work to establish causal links between gut inflammatory conditions and processes of bacterial adaptation to stress.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "diversity",
+      "gut microbiome",
+      "inflammatory bowel disease",
+      "stress adaptation"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-09"
+  },
+  {
+    "pmid": "43001783",
+    "title": "Free-living autotrophs drive a carbon fixation peak within the Orca Basin chemocline while heterotrophs dominate total activity from seawater to brine.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-11-09",
+    "authors": "Paris Emily R; Salcedo Rebecca S R; Buessecker Steffen; Pozarycki Chad; Desmarais Miguel et al.",
+    "abstract": "Deep hypersaline anoxic basins (DHABs) are stratified, polyextreme environments found within enclosed and semi-enclosed seas worldwide. Here, we quantified microbial activity in Orca Basin, the largest known DHAB, to investigate carbon cycling across its steep chemical and salinity gradients. We measured total anabolic activity and dissolved inorganic carbon (DIC) fixation as a function of metabolic lifestyle (autotroph or heterotroph) and spatial niche (free-living or particle-associated) using dual-isotope labeling experiments and single-cell analysis by nanoscale secondary ion mass spectrometry (nanoSIMS). Activity was detected within all ten depths investigated from seawater to hypersaline brine, including by most cells within the brine. DIC fixation and total anabolic activity peaked within the oxic-anoxic interface, notably separate from the peak in cell and particle density deeper in the halocline. Autotrophs drove the peak in DIC fixation, but heterotrophs drove that of total activity; autotrophs were more abundant than heterotrophs at this depth but on average smaller and slower growing. Particle-associated heterotrophs, but not autotrophs, were significantly more active than their free-living counterparts within the interface. Heterotrophic communities derived an average of 4% to 10% of their biomass from DIC across the vertical transect, contributing just 2% of total DIC fixation within the peak but the majority within overlying seawater. Metagenomic analysis of catabolically active, sorted cells indicated members of at least five phyla were active within the oxic-anoxic interface, including putatively autotrophic Thermoproteota. These data provide high-sensitivity microbial activity measurements in Orca Basin and highlight the widespread viability of the resident microbiome.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "anaplerosis",
+      "brine",
+      "carbon cycling",
+      "chemoautotrophy",
+      "deep-sea",
+      "nanoSIMS",
+      "particles",
+      "single cell"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-09"
+  }
+]
