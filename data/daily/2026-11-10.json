@@ -1,0 +1,222 @@
+[
+  {
+    "pmid": "43006633",
+    "title": "Distinct Gut Microbial and Metabolic Biomarkers Related to Atrial Fibrillation in Low-Risk Patients.",
+    "doi": null,
+    "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+    "issn": "1532-2092",
+    "pub_date": "2026-11-10",
+    "authors": "Gutmann Friederike; Börschel Christin S; Markó Lajos; Löber Ulrike; Bartolomaeus Theda Ulrike Patricia et al.",
+    "abstract": "",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "atrial fibrillation",
+      "metabolic biomarkers",
+      "microbiome"
+    ],
+    "summary_zh": "标题提示研究低危房颤患者肠道微生物与代谢标志物，摘要缺失无法概括方法与结论。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "低危房颤患者；样本类型和技术类型未描述",
+    "disease": "心房颤动（低危患者）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  },
+  {
+    "pmid": "43006240",
+    "title": "Cell-free expression and NGS-powered substrate profiling reveal a thermostable metagenomic meganuclease from an extreme environment with novel specificity.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-11-10",
+    "authors": "Dorrazehi Gol Mohammad; Penner Matthew; Athanasiou Christina; Boursinhac Lise; Mobarec Juan Carlos et al.",
+    "abstract": "As an alternative to historical enzyme isolation, metagenomic databases (e.g. MGnify) provide information on vast unculturable microbial diversity, including extreme environments, and constitute an enormous source of functional proteins. Conservative mining of these data by close sequence homology alone tends to identify merely different versions of known enzymes. Here we present a discovery strategy for meganucleases based on wider capture of less homologous enzymes in metagenomic databases, and incorporating metadata with their homology. We use cell-free expression to bypass host incompatibility and the need for purification, along with deep sequencing for experimental assessment of substrate specificity and cleavage pattern, thereby circumventing classical gel-based profiling. Specifically, we discovered the temperature-stable (>55°C), intron-encoded LAGLIDADG meganuclease I-MG11 that recognizes a GC-rich 17 base pair sequence to generate 4-nt palindromic 3'-overhangs-the first monomeric meganuclease to produce such overhangs. Co-folding models of I-MG11 bound to DNA provide a structural context for enzyme-DNA interactions, highlighting differences from other monomeric LAGLIDADG meganucleases (e.g. I-SceI) shaped by InDels (insertion-deletions) in the DNA-binding region that may cause specificity changes. Our strategy streamlines general bona fide identification and annotation of meganucleases, while the unique properties of I-MG11 expand the toolbox of molecular genome engineering.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Substrate Specificity",
+      "Enzyme Stability",
+      "High-Throughput Nucleotide Sequencing",
+      "Metagenomics",
+      "Models, Molecular",
+      "Temperature",
+      "DNA"
+    ],
+    "keywords": [],
+    "summary_zh": "提出宏基因组宽捕获结合无细胞表达和深度测序的归巢核酸内切酶发现策略，鉴定耐热I-MG11及其新特异性。",
+    "innovation": "基于宏基因组数据库宽捕获低同源酶并结合同源性与元数据挖掘归巢核酸内切酶 | 用无细胞表达规避宿主不兼容和纯化需求，并用深度测序评估底物特异性与切割模式，替代传统凝胶分析 | 发现耐热（>55°C）的I-MG11，可识别GC-rich 17 bp序列并产生4-nt回文3'突出端，为首个产生此类突出端的单体归巢核酸内切酶",
+    "limitation": "未描述",
+    "study_object": "极端环境宏基因组数据库 + 无细胞表达与NGS底物谱分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  },
+  {
+    "pmid": "42753826",
+    "title": "Ultrasound-driven plant lipid vesicles amplify oncolytic virotherapy in colorectal cancer.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-11-10",
+    "authors": "Li Baoyi; Li Xiaoyan; Deng Yuntian; Luo Yuting; Huang Yu et al.",
+    "abstract": "Colorectal cancer (CRC) remains a highly aggressive malignancy, and its treatment with oncolytic virotherapy is hindered by multiple delivery barriers and delayed therapeutic kinetics. To address these challenges, we developed a plant lipid-based vesicular system (P-M@Ce6-OVs) co-encapsulating oncolytic viruses (OVs) and sonosensitizer chlorin e6 (Ce6), enabling ultrasound (US)-guided, spatiotemporally controlled delivery to deep colorectal tumors. Under US exposure, the system enhanced mucus infiltration, tumor penetration, and lysosomal escape, while activating sonodynamic therapy to rapidly induce tumor ablation and compensate delayed viral oncolysis. In CRC mouse models, rectal administration of P-M@Ce6-OVs with US exposure achieved a 10.3-fold reduction in tumor burden compared with the control (without treatment), markedly outperforming monotherapies. Importantly, combination with αPD-L1 not only suppressed primary CRC and re-challenged tumors mimicking metastatic relapse, but also induced durable systemic immune protection. This triple combination further potentiated systemic and mucosal antitumor immunity, restoring cytotoxic T-cell function and reinforcing humoral and gut-localized immune responses. Notably, this treatment reshaped gut microbiota by enriching nucleoside-metabolizing bacteria (e.g., Lactobacillus taiwanensis) and altering microbial metabolic profiles, including the pathways related to pyrimidine catabolism and arachidonic acid oxidation. These microbiota and metabolic changes were associated with immune remodeling and tumor suppression. Collectively, this platform integrated US-enabled delivery, sonodynamic activation, and microbiome remodeling to synergistically suppress CRC and re-challenged tumor progression, amplifying virotherapy and antitumor immunity.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Colorectal Neoplasms",
+      "Oncolytic Virotherapy",
+      "Humans",
+      "Porphyrins",
+      "Chlorophyllides",
+      "Cell Line, Tumor",
+      "Oncolytic Viruses",
+      "Lipids",
+      "Female",
+      "Ultrasonic Waves"
+    ],
+    "keywords": [
+      "Colorectal cancer",
+      "Oncolytic viruses",
+      "Plant lipid vesicle",
+      "Sonodynamic therapy",
+      "Spatiotemporal delivery"
+    ],
+    "summary_zh": "研究开发超声驱动植物脂质囊泡共递送溶瘤病毒与Ce6，在结直肠癌小鼠中增强病毒治疗并重塑菌群免疫。",
+    "innovation": "构建P-M@Ce6-OVs植物脂质囊泡系统，实现超声引导的时空控释并增强黏液渗透、肿瘤穿透和溶酶体逃逸 | 将声动力治疗与溶瘤病毒疗法结合，快速消融肿瘤并弥补病毒溶瘤延迟 | 联合αPD-L1并重塑肠道菌群与代谢，诱导系统性和黏膜抗肿瘤免疫",
+    "limitation": "未描述",
+    "study_object": "结直肠癌小鼠模型 + 肿瘤及肠道菌群样本 + 超声驱动植物脂质囊泡递送、声动力治疗及微生物组分析",
+    "disease": "结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  },
+  {
+    "pmid": "43004170",
+    "title": "Whole-genome characterization and genomic stability of Mastadenovirus F40 and F41 in pediatric gastroenteritis.",
+    "doi": null,
+    "journal": "BMC microbiology",
+    "issn": "1471-2180",
+    "pub_date": "2026-11-10",
+    "authors": "El-Shahidy Samar M; Zakaria Amira M; Ibrahim Mohanad A; Diab Atef M",
+    "abstract": "BACKGROUND: Human adenovirus types 40 and 41 (HAdV-40 and HAdV-41), belonging to the species Mastadenovirus faecale, are among the leading viral causes of acute gastroenteritis in children. Despite their clinical importance, whole-genome data on circulating strains remain limited. This study investigated the epidemiological and genomic characteristics of enteric Mastadenoviruses detected in children with acute gastroenteritis.\nMETHODS: A total of 632 stool specimens collected from hospitalized children with acute gastroenteritis were screened using a multiplex gastrointestinal real-time PCR panel. Five representative Mastadenovirus-positive samples underwent shotgun metagenomic sequencing followed by genome reconstruction, phylogenetic analysis, pairwise sequence identity comparisons, genome-wide variant analysis, amino acid substitution profiling, and recombination analysis.\nRESULTS: Mastadenoviruses were detected in 60/632 (9.5%) children, with the highest positivity observed among those aged 1-3 years. Co-infections occurred predominantly involving bacterial pathogens. Complete or near-complete genomes were recovered for all five sequenced isolates with high sequencing depth (2,806 × -34,120 ×), genome coverage (94.8%-100% at ≥ 10 ×), and nucleotide identity (99.19%-99.78%) relative to genotype-matched reference genomes. Phylogenetic analyses identified two HAdV-F40 and three HAdV-F41 isolates. Gene-specific phylogenies of the hexon, penton base, fiber, and DNA polymerase genes consistently confirmed genotype assignment. Pairwise sequence identity analysis and recombination analysis further supported classification with no evidence of intergenotypic recombination.\nCONCLUSIONS: The sequenced enteric Mastadenovirus isolates exhibited high genomic conservation with limited within-genotype diversity and no detectable evidence of recent recombination. The concordance between gene-specific phylogenies, sequence identity analyses, and whole-genome comparisons supports the robustness of current molecular typing approaches and expands the limited genomic data available for circulating HAdV-F40 and HAdV-F41 strains.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "Benchmark",
+    "mesh_terms": [
+      "Humans",
+      "Gastroenteritis",
+      "Phylogeny",
+      "Genome, Viral",
+      "Child, Preschool",
+      "Mastadenovirus",
+      "Infant",
+      "Feces",
+      "Female",
+      "Male",
+      "Whole Genome Sequencing",
+      "Child",
+      "Genotype",
+      "Adenoviridae Infections",
+      "Genetic Variation"
+    ],
+    "keywords": [
+      "Acute gastroenteritis",
+      "Genetic diversity",
+      "Human Mastadenovirus F40",
+      "Human Mastadenovirus F41",
+      "Molecular epidemiology",
+      "Whole-genome sequencing"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  },
+  {
+    "pmid": "42838456",
+    "title": "Barrier-reinforcing hyaluronic acid-bilirubin nanodelivery of methylprednisolone for synergistic modulation of the intestinal barrier, immune system, and gut microbiome in colitis.",
+    "doi": null,
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "issn": "1873-4995",
+    "pub_date": "2026-11-10",
+    "authors": "Lee Bom; Yoo Jeeeun; Jeon Hyeon-Jeong; Kim Yu Jeong; Cheng Xiaoliang et al.",
+    "abstract": "Inflammatory bowel disease (IBD) is characterized by a self-reinforcing cycle of intestinal barrier dysfunction, gut microbiome dysbiosis, and aberrant mucosal immune responses. Methylprednisolone (MPS) is a potent immunosuppressant used for IBD and may beneficially modulate the gut microbiome, but its systemic adverse effects and potential impairment of epithelial repair limit its therapeutic use. To overcome these limitations, we developed MPS-loaded hyaluronic acid-bilirubin nanoparticles (MPS@HABN), an oral nanomedicine designed to protect the intestinal epithelium from MPS-associated injury while enhancing the otherwise limited immune and microbiome modulation achieved by low-dose HABN. MPS@HABN limited premature drug release, increased MPS accumulation in the inflamed colon, and reduced systemic exposure and thymic involution. It also protected intestinal epithelial cells from MPS-associated and oxidative injury. In contrast, low-dose HABN alone showed limited immune and microbiome modulation, whereas free MPS caused intestinal barrier damage and systemic toxicity such as thymic involution. In a DSS-induced colitis model, MPS@HABN improved intestinal barrier function while enhancing immune and microbiome modulation, resulting in robust therapeutic efficacy beyond that of either component alone at a low HABN dose and a clinically relevant MPS dose. These findings support combining the complementary activities of MPS and HABN to overcome corticosteroid-associated epithelial injury and the limited efficacy of low-dose HABN, thereby helping to disrupt the pathological barrier-immune-microbiome cycle in colitis.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Hyaluronic Acid",
+      "Animals",
+      "Colitis",
+      "Intestinal Barrier Function",
+      "Mice, Inbred C57BL",
+      "Nanoparticles",
+      "Methylprednisolone",
+      "Gastrointestinal Microbiome",
+      "Bilirubin",
+      "Intestinal Mucosa",
+      "Dextran Sulfate",
+      "Anti-Inflammatory Agents",
+      "Male",
+      "Humans",
+      "Mice",
+      "Immune System"
+    ],
+    "keywords": [
+      "Gut microbiome",
+      "Hyaluronic acid-bilirubin nanomedicine",
+      "Immune system",
+      "Inflammatory bowel diseases",
+      "Intestinal barrier"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  },
+  {
+    "pmid": "43006134",
+    "title": "gcPathogen 2.0: an expanded multi-omics database advancing global pathogen surveillance and One Health research.",
+    "doi": null,
+    "journal": "Nucleic acids research",
+    "issn": "1362-4962",
+    "pub_date": "2026-11-10",
+    "authors": "Chen Qi; Guo Chongye; Wang Ligui; Fan Guomei; Qu Xiaoli et al.",
+    "abstract": "Launched in 2024, gcPathogen established a critical foundation for the genomic surveillance of human pathogens. Here, we present gcPathogen 2.0, a major multi-omics update designed to address key analytical bottlenecks, including the integration of genomic and transcriptional profiles, systematic tracking of cross-habitat distribution, and large-scale discovery of antimicrobial peptides (AMPs). This release expands coverage from 1134 to 1506 pathogenic species, spanning 557 bacteria, 508 fungi, 258 viruses, and 183 parasites, and increases total genomic records past 2.3 million. By incorporating 12 597 transcriptomes across 148 species, gcPathogen 2.0 bridges the gap between gene carriage and functional expression for risk assessment. Furthermore, the platform integrates 285 925 pathogen metagenome-assembled genomes (MAGs) spanning human, animal, and environmental niches. Mapped across 68 Environment Ontology (ENVO) habitat categories, these MAGs enable comprehensive tracking of cross-habitat distribution of pathogens, antibiotic resistance genes (ARGs), virulence factors (VFs), and mobile genetic elements (MGEs). Leveraging a nonredundant reference set curated from seven public databases, we identified over 77 million AMPs belonging to >55 000 families across 438 bacterial pathogens. Finally, pan-genome analyses of 440 bacterial species map intraspecies functional distributions across core, accessory, and unique gene repertoires. gcPathogen 2.0 is publicly accessible at https://nmdc.cn/gcpathogen/.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "发布gcPathogen 2.0多组学数据库，整合基因组、转录组及MAGs，扩展病原体监测并发现抗菌肽。",
+    "innovation": "整合基因组与转录组以连接基因携带和功能表达 | 纳入跨人类、动物和环境生态位的285,925个MAGs并系统追踪跨生境分布 | 大规模发现超7700万抗菌肽并开展440种细菌泛基因组分析",
+    "limitation": "未描述",
+    "study_object": "人类、动物与环境来源病原体；基因组、转录组和宏基因组数据；多组学数据库整合分析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-10"
+  }
+]
