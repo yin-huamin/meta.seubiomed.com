@@ -1,0 +1,127 @@
+[
+  {
+    "pmid": "42841642",
+    "title": "Peripheral microbial metabolites as indicators of gut microbiome disruption: systematic review and meta-analysis.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-11-11",
+    "authors": "Kain Taylor; Armstrong Eric; Coburn Bryan",
+    "abstract": "Gut microbiome disruption is often characterized by the loss of obligately anaerobic bacteria, which may lead to altered production of microbial metabolites that can be detected peripherally. The application of widely used sequencing-based microbiome analyses to clinical settings is limited by cost, turnaround time, and challenges with patients with very low stool output. Since some products of strictly bacterial metabolism are detectable in blood, peripheral metabolites may provide a rapid and scalable indicator of gut microbiome composition and function. We performed a systematic review and meta-analysis of studies reporting circulating microbial metabolites and gut microbiome composition to evaluate whether peripheral microbial metabolites could identify gut microbiome perturbation. Candidate metabolites were identified systematically across an independent set of studies reporting metabolite-microbiome associations, enabling the assessment of reproducibility across disease states and cohorts. We performed a meta-analysis of 19 human cohorts comprising 3,242 participants with paired blood metabolite and stool microbiome data. Anaerobe depletion (obligate anaerobe relative abundance <0.70) was associated with decreased plasma concentration of products of anaerobic microbial metabolism. Combinations of metabolites distinguished individuals with anaerobe-depleted microbiomes from those without. Circulating metabolite levels distinguished between cases and controls with similar performance as gut microbiome composition across a range of health/disease states and changed markedly within patients experiencing gut anaerobe depletion after antibiotic exposure. Circulating microbial metabolites are potentially informative indicators of gut microbiome disruption and may serve as a rapid and scalable method for patient stratification in clinical trials or acute care settings.IMPORTANCECirculating microbial metabolites represent a practical and scalable approach to detecting significant gut microbiome disruption, particularly the loss of obligate anaerobes. Our findings suggest that metabolites capture compositional consequences of microbiome collapse, with performance comparable to direct microbiome profiling in distinguishing disease states. Enabling diagnostic enrichment and real-time monitoring of microbiome injury (e.g., during antibiotic use or critical illness) has potential implications for both clinical care and research, including the selection of patients for investigation of microbiome-targeted therapies. With further validation, circulating metabolites could provide an accessible surrogate for gut microbiome composition in settings where sequencing is impractical.",
+    "pub_types": [
+      "Journal Article",
+      "Systematic Review",
+      "Meta-Analysis"
+    ],
+    "article_type": "系统综述/Meta分析",
+    "mesh_terms": [
+      "Humans",
+      "Gastrointestinal Microbiome",
+      "Feces",
+      "Bacteria",
+      "Bacteria, Anaerobic",
+      "Metabolome",
+      "Biomarkers"
+    ],
+    "keywords": [
+      "anaerobe depletion",
+      "bile acids",
+      "biomarkers",
+      "circulating metabolites",
+      "gut microbiome",
+      "meta-analysis",
+      "metabolomics",
+      "short-chain fatty acids",
+      "systematic review"
+    ],
+    "summary_zh": "系统综述和荟萃分析19个队列3242人，评估循环微生物代谢物识别肠道菌群紊乱的能力，发现其可区分厌氧菌耗竭。",
+    "innovation": "系统评估外周循环微生物代谢物作为肠道菌群紊乱指标，并在多疾病状态和队列中检验可重复性 | 发现代谢物组合可区分厌氧菌耗竭个体，性能与直接菌群组成分析相近",
+    "limitation": "尚需进一步验证",
+    "study_object": "人类 + 血浆与粪便样本 + 血液代谢物与粪便微生物组配对分析",
+    "disease": "多种健康/疾病状态；危重症；抗生素暴露",
+    "sample_size": "19个队列共3242例",
+    "ai_done": true,
+    "fetch_date": "2026-11-11"
+  },
+  {
+    "pmid": "43012523",
+    "title": "Evaluation of the DISQVER metagenomic sequencing platform for detection of microbial cell-free DNA in plasma and cerebrospinal fluid.",
+    "doi": null,
+    "journal": "Journal of clinical microbiology",
+    "issn": "1098-660X",
+    "pub_date": "2026-11-11",
+    "authors": "Cox Christina R; Wolf Matthew J; Norgan Andrew P; Yao Joseph D; Patel Robin et al.",
+    "abstract": "",
+    "pub_types": [
+      "Letter"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "metagenomics",
+      "molecular diagnostics",
+      "next-generation sequencing"
+    ],
+    "summary_zh": "评估DISQVER宏基因组测序平台在血浆和脑脊液中检测微生物游离DNA的表现。",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "血浆和脑脊液样本 + 宏基因组测序",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-11"
+  },
+  {
+    "pmid": "42953972",
+    "title": "Correction: Oral liposomal co-delivery of ultrasmall ceria and 5-aminosalicylic acid alleviates DSS colitis via ROS scavenging and microbiome remodeling.",
+    "doi": null,
+    "journal": "Journal of materials chemistry. B",
+    "issn": "2050-7518",
+    "pub_date": "2026-11-11",
+    "authors": "Du Jiahao; Sun Yunyun; Yu Dong; Lu Shengwei; Yu Simin et al.",
+    "abstract": "Correction for 'Oral liposomal co-delivery of ultrasmall ceria and 5-aminosalicylic acid alleviates DSS colitis via ROS scavenging and microbiome remodeling' by Jiahao Du et al., J. Mater. Chem. B, 2026, 14, 4956-4970, https://doi.org/10.1039/d6tb00173d.",
+    "pub_types": [
+      "Published Erratum"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "本文为更正声明，涉及口服脂质体共递送超小氧化铈与5-氨基水杨酸经ROS清除和菌群重塑缓解DSS结肠炎。",
+    "innovation": "未描述",
+    "limitation": "摘要仅为更正声明，未提供研究细节",
+    "study_object": "DSS结肠炎模型 + 口服脂质体共递送系统 + 微生物组",
+    "disease": "DSS结肠炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-11"
+  },
+  {
+    "pmid": "43012510",
+    "title": "The BspC surface adhesin and gastrointestinal fungal colonization enhance group B streptococcal neonatal infection.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-11-11",
+    "authors": "Crossen Arianne J; Cohen Shirli; Manzer Haider S; Zackular Joseph P; Ost Kyla S et al.",
+    "abstract": "Group B Streptococcus (GBS) colonizes the gastrointestinal (GI) and female reproductive tracts of up to 30% of healthy adults, but during pregnancy can be transmitted to the newborn, causing neonatal sepsis, pneumonia, and meningitis. Neonatal GI colonization is an important precursor to invasive disease, yet the mechanisms governing GBS intestinal persistence and dissemination are still being elucidated. Given the predominance of hypervirulent sequence type 17 (ST-17) strains in neonatal invasive disease, we hypothesized that the ST-17-associated surface adhesin BspC contributes to gastrointestinal colonization and infection. Using a neonatal mouse model, we found that pups infected with wild-type GBS exhibited increased mortality and significantly higher bacterial burdens in the intestine, blood, spleen, and brain compared with pups infected with a ΔbspC mutant. We also observed that BspC promoted adherence to a 2D organoid model of the human infant colon and Caco-2 intestinal epithelial cells through its variable domain. Building on previous findings that Candida albicans interacts with BspC, we found that C. albicans enhanced GBS intestinal epithelial adherence in a BspC-dependent manner, and coinfection increased intestinal GBS burden and brain dissemination in neonatal mice. Finally, analysis of published human neonatal fecal microbiome data sets revealed higher GBS abundance in infants colonized with C. albicans or other Candida species. Together, these findings identify BspC as a key mediator of GBS intestinal colonization and invasive disease and suggest that fungal colonization of the neonatal GI promotes GBS pathogenesis.IMPORTANCEGroup B Streptococcus (GBS) is a leading cause of neonatal infection, which can result in fatality or long-term neurological morbidity in survivors. Intestinal colonization is an important precursor to invasive disease, yet the factors that promote GBS persistence in the neonatal gastrointestinal tract remain incompletely understood. Here, we identify the GBS surface adhesin BspC as a mediator of intestinal epithelial adherence, gastrointestinal colonization, and systemic dissemination. We further demonstrate that the common fungal pathobiont Candida albicans enhances GBS intestinal adherence and infection. Consistent with our experimental findings, analysis of human infant microbiome data sets revealed greater GBS abundance in infants colonized with Candida species. These findings identify BspC as a key mediator of this process and suggest that fungal colonization can enhance GBS disease.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Candida albicans",
+      "gastrointestinal colonization",
+      "group B Streptococcus",
+      "neonatal infection"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-11"
+  }
+]
