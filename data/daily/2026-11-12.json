@@ -1,0 +1,153 @@
+[
+  {
+    "pmid": "43018073",
+    "title": "Diet-Driven Modulation of the Gut Microbiome to Enhance Neuroplasticity and Cognitive Recovery After Ischemic Stroke.",
+    "doi": null,
+    "journal": "Journal of the American Heart Association",
+    "issn": "2047-9980",
+    "pub_date": "2026-11-12",
+    "authors": "Kim Jerick; Weiss Alexander; Ding Yuchuan",
+    "abstract": "Cognitive impairment and limited neuroplastic recovery remain major contributors to long-term disability following ischemic stroke. Increasing evidence suggests that stroke-induced disruption of the gut-brain axis, characterized by microbiome dysbiosis and altered microbial metabolite signaling, may influence post-stroke inflammation, synaptic remodeling, and cognitive outcomes. Diet is a key modifiable determinant of gut microbiome composition and metabolic output, yet its role in post-stroke neuroplasticity has not been comprehensively synthesized. This narrative review examines dietary interventions with mechanistic or translational relevance to ischemic stroke recovery, including Mediterranean dietary patterns, ketogenic diets, high-fiber and prebiotic-enriched diets, probiotic and synbiotic supplementation, and intermittent fasting or caloric restriction. We summarize evidence linking diet-induced microbiome modulation to neuroinflammatory regulation, short-chain fatty acid signaling, microglial activity, mitochondrial function, and synaptic plasticity. Shared and diet-specific pathways are discussed, along with current limitations of the evidence base and barriers to clinical translation. Collectively, available data support a biologically plausible role for targeted dietary modulation of the gut microbiome as an adjunctive strategy to enhance cognitive recovery and neuroplasticity after ischemic stroke. Further well-designed clinical studies integrating microbiome profiling, neuroimaging, and cognitive outcomes are needed to define therapeutic potential and guide implementation in stroke rehabilitation. Among these dietary interventions, Mediterranean, high-fiber, and prebiotic-enriched diets currently have the strongest available evidence, while ketogenic and intermittent fasting approaches remain the least supported based on existing clinical and translational evidence.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "dietary interventions",
+      "gut microbiome",
+      "gut‐brain axis",
+      "ischemic stroke"
+    ],
+    "summary_zh": "综述饮食调控肠道菌群增强缺血性卒中后神经可塑性与认知恢复的证据，认为其具辅助治疗潜力。",
+    "innovation": "综合梳理多种饮食干预经肠脑轴影响卒中后神经炎症、突触可塑性与认知恢复的证据 | 比较各饮食干预的证据强度并指出临床转化障碍",
+    "limitation": "现有证据基础存在局限且临床转化有障碍 | 尚需整合微生物组分析、神经影像和认知结局的设计良好临床研究",
+    "study_object": "缺血性卒中患者/肠道微生物组/叙述性综述",
+    "disease": "缺血性卒中；卒中后认知障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-12"
+  },
+  {
+    "pmid": "43017741",
+    "title": "Ageing begins early: developmental origins of ageing trajectories.",
+    "doi": null,
+    "journal": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+    "issn": "1471-2970",
+    "pub_date": "2026-11-12",
+    "authors": "Moldakozhayev Alibek; Eames Alec W; Mitchell Wayne; Tskhay Albina; de Magalhães Cecília G et al.",
+    "abstract": "Ageing has traditionally been viewed as a process of late-life organismal deterioration, with interventions aimed at slowing ageing being administered after the ageing process has already begun. However, recent advances in quantifying ageing indicate that the process of molecular ageing starts as early as the end of gastrulation. Further, growing evidence suggests that the foundations of how different systems of an organism age are established during prenatal and postnatal development. Herein, we review the impact of early-life environmental conditions on disease susceptibility, adaptation, energy metabolism, microbiome and neurodevelopmental processes to ascertain how changes early in life can affect ageing-related features late in life. We also link growth, reproductive capacity and ageing by providing examples when the balance between longevity and reproduction is shifted towards a longer life through the growth axis at a cost of fecundity across species. We encourage researchers to investigate interventions aimed at mitigating ageing during the developmental period of life, with the important note that such interventions must be assessed with extra caution, given that many life-extending strategies may attenuate growth and reproduction, which may be detrimental for the organism during development. This article is part of the theme issue 'Developmental circuits in ageing'.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Aging",
+      "Animals",
+      "Longevity",
+      "Reproduction",
+      "Humans",
+      "Energy Metabolism"
+    ],
+    "keywords": [
+      "ageing",
+      "development",
+      "longevity"
+    ],
+    "summary_zh": "综述提出分子衰老始于原肠胚末期，早期发育环境通过多系统影响晚年衰老轨迹，并倡导谨慎开展发育期干预。",
+    "innovation": "指出分子衰老可早至原肠胚末期 | 强调衰老轨迹的基础在产前产后发育期建立 | 提出发育期抗衰老干预需谨慎评估对生长和生殖的代价",
+    "limitation": "未描述",
+    "study_object": "多物种发育期生物体 + 多系统及微生物组 + 文献综述",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-12"
+  },
+  {
+    "pmid": "43018394",
+    "title": "Amino acid-based formula and Clostridioides difficile-associated disease in infants: concerns regarding causal interpretation.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-12",
+    "authors": "Jiang Xun; Wang Ying; Luo Youyou; Jin Cuiyuan; Zeng Zhaoyang et al.",
+    "abstract": "Wang et al. recently reported an association between amino acid-based formula (AAF) feeding and Clostridioides difficile-associated disease (CDAD) in children younger than two years, integrating clinical observations, microbiome profiling, and fecal microbiota transplantation experiments. The authors appropriately framed their findings as associative; our aim is not to allege over-interpretation, but to delineate the evidentiary gap between their reported association and a causal claim. Several methodological and interpretative issues limit such inference, including confounding by the clinical indication for AAF, the difficulty of distinguishing C. difficile colonization from clinically attributable disease in young children, developmental differences in age and complementary feeding, and the selected nature of the fecal microbiota transplantation (FMT) donor population. For example, the multivariable model included only 27 outcome events against approximately six predictors (events-per-variable ≈ 4.5, far below the accepted 10-20 threshold), rendering the adjusted odds ratios unstable. The cross-sectional microbiome data further cannot establish whether microbial alterations preceded disease or resulted from underlying clinical, dietary, or inflammatory states. We therefore suggest interpreting the findings as an association between AAF feeding and CDAD status, rather than evidence that AAF itself increases CDAD risk. Our skepticism concerns the causal link to CDAD specifically; we do not dispute that reduced Bifidobacterium with formula feeding is a well-established finding. This distinction has important clinical implications, as AAF remains an essential nutritional intervention for children with appropriate indications, and in young children microbiological detection and microbiome alterations must be interpreted alongside age, clinical symptoms, underlying disease, dietary history, and other relevant exposures. An overly causal interpretation could create unnecessary concern among families and complicate clinical decision-making. To make these considerations operational, we specify the elements of a decisive prospective study, including a minimum event count of ~60 adjudicated CDAD cases, a blinded tiered diagnostic algorithm, and detailed AAF exposure ascertainment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Amino Acids",
+      "Infant",
+      "Infant Formula",
+      "Clostridioides difficile",
+      "Clostridium Infections",
+      "Fecal Microbiota Transplantation",
+      "Gastrointestinal Microbiome"
+    ],
+    "keywords": [
+      "Clostridioides difficile",
+      "amino acid-based formula",
+      "causal inference",
+      "fecal microbiota transplantation",
+      "infant gut microbiota"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-12"
+  },
+  {
+    "pmid": "43015590",
+    "title": "Gut microbiome dysbiosis and associated metabolome changes in tuberculosis patients resolve partially post-therapy.",
+    "doi": null,
+    "journal": "BMC microbiology",
+    "issn": "1471-2180",
+    "pub_date": "2026-11-12",
+    "authors": "Sahu Sukanya; Kaushik Sandeep R; Chaudhary Shweta; Mohapatra Amit Kumar; Kupa Rukuwe-U et al.",
+    "abstract": "BACKGROUND: Mycobacterium tuberculosis (Mtb) infection in the host and subsequent treatment with anti-tuberculosis drugs impact lung pathophysiology and influence the lung and gut microbiome. Elucidating the role of the gut microbiome and its metabolites in the perturbed metabolic and immune functions observed in tuberculosis (TB) might help design corrective prebiotic and probiotic mixtures.\nMETHODOLOGY: In this study, fecal samples (n = 107) of drug-naïve active TB patients (ATB) and controls (other respiratory disease: NTB and healthy) from the two clinical sites were analyzed for microbiota composition (16S rRNA sequencing), metabolites (GC-TOF-MS), and their correlation. In addition, a longitudinal follow-up study was conducted to understand the dynamics of the microbiota and metabolites during anti-TB treatment in a small cohort (n = 10).\nRESULTS: Gut microbiota showed site-specificity; however, an overall reduction in alpha diversity was observed in disease states compared with healthy subjects. Underrepresentation of gut commensals (Faecalibacterium, Ligilactobacillus and Romboustia) and overrepresentation of Thomasclavelia and Clostridioides were observed among active TB patients. The longitudinally followed-up ATB subjects undergoing treatment showed a time-dependent increase in beta-diversity variance. Over time, the beta diversity of follow-up subjects was almost similar to that of healthy controls. Decrease in the abundance of Streptococcus occurred after anti-TB treatment, with higher levels of opportunistic pathogens, such as Escherichia and Stenotrophomonas. Similarly, specific fecal metabolites also returned to pretreatment levels in relative abundance at later time points.\nCONCLUSIONS: The gut microbiota of TB patients showed dysbiosis at the time of case presentation and partially resolved upon complete therapeutic interventions. Partial recovery of microbiota observed during treatment is also reflected in the fecal metabolome, indicating the possible use of microbiome and metabolites as adjunct therapeutics in TB.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Dysbiosis",
+      "Feces",
+      "Metabolome",
+      "Gastrointestinal Microbiome",
+      "RNA, Ribosomal, 16S",
+      "Tuberculosis",
+      "Antitubercular Agents",
+      "Female",
+      "Male",
+      "Longitudinal Studies",
+      "Adult",
+      "Bacteria",
+      "Middle Aged",
+      "Mycobacterium tuberculosis"
+    ],
+    "keywords": [
+      "Dysbiosis",
+      "Fecal metabolite",
+      "GC-TOF-MS",
+      "Gut microbiota",
+      "Tuberculosis"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-12"
+  }
+]
