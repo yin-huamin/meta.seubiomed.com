@@ -1,0 +1,92 @@
+[
+  {
+    "pmid": "43023958",
+    "title": "The Gut-Heart-Muscle Hypothesis in Heart Failure: Emerging Associations, Mechanistic Uncertainty, and the Potential Role of Exercise.",
+    "doi": null,
+    "journal": "JACC. Heart failure",
+    "issn": "2213-1787",
+    "pub_date": "2026-11-13",
+    "authors": "Yuzefpolskaya Melana; Bertoni Alain G; Colombo Paolo C; Demmer Ryan T",
+    "abstract": "",
+    "pub_types": [
+      "Editorial"
+    ],
+    "article_type": "其他",
+    "mesh_terms": [],
+    "keywords": [
+      "gut microbiome",
+      "heart failure",
+      "inflammation",
+      "skeletal muscle"
+    ],
+    "summary_zh": "未描述",
+    "innovation": "未描述",
+    "limitation": "未描述",
+    "study_object": "心力衰竭背景下的肠-心-肌肉轴（样本类型与技术类型未描述）",
+    "disease": "心力衰竭",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-13"
+  },
+  {
+    "pmid": "43023736",
+    "title": "Characterizing gut microbial structural variation reveals strain heterogeneity and metabolic dysfunction in colorectal cancer.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-13",
+    "authors": "Cui Ying; Qiu Qintian; Chen Yongqiu; Ding Tao",
+    "abstract": "Previous studies investigating gastrointestinal (GI) diseases have primarily focused on the composition, gene expression, and specific strains of gut microbiota. However, the impact of genetic variations, especially structural variations (SVs) in microbial genomes, on the development of GI tumors has been largely overlooked. In this study, we analyzed 1,027 fecal metagenomes from seven data sets and identified 8,278 coverage-defined SVs across 51 bacterial species in the gut microbiomes. We found that SVs were prevalent in the gut microbiota of studied cohorts. Surprisingly, the genetic makeup of SV-based clusters differed significantly between healthy individuals and those with colorectal cancer (CRC), indicating substantial intra-specific diversity within these populations. By integrating taxonomic-SV markers, we achieved optimal accuracy in early CRC detection, and the SVs also displayed regional heterogeneity. Microbial genetic variation provides additional insights into taxonomy and functionality, allowing us to have a more precise understanding of the microbiota associated with CRC. Notably, our study uncovered potential links between microbial SVs and metabolic disorders of CRC, including SV regions that encode glycoside hydrolases associated with disordered carbohydrate metabolism in CRC. We integrated a framework called MicroSVsProfiler to identify and classify SVs in individuals diagnosed with CRC, as well as in healthy controls. Our findings underscore the importance of considering SVs in microbiome studies, especially in the absence of strain-specific differences in abundance. Future research should explore the deeper layer of the microbiota's structural variantome for a better understanding of the occurrence and characteristics of CRC across different stages.IMPORTANCEMost microbiome studies of colorectal cancer focus on which bacterial species are more or less abundant, potentially overlooking genetic differences among strains of the same species. By analyzing 1,027 fecal metagenomes from seven independent cohorts, we show that large-scale changes in bacterial genomes, known as structural variations, provide disease-related information that is not captured by species abundance alone. These strain-level SV signatures distinguished healthy individuals from patients with colorectal cancer, improved early-cancer classification when combined with taxonomic markers, and varied across geographic populations. We also found that cancer-associated structural variations were linked to altered microbial metabolic functions, particularly carbohydrate metabolism and glycoside hydrolases. Together, these findings establish microbial structural variation as a complementary dimension of the gut microbiome and provide a framework for developing more precise, population-aware biomarkers and for investigating how strain-level genetic changes may contribute to metabolic disturbances associated with colorectal cancer.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "colorectal cancer",
+      "gastrointestinal diseases",
+      "microbial genome",
+      "microbiome diversity",
+      "structural variations"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-13"
+  },
+  {
+    "pmid": "43021348",
+    "title": "Network pharmacology, gut microbiota, and metabolomics integration reveal that Shenshuai 'an enema prescription (SSAEP) improves CRF mechanisms by reshaping the gut microbiota and correcting host-microbe cometabolism.",
+    "doi": null,
+    "journal": "Chinese medicine",
+    "issn": "1749-8546",
+    "pub_date": "2026-11-13",
+    "authors": "Liu Shilin; Li Andong; Jia Ailing; Chen Qiang; Nan Zheng et al.",
+    "abstract": "BACKGROUND: Chronic renal failure (CRF) is a global health issue, and the \"gut-kidney axis\" plays a key role in its pathogenesis. Shenshuai 'an enema prescription (SSAEP) is a Chinese medicine compound based on the TCM theory of \"regulation of bowel movement and removal of turbid qi\", which has shown good adjunctive therapeutic effects in delaying the progression of CRF in clinical practice. However, its specific mechanisms remain unclear.\nPURPOSE: Herein, from the perspective of indirect pharmacology, the therapeutic effects of SSAEP on CRF rats were explored. We hypothesize that its mechanism of action may be largely indirect and occurs primarily through the gut-kidney axis. This study aimed to systematically elucidate the potential mechanism through which SSAEP improves CRF through the regulation of gut microecology using multidisciplinary approaches such as network pharmacology, 16S rRNA gene sequencing, and metabonomics.\nMETHODS: A CRF rat model was established by induction with 2.5% adenine. Low and high doses of SSAEP were administered via enema, and antibiotic intervention and fecal microbiota transplantation (FMT) experiments were performed to verify the key mediating role of the gut microbiota. The chemical composition of the SSAEP and the metabolic profiles of the serum and colonic contents of the rats were analyzed using UHPLC‒MS/MS; the composition of the gut microbiota was analyzed through 16S rRNA sequencing; and the core targets and pathways were predicted using network pharmacology and molecular docking. In vitro, human renal tubular epithelial cells (HK-2) were stimulated with TGF-β1 or glycochenodeoxycholic acid (GCDCA) to verify the anti-inflammatory and antifibrotic effects of quercetin (the main active component of SSAEP) and the role of the IL-17 signaling pathway in this process.\nRESULTS: SSAEP treatment significantly improved renal function indicators (BUN, SCR, Cys-C, and UA) in CRF rats and alleviated pathological damage, the inflammatory response, and fibrosis in kidney tissue. Antibiotic intervention attenuated the protective effect of SSAEP, while FMT experiments confirmed that the efficacy of SSAEP could be transferred to recipient rats through the transplantation of treated fecal microbiota. SSAEP reshaped the gut microbiota, significantly increasing the abundance of Akkermansia while reducing that of Clostridium. Metabolomic analysis revealed CRF-related metabolic disturbances and identified 29 key differentially expressed metabolites regulated by SSAEP, among which glycochenodeoxycholic acid (GCDCA) was a key pathogenic metabolite. Network pharmacology predictions combined with in vitro experiments confirmed that the quercetin in SSAEP could effectively antagonize the TGF-β1- and GCDCA-induced epithelial‒mesenchymal transition and inflammatory response in HK-2 cells by inhibiting the IL-17/NF-κB signaling pathway.\nCONCLUSIONS: This study revealed that SSAEP improves CRF through an indirect pharmacological mechanism dependent on the gut microbiota: SSAEP reshapes the balance of the gut microbiota, thereby correcting host-microbe cometabolic disorders (particularly by reducing the level of the pathogenic metabolite GCDCA) and ultimately alleviating renal inflammation and fibrosis through the inhibition of signaling pathways such as the IL-17/NF-κB pathway. This study provides new experimental evidence for the \"gut-kidney axis\" theory and lays the foundation for the development of CRF treatment strategies based on the regulation of the gut microbiome.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Chronic renal failure",
+      "Gut–kidney axis",
+      "Intestinal microflora",
+      "Metabolic profiling",
+      "Network-based pharmacological analysis",
+      "Shenshuai 'an enema prescription"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-13"
+  }
+]
