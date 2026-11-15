@@ -1,0 +1,212 @@
+[
+  {
+    "pmid": "42731466",
+    "title": "Gut microbiota-derived indole-3-propionic acid suppresses osteoclast formation by promoting IL-10+ Breg differentiation via AhR signaling.",
+    "doi": null,
+    "journal": "International immunopharmacology",
+    "issn": "1878-1705",
+    "pub_date": "2026-11-15",
+    "authors": "Su Shan; Hu Zhen; Min Hang; Gao Cuixia; Wang Yu et al.",
+    "abstract": "Gut microbiota-derived metabolites play pivotal roles in immune and bone homeostasis; however, the specific metabolites involved in postmenopausal osteoporosis (PMOP) remain poorly understood. In this study, we investigated the role of indole-3-propionic acid (IPA), a microbial metabolite of tryptophan, in estrogen deficiency-induced bone loss through integrated microbiome, metabolomic, and immunological analyses. Using 16S rRNA gene sequencing combined with targeted metabolomics, we identified significant alterations in gut microbial composition and dysregulation of tryptophan metabolism in ovariectomized (OVX) mice. Serum IPA levels were markedly reduced in both PMOP patients and OVX mice. IPA supplementation inhibited osteoclast differentiation, promoted osteoblast differentiation, improved trabecular microarchitecture, and increased bone mineral density (BMD), thereby alleviating OVX-induced osteoporosis. Mechanistically, IPA activated aryl hydrocarbon receptor (AhR) signaling in B cells, promoting the differentiation of IL-10-producing regulatory B cells (Bregs) and enhancing IL-10 secretion, which in turn suppresses osteoclastogenesis. These effects were further confirmed by adoptive transfer experiments and pharmacological AhR inhibition. Collectively, our findings demonstrate that the gut microbiota-derived metabolite IPA mitigates estrogen deficiency-associated osteoporosis by modulating immune-bone crosstalk, providing new mechanistic insights and a potential therapeutic strategy for PMOP.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Receptors, Aryl Hydrocarbon",
+      "Female",
+      "Indoles",
+      "Osteoclasts",
+      "Cell Differentiation",
+      "Gastrointestinal Microbiome",
+      "Signal Transduction",
+      "Humans",
+      "Interleukin-10",
+      "Mice",
+      "B-Lymphocytes, Regulatory",
+      "Osteoporosis, Postmenopausal",
+      "Ovariectomy",
+      "Osteogenesis",
+      "Mice, Inbred C57BL",
+      "Basic Helix-Loop-Helix Proteins",
+      "Propionates"
+    ],
+    "keywords": [
+      "Aryl hydrocarbon receptor",
+      "Indole-3-propionic acid",
+      "Postmenopausal osteoporosis",
+      "Regulatory B cells"
+    ],
+    "summary_zh": "本研究通过多组学分析发现IPA在PMOP和OVX小鼠中降低，补充IPA经AhR促进IL-10+Breg分化并抑制破骨细胞，从而缓解骨质疏松。",
+    "innovation": "整合微生物组、代谢组和免疫学分析揭示IPA在PMOP中的作用 | 阐明IPA通过AhR促进IL-10+ Breg分化并抑制破骨细胞生成的免疫-骨串扰机制 | 通过过继转移和AhR药理抑制验证该通路",
+    "limitation": "未描述",
+    "study_object": "绝经后骨质疏松患者和OVX小鼠；肠道菌群与血清样本；16S rRNA基因测序、靶向代谢组学及免疫学分析",
+    "disease": "绝经后骨质疏松（PMOP）/雌激素缺乏性骨质疏松",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-15"
+  },
+  {
+    "pmid": "42692396",
+    "title": "Global freshwater resistomes reveal environmental signatures associated with the burden of drug-resistant tuberculosis.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-11-15",
+    "authors": "Li Tong; Lv Jiahui; Tu Yunye; Cheng Li; Xiao Hongjun et al.",
+    "abstract": "Antimicrobial resistance (AMR) is a growing global health threat, yet the extent to which environmental resistomes reflect human disease burden remains unclear. In this study, we provide the first attempt to bridge freshwater resistomes with human disease burden using machine learning models, with a focus on identifying environmental signatures associated with drug-resistant tuberculosis (DR-TB) burden. By analyzing 1280 freshwater metagenomes from 45 countries, we characterized the compositional distribution of the resistomes and further developed an integrated environmental AMR Risk Score. Integrating the AMR Risk Score with socio-economic variables provided complementary information associated with variation in multidrug-resistant tuberculosis burden beyond socio-economic factors alone. In complementary income-stratified analyses, feature selection identified recurrent environmental signatures associated with different drug-resistant tuberculosis subgroups. These findings indicate that freshwater resistome characteristics contain geographically structured information associated with DR-TB burden within the sampled datasets and support the potential value of freshwater metagenomic surveillance for characterizing environmental AMR patterns.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Fresh Water",
+      "Tuberculosis, Multidrug-Resistant",
+      "Humans",
+      "Metagenome",
+      "Machine Learning",
+      "Drug Resistance, Bacterial"
+    ],
+    "keywords": [
+      "Antibiotic resistance genes",
+      "Disease burden prediction",
+      "Freshwater resistome",
+      "Machine learning",
+      "Metagenomics"
+    ],
+    "summary_zh": "本研究分析45国1280份淡水宏基因组，用机器学习构建AMR风险评分，发现淡水抗性组特征与耐药结核负担相关。",
+    "innovation": "首次尝试用机器学习将淡水抗性组与人类疾病负担关联 | 构建整合环境AMR风险评分 | 按收入分层识别与不同耐药结核亚组相关的环境特征",
+    "limitation": "关联仅基于采样数据集，未证明因果关系",
+    "study_object": "淡水环境 + 淡水宏基因组样本 + 宏基因组测序与机器学习",
+    "disease": "耐药结核（DR-TB）/耐多药结核",
+    "sample_size": "n=1280份淡水宏基因组（来自45个国家）",
+    "ai_done": true,
+    "fetch_date": "2026-11-15"
+  },
+  {
+    "pmid": "42485992",
+    "title": "Targeting Fusobacterium nucleatum in cancer therapy: A new frontier in solid tumor treatment.",
+    "doi": null,
+    "journal": "European journal of medicinal chemistry",
+    "issn": "1768-3254",
+    "pub_date": "2026-11-15",
+    "authors": "Vallini Francesco; Salvucci Benedetta; Biava Mariangela; Carradori Simone; Poce Giovanna et al.",
+    "abstract": "Recently, the tumor-infiltrating microbiome (TIM) has gained increasing attention due to its pivotal role in carcinogenesis, tumor progression, resistance to chemotherapy, and immune evasion. Although the composition of these microbial communities is not yet fully elucidated, emerging studies have demonstrated that certain bacteria exert pro-tumoral effects, either through enzymatic activities or by modulating the host immune response. Among them, Fusobacterium nucleatum (Fn) represents one of the most pathogenic residents of several solid tumors, making it a novel and promising target in the fight against cancer. In detail, Fn promotes oncogenic signaling, epithelial-mesenchymal transition, inflammatory responses, and autophagy-mediated drug resistance, thereby contributing to poor clinical outcomes. This review explores different strategies to selectively target Fn, aiming to reduce its pro-tumoral behavior, spanning from drug repurposing, synthetic small molecules, natural products, and antimicrobial peptides to advanced nanoformulations, vaccine-based platforms, and sequence-specific interventions, such as antisense oligomers and microbiota-modulating strategies. A focused section covers stimuli-responsive and biomimetic nanoplatforms potentially capable of eradicating Fn and restoring chemosensitivity, while sparing the commensal gut microbiota. Collectively, these findings support the feasibility of targeting the TIM in combination with canonical anticancer regimens. Although further refinements and additional investigations are needed, targeting Fn represents a novel paradigm shift in the management of bacterially colonized solid tumors.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Fusobacterium nucleatum",
+      "Neoplasms",
+      "Antineoplastic Agents",
+      "Animals",
+      "Anti-Bacterial Agents"
+    ],
+    "keywords": [
+      "Biomimetic approaches",
+      "Chemoresistance",
+      "Fusobacterium nucleatum",
+      "Nanomedicine",
+      "Solid tumors",
+      "Tumor-infiltrating microbiome"
+    ],
+    "summary_zh": "综述探讨靶向具核梭杆菌以改善实体瘤治疗，归纳多种干预策略并指出其作为新范式的可行性。",
+    "innovation": "系统梳理靶向具核梭杆菌的多种策略，包括药物重定位、小分子、天然产物、抗菌肽、纳米制剂、疫苗及反义寡聚体等 | 聚焦可清除Fn并恢复化疗敏感性、同时保护肠道共生菌的刺激响应和仿生纳米平台 | 提出靶向肿瘤浸润微生物组联合常规抗癌治疗的新范式",
+    "limitation": "肿瘤浸润微生物组的组成尚未完全阐明 | 仍需进一步优化和更多研究",
+    "study_object": "实体瘤肿瘤微环境 + 肿瘤浸润微生物组 + 综述",
+    "disease": "实体瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-15"
+  },
+  {
+    "pmid": "42767102",
+    "title": "Gut microbiota regulation of the IL-6/STAT3 pathway: Linking hematopoiesis to colorectal cancer progression.",
+    "doi": null,
+    "journal": "International immunopharmacology",
+    "issn": "1878-1705",
+    "pub_date": "2026-11-15",
+    "authors": "Motamedi Hamid; Derakhshan-Sefidi Mozhgan; Kuhestani-Dehaghi Bentolhoda",
+    "abstract": "BACKGROUND AND AIM: Chronic gut microbiota-driven inflammation fuels colorectal cancer (CRC) progression, but how microbial signals influence systemic immunity and tumor growth remains poorly defined. This review synthesizes evidence on gut microbiota regulation of the interleukin-6 (IL-6)/signal transducer and activator of transcription 3 (STAT3) pathway as the central mechanistic link connecting intestinal dysbiosis, altered hematopoiesis, and CRC progression. Other inflammatory pathways and therapies are discussed only as they intersect with this core axis.\nMETHODS: A structured search of PubMed, Web of Science, and Scopus (January 2015-December 2024) was performed using CRC, microbiota, IL-6, and STAT3 terms. Included studies provided direct evidence from human CRC tissues, CRC cell lines, or relevant animal models.\nRESULTS: Pathobionts such as Fusobacterium nucleatum and enterotoxigenic Bacteroides fragilis directly activate STAT3, whereas beneficial commensals like Clostridium butyricum suppress IL-6/STAT3 signaling. Microbial metabolites-including tryptophan derivatives, short-chain fatty acids, and 4-hydroxybenzeneacetic acid-fine-tune STAT3 activation via host receptors (e.g., aryl hydrocarbon receptor, GPR43). Beyond local effects, chronic IL-6/STAT3 signaling systemically reprograms hematopoiesis: gut-derived inflammatory signals reach the bone marrow, activating STAT3 in hematopoietic stem and progenitor cells and skewing differentiation toward myeloid lineages. This drives expansion of immunosuppressive polymorphonuclear myeloid-derived suppressor cells that infiltrate tumors, inhibit cytotoxic T cell and natural killer cell activity, and enable immune evasion.\nCONCLUSION: The microbiota-IL-6/STAT3 interface establishes a gut-bone marrow-tumor axis linking dysbiosis to altered hematopoiesis and CRC progression. Integrative strategies targeting this axis hold promise but require further safety evaluation.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Colorectal Neoplasms",
+      "Animals",
+      "STAT3 Transcription Factor",
+      "Hematopoiesis",
+      "Interleukin-6",
+      "Gastrointestinal Microbiome",
+      "Signal Transduction",
+      "Disease Progression",
+      "Dysbiosis"
+    ],
+    "keywords": [
+      "Colorectal cancer",
+      "Gastrointestinal microbiome",
+      "Hematopoiesis",
+      "Interleukin-6",
+      "STAT3 transcription factor"
+    ],
+    "summary_zh": "本综述整合证据，阐述肠道菌群经IL-6/STAT3连接菌群失调、造血重编程与结直肠癌进展，并提出靶向该轴策略。",
+    "innovation": "提出微生物群-IL-6/STAT3界面构成肠-骨髓-肿瘤轴，将菌群失调、造血改变与结直肠癌进展相联系 | 系统整合病原共生菌、有益共生菌及微生物代谢物对IL-6/STAT3通路的调控证据 | 强调骨髓造血重编程及PMN-MDSC介导免疫逃逸在其中的作用",
+    "limitation": "靶向该轴的整合策略仍需进一步安全性评估",
+    "study_object": "结直肠癌宿主肠道菌群与肿瘤/骨髓免疫微环境；人类结直肠癌组织、结直肠癌细胞系及动物模型；结构化文献综述",
+    "disease": "结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-15"
+  },
+  {
+    "pmid": "42562299",
+    "title": "Oral exposure to perfluorooctanoic acid disrupts the microbiota-gut-liver axis and enhances the severity of chemically induced colitis in mice.",
+    "doi": null,
+    "journal": "Environmental pollution (Barking, Essex : 1987)",
+    "issn": "1873-6424",
+    "pub_date": "2026-11-15",
+    "authors": "Park Jungjae; Miller Alessandra S; Pore Gatha; Banginwar Maithili; Lee Sarah et al.",
+    "abstract": "Inflammatory bowel diseases (IBD) affect millions of patients worldwide and impair quality of life. Although genetic and environmental factors are known to disrupt the gastrointestinal (GI) epithelial barrier and increase susceptibility to IBD, the precise contribution of specific environmental exposures remains unclear. Per- and polyfluoroalkyl substances (PFAS), or \"forever chemicals,\" are widely used in consumer products and contaminate food and water sources, resulting in chronic oral exposure worldwide. Perfluorooctanoic acid (PFOA), a common PFAS, has been epidemiologically associated with the development of IBD, particularly in older adults. Here, we assessed the effects of oral PFOA exposure on the GI tract, liver, and susceptibility to colitis. C57BL/6 mice were exposed to PFOA (0.1 or 1.0 mg/kg) beginning at weaning (postnatal day [P]21) for a time course of 4 or 8 weeks. GI physiology/pathology (Ussing chambers; histology), expression of pro-inflammatory cytokines (qPCR), microbiota composition (16S sequencing), bile acid production (qPCR; LC/MS), and liver pathology (histology) were assessed. Colitis susceptibility was evaluated in genetically predisposed (IL10 knockout) mice, and in chemically induced (dextran sodium sulfate [DSS]) mouse models following PFOA exposure (8 weeks at 1.0 mg/kg). Oral PFOA exposure increased intestinal permeability, mildly increased cytokine expression, altered gut microbiota composition, disrupted liver and serum bile acids, and caused hepatic hypertrophy in the high dose and longer exposure. Although PFOA did not increase disease susceptibility in genetically predisposed IL10 KO mice, it significantly worsened DSS-induced colitis, but only in male mice. Together, these findings demonstrate that early-life PFOA exposure disrupts the gut-liver axis and may contribute to colitis development in a sex-dependent manner.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Fluorocarbons",
+      "Caprylates",
+      "Colitis",
+      "Mice",
+      "Liver",
+      "Male",
+      "Mice, Inbred C57BL",
+      "Female",
+      "Gastrointestinal Microbiome",
+      "Administration, Oral",
+      "Environmental Pollutants"
+    ],
+    "keywords": [
+      "Bile acids",
+      "Colitis",
+      "Enterohepatic",
+      "Inflammation",
+      "Microbiome",
+      "Perfluorooctanoic acid"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-15"
+  }
+]
