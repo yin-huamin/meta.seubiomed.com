@@ -1,0 +1,138 @@
+[
+  {
+    "pmid": "42723362",
+    "title": "Structure and Function of a Multi-Megadalton Virus-Like Proteolytic Dodecahedron.",
+    "doi": null,
+    "journal": "Angewandte Chemie (International ed. in English)",
+    "issn": "1521-3773",
+    "pub_date": "2026-11-16",
+    "authors": "Madej Mariusz; Rodríguez-Banqueri Arturo; Mizgalska Danuta; Szmigielski Borys; Nowakowska Zuzanna et al.",
+    "abstract": "Natural pentamer dodecahedra (Ddhs) span six orders of magnitude in diameter. Among proteins, only two catalytic Ddhs have been structurally characterized: lumazine synthase (LS) and the core of pyruvate dehydrogenase (PDH). Zuzalysin (ZUZ) is a ≈95-kDa metallopeptidase secreted for virulence by Porphyromonas gingivalis. Calcium converts latent flexible monomers into active ≈0.5-MDa pentamers that further assemble hierarchically into bipentamers, tripentamers, and a ≈5.6-MDa, ≈355-Å virus-like dodecahedron (DdhZUZ). Experimental structures (1.8-3.6 Å) across these states reveal the molecular basis of activation, association, and catalysis, culminating in DdhZUZ, which is physiologic, exceeds small viral capsids, and has 20 main entry pores and 60 lumen-facing active sites. ZUZ represents the largest catalytic protein assembly resolved at high resolution, exceeding LS, PDH, and major peptidase complexes in size and/or resolution.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Models, Molecular",
+      "Porphyromonas gingivalis",
+      "Proteolysis",
+      "Crystallography, X-Ray"
+    ],
+    "keywords": [
+      "bacterial virulence",
+      "cryoelectron microscopy",
+      "dodecahedron",
+      "icosahedral symmetry",
+      "multimeric metallopeptidase",
+      "oral microbiome dysbiosis",
+      "periodontal disease",
+      "x‐ray crystallography",
+      "zymogen activation"
+    ],
+    "summary_zh": "通过1.8–3.6 Å结构解析，揭示ZUZ钙激活、寡聚组装及形成约5.6-MDa病毒样十二面体的机制。",
+    "innovation": "解析ZUZ从潜伏单体到活性五聚体、双/三五聚体直至约5.6-MDa病毒样十二面体的多状态结构 | 揭示DdhZUZ具有20个主入口孔和60个面向腔内的活性位点 | 报道ZUZ为目前高分辨率解析的最大催化蛋白组装体，尺寸和/或分辨率超过LS、PDH及主要肽酶复合物",
+    "limitation": "未描述",
+    "study_object": "牙龈卟啉单胞菌 + 分泌金属肽酶ZUZ蛋白 + 高分辨率结构解析",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-16"
+  },
+  {
+    "pmid": "43037257",
+    "title": "Fecal microbiota transplantation for pediatric Clostridioides difficile infection: efficacy, challenges, and the path to next-generation microbiome therapies.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-16",
+    "authors": "Nicholson Maribeth R; Conrad Máire A; Diaz De Leon Samira; Strength Rachel; Kelsen Judith R et al.",
+    "abstract": "Clostridioides difficile infection (CDI) is an increasing cause of morbidity in children, with recurrent disease posing substantial therapeutic challenges. Antibiotic therapy remains the cornerstone of initial management; however, up to 30% of children experience recurrence, and those with underlying comorbidities face recurrence rates as high as 65%. Fecal microbiota transplantation (FMT) has demonstrated superior efficacy over antibiotics for recurrent CDI (rCDI) in adults and has emerged as the most effective available intervention for pediatric rCDI. In this review, we synthesize current evidence on FMT efficacy, microbiome changes, and safety in children with CDI. Data from large multicenter cohort studies demonstrate cure rates exceeding 80%, with comparable efficacy observed in high-risk subpopulations, including those with inflammatory bowel disease and immunocompromising conditions. Critical research gaps remain, including the absence of randomized controlled trials and limited long-term safety data in children. Despite demonstrated effectiveness, significant barriers limit FMT accessibility for children. The COVID-19 pandemic has substantially impacted availability, and current regulatory changes have further restricted access. The lack of FDA-approved live biotherapeutic products approved for CDI in children creates additional challenges. We critically examine the emerging pipeline of next-generation microbiome-based therapies and identify the steps required to ensure children with recurrent CDI have access to safe, effective, and approved treatments.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Fecal Microbiota Transplantation",
+      "Clostridium Infections",
+      "Child",
+      "Clostridioides difficile",
+      "Treatment Outcome",
+      "Gastrointestinal Microbiome",
+      "Recurrence",
+      "Anti-Bacterial Agents"
+    ],
+    "keywords": [
+      "Fecal transplant",
+      "children",
+      "live biotherapeutics",
+      "microbiome, Clostridioides difficile",
+      "microbiota"
+    ],
+    "summary_zh": "综述儿童复发性艰难梭菌感染中粪菌移植的疗效、菌群变化、安全性及可及性障碍，并展望下一代微生物疗法。",
+    "innovation": "系统整合儿童CDI中FMT疗效、菌群变化与安全性证据 | 批判性评估下一代微生物疗法管线并提出儿童可及性路径",
+    "limitation": "缺乏随机对照试验 | 儿童长期安全性数据有限",
+    "study_object": "儿童复发性艰难梭菌感染患者 + 粪便微生物群 + 粪便微生物移植（综述）",
+    "disease": "艰难梭菌感染（复发性）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-16"
+  },
+  {
+    "pmid": "43037395",
+    "title": "Japanese encephalitis virus infection reshapes the gut microbiome and induces colonic inflammation in neonatal mice.",
+    "doi": null,
+    "journal": "mBio",
+    "issn": "2150-7511",
+    "pub_date": "2026-11-16",
+    "authors": "Satheesan Anirudh; Priyadarsani Akasmika; Basu Anirban",
+    "abstract": "Japanese encephalitis virus (JEV), a neurotropic flavivirus, predominantly causes severe infection in children, leading to neuropsychiatric complications. Given that the juvenile period is a transitional window for the gut microbiota to develop into a stable community profile, any alterations to the microbiota during infections can result in chronic inflammation. Therefore, we investigated changes in the gut microbiota of neonatal mice during the early and late stages of JEV infection. Postnatal day 10, BALB/c mice challenged with JEV succumbed to acute infection at 6 to 7 days post-infection. This severity was marked by a surge in systemic pro-inflammatory cytokines (TNF-α, IFN-γ, IL-6, and MCP-1) and reduced food intake. Fecal 16S rRNA V3-V4 sequencing revealed distinct β-diversity between mock and JEV-infected groups, with the dominant phyla being Firmicutes, Bacteroidota, and Proteobacteria. The relative abundance of these phyla shifted, with Firmicutes decreasing from ~63.7% (control) to ~39% (JEV), whereas Proteobacteria remained unchanged in JEV. The Firmicutes/Bacteroidota ratio decreased in JEV, along with a reduction in Lactobacillus. Simultaneously, altered mucosal secretion, reduced tight-junction protein ZO-1, increased pNF-κB, and cleaved caspase-3 together indicated colonic inflammation. Prediction of microbial pathways using PICRUSt2 suggested a reduction in specific pathways associated with beneficial secondary metabolites and short-chain fatty acids (SCFAs) in JEV. Intragastric administration of the SCFA cocktail prolonged survival and delayed the onset of clinical signs and the inflammatory response. Our findings suggest that systemic inflammation and reduced feeding during an acute infection could result in colonic dysbiosis, reduced beneficial bacteria, and trigger inflammation. SCFAs displayed a transient therapeutic effect in JEV infection, highlighting the potential of gut microbiota modulation to manage acute viral infection.IMPORTANCEJapanese encephalitis remains a leading cause of viral encephalitis in children across the Asia-Pacific region, with new outbreaks driven by evolving demographic factors. The need for targeted therapies beyond existing supportive care underscores the need for new host-directed interventions. Our findings suggest that gut-brain axis interactions may play a role in acute viral infections, potentially amplifying disease severity through infection-driven reduction in feeding, increased cytokine production, and shifts in the gut microbiome. We propose that SCFA supplementation can serve as a microbiota-modulating strategy that offers a safe, translatable approach to managing inflammation and JEV outcomes in pediatric viral encephalitis. This could be utilized as a supplement along with supportive care in other flavivirus infections.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "CNS infections",
+      "Japanese encephalitis",
+      "gut microbiota",
+      "gut-brain axis",
+      "inflammation",
+      "neonatal microbiota",
+      "short-chain fatty acids"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-16"
+  },
+  {
+    "pmid": "43037253",
+    "title": "Fragment End Motif Analysis of Microbial Cell-Free DNA Improves Detection of Pathogens over Noise from Contaminants and Commensals.",
+    "doi": null,
+    "journal": "Clinical chemistry",
+    "issn": "1530-8561",
+    "pub_date": "2026-11-16",
+    "authors": "Zhang Haikun; Dominguez Eddie G; Junak Mary; Lauer Kate V; Werner Nicole L et al.",
+    "abstract": "BACKGROUND: Circulating plasma microbial DNA (mDNA) is a promising biomarker for sepsis, but its accuracy is hindered by the low abundance of pathogen DNA and the presence of contaminants and commensals. mDNA enrichment using a selection of short fragments and single-stranded DNA (ssDNA) library preparation can improve pathogen yield but also increases background noise. Since nucleotide representation at mDNA fragment ends is biased by enzymatic digestion in vivo, we hypothesized that analysis of 5' and 3' mDNA fragment end motifs in enriched ssDNA libraries could improve pathogen detection.\nMETHODS: We performed deep metagenomic sequencing of size-selected ssDNA libraries from 38 plasma samples, including 20 samples from 5 sepsis patients, 18 samples from 6 patients without infection, and 6 no-template controls. Across these samples, we compared observed-to-expected ratios for end motifs in mDNA fragments from candidate pathogens and contaminants. For each candidate pathogen, we evaluated the accuracy of combining end motifs with microbial abundance for detection of infection.\nRESULTS: mDNA fragments from infection-causing pathogens were biased in the nucleotide motifs at both fragment ends compared with contaminants, with the highest enrichment observed in the GG dinucleotide at the 3' end (P < 0.0001). Integrating microbial abundance with end motif features improved differentiation between clinically significant pathogens and corresponding noise from the same microbes in noninfection samples. For Staphylococcus infections, area under the receiver operating characteristic curve for the combination model was higher than than that for microbial abundance alone (0.892 vs 0.431, respectively; P = 0.018).\nCONCLUSIONS: mDNA end motif analysis improves signal-to-noise ratio beyond microbial abundance alone and improves pathogen detection in plasma metagenomic sequencing.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-16"
+  }
+]
