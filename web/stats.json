@@ -1,7 +1,7 @@
 {
-  "total": 5216,
+  "total": 5222,
   "by_type": {
-    "研究论文": 3985,
+    "研究论文": 3991,
     "综述": 668,
     "Benchmark": 160,
     "临床试验": 148,
@@ -10,7 +10,7 @@
     "案例报告": 69
   },
   "by_year": {
-    "2026": 1214,
+    "2026": 1220,
     "2025": 811,
     "2024": 681,
     "2023": 558,
@@ -32,7 +32,7 @@
     "NPJ biofilms and microbiomes": 116,
     "Nature microbiology": 107,
     "Frontiers in immunology": 103,
-    "Proceedings of the National Academy of Sciences of the United States of America": 98,
+    "Proceedings of the National Academy of Sciences of the United States of America": 99,
     "Nutrients": 94,
     "Genome biology": 89,
     "Briefings in bioinformatics": 81,
@@ -55,9 +55,9 @@
     "帕金森病": 27,
     "炎症性肠病": 22,
     "2型糖尿病": 22,
+    "特应性皮炎": 18,
     "感染性疾病": 18,
     "脓毒症": 17,
-    "特应性皮炎": 17,
     "自闭症谱系障碍": 17,
     "囊性纤维化": 16,
     "牙周炎": 16,

@@ -1,0 +1,271 @@
+[
+  {
+    "pmid": "43013553",
+    "title": "Lipid droplets buffer hydrogen sulfide-induced redox imbalance.",
+    "doi": null,
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "pub_date": "2026-11-17",
+    "authors": "Hanna David A; Kumar Roshan; Ji Yuanyuan; Wong Harrison K A; Lyssiotis Costas A et al.",
+    "abstract": "The electron transport chain is a signaling hub for hydrogen sulfide (H2S) that serves both as a respiratory substrate and an inhibitor. While acute sulfide toxicity is well characterized, cellular adaptations to chronic H2S, particularly microbially-derived sulfide exposure in colon, is poorly understood. We report that chronic, low-level H2S exposure (4 to 20 µM) drives robust carbon sequestration in lipid droplets (LD) across several human cell lines, driven by a coordinated remodeling of redox and nucleotide metabolism. Specifically, H2S-induced reductive shifts in nicotinamide adenine dinucleotide (NAD) and coenzyme Q (CoQ) pools are accompanied by glycerol-3-phosphate accumulation and cytidine triphosphate (CTP) depletion. Lipidomic analysis reveals increased neutral lipid synthesis and triacylglyceride accumulation concomitant with decreased CTP-dependent synthesis of membrane phospholipids. Mitochondrial expression of a water-generating NADH oxidase attenuates LD accumulation and spatially confines the origin of H2S-induced reductive stress signaling to this compartment. Interestingly, LD abundance increases even after H2S withdrawal, continuing over 48 h, during which time the reductively-shifted NAD and CoQ pools slowly reoxidize. Inhibition of fatty acid synthesis during sulfide exposure impairs cellular recovery of respiration. These findings establish an active role for LDs in stress response and reveal that lipid biogenesis is a strategy for countering H2S-induced redox imbalance. The sulfide-LD-redox axis uncovered in this study has implications for understanding how gut-derived H2S, shaped by diet and microbiome, can influence metabolic health.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Oxidation-Reduction",
+      "Hydrogen Sulfide",
+      "Humans",
+      "Lipid Droplets",
+      "NAD",
+      "Mitochondria",
+      "Ubiquinone"
+    ],
+    "keywords": [
+      "lipid droplet",
+      "metabolism",
+      "redox"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "42847688",
+    "title": "Integrated multi-omics and metabolic modeling links structure to function in high-performing electrosynthetic biofilm communities.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-17",
+    "authors": "Stroek Rozanne; Gabriëls Minke; Winkelhorst Marijn; van den Broek Marcel; Pabst Martin et al.",
+    "abstract": "Microbial electrosynthesis (MES) is a promising technology for the valorization of CO2 into industrially relevant building blocks. The high-performing MES systems in terms of production rates of acetate (12.5-19.7 mmol L-1catholyte day-1), butyrate (1.9-12.2 mmol L-1catholyte day-1), and caproate (0.6-0.9 mmol L-1catholyte day-1) discussed in this study consist of mixed microbial communities. However, the microbial community members, metabolic pathways, and interactions driving product formation in MES communities remain poorly understood. To overcome these challenges, we conducted a comprehensive characterization of three high-performing MES communities, combining multi-omics with metagenome-scale metabolic modeling. Using a high-resolution metagenomic pipeline, we reconstructed high-quality genomes of 25 metagenome-assembled genomes present in our reactors, including six fully circular genomes. We report the presence of Clostridium aromativorans for the first time in a gas-fermenting system. In particular, our findings identified three acetogenic species, Eubacterium limosum, Sporomusa sphaeroides, and C. aromativorans, as key contributors to the production of acetate, butyrate, and caproate via the Wood-Ljungdahl and the reverse β-oxidation pathways. In addition, we found genes related to lactate and ethanol production from acetyl-CoA, along with proteomic evidence of lactate production. This paves the way for investigating the role of cross-fed metabolites such as lactate and ethanol as electron donors in chain elongation. Finally, meta-genome-scale metabolic modeling suggests that the communities might be sustained by the cross-feeding of specific cofactors such as pyridoxine, pantothenate, biotin, and thiamin. This study provides key insights into the structure and function of electrosynthetic communities, bringing us closer to the rational engineering of MES systems.IMPORTANCEMicrobial electrosynthesis (MES) offers a promising route to transform CO2 and renewable electricity into valuable platform chemicals. However, the microbial ecology governing the assembly and function of these systems remains poorly understood, limiting our ability to engineer them. By integrating high-resolution multi-omics with metabolic modeling, this study provides a systems-level framework to dissect the structure and function of electrosynthetic microbial communities. Understanding which organisms drive carbon fixation and chain elongation, how electrons and intermediates are transferred within the biofilm, and how metabolic dependencies structure these communities is essential for improving productivity and product specificity in MES. More broadly, this work highlights how integrated multi-omics approaches can resolve the functional organization of complex microbial ecosystems and provides methodological advances that are broadly applicable to the study and engineering of microbial communities in autotrophic, electricity-driven biotechnologies.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Multiomics",
+      "Biofilms",
+      "Butyrates",
+      "Acetates",
+      "Metabolic Networks and Pathways",
+      "Fermentation",
+      "Metagenome"
+    ],
+    "keywords": [
+      "CO2 reduction",
+      "Clostridium aromativorans",
+      "Eubacterium limosum",
+      "Sporomusa sphaeroides",
+      "biofilm",
+      "gas fermentation",
+      "metaproteomics",
+      "microbial communities",
+      "microbial electrosynthesis",
+      "whole-genome sequencing"
+    ],
+    "summary_zh": "结合多组学与代谢建模解析三套高效微生物电合成群落的结构与功能，鉴定关键产物菌及交叉喂养机制。",
+    "innovation": "首次在气体发酵系统中报道Clostridium aromativorans | 重建25个高质量MAG（含6个完整环状基因组），并整合多组学与宏基因组尺度代谢模型解析电合成群落结构-功能 | 提出乳酸/乙醇及吡哆醇、泛酸、生物素、硫胺素等交叉喂养可能维持群落",
+    "limitation": "未描述",
+    "study_object": "微生物电合成系统混合菌群生物膜 + 宏基因组/多组学与宏基因组尺度代谢建模",
+    "disease": "无",
+    "sample_size": "3个高效MES群落",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "42878463",
+    "title": "MIMEco: multi-objective metabolic modeling to predict and explain pairwise interactions.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-17",
+    "authors": "Lambert Anna; Chaffron Samuel; Eveillard Damien",
+    "abstract": "UNLABELLED: Genome-scale metabolic models provide a mechanistic framework for quantitatively exploring an organism's physiology and its interactions with the environment. However, their use in microbial community modeling has been limited since it usually relies on community-wide objective functions or the integration of community abundance data. Nevertheless, predicting microbial interactions is crucial for understanding ecosystem dynamics and thus requires dedicated methods. Here, we introduce Metabolic Interaction Modeling in Ecosystems (MIMEco), an open-source Python package that predicts pairwise microbial interactions through multi-objective optimization. MIMEco does not require abundance data, provides a user-friendly workflow, and predicts interaction types, strengths, and exchanged metabolites directly from Pareto fronts. In this study, MIMEco is validated by replicating experimental results of an in vitro co-culture of two auxotrophic Escherichia coli strains. By combining mechanistic inference with usability, MIMEco makes metabolic interaction modeling accessible to non-specialists while remaining flexible for experts, establishing a versatile platform for advancing metabolic ecology across biomedical and environmental fields.\nIMPORTANCE: Deciphering microbial interactions through in vitro experiments is often costly and limited in scope, while existing bioinformatics tools can be complex to use or limited by actual sample data. Metabolic Interaction Modeling in Ecosystem (MIMEco) offers an open-source and user-friendly multi-objective framework for predicting and quantifying pairwise microbial ecosystem interactions and nutrient exchanges. We demonstrate its reliability by replicating a well-characterized laboratory experiment, showing that MIMEco can accurately reflect real biological behavior. This tool improves the community's ability to explore and understand metabolic interaction mechanisms underpinning microbial ecosystems.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Escherichia coli",
+      "Models, Biological",
+      "Microbial Interactions",
+      "Software",
+      "Computational Biology",
+      "Ecosystem"
+    ],
+    "keywords": [
+      "Python package",
+      "genome-scale metabolic modeling",
+      "metabolic interaction",
+      "microbiome",
+      "multi-objective optimization"
+    ],
+    "summary_zh": "开发MIMEco开源Python包，用多目标优化预测微生物成对互作，并在两株营养缺陷型大肠杆菌共培养中验证。",
+    "innovation": "无需丰度数据 | 通过多目标优化从Pareto前沿直接预测互作类型、强度和交换代谢物 | 开源且用户友好，便于非专家使用",
+    "limitation": "验证仅基于两株营养缺陷型大肠杆菌的体外共培养",
+    "study_object": "体外 + 两株营养缺陷型大肠杆菌共培养 + 基因组尺度代谢模型/多目标优化",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "42954466",
+    "title": "Gut microbiome and metabolomics reveal the role of thioproline in attenuating colorectal cancer-associated inflammation.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-17",
+    "authors": "Liu Jingjing; Li Wenchao; Qi Mingyang; Zhao Jian; Wu Jing et al.",
+    "abstract": "Colorectal cancer (CRC) is one of the top three cancers globally in terms of both incidence and mortality, and its development may be influenced by an inflammatory environment in the intestines, often associated with gut microbiota dysbiosis. Food bioactives could modulate gut microbiota through anti-inflammatory and epigenetic mechanisms. Given the significant role of thioproline as a food bioactive with antioxidant properties, its potential to modulate gut microbiota and mitigate CRC remains largely unexplored. This study aims to understand the effects of thioproline on gut microbiota community and investigate the mechanisms through which thioproline regulates gut microbiota and exerts its anticancer effects. Fecal and intestinal tissue samples were collected from health, CRC, and thioproline-treated CRC mice. The metagenome and metabolome data revealed that thioproline treatment significantly altered the gut microbiota community composition and metabolism in CRC mice. These CRC-associated gut microbiota and bacterial metabolites returned to normal levels. Moreover, under thioproline treatment, the microbial-metabolite interactions in CRC mice shifted toward patterns more closely resembling those observed in healthy mice. Thioproline treatment increased linoleic acid levels in mice, indicating its role in promoting linoleic acid metabolism to therapeutically restore homeostasis and alleviate inflammation in CRC. This was further supported by hematoxylin and eosin staining, which demonstrated that thioproline alleviated inflammation in CRC mice. Our study highlights thioproline's dual role in regulating the gut microbiota community and bacterial metabolism, modulating bacteria-host interactions, and ultimately reducing inflammation in CRC. These findings offer valuable insights for future research and therapeutic applications.IMPORTANCEColorectal cancer (CRC) is associated with gut microbiota dysbiosis and intestinal inflammation. While food bioactives can modulate the microbiome, whether thioproline exerts inhibitory effects against CRC through microbial regulation remains unknown. Using integrated metagenomics and metabolomics, we show that thioproline treatment restores the gut microbiota composition and bacterial metabolites disrupted by CRC to near-normal levels. Importantly, thioproline remodels microbial metabolite interaction networks, elevates linoleic acid levels, and alleviates intestinal inflammation. This study provides a systems-level perspective on how a single dietary bioactive compound reshapes the gut microbial ecosystem and its metabolic landscape to reduce inflammation in CRC. Our findings suggest a potential role for microbiome-targeted nutritional strategies in protecting against CRC progression through modulation of the gut microbiota and intestinal microenvironment.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "Colorectal Neoplasms",
+      "Metabolomics",
+      "Gastrointestinal Microbiome",
+      "Mice",
+      "Inflammation",
+      "Thiazolidines",
+      "Male",
+      "Metabolome",
+      "Mice, Inbred C57BL"
+    ],
+    "keywords": [
+      "colorectal cancer",
+      "inflammation",
+      "metabolome",
+      "microbiome",
+      "thioproline"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "42872861",
+    "title": "Environmental gradients shape the hydrocarbon-degrading microbiome in two mid-Atlantic bays.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-17",
+    "authors": "Patabandige Dinuka L J; John Jojy; Ortiz Maximiliano; Campbell Barbara J",
+    "abstract": "UNLABELLED: Hydrocarbons are recalcitrant organic matter that is released into the environment via natural and anthropogenic activities. We hypothesized that abiotic and biotic factors, including salinity, temperature, seasonality, microbial interactions, and functional redundancy, influence the abundance and activity of potential hydrocarbon degraders in the Delaware and Chesapeake Bays. We identified key genes in hydrocarbon degradation pathways in metagenomes, metatranscriptomes, and metagenome-assembled genomes (MAGs) from these estuaries. In the surface waters of both estuaries, aerobic aromatic and alkane degradation pathways predominated, with higher gene abundances observed in low-salinity spring and summer samples. Salinity significantly structured both hydrocarbon-degrading MAG abundances, alongside temperature, nitrate, and silicate concentrations, and hydrocarbon degradation gene expression, which additionally varied seasonally, with the highest relative expression of aromatic degradation genes in low-salinity samples. Catechol degradation pathways exhibited high functional redundancy, whereas the naphthalene degradation pathway showed restricted distribution. Co-expression analysis revealed that Burkholderiales displayed condition-dependent metabolic coupling, while Pseudomonadales integrated hydrocarbon degradation with fermentation and central metabolism, demonstrating complementary strategies that support multi-scale ecosystem resilience. Together, these results support our hypothesis that environmental gradients and taxon-specific metabolic strategies jointly structure the abundance and in situ activity of hydrocarbon degraders, with implications for predicting ecosystem responses to hydrocarbon inputs under changing conditions.\nIMPORTANCE: Coastal estuaries are among the most contaminated aquatic environments on Earth, receiving continuous hydrocarbon inputs from industrial activity, urban runoff, and natural sources. Microorganisms are the primary agents of hydrocarbon breakdown in these systems, yet predicting when and where this capacity is active and how resilient it is to environmental change remains a major challenge. Using paired genomic and transcriptomic data from microbial genomes across two major mid-Atlantic estuaries, we show that hydrocarbon degradation capacity is not uniformly distributed but is instead shaped by salinity, nutrients, and seasonality in pathway-specific ways. Critically, dominant degrader taxa employ fundamentally different metabolic strategies to sustain this function across fluctuating conditions, providing a form of community-level insurance against environmental disturbance. These findings advance our ability to predict microbial hydrocarbon degradation in coastal systems and inform nature-based approaches to bioremediation under increasing climate and anthropogenic pressures.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Hydrocarbons",
+      "Microbiota",
+      "Metagenome",
+      "Salinity",
+      "Bacteria",
+      "Biodegradation, Environmental",
+      "Seasons",
+      "Seawater"
+    ],
+    "keywords": [
+      "metagenome",
+      "metagenome-assembled genome (MAGs)",
+      "metatranscriptome",
+      "microbial hydrocarbon degradation"
+    ],
+    "summary_zh": "研究利用宏基因组、宏转录组和MAGs，揭示两个海湾表层水烃降解微生物组受环境梯度及类群代谢策略共同塑造。",
+    "innovation": "联合宏基因组、宏转录组和MAGs解析两个海湾表层水的烃降解微生物组 | 揭示盐度、温度、硝酸盐、硅酸盐和季节对烃降解基因丰度与表达的路径特异性影响 | 发现优势降解类群采用互补代谢策略支持群落韧性",
+    "limitation": "未描述",
+    "study_object": "河口环境（Delaware和Chesapeake湾）表层水微生物组；宏基因组、宏转录组和MAGs",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "43043126",
+    "title": "Crosstalk between immune cells and keratinocytes in atopic dermatitis: mechanism and therapeutic implications.",
+    "doi": null,
+    "journal": "Journal of molecular cell biology",
+    "issn": "1759-4685",
+    "pub_date": "2026-11-17",
+    "authors": "Li Yanxiao; Wang Cheng; Hou Lijing; Yang Qing; Fu Jialei",
+    "abstract": "Atopic dermatitis (AD) is a prevalent chronic inflammatory skin disorder characterized by genetic susceptibility, epidermal barrier dysfunction, and immune dysregulation. This review systematically expounds and analyzes the intricate cellular interactions between immune cells and keratinocytes (KCs) and their central roles in AD pathogenesis. The analysis emphasizes bidirectional crosstalk among diverse immune populations, such as Th2, Th17, regulatory T, and cytotoxic T cells, dendritic cells, and macrophages, mediated by cytokines, chemokines, and surface molecules, as well as how this cellular communication orchestrates key disease features, including inflammation, barrier breakdown, and chronic itch. Key signaling pathways, such as the JAK-STAT, NF-κB, and MAPK pathways, along with molecular targets including thymic stromal lymphopoietin, interleukin-4 receptor alpha subunit (IL-4Rα), OX40/OX40 ligand, protease-activated receptor 2, transient receptor potential vanilloid channels, and aryl hydrocarbon receptor, are critically evaluated for their contributions to disease mechanisms. The review also surveys current and emerging therapeutic approaches, ranging from biologics targeting IL-4Rα/IL-13 and small-molecule inhibitors to combination regimens and novel strategies involving microbiome modulation and gene editing. Future investigations should advance personalized medicine paradigms to improve the long-term control and management of AD.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "atopic dermatitis",
+      "cell crosstalk",
+      "immune cells",
+      "keratinocytes",
+      "therapeutic strategies"
+    ],
+    "summary_zh": "本综述系统分析免疫细胞与角质形成细胞在特应性皮炎中的双向串扰、关键通路及治疗意义。",
+    "innovation": "系统阐述免疫细胞与角质形成细胞的双向串扰及其在特应性皮炎发病中的核心作用 | 综合评估JAK-STAT、NF-κB、MAPK等关键信号通路及分子靶点 | 概述包括微生物组调控和基因编辑在内的新兴治疗策略",
+    "limitation": "未描述",
+    "study_object": "未描述",
+    "disease": "特应性皮炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  },
+  {
+    "pmid": "42841659",
+    "title": "Escherichia coli-derived enterobactin is associated with delayed gut microbiome maturation in infants born to mothers with obesity.",
+    "doi": null,
+    "journal": "mSystems",
+    "issn": "2379-5077",
+    "pub_date": "2026-11-17",
+    "authors": "Kovenskiy Artur; Mukhanbetzhanov Nurislam; Jarmukhanov Zharkyn; Duisebayeva Arailym; Morenko Marina et al.",
+    "abstract": "Maternal obesity has been increasingly recognized as a factor influencing early-life microbiome development. However, its impact on the infant gut resistome and virulome remains insufficiently characterized. In this prospective longitudinal study, we investigated gut microbiome composition, antibiotic resistance genes (ARGs), and virulence factor profiles in infants born to mothers with obesity and normal weight during the first year of life. Shotgun metagenomic sequencing was performed on maternal and infant fecal samples collected at birth and at 1, 3, 6, and 12 months. Infants born to obese mothers exhibited delayed microbiome maturation characterized by early enrichment of Pseudomonadota, particularly Escherichia coli and Klebsiella pneumoniae, and reduced abundance of Bifidobacterium species. This compositional pattern was accompanied by a significantly higher ARG burden in early life, including enrichment of genes associated with antibiotic inactivation, efflux mechanisms, and β-lactam resistance. Although taxonomic differences between groups were no longer statistically detectable at the 12-month time point, where the sample size was smallest, functional disparities in the resistome persisted. Additionally, infants born to obese mothers demonstrated increased relative abundance of secretory virulence-associated genes and E. coli-derived enterobactin, suggesting enhanced iron-scavenging capacity and competitive potential of Enterobacteriaceae. Together, these findings suggest that maternal obesity is associated with altered early microbial ecological dynamics, promotes resistome expansion, and may delay transition toward a stable Bacteroidota- and Bacillota-dominated microbiome.IMPORTANCEThe first year of life is a critical window for gut microbiome development, during which early microbial disturbances may influence later health. This study shows that maternal obesity is associated not only with altered infant microbial succession but also with functional changes in the infant gut microbiome, including greater antibiotic resistance gene burden and enrichment of virulence-associated traits. The finding of increased Escherichia coli-derived enterobactin suggests that iron-scavenging mechanisms may help Enterobacteriaceae persist during early infancy and may contribute to delayed microbial maturation. By linking maternal obesity with infant microbiome development, resistome expansion, and virulence-related functions, this work provides new insight into how maternal metabolic status may shape early microbial ecology and potential microbiome-associated risks.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Escherichia coli",
+      "Gastrointestinal Microbiome",
+      "Infant",
+      "Enterobactin",
+      "Pregnancy",
+      "Infant, Newborn",
+      "Obesity",
+      "Feces",
+      "Virulence Factors",
+      "Prospective Studies",
+      "Longitudinal Studies"
+    ],
+    "keywords": [
+      "antibiotic resistance",
+      "gut microbiome",
+      "infants",
+      "obesity",
+      "virulence factor"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-17"
+  }
+]
