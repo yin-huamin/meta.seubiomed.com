@@ -1,0 +1,66 @@
+[
+  {
+    "pmid": "43049611",
+    "title": "Fungal lignocellulose-degradation potential is associated with bacterial metabolic dysbiosis in the human gut.",
+    "doi": null,
+    "journal": "The ISME journal",
+    "issn": "1751-7370",
+    "pub_date": "2026-11-18",
+    "authors": "Liu Fei; Liu Ming-Yue; Zeng Zhao-Qing; Zhuang Wen-Ying; Cao Bin et al.",
+    "abstract": "Fungi encode diverse carbohydrate-processing functions, yet the genomic basis of their lignocellulose-degradation potential and its relevance to the human gut remain poorly understood. Here, we experimentally assessed cellulase-, xylanase-, and laccase-associated activities across 762 environmentally derived fungal isolates and sequenced 170 representative strains, retaining 160 genomes for genome-phenotype analyses. By integrating functional annotations with orthogroup presence-absence variation and machine-learning models, we identified lignocellulose-degradation-associated genomic features that improved phenotype prediction beyond conventional annotation alone. We then applied this framework to 2,116 publicly available fungal genomes and 704 cultivated gut fungal genomes from a previously published collection to construct a non-redundant catalogue of lignocellulose-degradation-associated genes (LDAGs), comprising canonical degradative enzymes, annotated phenotype-associated features, and candidate orthogroups. Across fungal lineages, xylanase-associated potential was broadly distributed, cellulase-associated potential showed an intermediate pattern, whereas laccase-associated oxidative potential was concentrated in a more restricted subset of taxa. Analysis of approximately 1,500 publicly available human gut metagenomes identified disease-associated differences in LDAG profiles in atherosclerotic cardiovascular disease (ACVD), inflammatory bowel disease (IBD), and obesity. Under stringent read-remapping criteria, total LDAG abundance differences remained significant in ACVD and IBD but were attenuated in obesity, whereas compositional differences persisted across all three cohorts with modest effect sizes. These fungal genomic signatures covaried with bacterial taxa, including Escherichia coli, and pathways involved in central carbon and carbohydrate metabolism. Together, our findings establish a phenotype-informed genomic framework for resolving fungal lignocellulose-degradation potential and reveal its consistent association with disease-related bacterial and metabolic configurations in the human gut.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Fungal genomics",
+      "human gut microbiome",
+      "lignocellulose degradation",
+      "machine learning",
+      "metabolic disease",
+      "pangenome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-18"
+  },
+  {
+    "pmid": "43049533",
+    "title": "Bidirectional Interplay Between the Skin Microbiota and the Host: An EAACI Task Force Report.",
+    "doi": null,
+    "journal": "Allergy",
+    "issn": "1398-9995",
+    "pub_date": "2026-11-18",
+    "authors": "Callewaert Chris; Spacova Irina; Minnebo Yorick; De Pessemier Britta; De Muynck Magali et al.",
+    "abstract": "The skin microbiome is a diverse community of bacteria, fungi, archaea, and viruses colonizing the human skin and is thought to play an important role in skin health. Skin homeostasis and immunity are influenced by a dynamic interplay between the host immune system, the skin microbiome, and other host factors. Disruption of the skin microbiome well-functioning by environmental, lifestyle, and host-related factors can lead to dysbiosis, which has been associated to some pathological skin conditions, resulting in skin inflammation and an impaired barrier function. Building on the previous work from the EAACI Task Force that emphasized how environmental and lifestyle factors impact host resilience through the skin microbiome, the present review focuses on intrinsic host factors. We provide a comprehensive discussion on how the skin composition differs at different anatomical locations and is influenced by age, gender, hormones, immune system activity, and how the host \"multi-omes\" (genome, transcriptome, proteome, and metabolome) interact with the skin microbiome. Additionally, we review current strategies to modify skin microbiome functions, including the role of diseases and medication, as well as topical microbiome-targeting biotic and bacteriophage therapies. Overall, this review highlights current knowledge and key research gaps, offering insights to guide future investigations and therapeutic innovations in skin health.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "dysbiosis",
+      "gut–skin axis",
+      "homeostasis",
+      "host",
+      "interplay",
+      "microbiome‐based therapeutics",
+      "skin microbiome"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-18"
+  }
+]
