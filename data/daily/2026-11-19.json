@@ -1,0 +1,150 @@
+[
+  {
+    "pmid": "43055730",
+    "title": "Plant pathogenic continuum in the microbiome era.",
+    "doi": null,
+    "journal": "FEMS microbiology reviews",
+    "issn": "1574-6976",
+    "pub_date": "2026-11-19",
+    "authors": "Rosić Iva; Berić Tanja; Stanković Slaviša; Nikolić Ivan",
+    "abstract": "Plant pathology has traditionally relied on a binary distinction between pathogens and non-pathogens, or between harmful and beneficial microorganisms. However, this distinction is becoming increasingly difficult to maintain in the microbiome era. For many plant-associated microorganisms, pathogenicity is not a fixed property but varies along a gradient depending on host physiology, microbial strain, environmental conditions, resident microbiota, and time. This review discusses a plant pathogenicity continuum as a framework for interpreting this fluidity. Within this continuum, we discuss four interconnected positions: true or near-deterministic pathogens, context-dependent pathogens, opportunistic pathogens, and pathobiome- or dysbiosis-associated disease states. These positions should not be treated as rigid categories, but as reference points that help compare how strongly disease depends on the host, environment and microbiome interactions. We also discuss the strain-level problem in plant pathology, because species or pathovar-level detection often does not capture real differences in virulence and host range. Finally, we consider the diagnostic implications of this continuum, especially where pathogen detection alone is not sufficient. This continuum-based view may help plant pathology move from naming pathogens toward interpreting disease states.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Plant pathogens",
+      "dysbiosis",
+      "microbiome",
+      "obligate pathogens",
+      "opportunistic pathogens",
+      "pathobiome",
+      "pathogenic continuum"
+    ],
+    "summary_zh": "本文提出植物致病性连续谱框架，整合病原类型、菌株差异与诊断意义，主张从命名病原转向解释病害状态。",
+    "innovation": "提出植物致病性连续谱框架并划分四类互连位置 | 强调菌株水平差异对毒力和宿主范围检测的限制 | 讨论连续谱对病原诊断的启示",
+    "limitation": "未描述",
+    "study_object": "植物宿主与植物相关微生物组（综述，未涉及具体样本或技术）",
+    "disease": "植物病害状态（包括机会性病原与菌群失调相关病害）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-19"
+  },
+  {
+    "pmid": "43055220",
+    "title": "Fecal microbiota transplantation in cancer immunotherapy: targeting the Gut-Tumor Axis.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-19",
+    "authors": "Yu Yue; Xu Caihua; Hua Yulin; Yang Fulin; Xie Shichang et al.",
+    "abstract": "Immune checkpoint inhibitors (ICIs) have transformed cancer therapy, but resistance and immune-related toxicities continue to limit their benefit. Fecal microbiota transplantation (FMT) may enhance ICI efficacy and alleviate treatment-related intestinal toxicity, yet clinical responses remain inconsistent, and microbiome remodeling does not reliably predict benefit. Moreover, clinical, ecological, and mechanistic evidence remains fragmented and has not been critically integrated. This review therefore evaluates the current clinical evidence for FMT in cancer immunotherapy and examines how donor-recipient interactions, microbial engraftment and function, host immunity, and tumor context jointly shape efficacy and toxicity. We organize these mechanisms within the Gut-Tumor Axis, encompassing microbial metabolites and cellular components, cross-organ immune signaling, and intratumoral microbiota. Finally, we discuss how multi-omics and computational modeling may enable more predictable and precise microbiome interventions.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Fecal Microbiota Transplantation",
+      "Humans",
+      "Immunotherapy",
+      "Neoplasms",
+      "Gastrointestinal Microbiome",
+      "Animals",
+      "Immune Checkpoint Inhibitors"
+    ],
+    "keywords": [
+      "AI-driven precision microbiome therapy",
+      "Fecal microbiota transplantation",
+      "Gut–Tumor Axis",
+      "cancer immunotherapy",
+      "donor–recipient matching",
+      "immune checkpoint inhibitors",
+      "microbiome therapy",
+      "strain engraftment"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-19"
+  },
+  {
+    "pmid": "43055723",
+    "title": "Clinical Utility of Nanopore-Based Targeted and Metagenomic Sequencing for Rapid Diagnosis of Infections.",
+    "doi": null,
+    "journal": "Clinical chemistry",
+    "issn": "1530-8561",
+    "pub_date": "2026-11-19",
+    "authors": "Lao Hiu-Yin; Hung Tin-Nok; Ng Timothy Ting-Leung; Tam Wing-Yin; Lok Tsun-Ming et al.",
+    "abstract": "BACKGROUND: Rapid diagnosis is critical for acute invasive infections, yet conventional culture is time-consuming. The real-time, long-read capability of nanopore sequencing facilitates rapid diagnosis, but standardized workflows are lacking. Here, we describe 2 nanopore sequencing workflows, nanopore targeted sequencing (NTS) and nanopore metagenomic sequencing (NMgS), for pathogen and antimicrobial resistance identification.\nMETHODS: A total of 176 residual clinical specimens, of which >90% were abdominal, pleural, joint, abscess, and bile samples, were analyzed using the NTS and NMgS workflows and compared with culture. NTS employed multiplex PCR to amplify 16S rRNA gene, internal transcribed spacer region, and 30 resistance genes, while NMgS involved host DNA depletion and unbiased sequencing.\nRESULTS: Among 152 culture-positive samples, NTS achieved 98.68% positivity, compared with 69.08% for NMgS. NTS identified 79.93% of cultured species, while NMgS detected 44.89%. For 24 culture-negative samples, NTS identified potential pathogens in 6 cases, whereas NMgS detected none. For antimicrobial resistance detection, NTS achieved a sensitivity of 84.62% for β-lactam resistance, 62.50% for quinolones, and 31.25% for aminoglycosides, with corresponding specificities of 87.10%, 75.86%, and 96.61%. Conversely, NMgS showed lower sensitivities of 36.84%, 16.67%, and 12.50% for these classes, while maintaining 100% specificity across all categories. Using the 4-h sequencing workflow, NTS and NMgS achieved comparable sample-to-report times (10.83 vs 10.41 h).\nCONCLUSION: This study demonstrates the potential of nanopore sequencing for rapid diagnosis and provides practical insights for its implementation in clinical laboratories. While NTS is sensitive and cost-effective, NMgS offers a hypothesis-free approach. These workflows may complement routine culture in specific clinical contexts.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [],
+    "summary_zh": "比较NTS与NMgS对176份临床感染标本的病原及耐药快速诊断性能，显示NTS更敏感。",
+    "innovation": "建立并比较NTS与NMgS两种纳米孔测序流程用于病原体和耐药基因快速鉴定 | NTS采用多重PCR扩增16S rRNA基因、ITS区及30个耐药基因，NMgS采用宿主DNA去除和无偏测序 | 在4小时测序流程下实现约10.4至10.8小时的样本到报告时间",
+    "limitation": "标准化工作流程仍缺乏；NMgS对病原体和耐药基因检测的敏感性低于NTS",
+    "study_object": "临床/残余临床标本（以腹腔、胸膜、关节、脓肿和胆汁样本为主）+ 纳米孔靶向测序（NTS）和纳米孔宏基因组测序（NMgS）",
+    "disease": "急性侵袭性感染",
+    "sample_size": "n=176例残余临床标本（152例培养阳性，24例培养阴性）",
+    "ai_done": true,
+    "fetch_date": "2026-11-19"
+  },
+  {
+    "pmid": "43055535",
+    "title": "Deep longitudinal phenotyping of a single individual enables host-microbiome metabolic modeling over 3.6 years.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-19",
+    "authors": "Sheehy Anna; Martinelli Filippo; Fang Xin; Smarr Larry; Palsson Bernhard O et al.",
+    "abstract": "This study examines a single subject (LS) experiencing severe episodic colonic inflammation and associated gut microbiome dysbiosis. Metagenomic sequencing of LS's stool samples at 51 time points over 3.6 years provided a time series of gut microbial species' relative abundances, from which we generated time-point specific microbiome models. Flux balance analysis was used to predict metabolic phenotypes across the time series. The microbial abundances and predicted fluxes were compared with clinical inflammation biomarkers [serum C-reactive protein (CRP); stool lactoferrin, calprotectin, lysozyme, and secretory immunoglobulin A]. Each of these 51 microbiome models were integrated with a time-point specific male whole-body metabolic model personalized based on LS's weight, blood glucose, and cholesterol. A healthy average (HeAve) community model from 34 individuals provided a reference. Our models predicted methane overproduction from high Methanobrevibacter smithii levels, coinciding with peak CRP and calprotectin. We found that Escherichia coli plays a central role in shaping the predicted metabolome and may promote inflammation through trimethylamine N-oxide and formaldehyde production, out-competing Desulfovibrio piger and Akkermansia muciniphila via active methyl and sulfur cycles. At a later time point, LS experienced a major shift in gut Proteobacteria ecology: E. coli, over-abundant at 675 × HeAve, dropped nearly 80-fold in one month, while Morganella morganii rose by nearly eight times, which coincided with a spike in LS's lactoferrin and lysozyme, a rise in species including Klebsiella pneumoniae and Faecalibacterium prausnitzii, a change in predicted metabolic profile, and increased alpha diversity. We also noted a correlation between postulated inflammation periods and predicted lithocholic acid levels. This work extends two previous studies of 7 and 27 of these time points. Our analysis demonstrates the value of pairing multi-omics time-series data with systems biology approaches in an n-of-1 design, resolving how microbiome composition dynamics shape host-microbiome metabolism and inflammation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "Feces",
+      "Gastrointestinal Microbiome",
+      "Phenotype",
+      "Longitudinal Studies",
+      "Bacteria",
+      "Dysbiosis",
+      "Metabolome",
+      "Biomarkers",
+      "Host Microbial Interactions",
+      "Multiomics",
+      "Inflammation",
+      "C-Reactive Protein",
+      "Metagenomics"
+    ],
+    "keywords": [
+      "Longitudinal metagenomics",
+      "flux balance analysis",
+      "gut inflammation",
+      "gut microbiome",
+      "inflammatory bowel disease",
+      "microbiome-host metabolism",
+      "n-of-1",
+      "personalized medicine",
+      "whole-body metabolic modeling"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-19"
+  }
+]
