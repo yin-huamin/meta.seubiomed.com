@@ -1,0 +1,182 @@
+[
+  {
+    "pmid": "43067475",
+    "title": "Early-Life Farm Exposure and Food Allergy.",
+    "doi": null,
+    "journal": "Annals of allergy, asthma & immunology : official publication of the American College of Allergy, Asthma, & Immunology",
+    "issn": "1534-4436",
+    "pub_date": "2026-11-21",
+    "authors": "Yazici Duygu; He Wenqin; Tonetti Emma C; Troyer Sophie; Järvinen Kirsi M",
+    "abstract": "Food allergy has increased substantially, increasing interest in environmental exposures that may promote immune tolerance. The \"farm effect,\" in which children raised in traditional farming environments have lower rates of allergic disease, may also extend to food allergy. This review summarizes epidemiologic and mechanistic evidence linking prenatal and early-life farm exposures with food allergy and related atopic outcomes. Protective associations likely reflect combined exposures to livestock, farm dust, environmental microbes, diet, and farm milk during critical developmental windows. Proposed mechanisms include altered gut microbiome maturation, microbial metabolites, reduced epithelial inflammation, innate immune programming, and enhanced regulatory T-cell responses. However, direct evidence for clinically confirmed food allergy remains limited compared with evidence for asthma and allergic sensitization. Future studies should identify specific microbial, metabolic, and immune pathways that mediate protection and determine whether safe, defined surrogates of farm exposure can be translated into food allergy prevention strategies.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "early-life exposure",
+      "farm exposure",
+      "food allergy",
+      "gut microbiome",
+      "immune tolerance",
+      "regulatory T cells"
+    ],
+    "summary_zh": "综述产前及生命早期农场暴露与食物过敏的流行病学和机制证据，提示保护性关联但临床确诊证据有限。",
+    "innovation": "聚焦产前和生命早期农场暴露与食物过敏的关联 | 整合流行病学与机制证据，提出多因素联合暴露及免疫编程等潜在机制",
+    "limitation": "临床确诊食物过敏的直接证据较哮喘和过敏性致敏有限",
+    "study_object": "儿童/农场环境；样本类型未描述；综述",
+    "disease": "食物过敏",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-21"
+  },
+  {
+    "pmid": "43066545",
+    "title": "Antibiotic effects on gut-derived short chain fatty acid pools in healthy volunteers.",
+    "doi": null,
+    "journal": "Gut microbes",
+    "issn": "1949-0984",
+    "pub_date": "2026-11-21",
+    "authors": "Shremo Msdi Abdulwhab; Ayele Hossaena; Begum Khurshida; Hu Chenlin; Jo Jinhee et al.",
+    "abstract": "Short-chain fatty acids (SCFAs) are vital microbial metabolites that maintain gut health and immune function. Despite the established deleterious effect of antibiotics on anaerobic bacteria in the gut, the longitudinal effects of antibiotics on SCFA pool dynamics remain poorly characterized in humans. This study aimed to characterize depletion and recovery of linear and branched SCFAs and to explore microbial taxa associated with changes to SCFA pools after antibiotic exposure. This was a secondary analysis of a phase 1, randomized, nonblinded clinical trial in young healthy volunteers given a 10-day course of oral vancomycin, omadacycline, or moxifloxacin. Fecal samples were collected at baseline, during antibiotics, and follow-up visits for SCFA determinations and amplicon-based microbiome characterizations. Mixed effects models demonstrated that vancomycin produced global suppression of SCFAs pool relative to baseline, indicating broad suppression of microbial fermentation. Although all antibiotics reduced SCFA levels during treatment, vancomycin associated changes were most evident for branched SCFAs vs. comparators. Vancomycin shifted the fermentation balance by disproportionately suppressing linear SCFAs, reflected by a lower linear-to-branched SCFA ratio. In parallel, Clostridiales abundance declined most markedly after vancomycin, with more moderate reductions after omadacycline and moxifloxacin. Moxifloxacin and omadacycline but not vancomycin showed early recovery of butyrate-production capacity by qPCR. In this longitudinal analysis of healthy volunteers, vancomycin caused global suppression of microbial fermentation, with marked depletion of linear and branched SCFAs consistent with disproportionate suppression of fiber fermentation relative to amino acid fermentation.",
+    "pub_types": [
+      "Journal Article",
+      "Randomized Controlled Trial",
+      "Clinical Trial, Phase I"
+    ],
+    "article_type": "临床试验",
+    "mesh_terms": [
+      "Humans",
+      "Fatty Acids, Volatile",
+      "Anti-Bacterial Agents",
+      "Feces",
+      "Adult",
+      "Male",
+      "Female",
+      "Young Adult",
+      "Healthy Volunteers",
+      "Gastrointestinal Microbiome",
+      "Vancomycin",
+      "Bacteria",
+      "Moxifloxacin",
+      "Fermentation",
+      "Tetracyclines"
+    ],
+    "keywords": [
+      "Clostridioides difficile infection",
+      "Vancomycin",
+      "fermentation",
+      "microbiome",
+      "moxifloxacin",
+      "omadacycline",
+      "short chain fatty acids"
+    ],
+    "summary_zh": "（待生成）",
+    "innovation": "（待生成）",
+    "limitation": "（待生成）",
+    "study_object": "（待生成）",
+    "disease": "（待生成）",
+    "sample_size": "（待生成）",
+    "ai_done": true,
+    "fetch_date": "2026-11-21"
+  },
+  {
+    "pmid": "43067581",
+    "title": "Absence of the candidate intestinal modifier ortholog Slc6a14 alters the gut microbiome and delays intestinal obstructions in CF mice.",
+    "doi": null,
+    "journal": "Journal of cystic fibrosis : official journal of the European Cystic Fibrosis Society",
+    "issn": "1873-5010",
+    "pub_date": "2026-11-21",
+    "authors": "Yeh Lauren E; Olley Natalia; Perez Aura; Hao Shuyu; Kerschner Jenny L et al.",
+    "abstract": "BACKGROUND: Genetic association studies identify hypothesis-free relationships between genomic variants and measurable phenotypes, identifying physiologic mechanisms elusive by traditional hypothesis testing. SLC6A14 variants were previously found to associate with meconium ileus. Mouse models provide opportunities to verify modifying effects and investigate their mechanisms.\nMETHODS: Cftr and Slc6a14 intestinal mRNA was profiled to establish temporal and spatial gene expression during development and postnatally. Double mutant mice were used to evaluate the effects on intestinal physiology and survival. Histology and mRNA were profiled quantitatively and spatially. Functional characteristics, intestinal transit and bacterial 16S rRNA were measured.\nRESULTS: Absence of SLC6A14 alone had no significant effect on mortality or growth. F508del mice had earlier but limited mortality compared to G542X, which continued to weaning. Both displayed CF-like increases in circular and longitudinal smooth muscle, small intestinal crypt depth and villus length. Both double mutants saw a significant shift in survival, delaying obstructions in the G542X mice and reducing overall mortality of F508del mice. Profiling prenatal intestines for Slc6a14 and Cftr expression showed varying expression onset and duration. Transit differences were observed and attributed to CF mutation and diet. 16S rRNA analysis of mice show microbiome differences in both alpha and beta diversity across all examined genetic lines and diets.\nCONCLUSIONS: This approach provides an example of how to evaluate modifier candidates and demonstrates the importance of assessing physiologically relevant timepoints. Our studies show that microbiome composition is altered due to SLC6A14 presence or absence and thus biome effects remain plausible obstruction modifiers.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Meconium ileus",
+      "Modifier gene",
+      "Slc6a14"
+    ],
+    "summary_zh": "用双突变小鼠、组织学及16S rRNA分析Slc6a14缺失对CF小鼠肠道和菌群的影响，发现其改变菌群并延迟梗阻。",
+    "innovation": "以小鼠模型验证SLC6A14作为肠道梗阻候选修饰基因的作用 | 强调评估生理相关时间点的重要性 | 发现Slc6a14存在与否会改变菌群组成，提示菌群可能作为梗阻修饰因素",
+    "limitation": "未描述",
+    "study_object": "小鼠（CF模型）肠道组织与肠道菌群；mRNA表达谱、组织学和16S rRNA分析",
+    "disease": "囊性纤维化（CF）、胎粪性肠梗阻、肠道梗阻",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-21"
+  },
+  {
+    "pmid": "43067506",
+    "title": "Precision drug delivery for ulcerative colitis: engineering the colonic microenvironment for site-specific and responsive therapy.",
+    "doi": null,
+    "journal": "International journal of pharmaceutics",
+    "issn": "1873-3476",
+    "pub_date": "2026-11-21",
+    "authors": "Sahu Pramod Kumar; Jain Parag; Sharma Shivanshu; Patel Alka; Ghosh Vijayalakshmi",
+    "abstract": "Ulcerative colitis (UC) is a chronic, relapsing inflammatory bowel disease characterised by continuous inflammation and ulceration of the colonic mucosa, resulting from complex interactions among genetic susceptibility, environmental factors, intestinal barrier dysfunction, gut microbiota dysbiosis, and dysregulated immune responses. Although conventional therapies, including aminosalicylates, corticosteroids, immunomodulators, biologics, and small-molecule drugs have improved disease control, their clinical utility remains limited by incomplete therapeutic responses, adverse effects, loss of efficacy, and difficulties in achieving sustained remission. The present review offers an in-depth view of the emerging trends in molecular pharmacology and future drug-delivery systems for UC. UC-relevant molecular targets and pathological features of the colonic microenvironment be matched to site-specific or stimulus-responsive delivery strategies to improve local therapeutic exposure while limiting systemic toxicity, and clinical translation have been described. We discuss recent therapeutic advances targeting key inflammatory pathways (e.g. TNF-α, JAK-STAT, TYK2, IL-23/Th17, S1P receptors and PPAR-γ) and microbiome-directed approaches (e.g. faecal microbiota transplantation, microbial metabolites and postbiotics). Biomarker-driven approaches, such as faecal calprotectin and microbiota profiling, are emphasised as key components of precision medicine and treatment monitoring. Advanced Drug delivery mechanisms such as liposomes, polymeric nanoparticles, solid lipid nanoparticles, hydrogels, microparticles, nanogels and multifunctional theranostic systems provide opportunities for colon-specific drug delivery, controlled release, improved bioavailability, improved mucosal targeting and decreased systemic exposure. New approaches based on RNA-based therapeutics, CRISPR/Cas technologies and artificial intelligence-assisted drug delivery system design further increase the possibilities of personalised treatment. To summarise, the combination of molecularly targeted pharmacology with intelligent and site-specific drug-delivery technologies is an exciting avenue for enhancing therapeutic efficacy and reducing treatment-related toxicity and for furthering personalised management of UC. However, translation to widespread clinical practice will need to overcome challenges related to biocompatibility, gastrointestinal variability, scalability, manufacturing, controlled release, and regulatory approval.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "CRISPR/Cas",
+      "Colon-specific drug delivery",
+      "Personalized medicine",
+      "RNA-based therapeutics",
+      "Theranostic systems"
+    ],
+    "summary_zh": "综述溃疡性结肠炎分子靶点与结肠微环境响应递药策略，强调精准递送可提高疗效并降低毒性。",
+    "innovation": "将UC相关分子靶点与位点特异性或刺激响应递药策略匹配 | 整合生物标志物驱动的精准医学与治疗监测 | 讨论RNA疗法、CRISPR/Cas和人工智能辅助递药系统设计",
+    "limitation": "临床转化仍受生物相容性、胃肠道变异性、可扩展性、生产、控释和监管审批限制",
+    "study_object": "溃疡性结肠炎患者结肠微环境与药物递送系统（综述）",
+    "disease": "溃疡性结肠炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-21"
+  },
+  {
+    "pmid": "43067616",
+    "title": "Primary sclerosing cholangitis: epidemiology, risk factors, pathophysiology, clinical features, diagnosis, and management.",
+    "doi": null,
+    "journal": "Molecular biomedicine",
+    "issn": "2662-8651",
+    "pub_date": "2026-11-21",
+    "authors": "Song Jiaqi; Wang Bingran; Yang Taihua; Zhao Zhicong; Liu Yongbo et al.",
+    "abstract": "Primary sclerosing cholangitis (PSC) is a rare cholangiopathy characterized by multifocal inflammation and fibrostenotic remodeling of the bile ducts, cholestasis, and increased risks of cholangiocarcinoma and colorectal cancer. No pharmacological therapy has yet improved transplant-free survival. Clinical care therefore depends on accurate phenotyping, surveillance, treatment of biliary and intestinal complications, and timely liver transplantation. Population-based and clinical studies define the epidemiology, risk factors, presentation, diagnosis, and management of PSC. Studies of human biospecimens, including microbiome and metabolomic analyses, describe biological changes associated with the disease, whereas organoid and animal models are used to investigate potential mechanisms. The available evidence links genetic susceptibility and PSC-associated inflammatory bowel disease to cholangiocyte injury, immune activation, disturbed bile acid homeostasis, and microbial alterations. At the bile duct interface, cholangiocyte senescence and barrier dysfunction may interact with microbial exposure and immune-cell recruitment to promote periductal fibrosis. PSC is therefore more plausibly viewed as a multicellular process than as the consequence of a single microbial, immune, or bile acid pathway. Whether dysbiosis and altered bile acid profiles contribute to disease development or instead reflect established PSC remains unresolved. Concomitant inflammatory bowel disease, medication use, biliary obstruction, and previous biliary interventions further complicate causal inference. Longitudinal human studies may distinguish early drivers from secondary changes. Mechanistic findings should ultimately improve patient phenotyping, surveillance, endoscopic management, and selection for targeted trials. Such trials will require biologically informed designs and endpoints that capture durable clinical benefit.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Cholangitis, Sclerosing",
+      "Risk Factors",
+      "Animals",
+      "Bile Acids and Salts",
+      "Inflammatory Bowel Diseases"
+    ],
+    "keywords": [
+      "Bile acid",
+      "Cholangiocyte",
+      "Gut-liver axis",
+      "Inflammatory bowel disease",
+      "Liver transplantation",
+      "Primary sclerosing cholangitis"
+    ],
+    "summary_zh": "综述PSC流行病学、危险因素、病理生理、诊断与管理，指出PSC更可能是多细胞过程，微生物与胆汁酸因果未明。",
+    "innovation": "将PSC视为多细胞过程而非单一微生物、免疫或胆汁酸通路的结果 | 指出菌群失调和胆汁酸谱改变与PSC的因果关系尚未解决 | 提出需纵向人类研究区分早期驱动因素与继发改变",
+    "limitation": "菌群失调和胆汁酸谱改变是促进PSC发生还是反映已建立的PSC尚未解决 | 合并炎症性肠病、用药、胆道梗阻及既往胆道干预使因果推断复杂化",
+    "study_object": "原发性硬化性胆管炎患者的人源生物样本（微生物组与代谢组分析）及类器官和动物模型",
+    "disease": "原发性硬化性胆管炎、炎症性肠病、胆管癌、结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-21"
+  }
+]
