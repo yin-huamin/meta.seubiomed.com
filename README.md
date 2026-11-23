@@ -365,10 +365,14 @@ python metaweb.py publish
 
 ### Windows 任务计划程序
 
+项目根目录提供 `publish.bat`（自动 `cd` 到项目目录并运行 publish）：
+
 ```bat
 schtasks /Create /F /TN "MetaLitPublish" /SC DAILY /ST 20:00 ^
-  /TR "cmd /c cd /d D:\project\meta-seubiomed && python metaweb.py publish >> logs\publish.log 2>&1"
+  /TR "D:\project\meta-seubiomed\publish.bat"
 ```
+
+也可以双击 `publish.bat` 手动发布。输出追加到 `logs\publish.log`。
 
 注意：任务计划程序请使用与当前相同的 Windows 用户运行，确保 Git 凭据和 `~/.ssh/id_ed25519` 可用。
 
