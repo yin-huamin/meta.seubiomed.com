@@ -125,20 +125,22 @@ header.masthead {
 }
 .masthead-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 292px;
-  gap: 56px;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 390px) 292px;
+  gap: 40px;
   align-items: start;
+  min-width: 0;
 }
+.identity, .coverage, .ledger { min-width: 0; }
 .identity h1 {
   font-family: var(--font-display);
-  font-size: clamp(34px, 4.2vw, 56px);
+  font-size: clamp(32px, 3.4vw, 48px);
   font-weight: 600;
   letter-spacing: -.025em;
   line-height: 1.04;
   margin-bottom: 12px;
 }
 .lede {
-  max-width: 64ch;
+  max-width: 56ch;
   font-size: 14.5px;
   line-height: 1.75;
   color: var(--ink-soft);
@@ -196,31 +198,35 @@ header.masthead {
 }
 .support {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
   margin-top: 14px;
 }
 .support img {
-  width: 62px;
-  height: 62px;
+  width: 120px;
+  height: 120px;
   border: 1px solid var(--rule);
   background: #fff;
   object-fit: contain;
+  display: block;
 }
+.support a { display: block; flex-shrink: 0; }
 .support p { font-size: 11px; line-height: 1.55; color: var(--muted); }
 
 /* ── Coverage track: the signature element ─────────────────── */
 .coverage {
-  margin-top: 26px;
-  padding-top: 12px;
-  border-top: 1px solid var(--rule);
+  align-self: stretch;
+  margin-top: 0;
+  padding-top: 2px;
+  border-top: 2px solid var(--ink);
 }
 .coverage-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 8px;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 .coverage-title {
   font-family: var(--font-display);
@@ -232,9 +238,9 @@ header.masthead {
 .coverage-bars {
   display: flex;
   align-items: flex-end;
-  gap: 6px;
-  height: 96px;
-  padding: 0 2px 22px;
+  gap: 4px;
+  height: 116px;
+  padding: 0 1px 20px;
   border-bottom: 1px solid var(--rule-strong);
   background-image: repeating-linear-gradient(
     to top,
@@ -248,7 +254,8 @@ header.masthead {
 }
 .cov-bar {
   position: relative;
-  flex: 1 0 34px;
+  flex: 1 1 0;
+  min-width: 0;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -261,7 +268,7 @@ header.masthead {
 .cov-bar i {
   display: block;
   width: 100%;
-  max-width: 54px;
+  max-width: 22px;
   height: var(--bar-h, 0);
   background: var(--green);
   opacity: .72;
@@ -279,9 +286,9 @@ header.masthead {
 }
 .cov-bar span {
   position: absolute;
-  bottom: 0;
+  bottom: -17px;
   font-family: var(--font-mono);
-  font-size: 9.5px;
+  font-size: 8.5px;
   color: var(--muted);
 }
 .cov-bar:hover i, .cov-bar:focus-visible i { opacity: 1; }
@@ -836,15 +843,21 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
 }
 
 /* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 1280px) {
+  .masthead-grid { grid-template-columns: minmax(0, 1fr) 292px; gap: 24px 36px; }
+  .identity { grid-column: 1; grid-row: 1; }
+  .ledger { grid-column: 2; grid-row: 1; }
+  .coverage { grid-column: 1 / -1; grid-row: 2; margin-top: 4px; }
+}
 @media (max-width: 1100px) {
-  .masthead-grid { grid-template-columns: minmax(0, 1fr) 240px; gap: 32px; }
   #cardsContainer { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 }
 @media (max-width: 860px) {
   .masthead-grid { grid-template-columns: 1fr; gap: 22px; }
-  .ledger { max-width: 420px; }
+  .identity, .coverage, .ledger { grid-column: auto; grid-row: auto; }
+  .ledger { max-width: none; }
   .support { margin-top: 12px; }
-  .coverage-bars { height: 84px; }
+  .coverage-bars { height: 96px; }
 }
 @media (max-width: 768px) {
   header.masthead { padding: 20px 0 16px; }
@@ -852,7 +865,7 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
   .identity h1 { font-size: 34px; }
   .lede { font-size: 13.5px; }
   .source-legend { gap: 12px; }
-  .coverage { margin-top: 20px; }
+  .coverage { margin-top: 0; }
   .coverage-bars { overflow-x: auto; }
   .cov-bar { flex: 0 0 38px; }
   .toolbar { position: static; padding: 9px 12px; }
@@ -914,6 +927,14 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
         <p class="scope-note">口径：仅人类医学相关研究；植物、环境、食品发酵与畜牧生产不收录。方法、软件与数据库论文除外。</p>
       </div>
 
+      <div class="coverage" aria-label="按年份的文献覆盖">
+        <div class="coverage-head">
+          <span class="coverage-title">年度覆盖</span>
+          <span class="coverage-hint">点击年份筛选</span>
+        </div>
+        <div class="coverage-bars" id="coverageBars"></div>
+      </div>
+
       <aside class="ledger" aria-label="数据库概览">
         <div class="ledger-row"><span>收录文献</span><strong id="statTotal">—</strong></div>
         <div class="ledger-row"><span>来源期刊</span><strong id="statJournals">—</strong></div>
@@ -921,18 +942,12 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
         <div class="ledger-row"><span>预印本</span><strong id="statPreprints">—</strong></div>
         <div class="ledger-note">最近更新 <span id="statLatest">—</span></div>
         <div class="support">
-          <img src="png/wechat_pay.jpg" alt="微信收款码" />
+          <a href="png/wechat_pay.jpg" target="_blank" rel="noopener" title="查看收款码">
+            <img src="png/wechat_pay.jpg" alt="微信收款码" />
+          </a>
           <p>维护数据库与模型调用成本<br>微信扫码支持</p>
         </div>
       </aside>
-    </div>
-
-    <div class="coverage" aria-label="按年份的文献覆盖">
-      <div class="coverage-head">
-        <span class="coverage-title">年度覆盖</span>
-        <span class="coverage-hint">点击年份筛选</span>
-      </div>
-      <div class="coverage-bars" id="coverageBars"></div>
     </div>
 
     <p class="fineprint">
