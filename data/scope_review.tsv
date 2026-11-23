@@ -4027,3 +4027,4 @@ pmid:43009623	43009623	keep	bioinformatics_method	0.85	weak_method	In situ profi
 pmid:43013265	43013265	keep	bioinformatics_method	0.85	weak_method	Mapping the genetic landscape of microbial lipid transformation in the intestinal microbiome	Gut microbes	构建88个HMM模型用于宏基因组中脂质代谢基因快速鉴定，主要贡献为可复用生物信息学工具。
 pmid:43052448	43052448	keep	medical	0.75	human_anchor_override	Closest relatives of poxviruses prevail in human and animal guts worldwide	Nature	发现人及动物肠道中的egovirus并做进化分析，以病毒生态与进化为主，非医学应用 | rule: human title anchor
 pmid:43064805	43064805	keep	medical	0.90	human_anchor_override	Inside the gut microbiome of manatees	Nature microbiology	研究对象为海牛肠道微生物组，属动物/兽医范畴，无人类医学或方法学贡献 | rule: human title anchor
+doi:10.64898/2026.11.20.767495		exclude	non_medical	0.95		Phenotypic, ecological and genomic divergence support independent evolutionary trajectories in the Meganesian masked owls (Tyto novaeholland	bioRxiv	研究猫头鹰的进化与种群基因组分化，属于纯生态与进化生物学，无人类医学或生物信息学方法贡献。

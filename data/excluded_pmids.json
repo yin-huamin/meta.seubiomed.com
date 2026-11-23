@@ -16185,6 +16185,20 @@
       "method": "llm",
       "date": "2026-11-23",
       "source": "europepmc"
+    },
+    "doi:10.64898/2026.11.20.767495": {
+      "uid": "doi:10.64898/2026.11.20.767495",
+      "pmid": "",
+      "doi": "10.64898/2026.11.20.767495",
+      "title": "Phenotypic, ecological and genomic divergence support independent evolutionary trajectories in the Meganesian masked owls (Tyto novaehollandiae)",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-22",
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "研究猫头鹰的进化与种群基因组分化，属于纯生态与进化生物学，无人类医学或生物信息学方法贡献。",
+      "method": "llm",
+      "date": "2026-11-23",
+      "source": "biorxiv"
     }
   }
 }

@@ -143877,6 +143877,52 @@
       "classified_at": "2026-11-23",
       "prompt_version": "scope-v1",
       "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.16.767119": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "使用小鼠模型研究微生物组对回肠-肝脏轴转录网络的影响，属于人类疾病动物模型与宿主微生态研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "mouse"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "5666c6710d574e9a",
+      "classified_at": "2026-11-23",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.767495": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "研究猫头鹰的进化与种群基因组分化，属于纯生态与进化生物学，无人类医学或生物信息学方法贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "3102b6c073634e0d",
+      "classified_at": "2026-11-23",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
     }
   },
   "updated": "2026-11-23"

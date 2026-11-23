@@ -1,7 +1,7 @@
 {
-  "total": 4280,
+  "total": 4281,
   "by_type": {
-    "研究论文": 3141,
+    "研究论文": 3142,
     "综述": 587,
     "Benchmark": 158,
     "临床试验": 148,
@@ -10,7 +10,7 @@
     "案例报告": 69
   },
   "by_year": {
-    "2026": 1159,
+    "2026": 1160,
     "2025": 623,
     "2024": 528,
     "2023": 444,
@@ -26,11 +26,11 @@
   "by_source": {
     "pubmed": 4139,
     "europepmc": 61,
-    "biorxiv": 58,
+    "biorxiv": 59,
     "medrxiv": 16,
     "openalex": 6
   },
-  "preprint_total": 74,
+  "preprint_total": 75,
   "top_journals": {
     "Gut microbes": 278,
     "Nature communications": 207,
@@ -44,8 +44,8 @@
     "Genome biology": 79,
     "Cell host & microbe": 71,
     "Journal of translational medicine": 65,
+    "bioRxiv": 59,
     "Gut": 59,
-    "bioRxiv": 58,
     "Proceedings of the National Academy of Sciences of the United States of America": 54,
     "The ISME journal": 50,
     "Gastroenterology": 48,

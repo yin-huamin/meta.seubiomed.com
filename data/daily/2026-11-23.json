@@ -11145,5 +11145,40 @@
     "topic_hits": [
       "genomic epidemiology"
     ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.16.767119",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.16.767119",
+    "title": "Microbiome complexity shapes host transcriptional networks across the ileum-liver axis",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-22",
+    "authors": "Halkhoree; A. C.; Grannell; A.; Pearson; C.; Araujo; E.; Jeffery et al.",
+    "abstract": "The microbiome plays an increasingly recognised role in development, metabolism and immunity across all segments of the small and large intestine, as well as more distant organs such as the liver. In the terminal ileum - a key site of nutrient absorption - the presence of microbes dictates the development of secondary lymphoid structures (Peyers patches), mediates bile acid metabolism, and impacts absorption. In part, coordinated regulatory networks in the gut impact liver function and immunity through gut-liver connectivity and the movement of immune cells and bioactive small molecules that includes bile acids and other bacterial metabolites.\n\nWe aimed to examine the extent of microbiome involvement in ileal transcription, where subtle changes in co-expression networks can be tuned by microbiome diversity, composition and function. We surveyed ileal transcriptomes across mouse models which vary in microbiome complexity ranging from germ-free (GF, n = 15), the Oligo-Mouse-Microbiota-12 (MM12, n = 15), and specific pathogen free (SPF, n = 15).",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "systems biology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "比较无菌、MM12和SPF小鼠回肠转录组，揭示微生物组复杂度对回肠-肝脏轴宿主转录网络的调控。",
+    "innovation": "系统比较不同微生物复杂度小鼠模型（GF、MM12、SPF）的回肠转录组 | 聚焦微生物组多样性、组成和功能对回肠共表达网络的微调",
+    "limitation": "仅基于小鼠模型，未描述人类样本验证",
+    "study_object": "小鼠 + 回肠组织 + 转录组",
+    "disease": "无",
+    "sample_size": "GF n=15、MM12 n=15、SPF n=15（共45）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.16.767119",
+    "topic_hits": [
+      "microbiom\\w*",
+      "microbiota"
+    ]
   }
 ]
