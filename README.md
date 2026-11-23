@@ -305,7 +305,74 @@ python serve.py
 # http://localhost:8089
 ```
 
-## 自动化部署
+## 本地每日更新并发布（推荐）
+
+服务器 IP 无法访问 PubMed 时，改为在本地完成抓取/摘要/构建，然后同时推送 GitHub 并用 `scp` 更新服务器。
+
+### 一次性配置
+
+1. **授权本地 SSH 公钥**（只需一次，会提示服务器密码）：
+
+```bash
+ssh-copy-id seubiomed
+ssh seubiomed 'test -w /home/yinhm/web/meta.seubiomed.com/web && echo OK'
+```
+
+2. **在 `config.env` 中确认部署配置**（该文件已被 gitignore）：
+
+```ini
+DEPLOY_SSH_ALIAS=seubiomed
+DEPLOY_PATH=/home/yinhm/web/meta.seubiomed.com/web
+SITE_URL=https://meta.seubiomed.com/
+```
+
+如果不用 SSH 别名，也可以配置：
+
+```ini
+DEPLOY_HOST=seubiomed.com
+DEPLOY_USER=yinhm
+DEPLOY_PORT=22
+DEPLOY_PATH=/home/yinhm/web/meta.seubiomed.com/web
+```
+
+### 每天运行
+
+```bash
+python metaweb.py publish
+```
+
+它按顺序执行：
+
+1. `metaweb.py daily`：PubMed / 期刊 / 预印本抓取 → 分类 → 摘要 → 构建
+2. `metaweb.py build`：发布 `web/logs/daily.log` 并重建前端数据
+3. `metaweb.py scope-audit --verify`：确认排除项无残留
+4. `git add --force` 每日数据 → commit → `fetch` → `rebase origin/main` → `push`
+5. `scp -r web/. seubiomed:<DEPLOY_PATH>/`：更新服务器静态文件
+6. 推送成功后才部署，避免 GitHub 与服务器版本不一致
+
+可选参数：
+
+| 参数 | 作用 |
+|------|------|
+| `--dry-run` | 只检查 SSH/部署配置，不执行更新与发布 |
+| `--no-update` | 只发布现有数据，不重新抓取 |
+| `--no-push` | 跳过 GitHub 推送 |
+| `--no-deploy` | 跳过服务器 scp |
+| `--message "..."` | 自定义 commit 信息 |
+
+> `publish` 会拒绝工作区中的未提交代码改动；请先把代码改动单独提交，再运行每日发布。
+> GitHub Actions 的 `daily.yml` 已改为仅手动触发；`visitors.yml` 仍会每日刷新访客数据。本地 `publish` 在推送前会 `rebase` 远程提交，并在推送后 `scp`，因此会把最新的 `visitors.json` 一并部署。
+
+### Windows 任务计划程序
+
+```bat
+schtasks /Create /F /TN "MetaLitPublish" /SC DAILY /ST 20:00 ^
+  /TR "cmd /c cd /d D:\project\meta-seubiomed && python metaweb.py publish >> logs\publish.log 2>&1"
+```
+
+注意：任务计划程序请使用与当前相同的 Windows 用户运行，确保 Git 凭据和 `~/.ssh/id_ed25519` 可用。
+
+## 自动化部署（旧方式）
 
 ### Linux/macOS - 使用 crontab
 

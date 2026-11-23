@@ -1,10 +1,9 @@
 name: 每日自动更新
 
 on:
-  schedule:
-    # 北京时间每天 20:00 = UTC 12:00
-    - cron: '0 12 * * *'
-  workflow_dispatch:  # 允许手动触发
+  # 日常更新已改为本地 `python metaweb.py publish`；
+  # 此工作流仅保留手动触发作为备用，避免与本地发布重复提交。
+  workflow_dispatch:
 
 permissions:
   contents: write

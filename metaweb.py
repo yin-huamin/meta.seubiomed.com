@@ -212,6 +212,17 @@ def cmd_backfill_meta(args):
                           force=args.force)
 
 
+def cmd_publish(args):
+    """本地更新并发布到 GitHub 与服务器"""
+    import publish
+
+    sys.exit(publish.execute(
+        no_update=args.no_update, no_push=args.no_push,
+        no_deploy=args.no_deploy, dry_run=args.dry_run,
+        message=args.message,
+    ))
+
+
 def cmd_set(args):
     """设置/查看搜索关键词"""
     config_path = BASE_DIR / "config.env"
@@ -429,6 +440,15 @@ def main():
     p_back.add_argument("--dry-run", action="store_true")
     p_back.add_argument("--force", action="store_true")
     p_back.set_defaults(func=cmd_backfill_meta)
+
+    # ── publish 命令 ──
+    p_pub = subparsers.add_parser("publish", help="本地更新并发布到 GitHub/服务器")
+    p_pub.add_argument("--no-update", action="store_true", help="跳过每日抓取/摘要")
+    p_pub.add_argument("--no-push", action="store_true", help="跳过 GitHub 推送")
+    p_pub.add_argument("--no-deploy", action="store_true", help="跳过 scp 部署")
+    p_pub.add_argument("--dry-run", action="store_true", help="只检查配置并打印步骤")
+    p_pub.add_argument("--message", default=None, help="提交信息")
+    p_pub.set_defaults(func=cmd_publish)
 
     # 解析参数
     args = parser.parse_args()
