@@ -19,6 +19,7 @@
 - [GitHub Actions 已关闭](#github-actions-已关闭)
 - [服务器部署](#服务器部署nginx)
 - [高级用法](#高级用法)
+- [开发记录](docs/WORKLOG.md)
 - [许可证](#许可证)
 
 ---
