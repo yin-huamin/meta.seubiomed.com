@@ -70,3 +70,9 @@ backups/
 *.swp
 *.swo
 *~
+
+# ─── 本地技能/设计工具 ───
+.agents/
+.claude/skills/
+.claude/settings.local.json
+skills-lock.json
