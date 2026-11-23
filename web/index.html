@@ -62,23 +62,23 @@
 
 /* ── Tokens: Gram-stain palette on cool lab paper ──────────── */
 :root {
-  --paper: #f3f6f1;
-  --paper-2: #eaf0e8;
-  --surface: #fbfcf8;
-  --ink: #14201a;
-  --ink-soft: #34453b;
-  --muted: #67786d;
-  --rule: #c9d5cb;
-  --rule-strong: #a4b4a9;
-  --grid: rgba(20, 32, 26, .035);
-  --green: #146b58;          /* methyl green */
-  --green-soft: #dcebe3;
-  --violet: #5b3e96;         /* crystal violet */
-  --violet-soft: #e8e1f5;
-  --safranin: #a8324c;       /* safranin counterstain */
-  --safranin-soft: #faf1f3;
-  --iodine: #96641f;         /* iodine */
-  --iodine-soft: #f1e6d2;
+  --paper: #f7f1e6;
+  --paper-2: #efe5d4;
+  --surface: #fcf8f0;
+  --ink: #2a2118;
+  --ink-soft: #4b3c2d;
+  --muted: #7c6b58;
+  --rule: #d9ccb9;
+  --rule-strong: #bfae98;
+  --grid: rgba(42, 33, 24, .025);
+  --green: #5c6b3b;          /* olive */
+  --green-soft: #e8e9d7;
+  --violet: #6f3e5b;         /* plum */
+  --violet-soft: #ede0e7;
+  --safranin: #9c4f3a;       /* brick */
+  --safranin-soft: #f4e3dc;
+  --iodine: #a8772a;         /* ochre */
+  --iodine-soft: #f3e8d3;
   --radius: 3px;
   --font-display: "STIX Two Text", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "SimSun", Georgia, serif;
   --font-ui: "IBM Plex Sans", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
@@ -92,11 +92,7 @@ html { scroll-behavior: smooth; }
 
 body {
   min-height: 100vh;
-  background-color: var(--paper);
-  background-image:
-    linear-gradient(var(--grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size: 32px 32px;
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--font-ui);
   font-size: 14px;
@@ -114,7 +110,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 
 /* ── Masthead ──────────────────────────────────────────────── */
 header.masthead {
-  background: var(--paper);
+  background: var(--paper-2);
   border-bottom: 2px solid var(--ink);
   padding: 26px 0 18px;
 }
@@ -125,12 +121,20 @@ header.masthead {
 }
 .masthead-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 390px) 292px;
-  gap: 40px;
+  grid-template-columns: minmax(0, 1fr) 440px;
+  gap: 48px;
   align-items: start;
   min-width: 0;
 }
-.identity, .coverage, .ledger { min-width: 0; }
+.identity, .rail, .coverage, .ledger, .support-card { min-width: 0; }
+.coverage-bars { max-width: 100%; }
+.rail {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 132px;
+  gap: 18px 20px;
+  align-items: start;
+  min-width: 0;
+}
 .identity h1 {
   font-family: var(--font-display);
   font-size: clamp(32px, 3.4vw, 48px);
@@ -172,7 +176,7 @@ header.masthead {
 .swatch.journal { background: var(--iodine); }
 .swatch.preprint { background: var(--violet); }
 
-.ledger { border-top: 2px solid var(--ink); padding-top: 2px; }
+.ledger { grid-column: 1; border-top: 2px solid var(--ink); padding-top: 2px; }
 .ledger-row {
   display: flex;
   align-items: baseline;
@@ -196,14 +200,12 @@ header.masthead {
   font-size: 10.5px;
   color: var(--muted);
 }
-.support {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  margin-top: 14px;
+.support-card {
+  grid-column: 2;
+  border-top: 2px solid var(--ink);
+  padding-top: 8px;
 }
-.support img {
+.support-card img {
   width: 120px;
   height: 120px;
   border: 1px solid var(--rule);
@@ -211,11 +213,17 @@ header.masthead {
   object-fit: contain;
   display: block;
 }
-.support a { display: block; flex-shrink: 0; }
-.support p { font-size: 11px; line-height: 1.55; color: var(--muted); }
+.support-card a { display: block; }
+.support-card p {
+  margin-top: 8px;
+  font-size: 10.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
 
 /* ── Coverage track: the signature element ─────────────────── */
 .coverage {
+  grid-column: 1 / -1;
   align-self: stretch;
   margin-top: 0;
   padding-top: 2px;
@@ -301,7 +309,7 @@ header.masthead {
   font-size: 11.5px;
   line-height: 1.7;
   color: var(--muted);
-  max-width: 100ch;
+  max-width: 56ch;
 }
 .fineprint a { color: var(--ink-soft); text-decoration: underline; text-underline-offset: 3px; }
 
@@ -754,12 +762,12 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at 50% 34%, #123b31 0%, #0a241d 58%, #061712 100%);
+  background: radial-gradient(circle at 50% 34%, #3a2b1b 0%, #241b12 62%, #17110b 100%);
 }
 #worldMap { width: 100%; height: 100%; display: block; }
-.wm-grid line { stroke: rgba(110, 211, 183, .10); stroke-width: .5; }
-.wm-grid line.wm-grid-strong { stroke: rgba(110, 211, 183, .22); stroke-dasharray: 2 4; }
-.wm-land { fill: rgba(110, 211, 183, .16); stroke: rgba(110, 211, 183, .36); stroke-width: .5; stroke-linejoin: round; }
+.wm-grid line { stroke: rgba(225, 182, 106, .10); stroke-width: .5; }
+.wm-grid line.wm-grid-strong { stroke: rgba(225, 182, 106, .22); stroke-dasharray: 2 4; }
+.wm-land { fill: rgba(225, 182, 106, .14); stroke: rgba(225, 182, 106, .32); stroke-width: .5; stroke-linejoin: round; }
 .wm-dot { fill: rgba(224, 164, 90, .5); }
 .wm-core { fill: var(--iodine); }
 .wm-pulse { fill: rgba(110, 211, 183, .55); transform-box: fill-box; transform-origin: center; animation: wmPulse 2.8s ease-out infinite; }
@@ -817,47 +825,48 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
 /* ── Dark mode: night culture plate ────────────────────────── */
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #0b1310;
-    --paper-2: #101c16;
-    --surface: #111d17;
-    --ink: #e4ede7;
-    --ink-soft: #bac9c0;
-    --muted: #8ba096;
-    --rule: #26372e;
-    --rule-strong: #3b5146;
-    --grid: rgba(228, 237, 231, .03);
-    --green: #6ed3b7;
-    --green-soft: #123329;
-    --violet: #bba4ff;
-    --violet-soft: #241a3d;
-    --safranin: #ff8ca1;
-    --safranin-soft: #20141a;
-    --iodine: #e0a45a;
-    --iodine-soft: #33230f;
+    --paper: #17120c;
+    --paper-2: #211a12;
+    --surface: #1d1710;
+    --ink: #ede3d3;
+    --ink-soft: #cbbba5;
+    --muted: #9c8a76;
+    --rule: #3a2e21;
+    --rule-strong: #574634;
+    --grid: rgba(237, 227, 211, .03);
+    --green: #b9c68b;
+    --green-soft: #2a2a18;
+    --violet: #d9a6c0;
+    --violet-soft: #2e1d27;
+    --safranin: #e39575;
+    --safranin-soft: #2e1b14;
+    --iodine: #e1b66a;
+    --iodine-soft: #332612;
   }
-  .support img { background: #fff; }
+  .support-card img { background: #fff; }
   .paper-card:hover { background: var(--paper-2); }
   .col-summary .text-clamp:hover { background: var(--surface); }
-  .wm-land { fill: rgba(110, 211, 183, .12); stroke: rgba(110, 211, 183, .28); }
-  .skel { background: #1c2c24; }
+  .wm-land { fill: rgba(225, 182, 106, .12); stroke: rgba(225, 182, 106, .28); }
+  .skel { background: #2a2118; }
 }
 
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 1280px) {
-  .masthead-grid { grid-template-columns: minmax(0, 1fr) 292px; gap: 24px 36px; }
-  .identity { grid-column: 1; grid-row: 1; }
-  .ledger { grid-column: 2; grid-row: 1; }
-  .coverage { grid-column: 1 / -1; grid-row: 2; margin-top: 4px; }
+  .masthead-grid { grid-template-columns: minmax(0, 1fr) 380px; gap: 32px; }
+  .rail { grid-template-columns: minmax(0, 1fr) 120px; gap: 16px 18px; }
+  .support-card img { width: 112px; height: 112px; }
 }
 @media (max-width: 1100px) {
   #cardsContainer { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 }
 @media (max-width: 860px) {
   .masthead-grid { grid-template-columns: 1fr; gap: 22px; }
-  .identity, .coverage, .ledger { grid-column: auto; grid-row: auto; }
-  .ledger { max-width: none; }
-  .support { margin-top: 12px; }
+  .rail { width: 100%; grid-template-columns: minmax(0, 1fr) 132px; }
   .coverage-bars { height: 96px; }
+}
+@media (max-width: 600px) {
+  .rail { grid-template-columns: minmax(0, 1fr); }
+  .support-card { grid-column: 1; }
 }
 @media (max-width: 768px) {
   header.masthead { padding: 20px 0 16px; }
@@ -925,35 +934,38 @@ tbody tr.high-quality:hover td { background: var(--safranin-soft) !important; }
           <span><i class="swatch preprint"></i>预印本</span>
         </div>
         <p class="scope-note">口径：仅人类医学相关研究；植物、环境、食品发酵与畜牧生产不收录。方法、软件与数据库论文除外。</p>
+        <p class="fineprint">
+          摘要由 AI 自动整理，可能出错，使用前请核对原文。
+          建议或合作：<a href="mailto:yinhm17@126.com">yinhm17@126.com</a>，微信 yinhm1999。
+        </p>
       </div>
 
-      <div class="coverage" aria-label="按年份的文献覆盖">
-        <div class="coverage-head">
-          <span class="coverage-title">年度覆盖</span>
-          <span class="coverage-hint">点击年份筛选</span>
+      <div class="rail">
+        <div class="coverage" aria-label="按年份的文献覆盖">
+          <div class="coverage-head">
+            <span class="coverage-title">年度覆盖</span>
+            <span class="coverage-hint">点击年份筛选</span>
+          </div>
+          <div class="coverage-bars" id="coverageBars"></div>
         </div>
-        <div class="coverage-bars" id="coverageBars"></div>
-      </div>
 
-      <aside class="ledger" aria-label="数据库概览">
-        <div class="ledger-row"><span>收录文献</span><strong id="statTotal">—</strong></div>
-        <div class="ledger-row"><span>来源期刊</span><strong id="statJournals">—</strong></div>
-        <div class="ledger-row"><span>覆盖年份</span><strong id="statYears">—</strong></div>
-        <div class="ledger-row"><span>预印本</span><strong id="statPreprints">—</strong></div>
-        <div class="ledger-note">最近更新 <span id="statLatest">—</span></div>
-        <div class="support">
+        <aside class="ledger" aria-label="数据库概览">
+          <div class="ledger-row"><span>收录文献</span><strong id="statTotal">—</strong></div>
+          <div class="ledger-row"><span>来源期刊</span><strong id="statJournals">—</strong></div>
+          <div class="ledger-row"><span>覆盖年份</span><strong id="statYears">—</strong></div>
+          <div class="ledger-row"><span>预印本</span><strong id="statPreprints">—</strong></div>
+          <div class="ledger-note">最近更新 <span id="statLatest">—</span></div>
+        </aside>
+
+        <div class="support-card">
           <a href="png/wechat_pay.jpg" target="_blank" rel="noopener" title="查看收款码">
             <img src="png/wechat_pay.jpg" alt="微信收款码" />
           </a>
-          <p>维护数据库与模型调用成本<br>微信扫码支持</p>
+          <p>维护数据库<br>微信扫码支持</p>
         </div>
-      </aside>
+      </div>
     </div>
 
-    <p class="fineprint">
-      摘要由 AI 自动整理，可能出错，使用前请核对原文。
-      建议或合作：<a href="mailto:yinhm17@126.com">yinhm17@126.com</a>，微信 yinhm1999。
-    </p>
   </div>
 </header>
 
