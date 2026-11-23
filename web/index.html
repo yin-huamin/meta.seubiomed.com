@@ -763,6 +763,448 @@
       font-size: 11px; color: rgba(255,255,255,0.6);
       letter-spacing: 0.3px;
     }
+    /* ═══════════════════════════════════════════════════════════
+       Theme v2 · 学术蓝灰 / 深浅色自适应 / 渐进加载
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      --bg: #f4f7fc;
+      --surface: #ffffff;
+      --surface-2: #f8fafc;
+      --row-alt: #fafcff;
+      --hover: #eef5ff;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --accent-l: #eff6ff;
+      --accent-2: #0d9488;
+      --preprint: #7c3aed;
+      --green: #059669;
+      --yellow: #d97706;
+      --red: #dc2626;
+      --radius: 10px;
+      --radius-lg: 14px;
+      --shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 8px 24px rgba(15, 23, 42, .05);
+      --shadow-sm: 0 1px 2px rgba(15, 23, 42, .06);
+      color-scheme: light dark;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(1100px 520px at 8% -12%, #e6efff 0%, rgba(230, 239, 255, 0) 65%),
+        radial-gradient(900px 480px at 100% 0%, #eefaf7 0%, rgba(238, 250, 247, 0) 60%),
+        var(--bg);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* ── Header / Hero ── */
+    header {
+      background: linear-gradient(180deg, rgba(255,255,255,.92) 0%, rgba(255,255,255,.72) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 24px 32px 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto auto;
+      width: 520px; height: 320px;
+      background: radial-gradient(circle at 70% 10%, rgba(37,99,235,.10), transparent 62%);
+      pointer-events: none;
+    }
+    .header-inner { position: relative; }
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .brand { display: flex; align-items: center; gap: 14px; min-width: 0; flex: 1 1 auto; }
+    .brand > div { min-width: 0; }
+    .brand-mark {
+      width: 46px; height: 46px; flex-shrink: 0;
+      border-radius: 13px;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, #2563eb 0%, #0d9488 100%);
+      color: #fff; font-weight: 800; font-size: 22px;
+      box-shadow: 0 8px 20px rgba(37,99,235,.28);
+      letter-spacing: -.02em;
+    }
+    header h1 {
+      font-size: 30px;
+      font-weight: 750;
+      letter-spacing: -.025em;
+      margin: 0 0 4px;
+      line-height: 1.2;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing: .01em;
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 20px 0 4px;
+      position: relative;
+      z-index: 1;
+    }
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 13px 16px 12px;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 3px;
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      opacity: .85;
+    }
+    .stat-value {
+      font-size: 25px;
+      font-weight: 750;
+      letter-spacing: -.02em;
+      color: var(--text);
+      line-height: 1.15;
+      font-variant-numeric: tabular-nums;
+    }
+    .stat-label {
+      margin-top: 3px;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: .02em;
+    }
+    .intro { margin-top: 14px; position: relative; z-index: 1; }
+    .intro p {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+      max-width: 1000px;
+    }
+    .intro code {
+      background: var(--accent-l);
+      color: var(--accent);
+      padding: 1px 6px;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+    .stats-chips { margin-top: 10px; }
+    .chip {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 3px 11px;
+      font-weight: 500;
+    }
+    .donate-card {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 116px;
+      padding: 9px;
+      gap: 7px;
+      margin-top: 0;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      z-index: 2;
+    }
+    .donate-card img { width: 96px; height: 96px; border-radius: 7px; }
+    .donate-card p { font-size: 10.5px; white-space: normal; line-height: 1.35; }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      max-width: none;
+      margin: 0;
+      padding: 10px max(24px, calc((100vw - 1600px) / 2 + 32px));
+      background: rgba(244, 247, 252, .88);
+      backdrop-filter: saturate(180%) blur(14px);
+      -webkit-backdrop-filter: saturate(180%) blur(14px);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 0 rgba(15,23,42,.02);
+    }
+    .search-box input, select, .if-filter input {
+      height: 36px;
+      background: var(--surface);
+      border-radius: 9px;
+      font-size: 13px;
+    }
+    .search-box input { padding-left: 13px; }
+    .btn {
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      border-radius: 9px;
+      font-weight: 500;
+    }
+    .btn-primary { box-shadow: 0 4px 12px rgba(37,99,235,.22); }
+    .view-toggle { border-radius: 9px; }
+    .view-toggle .btn { height: 34px; }
+    .result-count {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-variant-numeric: tabular-nums;
+    }
+    .bg-loading {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 12px; color: var(--accent);
+      background: var(--accent-l);
+      border-radius: 999px;
+      padding: 4px 10px;
+    }
+    .bg-loading[hidden] { display: none; }
+    .bg-loading::before {
+      content: ""; width: 10px; height: 10px; border-radius: 50%;
+      border: 2px solid rgba(37,99,235,.25); border-top-color: var(--accent);
+      animation: spin .8s linear infinite;
+    }
+
+    /* ── Table ── */
+    .table-wrap { margin-top: 18px; }
+    table {
+      min-width: 1560px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      border-color: var(--border);
+    }
+    .col-title { width: 260px; }
+    .col-journal { width: 140px; }
+    .col-journal-quality { width: 150px; }
+    .col-summary { width: 280px; }
+    .col-innov { width: 200px; }
+    .col-limit { width: 160px; }
+    .col-object { width: 150px; }
+    .col-date { width: 92px; }
+    .journal-clamp {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    thead tr {
+      background: var(--surface-2);
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: var(--surface-2);
+      padding: 11px 14px;
+      text-transform: none;
+      letter-spacing: .01em;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    th[scope="col"] { border-bottom: 1px solid var(--border); }
+    td { padding: 12px 14px; }
+    tbody tr:nth-child(odd) td { background: var(--row-alt); }
+    tbody tr:nth-child(even) td { background: var(--surface); }
+    tbody tr:hover td { background: var(--hover) !important; }
+    .high-quality td { background: #fffbeb !important; }
+    .high-quality td:first-child { border-left: 3px solid #f59e0b; }
+    .high-quality:hover td { background: #fff7db !important; }
+    .col-title { font-weight: 650; }
+    .title-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 5px;
+    }
+    .col-summary .text-clamp { color: #334155; }
+    .text-clamp { -webkit-line-clamp: 3; }
+
+    /* ── Tags / badges ── */
+    .tag {
+      padding: 2px 8px;
+      font-weight: 600;
+      letter-spacing: .01em;
+      border: 1px solid transparent;
+    }
+    .tag-preprint { background: #ede9fe; color: #5b21b6; border-color: #ddd6fe; }
+    .tag-journal { background: #ecfeff; color: #0e7490; border-color: #cffafe; }
+    .new-tag {
+      background: var(--green);
+      padding: 1px 6px;
+      font-weight: 600;
+      box-shadow: 0 1px 2px rgba(5,150,105,.2);
+    }
+    .jq-tag { font-variant-numeric: tabular-nums; }
+    .ai-pending { color: var(--muted); }
+
+    /* ── Cards ── */
+    #cardsContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 14px;
+    }
+    .paper-card {
+      margin-bottom: 0;
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow .2s, transform .2s, border-color .2s;
+    }
+    .paper-card:hover {
+      box-shadow: 0 2px 4px rgba(15,23,42,.06), 0 14px 30px rgba(15,23,42,.08);
+      transform: translateY(-1px);
+      border-color: #cbd5e1;
+    }
+    .paper-card-title { font-size: 15px; line-height: 1.55; }
+    .paper-card-meta { gap: 6px 14px; }
+    .paper-card-body .section-title {
+      color: var(--accent);
+      text-transform: none;
+      letter-spacing: .02em;
+    }
+
+    /* ── Pagination ── */
+    .pagination { margin-top: 20px; gap: 7px; }
+    .page-btn {
+      border-radius: 9px;
+      min-width: 34px;
+      height: 34px;
+      background: var(--surface);
+    }
+    .page-btn.active {
+      box-shadow: 0 4px 12px rgba(37,99,235,.25);
+    }
+
+    /* ── Memory / log ── */
+    .memory-section { margin-top: 28px; }
+    .memory-header {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 12px 16px;
+      background: var(--surface);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 10px;
+    }
+    .memory-entry-body, .log-content {
+      border-radius: var(--radius-lg);
+      background: var(--surface-2);
+    }
+    .log-content { padding: 16px; overflow-x: auto; font-size: 12px; line-height: 1.65; }
+
+    /* ── Visitor map ── */
+    .visitor-section { margin-top: 8px; }
+    .visitor-title { font-size: 16px; letter-spacing: -.01em; }
+    .visitor-card { border-radius: var(--radius-lg); box-shadow: var(--shadow); }
+    .map-container {
+      background:
+        radial-gradient(circle at 50% 35%, #173f6b 0%, #0b2440 62%, #071a30 100%);
+    }
+    .wm-grid line {
+      stroke: rgba(130, 190, 255, .10);
+      stroke-width: .5;
+    }
+    .wm-grid line.wm-grid-strong {
+      stroke: rgba(130, 190, 255, .20);
+      stroke-dasharray: 2 4;
+    }
+    .wm-land {
+      fill: rgba(96, 165, 250, .17);
+      stroke: rgba(147, 197, 253, .38);
+      stroke-width: .5;
+      stroke-linejoin: round;
+    }
+    .visitor-stat .stat-number { color: #e2e8f0; }
+    .visitor-sidebar { background: var(--surface); }
+    .visitor-title .globe-icon { filter: saturate(.9); }
+
+    /* ── Dark mode ── */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --surface: #111a2b;
+        --surface-2: #0f172a;
+        --row-alt: #0f1626;
+        --hover: #17243a;
+        --border: #243044;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-l: #172554;
+        --accent-2: #2dd4bf;
+        --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.25);
+        --shadow-sm: 0 1px 2px rgba(0,0,0,.35);
+      }
+      body {
+        background:
+          radial-gradient(1000px 520px at 8% -12%, rgba(30,64,175,.28) 0%, transparent 62%),
+          radial-gradient(900px 460px at 100% 0%, rgba(13,148,136,.14) 0%, transparent 60%),
+          var(--bg);
+      }
+      header {
+        background: linear-gradient(180deg, rgba(17,26,43,.94) 0%, rgba(11,18,32,.86) 100%);
+      }
+      .toolbar { background: rgba(11,18,32,.86); }
+      select, .search-box input, .if-filter input, .btn { background: var(--surface); color: var(--text); }
+      .donate-card img { opacity: .9; }
+      .stat-card { background: linear-gradient(180deg, #131e31, #101929); }
+      thead tr, th { background: var(--surface-2); }
+      .high-quality td { background: #1d1a0e !important; }
+      .high-quality:hover td { background: #272213 !important; }
+      .col-summary .text-clamp { color: #cbd5e1; }
+      .search-hl { background: #854d0e; color: #fff; }
+      .jq-if { background: #475569; }
+      .tag-preprint { background: #2e1065; color: #ddd6fe; border-color: #4c1d95; }
+      .tag-journal { background: #083344; color: #a5f3fc; border-color: #155e75; }
+      .paper-card:hover { border-color: #334155; }
+      .log-content, .memory-entry-body { background: #0b1220; color: #cbd5e1; }
+      .wm-land { fill: rgba(96,165,250,.13); stroke: rgba(147,197,253,.30); }
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 980px) {
+      .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      header h1 { font-size: 26px; }
+    }
+    @media (max-width: 768px) {
+      header { padding: 18px 16px 16px; }
+      .hero-top { gap: 12px; }
+      .brand-mark { width: 38px; height: 38px; font-size: 18px; border-radius: 11px; }
+      header h1 { font-size: 22px; }
+      .donate-card {
+        position: static;
+        width: auto;
+        flex-direction: row;
+        padding: 6px;
+        margin-left: auto;
+      }
+      .donate-card img { width: 62px; height: 62px; }
+      .donate-card p { display: none; }
+      .toolbar { position: static; padding: 8px 12px; flex-wrap: wrap; overflow-x: visible; }
+      .search-box { flex: 1 1 100%; max-width: none; min-width: 0; }
+      .hero-stats { width: 100%; }
+      .if-filter label { display: none; }
+      .result-count { margin-left: 0; }
+      th { position: static; }
+      #cardsContainer { grid-template-columns: 1fr; }
+      .intro p { font-size: 12.5px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+      html { scroll-behavior: auto; }
+    }
   </style>
 </head>
 <body>
@@ -770,22 +1212,12 @@
 <!-- ════════════════════ HEADER ═════════════════════ -->
 <header>
   <div class="header-inner">
-    <h1>宏基因组领域文献</h1>
-
-    <div class="header-body">
-      <div class="intro">
-        <p>
-          该数据库通过收集和整理最新科研文献信息，用来了解领域前沿进展。数据源自
-          <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>，
-          每日自动更新（使用关键词 <code>['metagenome', 'metagenomic', 'microbiom']</code> 过滤），
-          已收录文献数量参见统计表格。<br>
-          表格内容由 AI 自动整理，可能存在错误或遗漏，请使用时务必注意核实！<br>
-          如有建议或合作意向，欢迎联系
-          <a href="mailto:yinhm17@126.com">yinhm17@126.com</a>
-          &nbsp;微信 <strong>yinhm1999</strong>。
-        </p>
-        <div class="stats-chips" id="statsChips">
-          <span class="chip" id="chipTotal">加载中…</span>
+    <div class="hero-top">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">M</div>
+        <div>
+          <h1>宏基因组领域文献</h1>
+          <p class="subtitle">Metagenomics Literature Tracker · PubMed + Europe PMC + bioRxiv/medRxiv</p>
         </div>
       </div>
 
@@ -793,6 +1225,28 @@
       <div class="donate-card">
         <img src="png/wechat_pay.jpg" alt="微信收款码" />
         <p>覆盖模型成本，谢谢老板</p>
+      </div>
+    </div>
+
+    <div class="hero-stats" id="heroStats">
+      <div class="stat-card"><div class="stat-value" id="statTotal">—</div><div class="stat-label">收录文献</div></div>
+      <div class="stat-card"><div class="stat-value" id="statJournals">—</div><div class="stat-label">来源期刊</div></div>
+      <div class="stat-card"><div class="stat-value" id="statYears">—</div><div class="stat-label">覆盖年份</div></div>
+      <div class="stat-card"><div class="stat-value" id="statPreprints">—</div><div class="stat-label">预印本</div></div>
+    </div>
+
+    <div class="intro">
+      <p>
+        数据源自 <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>、
+        Europe PMC、OpenAlex 与 bioRxiv/medRxiv，每日自动更新；已按人类医学口径清洗，
+        保留宏基因组、耐药与基因组拼装方向的研究及生物信息学方法学论文。<br>
+        摘要由 AI 自动整理，可能存在错误或遗漏，请使用时务必核实。<br>
+        如有建议或合作意向，欢迎联系
+        <a href="mailto:yinhm17@126.com">yinhm17@126.com</a>
+        &nbsp;微信 <strong>yinhm1999</strong>。
+      </p>
+      <div class="stats-chips" id="statsChips">
+        <span class="chip" id="chipTotal">加载中…</span>
       </div>
     </div>
   </div>
@@ -814,6 +1268,13 @@
     <option value="系统综述">系统综述/Meta分析</option>
     <option value="Benchmark">Benchmark</option>
     <option value="临床试验">临床试验</option>
+  </select>
+
+  <select id="sourceFilter" onchange="onFilter()">
+    <option value="">全部来源</option>
+    <option value="pubmed">PubMed</option>
+    <option value="journal">期刊（Europe PMC / OpenAlex）</option>
+    <option value="preprint">预印本</option>
   </select>
 
   <select id="yearFilter" onchange="onYearChange()">
@@ -838,6 +1299,7 @@
 
   <button class="btn" onclick="clearFilters()">重置</button>
 
+  <span class="bg-loading" id="bgLoading" hidden>后台加载年份…</span>
   <span class="result-count" id="resultCount"></span>
 </div>
 
@@ -991,20 +1453,15 @@ async function loadData() {
     // 填充年份筛选器
     populateYearFilter(index);
 
-    // 默认加载所有年份
+    // 渐进加载：先渲染最新年份，其余年份后台补齐
+    const years = index.map(item => item.year);
     const urlParams = new URLSearchParams(window.location.search);
     const urlYear = urlParams.get('year');
-    const yearsToLoad = new Set();
+    const initialYears = (urlYear && years.includes(urlYear))
+      ? [urlYear]
+      : (years.length ? [years[years.length - 1]] : []);
 
-    index.forEach(item => yearsToLoad.add(item.year));
-
-    // URL指定的年份也需加载
-    if (urlYear && !yearsToLoad.has(urlYear)) {
-      yearsToLoad.add(urlYear);
-    }
-
-    // 并行加载所有年份
-    await Promise.all([...yearsToLoad].map(y => loadYearData(y)));
+    await Promise.all(initialYears.map(y => loadYearData(y)));
 
     // 设置URL参数
     applyUrlParams();
@@ -1012,10 +1469,25 @@ async function loadData() {
     showSkeleton(false);
     init();
     loadMemory();
+
+    const rest = years.filter(y => !initialYears.includes(y));
+    if (rest.length) loadRemainingYears(rest);
   } catch(e) {
     console.error("Failed to load data:", e);
     document.getElementById("loading").innerHTML = '<p style="color:var(--red)">加载数据失败：' + e.message + '</p>';
   }
+}
+
+// 后台从新到旧补齐其余年份，不阻塞首屏
+async function loadRemainingYears(years) {
+  const indicator = document.getElementById("bgLoading");
+  if (indicator) indicator.hidden = false;
+  for (let i = years.length - 1; i >= 0; i--) {
+    await loadYearData(years[i]);
+    updateStatsChips();
+    applyFiltersAndSort();
+  }
+  if (indicator) indicator.hidden = true;
 }
 
 // ═══════════════════════ SKELETON ═══════════════════════
@@ -1060,13 +1532,14 @@ function getUrlParams() {
   return {
     q: params.get('q') || "",
     type: params.get('type') || "",
+    source: params.get('source') || "",
     year: params.get('year') || "",
     if_min: parseFloat(params.get('if_min')) || 0,
     page: parseInt(params.get('page')) || 1,
     size: parseInt(params.get('size')) || 50,
     sort: params.get('sort') || "pub_date",
     dir: params.get('dir') || "desc",
-    view: params.get('view') || "table"
+    view: params.get('view') || ""
   };
 }
 
@@ -1074,6 +1547,7 @@ function updateUrl() {
   const params = new URLSearchParams();
   if (searchQuery) params.set('q', searchQuery);
   if (document.getElementById("typeFilter").value) params.set('type', document.getElementById("typeFilter").value);
+  if (document.getElementById("sourceFilter").value) params.set('source', document.getElementById("sourceFilter").value);
   if (document.getElementById("yearFilter").value) params.set('year', document.getElementById("yearFilter").value);
   const ifMin = parseFloat(document.getElementById("ifFilter").value) || 0;
   if (ifMin > 0) params.set('if_min', ifMin);
@@ -1094,6 +1568,7 @@ function applyUrlParams() {
     document.getElementById("searchInput").value = p.q;
   }
   if (p.type) document.getElementById("typeFilter").value = p.type;
+  if (p.source) document.getElementById("sourceFilter").value = p.source;
   if (p.year) document.getElementById("yearFilter").value = p.year;
   if (p.if_min > 0) document.getElementById("ifFilter").value = p.if_min;
   if (p.size) {
@@ -1147,20 +1622,36 @@ function populateYearFilter(index) {
 }
 
 function updateStatsChips() {
-  const chipsEl = document.getElementById("statsChips");
-  const counts  = {};
+  const counts = {};
+  const journals = new Set();
+  const yearsSet = new Set();
+  let preprints = 0;
+
   allData.forEach(r => {
     const t = r.article_type || "其他";
     counts[t] = (counts[t] || 0) + 1;
+    if (r.journal) journals.add(r.journal);
+    const y = (r.pub_date || "").slice(0, 4);
+    if (y.length === 4) yearsSet.add(y);
+    if (r.is_preprint) preprints++;
   });
+
   const total = allData.length;
+  const setText = (id, val) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+  };
+  setText("statTotal", total.toLocaleString());
+  setText("statJournals", journals.size.toLocaleString());
+  setText("statYears", yearsSet.size);
+  setText("statPreprints", preprints.toLocaleString());
+
+  const chipsEl = document.getElementById("statsChips");
   let html = `<span class="chip">共 ${total} 篇</span>`;
   Object.entries(counts).sort((a,b)=>b[1]-a[1]).forEach(([t, n]) => {
     html += `<span class="chip">${t}: ${n}</span>`;
   });
   chipsEl.innerHTML = html;
-  const chipTotal = document.getElementById("chipTotal");
-  if (chipTotal) chipTotal.remove();
 }
 
 // ═══════════════════════ VIEW TOGGLE ═══════════════════════
@@ -1224,6 +1715,7 @@ function clearFilters() {
   document.getElementById("searchInput").value = "";
   searchQuery = "";
   document.getElementById("typeFilter").value  = "";
+  document.getElementById("sourceFilter").value = "";
   document.getElementById("yearFilter").value  = "";
   document.getElementById("ifFilter").value    = "";
   currentPage = 1;
@@ -1234,11 +1726,15 @@ function clearFilters() {
 function applyFiltersAndSort() {
   const q     = searchQuery;
   const type  = document.getElementById("typeFilter").value;
+  const source = document.getElementById("sourceFilter").value;
   const year  = document.getElementById("yearFilter").value;
   const ifMin = parseFloat(document.getElementById("ifFilter").value) || 0;
 
   filteredData = allData.filter(r => {
     if (type && !(r.article_type || "").includes(type)) return false;
+    if (source === "pubmed" && r.source !== "pubmed") return false;
+    if (source === "journal" && !["europepmc", "openalex"].includes(r.source || "")) return false;
+    if (source === "preprint" && !r.is_preprint) return false;
     if (year && !(r.pub_date || "").startsWith(year))    return false;
     if (ifMin > 0) {
       const ifVal = parseFloat(r.journal_if);
@@ -1357,10 +1853,7 @@ function cellText(s, pending = false, query = "") {
     return `<span class="ai-pending">AI 待生成</span>`;
   }
   const highlighted = highlightText(s, query);
-  if (highlighted.length > 80) {
-    return `<div class="text-clamp" onclick="this.classList.toggle('expanded')" title="点击展开/折叠">${highlighted}</div>`;
-  }
-  return highlighted;
+  return `<div class="text-clamp" onclick="this.classList.toggle('expanded')" title="点击展开/折叠">${highlighted}</div>`;
 }
 
 // ═══════════════════════ HELPER FUNCTIONS (P0 optimizations) ═══════════════════════
@@ -1418,9 +1911,12 @@ function renderTable() {
 
     return `<tr tabindex="0" class="${isHQ ? 'high-quality' : ''}">
       <td class="col-date">${esc(r.pub_date) || "—"}</td>
-      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}${isNew ? '<span class="new-tag">NEW</span>' : ''}${r.is_preprint ? '<span class="new-tag">预印本</span>' : ''}</div></td>
+      <td class="col-title">
+        <div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}</div>
+        ${(isNew || r.is_preprint) ? `<div class="title-badges">${isNew ? '<span class="new-tag">NEW</span>' : ''}${r.is_preprint ? '<span class="tag tag-preprint">预印本</span>' : ''}</div>` : ''}
+      </td>
       <td class="col-pmid" style="font-size:11px;">${pmidLink}</td>
-      <td class="col-journal">${highlightText(r.journal, searchQuery)}</td>
+      <td class="col-journal"><div class="journal-clamp" title="${esc(r.journal)}">${highlightText(r.journal, searchQuery)}</div></td>
       <td class="col-journal-quality">${renderJournalQuality(r)}</td>
       <td class="col-type">${typeTag(r.article_type)}</td>
       <td class="col-summary">${cellText(r.summary_zh, false, searchQuery)}</td>
@@ -1449,7 +1945,7 @@ function renderCards() {
     const titleLink = link ? `<a href="${esc(link)}" target="_blank">${titleHtml}</a>` : titleHtml;
     return `<div class="paper-card">
       <div class="paper-card-title">
-        ${titleLink}${r.is_preprint ? '<span class="new-tag">预印本</span>' : ''}
+        ${titleLink}${r.is_preprint ? '<span class="tag tag-preprint">预印本</span>' : ''}
       </div>
       <div class="paper-card-meta">
         <span class="meta-item">📅 ${esc(r.pub_date) || "—"}</span>
@@ -1619,7 +2115,7 @@ loadData();
   <div class="visitor-card">
     <div class="visitor-card-body">
       <div class="map-container" id="visitorMap">
-        <svg id="worldMap" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="全球访客分布示意图"></svg>
+        <svg id="worldMap" viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid meet" role="img" aria-label="全球访客分布地图"><g class="wm-grid"><line x1="0.0" y1="0" x2="0.0" y2="500" class=""/><line x1="83.3" y1="0" x2="83.3" y2="500" class=""/><line x1="166.7" y1="0" x2="166.7" y2="500" class=""/><line x1="250.0" y1="0" x2="250.0" y2="500" class=""/><line x1="333.3" y1="0" x2="333.3" y2="500" class=""/><line x1="416.7" y1="0" x2="416.7" y2="500" class=""/><line x1="500.0" y1="0" x2="500.0" y2="500" class="wm-grid-strong"/><line x1="583.3" y1="0" x2="583.3" y2="500" class=""/><line x1="666.7" y1="0" x2="666.7" y2="500" class=""/><line x1="750.0" y1="0" x2="750.0" y2="500" class=""/><line x1="833.3" y1="0" x2="833.3" y2="500" class=""/><line x1="916.7" y1="0" x2="916.7" y2="500" class=""/><line x1="1000.0" y1="0" x2="1000.0" y2="500" class=""/><line x1="0" y1="416.7" x2="1000" y2="416.7" class=""/><line x1="0" y1="333.3" x2="1000" y2="333.3" class=""/><line x1="0" y1="250.0" x2="1000" y2="250.0" class="wm-grid-strong"/><line x1="0" y1="166.7" x2="1000" y2="166.7" class=""/><line x1="0" y1="83.3" x2="1000" y2="83.3" class=""/></g><path class="wm-land" d="M594.2,252.6L608.9,263.0L608.9,273.6L612.0,278.7L609.8,280.3L596.0,282.0L593.7,276.2L585.4,273.2L582.3,268.1L581.5,262.5L585.4,259.3L584.5,253.2L594.2,252.6ZM475.9,173.2L475.9,178.1L466.8,178.0L464.1,190.8L452.6,191.7L459.0,190.3L468.4,175.3L475.9,173.2ZM158.8,113.9L146.0,108.8L144.9,104.6L137.5,99.2L138.9,94.7L123.7,83.9L118.2,86.4L108.3,82.5L108.4,56.4L120.8,58.6L144.1,54.2L197.6,62.8L200.6,61.4L197.7,60.2L199.5,59.3L205.1,58.9L218.2,62.1L228.7,59.5L233.0,60.4L233.0,63.1L238.2,58.1L232.0,55.3L235.5,50.2L242.0,51.9L245.8,55.0L243.3,56.4L248.5,57.0L248.5,59.8L252.2,57.6L255.5,59.4L257.4,63.3L262.4,55.9L270.5,56.5L274.2,57.9L273.9,63.6L261.8,65.1L238.2,80.8L237.0,86.3L241.1,86.7L243.6,91.4L271.5,96.8L271.9,102.0L278.0,107.8L281.7,104.0L278.3,98.1L287.4,93.0L281.9,86.7L285.2,83.7L283.0,76.9L294.9,76.5L306.7,80.4L307.5,86.2L312.1,88.3L320.6,82.4L329.5,91.8L328.3,93.5L340.7,98.3L345.3,105.1L333.2,110.4L315.6,110.5L302.5,119.9L319.3,113.2L321.7,114.6L319.1,116.5L320.9,121.6L329.1,122.5L331.9,119.4L333.9,122.4L318.4,129.0L316.2,126.5L321.0,124.2L313.5,124.6L311.7,119.3L307.7,118.2L301.4,125.0L292.0,125.0L271.0,134.2L269.1,133.4L271.8,129.0L270.7,124.0L254.5,115.8L245.4,116.3L236.6,112.8L158.8,113.9ZM278.4,47.8L275.3,46.3L276.8,45.1L288.2,47.7L278.4,47.8ZM240.0,41.7L231.1,41.9L236.5,39.9L240.0,41.7ZM231.2,31.2L234.6,32.2L229.7,33.7L226.0,30.9L231.2,31.2ZM255.1,43.4L243.3,42.1L239.2,38.0L230.2,36.8L274.6,39.7L277.6,40.7L276.5,42.6L255.1,43.4ZM345.6,107.5L342.2,111.6L351.5,113.2L352.6,120.4L349.3,117.4L346.1,119.8L335.4,117.8L340.7,109.1L345.6,107.5ZM267.0,69.1L277.5,73.0L257.7,73.5L261.4,67.4L267.0,69.1ZM281.2,49.0L308.9,54.1L314.0,57.8L308.9,59.1L328.2,64.3L322.4,69.4L311.1,65.9L320.4,73.9L319.4,75.9L308.9,72.9L316.2,78.0L292.1,70.3L284.1,71.6L281.8,70.6L283.6,68.6L294.6,68.2L298.2,63.1L296.4,60.9L280.7,55.1L253.7,54.4L251.4,53.4L254.3,52.2L250.3,52.2L249.4,49.3L261.6,45.0L259.5,46.8L261.7,48.5L271.3,45.1L275.7,49.8L281.2,49.0ZM237.5,44.1L248.6,44.8L235.0,49.8L233.3,46.0L237.5,44.1ZM158.7,38.6L177.2,34.3L174.7,37.4L158.7,38.6ZM131.4,99.9L134.0,99.7L135.6,105.1L130.4,101.6L131.4,99.9ZM207.0,29.7L223.1,33.6L207.8,32.3L210.5,31.5L207.0,29.7ZM156.9,115.2L143.4,109.0L150.7,110.3L156.9,115.2ZM162.4,43.2L179.1,45.9L158.1,53.1L150.2,50.4L155.7,45.3L153.0,43.6L162.4,43.2ZM200.5,39.3L205.9,39.0L204.7,41.7L188.3,43.3L183.7,42.4L189.5,41.2L173.0,41.0L179.4,37.6L197.0,40.4L193.1,37.7L195.6,36.7L200.5,39.3ZM204.1,47.0L209.8,52.8L219.5,55.5L214.6,56.9L215.5,59.0L185.2,59.6L174.1,55.7L187.7,54.5L172.5,54.1L177.5,51.9L168.3,51.2L180.0,46.3L194.7,47.3L199.5,51.0L198.9,47.0L204.1,47.0ZM221.0,48.0L217.9,46.2L221.2,44.9L229.5,45.1L227.6,47.2L231.8,48.4L226.8,52.0L215.3,48.6L221.0,48.0ZM203.9,45.6L209.7,46.1L207.3,47.9L203.9,45.6ZM226.4,36.9L228.5,38.2L227.3,41.7L215.3,40.1L215.1,38.0L226.4,36.9ZM233.3,26.1L243.3,24.3L261.6,29.6L242.0,32.4L239.0,31.2L241.3,29.5L231.4,27.3L233.3,26.1ZM245.6,22.5L279.7,19.1L328.2,20.5L302.3,28.3L286.4,29.7L290.6,31.9L276.2,38.4L251.4,37.6L256.2,35.6L254.8,33.6L264.0,34.6L255.7,32.3L263.6,29.6L258.5,27.1L272.6,26.5L256.7,26.3L245.6,22.5ZM291.1,62.7L285.5,62.3L289.2,60.3L291.1,62.7ZM232.6,57.0L232.6,59.0L222.8,57.2L227.2,55.2L232.6,57.0ZM322.2,119.3L327.7,121.0L325.3,122.3L322.2,119.3ZM158.8,113.9L236.6,112.8L245.4,116.3L254.5,115.8L270.7,124.0L270.3,134.2L292.0,125.0L301.4,125.0L307.7,118.2L311.7,119.3L314.0,125.5L305.2,128.7L303.3,132.4L305.7,134.3L295.2,136.3L300.2,136.3L294.6,136.8L291.9,141.8L290.2,140.3L291.5,143.3L289.1,146.6L287.9,141.3L286.1,143.8L289.6,151.2L274.1,162.7L276.7,180.0L273.0,178.1L267.5,166.8L260.0,165.6L251.1,166.2L251.6,169.0L237.0,168.1L230.2,172.7L229.1,178.2L224.9,176.8L219.6,168.4L211.3,168.7L204.1,161.8L191.6,163.0L174.6,159.6L164.9,153.9L154.4,138.0L155.8,123.5L153.6,116.2L159.5,119.2L158.8,113.9ZM68.3,194.2L70.0,195.8L67.5,197.5L68.3,194.2ZM74.4,89.0L77.4,90.0L70.8,91.7L74.4,89.0ZM108.4,56.4L108.3,82.5L118.2,86.4L123.7,83.9L138.9,94.7L137.4,97.8L127.6,88.5L111.5,84.6L91.3,80.9L78.6,85.7L81.6,79.8L59.9,94.5L41.8,98.4L59.2,91.6L63.8,86.3L50.1,87.0L48.6,83.4L40.7,81.9L39.6,77.6L53.4,72.9L51.3,71.1L53.4,70.0L41.8,71.0L33.0,67.6L43.1,65.1L50.9,66.3L36.8,60.1L38.3,58.7L65.1,51.8L108.4,56.4ZM742.7,113.3L736.6,119.4L731.1,118.5L729.1,123.5L722.1,125.2L724.6,130.1L722.9,132.4L706.1,129.7L697.7,131.4L690.6,137.0L685.3,135.6L680.3,128.5L672.3,129.2L662.5,123.4L655.4,125.0L655.5,135.3L650.2,132.4L645.8,133.9L639.7,126.1L647.3,124.3L647.3,119.9L636.4,121.1L629.1,115.6L632.1,109.8L634.9,111.5L641.0,106.4L654.8,109.4L670.4,108.9L666.6,105.7L671.4,102.8L670.7,100.0L691.9,96.2L704.0,101.4L713.6,98.6L722.3,108.7L731.6,108.1L742.7,113.3ZM655.5,135.3L655.4,125.0L662.5,123.4L672.3,129.2L680.3,128.5L685.3,135.6L689.6,137.0L697.1,132.6L695.6,134.7L702.9,136.5L699.4,138.5L692.6,136.9L688.1,140.1L688.4,146.8L662.9,131.2L655.5,135.3ZM891.7,257.2L910.1,266.9L908.9,270.5L918.6,279.4L910.9,278.1L902.1,271.2L896.2,275.9L891.8,275.3L891.7,257.2ZM924.0,260.2L924.5,263.2L918.5,257.6L924.0,260.2ZM920.3,266.2L912.0,266.0L918.9,265.2L922.6,261.5L920.3,266.2ZM891.7,257.2L891.8,275.3L882.3,273.4L885.2,270.3L883.1,265.0L871.3,259.8L869.4,261.4L866.6,257.8L871.4,256.2L862.6,252.6L872.2,252.2L876.3,259.4L881.8,254.7L891.7,257.2ZM827.5,238.5L825.9,241.0L830.5,247.5L827.3,247.8L822.6,261.1L806.2,258.2L802.6,248.8L804.6,244.4L807.0,247.9L816.1,246.6L821.8,238.0L827.5,238.5ZM859.4,257.8L863.4,260.7L855.3,259.4L859.4,257.8ZM855.4,244.0L857.5,246.9L855.8,252.5L855.4,244.0ZM841.5,247.6L847.4,245.4L845.7,248.8L833.8,249.3L833.4,251.4L835.9,253.9L842.6,251.7L837.5,255.3L842.1,264.8L837.5,262.7L836.0,257.3L832.8,265.8L829.9,257.8L832.8,249.6L835.8,246.4L841.5,247.6ZM828.5,273.2L830.9,274.2L824.3,275.1L828.5,273.2ZM801.4,267.8L821.4,273.3L795.7,270.4L792.7,269.0L794.6,266.4L801.4,267.8ZM789.9,253.0L794.7,258.5L793.9,266.3L790.9,266.3L764.7,234.8L770.8,235.4L789.9,253.0ZM309.3,396.2L319.3,401.9L309.4,402.4L309.3,396.2ZM339.9,333.9L337.5,345.6L342.3,352.5L335.5,357.6L326.8,357.9L325.7,364.0L319.1,364.1L323.7,368.2L318.9,370.8L317.9,375.1L313.1,376.5L312.3,378.6L317.7,381.2L307.9,390.9L310.7,395.4L300.2,394.5L296.1,387.0L302.2,374.4L299.6,367.4L306.1,345.0L304.1,337.1L310.3,324.7L310.0,318.1L315.9,310.6L321.2,313.3L325.4,311.2L339.5,319.9L337.2,325.3L345.3,326.1L349.6,321.0L351.0,324.8L339.9,333.9ZM309.3,396.2L309.4,402.4L314.0,402.5L310.7,404.5L292.6,396.8L302.5,400.2L309.3,396.2ZM306.7,298.8L311.6,313.5L313.9,313.9L310.0,318.1L310.3,324.7L304.1,337.1L306.1,345.0L299.6,367.4L302.2,374.4L296.1,387.0L300.2,394.5L309.5,395.3L301.6,399.6L291.8,395.2L290.0,385.2L294.1,380.4L289.9,379.6L293.5,372.5L296.6,373.5L298.0,367.7L293.5,370.1L295.6,353.2L301.6,340.1L304.5,301.0L306.7,298.8ZM581.5,262.5L585.4,273.2L579.8,273.7L578.8,282.8L582.3,283.8L582.5,286.8L575.5,282.2L561.5,280.8L560.4,270.3L548.5,272.4L545.4,266.3L533.8,266.1L544.5,259.8L554.1,236.0L562.2,238.8L571.3,235.4L582.5,237.2L586.6,243.9L583.0,248.3L581.5,262.5ZM615.5,254.7L613.8,242.3L617.0,238.2L624.9,236.1L635.9,223.7L636.0,218.3L642.0,216.6L635.0,235.2L615.5,254.7ZM608.9,263.0L594.2,252.6L597.3,244.7L594.5,238.2L598.1,234.7L605.9,240.0L616.3,239.1L613.8,242.3L615.5,254.7L608.9,263.0ZM568.2,227.1L560.9,215.0L564.0,206.4L566.4,206.6L566.2,194.4L569.4,194.4L569.4,188.9L602.4,188.9L606.7,200.0L602.4,202.9L594.4,225.9L591.0,216.0L587.1,222.7L574.3,223.7L569.6,221.5L566.4,226.1L568.2,227.1ZM566.2,195.6L566.4,206.6L564.0,206.4L560.9,215.0L563.5,219.0L549.9,228.1L542.4,229.4L538.8,223.5L543.0,222.3L537.6,210.1L542.4,203.8L544.2,193.4L541.3,186.5L544.1,185.0L566.2,195.6ZM300.8,195.2L300.8,199.9L293.2,199.0L299.1,198.1L296.7,194.7L300.8,195.2ZM300.8,199.9L301.1,194.8L310.2,198.3L300.8,199.9ZM996.5,52.5L1000.0,51.3L1000.0,53.2L996.5,52.5ZM636.4,121.1L629.7,126.1L635.0,133.9L632.8,135.7L611.0,129.3L601.9,124.3L608.7,119.3L606.3,117.9L610.4,116.9L611.3,112.2L598.2,109.5L593.8,104.6L588.3,105.3L587.0,102.6L590.8,101.8L585.8,95.7L578.3,94.0L576.2,86.9L580.9,83.3L578.0,81.9L587.5,75.4L583.4,73.5L583.9,67.2L580.7,64.0L583.3,61.9L579.4,58.2L589.3,55.8L614.1,62.6L606.6,66.7L592.2,64.9L596.7,66.9L597.1,71.1L602.8,72.6L603.3,69.0L610.0,70.8L612.3,70.1L610.5,68.1L616.9,65.3L622.1,66.5L623.7,64.6L620.7,59.5L628.5,60.4L630.1,62.0L626.6,63.9L628.7,64.8L649.2,58.7L651.3,58.9L648.6,60.6L666.5,60.3L669.7,58.5L668.2,56.0L690.3,60.9L692.2,59.4L685.9,57.1L685.3,52.7L694.3,47.1L702.2,49.4L699.6,51.6L704.6,60.0L698.0,65.8L701.2,66.2L708.5,61.8L708.2,58.4L704.4,56.6L706.7,53.8L703.1,51.5L708.0,49.7L707.4,47.7L712.1,52.4L710.8,50.3L715.5,49.3L726.4,50.7L723.6,45.4L741.2,44.6L738.9,43.2L742.1,41.3L779.9,37.7L789.9,34.2L797.9,37.6L817.0,39.3L803.9,43.9L842.2,47.3L842.4,45.2L852.7,45.7L864.7,53.4L867.4,50.5L888.5,51.4L886.5,48.8L890.2,47.6L915.3,49.4L924.9,53.2L941.7,53.1L947.1,57.1L966.2,56.7L971.0,59.2L974.5,58.3L973.5,55.3L1000.0,58.4L1000.0,69.5L992.8,70.5L997.9,76.9L982.4,78.7L973.1,83.7L969.2,81.7L954.3,83.7L950.0,88.2L953.3,90.0L950.3,97.6L935.5,108.3L931.8,96.2L933.1,92.3L954.6,80.2L956.9,76.2L944.8,81.8L942.5,78.4L935.3,79.3L928.4,84.0L930.7,85.7L895.0,86.0L875.4,98.0L888.6,99.5L892.6,102.5L889.1,115.4L874.6,129.4L863.3,132.7L864.0,125.1L869.7,124.6L875.1,115.3L863.9,117.2L854.6,111.8L849.9,103.4L843.3,101.5L833.8,103.5L835.4,105.7L827.4,112.5L817.7,110.4L801.3,113.1L774.6,105.4L770.2,111.9L756.2,108.9L742.7,113.3L731.6,108.1L722.3,108.7L713.6,98.6L704.0,101.4L691.9,96.2L670.7,100.0L671.4,102.8L666.6,105.7L670.4,108.9L654.8,109.4L641.0,106.4L634.9,111.5L632.1,109.8L629.1,115.6L636.4,121.1ZM760.5,24.9L778.3,28.4L777.6,30.9L763.8,30.4L753.3,26.8L760.5,24.9ZM785.7,29.8L791.9,32.5L776.2,33.6L785.7,29.8ZM885.6,38.5L903.0,40.1L886.0,42.7L880.5,40.9L885.6,38.5ZM563.1,99.1L554.6,98.8L559.1,96.7L563.1,99.1ZM648.6,45.1L669.9,38.2L691.3,37.4L662.4,43.6L653.9,49.0L659.8,53.6L643.3,51.5L651.2,45.5L648.6,45.1ZM897.0,100.8L901.8,114.0L897.7,113.0L896.0,117.1L898.6,121.8L896.5,120.2L894.7,122.3L893.6,101.9L895.0,99.4L897.0,100.8ZM14.1,63.3L15.7,65.7L15.1,63.7L22.6,64.1L28.1,66.7L20.7,68.2L19.6,71.5L3.6,66.4L0.0,69.5L0.0,58.4L14.1,63.3ZM3.6,53.1L0.0,51.3L6.7,52.0L3.6,53.1ZM592.9,122.3L601.5,123.7L594.1,126.8L590.2,124.1L592.9,122.3ZM542.1,28.7L559.8,30.7L544.2,36.7L529.0,28.7L542.1,28.7ZM586.4,56.8L579.4,58.2L580.6,56.2L577.0,55.1L568.7,59.3L559.0,57.3L550.0,59.5L534.9,72.0L534.2,83.0L530.6,86.5L515.7,87.3L513.9,77.9L553.3,56.1L578.2,52.3L586.9,54.3L583.3,55.0L586.4,56.8ZM576.1,27.6L564.0,29.4L548.2,26.9L576.1,27.6ZM568.7,33.7L557.6,34.2L563.6,32.1L568.7,33.7ZM370.1,20.5L424.7,18.0L442.1,20.2L412.8,22.2L466.1,24.2L444.3,27.3L450.7,27.4L445.3,31.2L448.7,36.2L439.8,37.1L444.9,38.6L445.6,41.0L442.6,41.2L446.2,43.6L434.5,46.4L438.1,49.5L431.1,49.1L439.6,53.7L429.0,51.6L430.0,53.5L426.8,54.9L437.9,55.2L389.4,68.2L381.1,75.9L379.5,83.1L375.6,83.2L365.9,80.9L356.6,73.3L350.1,63.4L358.7,55.8L348.1,56.6L349.0,53.3L357.2,54.0L344.9,51.0L348.0,48.4L337.3,40.2L309.7,38.7L301.7,36.1L314.5,35.1L296.4,33.2L317.5,29.5L311.0,27.5L326.0,22.9L360.0,21.0L376.3,23.2L370.1,20.5ZM691.5,385.1L696.0,386.8L691.0,388.3L691.5,385.1ZM545.4,329.4L555.3,329.1L555.3,318.8L560.0,324.2L564.8,320.2L571.3,320.8L581.8,311.4L586.6,311.8L588.7,317.7L585.2,324.3L591.2,324.3L589.5,329.9L578.4,341.0L555.8,346.7L551.0,344.8L550.6,337.9L545.4,329.4ZM580.5,330.4L575.0,333.0L578.1,334.8L580.5,330.4ZM580.5,330.4L578.1,334.8L575.0,333.0L580.5,330.4ZM174.6,159.6L191.6,163.0L204.1,161.8L211.3,168.7L217.6,167.3L224.9,176.8L230.2,178.1L228.1,187.7L233.6,197.7L237.7,199.6L246.1,197.6L249.2,191.7L258.2,190.2L256.0,199.3L247.2,200.5L248.7,205.4L245.1,205.4L243.8,209.6L239.2,205.7L231.8,206.5L212.5,199.2L207.0,194.6L205.5,186.7L188.3,169.6L185.7,163.4L181.2,161.7L181.5,166.2L196.1,185.1L194.4,186.6L188.1,177.7L180.4,173.0L182.9,170.6L174.6,159.6ZM339.9,333.9L350.6,339.0L350.5,345.5L343.8,346.8L337.7,344.2L339.9,333.9ZM351.7,343.8L350.6,339.0L339.9,333.9L351.0,322.6L348.3,321.5L349.2,316.7L346.1,316.5L345.0,312.1L339.1,311.4L338.2,295.3L332.9,295.2L331.9,288.3L318.3,282.1L318.5,277.1L304.0,280.6L304.2,276.4L299.5,277.9L294.5,270.9L297.5,264.7L305.9,261.9L306.1,245.2L312.4,244.3L317.9,247.8L324.0,243.9L320.0,238.7L324.7,239.5L331.3,235.6L336.0,246.3L344.5,243.0L352.9,244.1L357.5,238.3L361.2,245.2L360.0,250.2L364.9,250.7L365.0,253.4L367.2,251.6L375.3,254.3L376.2,257.5L388.9,258.0L401.1,264.3L403.5,270.4L392.6,286.3L386.3,310.9L367.6,319.1L364.2,329.7L351.7,343.8ZM306.9,280.4L318.5,277.1L318.3,282.1L331.9,288.3L332.9,295.2L338.2,295.3L339.3,305.5L328.4,304.5L325.9,311.8L321.2,313.3L315.9,310.6L311.6,313.5L306.7,298.8L309.3,284.9L306.9,280.4ZM305.9,261.9L297.5,264.7L294.5,270.9L299.5,277.9L304.2,276.4L304.0,280.6L306.9,280.4L309.3,284.9L308.4,295.8L304.5,301.0L288.9,290.7L273.9,263.2L276.9,259.5L276.5,262.3L281.6,262.6L291.4,250.2L297.0,256.4L305.4,257.6L303.6,260.4L305.9,261.9ZM314.2,246.5L312.4,244.3L306.1,245.2L305.9,261.9L303.6,260.4L305.4,257.6L297.0,256.4L291.4,250.2L284.9,248.9L280.6,245.3L285.8,239.3L284.8,226.3L291.9,219.2L301.7,215.6L296.4,224.6L300.1,230.6L312.9,233.1L311.6,242.2L314.2,246.5ZM285.1,225.9L283.7,229.9L280.2,225.0L275.3,229.9L269.9,227.6L269.6,223.7L285.1,225.9ZM270.7,223.4L269.5,227.2L261.3,219.7L267.6,219.6L270.7,223.4ZM267.6,219.6L261.9,219.2L256.5,214.1L269.0,208.3L267.6,219.6ZM269.0,208.3L257.5,213.9L251.8,209.9L255.8,205.9L263.9,205.6L269.0,208.3ZM251.8,209.9L255.8,213.5L249.7,211.8L251.8,209.9ZM243.8,209.6L245.1,205.4L248.7,205.4L247.2,200.5L252.4,200.5L252.1,205.9L254.9,206.3L251.8,209.9L249.7,211.8L243.8,209.6ZM252.4,200.5L255.3,199.0L253.0,205.9L252.4,200.5ZM331.3,235.6L324.7,239.5L320.0,238.7L324.0,243.9L315.8,248.0L311.6,242.2L312.9,233.1L300.1,230.6L296.4,224.6L297.5,221.0L301.9,217.3L299.8,222.6L302.0,224.6L301.7,219.5L305.7,216.2L310.6,220.7L328.1,220.2L326.7,222.4L334.0,226.8L329.4,233.4L331.3,235.6ZM342.9,244.7L334.3,245.0L333.4,236.1L329.4,233.4L334.0,226.8L341.3,233.4L338.8,238.7L342.9,244.7ZM348.5,243.6L342.9,244.7L340.0,240.7L341.3,233.4L350.1,234.0L348.5,243.6ZM356.5,238.5L352.9,244.1L348.5,243.6L350.1,234.0L356.5,238.5ZM517.2,112.6L522.5,113.8L516.8,120.2L520.7,128.6L505.1,132.4L494.7,129.4L496.7,122.2L487.2,114.8L495.5,114.9L494.6,111.7L497.3,112.9L507.0,107.9L517.2,112.6ZM524.3,131.6L526.1,130.5L525.6,135.1L524.3,131.6ZM290.6,250.4L290.2,254.3L281.6,262.6L276.5,262.3L278.4,257.4L275.1,256.2L275.2,252.9L277.5,247.9L281.0,246.2L290.6,250.4ZM284.5,198.6L288.3,200.3L284.0,200.4L282.4,199.4L284.5,198.6ZM271.5,185.6L282.4,187.5L293.9,193.7L284.0,194.8L285.9,193.3L281.3,190.0L272.8,187.1L264.0,189.2L271.5,185.6ZM586.6,311.8L577.8,309.7L570.2,299.3L575.1,299.8L584.1,293.1L591.2,296.4L590.7,306.4L586.6,311.8ZM581.8,311.4L571.3,320.8L564.8,320.2L560.0,324.2L555.3,318.8L558.1,300.7L570.2,299.3L581.8,311.4ZM555.3,318.8L555.3,329.1L545.4,329.4L532.6,298.1L569.7,298.8L558.1,300.7L555.3,318.8ZM453.6,212.2L451.0,209.1L455.2,204.3L459.5,203.9L466.2,209.4L468.0,215.4L453.7,215.6L453.2,213.5L461.5,212.5L453.6,212.2ZM468.0,215.4L467.6,207.3L484.6,206.9L482.1,180.7L486.3,180.6L508.8,197.1L511.9,196.8L510.1,206.8L497.0,208.4L488.9,212.6L485.0,221.2L477.7,221.6L474.6,215.8L468.0,215.4ZM452.6,191.7L464.1,190.8L466.8,178.0L475.9,178.1L475.9,173.9L486.3,180.6L482.1,180.7L484.6,206.9L467.6,207.3L466.2,209.4L459.5,203.9L454.3,205.2L454.8,194.2L452.6,191.7ZM507.5,232.6L505.2,232.9L502.1,220.9L507.9,216.0L510.5,220.2L507.5,232.6ZM541.3,186.5L544.2,193.4L542.4,203.8L537.6,210.1L540.5,213.0L539.4,215.3L536.3,212.2L525.0,214.4L515.1,211.5L511.4,212.4L510.0,217.6L502.8,214.3L501.0,208.5L510.1,206.8L511.9,196.8L533.3,184.8L541.3,186.5ZM507.5,232.6L512.1,211.8L525.0,214.4L536.3,212.2L540.5,216.4L532.6,230.6L525.6,232.1L523.6,236.7L516.4,238.2L512.0,232.6L507.5,232.6ZM540.3,214.3L543.0,222.3L538.8,223.5L542.9,228.6L540.2,236.9L544.3,245.2L526.8,243.7L524.3,234.8L528.1,230.4L532.6,230.6L540.3,214.3ZM502.5,219.5L505.2,232.9L502.9,233.5L499.9,220.3L502.5,219.5ZM500.1,219.4L502.9,233.5L492.1,236.1L491.8,219.5L500.1,219.4ZM477.7,221.6L492.1,223.2L492.1,236.1L478.6,237.9L479.0,234.1L476.1,232.0L477.7,221.6ZM461.9,215.0L474.6,215.8L477.7,221.6L477.0,228.6L470.8,226.8L469.1,222.1L463.2,225.3L458.0,219.3L461.9,215.0ZM453.7,215.6L461.9,215.0L461.8,217.2L458.0,219.3L453.7,215.6ZM476.6,228.6L478.6,237.9L468.2,231.2L471.6,226.6L476.6,228.6ZM463.2,225.3L469.1,222.1L471.6,226.6L468.2,231.2L463.2,225.3ZM485.0,221.2L488.1,213.3L497.0,208.4L501.0,208.5L502.8,214.3L506.0,214.9L502.5,219.5L491.8,219.5L492.1,223.2L485.0,221.2ZM576.0,235.5L562.2,238.8L554.1,236.0L544.5,243.7L540.2,234.9L542.4,229.4L549.9,228.1L563.5,219.0L565.2,225.1L576.0,235.5ZM551.3,240.3L544.5,259.8L540.5,263.8L533.1,264.0L531.9,257.7L534.9,255.4L538.9,256.9L540.1,253.7L539.7,246.7L536.3,243.7L544.3,245.2L547.6,239.6L551.3,240.3ZM531.3,243.7L539.7,246.7L540.1,253.7L538.9,256.9L534.9,255.4L531.9,257.7L530.8,261.1L524.4,253.1L526.4,247.2L531.3,247.1L531.3,243.7ZM526.8,243.7L531.3,243.7L531.3,247.1L526.4,247.2L526.8,243.7ZM585.4,273.2L592.3,276.9L592.3,288.8L583.8,291.1L575.1,299.8L564.5,298.7L560.8,294.7L560.9,285.8L566.7,285.9L566.4,280.4L582.5,286.8L582.3,283.8L578.8,282.8L579.0,275.5L585.4,273.2ZM591.0,275.6L595.2,278.2L596.0,287.7L599.1,290.6L597.3,296.7L595.7,290.6L590.8,288.1L593.0,279.2L591.0,275.6ZM596.0,282.0L612.0,278.7L613.3,290.8L609.6,296.4L596.6,305.0L598.5,317.0L589.1,324.3L586.6,311.8L590.7,306.4L591.2,296.4L584.3,294.1L583.8,291.1L592.3,288.8L595.7,290.6L597.3,296.7L599.1,290.6L596.0,287.7L596.0,282.0ZM589.1,324.3L585.2,324.3L586.2,321.5L589.1,324.3ZM536.1,263.3L533.8,266.1L533.1,264.0L536.1,263.3ZM534.2,266.9L545.4,266.3L548.5,272.4L560.4,270.3L561.5,280.8L566.7,281.2L566.7,285.9L560.9,285.8L560.8,294.7L564.5,298.7L532.6,298.1L538.2,281.4L534.2,266.9ZM584.6,256.7L585.4,259.3L581.5,262.5L580.6,257.9L584.6,256.7ZM599.2,159.1L597.0,168.1L595.2,163.3L597.5,158.1L599.2,159.1ZM637.6,284.6L639.9,293.6L638.0,293.6L630.8,319.3L626.1,321.1L622.3,319.4L620.4,313.3L623.5,304.0L622.1,298.4L637.6,284.6ZM526.3,165.8L520.9,155.3L523.4,147.4L526.4,146.3L530.6,147.0L528.2,154.6L531.9,158.0L526.3,165.8ZM475.9,173.9L475.9,169.9L496.4,160.4L494.0,152.3L496.6,150.8L523.4,147.4L520.9,155.3L527.2,168.3L525.9,177.5L533.3,184.8L508.8,197.1L475.9,173.9ZM598.7,160.0L607.8,157.3L608.9,160.7L602.8,162.5L605.6,165.3L600.2,168.9L597.0,168.1L598.7,160.0ZM643.3,182.7L650.0,183.0L656.3,178.6L652.8,187.5L644.4,186.1L643.3,182.7ZM633.3,166.7L634.5,170.7L629.4,169.2L633.3,166.7ZM608.9,160.7L607.8,157.3L613.9,154.4L614.7,149.0L618.8,146.2L624.4,146.7L628.0,150.9L626.2,155.6L634.9,166.9L624.2,168.9L608.9,160.7ZM653.4,186.9L656.7,180.8L666.1,188.0L660.3,197.4L647.5,203.7L644.4,197.2L652.8,194.4L653.4,186.9ZM785.0,216.1L786.1,210.5L795.8,209.5L798.9,212.4L798.6,215.7L793.9,217.9L795.1,219.6L787.5,220.5L785.0,216.1ZM792.3,210.4L786.1,210.5L785.0,216.1L778.0,212.8L775.6,224.3L783.7,232.7L781.0,234.2L772.6,226.8L776.6,217.0L772.8,208.0L774.7,205.1L770.5,198.8L778.1,193.3L781.3,195.9L780.7,201.4L786.7,199.1L790.9,201.6L792.3,210.4ZM798.3,210.5L792.3,210.4L793.3,206.7L788.8,199.3L780.7,201.4L781.3,195.9L778.1,193.3L782.8,191.2L782.4,188.0L790.1,192.3L791.2,194.8L788.6,196.5L798.1,205.8L798.3,210.5ZM778.1,193.3L770.5,198.8L774.7,205.1L772.8,208.0L776.6,217.0L773.8,222.4L769.9,203.0L764.9,206.3L761.6,205.5L762.0,199.4L756.4,190.3L764.2,176.2L772.0,171.3L774.1,178.0L771.1,183.6L774.1,183.2L775.7,188.6L781.0,189.3L778.1,193.3ZM789.8,220.9L798.6,215.7L798.8,207.8L788.6,196.5L791.2,194.8L790.1,192.3L786.7,192.3L783.8,187.6L792.6,185.1L800.1,190.1L793.5,197.1L802.4,207.6L803.3,217.6L792.1,226.1L789.8,220.9ZM862.9,132.2L854.3,139.6L856.1,143.4L846.4,144.1L848.3,140.6L845.2,139.1L847.4,137.3L861.1,130.6L862.9,132.2ZM850.5,145.1L856.5,142.7L859.6,147.8L858.6,152.5L851.3,154.5L850.5,145.1ZM743.8,113.1L756.2,108.9L770.2,111.9L774.6,105.4L801.3,113.1L824.1,111.4L821.5,117.4L828.0,116.5L832.7,119.3L815.2,125.5L810.8,124.7L810.6,128.5L806.7,130.9L791.6,134.5L767.6,131.3L764.7,127.1L752.6,124.2L752.7,119.8L743.8,113.1ZM770.4,171.5L769.8,174.8L764.2,176.2L757.4,188.8L756.0,184.4L753.2,184.7L756.6,180.6L746.0,176.5L746.9,189.7L741.6,190.3L740.3,194.0L723.1,205.8L721.8,221.2L715.4,227.9L704.3,205.6L701.8,190.7L695.8,192.0L689.4,184.2L697.3,182.3L693.1,175.2L699.4,172.5L709.1,160.4L704.9,154.7L716.2,151.4L719.2,154.7L718.7,162.5L725.3,166.2L722.5,170.0L731.4,174.0L744.6,176.6L746.5,172.0L749.3,175.8L755.6,175.4L754.7,172.9L767.0,168.2L767.4,171.1L770.4,171.5ZM757.4,188.8L756.6,192.6L753.9,186.8L747.3,188.7L744.7,181.9L746.0,176.5L756.6,180.6L753.2,184.7L756.0,184.4L757.4,188.8ZM754.7,172.9L755.6,175.4L746.8,174.7L750.0,171.4L754.7,172.9ZM744.8,172.6L744.6,176.6L742.3,176.7L722.5,170.0L726.5,165.5L744.8,172.6ZM716.2,151.4L704.9,154.7L709.1,160.4L699.4,172.5L693.1,175.2L697.3,182.3L689.4,184.2L684.4,179.4L670.8,180.3L675.9,175.7L669.1,167.1L684.3,167.0L685.9,163.0L692.5,161.4L699.6,148.6L708.8,146.9L716.2,151.4ZM684.8,146.2L692.2,146.8L696.7,143.1L699.6,147.9L708.8,146.9L698.0,149.8L698.9,152.4L694.3,155.5L692.5,161.4L685.9,163.0L684.3,167.0L669.1,167.1L671.6,164.6L668.2,158.4L670.0,151.0L675.0,151.7L684.8,146.2ZM688.4,146.8L688.1,140.1L696.3,136.2L697.3,138.2L693.0,140.2L704.7,140.5L708.3,146.1L699.6,147.9L696.7,143.1L688.4,146.8ZM697.1,132.6L706.1,129.7L722.9,132.4L699.4,140.9L693.0,140.2L702.9,136.5L695.6,134.7L697.1,132.6ZM645.8,133.9L650.2,132.4L658.6,135.2L662.9,131.2L684.8,146.2L672.9,152.0L659.3,144.4L649.8,146.7L649.7,141.8L646.4,138.8L647.0,136.5L652.0,136.2L649.2,133.0L646.7,135.7L645.8,133.9ZM634.9,166.9L626.2,155.6L628.0,150.9L622.5,140.5L628.2,142.4L633.5,140.0L636.7,145.6L645.2,148.1L659.3,144.4L669.8,148.6L668.2,158.4L671.6,164.6L669.1,167.1L675.9,175.7L670.8,180.3L659.4,178.5L658.3,175.1L648.6,175.5L639.2,166.3L634.9,166.9ZM599.2,159.1L602.1,147.7L617.6,146.6L613.9,154.4L602.3,160.2L599.2,159.1ZM629.2,142.3L621.1,135.9L626.6,136.6L629.2,142.3ZM530.6,86.5L535.1,79.7L533.1,74.6L546.6,61.1L557.3,58.0L565.4,61.3L566.4,66.6L549.6,75.7L547.6,79.6L552.2,83.1L546.7,86.9L544.1,94.2L536.0,96.2L530.6,86.5ZM578.3,94.0L585.8,95.7L590.8,101.8L587.0,102.6L588.3,105.3L584.9,107.4L565.4,106.7L565.2,100.2L578.3,94.0ZM588.3,105.3L593.8,104.6L598.2,109.5L611.3,112.2L610.4,116.9L597.3,123.0L588.0,120.3L579.7,124.2L580.2,121.0L583.4,121.0L579.6,116.3L561.3,115.5L566.5,109.9L565.4,106.7L584.9,107.4L588.3,105.3ZM565.2,100.2L566.7,109.2L563.3,113.8L544.9,109.9L539.1,102.8L539.2,100.7L549.0,97.6L565.2,100.2ZM547.2,116.3L540.6,121.0L526.3,119.2L535.9,118.1L537.8,114.2L547.2,116.3ZM561.3,115.5L563.1,117.0L558.4,121.3L551.3,122.9L545.0,119.9L547.2,116.3L561.3,115.5ZM573.9,116.1L579.6,116.3L583.4,121.0L578.4,123.6L573.9,116.1ZM578.4,123.6L582.2,124.2L579.3,128.6L563.7,128.3L556.2,121.9L564.3,116.4L573.9,116.1L578.4,123.6ZM573.6,95.5L570.9,99.2L565.2,100.2L558.5,94.4L573.6,95.5ZM575.8,90.3L578.3,94.0L573.6,95.5L558.5,94.4L562.6,89.6L564.8,91.6L569.9,89.0L575.8,90.3ZM577.7,84.8L575.8,90.3L567.5,89.5L564.8,85.6L577.7,84.8ZM539.2,100.7L541.7,108.0L534.0,110.4L537.8,114.2L535.9,118.1L520.7,117.7L522.5,113.8L516.8,110.8L519.7,100.9L527.6,97.3L530.4,100.0L539.2,100.7ZM562.9,127.1L579.3,128.6L577.8,133.3L563.8,135.2L562.9,127.1ZM563.8,135.2L573.9,134.5L565.9,137.0L567.8,138.5L562.9,138.2L566.8,145.4L564.2,144.7L562.5,148.9L556.0,139.9L563.8,135.2ZM624.4,146.7L602.1,147.7L600.4,150.5L600.4,148.2L596.4,147.8L582.5,149.6L576.8,148.2L572.7,140.4L581.2,135.5L593.1,133.3L606.5,136.3L618.4,134.5L624.4,139.7L622.5,140.5L624.4,146.7ZM572.5,133.8L580.5,135.3L573.2,138.5L572.5,133.8ZM558.4,136.5L556.0,139.9L553.9,138.2L554.8,131.4L558.4,136.5ZM546.0,120.8L553.9,124.3L543.8,125.5L551.3,132.0L537.9,124.6L546.0,120.8ZM526.7,118.0L529.0,119.7L527.6,121.3L516.7,121.5L518.7,117.9L526.7,118.0ZM517.1,108.9L515.8,112.4L507.0,107.9L517.1,108.9ZM519.2,101.4L517.1,108.9L509.2,107.4L513.1,102.5L519.2,101.4ZM474.9,133.7L482.3,135.1L478.2,147.7L475.3,147.6L473.5,142.4L474.9,133.7ZM479.3,147.0L479.2,139.9L482.3,135.1L474.9,133.7L473.9,130.5L477.8,128.5L508.3,132.0L502.3,136.1L500.3,142.4L494.0,148.1L485.1,150.1L479.3,147.0ZM482.8,100.4L481.1,104.8L472.3,106.1L474.5,103.2L473.1,100.3L479.0,96.9L479.0,99.8L482.8,100.4ZM960.5,308.6L964.2,311.6L961.6,311.5L955.6,305.8L960.5,308.6ZM991.3,361.3L988.9,364.7L985.1,364.7L986.7,362.4L982.8,359.7L985.3,353.8L979.5,345.9L988.8,354.3L995.9,354.7L991.3,361.3ZM971.3,371.0L980.0,362.5L984.0,364.9L980.8,371.8L976.3,372.9L970.4,379.6L962.5,377.4L971.3,371.0ZM910.2,363.4L910.9,370.0L905.7,371.0L902.1,363.1L910.2,363.4ZM850.4,339.5L843.5,344.1L833.0,344.4L827.8,347.4L819.5,345.0L821.7,339.5L814.8,322.5L817.3,323.1L815.9,312.4L835.7,304.7L849.1,289.5L853.0,288.4L860.1,291.6L862.8,284.8L868.3,283.7L867.7,280.9L879.1,282.9L876.4,291.7L889.5,299.2L895.9,279.6L899.8,290.4L903.8,291.6L906.6,302.7L918.7,312.2L926.6,328.1L916.7,354.0L906.4,358.4L902.9,355.3L898.9,357.8L890.7,355.6L883.7,348.9L883.9,345.5L880.1,347.9L882.8,341.4L877.7,346.9L873.0,340.6L864.8,337.5L850.4,339.5ZM727.2,229.1L723.2,233.4L722.6,222.7L727.2,229.1ZM804.1,199.5L801.7,196.2L807.7,194.2L804.1,199.5ZM722.9,132.4L724.6,130.1L722.1,125.2L729.1,123.5L731.1,118.5L736.6,119.4L738.2,115.4L743.8,113.1L752.7,119.8L752.6,124.2L764.7,127.1L767.6,131.3L791.6,134.5L803.5,131.9L810.6,128.5L810.8,124.7L832.4,120.3L828.0,116.5L820.8,116.3L824.1,111.4L831.4,110.7L835.4,105.7L833.8,103.5L839.6,101.6L849.9,103.4L854.6,111.8L863.9,117.2L875.1,115.3L869.7,124.6L864.0,125.1L862.9,132.2L861.1,130.6L836.3,142.0L839.4,137.7L837.9,136.3L826.5,142.4L832.5,146.8L839.9,146.0L831.0,153.0L838.6,162.0L838.0,171.6L829.6,181.8L807.7,190.6L806.8,193.5L792.6,185.1L782.4,188.0L782.8,191.2L775.7,188.6L774.1,183.2L771.1,183.6L774.1,173.6L767.4,171.1L767.0,168.2L746.7,174.2L746.5,172.0L738.4,171.7L718.7,162.5L719.2,154.7L711.6,150.3L704.7,140.5L722.9,132.4ZM838.3,182.2L835.4,189.0L833.6,184.6L837.5,179.7L838.3,182.2ZM529.0,119.7L538.4,120.8L538.7,123.4L534.2,123.9L535.0,127.5L550.8,139.4L546.9,137.7L547.4,141.9L543.6,144.7L542.8,138.8L531.1,132.3L528.3,128.0L520.7,128.6L519.0,122.2L529.0,119.7ZM541.0,144.0L543.1,143.8L541.9,148.3L534.5,145.5L541.0,144.0ZM524.2,136.4L527.2,137.5L524.5,141.9L524.2,136.4ZM527.6,97.3L523.7,97.3L522.5,92.9L529.4,89.6L527.6,97.3ZM534.4,94.1L533.6,97.8L530.7,96.2L534.4,94.1ZM482.8,100.4L479.0,99.8L479.0,96.9L484.3,98.5L482.8,100.4ZM491.4,101.7L482.9,92.3L486.1,87.1L491.7,87.1L488.7,90.1L494.6,89.8L491.3,94.5L504.7,103.5L501.5,109.0L485.4,111.2L490.5,107.1L485.4,105.6L488.3,104.7L487.3,101.4L491.4,101.7ZM459.7,65.4L462.2,69.1L448.2,73.6L436.8,72.3L439.5,71.1L433.5,69.7L438.3,68.4L432.4,67.7L459.7,65.4ZM628.9,133.7L632.8,135.7L635.0,133.9L640.0,138.2L635.8,143.6L633.5,140.0L629.2,142.3L626.7,139.2L624.9,135.4L629.2,135.9L628.9,133.7ZM611.0,129.3L626.3,131.9L629.5,135.6L615.4,134.6L611.0,129.3ZM840.5,222.3L844.7,218.8L841.7,224.9L840.5,222.3ZM851.0,226.6L848.3,234.5L843.4,228.2L838.7,230.0L848.5,225.0L848.4,222.9L851.0,226.6ZM829.2,224.1L825.5,226.8L832.0,218.4L829.2,224.1ZM839.8,199.4L838.1,210.2L844.3,211.7L844.7,215.2L835.1,211.5L833.1,207.2L835.3,198.6L839.8,199.4ZM839.0,218.3L842.0,217.8L838.9,221.0L839.0,218.3ZM848.6,216.2L846.7,221.8L845.2,215.1L848.6,216.2ZM778.0,232.0L786.0,234.7L789.5,246.4L781.6,242.3L778.0,232.0ZM827.5,238.5L821.8,238.0L818.4,246.0L805.1,246.3L817.2,237.4L820.4,238.0L824.2,230.8L831.1,235.0L827.5,238.5ZM820.7,234.9L818.5,238.9L817.2,237.4L820.7,234.9ZM538.4,120.8L546.0,120.8L542.6,123.7L538.1,123.6L538.4,120.8ZM579.4,58.2L583.3,61.9L580.7,64.0L586.5,76.8L578.0,81.9L563.5,83.8L559.2,81.3L559.8,74.5L570.6,69.1L565.5,65.6L565.4,61.3L557.3,58.0L568.7,59.3L577.0,55.1L580.6,56.2L579.4,58.2ZM562.7,113.7L549.6,117.3L546.9,115.4L551.5,112.5L562.7,113.7ZM541.7,108.0L552.4,112.5L539.8,115.1L534.0,110.4L541.7,108.0ZM601.2,209.9L602.4,202.9L606.7,200.0L609.1,205.8L619.7,214.7L611.2,209.7L601.2,209.9ZM894.1,141.2L889.6,152.4L877.2,157.0L875.2,153.9L863.9,155.9L866.7,157.9L864.8,162.6L861.7,162.7L859.5,157.5L868.4,151.6L876.9,151.3L879.8,146.4L881.6,147.7L887.3,143.8L889.7,135.6L892.7,135.1L894.1,141.2ZM901.7,127.9L903.7,126.7L904.3,129.8L897.7,133.3L893.4,131.4L888.8,134.5L894.4,123.5L901.7,127.9ZM867.7,157.0L872.0,154.5L874.4,156.1L869.5,159.2L867.7,157.0ZM338.4,306.0L339.1,311.4L345.0,312.1L346.1,316.5L349.2,316.7L345.3,326.1L337.2,325.3L339.5,319.9L325.9,311.8L328.4,304.5L335.8,303.8L338.4,306.0ZM644.4,197.2L647.5,203.7L644.9,206.7L620.8,214.9L618.3,207.7L620.5,201.2L630.6,202.9L636.4,198.3L644.4,197.2ZM597.1,168.5L604.2,166.7L602.8,162.5L608.9,160.7L624.2,168.9L631.8,169.4L639.3,175.9L644.4,186.1L653.4,186.9L652.8,194.4L636.4,198.3L630.6,202.9L620.5,201.2L618.8,204.6L608.7,190.9L606.9,184.2L596.2,172.1L597.1,168.5ZM364.8,466.8L378.0,468.0L379.6,472.3L349.5,474.0L364.8,466.8ZM315.9,472.9L334.5,472.3L332.9,475.0L315.9,472.9ZM294.7,448.0L299.8,447.8L300.7,443.1L304.9,441.3L310.2,448.4L298.9,451.3L291.8,450.2L294.7,448.0ZM45.2,468.3L52.1,467.7L57.8,470.8L45.2,468.3ZM1000.0,485.3L1000.0,500.0ZM0.0,500.0L0.0,485.3L2.6,483.7L27.9,483.0L60.9,487.1L102.5,486.2L73.4,482.5L75.4,477.9L64.3,475.3L81.5,475.9L93.3,473.2L68.5,469.6L61.0,466.7L60.1,463.6L79.6,465.0L94.2,462.4L93.9,459.4L97.5,458.9L183.5,454.8L188.1,457.5L220.4,459.2L221.9,458.0L215.2,455.9L212.0,451.7L232.4,454.5L252.1,451.6L292.0,455.2L312.9,451.3L309.6,443.7L311.8,437.0L323.3,430.3L339.4,425.8L327.7,430.0L327.4,433.9L317.6,438.8L328.3,446.4L331.0,454.7L303.9,462.9L285.4,463.1L295.4,466.4L283.5,467.7L283.3,469.9L338.3,481.2L361.8,477.0L381.1,478.0L420.7,473.2L417.5,470.2L401.0,470.7L401.9,467.0L451.3,458.7L456.4,456.9L454.3,455.2L457.1,453.2L480.9,447.0L499.4,449.0L521.5,444.1L530.0,446.8L537.3,444.4L575.3,445.7L594.1,440.3L607.4,443.8L651.5,432.8L670.6,438.8L691.4,438.7L693.5,442.3L688.4,445.3L691.9,446.3L688.7,449.6L694.1,450.7L705.2,444.1L744.4,433.9L749.1,436.5L766.1,437.2L777.0,436.8L785.6,432.1L794.9,435.9L815.6,433.0L832.9,436.9L874.3,433.9L875.2,431.4L881.8,436.0L904.1,435.9L913.4,440.0L975.6,449.2L970.2,454.6L961.4,456.6L954.4,461.8L957.6,467.2L963.9,468.8L949.4,469.9L943.9,474.8L970.6,482.8L1000.0,485.3ZM494.0,152.3L496.4,160.4L475.9,169.9L475.6,174.7L468.4,175.3L459.0,190.3L452.7,190.5L459.9,177.1L473.4,166.9L476.0,157.7L483.5,150.7L494.0,152.3ZM602.4,188.9L569.4,188.9L569.9,162.3L595.2,163.3L597.0,168.1L594.9,172.7L589.8,167.3L602.4,188.9ZM569.4,188.9L569.4,194.4L566.2,195.6L544.1,185.0L539.3,187.5L528.6,182.3L525.9,177.5L527.6,162.8L531.9,158.0L553.0,165.9L557.9,159.1L569.2,161.4L569.4,188.9ZM632.7,227.8L624.9,236.1L609.9,240.5L600.4,237.6L591.5,228.4L601.2,209.9L605.3,208.4L615.6,212.6L617.6,215.2L616.0,219.3L621.3,224.5L632.7,227.8ZM617.6,215.2L620.3,215.6L618.8,219.6L616.0,219.3L617.6,215.2ZM636.0,218.3L632.7,227.8L621.3,224.5L618.2,220.6L619.8,218.2L622.5,221.0L636.0,218.3ZM594.2,252.6L582.2,253.7L586.8,239.5L594.5,238.2L595.8,240.1L597.3,244.7L594.2,252.6ZM584.5,253.2L585.4,256.4L580.6,257.9L584.5,253.2ZM551.6,131.5L544.3,124.4L553.8,125.4L551.6,131.5ZM562.2,132.4L563.8,135.2L557.2,135.9L557.7,133.2L562.2,132.4ZM552.3,122.5L556.2,121.9L563.1,126.2L562.6,132.1L553.4,129.1L552.3,122.5ZM555.8,131.7L553.8,133.7L551.3,132.0L553.4,129.1L555.8,131.7ZM557.2,133.7L557.3,130.0L560.5,131.4L557.2,133.7ZM585.6,240.3L582.5,237.2L577.7,237.8L566.4,226.1L571.6,221.1L574.3,223.7L587.1,222.7L589.1,216.7L592.2,216.2L594.4,225.9L591.5,228.4L598.1,234.7L592.8,239.5L585.6,240.3Z"></path></svg>
         <div class="map-note">访客分布</div>
       </div>
       <div class="visitor-sidebar">

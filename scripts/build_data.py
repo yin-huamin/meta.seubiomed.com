@@ -12,6 +12,7 @@ import json
 import logging
 import os
 import re
+import shutil
 from pathlib import Path
 from collections import defaultdict
 import csv
@@ -500,6 +501,20 @@ def generate_memory_json():
     log.info(f"已写入 {MEMORY_OUT}")
 
 
+def publish_daily_log():
+    """把 logs/daily.log 复制到 web/logs/，供前端“爬取日志”区读取。"""
+    src = BASE_DIR / "logs" / "daily.log"
+    if not src.exists():
+        return
+    dst = WEB_DIR / "logs" / "daily.log"
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        shutil.copy2(src, dst)
+        log.info(f"已发布日志 {dst}")
+    except OSError as exc:
+        log.warning(f"复制日志失败: {exc}")
+
+
 def _bypass_quality(rec: dict) -> bool:
     """预印本与用户选定/可信来源不参与 IF/分区过滤。"""
     if rec.get("is_preprint") and _env_bool("BYPASS_QUALITY_FOR_PREPRINTS", True):
@@ -588,6 +603,7 @@ def run():
     log.info(f"已写入 {STATS_FILE}")
 
     generate_memory_json()
+    publish_daily_log()
 
     return stats
 

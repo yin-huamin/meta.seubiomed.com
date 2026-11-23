@@ -81,6 +81,7 @@ jobs:
             logs/daily.log \
             web/data.json \
             web/data/ \
+            web/logs/ \
             web/memory.json \
             web/stats.json
           # 有变动才提交
