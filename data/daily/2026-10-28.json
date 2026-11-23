@@ -80,41 +80,5 @@
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-10-28"
-  },
-  {
-    "pmid": "42946708",
-    "title": "Early-life bovine respiratory virome analysis reveals phage-driven adaptation and cross-host evolutionary signatures.",
-    "doi": null,
-    "journal": "Nature communications",
-    "issn": "2041-1723",
-    "pub_date": "2026-10-28",
-    "authors": "Wang Yue; Kim Hanbeen; Malmuthuge Nilusha; Zhou Mi; Chen Yanhong et al.",
-    "abstract": "Past outbreaks of zoonotic viral infections highlight the importance of understanding respiratory virome ecology. As major food-producing animals with frequent human contact, cattle represent a critical host at the human-animal interface; however, the early-life establishment of their respiratory virome and its evolutionary connections to viruses from other hosts remain underexplored. Here, we longitudinally profile the upper respiratory tract (URT) virome of beef calves from birth to weaning using an optimized viral enrichment procedure and metagenomic workflow. Viral communities exhibited increased richness and turnover, reflecting ecological structuring during early life. Temperate phages dominate the URT phage community and share virulence- and mobility-associated genes with bacterial hosts, likely contributing to host adaptation and colonization persistence. Vertebrate-associated viruses emerge after the first week of life. Targeted reassembly from bovine URT viromes recovers near-complete betacoronavirus-like (CoV-D180) and adenovirus-like (AdV-D56) genomes positioned phylogenetically between bovine and human viral lineages. Competitive mapping of bovine-derived CoV-D180 and AdV-D56 to human respiratory metatranscriptomic datasets reveals genome-specific, regionally structured coverage patterns distinct from reference viruses, supporting shared sequence features in conserved genomic regions across host-associated viral lineages. Collectively, these findings reveal early-life assembly dynamics of the bovine respiratory virome and highlight cross-host signatures in a One Health framework.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Cattle",
-      "Virome",
-      "Bacteriophages",
-      "Phylogeny",
-      "Humans",
-      "Genome, Viral",
-      "Respiratory System",
-      "Metagenomics",
-      "Respiratory Tract Infections",
-      "Evolution, Molecular"
-    ],
-    "keywords": [],
-    "summary_zh": "纵向分析犊牛上呼吸道病毒组，揭示早期装配动态及噬菌体驱动适应与跨宿主进化信号。",
-    "innovation": "优化病毒富集与宏基因组流程纵向刻画出生至断奶犊牛上呼吸道病毒组 | 发现温带噬菌体主导并携带毒力/移动相关基因，可能促进宿主适应 | 重组获得牛源CoV-D180和AdV-D56近完整基因组并揭示跨宿主保守序列特征",
-    "limitation": "未描述",
-    "study_object": "肉犊牛上呼吸道病毒组，病毒富集结合宏基因组测序",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-10-28"
   }
 ]

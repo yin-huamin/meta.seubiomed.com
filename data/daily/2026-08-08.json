@@ -114,35 +114,6 @@
     "fetch_date": "2026-08-08"
   },
   {
-    "pmid": "42570689",
-    "title": "A least-input nitrogen fertilizer reduction strategy sustains peanut yield with lower nitrogen inputs.",
-    "doi": null,
-    "journal": "Journal of advanced research",
-    "issn": "2090-1224",
-    "pub_date": "2026-08-08",
-    "authors": "Jiao Yubing; Shen Ruixia; Xu Manlin; Liang Hui; Jiang Lianqiang et al.",
-    "abstract": "INTRODUCTION: Synthetic nitrogen (N) fertilizers underpin global food security but drive escalating environmental costs, including greenhouse gas (GHG) emissions and soil degradation. Conventional N-reduction strategies face a fundamental trade-off: lowering fertilizer inputs typically compromises crop productivity and farmer income. Nanotechnology offers a pathway to decouple yield from N dependency, yet scalable, low-cost solutions remain elusive.\nOBJECTIVES: This study aimed to develop a least-input foliar fertilization strategy using bio-derived nanocarbon (BNC) that enables a 30% reduction in synthetic N input in peanut (Arachis hypogaea L.) without sacrificing crop yield, nutritional quality, or economic returns, while elucidating the underlying physiological and microbiological mechanisms.\nMETHODS: Field trials were conducted with peanut (cv. Huayu 22) over two consecutive growing seasons (2024-2025) in Laixi, Shandong, China, under four treatments: N (conventional N, 100% urea), N-30 (reduced N, 70% urea), N + BNC (100% urea + foliar BNC), and N-30 + BNC (70% urea + 18 g ha-1 foliar BNC). Photosynthetic parameters, oxidative stress markers, and 15N isotope tracing were assessed. Transcriptomic, metabolomic, and 16S rRNA microbiome analyses characterized systemic signaling and rhizosphere responses. GHG emissions were modeled using the DNDC framework, and economic benefits were calculated based on yield and input costs.\nRESULTS: BNC application under N-30% maintained yield parity with the N control by sustaining photosynthetic electron transport and reducing reactive oxygen species (ROS). This enhanced carbon status upregulated the transcription factor HY5, activating nitrate transporter AhNRT1.2 and ammonium transporter AhAMT1.1 and increasing 15N uptake. Changes in root-exudate composition were accompanied by shifts in the rhizosphere bacterial community, including higher relative abundance of taxa associated with nitrification and nutrient turnover (Nitrospira and Gemmatimonas), and coincided with 21% and 14% higher root NO3--N and NH4+-N contents, respectively. Nitrogen use efficiency (NUE) improved by 16.0%, total GHG emissions decreased by 34.8%, and net profit increased by 27.0%.\nCONCLUSION: A micro-dosage of upcycled BNC (∼$0.02 ha-1) orchestrates HY5-mediated shoot-to-root signaling and rhizosphere microbiome restructuring to sustain crop productivity under reduced N inputs. This commercially viable, low-input framework offers a scalable route for climate-smart agriculture that reconciles food security with environmental sustainability.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Circular nano-agriculture",
-      "Nitrogen reduction",
-      "Nitrogen use efficiency",
-      "Photosynthetic carbon–nitrogen synergy"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-08-08"
-  },
-  {
     "pmid": "42570323",
     "title": "Natural transformation drives large-scale genome mosaicism in human gut bifidobacteria.",
     "doi": null,
@@ -171,36 +142,6 @@
     "innovation": "首次证明人源双歧杆菌通过自然转化进行大范围染色体转移 | 揭示了自然转化的核心基因簇及其调控 | 开发了基于自然转化的无标记基因组编辑方法",
     "limitation": "未描述",
     "study_object": "人肠道双歧杆菌分离株 + 比较基因组学与转化实验",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-08"
-  },
-  {
-    "pmid": "42569868",
-    "title": "A Universal Fenton-Like Strategy for Selective Generation of 1O2 in Mixed Industrial Wastewater Treatment and Green Chemical Synthesis.",
-    "doi": null,
-    "journal": "Angewandte Chemie (International ed. in English)",
-    "issn": "1521-3773",
-    "pub_date": "2026-08-08",
-    "authors": "Zhao Zhiyong; Yue Shuai; Yang Mengxue; Zhang Jiachen; Li Fei et al.",
-    "abstract": "Sustained and selective generation of singlet oxygen (1O2) in Fenton-like catalytic systems is highly desirable for diverse applications, from freshwater resource management to green chemical synthesis. Despite advances in advanced oxidation processes, there remains a lack of generalizable methods that reliably modulate 1O2 selectivity. Here, we propose a descriptor-assisted coordination modulation strategy, in which machine-learning analysis identifies the d-band center as an important electronic descriptor associated with 1O2 selectivity. Through N-coordination modulation, the CoN5 catalyst exhibited near-complete 1O2 selectivity among the quantified reactive oxygen species (ROS) with a steady-state concentration of 394 µM, outperforming recent reports. As an internal-circulation pre-oxidation module, the CoN5/peroxymonosulfate (CoN5/PMS) system continuously raised wastewater biochemical oxygen demand/chemical oxygen demand (BOD/COD) to above 0.5 over 192 h, increased bioavailable dissolved organic matter (DOM), and showed high microbiome compatibility, evidenced by reduced Vibrio fischeri inhibition and microbial diversity ordination clustering near the background with greater shared-taxa overlap. This system also enabled selective thioanisole oxidation, achieving 90.6% conversion and 99.5% selectivity, with green synthesis potential demonstrated in a three-chamber continuous single-pass reactor. These results establish a generalizable coordination principle for steering ROS pathways and provide a deployable, low-ecological-risk route for both mixed wastewater treatment and green chemical synthesis.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Fenton‐like catalysis",
-      "ML‐assisted descriptor analysis",
-      "green synthesis",
-      "mixed wastewater pre‐oxidation",
-      "singlet oxygen"
-    ],
-    "summary_zh": "提出机器学习辅助描述符识别d带中心的配位调控策略，CoN5催化剂实现近完全1O2选择性，用于混合工业废水处理及绿色化学合成。",
-    "innovation": "机器学习识别d带中心为1O2选择性描述符 | N配位调控实现CoN5近完全1O2选择性 | CoN5/PMS体系提升废水可生化性且微生物组兼容",
-    "limitation": "未描述",
-    "study_object": "混合工业废水处理系统，CoN5/过氧单硫酸盐催化体系，机器学习辅助配位调控技术",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

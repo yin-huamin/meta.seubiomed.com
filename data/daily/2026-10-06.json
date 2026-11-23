@@ -1,36 +1,5 @@
 [
   {
-    "pmid": "42834399",
-    "title": "Chestnut-quebracho tannins shape the fecal metabolome of weaned pigs through microbiota-dependent urolithin production.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-10-06",
-    "authors": "Correa Federico; Luise Diana; Palumbo Francesco; Scicchitano Daniel; Rampelli Simone et al.",
-    "abstract": "BACKGROUND: Chestnut and quebracho tannins may support gut health in weaned piglets, but their efficacy likely depends on farm environment and microbial capacity to convert tannins into bioactive metabolites. This study evaluated the effects of a blend of chestnut-derived hydrolysable tannins and quebracho-derived condensed tannins on growth performance, diarrhea occurrence, gut metagenome, and fecal metabolome in piglets reared under two commercial farm conditions. A total of 160 weaned piglets (initial body weight 6.53 ± 0.13 kg) were assigned to a 2 × 2 factorial design comprising 2 weaning units (W1 and W2) and 2 dietary treatments (control diet or control diet + 2 g/kg tannin blend; 40 piglets per treatment × farm). The trial lasted 76 d, with weighings at T0 (entry into weaning, median 28 d), T1 (d 35), T2 (d 49), and T3 (d 76). Fecal scores and samples were collected at T1, T2, and T3 for shotgun metagenomics (155 samples per time point) and untargeted metabolomics, and targeted urolithin quantification was performed in tannin-treated piglets at T1 and T2.\nRESULTS: Tannin supplementation did not affect overall growth performance throughout the weaning phase, but reduced diarrhea occurrence at T2 in W2 (P = 0.032). Species-level beta diversity was consistently affected by treatment across time points (R2= 0.01-0.03; P < 0.01), whereas alpha diversity was mainly farm-driven during the early post-weaning phase. Linear discriminant analysis effect size identified farm-dependent taxonomic markers, including Escherichia coli in control pigs from W1 at T1 and Megasphaera elsdenii, Faecalibacterium prausnitzii, and Lactobacillus amylovorus in tannin-treated pigs at later time points. Untargeted metabolomics revealed treatment-related fecal signatures, with isourolithin A and urolithin B among the most discriminant metabolites in treated pigs, especially in W2. Targeted analysis identified 3 urolithin metabotypes (metabotype B in 50.0% of samples), with higher isourolithin A, urolithin B, and urolithin A in W2 than W1 at T2 (P < 0.01). Network integration identified candidate cooperative microbial consortia associated with urolithin production, including Ellagibacter isourolithinifaciens; these co-abundance associations are correlative and remain to be functionally validated.\nCONCLUSIONS: Overall, chestnut-quebracho tannins were associated with a farm-dependent reduction in post-weaning diarrhea and modulated the gut ecosystem through microbiota-dependent polyphenol metabolism.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Gut microbiome",
-      "Metabolomics",
-      "Piglet",
-      "Post-weaning diarrhea",
-      "Tannins",
-      "Urolithins"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-06"
-  },
-  {
     "pmid": "42836554",
     "title": "Pathogenicity and virulence of Giardia intestinalis.",
     "doi": null,
@@ -51,36 +20,6 @@
       "protease",
       "protozoa",
       "vesicle"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-06"
-  },
-  {
-    "pmid": "42836733",
-    "title": "Network-guided synthesis of antagonistic microbiota for suppressing maize stalk rot disease.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-10-06",
-    "authors": "Li Da; Qu Zishuo; Feng Wenzhe; Zhou Xin; Cai Lei",
-    "abstract": "Plant-associated microbiomes play a crucial role in sustaining host health and fitness, but how pathogen invasion reshapes microbial interaction networks and how to leverage this for developing effective biocontrol strategies remain poorly understood. This study investigated the maize microbiome under Fusarium stalk rot stress by integrating large-scale amplicon sequencing, network refinement, and experimental validation. To distinguish biological interactions from spurious associations driven by environmental and geographic factors, we applied a refined analytical framework to filter out abiotic correlations. The resulting interaction networks revealed that pathogen infection significantly increased network complexity and the proportion of potential negative interactions across all maize compartments except seeds. Specifically, potential negative interactions with Fusarium were significantly enriched in the rhizosphere microbiome, encompassing numerous uncultured taxa and known biocontrol genera (e.g., Epicoccum, Burkholderia, and Nocardioides). Representative strains from these taxa were subsequently isolated and assembled into a synthetic microbial community (SynCom). This refined network-derived SynCom significantly suppressed maize stalk rot caused by Fusarium verticillioides and F. graminearum. In non-sterilized soil, this SynCom exhibited significantly stronger disease-suppressive effects than either the randomly assembled SynCom or the SynCom derived from the unrefined network. Integrated transcriptomic and metabolomic analyses suggested that the SynCom confers resistance through the production of antifungal metabolites, including azelaic acid, and potentially through the induction of host defense responses. Collectively, our study provides meaningful insights into plant-microbe interaction under pathogen stress and suggests an analytical-experimental workflow that integrates computational ecology with experimental validation for developing biocontrol strategies against maize stalk rot.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Fusarium stalk rot",
-      "Network analysis",
-      "biocontrol",
-      "microbial interactions",
-      "synthetic community"
     ],
     "summary_zh": "（待生成）",
     "innovation": "（待生成）",

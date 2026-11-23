@@ -30,43 +30,6 @@
     "fetch_date": "2026-09-02"
   },
   {
-    "pmid": "42112933",
-    "title": "Bacterial weaponry and the ecological factors of competitive success.",
-    "doi": null,
-    "journal": "Essays in biochemistry",
-    "issn": "1744-1358",
-    "pub_date": "2026-09-02",
-    "authors": "Gee Mia; Sharp Connor",
-    "abstract": "Bacteria have evolved complex protein systems known as bacterial weapons to inhibit or kill their competitors. These bacterial weapons are a remarkably diverse arsenal that influence the composition and function of important microbial communities such as the human microbiome. In turn, the spatial constraints, nutrient availability, environmental stressors, and the presence of competitors determine not only whether weapons are expressed, but which weapons provide the greatest advantage. While bacterial weaponry is widespread, the types, mechanisms, and abundance of these systems vary between, and even within, species. Recent research has highlighted the importance of bacterial weaponry in community invasion and pathogenicity. Their potency and narrow killing spectrum have also generated interest in exploiting bacterial weapons to engineer microbial communities or develop therapeutics that avoid the disruption of broad-spectrum antibiotics. Understanding how ecological context affects weapon efficacy could reveal new virulence mechanisms used by pathogens and inform the design of novel treatments and microbiome-based therapies. This review outlines three of the best-studied bacterial weapon systems (protein bacteriocins, the type VI secretion system, and contact-dependent inhibition), highlighting their roles in microbial ecology, pathogenicity and their potential as therapeutics.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Bacteria",
-      "Humans",
-      "Microbiota",
-      "Bacteriocins",
-      "Type VI Secretion Systems",
-      "Animals",
-      "Bacterial Proteins"
-    ],
-    "keywords": [
-      "Bacteria",
-      "Bacterial warfare",
-      "Microbiome"
-    ],
-    "summary_zh": "综述细菌武器系统种类、机制及其在微生物生态和致病性中的作用，探讨生态因素和潜在治疗应用。",
-    "innovation": "未描述",
-    "limitation": "未描述",
-    "study_object": "细菌武器系统（蛋白细菌素、VI型分泌系统、接触依赖性抑制）及其生态因素",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-02"
-  },
-  {
     "pmid": "42683728",
     "title": "Metagenome-scale modeling to assess microbiome metabolic complementarity for precision microbiota transplantation therapies.",
     "doi": null,
@@ -140,37 +103,6 @@
     "study_object": "炎症性肠病中的蛋白酶-serpin-微生物组文献（综述）",
     "disease": "炎症性肠病（IBD）",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-02"
-  },
-  {
-    "pmid": "42681694",
-    "title": "Dietary green tea residue improves growth and antioxidant capacity via rumen microbiota and glutathione modulation in finishing beef cattle.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-09-02",
-    "authors": "Shi Changxiao; Deng Jiajie; Zhang Hongliang; Li Yingqi; Zhang Shuo et al.",
-    "abstract": "BACKGROUND: Green tea residue (GTR) is an abundant by-product rich in polyphenols. This study aimed to investigate the effects of GTR on growth performance, rumen microbiota, and systemic metabolism in finishing beef cattle.\nRESULTS: Forty-five 18‑month‑old finishing Angus steers with an average initial body weight of 474.44 ± 14.03 kg (mean ± SD) were individually housed and randomly assigned to three dietary treatments (n = 15 per group) using stratified randomization by initial body weight: control group (CG group, 150 g rice straw), low-dose GTR group (LG group, 75 g rice straw +75 g GTR), and high-dose GTR group (HG group, 150 g GTR). The feeding trial lasted 70 d with a 10-day adaptation period. To elucidate the regulatory mechanisms of GTR on beef cattle growth, we thoroughly assessed growth performance, nutrient digestibility, ruminal fermentation parameters, conducted bacterial 16S rRNA sequencing, analysed plasma biochemical and antioxidant markers, and executed an untargeted plasma metabolomic analysis. The LG group tended to increase average daily gain (ADG). Meanwhile, the LG group exhibited elevated plasma concentrations of β-hydroxybutyrate and glucose, increased activities of superoxide dismutase and glutathione S-transferase, an increased glutathione (GSH)/glutathione disulfide (GSSG) ratio, and reduced GSSG content. GTR treatment decreased reactive oxygen species and oxidative stress index. Furthermore, dietary GTR significantly modified the rumen microbial community structure, enriching Xylanibacter and Prevotellaceae_UCG-003, while reducing the abundance of Rikenellaceae_RC9_gut_group. Plasma metabolomics revealed that GTR treatment enriched GSH Metabolism and the Pentose Phosphate Pathway. Notably, gamma-glutamylcysteine was identified as a key mediator of the association between Xylanibacter and ADG in fattening beef cattle supplemented with GTR.\nCONCLUSIONS: Dietary supplementation with 75 g/steer/d GTR improved growth performance and systemic antioxidant capacity in finishing beef cattle by modulating the rumen microbiota and activating the glutathione system. GTR represents a promising functional feed additive that simultaneously valorizes tea by‑products and enhances livestock productivity.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Antioxidant",
-      "Beef cattle",
-      "Glutathione",
-      "Green tea residue",
-      "Growth performance",
-      "Microbiome"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-09-02"
   }

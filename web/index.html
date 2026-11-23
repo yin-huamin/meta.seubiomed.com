@@ -922,6 +922,21 @@ let currentView   = window.innerWidth < 768 ? "card" : "table"; // P1-8: 移动�
 let searchQuery   = "";
 let loadingYear   = null; // 正在加载的年份
 
+// 统一记录键：兼容历史 pmid-only、DOI 预印本与 uid
+function recordKey(r) {
+  if (!r) return "";
+  return r.uid || (r.pmid ? "pmid:" + r.pmid : (r.doi ? "doi:" + r.doi : ""));
+}
+
+// 论文链接：优先显式 url，其次 PubMed，再次 DOI
+function paperLink(r) {
+  if (!r) return "";
+  if (r.url) return r.url;
+  if (r.pmid) return "https://pubmed.ncbi.nlm.nih.gov/" + r.pmid + "/";
+  if (r.doi) return "https://doi.org/" + r.doi;
+  return "";
+}
+
 // 日期解析函数：支持多种格式
 function parseDate(dateStr) {
   if (!dateStr) return null;
@@ -938,12 +953,13 @@ async function loadYearData(year) {
     const res = await fetch(`data/${year}.json?t=${Date.now()}`);
     if (!res.ok) throw new Error(`Failed to load data/${year}.json`);
     const yearData = await res.json();
-    // 去重合并（按pmid）
-    const existingIds = new Set(allData.map(r => r.pmid));
+    // 去重合并（按 uid，兼容历史 pmid-only 记录与 DOI 预印本）
+    const existingIds = new Set(allData.map(recordKey));
     for (const r of yearData) {
-      if (!existingIds.has(r.pmid)) {
+      const key = recordKey(r);
+      if (key && !existingIds.has(key)) {
         allData.push(r);
-        existingIds.add(r.pmid);
+        existingIds.add(key);
       }
     }
     console.log(`Loaded ${yearData.length} papers for ${year}, total: ${allData.length}`);
@@ -1389,11 +1405,12 @@ function renderTable() {
   const page  = filteredData.slice(start, start + pageSize);
 
   tbody.innerHTML = page.map(r => {
+    const link = paperLink(r);
     const pmidLink = r.pmid
       ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${esc(r.pmid)}</a>`
-      : "—";
-    const titleLink = r.pmid
-      ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid)}/" target="_blank">${highlightText(r.title, searchQuery)}</a>`
+      : (r.doi ? `<a href="https://doi.org/${esc(r.doi)}" target="_blank">DOI</a>` : "—");
+    const titleLink = link
+      ? `<a href="${esc(link)}" target="_blank">${highlightText(r.title, searchQuery)}</a>`
       : highlightText(r.title, searchQuery);
 
     const isHQ = isHighQuality(r);
@@ -1401,7 +1418,7 @@ function renderTable() {
 
     return `<tr tabindex="0" class="${isHQ ? 'high-quality' : ''}">
       <td class="col-date">${esc(r.pub_date) || "—"}</td>
-      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}${isNew ? '<span class="new-tag">NEW</span>' : ''}</div></td>
+      <td class="col-title"><div class="text-clamp" onclick="this.classList.toggle('expanded')">${titleLink}${isNew ? '<span class="new-tag">NEW</span>' : ''}${r.is_preprint ? '<span class="new-tag">预印本</span>' : ''}</div></td>
       <td class="col-pmid" style="font-size:11px;">${pmidLink}</td>
       <td class="col-journal">${highlightText(r.journal, searchQuery)}</td>
       <td class="col-journal-quality">${renderJournalQuality(r)}</td>
@@ -1427,13 +1444,16 @@ function renderCards() {
   container.innerHTML = page.map(r => {
     const jcrIcon = getJcrIcon(r.journal_jcr);
     const casIcon = getCasIcon(r.journal_cas);
+    const link = paperLink(r);
+    const titleHtml = highlightText(r.title, searchQuery);
+    const titleLink = link ? `<a href="${esc(link)}" target="_blank">${titleHtml}</a>` : titleHtml;
     return `<div class="paper-card">
       <div class="paper-card-title">
-        <a href="https://pubmed.ncbi.nlm.nih.gov/${esc(r.pmid || '')}/" target="_blank">${highlightText(r.title, searchQuery)}</a>
+        ${titleLink}${r.is_preprint ? '<span class="new-tag">预印本</span>' : ''}
       </div>
       <div class="paper-card-meta">
         <span class="meta-item">📅 ${esc(r.pub_date) || "—"}</span>
-        <span class="meta-item">PMID: ${esc(r.pmid) || "—"}</span>
+        <span class="meta-item">${r.pmid ? "PMID: " + esc(r.pmid) : (r.is_preprint ? "预印本" : "—")}</span>
         <span class="meta-item">📖 ${highlightText(r.journal, searchQuery)}</span>
         <span class="meta-item">IF: ${esc(r.journal_if) || "—"}</span>
         <span class="meta-item">JCR: ${jcrIcon} ${esc(r.journal_jcr) || "—"}</span>

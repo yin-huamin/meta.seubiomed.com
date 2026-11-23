@@ -40,38 +40,6 @@
     "fetch_date": "2026-10-26"
   },
   {
-    "pmid": "42928559",
-    "title": "Root rot suppression by synthetic microbiota is associated with rhizosphere bacterial shifts and amino acid metabolism.",
-    "doi": null,
-    "journal": "Journal of experimental botany",
-    "issn": "1460-2431",
-    "pub_date": "2026-10-26",
-    "authors": "Zhu Ning; Zhao Peijie; Liu Xinyi; Leng Feifan; Guo Xiaopeng et al.",
-    "abstract": "Root rot caused by Fusarium oxysporum (F. oxysporum) severely constrains Codonopsis pilosula (C. pilosula) production. Indigenous culturable bacteria associated with C. pilosula were screened for antifungal activity, plant growth-promoting traits, and interstrain compatibility, and two defined three-member synthetic microbial communities, SCI and SCII, were constructed. Both SynComs alleviated root rot, with SCI showing stronger overall performance and a biocontrol efficacy of 57.8%, together with improved root growth and photosynthetic performance. Rhizosphere bacterial profiling was integrated with rhizosphere metabolite profiling and root tissue metabolomics. SynCom treatment was associated with limited changes in overall bacterial diversity but variation in specific rhizosphere taxa. In roots, pathway-enrichment patterns shifted from sulfur metabolism and oxidative stress-related processes under pathogen stress toward amino acid-related metabolism after SynCom treatment, accompanied by treatment-associated variation in medicinally relevant metabolite features. Associations between metabolic changes and potentially beneficial bacteria indicated coordinated variation between host metabolism and rhizosphere bacterial composition. In vitro assays further showed that L-valine elicited chemotactic and growth responses in a representative Sphingomonas isolate. Collectively, SynCom-mediated root rot suppression was associated with constituent-strain antagonism, plant recovery, rhizosphere bacterial shifts, and amino acid-related metabolic variation.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Codonopsis pilosula",
-      "Fusarium oxysporum",
-      "Amino acid metabolism",
-      "Biocontrol",
-      "Rhizosphere microbiome",
-      "Synthetic microbial community",
-      "Untargeted metabolomics"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-26"
-  },
-  {
     "pmid": "42928381",
     "title": "Cardiovascular resilience in centenarians.",
     "doi": null,

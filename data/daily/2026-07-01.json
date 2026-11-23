@@ -1500,84 +1500,6 @@
     "fetch_date": "2026-07-01"
   },
   {
-    "pmid": "41176223",
-    "title": "Sustainable tea plantations: Harnessing chemical-microbial synergy and smart application triangulation for targeted weed control.",
-    "doi": null,
-    "journal": "Journal of advanced research",
-    "issn": "2090-1224",
-    "pub_date": "2026-06-25",
-    "authors": "Chen Lan; Yang Xiaolong; Su Zhongzeng; Guan Xiong; Wang Zixuan et al.",
-    "abstract": "BACKGROUND: Over 200 weed species-predominantly from the Poaceae and Asteraceae families-infest tea plantations. These weeds compete aggressively with tea plants for essential resources (light, water, and nutrients), serve as reservoirs for pathogens and pests, and bioaccumulate phytotoxic compounds (e.g., pyrrolizidine alkaloids and heavy metals), jeopardizing agroecosystem health. Although chemical herbicides are currently the most effective and economical method, their long-term overuse poses ecological risks and threatens agricultural sustainability, highlighting an urgent need for sustainable alternatives. Although chemical herbicides remain the most effective and economical method, their long-term overuse causes ecological risks and challenges agricultural sustainability.\nAIM OF REVIEW: This review synthesizes current knowledge on sustainable weed management in tea plantations by evaluating the strengths and limitations of chemical and microbial herbicides. It further advances the novel concepts of chemical-microbial synergy and smart application triangulation-integrated strategies not explicitly addressed in previous reviews-that provide new directions for developing next-generation sustainable weed control.\nKEY SCIENTIFIC CONCEPTS OF REVIEW: This review systematically examines three critical aspects of weed management in tea plantations: (1) characterizing weed biodiversity and assessing multidimensional threats through taxonomic profiling of invasive species, with particular focus on their cascading impacts on tea agroecosystems including resource competition, disease transmission, and soil toxicity; (2) evaluating the mechanisms and trade-offs of current herbicide approaches through comparative analysis of chemical herbicides (noting their efficiency but ecological concerns) and microbial herbicides (considering their environmental benefits but field performance variability); (3) exploring sustainable optimization strategies by investigating innovative approaches such as precision herbicide formulations (nano-formulations, smart delivery systems) and integrated weed management solutions (microbiome engineering, epigenome editing).",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Weed Control",
-      "Plant Weeds",
-      "Herbicides",
-      "Camellia sinensis",
-      "Agriculture"
-    ],
-    "keywords": [
-      "Chemical herbicides",
-      "Herbicide performance",
-      "Microbial herbicides",
-      "Multidimensional hazards",
-      "Sustainable weed management",
-      "Tea plantation weeds"
-    ],
-    "summary_zh": "综述茶园杂草可持续管理，提出化学-微生物协同与智能应用三角新策略。",
-    "innovation": "提出化学-微生物协同策略 | 提出智能应用三角概念 | 系统回顾杂草多样性、除草剂机制与优化策略",
-    "limitation": "未描述",
-    "study_object": "茶园杂草 + 化学/微生物除草剂 + 综述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-01"
-  },
-  {
-    "pmid": "41833200",
-    "title": "Seed ageing increases the influence of native microorganisms on germination.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-04-12",
-    "authors": "Roach Thomas; Stegner Moritz; Clara David; Ametrano Claudio G; Compant Stéphane et al.",
-    "abstract": "Improper seed storage conditions, such as elevated temperature and moisture, accelerate ageing and compromise seed quality. However, the impacts of ageing on the seed microbiome and the resulting consequences for germination performance remain poorly understood. Here, we characterised how ageing soybean (Glycine max) seeds at 45 °C and 75% RH affects seed fungal communities, metabolism relevant to microbial growth, and sensitivity of germination to fungal challenge. Additionally, we assessed a role for endophytic bacteria in controlling pathogenic fungi. Amplicon sequencing revealed that ageing decreased fungal richness and reshaped community structure and composition of dominant taxa in seeds. Fusarium and Rhizopus isolates inhibited germination of non-aged seeds, whereas Sarocladium, Plectosphaerella, and Cladosporium impaired germination of aged seeds only. During imbibition, ageing increased seed metabolite leakage, including pinitol, glucose, and fructose, which promoted fungal growth in vitro. Among 39 endophytic bacteria previously isolated from soybean seeds, Bacillus toyonensis C55 and B. pumilus AM26 antagonised fungal growth, consistent with genomic regions associated with antifungal activity. Ageing oxidised the seed cellular redox state, and fungi tolerated oxidative growth conditions better than bacteria. In two cultivars, seed inoculation with B. toyonensis C55 increased germination, supporting a role in regulating fungal infections, whereas B. pumilus AM26 impaired germination. Notably, neither Bacillus strain affected germination of high-vigour non-aged seeds. Fluorescence in situ hybridisation microscopy revealed that both strains recolonised the seed endosphere following ageing. We conclude that oxidation during seed ageing contributes to increased sensitivity to fungal pathogens, which can be modulated by certain bacteria.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Seeds",
-      "Germination",
-      "Glycine max",
-      "Fungi",
-      "Bacteria",
-      "Microbiota",
-      "Bacillus",
-      "Fusarium"
-    ],
-    "keywords": [
-      "Ageing",
-      "Bacillus",
-      "Damping off",
-      "Phytopathogen",
-      "Soybean",
-      "Spermosphere"
-    ],
-    "summary_zh": "研究大豆种子老化对真菌群落和发芽的影响，发现老化增加真菌敏感性，某些细菌可调节",
-    "innovation": "揭示了老化对种子真菌群落结构和真菌病原体敏感性的影响 | 发现内生细菌Bacillus toyonensis C55和B. pumilus AM26具有抗真菌活性并能调节老化种子的发芽 | 阐明氧化老化导致真菌耐受性增加而细菌耐受性降低的机制",
-    "limitation": "未描述",
-    "study_object": "大豆种子 + 种子真菌群落和内生细菌 + 扩增子测序和荧光原位杂交显微镜",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-01"
-  },
-  {
     "pmid": "42205184",
     "title": "Gut Virome Characteristics and Network Alterations in IgA Nephropathy.",
     "doi": null,
@@ -1604,46 +1526,6 @@
     "study_object": "人类粪便样本，宏基因组和全长16S rRNA测序",
     "disease": "IgA肾病",
     "sample_size": "64例（32例患者和32例健康对照）",
-    "ai_done": true,
-    "fetch_date": "2026-07-01"
-  },
-  {
-    "pmid": "41881888",
-    "title": "Meta-omics profiling of denitrifying bacterial communities with lignin as carbon source.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-04-12",
-    "authors": "Tuveng Tina R; Hagen Live Heldal; Rese Morten; Eijsink Vincent G H; Arntzen Magnus Ø",
-    "abstract": "Lignin is the most abundant renewable source of aromatic carbon and its microbial depolymerization and metabolism under aerobic conditions is well studied. However, lignin breakdown in the absence of oxygen remains poorly understood. In this study, we established long-term bacterial enrichment cultures supplied with diverse lignin preparations as the sole carbon source under denitrifying conditions. Denitrification dynamics were followed by monitoring nitrogenous gases. Metagenomics analysis of eight enrichments involving five lignins recovered 62 metagenome-assembled genomes (MAGs), several of which encoded enzymes for both denitrification and anaerobic metabolism of aromatic compounds. Quantitative metaproteomics confirmed expression of such enzymes and additionally showed that several MAGs expressed multiple oxidoreductases and uncharacterised proteins that are potential candidates for involvement in lignin modification. The detection of several oxygen-dependent oxidoreductases despite anaerobic conditions prompts intriguing discussion of potential mechanistic explanations. This systems-level study expands our understanding of bacterial processing of lignin-associated carbon in anaerobic environments and suggests enzymatic targets for further exploration of lignin depolymerization under oxygen-limited conditions.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Lignin",
-      "Denitrification",
-      "Bacteria",
-      "Carbon",
-      "Metagenomics",
-      "Oxidoreductases",
-      "Proteomics",
-      "Metagenome",
-      "Anaerobiosis",
-      "Bacterial Proteins"
-    ],
-    "keywords": [
-      "Bacteria",
-      "Denitrification",
-      "Lignin",
-      "Meta-omics"
-    ],
-    "summary_zh": "通过长期反硝化富集培养和宏组学分析，揭示了以木质素为唯一碳源的细菌群落结构及代谢酶，扩展了对厌氧木质素分解的理解。",
-    "innovation": "建立了反硝化条件下以木质素为碳源的长期富集培养 | 宏基因组学恢复62个MAGs并鉴定反硝化与厌氧芳香代谢酶 | 宏蛋白质组学发现厌氧条件下氧依赖性氧化还原酶的表达",
-    "limitation": "未描述",
-    "study_object": "厌氧反硝化条件下的细菌富集培养，宏基因组学和宏蛋白质组学分析",
-    "disease": "无",
-    "sample_size": "8个富集培养",
     "ai_done": true,
     "fetch_date": "2026-07-01"
   },

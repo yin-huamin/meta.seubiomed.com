@@ -32,6 +32,19 @@ jobs:
           SEARCH_KEYWORDS=${{ secrets.SEARCH_KEYWORDS }}
           LLM_TIMEOUT=60
           LLM_DELAY=1.5
+          ENABLE_JOURNAL_FETCH=1
+          ENABLE_PREPRINT_FETCH=1
+          ENABLE_OPENALEX=1
+          OPENALEX_MAILTO=yinhm17@126.com
+          SCOPE_ENFORCE=1
+          SCOPE_FAIL_MODE=fallback
+          SCOPE_MIN_CONFIDENCE=0.7
+          SCOPE_BATCH_SIZE=10
+          SCOPE_WORKERS=4
+          SCOPE_LLM_MODEL=deepseek-chat
+          BYPASS_QUALITY_FOR_PREPRINTS=1
+          BYPASS_QUALITY_FOR_TRUSTED=1
+          PREFER_PUBLISHED_OVER_PREPRINT=1
           CONFIGEOF
 
       - name: 创建目录
@@ -47,6 +60,10 @@ jobs:
         run: |
           python metaweb.py build 2>&1 | tee -a logs/daily.log
 
+      - name: 审计排除项残留
+        run: |
+          python metaweb.py scope-audit --verify
+
       - name: 提交更新到仓库
         run: |
           git config user.name "github-actions[bot]"
@@ -54,6 +71,13 @@ jobs:
           # 强制添加被 gitignore 的数据文件和日志
           git add --force \
             data/daily/ \
+            data/excluded_pmids.json \
+            data/scope_classification.json \
+            data/scope_overrides.json \
+            data/scope_review.tsv \
+            data/purge_state.json \
+            data/journals_sources.tsv \
+            data/pmid_doi_map.json \
             logs/daily.log \
             web/data.json \
             web/data/ \

@@ -85,37 +85,5 @@
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-07-24"
-  },
-  {
-    "pmid": "42490446",
-    "title": "Eukaryotic-like microtubules and dynamic instability of Asgard archaeal tubulins.",
-    "doi": null,
-    "journal": "Science advances",
-    "issn": "2375-2548",
-    "pub_date": "2026-07-24",
-    "authors": "Löwe Jan; von Kügelgen Andriko; Planelles-Herrero Vicente J; McAndrew Martin B L; Oliva María A et al.",
-    "abstract": "Eukaryotic cells change their shapes, actively segregate their DNA, and contain membrane networks, facilitated by a complex cytoskeleton containing actin filaments, microtubules made from tubulin, and other components. These filaments have ancient evolutionary origins because actin- and tubulin-like proteins form prokaryotic cytoskeletons in archaea and bacteria. Bona fide eukaryotic F-actin can be traced back to crenarchaea and Asgard archaea, which are the closest known relatives of eukaryotes. A possible Asgard archaeal origin of microtubules was suggested recently with the discovery of a lokiarchaeon containing AtubAB mini microtubules that share architectural features with their eukaryotic counterparts. Using phylogenetic analyses of metagenomic data, here we report the broad occurrence of tubulins in Asgard archaea. Biochemical and structural analyses showed that one of our previously unidentified heimdallarchaeial AtubAB tubulin pairs forms four-protofilament mini microtubules that show dynamic instability and are inhibited by the tubulin drug maytansine. Our work raises the possibility that microtubule architecture and dynamics evolved in Asgard archaea prior to eukaryogenesis.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Tubulin",
-      "Microtubules",
-      "Archaea",
-      "Phylogeny",
-      "Archaeal Proteins",
-      "Models, Molecular",
-      "Eukaryota"
-    ],
-    "keywords": [],
-    "summary_zh": "通过宏基因组分析发现Asgard古菌中微管蛋白广泛存在，并证明一种新型微管蛋白对形成动态不稳定的微型微管，暗示微管演化早于真核生物起源。",
-    "innovation": "首次揭示Asgard古菌中微管蛋白广泛存在 | 发现新型微管蛋白对形成四原丝微型微管并具有动态不稳定性 | 提示微管的真核样特征在古菌中已出现",
-    "limitation": "未描述",
-    "study_object": "Asgard古菌（宏基因组数据）+ 微管蛋白（系统发育分析、生化与结构分析）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-24"
   }
 ]

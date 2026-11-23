@@ -70,46 +70,6 @@
     "fetch_date": "2026-09-29"
   },
   {
-    "pmid": "41995611",
-    "title": "Sulfur as a central integrator of plant-microbe interactions: from nutrient cycling to immune signalling and microbiome assembly.",
-    "doi": null,
-    "journal": "Journal of experimental botany",
-    "issn": "1460-2431",
-    "pub_date": "2026-09-29",
-    "authors": "Elkatmis Büsra; Türksoy Gözde Merve; Rodríguez Enrique; Rahmoune Bilal; Koprivova Anna et al.",
-    "abstract": "Sulfur is an essential macronutrient that underpins plant growth, stress resilience, and immunity. Beyond its role in primary metabolism, sulfur is incorporated into a diverse array of secondary metabolites that mediate plant-microbe interactions. In this review, we summarize current knowledge on how microbial sulfur metabolism contributes to plant sulfur nutrition and how plant-derived sulfur-containing compounds shape microbial community assembly and disease outcomes. Microorganisms mobilize organic sulfur in soils through sulfatase activity, volatile sulfur production, and sulfoquinovose degradation, thereby enhancing plant sulfur availability, particularly under limiting conditions. Conversely, plants deploy sulfur-rich metabolites, including volatile organic compounds, glucosinolates, and the phytoalexin camalexin, to restrict pathogens, modulate beneficial associations, and structure rhizosphere communities. These compounds act not only as antimicrobial agents but also as ecological filters that balance defense with microbiome homeostasis. Emerging evidence indicates that sulfur availability and metabolic flux influence the composition and function of plant-associated microbiota, linking primary nutrient assimilation to immune regulation. By integrating insights from sulfur biochemistry, microbial ecology, and plant immunity, we highlight sulfur metabolism as a central node in plant-microbe interactions. Understanding the dynamic exchange of sulfur between plants and their microbiota will be essential for improving crop resilience and sustainable nutrient management in sulfur-limited agricultural systems.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Sulfur",
-      "Microbiota",
-      "Plant Immunity",
-      "Plants",
-      "Signal Transduction"
-    ],
-    "keywords": [
-      "Camalexin",
-      "S-containing metabolites",
-      "glucosinolates",
-      "microbiome",
-      "plant defense",
-      "plant growth-promoting bacteria",
-      "sulfur",
-      "volatiles"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-29"
-  },
-  {
     "pmid": "42766739",
     "title": "Candida in the lower respiratory tract induces barrier disruption in mice and predicts poor outcomes in mechanically ventilated humans.",
     "doi": null,

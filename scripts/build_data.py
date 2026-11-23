@@ -16,6 +16,8 @@ from pathlib import Path
 from collections import defaultdict
 import csv
 
+import common
+
 BASE_DIR   = Path(__file__).resolve().parent.parent
 DAILY_DIR  = BASE_DIR / "data" / "daily"
 WEB_DIR    = BASE_DIR / "web"
@@ -266,44 +268,136 @@ def _load_existing_data() -> list:
         return []
 
 
+AI_FIELDS = ["summary_zh", "innovation", "limitation",
+             "study_object", "disease", "sample_size"]
+
+
+def _is_ai_complete(rec: dict) -> bool:
+    """判断记录是否真的带完整 AI 注释（排除历史失败留下的“（待生成）”占位）。"""
+    return all(
+        str(rec.get(f) or "").strip() and "（待生成）" not in str(rec.get(f))
+        for f in AI_FIELDS
+    )
+
+
+def _env_bool(name: str, default: bool = True) -> bool:
+    val = os.environ.get(name)
+    if val is None:
+        return default
+    return val.strip().lower() in ("1", "true", "yes", "on")
+
+
+_IDENTITY_FIELDS = ("uid", "source", "pmid", "doi", "url",
+                    "is_preprint", "published_doi", "journal_issn")
+
+
+def _normalize_record(rec: dict, doi_map: dict) -> dict:
+    """补齐统一身份字段，并用 pmid→doi 映射回填历史 DOI。"""
+    rec = dict(rec)
+    pmid = str(rec.get("pmid") or "").strip()
+    if pmid and not common.normalize_doi(rec.get("doi")):
+        mapped = doi_map.get(pmid)
+        if mapped:
+            rec["doi"] = mapped
+    common.ensure_identity(rec)
+    rec["is_preprint"] = bool(rec.get("is_preprint"))
+    rec.setdefault("trusted_source", False)
+    published = common.normalize_doi(rec.get("published_doi"))
+    rec["published_doi"] = published or None
+    return rec
+
+
+def _merge_two(base: dict, new: dict) -> dict:
+    """合并同一条论文的两个来源，保护正式版身份。"""
+    if base.get("is_preprint") and not new.get("is_preprint"):
+        # 正式版出现：身份字段以正式版为准
+        for key in _IDENTITY_FIELDS:
+            if new.get(key) not in (None, "", False):
+                base[key] = new[key]
+        base["is_preprint"] = False
+        base["trusted_source"] = base.get("trusted_source") or new.get("trusted_source", False)
+        return common.merge_record(base, {k: v for k, v in new.items()
+                                          if k not in _IDENTITY_FIELDS})
+    if new.get("is_preprint") and not base.get("is_preprint"):
+        # 已有正式版：预印本只用于补摘要，不改变身份
+        return common.merge_record(base, {k: v for k, v in new.items()
+                                          if k not in _IDENTITY_FIELDS})
+    return common.merge_record(base, new)
+
+
 def merge_all() -> list:
     """
-    增量合并：以已有 data.json 为基础，整合新增的 daily JSON。
-    以 pmid 为唯一键去重，优先保留 ai_done=True 的版本。
-    不再依赖 data/daily/ 的完整历史，daily JSON 只需保留到 build 之后的下一次。
+    增量合并：以 web/data.json 为基础，整合新增 daily JSON。
+    以 uid/PMID/DOI/标题哈希的别名集合去重；已注释版本优先。
     """
-    # 1) 加载累积数据库
-    seen = {}
-    for rec in _load_existing_data():
-        pmid = str(rec.get("pmid", ""))
-        if pmid:
-            seen[pmid] = rec
+    doi_map = common.load_json(common.PMID_DOI_MAP_FILE, {}) or {}
+    excluded = common.load_excluded()
 
-    base_count = len(seen)
-
-    # 2) 合并 daily JSON（新数据覆盖旧数据，ai_done 优先）
+    records = []
+    alias_index = {}
+    base_count = 0
     new_count = 0
+    excluded_count = 0
+
+    def add(rec: dict):
+        nonlocal excluded_count
+        rec = _normalize_record(rec, doi_map)
+        if common.is_excluded(rec, excluded):
+            excluded_count += 1
+            return False
+        keys = common.alias_keys(rec)
+        hit = next((alias_index[k] for k in keys if k in alias_index), None)
+        if hit is None:
+            records.append(rec)
+            idx = len(records) - 1
+            for key in keys:
+                alias_index.setdefault(key, idx)
+            for key in common.alias_keys(rec):
+                alias_index.setdefault(key, idx)
+            return True
+        base = records[hit]
+        _merge_two(base, rec)
+        for key in common.alias_keys(base) | keys:
+            alias_index.setdefault(key, hit)
+        return False
+
+    for rec in _load_existing_data():
+        if add(rec):
+            base_count += 1
+
     for f in sorted(DAILY_DIR.glob("*.json")):
         try:
             with open(f, encoding="utf-8") as fh:
-                records = json.load(fh)
-            for rec in records:
-                pmid = str(rec.get("pmid", ""))
-                if not pmid:
-                    continue
-                if pmid not in seen:
-                    seen[pmid] = rec
-                    new_count += 1
-                elif rec.get("ai_done") and not seen[pmid].get("ai_done"):
-                    seen[pmid] = rec
-                    new_count += 1
+                for rec in json.load(fh):
+                    if add(rec):
+                        new_count += 1
         except Exception as exc:
             log.warning(f"读取 {f} 失败: {exc}")
 
-    all_records = list(seen.values())
-    all_records.sort(key=lambda r: r.get("pub_date", "") or "", reverse=True)
-    log.info(f"累积基础 {base_count} 篇 + 新增 {new_count} 篇 = 共 {len(all_records)} 篇")
-    return all_records
+    # 正式版已存在时丢弃对应预印本
+    if _env_bool("PREFER_PUBLISHED_OVER_PREPRINT", True):
+        published_dois = {common.normalize_doi(r.get("doi"))
+                          for r in records
+                          if not r.get("is_preprint") and common.normalize_doi(r.get("doi"))}
+        published_titles = {common.title_hash(r.get("title"))
+                            for r in records if not r.get("is_preprint")}
+        kept, dropped = [], 0
+        for rec in records:
+            if rec.get("is_preprint"):
+                pub_doi = common.normalize_doi(rec.get("published_doi"))
+                if (pub_doi and pub_doi in published_dois) or \
+                   common.title_hash(rec.get("title")) in published_titles:
+                    dropped += 1
+                    continue
+            kept.append(rec)
+        if dropped:
+            log.info(f"预印本去重: 丢弃 {dropped} 篇已有正式版的预印本")
+        records = kept
+
+    records.sort(key=lambda r: r.get("pub_date", "") or "", reverse=True)
+    log.info(f"累积基础 {base_count} 篇 + daily 新增 {new_count} 篇 = 共 {len(records)} 篇"
+             f"（排除清单跳过 {excluded_count} 篇）")
+    return records
 
 
 # ── Stats ───────────────────────────────────────────────────────
@@ -313,6 +407,8 @@ def build_stats(records: list) -> dict:
     year_counts   = defaultdict(int)
     journal_counts = defaultdict(int)
     disease_counts = defaultdict(int)
+    source_counts = defaultdict(int)
+    preprint_total = 0
 
     for rec in records:
         art_type = rec.get("article_type") or "其他"
@@ -330,10 +426,17 @@ def build_stats(records: list) -> dict:
         if disease and disease not in ("无", "（待生成）", "未描述"):
             disease_counts[disease] += 1
 
+        source = rec.get("source") or ("pubmed" if rec.get("pmid") else "unknown")
+        source_counts[source] += 1
+        if rec.get("is_preprint"):
+            preprint_total += 1
+
     return {
         "total":        len(records),
         "by_type":      dict(sorted(type_counts.items(),   key=lambda x: -x[1])),
         "by_year":      dict(sorted(year_counts.items(),   key=lambda x: x[0], reverse=True)),
+        "by_source":    dict(sorted(source_counts.items(), key=lambda x: -x[1])),
+        "preprint_total": preprint_total,
         "top_journals": dict(sorted(journal_counts.items(), key=lambda x: -x[1])[:20]),
         "top_diseases": dict(sorted(disease_counts.items(), key=lambda x: -x[1])[:20]),
     }
@@ -350,6 +453,14 @@ def split_by_year(records: list):
 
     data_dir = WEB_DIR / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
+
+    # 已存在的年份分片若本次无记录，显式写 []，避免旧数据残留
+    existing_years = {p.stem for p in data_dir.glob("*.json")
+                      if p.stem.isdigit() and len(p.stem) == 4}
+    for y in sorted(existing_years - set(by_year)):
+        with open(data_dir / f"{y}.json", "w", encoding="utf-8") as fh:
+            json.dump([], fh)
+        log.info(f"  {y}: 0 篇（清空旧分片）")
 
     index = []
     for y in sorted(by_year):
@@ -389,6 +500,15 @@ def generate_memory_json():
     log.info(f"已写入 {MEMORY_OUT}")
 
 
+def _bypass_quality(rec: dict) -> bool:
+    """预印本与用户选定/可信来源不参与 IF/分区过滤。"""
+    if rec.get("is_preprint") and _env_bool("BYPASS_QUALITY_FOR_PREPRINTS", True):
+        return True
+    if rec.get("trusted_source") and _env_bool("BYPASS_QUALITY_FOR_TRUSTED", True):
+        return True
+    return False
+
+
 # ── Main ─────────────────────────────────────────────────────────
 def run():
     WEB_DIR.mkdir(parents=True, exist_ok=True)
@@ -405,7 +525,13 @@ def run():
     # ── 过滤：IF<5 / JCR Q3,Q4 / CAS 3,4 区期刊 ──
     filtered = []
     excluded_count = 0
+    bypass_count = 0
     for rec in all_records:
+        if _bypass_quality(rec):
+            bypass_count += 1
+            filtered.append(rec)
+            continue
+
         jcr = (rec.get("journal_jcr") or "").strip()
         cas = (rec.get("journal_cas") or "").strip()
         if_str = (rec.get("journal_if") or "").strip()
@@ -426,21 +552,28 @@ def run():
             continue
         filtered.append(rec)
 
-    log.info(f"分区过滤: 排除 {excluded_count} 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），保留 {len(filtered)} 篇")
+    log.info(f"分区过滤: 排除 {excluded_count} 篇（IF<5 或 JCR Q3/Q4 或 CAS 3/4区），"
+             f"豁免 {bypass_count} 篇（预印本/可信来源），保留 {len(filtered)} 篇")
     all_records = filtered
 
     # 写 data.json（仅保留前端需要的字段，缩减体积）
     frontend_fields = [
-        "pmid", "title", "doi", "journal", "pub_date",
+        "uid", "pmid", "title", "doi", "url", "source", "is_preprint",
+        "journal", "journal_issn", "pub_date",
         "journal_if", "journal_jcr", "journal_cas",
         "authors", "article_type", "summary_zh",
         "innovation", "limitation", "study_object",
         "disease", "sample_size", "ai_done",
     ]
-    frontend_data = [
-        {k: rec.get(k, "") for k in frontend_fields}
-        for rec in all_records
-    ]
+    frontend_data = []
+    for rec in all_records:
+        item = {k: rec.get(k, "") for k in frontend_fields}
+        item["is_preprint"] = bool(rec.get("is_preprint"))
+        item["pmid"] = str(rec.get("pmid") or "")
+        item["doi"] = common.normalize_doi(rec.get("doi")) or None
+        item["uid"] = rec.get("uid") or common.record_uid(rec)
+        item["url"] = rec.get("url") or common.record_url(rec)
+        frontend_data.append(item)
 
     with open(OUT_FILE, "w", encoding="utf-8") as fh:
         json.dump(frontend_data, fh, ensure_ascii=False, separators=(",", ":"))

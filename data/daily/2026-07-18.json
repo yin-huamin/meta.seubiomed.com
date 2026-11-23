@@ -31,31 +31,6 @@
     "fetch_date": "2026-07-18"
   },
   {
-    "pmid": "42470720",
-    "title": "B vitamin-mediated interactions in synthetic microbial communities.",
-    "doi": null,
-    "journal": "Current opinion in microbiology",
-    "issn": "1879-0364",
-    "pub_date": "2026-07-18",
-    "authors": "Suazo Dennis D; Wang Eleanor; Taga Michiko E",
-    "abstract": "Microbial communities drive fundamental processes across the globe, from biogeochemical cycling to human health. Yet, their complexity often obscures mechanistic understanding. Synthetic communities (SynComs) have emerged as powerful tools to distill this complexity into tractable, rationally designed systems to study community function. Metabolic interactions - competition and sharing of resources between organisms - are a frequent focus of these controlled studies. The role of B vitamin cross-feeding remains a critical frontier because B vitamins are required in trace quantities for metabolism, but not all organisms can make their own, necessitating cross-feeding interactions. Here, we review recent advances in microbial ecology that use SynComs to investigate B vitamin-mediated interactions through mechanistic approaches across scales, domains of life, environments, and disciplines. We highlight key findings that demonstrate how auxotrophy, obligate cross-feeding networks, precursor sharing, exploitation and interference competition, and cell lysis together encompass B vitamin interactions. Collectively, these processes demonstrate how microbial B vitamin exchanges drive macroscale community functions like host-microbiome interdependencies. The mechanistic insights into microbial community interactions synthesized from these integrative approaches provide foundational insight into the structure and function of natural microbial communities, advancing the potential to engineer microbiomes for therapeutic and environmental applications.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "综述利用合成微生物群落研究B族维生素介导的相互作用，揭示交叉喂养机制驱动群落功能。",
-    "innovation": "通过合成群落系统性研究B族维生素交叉喂养的多种机制，跨尺度、跨生命域、跨环境整合 | 揭示B族维生素交换驱动宏观群落功能（如宿主-微生物组互依关系）",
-    "limitation": "未描述",
-    "study_object": "综述（合成微生物群落、B族维生素交叉喂养）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-18"
-  },
-  {
     "pmid": "42471503",
     "title": "Characterization of immunomodulatory dialkylresorcinols from the human-associated HACEK bacteria.",
     "doi": null,
@@ -109,30 +84,6 @@
     "study_object": "未描述",
     "disease": "阿尔茨海默病",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-18"
-  },
-  {
-    "pmid": "42471440",
-    "title": "Metatranscriptomics reveals urbanization-driven divergence in rodent viromes and zoonotic risks in Chinese megacities.",
-    "doi": null,
-    "journal": "Communications biology",
-    "issn": "2399-3642",
-    "pub_date": "2026-07-18",
-    "authors": "Xiang Zhou-Fu; Wang Hui; Yang Fan; Chen Si-Jun; Huang Ting-Sheng et al.",
-    "abstract": "Metagenomic sequencing has advanced our understanding of wildlife-associated viruses and enabled identification of potential zoonotic pathogens. However, most studies remain geographically limited, with few systematic comparisons of virome compositions across urbanization gradients. To address this gap, we conducted large-scale sampling in two densely populated Chinese megacities-Wuhan and Shenzhen-with distinct climates. We collected 1,072 rodents from four species that frequently interact with humans, enabling comparative analysis of urban rectal virome dynamics and zoonotic risks in rodents. We identified 35 vertebrate-associated viruses. Among them, 9 were potentially novel species, including Norovirus and Orthopicobirnavirus species, and 3 had zoonotic potential, namely Orthohantavirus seoulense and human coronavirus OC43 (HCoV_OC43). We also discovered two viruses previously unreported in rodents, Erinaceus hedgehog Seoul orthohantavirus and Canine astrovirus, which revealed cross-order transmission risk. Additionally, 22 high-risk viruses were identified, with Wuhan and Shenzhen showing distinct prevalence patterns. Our analysis shows that inter-city rectal virome divergence is structured by meteorological variables, independently explaining 5.0% of the variation in viral community composition. Our findings highlight the importance of spatial distance in shaping the distribution and transmission of rodent-borne viruses. These insights are essential for proactive surveillance and mitigation of emerging zoonotic threats in high-density urban environments.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过宏转录组测序分析中国两个特大城市啮齿动物直肠病毒组，发现城市化驱动的病毒组成差异及人畜共患风险。",
-    "innovation": "大规模跨城市比较城市化梯度对啮齿动物病毒组的影响 | 发现9种潜在新病毒和3种有人畜共患潜力的病毒 | 发现两种之前未在啮齿动物中报道的病毒",
-    "limitation": "未描述",
-    "study_object": "城市环境 + 啮齿动物直肠样本 + 宏转录组测序",
-    "disease": "无",
-    "sample_size": "1072",
     "ai_done": true,
     "fetch_date": "2026-07-18"
   },

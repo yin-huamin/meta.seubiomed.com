@@ -185,47 +185,6 @@
     "fetch_date": "2026-08-19"
   },
   {
-    "pmid": "42616783",
-    "title": "The dual-function enzyme PpLipO protects polar marine bacteria from phospholipid peroxidation.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-08-19",
-    "authors": "Zhang Yu-Zhong; Jiang Wen-Xin; Zhao Xiang-Ming; Hao Jie; Lu Yao et al.",
-    "abstract": "Membrane phospholipid peroxidation is a deleterious process in which reactive oxygen species (ROS) attack unsaturated fatty acids embedded in cell membranes, generating phospholipid hydroperoxides and triggering structural damage that can ultimately lead to cell death. While mammalian strategies to mitigate peroxidation, primarily through the combined activities of phospholipase A2 (PLA2) and subsequent reduction of resultant fatty acid hydroperoxides with glutathione peroxidases/peroxiredoxins have been well characterized for more than two decades, mechanisms by which prokaryotes contend with this oxidative challenge remain poorly understood. Here, we report a phospholipid hydroperoxide elimination strategy mediated by the bifunctional enzyme PpLipO from the Antarctic sea-ice bacterium Pseudoalteromonas prydzensis. This enzyme comprises an N-terminal lipase domain and a C-terminal lipoyl peroxidase domain. Through synergistic action of these domains, PpLipO first hydrolyzes ROS-induced phospholipid hydroperoxides into fatty acid hydroperoxides via its lipase domain, then catalyzes their reduction to hydroxy fatty acids via the peroxidase domain. Comprehensive phylogenetic and structural analyses of the C-terminal peroxidase domain revealed its unique position within a distinct clade of the Ohr/OsmC family, known for their roles in organic hydroperoxide detoxification. Functional studies of PpLipO homologs in other marine bacteria, combined with metagenomic surveys, suggest that this strategy is widespread in global oceans, particular among polar marine bacteria. Altogether, our findings identify a prokaryotic phospholipid peroxidation repair mechanism that parallels the mammalian PLA2 - peroxidase system, expanding our understanding of oxidative stress response across domains of life.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Phospholipids",
-      "Lipid Peroxidation",
-      "Pseudoalteromonas",
-      "Phylogeny",
-      "Bacterial Proteins",
-      "Antarctic Regions",
-      "Reactive Oxygen Species",
-      "Oxidation-Reduction",
-      "Aquatic Organisms",
-      "Lipase"
-    ],
-    "keywords": [
-      "antioxidant strategy",
-      "marine bacteria",
-      "membrane peroxidation",
-      "oxidative stress",
-      "phospholipid hydroperoxides"
-    ],
-    "summary_zh": "本研究揭示南极海冰细菌PpLipO双功能酶通过水解和还原协同修复磷脂过氧化，该机制广泛存在于海洋细菌中。",
-    "innovation": "首次阐明原核生物磷脂过氧化修复机制，与哺乳动物PLA2-过氧化物酶系统类似 | 发现PpLipO由脂肪酶和过氧化物酶双结构域协同作用 | 通过宏基因组调查证明该策略在全球海洋特别是极地细菌中广泛存在",
-    "limitation": "未描述",
-    "study_object": "南极海冰细菌Pseudoalteromonas prydzensis + 酶 + 系统发育/结构/宏基因组分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-19"
-  },
-  {
     "pmid": "42618579",
     "title": "Global analysis of infant gut microbiota revealed distinctive maturation dynamics across lifestyles.",
     "doi": null,
@@ -316,35 +275,6 @@
     "fetch_date": "2026-08-19"
   },
   {
-    "pmid": "42616025",
-    "title": "Adaptations of gummivorous primate gut-associated bifidobacteria to type-II arabinogalactan utilisation.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-08-19",
-    "authors": "Sasaki Yuki; Kozakai Tomoya; Inoue Moe; Sakanaka Mikiyasu; Katoh Toshihiko et al.",
-    "abstract": "Bifidobacteria inhabiting the primate gut exhibit host-dependent genetic diversification, particularly in their gene repertoire related to carbohydrate metabolism, suggesting adaptation to host diets. However, these diverse genetic traits remain poorly associated with specific dietary components. Here, through enzymatic and genetic analyses, we demonstrate that several Bifidobacterium species residing in the gut of gummivorous primates, such as marmosets, possess previously uncharacterised pathways for the efficient utilisation of type-II arabinogalactan (AG), the major polysaccharide component of tree gums. The assimilation pathways comprises two key components: a bifunctional β-1,3-galactanase that cleaves the AG backbone via both endo- and exo-mode actions and an ATP-binding cassette transporter that internalises the released arabinogalactan oligosaccharides (AGOs) into cells. Data mining of deposited metagenomic datasets suggested that the endo/exo-β-1,3-galactanase and the AGO transporter contribute to cross-feeding interactions within Bifidobacterium communities in the gut of gummivorous primates. Our study not only highlights molecular strategies employed by certain Bifidobacterium species to adapt to the dietary habits of a host but may also inform probiotic intervention strategies for the health and welfare of these primates in captive settings.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Gummivorous primates",
-      "bifidobacteria",
-      "dietary adaptation",
-      "type-II arabinogalactan"
-    ],
-    "summary_zh": "通过酶学和遗传学分析，揭示树胶食性灵长类肠道双歧杆菌利用II型阿拉伯半乳聚糖的新途径及交叉互养机制。",
-    "innovation": "发现双歧杆菌利用II型AG的新途径 | 鉴定双功能β-1,3-半乳聚糖酶兼具内切与外切活性 | 揭示AGO转运体介导的交叉互养作用",
-    "limitation": "未描述",
-    "study_object": "树胶食性灵长类（如狨猴）肠道双歧杆菌，酶学和遗传学分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-19"
-  },
-  {
     "pmid": "42615762",
     "title": "The Causal Effect of Supra- and Sub-Gingival Instrumentation on the Oral Microbiome of Elderly Periodontitis Patients Treated in Nursing Homes: Secondary Analysis of a Randomised Controlled Trial.",
     "doi": null,
@@ -372,81 +302,6 @@
     "study_object": "养老院老年牙周炎患者的龈上及龈下菌斑样本，采用16S rRNA测序",
     "disease": "牙周炎",
     "sample_size": "36例",
-    "ai_done": true,
-    "fetch_date": "2026-08-19"
-  },
-  {
-    "pmid": "42614111",
-    "title": "Social lives of bacteria as revealed through CLASI-FISH.",
-    "doi": null,
-    "journal": "Essays in biochemistry",
-    "issn": "1744-1358",
-    "pub_date": "2026-08-19",
-    "authors": "Mark Welch Jessica L",
-    "abstract": "The spatial organization of microbiomes illuminates their structure, function, and relationship to their host. Using fluorescence spectral imaging to discriminate up to 16 fluorophores and using combinations of probes to generate unique spectral signatures, combinatorial labeling and spectral imaging-fluorescence in situ hybridization (CLASI-FISH) has been deployed to analyze spatial organization in oral, gut, and marine microbiomes. In dental plaque, imaging revealed the structural role of Corynebacterium matruchotii in organizing the plaque biofilm and revealed previously unrecognized complexity in dental plaque corncob structures. Tongue dorsum biofilms showed a patchy organization around a core of host epithelial cells projecting from the tongue surface, with anaerobes located near the core and oxygen-tolerant taxa near the surface. Taxa that are prominent in these tongue dorsum communities can reduce nitrate to nitrite and thus may play an important role in human nitrate metabolism. In contrast with the highly structured organization of oral biofilms, analysis of the gut microbiome by CLASI-FISH showed a mixed community, indicating that the rate of mixing in the gut is high enough to overcome the tendency of bacterial replication to generate single-taxon patches. Application of CLASI-FISH to blades of kelp showed a dense biofilm with clusters of cocci near the kelp surface, bacteria invading the kelp tissue, and rod-shaped and filamentous bacteria extending into the water column. Collectively, visualizing the spatial organization of host-associated microbiomes reveals spatial relationships among taxa and between microbes and host and serves to generate predictions about the dynamics of the host-microbiome interaction.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Biofilm",
-      "Gut microbiome",
-      "Marine microbiome",
-      "Oral microbiome",
-      "biogeography",
-      "confocal microscopy"
-    ],
-    "summary_zh": "利用CLASI-FISH成像分析口腔、肠道和海洋微生物组空间组织，揭示菌群结构及与宿主互作。",
-    "innovation": "CLASI-FISH可同时区分多达16种荧光团，通过探针组合生成独特光谱特征 | 揭示牙菌斑和舌背生物膜的空间组织模式，发现肠道微生物混合分布",
-    "limitation": "未描述",
-    "study_object": "宿主相关微生物组（口腔牙菌斑、舌背生物膜、肠道、海藻叶片）的CLASI-FISH空间分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-19"
-  },
-  {
-    "pmid": "42618954",
-    "title": "Microbiome analysis and epigenetic patterns revealed distinct differences between two elm species with contrasting Dutch elm disease resistance.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-08-19",
-    "authors": "Hoenicka Hans; Ulrich Kristina; Haffner Charlotte; Starczak Marta; Gackowski Daniel et al.",
-    "abstract": "BACKGROUND: Dutch elm disease (DED), caused by the fungus Ophiostoma novo-ulmi, has devastated elm species in Europe and North America for over a century. While the Chinese elm (Ulmus parvifolia) frequently displays notable resistance to DED, the European wych elm (Ulmus glabra) remains highly susceptible. Understanding microbiome interaction and epigenetic factors might help to explain this contrasting resilience and subsequently improve disease management.\nRESULTS: Seedlings of both elm species were germinated and maintained under identical environmental conditions. Comparative metabarcoding revealed distinct differences in bacterial and eukaryotic microbiomes, as well as in their associations with lichenized fungi and their photobiont algae. In U. parvifolia, 24 eukaryotic and 14 bacterial taxa were identified as the most differentially abundant microbiome components, and exhibited significantly different levels compared to U. glabra. In particular, Leotiomycetes fungi and Rhizobiales bacteria, both previously implicated in resistance to pathogens, were strongly enriched in U. parvifolia. Lichenized fungi and chlorophyte algae were likewise more abundant in U. parvifolia. In U. glabra, 11 eukaryotic and 16 bacterial taxa were significantly more abundant, including Nocardioides bacteria and Leptospora fungi. Ultra-performance liquid chromatography coupled with mass spectrometry revealed that, compared to U. glabra, U. parvifolia exhibited higher levels of 5-(hydroxymethyl)-2'-deoxycytidine and lower levels of 5-methyl-2'-deoxycytidine and N6-methyl-2'-deoxyadenosine in DNA, as well as increased amounts of 5-methylcytidine, N6-methyladenosine, and 5-hydroxymethyluridine in RNA. The elevated levels of well-established epigenetic markers in DNA and RNA are remarkable. However, it remains unclear what part of the holobiont may be responsible for this effect.\nCONCLUSIONS: The contrasting susceptibility of Chinese and European elms to DED correlates with pronounced differences in their associated microbial communities and lichens, as well as in patterns of epigenetic nucleoside modifications. In particular, the enrichment of specific stress-associated microbiome components, together with lichen associations and elevated levels of modified DNA and RNA nucleosides in U. parvifolia, may underlie its increased tolerance to DED. Although this study did not identify the factors responsible for DED resistance, it provides valuable insights into microbiomic and epigenetic features that could contribute to the development of new approaches to combat DED. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Ulmus",
-      "Plant Diseases",
-      "Microbiota",
-      "Disease Resistance",
-      "Epigenesis, Genetic",
-      "Bacteria",
-      "Ophiostoma",
-      "Lichens",
-      "Fungi"
-    ],
-    "keywords": [
-      "Ulmus",
-      "Algae",
-      "Bacterial and fungal communities",
-      "Dutch elm disease",
-      "Epigenetics",
-      "Forest trees",
-      "Lichens",
-      "Microbiome",
-      "Stress resistance"
-    ],
-    "summary_zh": "比较抗病中国榆和感病欧洲榆的微生物组与表观遗传修饰，发现差异可能解释荷兰榆树病抗性。",
-    "innovation": "首次比较两种榆树在相同条件下的微生物组与表观遗传模式 | 发现抗病榆树富集特定抗病微生物和苔藓共生体 | 揭示DNA和RNA核苷修饰水平差异",
-    "limitation": "未识别导致DED抗性的具体因素",
-    "study_object": "榆树幼苗的微生物组（细菌和真核）及表观遗传修饰（DNA和RNA核苷）",
-    "disease": "荷兰榆树病",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-08-19"
   },
@@ -639,40 +494,6 @@
     "innovation": "开发STIB，无需同源重组即可快速位点特异插入 | 通过融合核酸内切酶和ATPase优化，减少质粒共整合，实现>97%靶向插入 | 在复杂合成肠道菌群中实现物种和位点特异编辑",
     "limitation": "未描述",
     "study_object": "人类肠道拟杆菌属细菌，基于CRISPR相关转座酶的基因组编辑工具",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-19"
-  },
-  {
-    "pmid": "42617663",
-    "title": "Fermented Foods in Canada: A Perspective on Research Evidence, Policy, and Future Priorities.",
-    "doi": null,
-    "journal": "Advances in nutrition (Bethesda, Md.)",
-    "issn": "2156-5376",
-    "pub_date": "2026-08-19",
-    "authors": "Sánchez-Lafuente Carla L; Gänzle Michael; Gobbetti Marco; Hardy Andrea; Holscher Hannah et al.",
-    "abstract": "Fermented foods are attracting renewed scientific, public, and policy interest due to their appealing sensory qualities and their potential health benefits, particularly in light of emerging research on microbiome-diet interactions and food-derived bioactive compounds. Despite their long history of consumption and cultural significance, fermented foods remain largely absent from national dietary guidance in Canada. Although emerging evidence suggests fermented foods may contribute to health, important uncertainties remain regarding mechanisms of action, product-specific effects, and the strength of evidence across health outcomes. This perspective synthesizes insights from the inaugural workshop of the Canadian Fermented Foods Initiative, integrating viewpoints from microbiology, nutrition, clinical research, policy, industry, and patient partners. We argue that progress in this field requires moving beyond broad, category-level claims toward mechanism-informed, well-characterized research that reflects the biological and cultural diversity of fermented foods. Drawing on both the published literature and workshop discussions key priorities are identified, including improved characterization of fermented food interventions, clearer alignment between evidence generation and regulatory standards, and greater integration of culturally grounded research approaches. Workshop discussions highlighted the potential value of complementary study designs, including pragmatic trials and citizen science approaches, for evaluating fermented foods within real-world dietary patterns, although their role in future dietary guidance frameworks remains to be established. Finally, we outline a coordinated national pathway to strengthen the evidence base, support responsible science communication, and facilitate the credible integration of fermented foods into dietary guidance and public health strategies.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "Fermented foods",
-      "clinical trials",
-      "dietary guidance",
-      "human health",
-      "microbiome",
-      "nutritional intervention",
-      "patient-centered outcomes",
-      "research framework"
-    ],
-    "summary_zh": "基于加拿大发酵食品研讨会，整合多领域观点，提出加强机制知情研究、完善政策与证据生成等优先事项，促进发酵食品纳入膳食指南。",
-    "innovation": "整合微生物学、营养学、临床、政策、产业及患者多视角 | 提出超越类别级声明，转向机制知情和充分表征的研究路径 | 提出采用务实试验和公民科学等互补设计评估真实饮食中的发酵食品",
-    "limitation": "未描述",
-    "study_object": "未描述",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

@@ -48,43 +48,6 @@
     "fetch_date": "2026-11-15"
   },
   {
-    "pmid": "42692396",
-    "title": "Global freshwater resistomes reveal environmental signatures associated with the burden of drug-resistant tuberculosis.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-11-15",
-    "authors": "Li Tong; Lv Jiahui; Tu Yunye; Cheng Li; Xiao Hongjun et al.",
-    "abstract": "Antimicrobial resistance (AMR) is a growing global health threat, yet the extent to which environmental resistomes reflect human disease burden remains unclear. In this study, we provide the first attempt to bridge freshwater resistomes with human disease burden using machine learning models, with a focus on identifying environmental signatures associated with drug-resistant tuberculosis (DR-TB) burden. By analyzing 1280 freshwater metagenomes from 45 countries, we characterized the compositional distribution of the resistomes and further developed an integrated environmental AMR Risk Score. Integrating the AMR Risk Score with socio-economic variables provided complementary information associated with variation in multidrug-resistant tuberculosis burden beyond socio-economic factors alone. In complementary income-stratified analyses, feature selection identified recurrent environmental signatures associated with different drug-resistant tuberculosis subgroups. These findings indicate that freshwater resistome characteristics contain geographically structured information associated with DR-TB burden within the sampled datasets and support the potential value of freshwater metagenomic surveillance for characterizing environmental AMR patterns.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Fresh Water",
-      "Tuberculosis, Multidrug-Resistant",
-      "Humans",
-      "Metagenome",
-      "Machine Learning",
-      "Drug Resistance, Bacterial"
-    ],
-    "keywords": [
-      "Antibiotic resistance genes",
-      "Disease burden prediction",
-      "Freshwater resistome",
-      "Machine learning",
-      "Metagenomics"
-    ],
-    "summary_zh": "本研究分析45国1280份淡水宏基因组，用机器学习构建AMR风险评分，发现淡水抗性组特征与耐药结核负担相关。",
-    "innovation": "首次尝试用机器学习将淡水抗性组与人类疾病负担关联 | 构建整合环境AMR风险评分 | 按收入分层识别与不同耐药结核亚组相关的环境特征",
-    "limitation": "关联仅基于采样数据集，未证明因果关系",
-    "study_object": "淡水环境 + 淡水宏基因组样本 + 宏基因组测序与机器学习",
-    "disease": "耐药结核（DR-TB）/耐多药结核",
-    "sample_size": "n=1280份淡水宏基因组（来自45个国家）",
-    "ai_done": true,
-    "fetch_date": "2026-11-15"
-  },
-  {
     "pmid": "42485992",
     "title": "Targeting Fusobacterium nucleatum in cancer therapy: A new frontier in solid tumor treatment.",
     "doi": null,

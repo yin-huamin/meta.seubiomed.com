@@ -35,35 +35,5 @@
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-07-25"
-  },
-  {
-    "pmid": "42501789",
-    "title": "First report and molecular characterization of bovine kobuvirus in beef cattle from eastern Inner Mongolia, China.",
-    "doi": null,
-    "journal": "Veterinary journal (London, England : 1997)",
-    "issn": "1532-2971",
-    "pub_date": "2026-07-25",
-    "authors": "Sun Jiaxin; Meng Lingpin; Gao Zheng; Wang Xiaohui; Jin Yuqing et al.",
-    "abstract": "This study presents the first molecular epidemiological investigation and genomic characterization of bovine kobuvirus (BKoV) in eastern Inner Mongolia, China. A total of 162 clinical samples were collected in July 2023 and tested for BKoV using nested PCR, yielding an overall detection rate of 18.52%. Differences in BKoV detection rates were observed among sample types, with a significantly higher detection rate in faecal samples than in blood samples. Metagenomic sequencing generated a near-complete genome sequence of strain NM21, which has been submitted to the GenBank database under accession number PV797393. Phylogenetic analyses based on the partial 3D gene sequences and the near-complete genome sequence of strain NM21 showed that all BKoV sequences detected in this study clustered within Clade 1. Amino acid sequence alignment revealed 21 clade-associated amino acid differences that were relatively conserved within each clade; among them, position 66 of the VP0 protein showed a consistent difference between the two clades, with the corresponding amino acid absent in Clade 2 sequences. Bioinformatic analysis of the major capsid protein VP1 predicted three candidate linear B-cell epitopes. Selection pressure analysis showed that the VP1 gene was generally under purifying selection. Recombination analysis suggested that strain NM21 may contain a potential recombination signal in the 2B non-structural protein region. These findings provide baseline data for elucidating the epidemiological characteristics, genetic evolution, and potential antigenic features of BKoV in eastern Inner Mongolia. They may serve as a reference for subsequent molecular surveillance and evolutionary studies.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Antigenic epitope prediction",
-      "Bovine kobuvirus",
-      "Genomic characteristics",
-      "Molecular epidemiology",
-      "Phylogenetic analysis"
-    ],
-    "summary_zh": "首次对内蒙古东部肉牛中牛科布病毒进行分子流行病学和基因组特征分析，检测率18.52%，获得近完整基因组序列。",
-    "innovation": "首次在内蒙古东部肉牛中进行BKoV分子流行病学调查 | 通过宏基因组测序获得近完整基因组序列 | 预测了VP1蛋白的三个候选线性B细胞表位",
-    "limitation": "未描述",
-    "study_object": "肉牛粪便和血液样本，巢式PCR和宏基因组测序",
-    "disease": "无",
-    "sample_size": "162份",
-    "ai_done": true,
-    "fetch_date": "2026-07-25"
   }
 ]

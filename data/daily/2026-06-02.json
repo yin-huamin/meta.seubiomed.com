@@ -62,38 +62,6 @@
     "fetch_date": "2026-06-02"
   },
   {
-    "pmid": "42230260",
-    "title": "Host-vector microbiome similarity predicts immune-mediated disturbance and vector competence.",
-    "doi": null,
-    "journal": "Trends in parasitology",
-    "issn": "1471-5007",
-    "pub_date": "2026-06-02",
-    "authors": "Cabezas-Cruz Alejandro; Piloto-Sardiñas Elianne; Obregón Dasiel",
-    "abstract": "Vector-borne disease transmission is highly heterogeneous, yet existing models emphasize climate, host density, and pathogen load. We propose that host-vector microbiome similarity represents a previously unrecognized ecological axis in transmission biology. During blood feeding, vectors ingest host-derived immune effectors shaped by the host microbiota. When immune targeting depends on shared microbial features, microbiome similarity predicts the magnitude of immune-mediated disturbance within the vector gut, altering colonization resistance and influencing pathogen establishment. These effects are context-dependent and may enhance or suppress transmission. This framework generates testable predictions linking microbiome similarity, immune-mediated disturbance, and vector competence across systems. Incorporating microbiome similarity into transmission models may help explain heterogeneity and improve ecological understanding and intervention strategies.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "colonization resistance",
-      "eco-immunology",
-      "immune–microbiota interactions",
-      "microbiome similarity",
-      "transmission ecology",
-      "vector competence"
-    ],
-    "summary_zh": "提出宿主-媒介微生物组相似性作为传播生物学新生态轴，预测免疫介导的干扰和媒介能力，生成可检验的预测框架。",
-    "innovation": "提出宿主-媒介微生物组相似性作为传播生物学中未被认识到的生态轴 | 将微生物组相似性与免疫介导干扰及媒介能力相关联，生成跨系统的可检验预测",
-    "limitation": "未描述",
-    "study_object": "宿主和媒介（向量）的微生物组，通过血餐免疫效应物相互作用",
-    "disease": "媒介传播疾病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-02"
-  },
-  {
     "pmid": "42227352",
     "title": "Association Between the Root Canal Microbiome and Apical Lesion Size: An Observational Shotgun Metagenomic Study.",
     "doi": null,
@@ -120,30 +88,6 @@
     "study_object": "人牙根管感染样本（根管微生物组），鸟枪法宏基因组测序",
     "disease": "原发性根管感染伴根尖周炎",
     "sample_size": "49例（小病变27例，大病变22例）",
-    "ai_done": true,
-    "fetch_date": "2026-06-02"
-  },
-  {
-    "pmid": "42230654",
-    "title": "Rumen-derived Pichia membranifaciens modulates the rumen microbiome and metabolome and mitigates methane emissions in dairy cows.",
-    "doi": null,
-    "journal": "NPJ biofilms and microbiomes",
-    "issn": "2055-5008",
-    "pub_date": "2026-06-02",
-    "authors": "Li Jichao; Liang Xu; Liu Pengyu; Zhu Weiyun; Jin Wei et al.",
-    "abstract": "Methane emissions from ruminants represent a significant environmental challenge and dietary energy loss. While yeasts are potential rumen modulators, specific methane-mitigating species remain poorly characterized. Here, we screened 73 rumen-derived strains in vitro, identifying Pichia membranifaciens M12 as the most effective candidate, reducing methane output by 17.1%. Subsequently, a randomized block trial with 36 dairy cows compared a control group with P. membranifaciens M12 supplementation at 2.5 and 5 × 1011 CFU/cow/day. Methane yield per unit of dry matter intake significantly decreased in the high-dose group (18.7%, P = 0.003), without compromising lactation performance and animal health. Multi-omics analyses revealed that M12 suppressed hydrogenotrophic methanogens (e.g., Methanobrevibacter) and hydrogen-producing bacteria (e.g., Ruminococcus and Fibrobacter), while enriching specific eukaryotic taxa like Orpinomyces and Entodinium. Metabolomic profiling indicated a significant dose-dependent accumulation of metabolites. Metagenomic function analysis demonstrated the decreased abundance of key methanogenesis genes (e.g., mcrABCDG) and increased abundance of hydrogenase (hyaABC), lactate-forming (ghrB), and propionate-forming (mcmA1 and lcdB), suggesting a redirection of reducing equivalents from methanogenesis toward propionate synthesis, alongside enhanced butyrate production. These findings demonstrate that P. membranifaciens M12 mitigates methane emissions via coordinated ecological and metabolic modulation, highlighting its potential as a sustainable strategy for low-carbon ruminant production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "从瘤胃酵母中筛选出Pichia membranifaciens M12，通过多组学分析发现其调节微生物组和代谢组，使奶牛甲烷排放减少18.7%。",
-    "innovation": "从73株瘤胃酵母中筛选出Pichia membranifaciens M12作为有效候选 | 多组学揭示其抑制氢营养型甲烷菌和产氢细菌，重塑微生物组和代谢组 | 发现氢重新导向至丙酸和丁酸生成途径",
-    "limitation": "未描述",
-    "study_object": "奶牛瘤胃内容物 + 宏基因组 + 代谢组 + 功能基因分析",
-    "disease": "无",
-    "sample_size": "36头奶牛",
     "ai_done": true,
     "fetch_date": "2026-06-02"
   },

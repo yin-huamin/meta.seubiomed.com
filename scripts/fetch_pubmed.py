@@ -16,6 +16,9 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import common
+import scope_rules
+
 
 # ──────────────────────────── 日期工具 ──────────────────────────────
 MONTH_TO_NUM = {
@@ -407,23 +410,18 @@ def build_query(start_date: str, end_date: str = None) -> str:
 
 
 def should_exclude_article(article_data: dict) -> tuple[bool, str]:
-    """检查文章是否应该被排除（根据关键词过滤，安全词保护）"""
-    # 收集所有文本内容用于匹配
-    text_fields = [
-        article_data.get("title", ""),
-        article_data.get("abstract", ""),
-    ]
-    full_text = " ".join(text_fields).lower()
+    """抓取期只做"明显非医学"的规则预筛，其余交给 classify_scope.py。
 
-    # 先检查是否包含安全词 → 有安全词则不排除
-    has_safe = any(safe.lower() in full_text for safe in SAFE_WORDS)
-    if has_safe:
+    旧实现用 SAFE_WORDS 一票放行 + 子串匹配，既漏放大量农业/环境论文，
+    又可能误伤 implant/root canal 等医学词；现改为带词边界的规则层。
+    """
+    try:
+        pre = scope_rules.prefilter(article_data)
+    except Exception as exc:
+        log.warning(f"范围预筛失败，保留该篇: {exc}")
         return False, ""
-
-    # 检查是否包含任何排除关键词
-    for keyword in EXCLUDE_KEYWORDS:
-        if keyword.lower() in full_text:
-            return True, f"内容含排除词: {keyword}"
+    if pre.get("drop"):
+        return True, pre.get("reason", "非医学主题")
     return False, ""
 
 
@@ -554,8 +552,20 @@ def _extract_article(article) -> dict:
                     pub_date = candidate
                     break
 
-    # ── DOI（不再保存，DOI与PMID经常错位） ──
-    # doi = ""  # 已禁用，统一使用 PMID 链接
+    # ── DOI（从 PubmedData/ArticleIdList 逐篇提取，避免错位） ──
+    doi = ""
+    for aid in article.findall(".//PubmedData/ArticleIdList/ArticleId"):
+        if (aid.get("IdType") or "").lower() == "doi":
+            doi = (aid.text or "").strip()
+            if doi:
+                break
+    if not doi:
+        for el in art.findall("ELocationID"):
+            if (el.get("EIdType") or "").lower() == "doi":
+                doi = (el.text or "").strip()
+                if doi:
+                    break
+    doi = common.normalize_doi(doi) or None
 
     # ── 期刊 ──
     journal = _get_text(art, "Journal/Title")
@@ -592,11 +602,16 @@ def _extract_article(article) -> dict:
         kw_list.append((kw.text or "").strip())
 
     return {
+        "uid":         f"pmid:{pmid}" if pmid else "",
+        "source":      "pubmed",
+        "is_preprint": False,
+        "url":         f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else "",
         "pmid":        pmid,
         "title":       title,
-        "doi":         None,
+        "doi":         doi,
         "journal":     journal,
         "issn":        issn,
+        "journal_issn": issn,
         "pub_date":    pub_date,
         "authors":     author_str,
         "abstract":    abstract,
@@ -638,8 +653,23 @@ def _classify_type(pub_types: list, title: str, abstract: str) -> str:
 # ──────────────────────────── 主流程 ──────────────────────────────
 
 def load_existing_pmids() -> set:
-    """加载已下载过的所有 PMID，避免重复"""
+    """加载已收录的所有 PMID，避免重复抓取。
+
+    来源包括聚合库 web/data.json 与 data/daily/*.json —— daily 文件在
+    build 后可能被清理，只看 daily 会导致整库被重新抓取、重复消耗 AI 调用。
+    """
     seen = set()
+
+    web_data = BASE_DIR / "web" / "data.json"
+    if web_data.exists():
+        try:
+            with open(web_data, encoding="utf-8") as fh:
+                for rec in json.load(fh):
+                    if rec.get("pmid"):
+                        seen.add(str(rec["pmid"]))
+        except Exception:
+            pass
+
     for f in DAILY_DIR.glob("*.json"):
         try:
             with open(f, encoding="utf-8") as fh:
@@ -649,6 +679,14 @@ def load_existing_pmids() -> set:
                     seen.add(str(rec["pmid"]))
         except Exception:
             pass
+
+    # 排除清单中的 PMID 视为已存在，避免物理清除后被重新抓取
+    try:
+        excluded = common.load_excluded()
+        seen.update(excluded["pmids"])
+        seen.update(uid[5:] for uid in excluded["uids"] if uid.startswith("pmid:"))
+    except Exception:
+        pass
     return seen
 
 

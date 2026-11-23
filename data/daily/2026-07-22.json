@@ -25,31 +25,6 @@
     "fetch_date": "2026-07-22"
   },
   {
-    "pmid": "42485957",
-    "title": "The food microbiome: an evolutionary architect, a modern healer, and a future shield.",
-    "doi": null,
-    "journal": "Current opinion in biotechnology",
-    "issn": "1879-0429",
-    "pub_date": "2026-07-22",
-    "authors": "Zannini Emanuele; Nyhan Laura; Gobbetti Marco; Di Cagno Raffaella; Arendt Elke K",
-    "abstract": "The food microbiome, comprising microorganisms present in foods and fermentation, links diet, environment, and host physiology. This review examines its evolutionary, contemporary, and future nutritional relevance, including emerging applications of artificial intelligence (AI). In early human diets, fermentation likely improved food safety and nutrient accessibility, although its contribution to encephalization remains unproven. In modern populations, fermented foods and microbial metabolites shape the composition of the gut microbiome and modulate host metabolic, immune, and neuroactive functions. Rising atmospheric CO₂ is projected to reduce protein and micronutrient concentrations in staple crops, increasing interest in microbial fermentation as a strategy to enhance nutrient availability. Integration of AI with multi-omics enables functional characterisation of fermentation ecosystems and supports the development of targeted, personalised nutritional strategies, although translational and mechanistic challenges remain unresolved.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-07-22"
-  },
-  {
     "pmid": "42482573",
     "title": "Can the gut microbiome help 'digest' insomnia? A novel target in sleep medicine.",
     "doi": null,

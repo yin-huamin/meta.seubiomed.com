@@ -70,6 +70,7 @@ def cmd_summarize(args):
         target_date=args.date,
         all_files=args.all,
         force=args.force,
+        workers=getattr(args, "workers", 1),
     )
     log.info("✓ 摘要生成完成")
 
@@ -148,6 +149,67 @@ def cmd_daily(args):
     log.info("▶ 开始每日更新...")
     daily_update.main()
     log.info("✓ 每日更新完成")
+
+
+def cmd_classify_scope(args):
+    """主题范围分类"""
+    import classify_scope
+
+    classify_scope.run(
+        target_date=args.date, all_records=True, source=args.source,
+        workers=args.workers, batch_size=args.batch_size, limit=args.limit,
+        dry_run=args.dry_run, force=args.force,
+        materialize_only=args.materialize_only,
+        min_conf=args.min_confidence, apply_daily=args.apply_daily,
+    )
+
+
+def cmd_scope_purge(args):
+    """物理清除排除清单"""
+    import scope_purge
+
+    code = scope_purge.run(dry_run=args.dry_run, apply=args.apply,
+                           do_backup=args.backup, verify_only=args.verify)
+    sys.exit(code)
+
+
+def cmd_scope_audit(args):
+    """排除清单残留审计"""
+    import scope_purge
+
+    sys.exit(0 if scope_purge.verify() else 1)
+
+
+def cmd_fetch_journals(args):
+    """按期刊名单抓取最新论文"""
+    import fetch_journals
+
+    n = fetch_journals.run(
+        start_date=args.start_date, end_date=args.end_date, days=args.days,
+        sources_file=args.sources, dry_run=args.dry_run,
+        use_openalex=not args.no_openalex, limit=args.limit,
+    )
+    log.info(f"✓ 期刊抓取完成，主题命中 {n} 篇")
+
+
+def cmd_fetch_preprints(args):
+    """抓取 bioRxiv/medRxiv 预印本"""
+    import fetch_preprints
+
+    n = fetch_preprints.run(
+        start_date=args.start_date, end_date=args.end_date, days=args.days,
+        servers=args.server, categories=args.category,
+        dry_run=args.dry_run, limit=args.limit,
+    )
+    log.info(f"✓ 预印本抓取完成，主题命中 {n} 篇")
+
+
+def cmd_backfill_meta(args):
+    """回填历史 PMID→DOI"""
+    import backfill_metadata
+
+    backfill_metadata.run(limit=args.limit, dry_run=args.dry_run,
+                          force=args.force)
 
 
 def cmd_set(args):
@@ -278,6 +340,8 @@ def main():
     parser_summarize.add_argument("--date", default=None, help="目标日期 YYYY-MM-DD")
     parser_summarize.add_argument("--all", action="store_true", help="处理所有 daily JSON 文件")
     parser_summarize.add_argument("--force", action="store_true", help="强制重新生成已有AI摘要")
+    parser_summarize.add_argument("--workers", type=int, default=1,
+                                  help="并发线程数（批量修复建议 6-8）")
     parser_summarize.set_defaults(func=cmd_summarize)
 
     # ── build 命令 ──
@@ -306,6 +370,65 @@ def main():
                             help="设置搜索关键词（可多个，空格分隔）")
     parser_set.add_argument("--check", action="store_true", help="查看当前搜索关键词")
     parser_set.set_defaults(func=cmd_set)
+
+    # ── classify-scope 命令 ──
+    p_scope = subparsers.add_parser("classify-scope", help="文献主题范围分类")
+    p_scope.add_argument("--all", action="store_true", help="处理全部记录（默认）")
+    p_scope.add_argument("--date", default=None, help="只处理指定日期的 daily 文件")
+    p_scope.add_argument("--source", choices=["all", "web", "daily"], default="all")
+    p_scope.add_argument("--workers", type=int, default=4)
+    p_scope.add_argument("--batch-size", type=int, default=10)
+    p_scope.add_argument("--limit", type=int, default=None)
+    p_scope.add_argument("--dry-run", action="store_true")
+    p_scope.add_argument("--force", action="store_true")
+    p_scope.add_argument("--materialize-only", action="store_true")
+    p_scope.add_argument("--min-confidence", type=float, default=0.7)
+    p_scope.add_argument("--apply-daily", action="store_true",
+                         help="把排除项从 daily 文件移除")
+    p_scope.set_defaults(func=cmd_classify_scope)
+
+    # ── scope-purge 命令 ──
+    p_purge = subparsers.add_parser("scope-purge", help="物理清除排除清单中的论文")
+    p_purge.add_argument("--dry-run", action="store_true")
+    p_purge.add_argument("--apply", action="store_true")
+    p_purge.add_argument("--backup", action="store_true")
+    p_purge.add_argument("--verify", action="store_true")
+    p_purge.set_defaults(func=cmd_scope_purge)
+
+    # ── scope-audit 命令 ──
+    p_audit = subparsers.add_parser("scope-audit", help="审计排除项残留")
+    p_audit.add_argument("--verify", action="store_true", default=True)
+    p_audit.set_defaults(func=cmd_scope_audit)
+
+    # ── fetch-journals 命令 ──
+    p_j = subparsers.add_parser("fetch-journals", help="按期刊名单抓取最新论文")
+    p_j.add_argument("--start-date", default=None)
+    p_j.add_argument("--end-date", default=None)
+    p_j.add_argument("--days", type=int, default=7)
+    p_j.add_argument("--sources", default=None)
+    p_j.add_argument("--dry-run", action="store_true")
+    p_j.add_argument("--no-openalex", action="store_true")
+    p_j.add_argument("--limit", type=int, default=None)
+    p_j.set_defaults(func=cmd_fetch_journals)
+
+    # ── fetch-preprints 命令 ──
+    p_p = subparsers.add_parser("fetch-preprints", help="抓取 bioRxiv/medRxiv")
+    p_p.add_argument("--start-date", default=None)
+    p_p.add_argument("--end-date", default=None)
+    p_p.add_argument("--days", type=int, default=7)
+    p_p.add_argument("--server", nargs="+", default=None,
+                     choices=["biorxiv", "medrxiv"])
+    p_p.add_argument("--category", nargs="+", default=None)
+    p_p.add_argument("--dry-run", action="store_true")
+    p_p.add_argument("--limit", type=int, default=None)
+    p_p.set_defaults(func=cmd_fetch_preprints)
+
+    # ── backfill-meta 命令 ──
+    p_back = subparsers.add_parser("backfill-meta", help="回填历史 PMID→DOI")
+    p_back.add_argument("--limit", type=int, default=None)
+    p_back.add_argument("--dry-run", action="store_true")
+    p_back.add_argument("--force", action="store_true")
+    p_back.set_defaults(func=cmd_backfill_meta)
 
     # 解析参数
     args = parser.parse_args()

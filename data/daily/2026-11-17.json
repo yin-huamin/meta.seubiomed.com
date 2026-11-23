@@ -36,49 +36,6 @@
     "fetch_date": "2026-11-17"
   },
   {
-    "pmid": "42847688",
-    "title": "Integrated multi-omics and metabolic modeling links structure to function in high-performing electrosynthetic biofilm communities.",
-    "doi": null,
-    "journal": "mSystems",
-    "issn": "2379-5077",
-    "pub_date": "2026-11-17",
-    "authors": "Stroek Rozanne; Gabriëls Minke; Winkelhorst Marijn; van den Broek Marcel; Pabst Martin et al.",
-    "abstract": "Microbial electrosynthesis (MES) is a promising technology for the valorization of CO2 into industrially relevant building blocks. The high-performing MES systems in terms of production rates of acetate (12.5-19.7 mmol L-1catholyte day-1), butyrate (1.9-12.2 mmol L-1catholyte day-1), and caproate (0.6-0.9 mmol L-1catholyte day-1) discussed in this study consist of mixed microbial communities. However, the microbial community members, metabolic pathways, and interactions driving product formation in MES communities remain poorly understood. To overcome these challenges, we conducted a comprehensive characterization of three high-performing MES communities, combining multi-omics with metagenome-scale metabolic modeling. Using a high-resolution metagenomic pipeline, we reconstructed high-quality genomes of 25 metagenome-assembled genomes present in our reactors, including six fully circular genomes. We report the presence of Clostridium aromativorans for the first time in a gas-fermenting system. In particular, our findings identified three acetogenic species, Eubacterium limosum, Sporomusa sphaeroides, and C. aromativorans, as key contributors to the production of acetate, butyrate, and caproate via the Wood-Ljungdahl and the reverse β-oxidation pathways. In addition, we found genes related to lactate and ethanol production from acetyl-CoA, along with proteomic evidence of lactate production. This paves the way for investigating the role of cross-fed metabolites such as lactate and ethanol as electron donors in chain elongation. Finally, meta-genome-scale metabolic modeling suggests that the communities might be sustained by the cross-feeding of specific cofactors such as pyridoxine, pantothenate, biotin, and thiamin. This study provides key insights into the structure and function of electrosynthetic communities, bringing us closer to the rational engineering of MES systems.IMPORTANCEMicrobial electrosynthesis (MES) offers a promising route to transform CO2 and renewable electricity into valuable platform chemicals. However, the microbial ecology governing the assembly and function of these systems remains poorly understood, limiting our ability to engineer them. By integrating high-resolution multi-omics with metabolic modeling, this study provides a systems-level framework to dissect the structure and function of electrosynthetic microbial communities. Understanding which organisms drive carbon fixation and chain elongation, how electrons and intermediates are transferred within the biofilm, and how metabolic dependencies structure these communities is essential for improving productivity and product specificity in MES. More broadly, this work highlights how integrated multi-omics approaches can resolve the functional organization of complex microbial ecosystems and provides methodological advances that are broadly applicable to the study and engineering of microbial communities in autotrophic, electricity-driven biotechnologies.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Multiomics",
-      "Biofilms",
-      "Butyrates",
-      "Acetates",
-      "Metabolic Networks and Pathways",
-      "Fermentation",
-      "Metagenome"
-    ],
-    "keywords": [
-      "CO2 reduction",
-      "Clostridium aromativorans",
-      "Eubacterium limosum",
-      "Sporomusa sphaeroides",
-      "biofilm",
-      "gas fermentation",
-      "metaproteomics",
-      "microbial communities",
-      "microbial electrosynthesis",
-      "whole-genome sequencing"
-    ],
-    "summary_zh": "结合多组学与代谢建模解析三套高效微生物电合成群落的结构与功能，鉴定关键产物菌及交叉喂养机制。",
-    "innovation": "首次在气体发酵系统中报道Clostridium aromativorans | 重建25个高质量MAG（含6个完整环状基因组），并整合多组学与宏基因组尺度代谢模型解析电合成群落结构-功能 | 提出乳酸/乙醇及吡哆醇、泛酸、生物素、硫胺素等交叉喂养可能维持群落",
-    "limitation": "未描述",
-    "study_object": "微生物电合成系统混合菌群生物膜 + 宏基因组/多组学与宏基因组尺度代谢建模",
-    "disease": "无",
-    "sample_size": "3个高效MES群落",
-    "ai_done": true,
-    "fetch_date": "2026-11-17"
-  },
-  {
     "pmid": "42878463",
     "title": "MIMEco: multi-objective metabolic modeling to predict and explain pairwise interactions.",
     "doi": null,
@@ -153,44 +110,6 @@
     "study_object": "（待生成）",
     "disease": "（待生成）",
     "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-17"
-  },
-  {
-    "pmid": "42872861",
-    "title": "Environmental gradients shape the hydrocarbon-degrading microbiome in two mid-Atlantic bays.",
-    "doi": null,
-    "journal": "mSystems",
-    "issn": "2379-5077",
-    "pub_date": "2026-11-17",
-    "authors": "Patabandige Dinuka L J; John Jojy; Ortiz Maximiliano; Campbell Barbara J",
-    "abstract": "UNLABELLED: Hydrocarbons are recalcitrant organic matter that is released into the environment via natural and anthropogenic activities. We hypothesized that abiotic and biotic factors, including salinity, temperature, seasonality, microbial interactions, and functional redundancy, influence the abundance and activity of potential hydrocarbon degraders in the Delaware and Chesapeake Bays. We identified key genes in hydrocarbon degradation pathways in metagenomes, metatranscriptomes, and metagenome-assembled genomes (MAGs) from these estuaries. In the surface waters of both estuaries, aerobic aromatic and alkane degradation pathways predominated, with higher gene abundances observed in low-salinity spring and summer samples. Salinity significantly structured both hydrocarbon-degrading MAG abundances, alongside temperature, nitrate, and silicate concentrations, and hydrocarbon degradation gene expression, which additionally varied seasonally, with the highest relative expression of aromatic degradation genes in low-salinity samples. Catechol degradation pathways exhibited high functional redundancy, whereas the naphthalene degradation pathway showed restricted distribution. Co-expression analysis revealed that Burkholderiales displayed condition-dependent metabolic coupling, while Pseudomonadales integrated hydrocarbon degradation with fermentation and central metabolism, demonstrating complementary strategies that support multi-scale ecosystem resilience. Together, these results support our hypothesis that environmental gradients and taxon-specific metabolic strategies jointly structure the abundance and in situ activity of hydrocarbon degraders, with implications for predicting ecosystem responses to hydrocarbon inputs under changing conditions.\nIMPORTANCE: Coastal estuaries are among the most contaminated aquatic environments on Earth, receiving continuous hydrocarbon inputs from industrial activity, urban runoff, and natural sources. Microorganisms are the primary agents of hydrocarbon breakdown in these systems, yet predicting when and where this capacity is active and how resilient it is to environmental change remains a major challenge. Using paired genomic and transcriptomic data from microbial genomes across two major mid-Atlantic estuaries, we show that hydrocarbon degradation capacity is not uniformly distributed but is instead shaped by salinity, nutrients, and seasonality in pathway-specific ways. Critically, dominant degrader taxa employ fundamentally different metabolic strategies to sustain this function across fluctuating conditions, providing a form of community-level insurance against environmental disturbance. These findings advance our ability to predict microbial hydrocarbon degradation in coastal systems and inform nature-based approaches to bioremediation under increasing climate and anthropogenic pressures.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Hydrocarbons",
-      "Microbiota",
-      "Metagenome",
-      "Salinity",
-      "Bacteria",
-      "Biodegradation, Environmental",
-      "Seasons",
-      "Seawater"
-    ],
-    "keywords": [
-      "metagenome",
-      "metagenome-assembled genome (MAGs)",
-      "metatranscriptome",
-      "microbial hydrocarbon degradation"
-    ],
-    "summary_zh": "研究利用宏基因组、宏转录组和MAGs，揭示两个海湾表层水烃降解微生物组受环境梯度及类群代谢策略共同塑造。",
-    "innovation": "联合宏基因组、宏转录组和MAGs解析两个海湾表层水的烃降解微生物组 | 揭示盐度、温度、硝酸盐、硅酸盐和季节对烃降解基因丰度与表达的路径特异性影响 | 发现优势降解类群采用互补代谢策略支持群落韧性",
-    "limitation": "未描述",
-    "study_object": "河口环境（Delaware和Chesapeake湾）表层水微生物组；宏基因组、宏转录组和MAGs",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-11-17"
   },

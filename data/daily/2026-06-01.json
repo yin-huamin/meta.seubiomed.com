@@ -657,37 +657,6 @@
     "fetch_date": "2026-06-01"
   },
   {
-    "pmid": "42220059",
-    "title": "Resistant Peanut Genotype Reprograms Rhizosphere Metabolism to Enhance Bacterial Wilt Suppression.",
-    "doi": null,
-    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-    "issn": "2198-3844",
-    "pub_date": "2026-06-01",
-    "authors": "Ren Rui; Li Xiaogang; Li Hao; Cao Zenghui; Hou Mengtian et al.",
-    "abstract": "Bacterial wilt caused by Ralstonia solanacearum compromises the yield and quality of peanut (Arachis hypogaea L.). While rhizosphere microbiome-assisted defense is known, how resistant plant genotypes orchestrate this process remains unclear. Here, we integrate multi-omics analyses of resistant and susceptible peanut genotypes to uncover a genotype-specific defense mechanism. The resistant genotype selectively recruits beneficial bacteria (e.g., Kosakonia and Frankia), which coincides with activated salicylic acid (SA)-dependent systemic acquired resistance (SAR). Crucially, we identify keystone rhizosphere metabolites (including betaine, arginine, and SA) that are positively correlated with both beneficial microbiome assembly and SAR gene expression, establishing a self-reinforcing defense loop. Leveraging these insights, we develop a prebiotic formulation that enhances beneficial microbial recruitment and stimulates SAR. Field trials demonstrate that the prebiotics reduce bacterial wilt incidence from 84.2% to 5.0% and increase yield by 12.9%-20.3%. Collectively, our study reveals a synergistic microbiome-immune co-regulation mechanism in peanut and delivers a translatable solution for sustainable disease management.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "bacterial wilt",
-      "beneficial bacteria",
-      "keystone metabolites",
-      "peanut, prebiotics",
-      "systemic acquired resistance",
-      "yield"
-    ],
-    "summary_zh": "通过多组学分析发现花生抗性基因型通过根际代谢物招募有益菌并激活系统获得性抗性，开发益生元制剂有效抑制青枯病。",
-    "innovation": "揭示花生抗性基因型通过根际代谢物-微生物-免疫自增强防御循环机制 | 鉴定关键根际代谢物（甜菜碱、精氨酸、水杨酸） | 开发益生元配方并在田间验证有效性",
-    "limitation": "未描述",
-    "study_object": "花生 + 根际样本 + 多组学",
-    "disease": "青枯病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-01"
-  },
-  {
     "pmid": "41687743",
     "title": "Quorum-Sensing Molecules Are Elevated in Long-Standing Ulcerative Colitis and Are Linked to the Development of Colitis-Associated Cancer.",
     "doi": null,
@@ -1292,50 +1261,6 @@
     "fetch_date": "2026-06-01"
   },
   {
-    "pmid": "40946852",
-    "title": "Nutrition cycling microbiomes drive the succession of antibiotic resistome in long-term manured soils.",
-    "doi": null,
-    "journal": "Journal of advanced research",
-    "issn": "2090-1224",
-    "pub_date": "2026-05-29",
-    "authors": "Zheng Conglai; Song Jiajin; Shan Mei; Qiu Mengting; Cui Minrong et al.",
-    "abstract": "INTRODUCTION: The spread of antibiotic resistance genes (ARGs) in the environment has received widespread attention. Nutrition cycling microbiomes specifically refer to microorganisms capable of mineralizing nitrogen and phosphorus, which dominate the microbial community in long-term manured soils. However, changes in nutrition cycling genes/microbiomes and the mechanisms by which these microbiomes mediate ARG transfer through vertical and horizontal gene transfer remain poorly understood.\nOBJECTIVES: This study aimed to elucidate how nutrition cycling microbiomes mediate the dissemination and ecological risk of antibiotic resistance genes (ARGs) in long-term manure-amended soils.\nMETHODS: Here, we employed metagenomic assembly and binning to investigate the distribution of nutrition mineralization genes, nutrition cycling microbiomes, mobile genetic elements (MGEs), and ARGs in rapeseed cake, pig manure, duck manure and their corresponding long-term amended soils.\nRESULTS: Long-term application of organic manures led to the dominance of nutrition cycling microbiomes associated with methanogenesis (pmoA and mmoX) and incomplete denitrification (norBC), thereby exacerbating soil nutrient loss. Nutrition cycling microbiomes, particularly Rhodanobacter and Pseudomonas, served as the primary host for ARGs and harbored multiple clinically relevant resistance genes, including MexF, ceoB, and mdtB. Notably, the abundance of ARGs in rapeseed cake and pig manure was 2.09-2.23-fold and 6.74-7.38-fold higher, respectively, than in duck manure, promoting the vertical transmission of ARGs via nutrition cycling microbiomes under long-term application. Furthermore, a significant positive correlation between nutrition mineralization genes and ARGs revealed a co-dispersal mechanism between nutrition cycling microbiomes and ARGs in long-term manured soils.\nCONCLUSIONS: It is concluded that the nutrition cycling microbiome plays a more prominent role in shaping antibiotic resistome through vertical transfer in manured soils, compared to horizontal gene transfer mediated by MGEs.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Manure",
-      "Soil Microbiology",
-      "Animals",
-      "Microbiota",
-      "Soil",
-      "Swine",
-      "Drug Resistance, Microbial",
-      "Gene Transfer, Horizontal",
-      "Nitrogen",
-      "Bacteria",
-      "Genes, Bacterial",
-      "Ducks",
-      "Anti-Bacterial Agents",
-      "Phosphorus"
-    ],
-    "keywords": [
-      "Antibiotic resistance gene",
-      "Mobile genetic element",
-      "Nutrition cycling microbiome",
-      "Organic manure"
-    ],
-    "summary_zh": "通过宏基因组分析揭示营养循环微生物组通过垂直转移主导长期施肥土壤中抗生素抗性基因的传播，而非水平基因转移。",
-    "innovation": "揭示了营养循环微生物组在长期施肥土壤中主导抗生素抗性组演替的作用 | 发现营养循环微生物组通过垂直转移而非MGEs介导的水平转移更显著影响抗性组 | 发现营养矿化基因与ARGs显著正相关，表明共扩散机制",
-    "limitation": "未描述",
-    "study_object": "长期施肥土壤、有机肥样本（菜籽饼、猪粪、鸭粪），宏基因组组装与分箱",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-01"
-  },
-  {
     "pmid": "41957267",
     "title": "Cultivating the microbiome to enhance cancer immunotherapy.",
     "doi": null,
@@ -1483,39 +1408,6 @@
     "limitation": "未描述",
     "study_object": "肺动脉高压患者 / 肺动脉血和粪便样本 / 代谢组学与宏基因组学",
     "disease": "肺动脉高压",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-01"
-  },
-  {
-    "pmid": "41903508",
-    "title": "Antimicrobial effectors of plant-associated fungi: multipurpose proteins with fast-evolving surfaces and structurally conserved cores.",
-    "doi": null,
-    "journal": "Current opinion in microbiology",
-    "issn": "1879-0364",
-    "pub_date": "2026-05-31",
-    "authors": "Pachinger Leonhard; Stukenbrock Eva H",
-    "abstract": "Plants are exposed to a variety of devastating pathogens, causing significant yearly yield losses. In order to facilitate infections, plant pathogens secrete an arsenal of molecules termed effectors, which are known to modulate plant immune responses. Plants, on the other hand, possess receptors allowing them to detect invading pathogens by either recognising conserved molecules associated with invading microbes or by perceiving effector molecules. For decades, molecular phytopathology research has been focused on the bilateral molecular crosstalk between plants and pathogens and has deepened our understanding of virulence and defence mechanisms. In recent years, the impact of the plant microbiome on plant-pathogen interactions has gained interest, given the fact that some microbes can aid protection against invading pathogens, and pathogen invasion substantially modulates microbiome composition. Several antimicrobial effectors have been identified in fungal plant pathogens, pointing to direct mechanisms whereby pathogens can alter their hosts' microbiome to promote host colonisation. These new findings highlight that some effectors may have several functions targeting plant processes and fungi or bacteria associated with the plant. Advances in computational biology have greatly enhanced the analysis of predicted effector proteins and revealed that these often are highly conserved among phylogenetically distant fungi. Comparative analyses of protein structures have also revealed that functional divergence may emerge from changes in surface frustration around conserved protein folds. Further, computational simulations of protein evolution indicate that protein properties associated with (antimicrobial) effectors can emerge rapidly around conserved folds. We here summarise and discuss recent studies based on computational biology methods, providing novel insights into effector origin, evolution, and functional divergence.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Fungi",
-      "Plants",
-      "Host-Pathogen Interactions",
-      "Fungal Proteins",
-      "Plant Diseases",
-      "Anti-Infective Agents",
-      "Plant Immunity"
-    ],
-    "keywords": [],
-    "summary_zh": "利用计算生物学方法总结植物相关真菌抗菌效应因子的结构保守性与表面快速进化，揭示其多重功能与进化机制。",
-    "innovation": "揭示效应因子可能具有靶向植物过程和植物相关真菌/细菌的多重功能 | 计算生物学表明效应蛋白在系统发育遥远真菌中高度保守 | 结构分析揭示功能分化源于保守折叠周围的表面挫折变化",
-    "limitation": "未描述",
-    "study_object": "植物相关真菌的效应因子（计算生物学分析）",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-06-01"
@@ -1674,45 +1566,6 @@
     "innovation": "未描述",
     "limitation": "未描述",
     "study_object": "未描述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-01"
-  },
-  {
-    "pmid": "41812714",
-    "title": "Stereotypic behaviors across species: From neurobiological mechanisms to farm animal welfare.",
-    "doi": null,
-    "journal": "Neuroscience and biobehavioral reviews",
-    "issn": "1873-7528",
-    "pub_date": "2026-04-10",
-    "authors": "Li Chenyang; Gao Jie; Shu Hang; Zhao Guangyong; Gu Xianhong",
-    "abstract": "Stereotypic behaviors, characterized by repetitive, fixed, and seemingly functionless behavioral patterns, are critical indicator of compromised animal welfare and neuropsychiatric disorders. While stereotypic behaviors have been extensively studied in humans and laboratory animals, the neurobiological mechanisms of farm animals and their cross-species commonalities remain to be systematically elucidated. This review summarizes the progress in the research on stereotypic behaviors, with a particular focus on comparing the phenotypic similarities among humans, laboratory animals, and farm animals. It delves into key biological principles underlying stereotypic behaviors, including neurotransmitter system imbalances, basal ganglia circuit dysfunction, and the modulatory effects of environmental enrichment. Although these mechanisms have been thoroughly investigated in humans and laboratory animals, corresponding evidence in farm animals is still limited. Furthermore, this paper systematically analyzes the current limitations in farm animal stereotypic behaviors research, such as the lack of standardized quantification tools, inconsistent phenotypic descriptions, high economic costs, and insufficient interdisciplinary communication. However, several emerging opportunities promise to advance future developments, including the use of physiological and structural similarities across species for translational research, the application of computer vision, a focus on the potential regulatory mechanisms of the microbiome-gut-brain axis, and the integration of other advanced methods such as multi-omics and genetic marker screening. This review aims to provide new perspectives for a deeper understanding of the mechanisms underlying stereotypic behaviors in farm animals, offer a theoretical basis for developing precise behavioral welfare assessment and intervention strategies, and ultimately promote the advancement of farm animal welfare.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Animals",
-      "Stereotyped Behavior",
-      "Animal Welfare",
-      "Animals, Domestic",
-      "Behavior, Animal",
-      "Humans",
-      "Species Specificity"
-    ],
-    "keywords": [
-      "Basal ganglia",
-      "Computer vision",
-      "Environmental enrichment",
-      "Farm animals",
-      "Stereotypic behavior"
-    ],
-    "summary_zh": "综述跨物种刻板行为的神经生物学机制，比较表型相似性，分析当前研究局限及未来机遇。",
-    "innovation": "跨物种表型相似性比较 | 神经生物学机制总结（神经递质、基底节、环境富集） | 未来方向（微生物组-肠-脑轴、计算机视觉、多组学等）",
-    "limitation": "缺乏标准化量化工具 | 不一致的表型描述 | 高经济成本 | 跨学科交流不足",
-    "study_object": "农场动物（跨物种比较人类、实验动物和农场动物）",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

@@ -1,35 +1,5 @@
 [
   {
-    "pmid": "42249504",
-    "title": "Integrated gut metagenomic and muscle proteomic analysis reveals the role of dietary fermented extruded brewers' spent grain in enhancing pork quality through the gut-muscle axis.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-06-06",
-    "authors": "Liu Yang; Xie Yueqin; Yang Jianqi; Deng Yu; Liu Dongyun et al.",
-    "abstract": "BACKGROUND: The fact that feeding pigs with probiotic-fermented agricultural by-products improves pork quality has been repeatedly demonstrated and widely applied, but the underlying mechanisms remain unclear. This study explored the effects of fermented extruded brewers' spent grain (FEBSG) on meat quality in growing-finishing pigs, as well as its regulatory mechanisms.\nMETHODS: Sixty Duroc × Landrace × Yorkshire pigs (52.25 ± 2.10 kg) were randomly assigned to five dietary treatments, in which FEBSG replaced 0, 5%, 10%, 15%, and 20% of soybean meal (SBM). The experiment spanned 10 weeks.\nRESULTS: Compared with the control, 20% FEBSG significantly increased final body weight, average daily feed intake, and average daily gain, while decreasing feed to gain ratio (P < 0.05). Both 15% and 20% FEBSG improved carcass characteristics and meat quality, including higher carcass weight, loin eye area, and intramuscular fat content, along with lower drip loss and shear force (P < 0.05). These treatments also enhanced flavor-related amino acids and unsaturated fatty acids (P < 0.05), and improved umami and sweet taste profiles. Moreover, 20% FEBSG increased muscle fiber density and reduced fiber diameter, upregulated MyHC I, MyHC IIa, PGC-1α, AMPKα1, TFAM, and SDH activity, and downregulated MyHC IIb and LDH activity (P < 0.05). Proteomic analysis identified 69 differentially expressed proteins, with enrichment in AMPK and PPAR signaling pathways. Metagenomic analysis revealed increased abundance of short-chain fatty acid-producing bacteria, including Clostridium, Lactobacillus, Prevotella, and Bartonella. Correlation analysis demonstrated associations between gut microbiota diversity and meat quality traits, as well as between dominant microbial genera and differentially expressed proteins, volatile fatty acids, muscle fiber characteristics, and the AMPK/PGC-1α/TFAM signaling pathway.\nCONCLUSIONS: Partial replacement of SBM with FEBSG positively influenced growth performance and pork quality in pigs, with the underlying mechanisms may involve the activation of the AMPK/PGC-1α/TFAM signaling pathway via the gut-muscle axis, thereby enhancing mitochondrial biogenesis, muscle development, and metabolism.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Fermented extruded brewers’ spent grain",
-      "Growing-finishing pigs",
-      "Growth performance",
-      "Gut-muscle axis",
-      "Meat quality"
-    ],
-    "summary_zh": "通过宏基因组和蛋白质组分析，发现发酵啤酒糟替代豆粕通过肠-肌轴激活AMPK/PGC-1α/TFAM通路改善猪肉品质。",
-    "innovation": "整合宏基因组与肌肉蛋白质组多组学分析 | 揭示膳食FEBSG通过肠-肌轴激活AMPK/PGC-1α/TFAM信号通路调控肉质的分子机制 | 发现产短链脂肪酸菌群与肉质性状及蛋白差异表达的关联",
-    "limitation": "未描述",
-    "study_object": "生长育肥猪的肠道微生物（宏基因组）和背最长肌（蛋白质组）",
-    "disease": "无",
-    "sample_size": "60头",
-    "ai_done": true,
-    "fetch_date": "2026-06-06"
-  },
-  {
     "pmid": "42249250",
     "title": "Synergistic Intervention for Obesity: Integrating Central Appetite Regulation and Peripheral Energy Expenditure.",
     "doi": null,

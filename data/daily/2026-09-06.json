@@ -109,46 +109,5 @@
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-09-06"
-  },
-  {
-    "pmid": "42701924",
-    "title": "Polyglutamic acid-functionalized carbon dots enhance cadmium tolerance in Houttuynia cordata through coordinated regulation of physiological responses, gene expression and the rhizosphere microbiome.",
-    "doi": null,
-    "journal": "Plant cell reports",
-    "issn": "1432-203X",
-    "pub_date": "2026-09-06",
-    "authors": "Zhao Beibei; Li Mei; Liu Dan; Liu Chuanhuan; Jiang Jie et al.",
-    "abstract": "polyglutamic acid-functionalized carbon dots improve Cadmium tolerance in Houttuynia cordata by reducing Cadmium accumulation, restoring physiological functions, and reshaping rhizosphere microbial communities. Cadmium (Cd) pollution significantly inhibits the growth and development of H. cordata and poses a serious threat to the safe production of this medicinal plant. In this study, polyglutamic acid-functionalized carbon dots (PGA-CDs) were synthesized by the hydrothermal method, and the mechanism of their role in alleviating Cd stress in H. cordata was systematically investigated. The results showed that compared with the Cd group, the biomass of H. cordata in the Cd+PGA-CDs group significantly increased, and the Cd2+ concentration in the plant decreased. At the same time, PGA-CDs effectively removed reactive oxygen species and regulated the activity of related antioxidant enzymes to alleviate oxidative damage. Moreover, PGA-CDs significantly alleviated the damage to the ultrastructure of chloroplasts caused by Cd stress and enhanced the photosynthetic capacity of the plants. Transcriptome analysis indicated that PGA-CDs treatment significantly changed the expression patterns of genes related to photosynthesis, secondary metabolism, lipid metabolism, and signal response, and regulated the expression of multiple transcription factors and genes related to metal ion homeostasis and transport. Additionally, PGA-CDs increased the α diversity of the rhizosphere microbial community and promoted the enrichment of microbial groups related to plant symbiosis or environmental adaptation, such as the Pseudomonadota, Bacteroidota and Verrucomicrobiota. Through integrated analysis, it further revealed the potential synergistic relationship between gene expression changes, rhizosphere microbial composition, and plant physiological indicators. This study provides new insights into the use of nanomaterials to enhance the adaptability of plants to heavy metals stress.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Cadmium",
-      "Carbon Quantum Dots",
-      "Rhizosphere",
-      "Polyglutamic Acid",
-      "Houttuynia",
-      "Gene Expression Regulation, Plant",
-      "Microbiota",
-      "Photosynthesis",
-      "Reactive Oxygen Species"
-    ],
-    "keywords": [
-      "Antioxidant enzymes",
-      "Cadmium stress",
-      "Carbon dots",
-      "Photosynthesis",
-      "Rhizosphere microbiome",
-      "Transcriptional regulation"
-    ],
-    "summary_zh": "本研究合成聚谷氨酸功能化碳点，通过生理、转录组和根际微生物分析，揭示其缓解鱼腥草镉胁迫的机制。",
-    "innovation": "开发聚谷氨酸功能化碳点用于缓解植物重金属胁迫 | 整合转录组和根际微生物组揭示协同调控机制",
-    "limitation": "未描述",
-    "study_object": "鱼腥草植株及根际微生物，转录组分析和微生物群落分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-06"
   }
 ]

@@ -27,38 +27,5 @@
     "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-11-09"
-  },
-  {
-    "pmid": "43001783",
-    "title": "Free-living autotrophs drive a carbon fixation peak within the Orca Basin chemocline while heterotrophs dominate total activity from seawater to brine.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-11-09",
-    "authors": "Paris Emily R; Salcedo Rebecca S R; Buessecker Steffen; Pozarycki Chad; Desmarais Miguel et al.",
-    "abstract": "Deep hypersaline anoxic basins (DHABs) are stratified, polyextreme environments found within enclosed and semi-enclosed seas worldwide. Here, we quantified microbial activity in Orca Basin, the largest known DHAB, to investigate carbon cycling across its steep chemical and salinity gradients. We measured total anabolic activity and dissolved inorganic carbon (DIC) fixation as a function of metabolic lifestyle (autotroph or heterotroph) and spatial niche (free-living or particle-associated) using dual-isotope labeling experiments and single-cell analysis by nanoscale secondary ion mass spectrometry (nanoSIMS). Activity was detected within all ten depths investigated from seawater to hypersaline brine, including by most cells within the brine. DIC fixation and total anabolic activity peaked within the oxic-anoxic interface, notably separate from the peak in cell and particle density deeper in the halocline. Autotrophs drove the peak in DIC fixation, but heterotrophs drove that of total activity; autotrophs were more abundant than heterotrophs at this depth but on average smaller and slower growing. Particle-associated heterotrophs, but not autotrophs, were significantly more active than their free-living counterparts within the interface. Heterotrophic communities derived an average of 4% to 10% of their biomass from DIC across the vertical transect, contributing just 2% of total DIC fixation within the peak but the majority within overlying seawater. Metagenomic analysis of catabolically active, sorted cells indicated members of at least five phyla were active within the oxic-anoxic interface, including putatively autotrophic Thermoproteota. These data provide high-sensitivity microbial activity measurements in Orca Basin and highlight the widespread viability of the resident microbiome.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "anaplerosis",
-      "brine",
-      "carbon cycling",
-      "chemoautotrophy",
-      "deep-sea",
-      "nanoSIMS",
-      "particles",
-      "single cell"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-09"
   }
 ]

@@ -54,37 +54,6 @@
     "fetch_date": "2026-07-29"
   },
   {
-    "pmid": "42529303",
-    "title": "Dominant Role of Habitat Transformation in Driving the Divergence of Health-Risk Related Microbial Functional Genes in Karst Mountain Parks: A Metagenomic Study.",
-    "doi": null,
-    "journal": "Ecology and evolution",
-    "issn": "2045-7758",
-    "pub_date": "2026-07-29",
-    "authors": "Wang Weize; Cen Chunhua; Yang Jingyi",
-    "abstract": "The transformation of natural forests into urban parks has had a profound impact on subterranean ecosystems. Nevertheless, the underlying mechanisms by which this land use change affects human health through alterations in soil microbial functional genes remain to be elucidated. Focusing on a karst mountain park in Guiyang, China, we used metagenomic sequencing to compare the abundance and composition of antibiotic resistance genes (ARGs), pathogen-host interaction genes (PHIs), and virulence factor genes (VFs) between remnant forests and artificial green spaces, and examined how plant diversity and soil chemometrics drove their variation. Habitat type emerged as the strongest driver of gene composition. PHIs and VFs were more abundant in remnant forests and positively correlated with native plant diversity, while ARGs were enriched in artificial green spaces. All three gene categories showed positive correlations with soil nitrogen content in artificial green spaces. Remnant forests harbored microbial functions linked to complex plant-microbe interactions, whereas intensive management in artificial green spaces selects for antibiotic resistance and nutrient-adaptive genes. These findings reveal distinct health risks across habitats, suggesting that differentiated park management strategies are needed to mitigate public health risks while maintaining ecological sustainability.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "habitat transformation",
-      "health‐related functional genes",
-      "karst mountainous park",
-      "plant–soil‐microbe interactions",
-      "soil health risk",
-      "urban soil microbiome"
-    ],
-    "summary_zh": "通过宏基因组测序比较喀斯特山地公园残余森林与人工绿地土壤微生物功能基因，发现栖息地类型是驱动健康风险相关基因差异的主要因素。",
-    "innovation": "揭示栖息地类型是驱动健康风险相关微生物功能基因差异的主要因素 | 发现残余森林富集病原体-宿主互作和毒力因子基因，人工绿地富集抗生素抗性基因 | 提出需根据栖息地类型制定差异化公园管理策略以降低健康风险",
-    "limitation": "未描述",
-    "study_object": "喀斯特山地公园土壤 + 宏基因组测序",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-29"
-  },
-  {
     "pmid": "42527911",
     "title": "Astrovirus infection alters gut microbial communities in a widespread neotropical bat across human-modified landscapes.",
     "doi": null,

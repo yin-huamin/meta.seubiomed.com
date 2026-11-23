@@ -439,47 +439,6 @@
     "fetch_date": "2026-10-01"
   },
   {
-    "pmid": "42439808",
-    "title": "Effect of selenium hyperaccumulation on the root endophytic and rhizosphere microbiome of two Astragalus species.",
-    "doi": null,
-    "journal": "Plant biology (Stuttgart, Germany)",
-    "issn": "1438-8677",
-    "pub_date": "2026-09-18",
-    "authors": "Dotson C; Kurowski C; Grillo M",
-    "abstract": "Metal hyperaccumulation is prevalent throughout plant evolution, particularly in the legume family (Fabaceae), and acts as a presumed chemical defence against herbivory. However, metal hyperaccumulation can have non-target impacts on other biological interactors, including plant-microbe interactions. This information is important given the interest in utilizing hyperaccumulating plants for phytoremediation of anthropogenically contaminated soils. Here we employ a greenhouse experiment manipulating selenium level along with 16S rRNA gene amplicon sequencing methods to explore the effect of selenium on the prokaryotic microbiome of the selenium hyperaccumulator Astragalus crotalariae and non-accumulator A. lentiginosus var. borreganus. Regardless of hyperaccumulator status, both plant species accumulated high levels of selenium in leaf tissue when grown on soils with high selenium levels. The effect of selenium on the prokaryotic communities was slightly more pronounced in A. lentiginosus than in A. crotalariae, explaining ~5% more of the observed variation. This effect of selenium addition is seen most prevalently in A. lentiginosus root endosphere communities, in which selenate treatment impacted alpha diversity and whole community composition. Many individual microbes were affected by selenium addition; notably, an ASV identified as Allomesorhizobium, the nodulation-inducing genera of Astragalus spp., appeared in significantly less abundance in roots of A. lentiginosus plants grown on highly seleniferous soils. This project highlights the potential significance of ecological partners in metal accumulating plants and the necessity of their consideration when using these plants for phytoremediation.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Astragalus Plant",
-      "Selenium",
-      "Plant Roots",
-      "Rhizosphere",
-      "Microbiota",
-      "RNA, Ribosomal, 16S",
-      "Endophytes",
-      "Soil Microbiology",
-      "Plant Leaves"
-    ],
-    "keywords": [
-      "Astragalus",
-      "heavy metal hyperaccumulation",
-      "microbiome",
-      "plant–microbe",
-      "rhizobia",
-      "selenium"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
     "pmid": "42761474",
     "title": "Response to the Letter to the Editor Entitled \"Promising Urinary Microbiome Signals in Congenital Anomalies of the Kidney and Urinary Tract, but not yet Ready for Clinical Risk Stratification\".",
     "doi": null,
@@ -524,47 +483,6 @@
     "study_object": "未描述（宿主/环境未明确）/尿液样本/微生物组分析",
     "disease": "先天性肾及尿路畸形",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
-    "pmid": "42498984",
-    "title": "TR4-triggered recruitment of suppressive rhizomicrobiome enhances Fusarium wilt resistance in banana.",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2026-09-03",
-    "authors": "Zhang Wenlong; Xu Shengtao; Yu Hongwei; Wang Yun-Yue; Liu Juhua et al.",
-    "abstract": "Fusarium wilt of banana threatens banana production world-wide. Although beneficial rhizomicrobiomes are linked to disease resistance, whether resistant cultivars systemically recruit disease-suppressive rhizomicrobiomes after pathogen challenge remains unclear. Using a split-root system combined with rhizomicrobiome transfer, we tested whether systemically recruited rhizomicrobiomes from different cultivars after pathogen challenge could alter disease development in a susceptible cultivar. Rhizosphere soil suspension from the pathogen-challenged highly resistant cultivar GCTCV119 was the only donor treatment that significantly reduced the disease index in the susceptible recipient cultivar Guijiao No. 1. This effect was associated with pathogen-induced enrichment of absolute bacterial abundance and absolute Bacillus abundance in the rhizosphere of GCTCV119, whereas such enrichment was not observed in the other donor cultivars. A syncom of seven Bacillus strains from the GCTCV119 rhizosphere most effectively reduced (by 90.20%) the disease index by the induction of plant resistance. Soil incubation showed that pathogen-induced D-sorbitol accumulation in GCTCV119 significantly increased total bacterial abundance and Bacillus abundance, and reduced the disease index. This study highlights pathogen-triggered rhizomicrobiome reshaping, higher absolute bacterial abundance, and the suppressive role of Bacillus as key features linked to disease resistance in banana, providing insights into microbiome-mediated disease suppression.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Musa",
-      "Fusarium",
-      "Disease Resistance",
-      "Plant Diseases",
-      "Rhizosphere",
-      "Bacillus",
-      "Plant Roots",
-      "Microbiota",
-      "Soil Microbiology",
-      "Sorbitol"
-    ],
-    "keywords": [
-      "Bacillus",
-      "Fusarium wilt of banana",
-      "Syncom",
-      "metabolomics",
-      "rhizomicrobiome transplantation"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-10-01"
   },
@@ -1151,47 +1069,6 @@
     "fetch_date": "2026-10-01"
   },
   {
-    "pmid": "42330748",
-    "title": "Microbiome-mediated plant immunity: Molecular signalling, community assembly, and emerging intergenerational feedback.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-07-12",
-    "authors": "Liu Xin; Ao Zhijie; Liu Xingcan; Fu Xuesen; Chen Longping et al.",
-    "abstract": "Classical pattern-triggered (PTI) and effector-triggered (ETI) immunity, developed in single-pathogen systems, illuminates how plants recognise molecular threats but cannot fully explain immune homeostasis within the dynamic microbial communities plants encounter in nature. The extended plant immune system reframes immunity as a host-microbiome network sculpted by root exudates, yet two dimensions remain insufficiently integrated: the ecological rules translating recruited communities into systemic immune output, and the mechanisms by which holobiont state may carry over across generations. We propose that plant immune homeostasis is best analyzed as a three-node feedback circuit that we hypothesize closes across generations. Node 1 (molecular recruitment) integrates root exudate-mediated cross-kingdom signalling, in which primary and secondary metabolites jointly serve nutritional and immune-informative roles. Node 2 (ecological translation) is governed by dispersal, immune filtering, drift, priority effects, and functional redundancy, which together determine whether recruitment signals translate into immune buffering. Node 3 (intergenerational carry-over) comprises three mechanistically distinct routes-epigenetic reprogramming, seed microbiota transmission, and soil legacy-that range from provisionally established to largely hypothetical and whose field-scale validation remains limited. Treating this circuit, rather than the host or host-microbiome network, as the minimal unit of immune analysis generates testable predictions-linking functional redundancy to immune buffering, soil legacy to next-generation priming, and node-specific failure modes to dissociable signatures. This framing positions the holobiont across time (understood here as an analytical unit rather than an evolutionary one) as a tractable framework for hypothesis-driven plant immunity research.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Plant Immunity",
-      "Microbiota",
-      "Plants",
-      "Signal Transduction",
-      "Plant Roots",
-      "Feedback, Physiological",
-      "Host Microbial Interactions",
-      "Innate Immunity Recognition"
-    ],
-    "keywords": [
-      "Induced systemic resistance",
-      "Intergenerational microbial feedback",
-      "Plant holobiont",
-      "Plant immunity",
-      "Rhizosphere microbiome",
-      "Root exudates"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
     "pmid": "42275736",
     "title": "Machine learning in applied microbiology, from data quality to model validation and implementation.",
     "doi": null,
@@ -1223,37 +1100,6 @@
       "Pathogen detection",
       "Virology"
     ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
-    "pmid": "42811616",
-    "title": "The Plant-Microbe Alliance for Environmental Restoration: From Nature-Inspired Solutions to Engineered Ecological Recovery.",
-    "doi": null,
-    "journal": "Microbial biotechnology",
-    "issn": "1751-7915",
-    "pub_date": "2026-09-30",
-    "authors": "Molina Lázaro; González-Pagán Lucía; Segura Ana",
-    "abstract": "According to the United Nations, up to 40% of the world's terrestrial ecosystems are degraded and in need of ecological restoration. Here, we argue that ecosystem restoration requires not only the reintroduction of plant species but also the recovery of the biological interactions that sustain ecosystem functioning. Plants and their associated microbiomes form integrated functional units in which microorganisms contribute to nutrient cycling, stress tolerance, contaminant degradation and ecosystem resilience. These plant-microbe partnerships therefore represent a new opportunity for environmental biotechnology. Advances in microbiome engineering, multi-omics and artificial intelligence are enabling the identification, design and management of microbial communities with complementary functions adapted to specific restoration contexts. However, the complexity of environmental microbiomes, the technical limitations of multi-omics in contaminated environments and the gap between computational predictions and ecological performance highlight the need for experimental and field-scale validation. In this context, we propose Holobiont Engineering for Ecosystem Restoration (HEER) as a conceptual framework that treats plants and their microbiomes as functional units and makes ecological interactions explicit targets of restoration. This perspective positions microbial biotechnology at the interface between ecological restoration and environmental engineering, supporting a shift from species-focused approaches towards the recovery of ecosystem functions.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Plants",
-      "Environmental Restoration and Remediation",
-      "Ecosystem",
-      "Microbiota",
-      "Biotechnology"
-    ],
-    "keywords": [],
     "summary_zh": "（待生成）",
     "innovation": "（待生成）",
     "limitation": "（待生成）",
@@ -1386,44 +1232,6 @@
     "fetch_date": "2026-10-01"
   },
   {
-    "pmid": "42680395",
-    "title": "Boosting domestic wastewater treatment with quorum signal-augmented heterotrophic nitrification-aerobic denitrification bacterial-algal aerobic granular sludge.",
-    "doi": null,
-    "journal": "Journal of environmental sciences (China)",
-    "issn": "1001-0742",
-    "pub_date": "2026-09-01",
-    "authors": "Zhang Qian; Nie Bixiang; Yang Chenxi; Wei Fu; Deng Lin et al.",
-    "abstract": "The aerobic bacterial-algal granular sludge (ABGS) enhanced with heterotrophic nitrification-aerobic denitrification (HN-AD) bacteria, as a novel symbiotic technology, exhibits fluctuating treatment efficiency and unstable performance primarily due to the unstable symbiotic relationship. This study proposes an innovative approach to strengthening the bacteria-algae symbiosis by introducing exogenous signaling molecules. Concurrently, high-throughput, correlation analysis of environmental factors and metagenomic sequencing techniques are employed to elucidate the enhancement mechanisms of the signaling molecules. The results demonstrate that signaling molecule enhancement boosted total nitrogen (TN) removal efficiency by 24.51 % in the bacteria-algae symbiotic system (X1). Scanning electron microscopy (SEM) characterization revealed that the addition of signaling molecules resulted in more compact aerobic granular sludge (AGS) and markedly improved stability. High-throughput sequencing showed signaling molecules enriched denitrifying bacteria (Hydrogenophaga, Pseudoxanthomonas, Thauera, Zoogloea) and organic-degrading Desulfomicrobium, optimizing microbial diversity and enhancing nitrogen/organic removal. Correlation analysis of environmental factors indicate that the addition of C8-HSL facilitates the enrichment and functional activation of specific genera. Metagenomic analysis revealed that signaling molecules enhanced the system's denitrification performance by modulating gene expression and associated metabolic pathways. Quantitative polymerase chain reaction (qPCR) analysis further confirmed that the signaling molecules upregulated the expression of the napA, nirK, and nirS genes. An increased abundance of the napA gene facilitated aerobic denitrification (NO₃⁻-N→NO₂⁻-N), while upregulated abundance of the nirK and nirS genes accelerated nitrite reduction (NO₂⁻-N→N₂). This study aims to provide theoretical and practical foundations for implementing advanced bacteria-algae symbiotic technologies.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Denitrification",
-      "Sewage",
-      "Nitrification",
-      "Waste Disposal, Fluid",
-      "Wastewater",
-      "Quorum Sensing",
-      "Bacteria",
-      "Aerobiosis"
-    ],
-    "keywords": [
-      "Domestic wastewater",
-      "HN-AD bacteria-Chlorella symbiotic aerobic granular sludge (AGS)",
-      "Heterotrophic nitrification-aerobic denitrification (HN-AD)",
-      "Signaling molecules"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
     "pmid": "42674358",
     "title": "Effect of sucrose-free brazzein-sweetened ice cream on continuously monitored glycemic response in patients with metabolic dysfunction-associated steatotic liver disease: A randomized controlled double-blind crossover trial.",
     "doi": null,
@@ -1512,49 +1320,6 @@
     "fetch_date": "2026-10-01"
   },
   {
-    "pmid": "42562511",
-    "title": "Wastewater irrigation reshapes the microbiome and resistome of radish sprouts: Insights from 16S rRNA and shotgun metagenomic sequencing.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-10-01",
-    "authors": "Lee Ji Won; Kim Yeo Min; Kim Ye Jin; Jeong Kwangcheol Casey; Kim Sun Ae",
-    "abstract": "Water scarcity is increasing the reliance on treated wastewater in fresh produce production, yet its effects on the microbial and hygienic quality of fresh produce remain unclear. This study evaluated the influence of wastewater irrigation on the microbiome and antibiotic resistance gene (ARG) profiles of radish sprouts grown under commercially relevant conditions. Using culture-dependent methods and integrated sequencing (16S rRNA and shotgun metagenomics), we tracked microbial and resistome dynamics across the sprout production process under three irrigation regimes: swine wastewater, treated wastewater, and sterile distilled water. Wastewater irrigation markedly increased microbial loads, with aerobic plate counts exceeding 8.0 log CFU/g in final radish sprouts. Both wastewater treatments were dominated by Pseudomonas and Acinetobacter. Resistome profiling showed persistent multidrug, bacitracin, and polymyxin resistance genes in wastewater-irrigated sprouts, while sulfonamide resistance genes occurred exclusively under wastewater irrigation, suggesting wastewater-associated environmental transmission. Higher ARG subtype richness in wastewater treatments suggested that conventional wastewater treatment processes do not completely eliminate diverse ARGs. ARG-host linkage analysis suggested an elevated potential for horizontal gene transfer within edible plant tissues. Overall, wastewater irrigation altered the microbiological quality of radish sprouts and facilitated ARG persistence, underscoring the need for improved post-treatment and preventive water management to safeguard fresh produce safety.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Raphanus",
-      "Wastewater",
-      "RNA, Ribosomal, 16S",
-      "Microbiota",
-      "Agricultural Irrigation",
-      "Animals",
-      "Metagenomics",
-      "Shotgun Sequencing",
-      "Bacteria",
-      "Drug Resistance, Microbial",
-      "Swine"
-    ],
-    "keywords": [
-      "ARG networks",
-      "Fresh produce safety",
-      "Growth stage variation",
-      "Microbial assembly",
-      "Resistome dynamics",
-      "Wastewater irrigation"
-    ],
-    "summary_zh": "研究评估废水灌溉对萝卜芽苗微生物组和抗性基因的影响，发现废水灌溉增加微生物载量并促进ARG持续存在。",
-    "innovation": "在商业相关条件下整合16S rRNA和鸟枪法宏基因组测序，追踪萝卜芽苗生产全过程的微生物组与抗性组动态 | 发现磺胺类抗性基因仅在废水灌溉下出现，提示废水相关环境传播 | 通过ARG-宿主关联分析揭示可食用植物组织内水平基因转移潜力升高",
-    "limitation": "未描述",
-    "study_object": "萝卜芽苗（食用植物）/废水灌溉环境 + 芽苗生产全过程样本 + 培养法、16S rRNA测序和鸟枪法宏基因组测序",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
     "pmid": "42562480",
     "title": "Fermentation of legumes as a strategy to enhance nutritional and sensory properties and modulate gut microbiome and human health.",
     "doi": null,
@@ -1583,49 +1348,6 @@
       "Host health",
       "Pulse",
       "Sustainability"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
-    "pmid": "42562478",
-    "title": "Integrating ecological networks and metagenomics to decipher core microbial drivers of organic acid metabolism during heaped fermentation of sauce-flavor Baijiu.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-10-01",
-    "authors": "Zhang Hong-Yan; Huang Ting-Cai; Chai Li-Juan; Shi Wei; He Yang-Xue et al.",
-    "abstract": "Organic acids play crucial roles in both flavor quality and microbial succession of sauce-flavor Baijiu; however, the core microbial drivers responsible for their metabolism remain poorly understood. This study systematically investigated the microbial drivers of organic acid metabolism across six sequential rounds (R1-R6) of heaped fermentation. A total of 24 organic acids were identified, including nine non-volatile organic acids (NVOAs) and 15 volatile organic acids (VOAs). HPLC analysis revealed that the total content of acetic acid and nine NVOAs increased significantly across rounds, rising from 29.35 g/kg in R1 to 66.40 g/kg in R6. Lactic acid was the most abundant NVOA, while acetic acid, isovaleric acid, and hexanoic acid were the primary volatile contributors. Co-occurrence network analysis identified 488 consistently correlated bacterial pairs that clustered into two distinct guilds. Guild 2, mainly comprising Virgibacillus, Kroppenstedtia, Oceanobacillus, and Bacillus, exhibited high abundance (47%-78%) across all rounds and was defined as the core bacterial guild. Spearman correlation analysis revealed that guild 2 was positively correlated with NVOAs (69.41%) but negatively correlated with VOAs (63.02%). Metagenomic analysis reconstructed seven key pathways involved in organic acid biosynthesis. Kroppenstedtia, Lentibacillus, Desmospora, and Oceanobacillus were identified the taxa harboring the genetic potential most frequently detected across multiple pathways, with Kroppenstedtia and Lentibacillus exhibiting the highest gene abundances. These findings provide a theoretical foundation for targeted regulation of organic acid content in sauce-flavor Baijiu production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Fermentation",
-      "Metagenomics",
-      "Food Microbiology",
-      "Bacteria",
-      "Volatile Organic Compounds",
-      "Acetic Acid",
-      "Caproates",
-      "Taste",
-      "Lactic Acid",
-      "Fermented Foods",
-      "Microbiota",
-      "Pentanoic Acids",
-      "Hemiterpenes"
-    ],
-    "keywords": [
-      "Co-occurrence network",
-      "Core microbiome",
-      "Functional guilds",
-      "Solid-state fermentation"
     ],
     "summary_zh": "（待生成）",
     "innovation": "（待生成）",
@@ -1897,51 +1619,6 @@
     "fetch_date": "2026-10-01"
   },
   {
-    "pmid": "42263473",
-    "title": "Vertically transmitted seed core endophytes enhance the drought tolerance of Ambrosia artemisiifolia.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-07-12",
-    "authors": "Wu Chunpeng; Chen Xue; Zhang Yichi; Li Xinyan; Yang Danyao et al.",
-    "abstract": "Seed endophytes play a pivotal role in shaping plant microbiota, with certain species being vertically transmitted throughout the plant's life history. Nevertheless, their transmission patterns and contributions to drought adaptation remain poorly understood. In this study, through comparative analysis of microbial communities in seeds and in vitro plantlets from five geographic populations, Pseudomonas and Bacillus were identified as vertically transmitted core endophytes. Analysis of endophytic communities in leaves and roots of plants grown in a common garden further revealed that these genera not only dominated the microbiota but also served as potential keystone taxa. Moreover, pot experiments demonstrated that these genera remained dominant under drought. Representative culturable isolates associated with core vertically transmitted OTUs, including Pseudomonas benzopyrenica and Bacillus cereus, carried multiple antioxidant-related genes based on whole-genome sequencing, and qRT-PCR analysis further showed that most of these genes were upregulated under drought stress. The pot experiment revealed that both strains enhance plant drought tolerance, with altered NCED expression associated with modulated ABA levels, and changes in GST, SOD2, and CAT expression correlated with reduced accumulation of reactive oxygen species (ROS) and malondialdehyde (MDA) in inoculated plants. These findings advance our understanding of the role of vertically transmitted core endophytes in the adaptation of invasive plants and offer new perspectives for microbiome-based management strategies.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Endophytes",
-      "Drought Resistance",
-      "Seeds",
-      "Pseudomonas",
-      "Plant Leaves",
-      "Plant Roots",
-      "Droughts",
-      "Reactive Oxygen Species",
-      "Microbiota",
-      "Antioxidants",
-      "Phylogeny",
-      "Stress, Physiological",
-      "Malondialdehyde"
-    ],
-    "keywords": [
-      "Ambrosia artemisiifolia",
-      "Antioxidant system",
-      "Core microbiota",
-      "Drought tolerance",
-      "Endophytic bacteria",
-      "Vertical transmission"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
     "pmid": "42127772",
     "title": "Comparative development of volatile-oriented multi-SPME and derivatisation-based GC×GC-TOFMS workflows for non-targeted faecal metabolomics.",
     "doi": null,
@@ -2046,44 +1723,6 @@
       "Male"
     ],
     "keywords": [],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-01"
-  },
-  {
-    "pmid": "42680378",
-    "title": "The global potential of freshwater microbes for plastic degradation.",
-    "doi": null,
-    "journal": "Journal of environmental sciences (China)",
-    "issn": "1001-0742",
-    "pub_date": "2026-09-01",
-    "authors": "Zhou Yang; Zhao Zelong; Ke Tan; Wang Zhipu; Wang Jie",
-    "abstract": "Plastic pollution is becoming increasingly severe on a global scale, and the potential for biodegradation as a treatment method that is environmentally friendly merits greater attention. A significant number of genes that associated the degradation of plastic (PDAGs) have been identified, however, the distribution of these genes among microorganisms in global inland waters remains to be elucidated. A global-scale meta-analysis was conducted, incorporating approximately 1000 metagenome datasets of inland waters across seven continents. A total of 13,109 metagenome-assembled genomes (MAGs) were obtained by means of metagenomics binning, and 22,621 PDAGs were identified from these. Among these recognized PDAGs, phenylacetaldehyde dehydrogenase (PAD) was the most dominant (n = 16,664), followed by catalase (n = 5931). The predominant hosts for PAD and catalase were identified as Gamma-proteobacteria and Bacteroidia, respectively. The largest number of both PAD and catalase was found in MAGs from North America, while the average gene number in single MAG was highest in MAGs from Oceania. In accordance with the prediction of traits, PDAG-carrying MAGs from Europe demonstrated the fastest growth rate and the lowest optimal growth rate. Furthermore, 25 styrene monooxygenase (StyA) enzymes were identified, which were found to cluster into two distinct groups hosted by Alpha-proteobacteria and Gamma-proteobacteria, respectively. Moreover, 11 MAGs were observed to possess the complete pathway of polystyrene degradation. These results explored the potential of inland water microorganisms as a biological resource for plastic degradation and provided valuable microbial reference information that can be used to develop biological treatment technologies for mitigating plastics.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Plastics",
-      "Biodegradation, Environmental",
-      "Fresh Water",
-      "Water Pollutants, Chemical",
-      "Water Microbiology",
-      "Bacteria",
-      "Metagenome"
-    ],
-    "keywords": [
-      "Global scale",
-      "Inland water bodies",
-      "Metagenome-assembled genome",
-      "Plastic degrading genes",
-      "Polystyrene"
-    ],
     "summary_zh": "（待生成）",
     "innovation": "（待生成）",
     "limitation": "（待生成）",

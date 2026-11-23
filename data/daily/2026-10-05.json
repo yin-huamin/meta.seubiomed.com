@@ -24,45 +24,6 @@
     "fetch_date": "2026-10-05"
   },
   {
-    "pmid": "42830277",
-    "title": "Metagenomic analysis of rhizosphere soil microbiota in wild and cultivated Notopterygium incisum, an umbelliferae medicinal herb.",
-    "doi": null,
-    "journal": "BMC microbiology",
-    "issn": "1471-2180",
-    "pub_date": "2026-10-05",
-    "authors": "Feng Tianqing; Shang Jun; Ma Yonggui; Li Juan; Qin Yanrong et al.",
-    "abstract": "Notopterygium incisum is not only a traditional Chinese medicine but also an endemic herb. Artificial domestication and large-scale cultivation are crucial for resolving the crisis of wild resources and the supply-demand imbalance of N. incisum, yet current techniques have failed to stably provide the herb medicine in good quality. Metagenomic analyses revealed significant differences in the rhizomicrobiota between wild and cultivated N. incisum, particularly in microbial composition, gene functions, and community assembly. The rhizomicrobiota of the wild N. incisum from 3 different sites with an altitude drop over 1400 m had a similar composition when being compared with the cultivated samples. The wild N. incisum had higher abundances of beneficial microbes, particularly Hyphomicrobiales (Rhizobiales) (21.27% on average). In contrast, the rhizosphere microbial communities of the cultivated N. incisum showed a high prevalence of functional genes involved in the pathways of DNA repair and recombination proteins, replication and repair, peptidases and inhibitors, DNA replication proteins, and transfer RNA biogenesis. The co-occurrence networks analysis indicated that the stability of the wild samples' network remained significantly more robust when nodes were proportionally removed, as the wild samples' network had approximately the same positive and negative links while the cultivated samples' network had nearly all positive links and many fewer connectors. This is related to the conclusion that wild N. incisum exhibits superior efficacy, as reported in previous studies. Additionally, it can be observed from the sampling images that the root surface of wild N. incisum has more pronounced tiny protrusions, which may be associated with rhizobial attachment, thereby enhancing the nitrogen fixation process. Importantly, the observed shifts in rhizosphere microbial communities, particularly the enrichment of beneficial rhizobia in wild plants, are closely linked to enhanced accumulation of bioactive secondary metabolites such as coumarins and volatile oils. These microbiome-driven differences are likely associated with the superior medicinal quality of wild N. incisum compared to cultivated counterparts, highlighting the pivotal role of rhizosphere microbes in shaping therapeutic efficacy.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Rhizosphere",
-      "Soil Microbiology",
-      "Metagenomics",
-      "Apiaceae",
-      "Plants, Medicinal",
-      "Microbiota",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Bradyrhizobium",
-      "Notopterygium incisum",
-      "Metagenomic sequencing",
-      "Qinghai-Tibet Plateau",
-      "Rhizobiales",
-      "Rhizosphere microorganisms"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-05"
-  },
-  {
     "pmid": "42831621",
     "title": "Leviathan: fast, memory-efficient, and scalable taxonomic and pathway profiling for (pan)genome-resolved metagenomics and metatranscriptomics.",
     "doi": null,

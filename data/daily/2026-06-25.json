@@ -37,36 +37,6 @@
     "fetch_date": "2026-06-25"
   },
   {
-    "pmid": "42351266",
-    "title": "Differential rumen and hindgut microbiome and metabolome in Holstein female calves with divergent feed efficiency.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-06-25",
-    "authors": "Chen Tianyu; Xiao Jianxin; Li Shangru; Peng Rong; Xu Yiming et al.",
-    "abstract": "BACKGROUND: Significant environmental problems have challenged animal agriculture, improving feed efficiency in animals has become a vital research direction for sustainable agriculture. Bacteria play a critical role in the feed efficiency of animals. However, our current understanding of bacteria communities in the gastrointestinal tract of high-feed efficiency animals and their metabolic mechanisms remains unclear.\nRESULTS: Twenty Holstein female calves were used in this multi-omics study that integrated metagenomic and metabolomic analyses of 20 Holstein female calves to investigate feed efficiency, as measured by residual feed intake (RFI). From an initial cohort of 84 calves, the 10 with the highest RFI (HRFI, low efficiency) and the 10 with the lowest RFI (LRFI, high efficiency) were selected at 84 days of age. Rumen fluid, feces, and serum samples from these calves were collected for subsequent analyses. We found that LRFI calves harbored rumen and fecal microbiomes with significantly different community structures and co-occurrence networks compared to HRFI calves. Multi-omics integration identified robust microbial and metabolite biomarkers discriminating RFI groups. These microbiomes were functionally linked to differential nutrient utilization, LRFI calves were characterized by enhanced starch and protein digestibility coupled with propionate-oriented fermentation, associated with key species like Erysipelotrichaceae_bacterium and Hungatella_sp. Conversely, HRFI calves showed higher fat digestibility and acetate production. Notably, serum glutamate was enriched in LRFI calves despite lower intake, correlating with potential microbial metabolites (ribitol, taurine). Subsequent validation confirmed that glutamate supplementation in mice improved nitrogen metabolism and gut barrier function.\nCONCLUSIONS: In summary, this multi-omics study reveals that high feed efficiency in calves is associated with distinct microbial ecosystems characterized by functions such as starch degradation and propionate production, where glutamate metabolism serves as a central node. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Bacteria",
-      "Digestibility",
-      "Feed efficiency",
-      "Metabolome",
-      "Ruminants"
-    ],
-    "summary_zh": "对20头荷斯坦母犊牛进行宏基因组和代谢组分析，发现高效饲料效率犊牛瘤胃和后肠微生物组特征为淀粉降解和丙酸产生，谷氨酸代谢是关键节点。",
-    "innovation": "整合宏基因组和代谢组分析饲料效率差异的瘤胃和后肠微生物 | 鉴定出高效犊牛关键微生物和代谢物（如谷氨酸） | 通过小鼠验证谷氨酸补充改善氮代谢和肠道屏障功能",
-    "limitation": "未描述",
-    "study_object": "荷斯坦母犊牛 瘤胃液、粪便和血清 宏基因组和代谢组",
-    "disease": "无",
-    "sample_size": "20头荷斯坦母犊牛（从84头中筛选）",
-    "ai_done": true,
-    "fetch_date": "2026-06-25"
-  },
-  {
     "pmid": "41999744",
     "title": "Gut microbiome is associated with recurrence-free survival in patients with resected high-risk melanoma receiving adjuvant immune checkpoint blockade.",
     "doi": null,
@@ -213,42 +183,6 @@
     "innovation": "首次整合多组学（宏基因组、代谢组、蛋白质组）和培养分析研究猫科动物肠道菌群 | 发现核心菌群以梭菌属、柯林斯菌属和拟杆菌属为主，功能富集于碳水化合物和氨基酸代谢 | 通过培养实验验证蛋白水解和脂解活性，并与代谢组学数据一致",
     "limitation": "未描述",
     "study_object": "圈养猫科动物粪便/肠道内容物 + 宏基因组、代谢组、蛋白质组和培养实验",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-25"
-  },
-  {
-    "pmid": "42345569",
-    "title": "From dividing to dormant: embracing the full activity spectrum for environmental microorganisms.",
-    "doi": null,
-    "journal": "Microbiology and molecular biology reviews : MMBR",
-    "issn": "1098-5557",
-    "pub_date": "2026-06-25",
-    "authors": "Guigard Ludivine; Bal Victor; Bintarti A Fina; Buron Margaux; Chavan Emma et al.",
-    "abstract": "SUMMARYMicroorganisms can cope with stress by entering dormancy, a viable state of reduced metabolic activity that enables persistence, dispersal, and long-term survival. However, microbial life in environmental systems is best understood as a spectrum of metabolic activity, spanning from highly active, dividing cells to deeply dormant phenotypes. This spectrum reflects dynamic survival strategies under fluctuating conditions, with critical implications for ecosystem stability, gene dissemination, and resilience to disturbances in natural and human-influenced systems. Yet, microbial activity is often treated as binary (active vs. dormant), oversimplifying a biological continuity that remains technically difficult to quantify. Here, we synthesize advances in microbial dormancy to reconceptualize activity as a spectrum. We review current and emerging methods to quantify environmental activity, linking each to the Central Dogma of molecular biology (DNA to RNA to protein) to guide interpretation along a generalizable continuum. Through a literature synthesis of terrestrial, aquatic, and wastewater treatment ecosystems, we compare how methods estimate active cells and populations. We recommend standardized reporting of total community size, active cell abundance, and proportional activity to enrich the interpretation of microbiome 'omics data, with activity intensity and active-inactive switching providing deeper insights. To achieve this, we advocate for increased accessibility and throughput of precise activity-discriminating technologies, alongside renewed use of reliable methods like direct cell counts and activity stains. Adopting this spectrum-based perspective will improve our ability to tackle key societal challenges, such as understanding microbial contributions to ecosystem function under climate change and gene dispersal at human-environment interfaces.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "VBNC",
-      "active cells",
-      "active taxa",
-      "climate change",
-      "community size",
-      "dormancy",
-      "persister",
-      "spore",
-      "storage effect",
-      "structure-activity relationships"
-    ],
-    "summary_zh": "综述微生物活性谱概念，从分裂到休眠，量化方法及标准化报告，以提升环境微生物组研究。",
-    "innovation": "重新概念化微生物活性为谱而非二元状态 | 将活性量化方法链接到中心法则（DNA→RNA→蛋白质） | 推荐标准化报告总群落大小、活跃细胞丰度比例及活性强度",
-    "limitation": "未描述",
-    "study_object": "环境微生物 + 陆地、水生、废水处理生态系统样本 + 综述方法",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

@@ -105,30 +105,6 @@
     "fetch_date": "2026-05-04"
   },
   {
-    "pmid": "42082515",
-    "title": "A manually curated pig gut microbiome dataset for precision feeding.",
-    "doi": null,
-    "journal": "Scientific data",
-    "issn": "2052-4463",
-    "pub_date": "2026-05-04",
-    "authors": "Geng Yilin; Zhang Junmei; Hu Yuren; Tong Qichang; Ye Ziyu et al.",
-    "abstract": "The gut microbiome of pigs is a complex microbial ecosystem critical to host health and agricultural productivity. While amplicon sequencing studies have expanded our understanding of this community, a lack of standardized data and metadata often hinders comparative analysis and data reuse. To address this challenge, we present the Pig Gut Microbiome Dataset (PGMD, version 1.0), a comprehensive resource developed through the systematic selection of publications, extensive manual curation of associated metadata, and standardized reprocessing of raw amplicon sequencing data. This initial release integrates 202 publications (encompassing 207 16S rRNA gene sequencing data BioProjects), comprising 12,336 samples, collected from 22 countries. The dataset encompasses 52 host species and 3,028 taxonomic groups. Samples are systematically categorized by research topics and host phenotypes, enabling users to explore microbial community composition, identify differentially abundant taxa across experimental conditions and phenotypes, investigate six core phenotype-associated microbial clades, and determine dominant taxa across four key growth stages. PGMD significantly enhances the standardization and integration of pig gut microbiome data, serving as a valuable resource for research towards precision feeding and improved animal health. All data in the dataset are hosted and available in figshare https://doi.org/10.6084/m9.figshare.25911745.v1.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过手动整理和标准化扩增子测序数据，构建猪肠道微生物组数据集(PGMD)，整合202篇文献12336个样本，支持精准饲喂研究。",
-    "innovation": "大规模手动整理和标准化处理猪肠道微生物组扩增子数据 | 系统分类研究主题和宿主表型 | 识别核心表型相关微生物分支和生长阶段优势分类群",
-    "limitation": "未描述",
-    "study_object": "猪肠道微生物组 16S rRNA基因测序",
-    "disease": "无",
-    "sample_size": "12,336个样本",
-    "ai_done": true,
-    "fetch_date": "2026-05-04"
-  },
-  {
     "pmid": "42083308",
     "title": "Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.",
     "doi": null,
@@ -215,30 +191,6 @@
     "fetch_date": "2026-05-04"
   },
   {
-    "pmid": "42082767",
-    "title": "Practical lessons from microbiome citizen-science projects.",
-    "doi": null,
-    "journal": "Nature microbiology",
-    "issn": "2058-5276",
-    "pub_date": "2026-05-04",
-    "authors": "Lebeer Sarah; Goormachtig Sofie",
-    "abstract": "",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "未描述",
-    "innovation": "未描述",
-    "limitation": "未描述",
-    "study_object": "未描述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-04"
-  },
-  {
     "pmid": "42082522",
     "title": "Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.",
     "doi": null,
@@ -259,45 +211,6 @@
     "study_object": "人类 + 血浆 + 肠道微生物组（粪便）",
     "disease": "抑郁症",
     "sample_size": "女性419例，男性383例",
-    "ai_done": true,
-    "fetch_date": "2026-05-04"
-  },
-  {
-    "pmid": "42013859",
-    "title": "Identification of bacterial signals that modulate enteric sensory neurons to influence behavior in C. elegans.",
-    "doi": null,
-    "journal": "Current biology : CB",
-    "issn": "1879-0445",
-    "pub_date": "2026-05-04",
-    "authors": "Estrem Cassi E; Dua Malvika; Fees Colby P; Hoeprich Greg J; Au Matthew et al.",
-    "abstract": "The bacterial microbiome influences many aspects of animal health and disease. Bacteria can have beneficial functions, for example providing nutrients, whereas others can act as pathogens. Bacteria are sensed by host cells to induce adaptive changes in physiology and behavior. While immune and intestinal cells detect bacterial signals through well-characterized mechanisms, recent studies indicate that neurons can also directly sense bacteria. However, the bacterial sensory mechanisms in neurons are less well understood. In Caenorhabditis elegans, the enteric sensory neuron NSM innervates the pharyngeal lumen and is directly activated by bacterial ingestion; in turn, NSM releases serotonin to induce feeding-related behaviors. However, the molecular identities of the bacterial signals that activate NSM are unknown. To identify them, we probed bacterial macromolecules from nutritive bacteria using biochemical approaches. We find that polysaccharides from bacteria are sufficient to activate NSM. We further identify peptidoglycans from Gram-positive bacteria as specific components capable of activating NSM. NSM responses to polysaccharides require the acid-sensing ion channels DEL-3 and DEL-7, which localize to NSM's sensory dendrite in the pharyngeal lumen. Ingestion of bacterial polysaccharides enhances feeding and reduces locomotion, matching the known effects of NSM on behavior. We also examine signals produced by pathogenic bacteria. This approach identifies prodigiosin, from pathogenic Serratia marcescens, as a metabolite that prevents NSM activation by nutritive bacterial signals. This study identifies molecular signals that underlie neuronal recognition of nutritive bacteria in the alimentary canal and competing signals from a pathogenic bacterial strain that can mask this form of recognition.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Caenorhabditis elegans",
-      "Sensory Receptor Cells",
-      "Caenorhabditis elegans Proteins",
-      "Signal Transduction",
-      "Behavior, Animal"
-    ],
-    "keywords": [
-      "C. elegans",
-      "behavior",
-      "feeding",
-      "foraging",
-      "microbiome",
-      "neural circuits",
-      "serotonin"
-    ],
-    "summary_zh": "利用生化方法鉴定线虫肠道神经元NSM的细菌信号，发现营养菌多糖和肽聚糖激活NSM，致病菌灵菌红素抑制该激活。",
-    "innovation": "发现多糖和肽聚糖为营养性细菌激活NSM的关键信号 | 揭示酸敏感离子通道DEL-3/DEL-7介导NSM对多糖的响应 | 发现致病菌灵菌红素竞争性抑制NSM激活",
-    "limitation": "未描述",
-    "study_object": "秀丽隐杆线虫 + 肠道感觉神经元NSM + 细菌（营养性/致病性） + 生物化学/电生理方法",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-04"
   },

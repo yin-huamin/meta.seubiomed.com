@@ -1,35 +1,5 @@
 [
   {
-    "pmid": "42765955",
-    "title": "Microbial physiological trait shifts link heavy metal remediation to enhanced soil carbon storage potential.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-09-21",
-    "authors": "Xue Rui; Li Jian; Hu Shilin; Ding Jiazhi; Wang Cheng et al.",
-    "abstract": "Widespread and chronic heavy metal pollution resulting from industrial activities has compromised the sustainability of soil ecosystems. Increasing and stabilizing soil carbon storage is central to soil development, but how remediation reshapes soil carbon cycling processes during the mitigation of heavy-metal contamination remains unclear. Here, we tracked genome-scale microbial metabolism, community turnover, and phenotype-level physiological responses during a 120-day remediation of heavy metal-contaminated soils with several decades of pollution histories and resolved their dynamic interplay with microbial carbon use efficiency (CUE) and CO2 emissions. We found that heavy-metal stress accelerated microbial respiratory carbon loss from soils, with contaminated soils exhibiting significantly higher cumulative CO₂ emissions than both nearby uncontaminated and remediated soils. Metagenomic profiles were enriched in oxidative-stress defense and metal-detoxification functions, consistent with elevated maintenance costs that may contribute to enhanced respiration. In contrast, remediation significantly reduced soil CO₂ emissions while increasing microbial growth rate and CUE, indicating a shift toward greater soil carbon storage potential. Raman-based in situ monitoring further showed that biomolecules associated with microbial growth, including phospholipids, nucleic acids, and proteins, increased progressively throughout the remediation process. Structural equation modelling further revealed that microbial physiological traits, particularly metabolic activity and intracellular biomolecular composition, exerted stronger direct effects on CUE than community traits, including community stability and life-history strategy. These results identify microbial physiological traits as a key link between environmental stress and soil carbon cycling. Together, these findings suggest that remediating heavy metal-contaminated soils may represent an underappreciated pathway for enhancing terrestrial carbon sequestration.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Heavy metal",
-      "Microbial ecology",
-      "Single-cell Raman spectroscopy",
-      "Soil carbon cycle",
-      "Soil remediation"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-21"
-  },
-  {
     "pmid": "42764315",
     "title": "From Dysbiosis to Blood-Brain Barrier Disruption: The Metabolite-Mediated Gut-Brain Axis in Alzheimer's Disease.",
     "doi": null,

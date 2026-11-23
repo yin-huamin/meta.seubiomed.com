@@ -109,36 +109,6 @@
     "fetch_date": "2026-11-03"
   },
   {
-    "pmid": "42975129",
-    "title": "Host genotype-microbiota-metabolome interactions modulate semen quality in Holstein bulls.",
-    "doi": null,
-    "journal": "mSystems",
-    "issn": "2379-5077",
-    "pub_date": "2026-11-03",
-    "authors": "Ju Zhihua; Jiang Qiang; Li Yanqin; Zhang Yuanpei; Xiao Yao et al.",
-    "abstract": "UNLABELLED: Semen quality is critical for reproductive performance in dairy cattle; however, its microbial, metabolic, and genetic bases remain poorly understood. We integrated rumen microbiota, metabolome, and genome-wide variation from 55 Holstein bulls stratified into relative semen quality high (RSQH) and relative semen quality low (RSQL) groups based on semen quality records to investigate host-microbiome-metabolome interactions associated with fertility. The rumen microbiota was dominated by Bacteroidota, Firmicutes, and Proteobacteria, while Fibrobacter (phylum Fibrobacterota) was enriched in RSQH bulls and positively associated with sperm motility and density. The metabolome distinguished the two groups with 64 discriminatory metabolites, including elevated N-acetyl-L-phenylalanine and prostaglandin H2 in RSQH and sebacic acid in RSQL. Machine learning models were used to prioritize microbial and metabolic features, identifying candidate markers that may contribute to differences in semen quality. Fibrobacter, thromboxane B2, and N1-[4-(cyanomethyl)phenyl]-4-chlorobenzamide emerged as candidate indicators of semen quality, supported by machine learning, high heritability, and genome-wide association study signals. Overall, 511 single-nucleotide polymorphisms (SNPs) were jointly associated with Fibrobacter and these metabolites, including six significantly linked to sperm motility based on GWAS analysis. These SNPs were grouped into two contrasting types, with C1-type variants showing decreasing trends and C2-type variants showing increasing trends in semen quality-related traits. Structural equation modeling revealed that C2-type variants were positively associated with semen traits through microbial and metabolite enrichment, whereas C1-type variants were negatively associated with them. These findings highlight coordinated host genetic, microbial, and metabolic contributions to semen quality in Holstein bulls and provide candidate biomarkers for fertility-related research and breeding.\nIMPORTANCE: Improving bull fertility is important for reproductive efficiency in dairy production, but the biological factors underlying semen quality remain incompletely understood. This study shows that variation in semen quality in Holstein bulls is associated with coordinated differences in rumen microbiota, metabolites, and host genetic variation. In particular, Fibrobacter, thromboxane B2, and N1-[4-(cyanomethyl)phenyl]-4-chlorobenzamide emerged as promising indicators of semen quality. These findings provide a basis for future fertility biomarker research and may support the development of genetics- and microbiota-informed strategies for bull selection and reproductive management.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "bull fertility",
-      "genome-wide association study",
-      "heritability",
-      "multi-omics integration",
-      "rumen metabolites"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-03"
-  },
-  {
     "pmid": "42975318",
     "title": "Rifamycin use and gut microbial antibiotic resistance genes in cirrhosis: Results from a double-blind, placebo-controlled clinical trial.",
     "doi": null,
@@ -182,46 +152,6 @@
     "study_object": "代偿期肝硬化患者 + 肠道微生物组样本 + 鸟枪法宏基因组测序",
     "disease": "肝硬化（代偿期）",
     "sample_size": "n=30（RiVM组15例，安慰剂组15例）",
-    "ai_done": true,
-    "fetch_date": "2026-11-03"
-  },
-  {
-    "pmid": "42945246",
-    "title": "Viral metagenomics reveals heterogeneity in mammalian virus hosting, sharing, and spillover.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-11-03",
-    "authors": "Wang Yuhao; Qu Guanyu; Huang Zheng Y X; Zhang Xinyu; Li Hongfeng et al.",
-    "abstract": "Zoonotic viruses originating from mammals pose a persistent threat to global health. While rodents and bats are often considered \"special reservoirs,\" it is debated if spillover risk is driven by specific taxa or merely reflects mammalian species richness. However, most tests have focused on published host-virus association datasets, which can reflect systematic biases in host and virus sampling effort. To address this limitation, we analyzed a comprehensive repository of 4,685 metagenomic datasets, minimizing bias toward any one viral taxon and spanning 296 species across 14 mammalian orders. We characterized the global mammalian virome and found substantial heterogeneity in the capacity of different mammalian orders to harbor and share human-associated viruses. Counter to conventional wisdom, carnivores exhibited significantly higher propensities to carry human-associated viruses, with bats ranked lower in this metric of zoonotic risk. Network analyses of viral sharing further revealed higher cross-order virus sharing among specific mammalian orders (e.g., carnivores and artiodactyls). Phylogenetic comparative analyses revealed that host life-history traits (e.g., longevity) and anthropogenic factors (e.g., urban land use) were key ecological drivers of both virus richness and transmission centrality. Our study provides a data-driven framework that challenges prevailing narratives of zoonotic risk and offers a refined strategy for prioritizing surveillance and mitigating emerging zoonotic threats.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Metagenomics",
-      "Humans",
-      "Mammals",
-      "Phylogeny",
-      "Zoonoses",
-      "Virome",
-      "Viruses",
-      "Chiroptera"
-    ],
-    "keywords": [
-      "cross-species transmission",
-      "mammals",
-      "viral ecology",
-      "virome",
-      "zoonotic potential"
-    ],
-    "summary_zh": "分析4,685个哺乳动物病毒宏基因组数据集，揭示病毒宿主与跨物种传播异质性及人畜共患风险驱动因素。",
-    "innovation": "基于4,685个病毒宏基因组数据集的综合库分析，减少对单一病毒类群的采样偏倚 | 发现食肉目携带人相关病毒倾向更高、蝙蝠较低，挑战传统人畜共患风险叙事 | 结合网络与系统发育比较分析揭示宿主生活史和人为因素是病毒丰富度与传播中心性的驱动因素",
-    "limitation": "未描述",
-    "study_object": "哺乳动物（14目296种）+ 病毒宏基因组数据集 + 病毒宏基因组学",
-    "disease": "无",
-    "sample_size": "4,685个宏基因组数据集（296种、14目）",
     "ai_done": true,
     "fetch_date": "2026-11-03"
   }

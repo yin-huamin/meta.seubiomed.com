@@ -152,37 +152,6 @@
     "fetch_date": "2026-08-26"
   },
   {
-    "pmid": "42644768",
-    "title": "From holobionts to habitats: opportunities and limitations of microbiome-assisted restoration strategies of marine ecosystem engineers.",
-    "doi": null,
-    "journal": "FEMS microbiology reviews",
-    "issn": "1574-6976",
-    "pub_date": "2026-08-26",
-    "authors": "Peeters Sofie; Stévenne Chloé; van Duijnhoven H Julia; Rola Marcellina; Quiroga-Pérez Manuela et al.",
-    "abstract": "Marine ecosystem engineers such as corals, seaweeds, and seagrasses are foundational to coastal ecosystems, yet are declining at unprecedented rates due to accelerating climate and anthropogenic pressures. Microbiome-based approaches have attracted attention as a promising avenue to enhance the resilience and recovery of these organisms. Over the past decade, diverse marine probiotic microbes have been isolated and shown to positively influence key host life functions, including growth, development, reproduction, responses to environmental stressors, and pathogen defence. However, current research remains confined to laboratory settings, with few practical field applications tested or utilised, likely driven by practical and technological challenges and lacking communication between science and policy. To help close this gap, we propose a set of risk and success assessment criteria for microbiome-assisted restoration. This framework is built around four pillars: (1) ensuring environmental compatibility of candidate probiotics, (2) establishing scientific validation for their mechanisms of action, (3) securing legal clarity before application, and (4) implementing mandatory in situ monitoring to evaluate ecological outcomes. By integrating these pillars into a cycle of risk assessment, monitoring, and adaptive management, microbiome-assisted restoration could progress from an experimental concept to a practical application complementing existing conservation tools, strengthening the resilience of these ecosystems.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Climate Change",
-      "Conservation",
-      "Holobiont",
-      "Policy",
-      "Probiotics",
-      "Restoration"
-    ],
-    "summary_zh": "综述微生物组辅助恢复海洋生态系统工程师的策略，提出含四支柱的风险与成功评估框架，推动从实验走向实践。",
-    "innovation": "提出微生物组辅助恢复的风险与成功评估框架，包含环境兼容性、科学验证、法律明确性和现场监测四个支柱 | 将风险监测与适应性管理整合成循环机制",
-    "limitation": "当前研究局限于实验室，少有现场应用测试，且科学与政策间缺乏沟通",
-    "study_object": "海洋生态系统工程师（珊瑚、海草、海藻）的微生物组样本",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-26"
-  },
-  {
     "pmid": "42644416",
     "title": "Nationwide cohort study reveals low bifidobacteria and distinct microbiota composition and function in Swedish newborns.",
     "doi": null,

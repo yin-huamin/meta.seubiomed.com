@@ -63,29 +63,5 @@
     "sample_size": "321例（宏基因组）；312例（代谢组与蛋白质组）",
     "ai_done": true,
     "fetch_date": "2026-07-04"
-  },
-  {
-    "pmid": "42399687",
-    "title": "Fermentative iron reduction by a psychrotolerant Clostridium-dominant consortium enriched from Antarctic penguin-impacted soils.",
-    "doi": null,
-    "journal": "Communications biology",
-    "issn": "2399-3642",
-    "pub_date": "2026-07-04",
-    "authors": "Wang Xin; Wang Hongyan; Wang Xuhao; Liao Hengyi; Yang Jiaojiao et al.",
-    "abstract": "Microbial iron cycling regulates nutrient availability and redox balance in global ecosystems, yet its pathways remain underexplored in ice-free Antarctic terrestrial ecosystems. This study reports the enrichment of a psychrotolerant microbial consortium from penguin-impacted soils on Beaufort Island, Antarctica, capable of reducing Fe(III) to Fe(II) at 4 °C via an anaerobic (likely fermentative) iron-reducing pathway. The consortium was dominated by Clostridium sensu stricto 13 and completely reduced 230 mg L-1 Fe(III) citrate within three months and drove the biogenic formation of magnetite (Fe3O4). Metagenomic binning yielded four high-quality Clostridium genomes harboring multiple hydrogenases and cold-shock proteins (csp), revealing genomic strategies for energy conservation and psychrotolerance. Hydrogen production was strongly suppressed in the presence of Fe(III) citrate, indicating an intimate coupling of fermentation-derived electron flow to Fe(III) reduction. Our findings reveal a previously unrecognized low-temperature iron reduction mechanism and highlight the ecological significance of anaerobic (likely fermentative) iron reducers in ornithogenic soils-microhabitats enriched in organic matter and metals by penguin guano. This work expands the known diversity of Fe(III)-reducing microorganisms, demonstrates their role in magnetite biomineralization under extreme conditions, and provides insights into microbial modulation of iron speciation in Antarctic ornithogenic soils.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "从南极企鹅影响土壤富集耐冷梭菌联合体，发现其通过发酵铁还原将Fe(III)还原为Fe(II)并形成磁铁矿，揭示低温铁还原新机制。",
-    "innovation": "发现低温铁还原新机制 | 扩展Fe(III)还原微生物多样性 | 证明极端条件下磁铁矿生物矿化作用",
-    "limitation": "未描述",
-    "study_object": "南极企鹅影响土壤微生物联合体（富集培养+宏基因组）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-04"
   }
 ]

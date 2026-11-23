@@ -145,37 +145,6 @@
     "fetch_date": "2026-11-06"
   },
   {
-    "pmid": "42992937",
-    "title": "Physiological, behavioral, and genetic factors that shape interactions in the plant growth-promoting maize rhizosphere synthetic community.",
-    "doi": null,
-    "journal": "mSystems",
-    "issn": "2379-5077",
-    "pub_date": "2026-11-06",
-    "authors": "Paulsen Ashley A; Roghair Stroud Marissa N; Halverson Larry J",
-    "abstract": "Profiling microbiomes is an important way to understand the function and composition of communities in the wild, but natural microbiomes are often highly complex and often unamenable to experimentation to reveal cause-and-effect relationships. By using a small group of cultivable strains to represent those found in the wild, synthetic communities are one solution to this problem. Here we describe the maize rhizosphere synthetic community (MARSc), a genome-enabled 31-member bacterial community representative of the diversity found on the roots of maize grown in Iowa soils. This community is built around Pseudomonas putida KT2440, a model maize rhizosphere colonist and synthetic biology chassis. We characterized microbe-microbe interactions and biofilm formation of MARSc members in a variety of environmental contexts, finding that both behaviors are broadly controlled by nutrient levels. Genomic analysis and microbiome profiling of these organisms revealed that annotated biofilm genes (such as surface attachment and exopolysaccharide production) were significantly correlated with rhizosphere abundance, but neither trait correlated to in vitro biofilm formation. In vitro interaction assay findings were surprisingly consistent with co-correlations of rhizosphere abundance among MARSc members on roots. Finally, we found that when applied to the roots, MARSc can increase maize biomass (dry weight) by up to 40%-50% under varying nitrogen fertilization levels. Altogether, MARSc is a useful tool for identifying some of the factors influencing rhizosphere microbiome assembly and will be a strong foundation for further work in this area.IMPORTANCEThe microbiome surrounding the roots of plants can play an integral role in plant health and growth, and it is composed of thousands of species of microbes that are specific to the plant and environment it is grown in. However, due to this complexity, little is known about the means by which microbiomes form. In this study, we developed the maize rhizosphere synthetic community (MARSc) to gain a better understanding of the formation and function of microbiomes on the roots of plants. This consortium consists of 30 bacterial isolates plus Pseudomonas putida KT2440, a model maize root colonist. In this study, we investigated the interactions between these organisms, their genomes, cultural characteristics, and growth on the roots of maize. We show that MARSc increases maize growth under low nitrogen fertilizer, suggesting it will be a useful tool for identifying the mechanisms behind microbiome formation and plant growth promotion.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Pseudomonas putida",
-      "biofilms",
-      "microbe-microbe interactions",
-      "plant growth promotion",
-      "rhizosphere",
-      "synthetic community"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-06"
-  },
-  {
     "pmid": "42992548",
     "title": "Metabolic reprogramming of myeloid‑derived suppressor cells in colorectal cancer: Mechanistic insights and immunometabolic targeted rehabilitation (Review).",
     "doi": null,

@@ -30,38 +30,6 @@
     "fetch_date": "2026-06-03"
   },
   {
-    "pmid": "42231509",
-    "title": "The Iceman's microbiome: unveiling millennia of microbial diversity and continuity.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-06-03",
-    "authors": "Sarhan Mohamed S; Samadelli Marco; Zink Albert; Maixner Frank",
-    "abstract": "BACKGROUND: The Iceman mummy, a 5300-year-old natural alpine glacier mummy, provides a unique opportunity to study ancient microbial ecosystems. However, disentangling the mummy's endogenous microbiome from modern environmental contaminants introduced during three decades of conservation remains a significant challenge.\nRESULTS: By integrating culture-dependent and culture-independent approaches, including amplicon sequencing, shotgun metagenomics and de novo metagenomic assembly, as well as isolate-level genomics, we performed a comprehensive characterization of the Iceman's microbial landscape. We identified three distinct microbial drivers: endogenous post-mortem succession, ancient glacier-derived relicts, and modern anthropogenic introduction. Metagenomic analysis of internal tissues revealed anaerobic bacteria, including ancient gut taxa, including such as Romboutsia hominis, Clostridium moniliforme, Eubacterium sp., Ruminococcus bromii, Kineothrix sp., Treponema succinifaciens, Enterousia sp., and Huintestinicola butyrica. These taxa, characterized by ancient DNA (aDNA) damage profiles (C to T deamination frequency), show high similarity to ancestral, non-Westernized human gut communities, providing a rare baseline for Copper Age intestinal ecosystems. Conversely, we identified a shift in the external mycobiome, marked by the recent proliferation of psychrophilic yeasts, including Glaciozyma watsonii, Mrakia robertii, Phenoliferia glacialis, and Goffeauzyma sp. While internal bacterial communities remained stable, these external yeast populations showed increased relative abundance and reduced DNA damage signatures between 2010 and 2019, indicating active, modern colonization. Furthermore, strain-level analysis of Pseudomonas sp. 5C2 confirmed that specific environmental strains have successfully colonized the mummy, persisting across multiple tissue sites with minimal genetic divergence.\nCONCLUSIONS: Our study demonstrates that the Iceman is not a static relic but a dynamic biological interface. The coexistence of ancient, endogenous gut microbes and modern, psychrophilic colonizers highlights the potential for ongoing microbial activity even at sub-zero temperatures. These findings underscore that maintaining strict environmental parameters is essential to prevent these specialized microbial communities from transitioning from latent persistence to active microorganisms. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Ancient DNA",
-      "Ancient microbiome",
-      "Frozen mummy conservation",
-      "Iceman",
-      "Mummies",
-      "Psychrophilic yeasts",
-      "Ötzi"
-    ],
-    "summary_zh": "整合多组学方法研究5300年冰人木乃伊微生物组，发现古代内源性肠道微生物与现代嗜冷定植者共存，表明冰人为动态生物界面。",
-    "innovation": "整合培养依赖与非依赖方法、扩增子测序、宏基因组及分离株基因组学，区分内源微生物与现代污染物 | 发现古代肠道菌群与未西方化人群高度相似，提供铜器时代肠道生态系统基线 | 揭示外部真菌组随时间变化，显示现代嗜冷酵母活跃定植",
-    "limitation": "未描述",
-    "study_object": "冰人木乃伊 - 内部组织与外部样本 - 扩增子测序、鸟枪法宏基因组、从头组装、分离株基因组学",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-03"
-  },
-  {
     "pmid": "42229914",
     "title": "Pneumococcal Rib Osteomyelitis With Concurrent Lung and Chest Wall Abscess in an Infant.",
     "doi": null,

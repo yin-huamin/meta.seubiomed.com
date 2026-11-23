@@ -1,39 +1,5 @@
 [
   {
-    "pmid": "42747345",
-    "title": "Cross-domain cooperation drives nutrient acquisition and metabolism in the bark beetle holobiont.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-09-16",
-    "authors": "Saati-Santamaría Zaki; Veselská Tereza; Švec Karel; Kostovčík Martin; Peral-Aranega Ezequiel et al.",
-    "abstract": "Microbial symbiosis underpins host adaptation, yet mechanisms of metabolic integration in holobionts remain unclear. Using metatranscriptomics, genomics, and metabolic assays, we investigated gut microbiome interactions in the European spruce bark beetle (Ips typographus). We observed metabolic complementarity among symbionts and host, forming cross-domain networks that support nutrient acquisition. Nitrogen recycling revealed strong interdependence: no single partner possessed a complete uric acid degradation pathway, but combined evidence supports a distributed pathway spanning beetle, Bacteria, and fungi. Additionally, bacterial nitrate reduction to ammonia indicates a potential nitrogen influx, making otherwise inaccessible inorganic nitrogen available to the host. Shaped by microbial interactions, symbionts also likely supply specific amino acids, while vitamin metabolism showed cross-domain co-metabolism, with Bacteria as main producers of B vitamins, while host and fungi modulated interconversion. Carbohydrate degradation was highly partitioned; bacteria target xylan and pectin, while fungi contribute to glucan breakdown. Crucially, our data provide indirect evidence that the beetle may contribute to complete cellulose degradation, highlighting an underappreciated host role in lignocellulose processing. In terms of enzymatic functional diversity, the bacteriome emerged as the most important microbiome component-an observation that contrasts with the traditional focus on fungi and underscores the need to consider bacterial contributions in insect symbioses. Despite life-stage variation, core metabolic functions remained stable. Overall, metabolic interdependence, rather than microbial composition alone, structures holobiont function. These results highlight functional redundancy and ecological resilience, emphasizing the importance of microbial cooperation and host-microbe metabolic evolution.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Bark beetle",
-      "Co-metabolism",
-      "Cross-domain RNA-Seq",
-      "Holobiont",
-      "Host–microbe interactions",
-      "Metabolic complementarity",
-      "Metatranscriptome",
-      "Microbial cooperation",
-      "Symbiosis"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-16"
-  },
-  {
     "pmid": "42154957",
     "title": "Immune checkpoint inhibitor myocarditis: a metagenomic investigation of infectious pathogens.",
     "doi": null,
@@ -58,37 +24,6 @@
     "study_object": "未描述；技术类型：宏基因组",
     "disease": "免疫检查点抑制剂相关心肌炎",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-16"
-  },
-  {
-    "pmid": "42745690",
-    "title": "Drought Stress Mediated Changes in Food Crops: Mechanisms and Remediation Strategies.",
-    "doi": null,
-    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-    "issn": "2198-3844",
-    "pub_date": "2026-09-16",
-    "authors": "Duan Xiaoyi; Wang Litao; Koski Tuuli-Marjaana; An Lizhe; Efferth Thomas et al.",
-    "abstract": "Climate change has intensified drought frequency and severity, threatening global food security, particularly for staple crops like maize, wheat, and soybean. As central secondary metabolites, flavonoids orchestrate cellular redox homeostasis, stress signal transduction, and metabolic plasticity during plant drought responses. Previous reviews are confined to isolated molecular cascades and separate treatment of flavonoid metabolism, rhizosphere microecology, and agronomic mitigation strategies, failing to establish an integrated multi-scale regulatory framework. To fill this fragmented gap, this review integrates advances in plant physiology, microbial ecology, and nanobiotechnology to construct a cross-scale framework of flavonoid-mediated drought resistance in major food crops. We systematically summarize species-specific flavonoid regulatory networks and metabolic reprogramming triggered by drought-induced oxidative stress, dissect rhizosphere microbiome effects on flavonoid biosynthesis and drought signaling, and elaborate novel mechanisms whereby nanomaterials reshape flavonoid metabolism and boost drought tolerance via tuning ROS homeostasis. Furthermore, this work integrates soil amendment and precision irrigation to decipher synergistic drought-resistance crosstalk among agronomic practices, crop metabolism, and root-associated microbiota. Collectively, this review unifies molecular, microbial, technological, and agronomic perspectives to establish a multi-scale, interdisciplinary framework for crop drought adaptation. It delivers fundamental theoretical support for climate-resilient agriculture and outlines priority research avenues to safeguard global food security.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "climate‐resilient agriculture",
-      "drought stress",
-      "flavonoids",
-      "nanomaterials",
-      "rhizosphere microbiome"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-09-16"
   },

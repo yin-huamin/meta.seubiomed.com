@@ -12,6 +12,7 @@ import logging
 import argparse
 import urllib.request
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # ──────────────────────────── 配置区 ──────────────────────────────
@@ -26,7 +27,8 @@ if dotenv_path.exists():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
-                os.environ[k.strip()] = v.strip()
+                # 不覆盖显式传入的环境变量（便于临时切换模型/参数）
+                os.environ.setdefault(k.strip(), v.strip())
 
 # ── LLM 配置（优先读取环境变量）──
 # 支持 OpenAI 兼容接口（如 OpenAI / DeepSeek / 本地 Ollama 等）
@@ -34,7 +36,13 @@ LLM_API_URL  = os.environ.get("LLM_API_URL",  "https://api.openai.com/v1/chat/co
 LLM_API_KEY  = os.environ.get("LLM_API_KEY",  "")
 LLM_MODEL    = os.environ.get("LLM_MODEL",    "gpt-4o-mini")
 LLM_TIMEOUT  = int(os.environ.get("LLM_TIMEOUT", "60"))
+# 推理模型会先消耗 reasoning tokens，预算过小会导致 content 为空
+LLM_MAX_TOKENS = int(os.environ.get("LLM_MAX_TOKENS", "4096"))
 BATCH_DELAY  = float(os.environ.get("LLM_DELAY", "1.5"))   # 每篇之间的间隔（秒）
+
+AI_FIELDS  = ["summary_zh", "innovation", "limitation",
+              "study_object", "disease", "sample_size"]
+PENDING_MARK = "（待生成）"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -73,10 +81,9 @@ SYSTEM_PROMPT = """你是宏基因组/微生物组论文信息抽取助手。
 
 
 def call_llm(title: str, abstract: str) -> dict:
-    """调用 LLM，返回解析后的字段 dict；失败时返回占位 dict"""
+    """调用 LLM，返回解析后的字段 dict；失败时抛出异常，由调用方决定是否重试。"""
     if not LLM_API_KEY:
-        log.warning("未配置 LLM_API_KEY，跳过 AI 摘要")
-        return _empty_ai()
+        raise RuntimeError("未配置 LLM_API_KEY")
 
     user_msg = f"Title: {title}\n\nAbstract: {abstract or '（无摘要）'}"
 
@@ -87,7 +94,7 @@ def call_llm(title: str, abstract: str) -> dict:
             {"role": "user",   "content": user_msg},
         ],
         "temperature": 0.2,
-        "max_tokens":  1024,
+        "max_tokens":  LLM_MAX_TOKENS,
     }).encode("utf-8")
 
     req = urllib.request.Request(
@@ -100,72 +107,119 @@ def call_llm(title: str, abstract: str) -> dict:
         method="POST",
     )
 
-    try:
-        with urllib.request.urlopen(req, timeout=LLM_TIMEOUT) as resp:
-            body = json.loads(resp.read())
-        content = body["choices"][0]["message"]["content"].strip()
-        # 提取 JSON（有时模型会在前后加 ```json ... ```）
-        if "```" in content:
-            content = content.split("```")[1]
-            if content.startswith("json"):
-                content = content[4:]
-        result = json.loads(content)
-        return result
-    except json.JSONDecodeError as e:
-        log.warning(f"LLM 返回 JSON 解析失败: {e}")
-        return _empty_ai()
-    except Exception as e:
-        log.warning(f"LLM 调用失败: {e}")
-        return _empty_ai()
+    with urllib.request.urlopen(req, timeout=LLM_TIMEOUT) as resp:
+        body = json.loads(resp.read())
+
+    message = body["choices"][0]["message"]
+    content = (message.get("content") or "").strip()
+    if not content:
+        reasoning = message.get("reasoning_content") or ""
+        raise ValueError(
+            f"LLM 返回空内容（reasoning {len(reasoning)} 字符，"
+            f"可能 max_tokens={LLM_MAX_TOKENS} 不足）"
+        )
+
+    # 提取 JSON（有时模型会在前后加 ```json ... ``` 或说明文字）
+    if "```" in content:
+        content = content.split("```")[1]
+        if content.startswith("json"):
+            content = content[4:]
+    start, end = content.find("{"), content.rfind("}")
+    if start != -1 and end > start:
+        content = content[start:end + 1]
+
+    # strict=False：容忍字符串内未转义的控制字符（模型偶尔产生换行）
+    result = json.loads(content, strict=False)
+    missing = [f for f in AI_FIELDS if not str(result.get(f) or "").strip()]
+    if missing:
+        raise ValueError(f"LLM 返回缺少字段: {', '.join(missing)}")
+    return {f: str(result[f]).strip() for f in AI_FIELDS}
 
 
 def _empty_ai() -> dict:
-    return {
-        "summary_zh":   "（待生成）",
-        "innovation":   "（待生成）",
-        "limitation":   "（待生成）",
-        "study_object": "（待生成）",
-        "disease":      "（待生成）",
-        "sample_size":  "（待生成）",
-    }
+    return {f: PENDING_MARK for f in AI_FIELDS}
+
+
+def _is_annotated(rec: dict) -> bool:
+    """AI 字段全部非空且非占位符，才算真正注释完成。
+
+    历史上调用失败也会写入 ai_done=True + 占位符，因此不能只看该标记。
+    """
+    if not rec.get("ai_done"):
+        return False
+    return all(
+        str(rec.get(f) or "").strip() and PENDING_MARK not in str(rec.get(f))
+        for f in AI_FIELDS
+    )
 
 
 # ──────────────────────────── 主流程 ──────────────────────────────
 
-def process_file(json_path: Path, force: bool = False):
-    """处理单个 daily JSON 文件，每篇处理后立即保存"""
+def process_file(json_path: Path, force: bool = False, workers: int = 1):
+    """处理单个 daily JSON 文件，每批处理后立即保存"""
     with open(json_path, encoding="utf-8") as fh:
         records = json.load(fh)
 
-    updated = False
-    for i, rec in enumerate(records):
-        if rec.get("ai_done") and not force:
-            continue
-
-        log.info(f"  [{i+1}/{len(records)}] PMID {rec.get('pmid','?')} | {rec.get('title','')[:60]}")
-        try:
-            ai_result = call_llm(rec.get("title", ""), rec.get("abstract", ""))
-            rec.update(ai_result)
-            rec["ai_done"] = True
-        except Exception as e:
-            log.error(f"  处理 PMID {rec.get('pmid','?')} 出错: {e}")
-            rec.update(_empty_ai())
-            rec["ai_done"] = True
-        updated = True
-
-        # 每篇处理后立即保存，避免中途崩溃丢失数据
+    def save():
         with open(json_path, "w", encoding="utf-8") as fh:
             json.dump(records, fh, ensure_ascii=False, indent=2)
 
-        time.sleep(BATCH_DELAY)
-
-    if updated:
-        log.info(f"  ✓ 已更新 {json_path.name}（{len(records)} 篇）")
-    else:
+    pending = [
+        i for i, rec in enumerate(records)
+        if (force or not _is_annotated(rec))
+        and rec.get("scope_decision") != "exclude"
+    ]
+    if not pending:
         log.info(f"  ○ {json_path.name} 无需更新")
+        return
+
+    def annotate(i: int):
+        rec = records[i]
+        log.info(f"  [{i+1}/{len(records)}] PMID {rec.get('pmid','?')} | {rec.get('title','')[:60]}")
+        return i, call_llm(rec.get("title", ""), rec.get("abstract", ""))
+
+    def apply(i: int, ai_result: dict):
+        records[i].update(ai_result)
+        records[i]["ai_done"] = True
+
+    def apply_error(i: int, exc: Exception):
+        # 失败时保持 ai_done=False，下次运行会继续重试
+        log.error(f"  处理 PMID {records[i].get('pmid','?')} 出错: {exc}")
+        records[i].update(_empty_ai())
+        records[i]["ai_done"] = False
+
+    if workers <= 1:
+        for i in pending:
+            try:
+                _, ai_result = annotate(i)
+                apply(i, ai_result)
+            except Exception as exc:
+                apply_error(i, exc)
+            save()
+            time.sleep(BATCH_DELAY)
+    else:
+        log.info(f"  并发 {workers} 线程处理 {len(pending)} 篇待注释记录")
+        done = 0
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(annotate, i): i for i in pending}
+            for fut in as_completed(futures):
+                i = futures[fut]
+                try:
+                    _, ai_result = fut.result()
+                    apply(i, ai_result)
+                except Exception as exc:
+                    apply_error(i, exc)
+                done += 1
+                if done % 20 == 0 or done == len(pending):
+                    save()
+                    log.info(f"  进度 {done}/{len(pending)}")
+
+    save()
+    log.info(f"  ✓ 已更新 {json_path.name}（共 {len(records)} 篇，本次处理 {len(pending)} 篇）")
 
 
-def run(target_date: str = None, all_files: bool = False, force: bool = False):
+def run(target_date: str = None, all_files: bool = False,
+        force: bool = False, workers: int = 1):
     files = []
     if all_files:
         files = sorted(DAILY_DIR.glob("*.json"))
@@ -184,7 +238,7 @@ def run(target_date: str = None, all_files: bool = False, force: bool = False):
     log.info(f"共需处理 {len(files)} 个文件")
     for f in files:
         log.info(f"处理: {f.name}")
-        process_file(f, force=force)
+        process_file(f, force=force, workers=workers)
 
 
 if __name__ == "__main__":
@@ -192,5 +246,8 @@ if __name__ == "__main__":
     parser.add_argument("--date",  default=None, help="目标日期 YYYY-MM-DD")
     parser.add_argument("--all",   action="store_true", help="处理所有 daily JSON 文件")
     parser.add_argument("--force", action="store_true", help="强制重新生成已有 AI 摘要")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="并发线程数（默认 1；批量修复建议 6-8）")
     args = parser.parse_args()
-    run(target_date=args.date, all_files=args.all, force=args.force)
+    run(target_date=args.date, all_files=args.all, force=args.force,
+        workers=args.workers)

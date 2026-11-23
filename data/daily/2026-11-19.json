@@ -1,37 +1,5 @@
 [
   {
-    "pmid": "43055730",
-    "title": "Plant pathogenic continuum in the microbiome era.",
-    "doi": null,
-    "journal": "FEMS microbiology reviews",
-    "issn": "1574-6976",
-    "pub_date": "2026-11-19",
-    "authors": "Rosić Iva; Berić Tanja; Stanković Slaviša; Nikolić Ivan",
-    "abstract": "Plant pathology has traditionally relied on a binary distinction between pathogens and non-pathogens, or between harmful and beneficial microorganisms. However, this distinction is becoming increasingly difficult to maintain in the microbiome era. For many plant-associated microorganisms, pathogenicity is not a fixed property but varies along a gradient depending on host physiology, microbial strain, environmental conditions, resident microbiota, and time. This review discusses a plant pathogenicity continuum as a framework for interpreting this fluidity. Within this continuum, we discuss four interconnected positions: true or near-deterministic pathogens, context-dependent pathogens, opportunistic pathogens, and pathobiome- or dysbiosis-associated disease states. These positions should not be treated as rigid categories, but as reference points that help compare how strongly disease depends on the host, environment and microbiome interactions. We also discuss the strain-level problem in plant pathology, because species or pathovar-level detection often does not capture real differences in virulence and host range. Finally, we consider the diagnostic implications of this continuum, especially where pathogen detection alone is not sufficient. This continuum-based view may help plant pathology move from naming pathogens toward interpreting disease states.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Plant pathogens",
-      "dysbiosis",
-      "microbiome",
-      "obligate pathogens",
-      "opportunistic pathogens",
-      "pathobiome",
-      "pathogenic continuum"
-    ],
-    "summary_zh": "本文提出植物致病性连续谱框架，整合病原类型、菌株差异与诊断意义，主张从命名病原转向解释病害状态。",
-    "innovation": "提出植物致病性连续谱框架并划分四类互连位置 | 强调菌株水平差异对毒力和宿主范围检测的限制 | 讨论连续谱对病原诊断的启示",
-    "limitation": "未描述",
-    "study_object": "植物宿主与植物相关微生物组（综述，未涉及具体样本或技术）",
-    "disease": "植物病害状态（包括机会性病原与菌群失调相关病害）",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-19"
-  },
-  {
     "pmid": "43055220",
     "title": "Fecal microbiota transplantation in cancer immunotherapy: targeting the Gut-Tumor Axis.",
     "doi": null,

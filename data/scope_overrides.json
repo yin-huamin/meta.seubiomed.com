@@ -1,0 +1,284 @@
+{
+  "pmid:35284467": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "人类代谢综合征/动脉粥样硬化的猪模型",
+    "date": "2026-11-23"
+  },
+  "pmid:41137517": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "人类艰难梭菌感染的猪模型",
+    "date": "2026-11-23"
+  },
+  "pmid:37777765": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "猪模型研究结肠屏障损伤，医学机制",
+    "date": "2026-11-23"
+  },
+  "pmid:37169786": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "婴儿肠道宏基因组与健康",
+    "date": "2026-11-23"
+  },
+  "pmid:42535896": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "孕妇羊水感染，人类临床",
+    "date": "2026-11-23"
+  },
+  "pmid:42507910": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "植物性饮食与人体代谢",
+    "date": "2026-11-23"
+  },
+  "pmid:41966488": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "植物外泌体用于癌症治疗",
+    "date": "2026-11-23"
+  },
+  "pmid:42870741": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "植物化学物与结直肠癌治疗",
+    "date": "2026-11-23"
+  },
+  "pmid:42680295": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "替代蛋白对人体肠道微生物与健康综述",
+    "date": "2026-11-23"
+  },
+  "pmid:26897108": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "孕妇羊水寨卡病毒，人类病例",
+    "date": "2026-11-23"
+  },
+  "pmid:40174641": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "深海病毒组与人类致病病毒进化",
+    "date": "2026-11-23"
+  },
+  "pmid:35535499": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "线虫模型研究抗癌药代谢",
+    "date": "2026-11-23"
+  },
+  "pmid:38799799": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "斑马鱼肠道损伤模型",
+    "date": "2026-11-23"
+  },
+  "pmid:32765533": {
+    "decision": "keep",
+    "category": "medical",
+    "reason": "斑马鱼肠道炎症模型",
+    "date": "2026-11-23"
+  },
+  "pmid:41725587": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "仔猪肠道损伤，兽医/畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:42013859": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "线虫神经行为基础研究，非医学",
+    "date": "2026-11-23"
+  },
+  "pmid:42086594": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "肉鸡肺损伤，兽医/畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:42520872": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "斑马鱼环境毒理",
+    "date": "2026-11-23"
+  },
+  "pmid:42576226": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "仔猪口腔微生物，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:42142727": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "斑马鱼微塑料环境毒理",
+    "date": "2026-11-23"
+  },
+  "pmid:42457696": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "公猪精液质量，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:42414278": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "奶山羊乳腺炎，兽医",
+    "date": "2026-11-23"
+  },
+  "pmid:42237383": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "蛋鸡耐药组，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:42108513": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "肉鸡胸肌产量，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:41428602": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "黑水虻/鸡粪，昆虫与畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:40751224": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "母羊生育力，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:39968349": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "果蝇肠道菌群，昆虫",
+    "date": "2026-11-23"
+  },
+  "pmid:38365257": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "新生牛犊，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:38167330": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "草鱼肠道，水产",
+    "date": "2026-11-23"
+  },
+  "pmid:38115159": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "母猪发情，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:38008755": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "斑马鱼纳米塑料毒理",
+    "date": "2026-11-23"
+  },
+  "pmid:37993724": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "苏铁食性昆虫，昆虫生态",
+    "date": "2026-11-23"
+  },
+  "pmid:37957747": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "仔猪早期菌群，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:37496083": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "鸡抗生素与禽流感，兽医",
+    "date": "2026-11-23"
+  },
+  "pmid:37049457": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "新生仔猪腹泻，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:36819695": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "后备母猪营养，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:36741405": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "怀孕母猪死胎，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:36624507": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "奶牛指皮炎，兽医",
+    "date": "2026-11-23"
+  },
+  "pmid:36461096": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "仔猪益生菌，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:35782941": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "断奶仔猪钙源，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:34824354": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "果蝇病毒感染，昆虫",
+    "date": "2026-11-23"
+  },
+  "pmid:33369229": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "鼠兔/牦牛肠道菌群，野生动物",
+    "date": "2026-11-23"
+  },
+  "pmid:30551574": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "鸡铁强化豆类，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:30069307": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "仔猪肠道菌群，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:26633470": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "肉鸡锌缺乏，畜牧",
+    "date": "2026-11-23"
+  },
+  "pmid:26172158": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "果蝇病毒组，昆虫",
+    "date": "2026-11-23"
+  },
+  "pmid:25575311": {
+    "decision": "exclude",
+    "category": "non_medical",
+    "reason": "孔雀鱼肠道演化，鱼类生态",
+    "date": "2026-11-23"
+  }
+}

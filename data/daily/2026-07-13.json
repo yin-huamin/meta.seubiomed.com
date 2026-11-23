@@ -64,40 +64,6 @@
     "fetch_date": "2026-07-13"
   },
   {
-    "pmid": "42439572",
-    "title": "LD-transpeptidation in bacterial cell walls: biochemical principles and functional diversity.",
-    "doi": null,
-    "journal": "Microbiology and molecular biology reviews : MMBR",
-    "issn": "1098-5557",
-    "pub_date": "2026-07-13",
-    "authors": "Walenkiewicz Barbara; Alvarez Laura; Cava Felipe",
-    "abstract": "SUMMARYPeptidoglycan (PG) is a dynamic, load-bearing polymer whose crosslinking chemistry governs envelope mechanics, growth modes, and stress tolerance. For decades, PG crosslinking was viewed primarily through the lens of penicillin-binding proteins (PBPs). However, accumulating evidence over the past 2 decades has established LD-transpeptidases (LDTs) as important contributors to PG remodeling. Here, we organize the expanding LDT field into macro-domains bridging biochemistry, evolution, and ecology. We initially describe the reaction mechanisms, structural diversification, and convergent solutions and then explore the evolution across species. We highlight non-canonical LD-crosslinking chemistries, including L-Ala-meso-DAP (1-3) linkages, that broaden the design space of the sacculus. We then map functional repertoires across lineages-from reinforcement during envelope stress to outer membrane tethering, predation, specialized secretion, dormancy, and biofilms. In pathogens where LD-crosslinking is dominant or essential, carbapenems and penems remain particularly effective inhibitors of LDTs, yet family-wide diversity calls for structure-guided selectivity and ecological awareness. We also chart underexplored connections to microbiome ecology and propose LDT-derived biomarkers that report growth modes and dormancy. We integrate dispersed evidence into a complete landscape in which two-component systems and environmental cues coordinate LD pathways. Building on these threads, we propose a unifying model of LDTs as adaptive architects of PG whose acyl-enzyme intermediate and modular substrate gating endow reversibility, partner choice, and context-dependent outcomes-reinforcement, remodeling, anchoring, or controlled self-breach. Finally, we outline methods that enabled the discovery of LDTs and explore future directions. Together, these perspectives reframe LDTs from auxiliary enzymes to central designers of envelope architecture and bacterial fitness.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "LD-transpeptidase",
-      "LD-transpeptidation",
-      "VanW",
-      "YkuD",
-      "cell wall",
-      "crosslink",
-      "outer membrane tethering",
-      "peptidoglycan"
-    ],
-    "summary_zh": "综述LD-转肽酶在细菌细胞壁交联中的生化机制、进化多样性及生态功能，提出其作为适应性的肽聚糖建筑师模型。",
-    "innovation": "提出LDTs作为适应性肽聚糖建筑师的统一模型 | 描述非经典LD交联化学拓宽细胞壁设计空间 | 提出LDT来源的生物标志物用于监测生长模式和休眠",
-    "limitation": "未描述",
-    "study_object": "细菌细胞壁，LD-转肽酶，综述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-13"
-  },
-  {
     "pmid": "42442659",
     "title": "Mediterranean diet: definitions, health effects and metabolic pathways - evidence and future directions.",
     "doi": null,

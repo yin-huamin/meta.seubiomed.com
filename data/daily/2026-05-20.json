@@ -30,37 +30,6 @@
     "fetch_date": "2026-05-20"
   },
   {
-    "pmid": "42157342",
-    "title": "Microbiota transplantation and multi-omics profiling integration unveil the mechanism of Alistipes communis-driven abdominal fat deposition in chickens.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-05-20",
-    "authors": "Jing Yang; Liu Shuai; Leng Li; He Jiarui; Wang Tianqi et al.",
-    "abstract": "BACKGROUND: Emerging evidence highlights strong correlations between the cecal microbiome and abdominal fat deposition (AFD) in chickens. However, the specific microbial species driving this process remain unclear. This study aims to identify the key microbe and elucidate its underlying mechanism in regulating chicken AFD.\nRESULTS: First, cecal microbiota transplantation confirmed a causal relationship between the cecal microbiota and AFD. Subsequently, metagenomic and metatranscriptomic integrations identified Alistipes communis as a key microbe implicated in AFD. Finally, in vivo gavage integrated with multi-omics revealed that A. communis enhances AFD by disrupting host tryptophan and histidine metabolism. This was evidenced by the elevated concentrations of amino acid metabolism-related metabolites, including L-phosphoarginine and spermine in the cecum.\nCONCLUSIONS: This study provides direct evidence that the cecal microbiome serves as a key driver in chicken AFD and identifies A. communis as a critical AFD regulator, offering valuable insights into the gut microbiome's role in host obesity.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Alistipes communis",
-      "Abdominal fat deposition",
-      "Cecal microbiota transplantation",
-      "Chicken",
-      "Multi-omics",
-      "Tryptophan and histidine metabolism"
-    ],
-    "summary_zh": "通过微生物移植和多组学整合，鉴定Alistipes communis是鸡腹部脂肪沉积的关键微生物，机制为干扰色氨酸和组氨酸代谢。",
-    "innovation": "通过微生物移植证实因果关系 | 整合宏基因组和宏转录组鉴定关键物种 | 结合体内灌胃和多组学揭示代谢机制",
-    "limitation": "未描述",
-    "study_object": "鸡盲肠内容物 + 宏基因组与宏转录组",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-20"
-  },
-  {
     "pmid": "42159017",
     "title": "Keratinocyte Priming by Staphylococcus aureus Reduces HSV-1 Susceptibility.",
     "doi": null,

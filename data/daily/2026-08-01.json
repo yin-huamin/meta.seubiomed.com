@@ -978,45 +978,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "42108760",
-    "title": "Observing the invisible: X-ray CT for plant-microbe interactions.",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2026-07-02",
-    "authors": "Pereira Eric C; Bell Chris A",
-    "abstract": "Plant-microbe interactions are inherently spatial, yet the physical structure of the soil and rhizosphere is rarely treated as a mechanistic variable in experimental design. X-ray computed tomography (X-ray CT) enables nondestructive, three-dimensional, and time-resolved imaging of intact root-soil systems, providing direct access to the structural context in which plant-microbe interactions occur. Rather than a secondary imaging technique, X-ray CT can offer a wealth of data as a primary experimental platform for future plant-microbe research. Here, we highlight key structural traits that X-ray CT can quantify and discuss how they may shape microbial behaviour, plant immune responses, and disease outcomes. We expand on how X-ray CT could be employed in future to provide a framework to disentangle direct microbial effects from indirect, structure-mediated feedbacks. For breeding and management, it could enable selection for root traits and soil practices that engineer favourable microhabitats rather than targeting organisms in isolation. Despite this potential, broader adoption will require overcoming current limitations related to access to instrumentation, analytical expertise, and the integration of structural data with biological measurements. Overall, we suggest that resolving these issues will enable the integration of X-ray CT-derived structure with molecular, microbiome, and modelling approaches to enable the development of digital rhizospheres, offering a pathway from descriptive observations to predictive, structure-aware in silico frameworks in plant-microbe research.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Tomography, X-Ray Computed",
-      "Plants",
-      "Rhizosphere",
-      "Plant Roots",
-      "Soil Microbiology"
-    ],
-    "keywords": [
-      "3D imaging",
-      "X‐ray computed tomography",
-      "digital rhizosphere",
-      "plant pathology",
-      "plant–microbe interactions",
-      "rhizosphere",
-      "root system architecture"
-    ],
-    "summary_zh": "本文探讨X射线CT技术在植物-微生物互作研究中的应用，强调其作为主要实验平台可量化根际结构性状，并整合多组学与建模方法，推动数字根际发展。",
-    "innovation": "将X射线CT视为主要实验平台而非辅助成像技术 | 提出利用CT量化结构性状以解析微生物行为与植物免疫反馈 | 倡导结构数据与分子、微生物组及建模整合构建数字根际",
-    "limitation": "设备获取受限 | 分析专业知识不足 | 结构数据与生物测量整合困难",
-    "study_object": "植物-微生物互作的根-土系统 + X射线CT成像",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "42176777",
     "title": "Therapeutic efficacy and antigenicity of a novel PEGylated IgA protease in preclinical models of IgA nephropathy.",
     "doi": null,
@@ -1178,39 +1139,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "42398461",
-    "title": "S-layers as natural building blocks for nanobiotechnology and synthetic biology.",
-    "doi": null,
-    "journal": "Current opinion in microbiology",
-    "issn": "1879-0364",
-    "pub_date": "2026-07-21",
-    "authors": "Sleytr Uwe B; Schuster Bernhard",
-    "abstract": "Crystalline bacterial cell surface layers (S-layers) are self-assembling protein lattices that constitute the outermost envelope structure of many Bacteria and most Archaea. Beyond their classical role as cell surface components, S-layers are increasingly recognized as programmable, two-dimensional biological materials that combine nanometer-scale precision, defined porosity, and exceptional physicochemical properties. In this review, we synthesize current understanding of S-layer architecture, assembly, and functionalization to position them as a unifying platform for nanobiotechnology and synthetic biology. We highlight how their intrinsic self-assembly and genetic engineerability enable the design of ordered biomolecular interfaces with applications ranging from molecular sieving, biosensors, biomineralization, and nanoscale patterning. Engineered S-layer fusion proteins allow the modular and spatially controlled display of functional domains, bridging bottom-up materials design with biological complexity. Beyond their technological relevance, S-layers play underappreciated roles in host-microbe interactions, where their structural regularity and surface accessibility shape immunogenicity and cellular recognition, with implications for vaccine development, targeted delivery, and microbiome engineering. We argue that overcoming current limitations in scalable production, stability, and system integration will be key to unlocking the full potential of S-layers as genetically programmable, bio-inspired interfaces, enabling a new class of adaptive nanomaterials and advancing the design principles of synthetic biological systems.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Synthetic Biology",
-      "Nanotechnology",
-      "Biotechnology",
-      "Bacteria",
-      "Archaea",
-      "Nanostructures",
-      "Membrane Glycoproteins"
-    ],
-    "keywords": [],
-    "summary_zh": "综述S层的结构、组装与功能化，探讨其在纳米生物技术和合成生物学中的应用潜力。",
-    "innovation": "将S层定位为可编程二维生物材料，结合纳米精度与遗传可工程性 | 工程化S层融合蛋白实现功能域模块化展示",
-    "limitation": "可扩展生产、稳定性和系统集成方面存在限制 | 宿主-微生物相互作用中的角色未充分认识",
-    "study_object": "细菌和古菌细胞表面S层蛋白，综述性研究",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "42415406",
     "title": "Targeting the Organ-Brain Axis: The Modulatory Role of Peripheral Organs in Depression.",
     "doi": null,
@@ -1243,35 +1171,6 @@
     "limitation": "周围信号在人类中的因果关系未完全明确 | 当前转化应用存在局限性",
     "study_object": "未描述",
     "disease": "抑郁症",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42378946",
-    "title": "From coarse-grained metabolic rules to fine-grained control of microbial communities.",
-    "doi": null,
-    "journal": "Current opinion in microbiology",
-    "issn": "1879-0364",
-    "pub_date": "2026-07-21",
-    "authors": "Vila Jean Cc; Estrela Sylvie",
-    "abstract": "Over the past decade, microbial ecology has revealed remarkable coarse-grained regularities in community assembly and metabolic function. Across diverse systems, distinct taxonomic compositions can converge on similar functional outputs, and simple physiological principles can predict steady-state outcomes. These findings suggest that complex microbiomes may, in some regimes, be governed by emergent simplicity and therefore be predictable. Yet many of the traits we want to understand or engineer seem to depend on fine-grained dynamics that may be transient, strain-specific, and history dependent. Here, we argue that bridging the gap between coarse-grained metabolic rules and fine-grained metabolic complexity is essential for a predictive and engineering-oriented microbiome ecology. While progress is limited by the lack of (or insufficient) temporal, spatial, and chemical resolution, we highlight both conceptual advances and emerging technologies that may help fill that gap by providing temporal, spatial, single-cell resolved, dynamic, quantitative measurements.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Microbiota",
-      "Bacteria",
-      "Metabolic Networks and Pathways"
-    ],
-    "keywords": [],
-    "summary_zh": "本文提出弥合粗粒度代谢规则与细粒度代谢复杂性对预测和工程化微生物组至关重要，并展望相关概念与技术进展。",
-    "innovation": "强调粗粒度规则与细粒度动态之间的鸿沟 | 提出结合时间、空间、单细胞分辨率测量以推动微生物组生态学",
-    "limitation": "缺乏时间、空间和化学分辨率的数据",
-    "study_object": "微生物群落（概念性综述）",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-08-01"
@@ -1312,90 +1211,6 @@
     "limitation": "现有临床试验主要关注症状缓解，缺乏免疫谱分析及疾病修饰证据 | 制剂变异性、生物利用度、监管障碍和长期安全性数据不足",
     "study_object": "自身免疫疾病患者及临床前模型",
     "disease": "自身免疫性疾病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42198807",
-    "title": "Investigating GERMs: how genotype, environment, and rhizosphere microbiome interactions underlie heat response in maize and sorghum.",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2026-07-16",
-    "authors": "Korth Nate; Borrero Isabella; Rumley Katelyn; Woodley Alex L; Choudoir Mallory J et al.",
-    "abstract": "Plant responses to heat stress emerge from interactions among host genotype, environment, and the rhizosphere microbiome, yet most studies examine these components in isolation. We applied the Genotype × Environment × Rhizosphere Microbiomes (GERMs) framework to test how host-microbe coordination contributes to heat tolerance in cereal crops Zea mays and Sorghum bicolor. We analyzed maize and sorghum grown under optimal and heat-stressed conditions across contrasting soil treatments using integrated plant-microbial metatranscriptomics. Host and microbial gene expression profiles were jointly analyzed alongside microbiome composition and plant phenotypes and compared with amplicon-based profiling. Metatranscriptomics captured microbial community structure comparable to amplicon sequencing while providing enhanced functional and taxonomic resolution. Host genotype and temperature jointly shaped microbial functional profiles. Conserved plant orthologs across maize and sorghum were linked to microbial pathways, specifically microbial d-amino acid metabolism was associated with plant heat tolerance. These findings indicate the rhizosphere microbiome actively participates in plant heat stress responses through coordinated transcriptional interactions with the host. Integrating host and microbial transcriptomes reveals mechanistic insights into plant adaptation and establishes a framework for dissecting plant-microbiome interactions under environmental stress.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Rhizosphere",
-      "Zea mays",
-      "Sorghum",
-      "Microbiota",
-      "Genotype",
-      "Environment",
-      "Heat-Shock Response",
-      "Hot Temperature",
-      "Gene Expression Regulation, Plant",
-      "Transcriptome",
-      "Phenotype"
-    ],
-    "keywords": [
-      "abiotic stress tolerance",
-      "cross‐kingdom regulation",
-      "d‐amino acid metabolism",
-      "heat tolerance",
-      "metatranscriptomics",
-      "microbiome",
-      "plant resilience",
-      "rhizosphere biology"
-    ],
-    "summary_zh": "应用GERMs框架分析玉米和高粱根际微生物组与宿主在热胁迫下的转录协调，揭示微生物参与耐热机制。",
-    "innovation": "应用Genotype×Environment×Rhizosphere Microbiomes（GERMs）框架联合分析宿主与微生物基因表达 | 利用整合植物-微生物宏转录组学同时获取功能与分类学分辨率 | 发现微生物d-氨基酸代谢与植物耐热性相关",
-    "limitation": "未描述",
-    "study_object": "玉米和高粱（宿主 + 根际微生物组 + 宏转录组学）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42142727",
-    "title": "Gut microbiome and metabolic responses of adult zebrafish (Danio rerio) to the co-exposure of polyethylene microplastics and levofloxacin.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-08-01",
-    "authors": "Li Mingcan; Liu Tianqi; Yuan Yue; Bae Sungwoo",
-    "abstract": "The co-occurrence of microplastics (MPs) and antibiotics in aquatic environments poses complex ecological risks. This study investigated the combined toxicity of polyethylene microplastics (PE MPs) and levofloxacin (LEV) in zebrafish using integrated untargeted metabolomics and gut microbiome profiling. Zebrafish were exposed to environmentally relevant concentrations of LEV (0.1 μg/L, 1 μg/L, 100 μg/L), PE (1 mg/L), and their combinations for 96 h. LEV exposure produced concentration-dependent metabolic toxicity, progressing from energy conservation at 0.1 μg/L to inflammatory activation at 1 μg/L, and ultimately to system-wide metabolic perturbation at 100 μg/L. PE independently disrupted oxidative stress and membrane integrity pathways. Co-exposure generated emergent interactive effects exceeding additive predictions, with PE + LEV 0.1 μg/L affecting 387 metabolites versus 245 for LEV alone. Crucially, co-exposure elicited synergistic toxicity with unique metabolic fingerprints-including neuroendocrine activation (dynorphin B) and mTOR signaling modulation-that were absent in individual treatments. Conversely, microbiome analysis revealed an antagonistic interaction; while LEV alone caused significant dysbiosis and enrichment of resistant taxa, co-exposure stabilized microbial diversity and composition, likely due to LEV adsorption onto PE particles reducing luminal bioavailability. These findings highlight a \"microbiome-host interaction paradox\": PE mitigates antibiotic-induced gut dysbiosis yet exacerbates host systemic toxicity through mechanisms of epithelial barrier disruption and pharmacokinetic modulation. This study demonstrates that microbiome stability does not reliably predict host physiological health under multi-stressor conditions, underscores the importance of integrative, multi-omics approaches to assess the emergent risks of complex environmental mixtures.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Microplastics",
-      "Zebrafish",
-      "Gastrointestinal Microbiome",
-      "Water Pollutants, Chemical",
-      "Polyethylene",
-      "Levofloxacin",
-      "Anti-Bacterial Agents"
-    ],
-    "keywords": [
-      "Antibiotic toxicity",
-      "Gut microbiome",
-      "Interactive effects",
-      "Metabolomics",
-      "Microplastics"
-    ],
-    "summary_zh": "本研究通过代谢组学和微生物组学分析成年斑马鱼暴露于聚乙烯微塑料和左氧氟沙星的联合毒性，发现协同与拮抗并存的微生物-宿主悖论。",
-    "innovation": "联合暴露产生超出加性预测的协同毒性 | 发现微塑料减轻抗生素菌群失调却加重宿主毒性的悖论 | 强调多组学整合评估复合污染物风险",
-    "limitation": "未描述",
-    "study_object": "成年斑马鱼；肠道微生物和代谢物；非靶向代谢组学与微生物组分析",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-08-01"
@@ -1670,47 +1485,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "41532487",
-    "title": "Thermophiles in the genomic Era (2015-2025): a review on biodiversity, metagenome-assembled genomes, and future directions.",
-    "doi": null,
-    "journal": "Critical reviews in microbiology",
-    "issn": "1549-7828",
-    "pub_date": "2026-07-23",
-    "authors": "Goh Kian Mau; Nurhazli Nur Azmira Alea; Tan Jia Hao; Liew Kok Jun; Chan Kok-Gan et al.",
-    "abstract": "Thermophile research has been transformed over the past decade by advances in genome sequencing. Once centered on culture collections and physiological studies of terrestrial hot springs and deep-sea hydrothermal vents, the field now employs amplicon sequencing, shotgun metagenomics, and long-read platforms to reveal the diversity, ecology, and genomic potential of thermophiles. Metagenome-assembled genomes (MAGs), metatranscriptomes, and metaproteomes have become crucial for linking taxonomy with function, uncovering previously hidden microbial dark matter in heated ecosystems. Bioinformatics, increasingly integrated with machine learning, has expanded insights into microbial biology, biomolecules, and ecological interactions. These advances highlight the broader environmental significance of thermophiles, spanning fundamental roles in ecosystem processes to practical applications. In 2015, we published Thermophiles in the Genomic Era: Biodiversity, Science, and Application to capture early next-generation sequencing milestones. A decade later, with tremendous progress achieved, this review revisits the field by synthesizing recent advances across viruses, planktonic thermophiles, and biofilm communities, emphasizing the power of genome-resolved approaches. We also highlight overlooked areas, opportunities for ecological integration and predictive modeling, and the importance of translating discoveries into biotechnological innovation. Our aim is to provide young researchers with a roadmap of emerging questions and strategies likely to shape the next decade of thermophile research.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Biodiversity",
-      "Metagenome",
-      "Metagenomics",
-      "Bacteria",
-      "Archaea",
-      "Hot Springs",
-      "Hydrothermal Vents",
-      "Genome, Bacterial",
-      "Genomics"
-    ],
-    "keywords": [
-      "Amplicon sequencing",
-      "biogeography",
-      "metagenome-assembled genomes",
-      "metagenomics",
-      "thermozyme"
-    ],
-    "summary_zh": "综述近十年基因组技术在嗜热菌多样性、宏基因组组装基因组及未来方向的研究进展。",
-    "innovation": "系统总结病毒、浮游嗜热菌和生物膜群落的基因组解析研究 | 强调生物信息学与机器学习结合拓展微生物生物学认知 | 指出被忽视领域及生态整合、预测建模和生物技术转化方向",
-    "limitation": "未描述",
-    "study_object": "陆地热泉和深海热液喷口的浮游及生物膜微生物群落（扩增子测序、宏基因组、长读长测序等）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "42308920",
     "title": "Synbiotics and antioxidants synergistically attenuate disease progression in metabolic dysfunction-associated steatotic liver disease.",
     "doi": null,
@@ -1836,47 +1610,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "41950535",
-    "title": "Correlation between root exudate composition and beneficial bacteria underlies Fusarium wilt resistance in cucumber.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-05-13",
-    "authors": "Adeniji Adegboyega; Liu Qing; Huang Xin; Lu Xiaohong; Li Shidong et al.",
-    "abstract": "Rhizosphere microbes regulated by root exudates play important roles in promoting plant growth and suppressing soil-borne diseases. However, their functions in monoculture systems are not well studied. Here, we integrated metabolomic and microbiome analyses to compare root exudate profiles and rhizosphere communities of Fusarium oxysporum f. sp. cucumerinum (Foc) resistant (CL11) and susceptible (ZN6) cultivars grown in naturally infested, continuous-cropping soil. The asymptomatic, resistant cultivar CL11 (CL11H) exhibited a metabolic signature enriched in defensive compounds (ganoderic acid I and L-isoleucine) and harbored a beneficial bacterial community dominated by Streptomyces, Cellvibrio, and Ensifer. While the asymptomatic susceptible cultivar ZN6 (ZN6H) showed elevated levels of primary metabolites (methylmalonic and succinic acids) and an enrichment in the relative abundance of Amycolatopsis and Flavobacterium. Upon symptom development, susceptible symptomatic ZN6 (ZN6D) mounted a \"cry-for-help\" response, accumulating L-tryptophan and citric acid, which correlated with recruitment of Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium. Conversely, resistant symptomatic CL11 (CL11D) deployed a metabolic profile (L-3-cyanoalanine, 4-hydroxybenzoyl glucose, D-fructose), which enriched Bacillus and Cellvibrio. Exogenous application of citric acid, L-isoleucine, L-tryptophan, hexadecanedioic acid, and succinic acid to susceptible ZN6 plants significantly suppressed wilt disease. These metabolites restructured the rhizosphere bacterial communities, demonstrated by enrichments of Pseudomonas, Burkholderia-Caballeronia-Paraburkholderia, and Comamonadaceae by L-tryptophan, as well as Pseudomonas and Bacillus promoted by L-isoleucine and citric acid, respectively. Moreover, succinic acid suppressed disease through microbiome-mediated mechanisms despite its in vitro positive effect on Foc growth. These findings demonstrate that root exudates are linked to cultivar-specific disease outcomes, and that target metabolite application can suppress Fusarium wilt through microbiome-mediated mechanisms or a combined antifungal mode.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Plant Roots",
-      "Fusarium",
-      "Plant Diseases",
-      "Rhizosphere",
-      "Disease Resistance",
-      "Cucumis sativus",
-      "Bacteria",
-      "Soil Microbiology",
-      "Microbiota",
-      "Plant Exudates"
-    ],
-    "keywords": [
-      "Disease resistance",
-      "Fusarium wilt",
-      "Microbial recruitment",
-      "Rhizosphere microbiome",
-      "Root exudates"
-    ],
-    "summary_zh": "整合代谢组和微生物组分析，发现抗性黄瓜根分泌物富集防御物质并招募有益菌，外源代谢物可抑制枯萎病。",
-    "innovation": "整合代谢组和微生物组分析揭示根分泌物与有益菌的关联 | 发现外源代谢物可重构根际微生物群落并抑制枯萎病 | 证明琥珀酸通过微生物组介导机制抑制病害",
-    "limitation": "未描述",
-    "study_object": "黄瓜（连作土壤）根分泌物和根际微生物群落，代谢组学和微生物组分析",
-    "disease": "黄瓜枯萎病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "42381240",
     "title": "Domino Effect of the Kynurenine Pathway: Systemic Homeostasis, Metabolic Crosstalk, and Therapeutic Potential.",
     "doi": null,
@@ -1914,47 +1647,6 @@
     "study_object": "犬尿氨酸途径及其在多系统疾病中的调控机制（综述）",
     "disease": "神经退行性疾病、心血管疾病、胃肠道疾病、肿瘤",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42169351",
-    "title": "Metagenomic sequencing reveals the similarities and differences in microbial community structure and diversity between fermented whey and Rubing cheese, a fresh goat milk cheese.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-08-01",
-    "authors": "Yang Siying; Fu Xi; Yang Zhihong; Zhang Tong; Lu Chunli et al.",
-    "abstract": "Rubing cheese is a traditional handmade goat milk cheese in Yunnan, China, and the fermented whey used in its production affects its quality and safety. This study employed metagenomic sequencing to systematically characterize the microbial communities in fermented whey and Rubing cheese and to quantitatively analyze their biogenic amine (BA) contents. Metagenomic analysis revealed that Rubing cheese had higher microbial diversity than fermented whey. Approximately 403 microbial species were identified in Rubing cheese, and 209 were identified in fermented whey. Notably, fermented whey was rich in lactic acid bacteria (LAB), such as Lactobacillus delbrueckii (L. delbrueckii), Lentilactobacillus hilgardii (Le. hilgardii), and Lacticaseibacillus paracasei (La. paracasei). In contrast, Rubing cheese contained a high abundance of Escherichia coli (E. coli). The total BA content was low in both fermented whey (20.25 mg·kg-1) and Rubing cheese (4.69 mg·kg-1). These findings provide a scientific basis for establishing standardized production processes for developing functional starter cultures in the industrialization of Rubing cheese production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Cheese",
-      "Animals",
-      "Whey",
-      "Goats",
-      "Fermentation",
-      "Food Microbiology",
-      "Metagenomics",
-      "Microbiota",
-      "Biogenic Amines",
-      "Milk"
-    ],
-    "keywords": [
-      "BAs",
-      "Fermented whey",
-      "Metagenomic sequencing",
-      "Microbial communities",
-      "Rubing cheese"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-08-01"
   },
@@ -2037,51 +1729,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "42054761",
-    "title": "Cross-kingdom synthetic microbial consortium controls citrus Huanglongbing and root rot by modulating the rhizosphere microbiome and plant defense.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-05-13",
-    "authors": "Liu Yinglong; He Pengfei; He Pengbo; Li Xingyu; Ahmed Ayesha et al.",
-    "abstract": "The synergistic occurrence of citrus Huanglongbing (HLB) caused by Candidatus Liberibacter asiaticus (CLas) and root rot severely threatens the global citrus industry. In this study, field surveys were conducted across nine major citrus-producing regions in seven provinces of China. Highly pathogenic strains, Phytophthora nicotianae CR62 and Fusarium solani CR15, were selected as targets for screening Trichoderma strains for mycoparasitic activity. Compatibility and metabolic cross-feeding with the HLB-controlling strain Bacillus subtilis L1-21 enabled the construction of a cross-kingdom SynCom. Pot experiments evaluated plant growth promotion and root rot control, while high-throughput sequencing (16S rRNA/ITS) elucidated the regulatory mechanisms of rhizosphere microbiomes. The results showed that HLB and root rot co-occurred widely in the field, with oomycetes (Phytophthora spp. and Pythium spp.) accounting for 65.22% of root rot pathogens. P. nicotianae and F. solani exhibited the highest pathogenicity, whereas no significant correlation was detected between the root rot disease index and CLas titer. Targeted screening showed that T. asperellum NY-1 exerted more than 60% inhibition against root rot pathogens and exhibited high compatibility with B. subtilis L1-21. Moreover, the cell-free filtrate of NY-1 significantly reshaped the global metabolic profile of L1-21, primarily by modulating amino acid and energy metabolism, as well as ABC transporter pathways, thereby comprehensively altering its cellular metabolic activities. Importantly, the SynCom NL significantly promoted plant growth and increased rhizosphere urease and sucrase activities after 90 days of treatment. SynCom NL enriched beneficial microbes (Bacillus, Sphingomonas, Trichoderma, Humicola), suppressed pathogens (Fusarium, Penicillium, Neocosmospora), and activated root defense enzymes (SOD, CAT, PAL, PPO), boosting root protection and achieving 92.86 ± 8.25% root rot control. Overall, the Trichoderma-Bacillus cross-kingdom SynCom targeting the HLB-root rot disease complex provides a technical foundation for integrated biocontrol and sustainable citrus production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Citrus",
-      "Rhizosphere",
-      "Plant Diseases",
-      "Plant Roots",
-      "Fusarium",
-      "Phytophthora",
-      "Soil Microbiology",
-      "Microbiota",
-      "Microbial Consortia",
-      "Bacillus subtilis",
-      "Trichoderma",
-      "China",
-      "RNA, Ribosomal, 16S",
-      "Liberibacter",
-      "Hypocreales"
-    ],
-    "keywords": [
-      "Biocontrol",
-      "Huanglongbing",
-      "Root rot disease",
-      "SynCom"
-    ],
-    "summary_zh": "构建木霉-芽孢杆菌跨界合成菌群，通过调节根际微生态和植物防御，防治柑橘黄龙病与根腐病，防效达92.86%。",
-    "innovation": "首次构建靶向黄龙病-根腐病复合病害的Trichoderma-Bacillus跨界SynCom | 揭示木霉代谢物重塑芽孢杆菌代谢网络（氨基酸、能量、ABC转运） | 综合调控根际有益菌富集、病原菌抑制及防御酶活性",
-    "limitation": "未描述",
-    "study_object": "柑橘根际土壤及根系微生物组（16S rRNA/ITS高通量测序）",
-    "disease": "柑橘黄龙病、根腐病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "42068861",
     "title": "Altered Salivary Microbiome and Increased Immune Markers in Mouth-Breathing Children: Implications for Oral Health.",
     "doi": null,
@@ -2123,78 +1770,6 @@
     "study_object": "儿童唾液样本，16S rRNA高通量测序及生化免疫检测",
     "disease": "口呼吸；错颌畸形",
     "sample_size": "共40例（口呼吸组30例，对照组10例；口呼吸组按Angle I/II/III各10例）",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42136370",
-    "title": "Root exudate-associated microbiome assembly contributes to viral disease resistance in wheat.",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2026-07-02",
-    "authors": "Wu Chuanfa; Liu Hongwei; Carvalhais Lilia C; Guo Jun; Cai Peng et al.",
-    "abstract": "Early mutualistic interactions between host plants and their rhizosphere microbes have the potential to provide soil-borne disease resistance. However, it remains unclear how the early rhizosphere microbiome protects against viral diseases such as wheat yellow mosaic virus, which is a major threat to global wheat production. We combined field trials with microbiome transplantation experiments to investigate the role of early rhizosphere microbiomes in suppressing wheat yellow mosaic disease. To uncover the underlying mechanisms, we further performed integrated multi-omics analyses of microbial communities, functional genes, and metabolic profiles. Disease-resistant wheat cultivars were consistently associated with distinct seedling rhizosphere microbiome assembly, including a lower Polymyxa graminis abundance, lower community compositional variation, and enrichment of beneficial taxa such as Bacillus, Pseudomonas, and Trichoderma. Resistant cultivars also exhibited distinct rhizosphere metabolite profiles, including higher levels of glyceraldehyde and N-acetyltryptophan, which were positively associated with keystone microbial taxa and stimulated representative isolates in vitro. Isolate-based and synthetic community validation further supported the functional relevance of these taxa, while microbial inoculation was associated with reduced vector abundance, lower virus accumulation, and activation of host defense-related pathways. Our findings showed that early cultivar-dependent rhizosphere microbiome assembly was closely linked to resistance against soil-borne viral disease in wheat.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Triticum",
-      "Disease Resistance",
-      "Microbiota",
-      "Plant Diseases",
-      "Plant Roots",
-      "Rhizosphere",
-      "Plant Exudates",
-      "Multiomics"
-    ],
-    "keywords": [
-      "Triticum aestivum L.",
-      "cross‐kingdom synthetic community",
-      "induced systemic resistance",
-      "multi‐omics",
-      "rhizosphere microbiome",
-      "soil‐borne viral disease"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42378947",
-    "title": "The role of the antimicrobial peptide nisin as a clean label food preservative.",
-    "doi": null,
-    "journal": "Current opinion in microbiology",
-    "issn": "1879-0364",
-    "pub_date": "2026-07-21",
-    "authors": "Murphy India L; Hill Colin; Field Des",
-    "abstract": "The bacteriocin nisin can play a role in addressing the global need for safe, effective, and 'clean label' preservation strategies. Nisin A and its variants are among the most extensively studied antimicrobial peptides. Despite many advantages, nisin exhibits limitations in complex food matrices, including reduced solubility at neutral pH, susceptibility to proteolytic degradation, and poor activity against Gram-negative bacteria. We highlight recent advances aimed at overcoming these challenges, including novel delivery systems and the development of novel nisin variants with improved physicochemical properties, resistance to enzymatic degradation, and expanded antimicrobial spectra. Additionally, emerging research suggests a potential role for nisin as a functional food component capable of modulating the gut microbiome, although its effects appear context-dependent and require further investigation. We suggest that a diversified portfolio of nisin variants combined with advances in delivery strategies can position nisin and its variants as a key tool in the development of sustainable, safe, and minimally processed food.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Nisin",
-      "Food Preservatives",
-      "Food Preservation",
-      "Anti-Bacterial Agents",
-      "Gram-Negative Bacteria",
-      "Antimicrobial Peptides"
-    ],
-    "keywords": [],
-    "summary_zh": "综述了抗菌肽乳链菌素作为清洁标签防腐剂的作用，提出组合变体和递送策略以提升效果。",
-    "innovation": "开发新型递送系统 | 开发具有改善物理化学性能、抗酶解和扩大抗菌谱的nisin变体 | 提出nisin作为调节肠道微生物组的功能性成分",
-    "limitation": "nisin在中性pH溶解度低、易被蛋白酶降解、对革兰氏阴性菌活性差",
-    "study_object": "食品保存环境中的抗菌肽nisin（无具体样本）",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-08-01"
   },
@@ -2273,49 +1848,6 @@
     "fetch_date": "2026-08-01"
   },
   {
-    "pmid": "42068598",
-    "title": "Metagenomic and metatranscriptomic insights into Ruegeria profundi-driven protective responses in coral holobionts against Vibrio coralliilyticus infection.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-05-13",
-    "authors": "Xu Meiting; Cheng Keke; Cai Zhonghua; Chen Guofu; Zhou Jin",
-    "abstract": "In the context of climate-driven coral reef degradation, opportunistic pathogens such as Vibrio coralliilyticus are emerging as significant secondary threats, acting in synergy with thermal stress to accelerate coral bleaching and mortality. In this study, we investigated the role of Ruegeria profundi in mitigating V. coralliilyticus-induced bleaching. Specifically, the responses of coral holobiont members to pathogenic and probiotic influences were evaluated using metagenomics and metatranscriptomics. We found that the presence of V. coralliilyticus enhanced the metabolic potential of the coral-associated bacterial community, particularly regarding carbohydrate utilization and virulence. Conversely, R. profundi reduced the relative abundance of pathogenic Vibrio species by over 50% and broadly suppressed the expression of virulence genes within the coral-associated bacterial community, including a > 2-fold downregulation of genes involved in quorum sensing and flagellar assembly. Transcriptomic data indicated that immune-related genes in the host were upregulated, whereas photosynthesis-related genes in photosymbiotic microalgae were downregulated in response to V. coralliilyticus infection. R. profundi significantly promoted apoptosis resistance and antimicrobial peptide activity in the host and enhanced photosynthesis in photosymbiotic microalgae (p < 0.05). Furthermore, R. profundi significantly suppressed virulence gene expression in the coral-associated bacterial community (p < 0.05). Collectively, our results indicated that R. profundi orchestrates a tripartite defense mechanism involving the coral host, its associated bacterial community, and symbiotic microalgae, effectively mitigating pathogen-induced dysbiosis and bleaching. These findings have promising implications for microbiome-based strategies in coral reef restoration.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Vibrio",
-      "Anthozoa",
-      "Metagenomics",
-      "Symbiosis",
-      "Gene Expression Profiling",
-      "Transcriptome",
-      "Coral Reefs",
-      "Virulence",
-      "Coral Bleaching",
-      "Probiotics",
-      "Quorum Sensing"
-    ],
-    "keywords": [
-      "Coral holobionts",
-      "Metagenomics",
-      "Metatranscriptomics",
-      "Pathogen",
-      "Probiotics"
-    ],
-    "summary_zh": "利用宏基因组和宏转录组揭示Ruegeria profundi通过三方防御机制减轻珊瑚白化，抑制病原弧菌并增强宿主免疫和光合作用。",
-    "innovation": "结合宏基因组和宏转录组解析珊瑚全生物体对病原与益生菌的响应 | 揭示R. profundi通过调节宿主、细菌群落和共生微藻的三方防御机制 | 发现R. profundi抑制毒力基因并促进宿主凋亡抵抗和光合作用",
-    "limitation": "未描述",
-    "study_object": "珊瑚全生物体（宿主、细菌群落和共生微藻）的宏基因组和宏转录组",
-    "disease": "珊瑚白化",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
     "pmid": "41951111",
     "title": "Bilophila wadsworthia is linked to basal ganglia atrophy in the general population.",
     "doi": null,
@@ -2356,78 +1888,6 @@
     "innovation": "首次在一般人群中揭示Bilophila wadsworthia与基底节结构差异相关 | 结合16S rRNA和鸟枪法测序及约束模型分析 | 发现该菌与肝酶、甘油三酯及炎症状态的新关联",
     "limitation": "未描述",
     "study_object": "一般人群的粪便微生物组和脑MRI数据，采用16S rRNA测序和全基因组鸟枪法测序",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42529078",
-    "title": "Dose Titration of Plant-Based Flavonoid Blend Supplementation on Performance, Digestibility, Gut Microbiome, Blood Biomarkers, and Meat Quality of Growing Rabbits.",
-    "doi": null,
-    "journal": "Food science & nutrition",
-    "issn": "2048-7177",
-    "pub_date": "2026-07-30",
-    "authors": "Rahman Md Aliar; Hasan Md Mehedi; Hashem Md Abul; Siddique Mahbubul Pratik; Chowdhury Rakhi",
-    "abstract": "Rabbit meat is increasingly valued for its high nutritional quality, driving growing interest in enhancing its production through phytobiotics like plant-based flavonoid blend (PFB). So, this study looked at how a PFB at different doses influences the performance, digestibility, gut microbiota, blood biomarkers, liver health, and meat quality of growing rabbits. Sixty rabbits (body weight 552.63 ± 13.44 g) were assigned at random to five dietary groups, having twelve replicates per group. The rabbits were fed a basal diet as a total mixed ration having 17.02% crude protein and 11.60 MJ metabolizable energy/kg dry matter (DM), supplemented with PFB (g/kg diet) at 0.0 (control), 0.20, 0.40, 0.60, and 0.80. Following a 2 weeks adjustment period, the feeding trial was conducted for 5 weeks. When the trial was over, rabbits were sacrificed to collect digesta, blood, and meat samples for further analysis. Supplementation with PFB at 0.60 g/kg diet (range: 0.50-0.70 g/kg) showed a better final body weight (p = 0.01), weight gain (p < 0.001), and feed conversion ratio (p < 0.001), while significantly improving DM, nitrogen-free extract (p < 0.001), and ether extract (p = 0.02) digestibility. Besides, supplementation with PFB presented a linear reduction in Escherichia coli (p = 0.003), accompanied by linear improvement in Lactobacillus spp. (p < 0.001) and serum high density lipoprotein-cholesterol (HDL-C; p = 0.001). Broken-line analysis indicated optimal PFB supplementation levels of 0.60, 0.47, and 0.60 g/kg diet for E. coli, Lactobacillus spp., and HDL-C, respectively. However, feed intake, serum triglycerides, other cholesterols, total protein, albumin, globulin, and uric acid remained unchanged across the groups. Furthermore, supplementation with PFB with an estimated breakpoint of 0.55 g PFB/kg of diet effectively (p ≤ 0.02) reduced serum liver enzymes (aspartate aminotransferase, alanine aminotransferase, and alkaline phosphatase) indicating better liver health. In addition, PFB supplementation linearly reduced meat ether extract content and improved meat redness (p < 0.001), with optimal responses at 0.58 and 0.60 g/kg diet, respectively, while having no impacts on meat protein, ash, lightness, or yellowness. Therefore, dietary inclusion of PFB at 0.55 g-0.60 g per kg diet optimized growth performance through enhanced weight gain, feed efficiency, and nutrient digestibility, while favorably modulating cecum microbiome, serum cholesterol, liver enzyme activities, and ameliorated meat quality.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "growth",
-      "liver health",
-      "meat quality",
-      "microbiota",
-      "nutrients utilization",
-      "phytobiotics",
-      "rabbits"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-08-01"
-  },
-  {
-    "pmid": "42336533",
-    "title": "High co-occurrence but low heterogeneity of virulence factors and resistance genes in farmland soil.",
-    "doi": null,
-    "journal": "Journal of environmental sciences (China)",
-    "issn": "1001-0742",
-    "pub_date": "2026-06-25",
-    "authors": "Yu Longbin; Jiang Liping; Liu Chunlei; Wang Shanyun; Zhu Guibing",
-    "abstract": "Virulence factors (VFs), antibiotic resistance genes, and metal resistance genes in farmland soil pose significant threats to food security, soil health, and human well-being. Numerous studies have reported on the characteristics and hazards of resistance genes in the soil, but the co-occurrence of VFs and resistance genes has received little attention as a potential threat to the ecological environment. Here, we investigated the mechanism of interaction between VFs and resistance genes in farmland soil samples worldwide, especially in China, the most antibiotic-contaminated country. Metagenomics and metagenome binning analysis provided direct evidence that VFs and resistance genes could co-occur universally in the same microbial cell in farmland soil, dramatically enhancing the pathogenic ability of soil microorganisms and severely raising the threat to ecological security. We found that the spatial distribution of resistance genes and VFs in farmland topsoil exhibited low heterogeneity. These findings contribute to our understanding of VFs and resistance genes in farmland soil, which is beneficial for ensuring the healthy development of agriculture and food security.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Soil Microbiology",
-      "Virulence Factors",
-      "Soil",
-      "Agriculture",
-      "Drug Resistance, Microbial",
-      "China",
-      "Environmental Monitoring",
-      "Metagenome"
-    ],
-    "keywords": [
-      "Antibiotic resistance genes (ARGs)",
-      "Metagenome",
-      "Metagenome-assembled genomes",
-      "Metal resistance genes (MRGs)",
-      "Soil health",
-      "Virulence factors (VFs)"
-    ],
-    "summary_zh": "通过宏基因组和分箱分析，发现农田土壤中毒力因子与抗性基因在微生物细胞内普遍共现，且空间异质性低。",
-    "innovation": "首次揭示农田土壤中毒力因子与抗性基因在单个微生物细胞内的共现机制 | 利用宏基因组和分箱分析提供直接证据 | 发现二者空间分布低异质性",
-    "limitation": "未描述",
-    "study_object": "农田土壤样本，宏基因组及宏基因组分箱分析",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

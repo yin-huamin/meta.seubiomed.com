@@ -34,48 +34,6 @@
     "fetch_date": "2026-09-09"
   },
   {
-    "pmid": "42623063",
-    "title": "Novelty, diversity, and genetic dark matter in enterococci of invertebrates.",
-    "doi": null,
-    "journal": "mBio",
-    "issn": "2150-7511",
-    "pub_date": "2026-09-09",
-    "authors": "Sgardioli Bruna F; Phillips Matthew C; Miklos Arjun; Fleiszig-Evans Kailey; Manson Abigail L et al.",
-    "abstract": "Enterococci appear to have originated in the guts of early terrestrializing arthropods and invertebrates over 425 million years ago-hosts that are now highly diverse and widespread in nature today. Yet most knowledge of the genus comes from human infection-associated lineages with genomes swollen by the recent accretion of foreign DNA conveyed by mobile elements. Because invertebrates dominate terrestrial animal diversity and biomass, they would be predicted to constitute a major but little-explored reservoir of enterococcal diversity. We therefore systematically examined Enterococcus association and species diversification in invertebrate hosts of the comparatively natural, isolated, but well-characterized environment of the Azorean island of Terceira. Over 100 invertebrate specimens were examined for associated enterococci, which were taxonomically classified by whole-genome sequencing. Supporting the existence of a large pool of uncharacterized enterococci and Enterococcus-adapted genes, 40% (eight of 20) of the Enterococcus species identified were either undescribed, including four candidate new species described here, or very recently discovered. In contrast, control isolates from vertebrates were exclusively of known species typical of sampling elsewhere, discounting geographic isolation as a main driver of the novelty observed. Further, because of the abundance of E. casseliflavus and E. flavescens in this collection, we obtained the resolution necessary to quantify the divergence and decipher the drivers of speciation in the controversial division between these naturally vancomycin-resistant species. These findings provide robust support for the existence of a large pool of new species and unexplored adaptive traits in invertebrate-associated enterococci-diverse environmental survival traits optimized for expression in an enterococcal background, and well positioned for transmission into human-associated enterococcal strains.IMPORTANCEEnterococci are auxotrophic gut-associated bacteria that co-evolved with their terrestrial hosts over many eons. In the last 75 years-the \"antibiotic era\"-E. faecalis and E. faecium gained genes for antibiotic resistance and enhanced virulence, emerging as leading causes of multidrug-resistant infection. Little is known about the source of those genes or the pathway by which they entered human-associated strains. A recent global survey suggested a potentially large repository of uncharacterized genetic diversity in the enterococci of invertebrates. We directly tested this prospect by examining enterococci of invertebrate hosts in a largely natural and pastoral environment. Our findings provide clear evidence that invertebrates naturally harbor vast unexplored enterococcal diversity. Moreover, associations are likely driven by intrinsic host selection factors rather than geographic isolation. This expands our knowledge of Enterococcus biodiversity, including the identification of four novel species, identifying a vast reservoir of enterococcal genes available to species that colonize and infect humans.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Invertebrates",
-      "Enterococcus",
-      "Genetic Variation",
-      "Phylogeny",
-      "Genome, Bacterial",
-      "Whole Genome Sequencing",
-      "Humans"
-    ],
-    "keywords": [
-      "Enterococcus",
-      "antibiotic resistance",
-      "evolutionary biology",
-      "genomics",
-      "host association",
-      "invertebrate microbiome",
-      "microbial ecology",
-      "vertebrate microbiome"
-    ],
-    "summary_zh": "通过对亚速尔群岛无脊椎动物肠球菌进行全基因组测序，发现大量未描述新种，证实无脊椎动物是肠球菌多样性及基因库的重要来源。",
-    "innovation": "系统研究自然环境中无脊椎动物相关肠球菌的多样性与种化 | 发现40%物种为未描述或新近发现种，包括4个候选新种 | 利用高丰度样本解析了E. casseliflavus与E. flavescens的种化驱动因素",
-    "limitation": "未描述",
-    "study_object": "无脊椎动物（节肢动物等）肠道相关肠球菌 + 全基因组测序",
-    "disease": "无",
-    "sample_size": "超过100个无脊椎动物标本",
-    "ai_done": true,
-    "fetch_date": "2026-09-09"
-  },
-  {
     "pmid": "42545010",
     "title": "Nonantibiotic-driven evolution reveals rare but predictable routes to broad antibiotic resistance.",
     "doi": null,
@@ -313,39 +271,6 @@
       "metabolic reprogramming",
       "mitophagy",
       "sepsis‐induced myocardial injury"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-09"
-  },
-  {
-    "pmid": "42714137",
-    "title": "Real-time volatilomics reveals microbiota and pathogen fingerprints in the honey bee.",
-    "doi": null,
-    "journal": "mBio",
-    "issn": "2150-7511",
-    "pub_date": "2026-09-09",
-    "authors": "Fido Mateusz; Moriano-Gutierrez Silvia; Lan Jiayi; Pirat Aurélien; Zufferey Léa et al.",
-    "abstract": "UNLABELLED: Understanding the complex relationship between gut microbiota and their hosts often relies on invasive sampling techniques. Honey bees provide a tractable model for host-microbe studies. Here, we establish single-bee volatilomics using secondary electrospray ionization-high-resolution mass spectrometry (SESI-HRMS) to examine volatile organic compounds released to the air around an individual live honey bee. Specifically, we focused on the primary gut microbiota metabolites present in gnotobiotic bees. Our findings reveal distinct volatilome profiles in honey bees that depend on their gut bacterial colonization state. We cross-validated our findings using an established metabolomics technique, liquid chromatography-high-resolution mass spectrometry (LC-HRMS), to compare and contrast the metabolites detectable with each method. Finally, we assessed the ability of SESI-HRMS to detect colonization with the bee pathogen Serratia marcescens. By comparing the volatile signature of this bacterium grown in liquid culture with that of infected honey bee headspace, we identified overlapping compounds, including butane-2,3-diol, that were elevated in infected bees relative to uninfected controls. Non-invasive SESI-HRMS volatilomics, paired with LC-HRMS, therefore, have the potential to identify biomarkers of bee microbiome composition and infection at the level of individual insects. These biomarkers represent practical targets for the development of simple, field-ready diagnostic tools for monitoring pollinator health.\nIMPORTANCE: Honey bees are vital to various ecosystems and human agriculture as globally present pollinators. Current declines in bee populations threaten crop productivity and biodiversity and are driven by many factors, including habitat loss, pesticides, and pathogenic infections. The findings presented in this work demonstrate how the analysis of volatile species can precisely detect products of metabolic activity coming from the honey bee and its associated gut microbial community. We were able to demonstrate how high-resolution mass spectrometry can be used to study the host-microbiota relationship on the level of an individual insect. This technique, combined with volatilomics, allowed us to outline a volatile signature of infection in honey bees, which could become a target for in-field beehive disease monitoring.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "environmental microbiology",
-      "gut microbiota",
-      "honey bee",
-      "host response",
-      "host-microbiota interactions",
-      "host-pathogen interactions",
-      "mass spectrometry",
-      "pathogenesis"
     ],
     "summary_zh": "（待生成）",
     "innovation": "（待生成）",

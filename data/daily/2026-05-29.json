@@ -156,37 +156,6 @@
     "fetch_date": "2026-05-29"
   },
   {
-    "pmid": "42216058",
-    "title": "Biosynthesized selenium nanoparticles increase soybean resistance to root rot by recruiting beneficial microbes and reprogramming host metabolism.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-05-29",
-    "authors": "Liu Haixu; Han Songhan; Shi Ke; Zhang Yan; Xu Ying et al.",
-    "abstract": "BACKGROUND: Soybean root rot, primarily caused by Fusarium species, is a devastating soil-borne disease that severely threatens global soybean production. Conventional chemical controls are problematic due to their environmental impact and the risk of fostering pathogen resistance. There is therefore an urgent need to develop sustainable and eco-friendly alternative strategies.\nRESULTS: This study demonstrated that selenium nanoparticles (SeNPs) biosynthesized by Bacillus subtilis ZY56 significantly increased soybean resistance to F. oxysporum. Characterization confirmed that the obtained SeNPs were spherical (approximately 147 nm), consisting of amorphous-state elemental selenium (Se0) with a bioactive protein-polysaccharide coating. Treatment with 2.66 mg/L SeNPs significantly promoted seed germination, seedling growth, and antioxidant enzyme activity, while markedly reducing the root rot disease index. Multiomics analyses revealed that SeNPs reprogrammed host metabolism by increasing the levels of key defense-related metabolites (camalexin and isoflavonoids) and upregulating associated biosynthetic pathways. Crucially, SeNPs reshaped the rhizosphere microbiome, enriching beneficial genera (e.g., Bradyrhizobium, Lysobacter, and Nocardioides). Moreover, the analysis predicted enhanced microbial tyrosine metabolism. Integrated correlation analysis identified tyrosine metabolism as a core hub linking microbiome restructuring to host defense, supporting a \"microbe‒plant metabolic division of labor\" model in which microbes supply precursors (e.g., L-tyrosine) for the synthesis of antifungal compounds in the host. This finding was functionally validated, as the accumulated metabolites (camalexin and isoflavonoids) directly inhibited F. oxysporum growth in vitro.\nCONCLUSIONS: Our findings reveal a dual mechanism whereby SeNPs concurrently prime host defenses and modulate beneficial plant-microbe interactions, offering a sustainable nano-enabled strategy for managing soil-borne diseases. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Fusarium oxysporum",
-      "Multiomics analysis",
-      "Rhizosphere microbiome",
-      "Selenium nanoparticles",
-      "Soybean root rot",
-      "Tyrosine metabolism"
-    ],
-    "summary_zh": "本研究利用枯草芽孢杆菌合成硒纳米颗粒，通过重塑根际微生物组和重编程宿主代谢，提高大豆对镰刀菌根腐病的抗性。",
-    "innovation": "揭示了硒纳米颗粒同时激发宿主防御和调节有益植物-微生物互作的双重机制 | 提出“微生物-植物代谢分工”模型，微生物提供前体用于宿主合成抗真菌化合物",
-    "limitation": "未描述",
-    "study_object": "大豆根际土壤和根组织 + 多组学分析",
-    "disease": "大豆根腐病（由尖孢镰刀菌引起）",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-29"
-  },
-  {
     "pmid": "42213775",
     "title": "Integrative analysis reveals intra-tumoral microbial enterotypes shape host transcriptomes in colorectal cancer.",
     "doi": null,
@@ -239,36 +208,6 @@
     "study_object": "人类 + 血液、痰液样本 + 临床检测、微生物组分析",
     "disease": "重度嗜酸性粒细胞性哮喘",
     "sample_size": "156例个体，121次急性加重事件",
-    "ai_done": true,
-    "fetch_date": "2026-05-29"
-  },
-  {
-    "pmid": "42216084",
-    "title": "Longitudinal analysis of stowaway microorganisms aboard modules and cargo spacecraft of the Chinese Space Station.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-05-29",
-    "authors": "Zhang Ying; Ma Jinglin; Zhang Lantao; Wang Ran; Qu Xi et al.",
-    "abstract": "BACKGROUND: Although microbial contamination in crewed spacecraft is well studied, quantitative assessment of microorganisms from spacecraft structures and cargo remains overlooked. Here, we investigate 165 microbial samples collected from five critical environments of China Space Station (CSS) missions undertaken in 2016-2024: ground assembly, cargo loading, crewed simulation cabin, test cabin, and on-orbit. The investigation aims to elucidate the impact of cargo- and cabin-derived microorganisms on the CSS microbial community while characterizing the station's unique microbial profile.\nRESULTS: The calculation results based on the microbial source tracking model revealed that the proportion of cabin-source microbes peaked during initial construction (14.02%) but declined after deployment, whereas cargo-source microbes reached 36.89%. The top three persistent microbial genera in orbit from both sources were Staphylococcus, Acinetobacter, and Corynebacterium. High-abundance CSS microorganisms in the orbital environment are commonly found in both humans and plants, and the few cabin- or cargo-derived microorganisms that entered the interior differed markedly from high-abundance microorganisms found in terrestrial environments. Cargo storage areas and controlled cleanrooms posed a high risk of microbial transfer into orbit, necessitating stricter sterilization measures.\nCONCLUSIONS: These findings systematically characterize, for the first time, the dynamic patterns of structural/cargo-borne microbial contamination during CSS's early phases, providing critical data for biosecurity protocols of long-duration missions. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Cabin- & cargo-derived microorganisms",
-      "China space station",
-      "Microbial safety prevention and control",
-      "Microbiome",
-      "Source tracing"
-    ],
-    "summary_zh": "通过分析165个样本，研究中国空间站模块和货物中微生物动态，发现货舱来源微生物占比达36.89%，为长期任务生物安全提供数据。",
-    "innovation": "首次系统表征中国空间站结构/货物微生物污染动态模式 | 揭示货舱微生物向轨道转移的高风险",
-    "limitation": "未描述",
-    "study_object": "中国空间站（模块和货船）微生物样本 + 微生物源追踪模型",
-    "disease": "无",
-    "sample_size": "165个微生物样本",
     "ai_done": true,
     "fetch_date": "2026-05-29"
   },

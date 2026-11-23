@@ -68,36 +68,6 @@
     "fetch_date": "2026-10-23"
   },
   {
-    "pmid": "42918601",
-    "title": "Metagenomic Insights into Microplastic Micro-interfaces: Transforming Pollutants and Spreading Resistance.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-10-23",
-    "authors": "Tian Hongyu; Liu Jianwei; Zhang Yuxiu",
-    "abstract": "Microplastic micro-interfaces (MPMI) in wastewater treatment plants (WWTPs) serve as critical hubs for microbial colonization, pollutant transformation, and antibiotic resistance gene (ARG) dissemination. In this study, a large-scale genome-resolved metagenomic approach was employed to reconstruct 463 high-quality metagenome-assembled genomes (MAGs) from biofilms established on polyethylene terephthalate (PET), polyethylene (PE), and polypropylene (PP) within a municipal WWTP. Taxonomic profiling revealed that MPMI selectively enriched strict anaerobes and uncultured taxa, driving a profound ecological shift from the surrounding water and indicating the formation of localized hypoxic micro-niches. Functionally, the MPMI microbiome constructed a highly integrated metabolic network. Key dominant lineages were found to synergistically couple aromatic hydrocarbon degradation (via the shikimate pathway and β-oxidation) with complex carbon, nitrogen, and sulfur cycling, while deploying energy-efficient nucleotide salvage strategies to ensure biofilm stabilization under nutrient stress. Crucially, horizontal gene transfer (HGT) emerged as a fundamental mechanism for functional diversification, facilitating the active cross-genomic exchange of key adaptive traits associated with pollutant metabolism and biofilm regulation. Furthermore, MPMI harbored a highly diverse resistome comprising 36 ARG categories and 289 subtypes, highlighted by the critical genomic co-localization of mobile elements and clinical resistance markers (e.g., mcr-5.1, mupA) in core colonizers. Ultimately, these genomic insights elucidate the MPMI as a profound ecological hotspot driving the concurrent adaptation of metabolic networks and the resistome, thereby exacerbating the risks of ARG dissemination in aquatic environments.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Antibiotic resistance gene",
-      "Horizontal gene transfer",
-      "Metabolic-resistance co-occurrence",
-      "Metagenome-assembled genomes",
-      "Microplastic micro-interface"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-23"
-  },
-  {
     "pmid": "42919656",
     "title": "Sodium oligomannate remodels gut redox adaptation and promotes microbiota-derived indole-3-propionic acid production to alleviate Alzheimer's disease.",
     "doi": null,

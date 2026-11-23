@@ -35,37 +35,6 @@
     "fetch_date": "2026-10-13"
   },
   {
-    "pmid": "42864232",
-    "title": "Subpopulation networks: a scaling principle for engineering living systems.",
-    "doi": null,
-    "journal": "Trends in biotechnology",
-    "issn": "1879-3096",
-    "pub_date": "2026-10-13",
-    "authors": "Delvigne Frank; Roeloffs Fabian; Josselin Laurie; Pressé Steve; Olsson Lisbeth et al.",
-    "abstract": "Cell populations underpin applications ranging from bioproduction and biotherapeutics to microbiome engineering and biocomputing. However, treating them as bulk quantities rather than as structured systems limits our understanding of population-level stability, productivity, and robustness. Cellular populations self-organize into coexisting subpopulations (SPs) representing phenotypically distinct states that emerge from the interplay of biological noise and selective pressures. We propose that networks of interacting SPs constitute a fundamental organizational layer for engineering stable cell population dynamics. Surveying published single-cell studies across bacterial, yeast, and mammalian systems, we show that populations consistently self-organize into a limited number of SPs. This dimensional reduction can be captured experimentally by clustering single-cell data and gives rise to scaling laws that link population structure to collective performance.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "biological network",
-      "cell population control",
-      "dimension reduction",
-      "scaling law",
-      "single-cell technologies"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-13"
-  },
-  {
     "pmid": "42842405",
     "title": "Myeloid cell reprogramming drives enhanced defense against Streptococcus pneumoniae lung infection following exposure to commensal Prevotella.",
     "doi": null,

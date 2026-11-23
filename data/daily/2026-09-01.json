@@ -496,38 +496,6 @@
     "fetch_date": "2026-09-01"
   },
   {
-    "pmid": "42024296",
-    "title": "Marine Polysaccharides: A Promising Source for Probiotic Delivery Systems.",
-    "doi": null,
-    "journal": "Probiotics and antimicrobial proteins",
-    "issn": "1867-1314",
-    "pub_date": "2026-04-23",
-    "authors": "Venkatachalam Sathish Kumar; Srinivasan Shantkriti; Santhoshkumar Murali; Duraisamy Nallusamy; Vinayagam Ramachandran et al.",
-    "abstract": "",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "Delivery systems",
-      "Encapsulation",
-      "Gut health",
-      "Gut microbiome",
-      "Probiotics",
-      "Seaweed polysaccharides"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
     "pmid": "42625955",
     "title": "Predicting Gut Microbiome Diversity and Core Species From the Urine Metabolome.",
     "doi": null,
@@ -588,44 +556,6 @@
     "limitation": "人类证据主要为关联性，因果关系未证实 | 饮食、益生菌、抗生素和粪菌移植研究不足以支持临床应用",
     "study_object": "肠道微生物组与激素相关癌症的关联，基于观察性研究",
     "disease": "乳腺癌、子宫内膜癌",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
-    "pmid": "42242028",
-    "title": "Toward predictive plant microbiomes: From assembly rules to deployment.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-06-13",
-    "authors": "Mishra Jitendra; Arora Naveen Kumar",
-    "abstract": "Plants operate as holobionts whose productivity, resilience, and ecosystem functions are inseparable from their associated microbiomes. Recent advances in multi-omics and systems ecology have revealed how plant-microbe interactions regulate nutrient cycling, immunity, stress tolerance, and biogeochemical processes. Yet, much of this knowledge remains descriptive, limiting its translation into solutions for global challenges. This Review argues for a shift from microbiome cataloguing to predictive and application-oriented plant microbiome engineering. We synthesize fundamental principles of microbiome assembly-including rhizodeposition, host developmental control, functional trait selection, and microbial network dynamics-and connect them to emerging translational strategies. We examine how plant microbiomes can be harnessed to enhance crop biofortification and bioprotection, restore degraded ecosystems, modulate carbon and nitrogen cycling for climate resilience, and support sustainable bioenergy production on marginal lands. We highlight synthetic microbial communities, microbiome-aware breeding, and trait-based microbial selection as key frameworks for establishing causality. Finally, we discuss major constraints to field deployment, including ecological instability, host specificity, unintended greenhouse-gas feedbacks, and regulatory uncertainty. By integrating mechanistic insight with ecological realism, this review positions plant microbiomes as central levers for sustainable agriculture, climate action, and the bio-based economy.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Microbiota",
-      "Plants",
-      "Ecosystem",
-      "Biofortification",
-      "Agriculture",
-      "Crops, Agricultural"
-    ],
-    "keywords": [
-      "Biofortification",
-      "Climate resilience",
-      "Holobiont",
-      "Plant microbiome",
-      "SynCom"
-    ],
-    "summary_zh": "综述主张从描述性植物微生物组转向预测性和应用导向工程，整合组装规则与部署策略，以推动可持续农业和气候行动。",
-    "innovation": "提出从微生物组编目转向预测性工程 | 连接组装规则与合成菌群、育种等转化策略 | 强调建立因果关系以应对田间部署限制",
-    "limitation": "生态不稳定性、宿主特异性、温室气体反馈、监管不确定性",
-    "study_object": "植物微生物组（宿主：植物；类型：综述，涵盖多组学与系统生态学方法）",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-09-01"
@@ -1027,38 +957,6 @@
     "fetch_date": "2026-09-01"
   },
   {
-    "pmid": "42382141",
-    "title": "Archaea-driven bioremediation of polyolefins and polyesters in extreme environments.",
-    "doi": null,
-    "journal": "Biodesign research",
-    "issn": "2693-1257",
-    "pub_date": "2026-07-01",
-    "authors": "Chigwada Aubrey Dickson; Tekere Memory",
-    "abstract": "Global plastic production surpassed 436 million metric tonnes in 2023, with polyolefins, polyethylene and polypropylene, and polyesters, polyethylene terephthalate and polybutylene adipate terephthalate dominating the persistent fraction. In extreme environments, these recalcitrant polymers accumulate rapidly: hadal-trench sediments contain microplastic abundances of 71.1 items per kilogram dry weight, while bottom waters reach 2.06-13.51 particles per litre. Abiotic degradation is severely limited by hydrostatic pressure, hypersalinity, low temperature, and anaerobiosis. Although bacterial and fungal pathways have received primary attention, archaea adapted to polyextreme conditions represent an underexplored resource. Landmark discoveries include PET46, a lid-containing feruloyl esterase from uncultured Candidatus Bathyarchaeota in Guaymas Basin deep-sea sediments that hydrolyses semi-crystalline polyethylene terephthalate powder at rates comparable to established bacterial PETases while outperforming them on oligomers. Subsequent metagenomic prospecting identified GuaPA, a distinct Bathyarchaeia-derived PETase capable of film depolymerisation. Deep-sea plastispheres, hypersaline basins, and extraterrestrial analog sites further reveal archaeal colonisation and metabolic versatility. This review synthesises metagenomic, enzymatic, and community-level evidence, critically evaluates archaeal advantages relative to bacteria and fungi, addresses persistent gaps, including limited polyolefin mineralisation and cultivation bias, and outlines priorities for enzyme engineering and consortia design. The work advances sustainable bioremediation strategies aligned with climate-action goals and circular-economy frameworks in extreme and space environments.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "Archaea plastic bioremediation",
-      "Deep-sea plastisphere",
-      "Extraterrestrial analogs",
-      "Hypersaline basins",
-      "Polyester hydrolysis",
-      "Polyolefin degradation"
-    ],
-    "summary_zh": "综述古菌在极端环境中降解聚烯烃和聚酯的证据，提出面向气候目标与循环经济的生物修复策略。",
-    "innovation": "关注适应多极端条件的古菌作为未充分开发资源 | 发现PET46和GuaPA等新型古菌PETase | 涵盖深海、超盐盆地及地外模拟位点的宏基因组与酶学证据",
-    "limitation": "聚烯烃矿化有限 | 存在培养偏倚",
-    "study_object": "极端环境（深海沉积物、水体、塑料圈、超盐盆地及地外模拟位点）样本，宏基因组与酶学分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
     "pmid": "41254344",
     "title": "The role of the human microbiome in prostate cancer: a systematic review from diagnosis to treatment.",
     "doi": null,
@@ -1170,47 +1068,6 @@
     "study_object": "人（升主动脉瘤患者与健康对照）的粪便和血浆样本，宏基因组与代谢组学分析",
     "disease": "升主动脉瘤",
     "sample_size": "72例（44例AsAA患者，28例健康对照）",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
-    "pmid": "42213391",
-    "title": "Blautia Coccoides CML164 Improved Lipid and Energy Metabolism in Broiler Chickens Via Gut Microbiota Pathways.",
-    "doi": null,
-    "journal": "Probiotics and antimicrobial proteins",
-    "issn": "1867-1314",
-    "pub_date": "2026-08-26",
-    "authors": "Gao Zhouyang; Yang Xiaohang; Nie Muying; Shi Suxin; Yuan Gaoxiang et al.",
-    "abstract": "The probiotic potential of Blautia coccoides CML164, a novel acetate-producing strain isolated from the poultry gut, was systematically evaluated for its ability to modulate lipid and energy metabolism in broilers via gut microbiota-mediated pathways. Supplementation with Blautia coccoides CML164 significantly reshaped the cecal microbiome, enriching beneficial short-chain fatty acid (SCFA)-producing bacteria such as Phocaeicola vulgatus, Parabacteroides distasonis, and members of Prevotellaceae, while concurrently increasing cecal acetate concentration in broiler chickens. These microbial changes were accompanied by improved mitochondrial function, enhanced hepatic fatty acid oxidation (upregulation of PPARα, ACOX1), and suppression of lipogenic genes (SREBP1, PPARγ), leading to reduced abdominal fat deposition and improved serum lipid profiles without compromising growth performance in broilers. The study demonstrates that Blautia coccoides CML164 functions as an effective probiotic by orchestrating gut microbiota composition and promoting SCFA production, thereby activating host metabolic pathways that mitigate lipid accumulation. Our findings highlight the critical role of microbial intervention in regulating energy homeostasis and offer a promising strategy for leveraging probiotics to enhance metabolic health in poultry production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Chickens",
-      "Energy Metabolism",
-      "Probiotics",
-      "Lipid Metabolism",
-      "Gastrointestinal Microbiome",
-      "Fatty Acids, Volatile",
-      "Cecum",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Blautia coccoides CML164",
-      "Broiler chickens",
-      "Energy metabolism",
-      "Gut microbiota",
-      "Lipid metabolism",
-      "Probiotic"
-    ],
-    "summary_zh": "评估来自家禽肠道的产乙酸菌B. coccoides CML164对肉鸡的影响，通过重塑盲肠菌群和增加乙酸，改善脂质和能量代谢。",
-    "innovation": "首次系统评价B. coccoides CML164的益生潜力 | 揭示其通过重塑盲肠微生物组和促进短链脂肪酸产生改善宿主代谢 | 证实产乙酸菌调节能量稳态的机制",
-    "limitation": "未描述",
-    "study_object": "肉鸡 + 盲肠内容物 + 微生物组分析",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-09-01"
   },
@@ -2030,48 +1887,6 @@
     "fetch_date": "2026-09-01"
   },
   {
-    "pmid": "42270219",
-    "title": "Microbial ecology and flavor formation mechanisms of high-temperature Daqu in the Huang-Huai River basin and adjacent regions: A comparative study from eastern Henan, Jiaodong peninsula, and southern Anhui.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-09-01",
-    "authors": "Zhang Zhendong; Zhang Kai; Hou Qiangchuan; Yang Chengcong; Guo Zhuang et al.",
-    "abstract": "High-temperature Daqu (HTD) serves as a critical fermentation starter for sauce-aroma type Baijiu. Although strong-aroma Baijiu dominates production in the Huang-Huai River Basin and surrounding regions, knowledge regarding the microbial ecology and flavor-forming potential of HTD in this area remains limited. In this study, we collected HTD samples from Eastern Henan, Jiaodong Peninsula (Qingdao), and Southern Anhui, and performed physicochemical analyses, enzyme activity assays, electronic sensory evaluation, and metagenomic sequencing. Significant differences in microbial community structure were observed among the three regions. Nevertheless, Kroppenstedtia eburnea, Aspergillus chevalieri, and Aspergillus oryzae were consistently dominant across all sites. Compared with the other two regions, HTD from Qingdao showed markedly higher abundances of Bacillus velezensis, Bacillus licheniformis, and Bacillus amyloliquefaciens. However, the overall relative abundance of Bacillus spp. in the Huang-Huai region was lower than that typically reported in HTD from Hubei and Guizhou provinces. Physicochemical factors, particularly density and acidity, were the primary drivers of microbial community heterogeneity and flavor profile variation across regions. Metagenomic analysis revealed a relatively complete dimethylpyrazine synthesis pathway in Qingdao Daqu, whereas the other two regions appeared to depend more on multi-species cooperation. Limosilactobacillus fermentum, enriched in Qingdao samples, harbored key acetoin synthesis genes and showed strong potential for tetramethylpyrazine (TTMP) precursor accumulation. Additionally, gene-potential profiling identified Pichia kudriavzevii as the main candidate for higher alcohol production. Subsequent validation confirmed that isolated P. kudriavzevii strains produced 2-phenylethanol, a key bitter volatile compound in sauce-flavor Baijiu. These results elucidate the regional microbial mechanisms underlying flavor formation in HTD for sauce-aroma Baijiu production in the Huang-Huai River Basin and adjacent areas, providing a theoretical basis for targeted starter culture improvement.",
-    "pub_types": [
-      "Journal Article",
-      "Comparative Study"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "China",
-      "Fermentation",
-      "Hot Temperature",
-      "Microbiota",
-      "Taste",
-      "Food Microbiology",
-      "Bacteria",
-      "Rivers",
-      "Flavoring Agents",
-      "Fermented Foods"
-    ],
-    "keywords": [
-      "Bitter compounds",
-      "Electronic sensory",
-      "High-temperature Daqu",
-      "Metagenomic sequencing",
-      "Pyrazines"
-    ],
-    "summary_zh": "比较黄淮流域及周边三地高温大曲微生物生态与风味形成机制，通过宏基因组等技术揭示区域差异及关键微生物。",
-    "innovation": "首次系统比较黄淮流域及周边地区高温大曲微生物生态 | 揭示密度和酸度是驱动微生物群落及风味差异的主要因素 | 鉴定出四甲基吡嗪前体积累及高级醇产生的关键微生物",
-    "limitation": "未描述",
-    "study_object": "黄淮流域及周边地区（东部河南、胶东半岛、皖南）高温大曲；宏基因组测序及理化分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
     "pmid": "41895366",
     "title": "Cervicovaginal detection of genital mycoplasmas is associated with preterm birth and low birth weight: a systematic review and multivariate meta-analysis of adverse pregnancy outcomes.",
     "doi": null,
@@ -2123,79 +1938,6 @@
     "fetch_date": "2026-09-01"
   },
   {
-    "pmid": "42208156",
-    "title": "Plant-driven assembly and maintenance of disease-suppressive soil microbiomes in a changing climate.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-06-15",
-    "authors": "Asif Muhammad; Chen Ying; Bian Bing-Ru; Huang Jie; Ahmad Khalil et al.",
-    "abstract": "Disease-suppressive soils are a fundamental aspect of sustainable agriculture, where native microbiomes help control soilborne pathogens through antagonistic interactions, protecting plant health even in favorable environmental conditions. This review synthesizes the current understanding of how plants actively assemble and maintain protective root microbiomes, a process that initiates and sustains this suppressiveness. The mechanistic depth of this synthesis is anchored primarily in annual cereal and vegetable crop systems, where the genetic, chemical, and ecological bases of plant-driven suppression have been most extensively characterized. While illustrative examples from perennial and woody systems are included to highlight specific principles, a comprehensive treatment of their distinct assembly dynamics, shaped by root persistence and long-term legacy accumulation, lies beyond the scope of this review. We detail how plants recruit beneficial microbes through a dynamic dialogue involving root exudates and immune system modulation, creating rhizosphere hotspots that enrich for protective consortia. This assembly is governed by host genetics, which shapes microbial recruitment and the plant's responsiveness to beneficial feedback. Critically, these interactions foster self-reinforcing legacies, where pathogen-induced stress reprograms exudate profiles to recruit suppressors, establishing durable microbiome shifts that confer intergenerational protection. However, escalating climate change threatens this equilibrium by perturbing microbial community structure, reducing beneficial diversity, favoring opportunistic pathogens, and eroding suppression efficacy. By integrating plant-microbe communication with soil-borne disease ecology, this perspective illuminates strategies for breeding crops and engineering soils to harness protective feedbacks for sustainable, microbiome-mediated disease management.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Soil Microbiology",
-      "Microbiota",
-      "Plant Diseases",
-      "Rhizosphere",
-      "Climate Change",
-      "Plant Roots",
-      "Plants",
-      "Soil"
-    ],
-    "keywords": [
-      "Climate change",
-      "Disease-suppressive soil",
-      "Managing suppressiveness",
-      "Plant-microbe interactions",
-      "Soil health",
-      "Soil legacy"
-    ],
-    "summary_zh": "综述植物如何主动组装并维持抑病土壤微生物组，探讨根际信号、宿主遗传及气候变化的冲击，提出利用保护性反馈实现可持续病害管理。",
-    "innovation": "整合植物-微生物通讯与土传病害生态学 | 强调病原诱导的根系分泌物重编程形成跨代保护 | 揭示气候变化对抑病微生物组平衡的侵蚀机制",
-    "limitation": "未全面涵盖多年生和木本系统的独特组装动态",
-    "study_object": "农田土壤 + 根系微生物组 + 综述",
-    "disease": "土传病害",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
-    "pmid": "41814018",
-    "title": "Impacts of climate extremes on plant pathogens, microbiomes and plant health.",
-    "doi": null,
-    "journal": "Nature reviews. Microbiology",
-    "issn": "1740-1534",
-    "pub_date": "2026-08-13",
-    "authors": "Xiong Chao; Ge An-Hui; Gao Min; Singh Brajesh K",
-    "abstract": "Plant diseases pose a great risk to global food security, and recent research indicates that pathogen pressures on plant productivity will substantially increase under ongoing climate change (that is, increasing CO2 levels and global warming). However, our mechanistic and predictive knowledge of the impacts of climate extremes, such as heatwaves and prolonged droughts, and their interaction with other climatic factors, on plant pathogens, hosts and microbiomes, remains largely unknown. This is an important knowledge gap that limits our ability to develop effective strategies to mitigate the socioeconomic impacts of climate change-induced plant disease outbreaks. This Review examines the impacts of key climate extremes on soil-borne pathogens, plant microbiomes and host physiology that ultimately determine disease outcomes. We explore evidence that suggests that the responses of pathogen-host-microbiome interactions to climate extremes may differ in many ways from those to long-term climate change. Climate extremes may increase the virulence and distribution of many pathogens, suppress certain plant immune responses, and weaken the core functions of host microbiomes within the disease triangle, thereby facilitating disease outbreaks. We propose an integrated pathway for harnessing microbiomes to address the critical challenges posed by climate extremes. These insights offer new approaches to mitigate disease risks by harnessing microbiomes and metabolites under climate extremes, with the potential to support climate-resilient and sustainable agricultural and natural ecosystems.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Climate Change",
-      "Plant Diseases",
-      "Microbiota",
-      "Plants",
-      "Host-Pathogen Interactions",
-      "Soil Microbiology"
-    ],
-    "keywords": [],
-    "summary_zh": "综述探讨气候极端事件对植物病原体、微生物组及宿主的影响，提出利用微生物组缓解病害风险的整合途径。",
-    "innovation": "提出气候极端事件与长期气候变化对病原-宿主-微生物组互作影响不同的观点 | 构建利用微生物组和代谢物应对极端气候下植物病害的整合途径",
-    "limitation": "未描述",
-    "study_object": "植物 + 病原体/微生物组/宿主生理 + 文献综述",
-    "disease": "植物病害",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
     "pmid": "42364737",
     "title": "The lung microbiome in hematopoietic stem cell transplantation: immune interactions, clinical consequences, and emerging interventions.",
     "doi": null,
@@ -2236,89 +1978,6 @@
     "study_object": "（待生成）",
     "disease": "（待生成）",
     "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
-    "pmid": "42214537",
-    "title": "Intratracheal Lactobacillus rhamnosus attenuates poultry-house PM2.5-induced lung inflammation in broilers by remodeling the pulmonary microbiota-metabolite axis.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-09-01",
-    "authors": "Wang Kai; Li Cuiguang; Mohamed Kahiel; Mohamed Ahmed Fathi; Nagaoka Kentaro et al.",
-    "abstract": "Fine particulate matter (PM2.5) in intensive farming systems is a bioaerosol mixture that poses severe risks to respiratory health; however, the role of the lung microbiome in PM2.5-induced toxicity and its potential as a therapeutic target remain poorly understood. Here, we investigated the pulmonary toxicity of poultry-house PM2.5 and evaluated the protective efficacy of intratracheal Lactobacillus rhamnosus (L. rhamnosus) administration in a broiler model. Exposure to PM2.5 caused significant lung pathological injury, oxidative stress, and inflammatory responses. Integrative analysis of 16S rRNA gene sequencing and untargeted metabolomics revealed that PM2.5 disrupted the pulmonary microecology, depleting commensal Lactobacillus while enriching opportunistic pathogens (Escherichia-Shigella), which coincided with a marked suppression of tryptophan metabolism. Strikingly, L. rhamnosus intervention reversed this dysbiosis and specifically restored the levels of indole derivatives, particularly indole-3-lactic acid (ILA). Correlation analysis further demonstrated that elevated ILA levels were strongly associated with reduced pro-inflammatory cytokines and improved antioxidant capacity, suggesting a strong correlation between L. rhamnosus administration, the reinstatement of microbiota-derived tryptophan metabolites, and respiratory protection. Collectively, our findings provide the evidence that identifying and restoring key microbial metabolites offers a potent remediation strategy against environmental bioaerosol-induced respiratory injury.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Lacticaseibacillus rhamnosus",
-      "Chickens",
-      "Particulate Matter",
-      "Microbiota",
-      "Lung",
-      "Pneumonia",
-      "Air Pollutants",
-      "Probiotics"
-    ],
-    "keywords": [
-      "Broiler chicken",
-      "Intratracheal administration",
-      "Lactobacillus rhamnosus",
-      "Lung microbiota-metabolomics",
-      "PM(2).(5)"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-01"
-  },
-  {
-    "pmid": "42176589",
-    "title": "Trichoderma modulates Pseudomonas metabolism: Co-inoculation enhances phosphorus acquisition of Pyrus betulifolia in calcareous soil.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-06-15",
-    "authors": "Kuerban Zuohereguli; Shao Yadong; Jiang Rou; Shi Yujie; Ma Yanwei et al.",
-    "abstract": "Phosphorus (P) is poorly available in calcareous soils, limiting pear growth. We evaluated whether Trichoderma brevicompactum TB2 improves P availability and the rhizosphere microbiome. This study used Trichoderma brevicompactum TB2 to investigate the regulatory mechanisms influencing rhizosphere phosphorus transformation and microbiome structure in pear seedlings. Four treatments were analyzed: sterilized soil control (SSC), sterilized soil with TB2 (SST), natural soil control (NSC), and natural soil with TB2 (NST). SST and NST treatments significantly increased plant height, biomass, and soil available phosphorus (AP) while reducing soil pH compared to SSC and NSC. Notably, only the NST treatment significantly enhanced plant phosphorus content and accumulation. Compared to NSC, NST led to significant restructuring of the rhizosphere microbial community (via 16S rRNA) and functional differentiation in phosphorus cycling (as shown by metagenomics), including increased abundances of key phosphorus-metabolism genes (phnN, phnL, phnP, gcd) and improved organic phosphoester hydrolysis and transport pathways. Metagenome-assembled genomes (MAGs) identified five high-quality gcd-containing MAGs, including those from Bacteroidota (bin43, bin16) and Pseudomonas (bin53, bin72, bin13), with a bin13-match strain isolated from the NST rhizosphere. Pot trials confirmed that inoculation with TB2 or PSE significantly improved plant biomass and phosphorus nutrition indices compared to CK. Co-inoculation with TB2 and PSE elicited synergistic effects that exceeded those of the individual inoculants. In natural calcareous soil, TB2 enhances pear growth by recruiting P-solubilizing Pseudomonas and activating rhizosphere P cycling. This offers a practical route to improve P-fertilizer efficiency in orchards.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Phosphorus",
-      "Soil Microbiology",
-      "Trichoderma",
-      "Rhizosphere",
-      "Pseudomonas",
-      "Soil",
-      "RNA, Ribosomal, 16S",
-      "Pyrus",
-      "Biomass",
-      "Microbiota",
-      "Metagenome",
-      "Plant Roots"
-    ],
-    "keywords": [
-      "Calcareous soil",
-      "Pear trees",
-      "Phosphorus",
-      "Pseudomonas",
-      "Trichoderma brevicompactum TB2"
-    ],
-    "summary_zh": "研究木霉TB2对钙质土壤梨树根际磷转化和微生物组的影响，发现其招募解磷假单胞菌并激活磷循环，促进梨树生长。",
-    "innovation": "发现木霉TB2通过招募解磷假单胞菌激活根际磷循环 | 共接种TB2和假单胞菌产生协同促生效能 | 利用宏基因组和MAGs鉴定含gcd基因的功能菌群",
-    "limitation": "未描述",
-    "study_object": "梨树幼苗根际土壤；16S rRNA测序及宏基因组分析",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-09-01"
   },

@@ -139,60 +139,6 @@
     "fetch_date": "2026-08-24"
   },
   {
-    "pmid": "42636661",
-    "title": "Desert-derived Ensifer sp. SA403 enhances potato salt tolerance by reshaping rhizosphere microbiome functions and host responses.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-08-24",
-    "authors": "Zeng Yuxiao; Tao Qian; Fan Jiahui; Wang Yunyue; Tao Ruiyan et al.",
-    "abstract": "Soil salinization increasingly threatens global food security, and potato (Solanum tuberosum L.), a moderately salt-sensitive crop, is particularly vulnerable to saline soils. Plant growth-promoting rhizobacteria (PGPR) offer a promising strategy to improve crop performance, yet how PGPR interact with native microorganisms to enhance potato salt tolerance remains poorly understood. In this study, we identified a desert-derived PGPR strain, Ensifer sp. SA403, which substantially enhanced potato performance under high salinity across sterile, non-sterile and field conditions. Physiologically, inoculation with SA403 reduced shoot Na⁺ accumulation and increased the K⁺/Na⁺ ratio; notably, these effects were markedly stronger in non-sterile substrates than under sterile conditions, indicating that SA403-mediated ion homeostasis relies on cooperation with the resident microbiota rather than on the strain acting alone. Metagenomic profiling indicated that SA403 strain reshaped rhizosphere communities, significantly enriching beneficial taxa such as Priestia and Bradyrhizobium, and upregulated functional pathways involved in glutathione and sulfur metabolism. Furthermore, host transcriptomic analyses showed that SA403 modulated plant responses to salt stress, with differentially expressed genes enriched in jasmonic acid signaling, ethanolamine metabolism and amino-acid biosynthesis pathways. Field trials on saline soils confirmed that SA403 significantly increased seedling emergence and tuber weight. Together, our results demonstrate that SA403 functions as a biological mediator that optimizes rhizosphere microecology and coordinates ion balance and host signaling to enhance potato salt tolerance. These findings support the potential of SA403 as a robust PGPR-based tool for sustainable potato production on saline soils.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Ensifer sp.SA403",
-      "PGPR",
-      "Potato",
-      "Rhizosphere microbiome",
-      "Salt tolerance"
-    ],
-    "summary_zh": "本研究从沙漠分离Ensifer sp. SA403菌株，通过重塑根际菌群和宿主信号途径增强马铃薯耐盐性，并提高田间产量。",
-    "innovation": "揭示PGPR需依赖原生菌群协作而非单独作用来维持离子稳态 | 发现SA403显著富集有益菌并上调谷胱甘肽和硫代谢通路 | 结合多组学与田间试验验证其田间应用潜力",
-    "limitation": "未描述",
-    "study_object": "马铃薯 根际样本 宏基因组和转录组",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-24"
-  },
-  {
-    "pmid": "42637888",
-    "title": "Colibactin produced by a honeybee gut symbiont mediates pathogen defence.",
-    "doi": null,
-    "journal": "Nature microbiology",
-    "issn": "2058-5276",
-    "pub_date": "2026-08-24",
-    "authors": "Song Yulin; Powell J Elijah; Wong Joel W H; Liu Yunxi; Aguilar Ramos Miguel A et al.",
-    "abstract": "Colibactin is a bacterial genotoxin that damages DNA and is linked to colorectal cancer. It is implicated in interbacterial competition but its role in natural microbiomes is unclear. Here we show that Frischella perrara, a colibactin-producing symbiont restricted to honeybee guts, lowers bee lifespan but increases survivorship following challenge with the opportunistic bee pathogen Serratia marcescens. F. perrara mutants lacking colibactin production fail to improve survivorship following challenge. The symbiont reduces pathogen loads by causing colibactin-dependent DNA damage and prophage induction. Colibactin is toxic to the pathogen under anoxic conditions, reflecting the bee gut. clbS, a gene conferring protection from colibactin, is ubiquitous among bacteria restricted to bee guts but absent from opportunistic colonizers, including pathogens. Indeed, F. perrara colonization representing colibactin pressure had limited impact on the bee gut microbiome where strains encode clbS. Our findings suggest that colibactin functions in interbacterial competition and protects against pathogens while permitting co-evolved symbionts to persist.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "本研究通过基因突变和病原体挑战实验，发现蜜蜂肠道共生菌Frischella perrara产生的colibactin能诱导病原菌DNA损伤并降低其负荷，从而保护蜜蜂。",
-    "innovation": "首次揭示colibactin在天然微生物组中通过诱导病原菌DNA损伤和前噬菌体发挥防御作用 | 发现clbS基因在蜜蜂肠道固有菌群中普遍存在而病原菌缺失",
-    "limitation": "未描述",
-    "study_object": "蜜蜂肠道共生菌Frischella perrara及其突变株，采用基因突变和病原体挑战实验",
-    "disease": "结直肠癌",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-24"
-  },
-  {
     "pmid": "42636981",
     "title": "TARGET ENRICHED METAGENOMICS IN CEREBROSPINAL FLUID IN CENTRAL NERVOUS SYSTEM INFECTIONS.",
     "doi": null,
@@ -244,37 +190,6 @@
     "limitation": "未描述",
     "study_object": "结直肠癌（概念模型）",
     "disease": "结直肠癌，早发性结直肠癌，筛查后结直肠癌",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-24"
-  },
-  {
-    "pmid": "42637124",
-    "title": "Rhizobia block Cd absorption in peanut via rhizosphere microbiome assembly and N-regulated host defense.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-08-24",
-    "authors": "Li Xinyi; Zhou Jie; Liu Xiang; Liu Luyao; Chen Qiang et al.",
-    "abstract": "Cadmium (Cd) contamination severely threatens peanut (Arachis hypogaea L.) production and symbiotic nitrogen fixation (SNF). Although rhizobia inoculation can alleviate heavy metal toxicity in plants, how nitrate (NO3-) regulates Cd translocation and the defense of the \"rhizobia-root-nodule\" system remains unclear. Here, we investigated the mechanisms by which the peanut rhizobium, Rhizobium sp. HM13, mitigates Cd toxicity and sustains SNF under varying NO3- levels (N- and N+) via field and pot trials. Field trials showed that HM13 reduced rhizosphere bioavailable Cd and decreased seed Cd accumulation by 49.9%. Rhizosphere sequencing revealed that HM13 enriched functional taxa, particularly Actinobacteriota, Bacillus, and Bradyrhizobium, enhancing network complexity and stability. Pot experiments confirmed that HM13's Cd-blocking effect was strongly modulated by NO3-. Under N+ conditions, Cd stress reduced nitrogenase activity; nitrate supply induced premature nodule senescence, disrupted the symbiotic Cd-exclusion barrier, resulting in increased Cd accumulation in pods. Conversely, under N- conditions, robust symbiotic nitrogen fixation strengthened the root-nodule Cd-exclusion barrier, sustaining nitrogenase activity and reducing pod Cd by 38.6-41.8%. Physiologically, HM13 established a synergistic root-nodule defense network. Roots intercepted Cd via the POD-CAT-GSH-PRO pathway, while nodules protected nitrogenase activity through GR-FLA-mediated redox regulation. Overall, Rhizobium sp. HM13 is a dual-functional strain sustaining SNF and blocking Cd. This study elucidates the nitrogen-regulated SNF-antioxidant defense mechanism, providing theoretical and technical support for safe peanut production in Cd-contaminated farmlands.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Antioxidant system",
-      "Cadmium",
-      "Nitrogen-regulating",
-      "Nitrogenase",
-      "Peanut rhizobia",
-      "Symbiotic nitrogen fixation"
-    ],
-    "summary_zh": "通过田间和盆栽试验，发现根瘤菌HM13经根际微生物组和氮调控防御阻断花生镉吸收，减少籽粒与荚果镉积累，保障共生固氮。",
-    "innovation": "揭示根瘤菌HM13通过调控根际微生物组和氮素调节宿主防御阻断镉吸收的机制 | 发现硝酸盐水平对共生固氮和镉排除屏障的相反调节作用 | 阐明根-根瘤协同抗氧化防御网络（POD-CAT-GSH-PRO和GR-FLA）",
-    "limitation": "未描述",
-    "study_object": "花生根际微生物组与根瘤，采用田间/盆栽试验、根际测序及生理分析",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-08-24"
@@ -414,47 +329,6 @@
     "study_object": "肥胖患者及正常体重对照的粪便样本，采用16S rRNA测序和1H-NMR代谢组学",
     "disease": "严重肥胖；2型糖尿病",
     "sample_size": "85例肥胖患者和21例正常体重对照",
-    "ai_done": true,
-    "fetch_date": "2026-08-24"
-  },
-  {
-    "pmid": "42636375",
-    "title": "Soil management practices shape the abundance, diversity, and spread of antimicrobial resistance.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-08-24",
-    "authors": "Nickodem Colette A; Tran Patricia Q; Neeno-Eckwall Eric; Naing Naing; Sanford Gregg R et al.",
-    "abstract": "Agricultural soils are critical hotspots of antimicrobial resistance genes (ARGs). Yet, the environmental factors shaping these reservoirs and the hazards they pose to humans and livestock remain poorly understood. Because management practices introduce antibiotics, heavy metals, and nonantibiotic biocides, they can rapidly select for resistance. Most studies have examined components of management practices in isolation, overlooking the multiple stressors of modern industrial agriculture. Here, we used a large-scale field experiment to examine how multiple stressors from soil and crop management interact to shape antimicrobial resistance. We combined shotgun metagenomics, phylogenomics, and risk-score analyses to quantify the diversity of ARGs, mobile genetic elements (MGEs), and the transmission potential of drug-resistant pathogens. Relative to other management systems, intensive, chemically reliant monoculture systems, typical of the US Corn Belt, create strong selective pressures promoting more abundant and diverse ARGs and MGEs. These systems therefore carry greater potential to transmit ARGs, including those with relevance to both livestock and public health such as tetA and blaPAM, likely mediated by integration and excision. In contrast, less-intensive, lower-input systems with diverse crop rotations maintained resistomes with lower abundance, diversity, and transmission potential. Our results suggest that these patterns could arise due to the divergent effects of management practices on overall soil microbial diversity, an ecological barrier that can suppress ARGs. This study highlights the need to understand the combined stressors of agricultural practices, beyond antimicrobial use, to design effective strategies to mitigate antimicrobial resistance.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Soil Microbiology",
-      "Soil",
-      "Agriculture",
-      "Drug Resistance, Bacterial",
-      "Anti-Bacterial Agents",
-      "Animals",
-      "Metagenomics",
-      "Drug Resistance, Microbial",
-      "Bacteria",
-      "Phylogeny",
-      "Interspersed Repetitive Sequences"
-    ],
-    "keywords": [
-      "agricultural environment",
-      "microbiome",
-      "mobile genetic elements",
-      "resistome"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-08-24"
   },

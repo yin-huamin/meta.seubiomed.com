@@ -141,42 +141,5 @@
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-06-23"
-  },
-  {
-    "pmid": "42308050",
-    "title": "Opposing range-dependent interactions create complex spatial patterns of antibiotic tolerance in multispecies biofilms.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-06-23",
-    "authors": "Bottacin Giulia; Raach Benjamin; Fröhlich Leonard; Künnecke Jasmin; Kaczmarczyk Andreas et al.",
-    "abstract": "Many microbial communities form multispecies biofilms where cells interact through diffusible molecules. In these biofilms, multiple interactions, often with opposing effects, occur simultaneously, yet we lack quantitative frameworks to predict how they combine to shape community functions. Here, we hypothesized that complex spatial patterns can emerge when opposing interactions have distinct spatial ranges. To test this, we studied how two Pseudomonas aeruginosa exoproducts, HQNO and rhamnolipids, jointly modulate Staphylococcus aureus antibiotic tolerance by respectively increasing and decreasing it. Using microfluidics-based imaging, we quantified spatial-tolerance patterns at single-cell resolution and found that tolerance indeed shows a complex spatial pattern: S. aureus cells survived treatment only at intermediate distances from P. aeruginosa, while cells closer or farther away did not. Combining experiments and modeling, we showed that this remarkable pattern emerges because rhamnolipids have a stronger but short-ranged effect, while HQNO has a weaker but longer-ranged effect. We found that spatial arrangement affects overall tolerance by shifting the balance between the two opposing interactions. Finally, using bioprinting, we confirmed that HQNO and rhamnolipids modulate tolerance in highly mixed biofilms. In more segregated biofilms, spatial arrangement still strongly modulated tolerance, but independently of these compounds, suggesting additional interactions. Together, our results show that spatial-tolerance patterns emerge from the combined effect of opposing range-dependent interactions and cannot be predicted from either alone. By predicting how opposing interactions jointly determine community properties, our framework provides a foundation for understanding and ultimately engineering microbiome functions.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Biofilms",
-      "Pseudomonas aeruginosa",
-      "Anti-Bacterial Agents",
-      "Staphylococcus aureus",
-      "Glycolipids",
-      "Drug Resistance, Bacterial"
-    ],
-    "keywords": [
-      "antibiotic tolerance",
-      "emergent properties",
-      "interspecies interactions",
-      "multispecies biofilm",
-      "spatial structure"
-    ],
-    "summary_zh": "通过实验和建模揭示铜绿假单胞菌两种产物（HQNO和鼠李糖脂）的不同作用距离共同调控金黄色葡萄球菌的抗生素耐受空间模式。",
-    "innovation": "提出相反相互作用不同空间范围产生复杂空间模式的假设 | 单细胞分辨率定量空间耐受模式 | 结合实验和建模揭示机制",
-    "limitation": "未描述",
-    "study_object": "多物种生物膜（铜绿假单胞菌和金黄色葡萄球菌） + 微流控成像和生物打印",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-23"
   }
 ]

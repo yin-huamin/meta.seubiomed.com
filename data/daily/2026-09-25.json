@@ -1,45 +1,5 @@
 [
   {
-    "pmid": "42191017",
-    "title": "Lavandula angustifolia and microbial bioaugmentation synergistically reshape rhizosphere microbiome and enhance heavy metals removal in historically contaminated soils.",
-    "doi": null,
-    "journal": "New biotechnology",
-    "issn": "1876-4347",
-    "pub_date": "2026-09-25",
-    "authors": "Cavone Cristina; De Paola Domenico; Naclerio Gino; Bucci Antonio; Barra Caracciolo Anna et al.",
-    "abstract": "Heavy metal contamination poses a serious threat to soil ecosystems and requires sustainable remediation approaches capable of restoring both chemical quality and microbial functionality. This study evaluates the effectiveness of plant-assisted bioremediation (Lavandula angustifolia) and bioaugmentation with a selected bacterial consortium of four strains (Gordonia amicalis, Rhodococcus erythropolis, Acinetobacter puyangensis, and A. tibetensis) in soils that have been historically contaminated with multiple pollutants - such as heavy metals (HMs) and polychlorinated biphenyls (PCBs). Microcosms were created with four treatments, i.e. Historically Contaminated Soil (HCS), Plant-assisted bioremediation (PLANT), microbial bioaugmentation (BIOAUG) and the combination of plant-assisted bioremediation and bioaugmentation (PLANT+BIOAUG) and monitored over a 90-days period through chemical analyses, 16S rDNA sequencing, diversity metrics, differential abundance tests and functional prediction. The PLANT+BIOAUG combination demonstrated the highest removal efficiency of Pb (44.75%) and Sn (66.87%), suggesting a robust synergistic interaction between plant and microbial inoculum. Microbial α-diversity remained stable across treatments, while β-diversity analyses (Bray-Curtis, PERMANOVA p = 0.001) revealed significant community restructuring. Taxonomic analyses highlighted shifts in key genera and an enrichment of bacterial families associated with metal transformation, redox processes, and stress tolerance. The functional prediction identified 7959 KEGG functions, with the combined treatment showing the highest functional redundancy in metal efflux systems, siderophore production, electron transport pathways, and EPS/biofilm formation. Overall, integrating L. angustifolia with a metal-resistant microbial consortium could improve both contaminant removal and microbial functional potential, supporting a robust and sustainable strategy for the remediation of multi-contaminated soils. These results provide valuable insights into synergistic plant-microbe processes and offer practical guidelines for in situ bioremediation within the framework of the circular economy and nature-based models.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Metals, Heavy",
-      "Soil Pollutants",
-      "Biodegradation, Environmental",
-      "Soil Microbiology",
-      "Microbiota",
-      "Rhizosphere",
-      "Bacteria",
-      "RNA, Ribosomal, 16S"
-    ],
-    "keywords": [
-      "16S rDNA",
-      "Bioremediation",
-      "Metagenomics",
-      "Microbial communities",
-      "heavy metal contamination"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-25"
-  },
-  {
     "pmid": "42786922",
     "title": "Pathogenesis of hidradenitis suppurativa: From susceptibility to chronicity.",
     "doi": null,

@@ -106,45 +106,6 @@
     "fetch_date": "2026-10-27"
   },
   {
-    "pmid": "42896052",
-    "title": "Biotic response networks are an important organizer of the transcriptome in wild Arabidopsis thaliana populations.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-10-27",
-    "authors": "Leite Montalvão Ana Paula; Murray Kevin D; Bezrukov Ilja; Betz Natalie; Henry Lucas P et al.",
-    "abstract": "Extensive laboratory experimentation has revealed conserved molecular pathways controlling growth and stress responses in plants, yet how these programs operate in natural settings remains poorly understood. We have investigated the organization of the transcriptome in wild populations of Arabidopsis thaliana by sampling plants across 60 natural sites in Europe and North America over two seasons. Transcriptomes varied extensively among individuals and were only weakly structured by geography or season. No groups of plants stood out due to clear biotic or abiotic stress signatures known from the laboratory. While only a small portion of transcriptome variance was explained by disease symptoms or environmental and phenotypic variables, infection-associated signals accounted for the largest share of the explainable fraction. Biotic-response networks identified in controlled laboratory conditions were well conserved in wild transcriptomes, while other networks, including abiotic-response networks were substantially reorganized in wild plants. Together, these results indicate that while certain transcriptional modules are easily reidentified when moving from the wild to controlled conditions, many regulatory relationships differ in these two contexts, highlighting how ecological complexity shapes transcriptome organization in natural populations.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Arabidopsis",
-      "Transcriptome",
-      "Gene Expression Regulation, Plant",
-      "Gene Regulatory Networks",
-      "Stress, Physiological",
-      "Europe",
-      "Gene Expression Profiling",
-      "North America"
-    ],
-    "keywords": [
-      "coexpression networks",
-      "ecological genomics",
-      "ecological transcriptomics",
-      "host–microbiome interactions",
-      "molecular ecology"
-    ],
-    "summary_zh": "对欧美60个自然样点两季野生拟南芥取样，分析转录组组织，发现生物响应网络保守而其他网络重排。",
-    "innovation": "在60个自然样点两季采样野生拟南芥，研究自然种群转录组组织 | 发现实验室鉴定的生物响应网络在野生转录组中高度保守 | 发现包括非生物响应网络在内的其他网络在野生植物中显著重排",
-    "limitation": "仅小部分转录组变异可由环境、表型和疾病症状解释",
-    "study_object": "野生拟南芥自然种群 + 植株样本 + 转录组分析",
-    "disease": "疾病症状（未指明具体疾病）",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-10-27"
-  },
-  {
     "pmid": "42934476",
     "title": "Aerobic exercise training alters gastrointestinal microbiota and enhances exercise capacity in UM-HET3 mice.",
     "doi": null,

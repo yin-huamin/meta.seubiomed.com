@@ -22,48 +22,5 @@
     "sample_size": "67万高质量分离基因组、18万MAGs、约5万份环境微生物组样本",
     "ai_done": true,
     "fetch_date": "2026-11-14"
-  },
-  {
-    "pmid": "43026629",
-    "title": "A specialized microbiome enriched in nitrification and halogen cycling potential resolved from multi-omics investigation of a Caribbean suboxic and acidic marine sinkhole.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-11-14",
-    "authors": "Boer Meine D; Peets Pilleriin; van Eijnatten Abraham L; Nelson Craig E; do Canto Brum de Menezes Pena Maria M et al.",
-    "abstract": "BACKGROUND: The Luymes Sinkholes, located on the Luymes Bank northwest of Saba, represent a unique marine environment characterized by distinct biogeochemical gradients. Most noticeable is an acidic (pH ≈ 6.25) and suboxic (O2 < 60 µmol/kg) submerged 'lake' at ~ 220 m depth exhibiting extreme deviations from standard oceanographic patterns, including elevated inorganic carbon, nitrate, and phosphate, and a lower temperature (20.3 ºC vs 26.4 ºC). To determine how the microbiome within the submerged acid lake adapted to these unique conditions, we collected 59 coupled samples of size-filtered (0.22 µm) planktonic microbes for shotgun metagenomics and solid-phase extracted dissolved organic matter for untargeted metabolomics from 21 stations at depths ranging from 2 to 600 m during a 10-day research cruise in December 2019.\nRESULTS: We identified a distinct microbial community within the submerged acid lake different from the non-acidic sinkholes, with increased abundances of Nitrospinota, Thermoproteota, Planctomycetota, and Actinobacteriota. We also found three enriched classes of dissolved compounds within the submerged acid lake: (1) large, (2) low-polarity, and (3) halogenated metabolites, including iodides and halobenzoic acids. Correlations between microbial taxa and metabolite classes show potential links between nitrifying archaea and halogenated compound cycling. We further supported these findings using the functional annotation of metagenome-assembled genomes (MAGs) and protein clusters showing enrichment of nitrification and halogen cycling genes, suggesting the presence of specialized degradation and biosynthetic pathways, directly connecting microbial metabolism to the observed geochemical conditions.\nCONCLUSION: These findings demonstrate that the submerged acid lake contains specific microbially driven biogeochemical processes under acidified and low-oxygen conditions, providing a natural model for future extreme ocean acidification scenarios. With this multi‑omics approach, we were able to connect the microbial metabolism with this unique environment, thereby expanding our understanding of how both are interconnected. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Nitrification",
-      "Microbiota",
-      "Multiomics",
-      "Metagenomics",
-      "Bacteria",
-      "Halogens",
-      "Lakes",
-      "Metabolomics",
-      "Hydrogen-Ion Concentration"
-    ],
-    "keywords": [
-      "Biogeochemical cycles",
-      "Halogen cycling",
-      "Marine sinkholes",
-      "Metabolomics",
-      "Metagenomics",
-      "Microbiome",
-      "Multi-omics",
-      "Nitrification"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-14"
   }
 ]

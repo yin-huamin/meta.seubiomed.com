@@ -47,45 +47,6 @@
     "fetch_date": "2026-09-24"
   },
   {
-    "pmid": "42307225",
-    "title": "The microbiome in reptile health, disease, and ecology.",
-    "doi": null,
-    "journal": "Microbiology and molecular biology reviews : MMBR",
-    "issn": "1098-5557",
-    "pub_date": "2026-09-24",
-    "authors": "Hoffbeck Carmen; Taylor Michael W",
-    "abstract": "SUMMARYReptiles are a diverse and speciose class of animals that are broadly threatened by habitat loss, climate change, and other factors. From a microbiological perspective, reptiles have historically been examined as a source of disease, particularly salmonellosis, with most studies being culture-based investigations into causative agents of disease and potential for zoonoses. More recent work has sought to characterize the oral, skin, and gut microbiomes of reptiles more broadly to understand their contribution to reptile health and digestion. Non-avian reptiles are particularly interesting as ectothermic tetrapods, which usually lay eggs and have limited interaction with their young, as their digestion and life history strategies diverge substantially from the more well-studied mammals. Here, we review the reptile skin, oral, gut, eggshell, and nest microbiomes, along with the relationship between the microbiome and temperature stress. We present findings that distinguish the reptile microbiome from those of other studied vertebrate taxa, and place them in the context of their phylogenetic and ecological similarities to other animals. We discuss major disease-causing agents in reptiles, which was historically the main lens through which to view reptile microbiology, along with potential zoonoses. Finally, we examine how temperature and thermoregulation interact with the microbiome in reptiles, and how the microbiome may play a role in reptile conservation.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Animals",
-      "Reptiles",
-      "Microbiota",
-      "Zoonoses",
-      "Ecosystem",
-      "Phylogeny"
-    ],
-    "keywords": [
-      "conservation",
-      "disease",
-      "diversity",
-      "ectothermy",
-      "reptile",
-      "transmission"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-24"
-  },
-  {
     "pmid": "42785658",
     "title": "The oral microbiome of prediabetes: a scoping review.",
     "doi": null,

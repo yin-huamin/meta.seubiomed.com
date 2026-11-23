@@ -1,29 +1,5 @@
 [
   {
-    "pmid": "42086594",
-    "title": "Lung microbiota-mediated biotransformation of mogroside preserves pulmonary barrier integrity and attenuates PM2.5-induced inflammation via NF-κB-Th17 modulations.",
-    "doi": null,
-    "journal": "NPJ biofilms and microbiomes",
-    "issn": "2055-5008",
-    "pub_date": "2026-05-05",
-    "authors": "Wang Kai; Li Yuan; Li Cuiguang; Kahiel Mohammed; Nagaoka Kentaro et al.",
-    "abstract": "PM2.5-induced lung injury challenges poultry health with limited treatments. Mogroside's unique therapeutic impact on pulmonary inflammation may involve modulating the lung microbiome, which influences immune function and respiratory health. We first demonstrated that mogroside (MG) supplementation improved growth performance and mitigated PM2.5-induced alveolar damage, inflammatory cytokine release, and Th17 differentiation (p < 0.05). MG increased the abundance of beneficial bacteria, particularly Lactobacillus (p < 0.01). Notably, MG IIE accumulated in lung tissues and bronchoalveolar lavage fluid (BALF). To further clarify the role of microbe-metabolite interactions, BALF from MG-treated broilers was transplanted. Only complete BALF containing both MG and microbiota significantly alleviated fibrosis (p < 0.05), reshaped lung microbial composition, and modulated metabolites such as taurine and lactic acid. Microbiome analysis identified Sphingomonas as a key taxon enriched in MG-BALF, strongly correlated with protective metabolites. In vitro assays confirmed that Sphingomonas degraded MG IIE into mogrol via β-glucosidase activity. Finally, a Calu-3-Jurkat T lymphocytes co-culture model revealed that MG IIE, particularly in combination with Sphingomonas metabolites, preserved barrier integrity, suppressed NF-κB phosphorylation, reduced ROS, and inhibited Th17-associated cytokine expression. Collectively, MG IIE and its Sphingomonas-mediated metabolites form a lung microbiota-metabolite-host axis that protects against PM2.5-induced pulmonary injury.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
     "pmid": "41417461",
     "title": "Fecal Microbiota Therapy: Clinical Laboratory Testing and Metabolomic Approaches for Donor Screening, Product Assessment, and Patient Monitoring.",
     "doi": null,
@@ -53,43 +29,6 @@
     "limitation": "未描述",
     "study_object": "人类粪便样本，宏基因组学和代谢组学技术",
     "disease": "复发性艰难梭菌感染",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
-    "pmid": "42086572",
-    "title": "Breakdown of microbial networks links nutrient stress and reef coral disease.",
-    "doi": null,
-    "journal": "Nature communications",
-    "issn": "2041-1723",
-    "pub_date": "2026-05-05",
-    "authors": "Gracie Raphaela; Wiedenmann Jörg; Lam Phyllis; Sweet Michael; D'Angelo Cecilia",
-    "abstract": "Coral diseases are increasing in prevalence, accelerating the global decline of tropical reefs, which threatens over 25% of marine biodiversity and vital ecosystem services for human societies. While outbreaks are frequently linked to environmental change, including heat stress, sedimentation, and reduced water quality, the mechanisms by which such factors promote disease remain poorly understood. Here we show that nutrient stress, caused by skewed seawater nitrogen-to-phosphorus (N:P) stoichiometry, promotes the onset of Black Band Disease (BBD), a common and easily recognisable syndrome that affects corals around the globe. Using Turbinaria reniformis as a model system, controlled laboratory experiments demonstrate that skewed N:P ratios disrupt the functional integrity of coral-associated microbial networks while favouring opportunists that exploit dysfunctional host-symbiont interactions. Disease lesion-associated microbial mats are dominated by cyanobacteria and include sulphur-metabolising bacteria, hallmarks of natural BBD communities. Strikingly, similar cyanobacterial taxa are also detected in the visually healthy coral tissue ahead of the expanding lesions, suggesting an opportunistic recruitment of disease-associated members from the resident microbiome. Global analyses of BBD outbreaks reveal that over 88% occurred in regions with skewed N:P ratios, compared with only 16% that were linked to prior heat stress. Together, our findings identify nutrient-driven microbiome destabilisation as a key pathway to coral disease, reinforcing nutrient management as a major lever for reef conservation and restoration practice.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Coral Reefs",
-      "Anthozoa",
-      "Nitrogen",
-      "Microbiota",
-      "Seawater",
-      "Phosphorus",
-      "Cyanobacteria",
-      "Symbiosis",
-      "Stress, Physiological",
-      "Nutrients",
-      "Ecosystem"
-    ],
-    "keywords": [],
-    "summary_zh": "通过实验和全球分析，发现海水氮磷比失衡破坏珊瑚微生物网络稳定性，导致黑带病。",
-    "innovation": "发现营养胁迫（N:P失衡）通过破坏微生物网络功能完整性促进黑带病 | 在病变前缘健康组织检测到病原菌，表明从常驻微生物组招募 | 全球分析显示88%爆发出现在N:P失衡区域，远高于热胁迫关联（16%）",
-    "limitation": "未描述",
-    "study_object": "珊瑚（Turbinaria reniformis）的珊瑚组织及微生物群，采用实验室实验和全球数据分析",
-    "disease": "黑带病",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-05"
@@ -170,109 +109,6 @@
     "fetch_date": "2026-05-05"
   },
   {
-    "pmid": "42087248",
-    "title": "MdUGT88F1 enhances plant resistance to Fusarium proliferatum f.sp. malus domestica MR5 via root exudate-mediated assembly of disease-suppressive rhizosphere microbiota.",
-    "doi": null,
-    "journal": "Microbiome",
-    "issn": "2049-2618",
-    "pub_date": "2026-05-05",
-    "authors": "Duan Yanan; Ma Ziqing; Liu Yiting; Jia Yiwei; Zhang Zhijun et al.",
-    "abstract": "BACKGROUND: Apple replant disease (ARD) is a major threat to the sustainable development of China's apple industry. It is primarily caused by the accumulation of phloridzin and the pathogen Fusarium proliferatum f.sp. malus domestica MR5 (Fpmd MR5). MdUGT88F1-mediated phloridzin biosynthesis is known to enhance disease resistance, but its role in shaping the rhizosphere microbiome and conferring resistance against Fpmd MR5 remains unclear. In this study, we used wild-type (WT) and MdUGT88F1 transgenic apple lines to systematically investigate the mechanism by which MdUGT88F1 regulates the rhizosphere microbiome to mitigate ARD.\nRESULTS: Compared with WT and MdUGT88F1-OE plants, MdUGT88F1-RNAi plants exhibited enhanced tolerance to ARD, as indicated by reduced disease severity, decreased abundance of Fpmd MR5 in the rhizosphere soil, and lower phloridzin content. Further greenhouse experiments demonstrated that the rhizosphere bacterial communities were triggered mainly by changes in community composition. Multi-omics joint analysis revealed that members of the family Bacillaceae with multiple plant growth-promoting traits were enriched in the MdUGT88F1-RNAi plant rhizosphere but only upon Fpmd MR5 invasion. MdUGT88F1-RNAi plants exhibited significantly higher exudation of D-tagatose, D-galactose, sucrose, 3-O-methyl-D-glucose, and maltitol. Interestingly, exogenous application of these compounds promoted the proliferation of Bacillus, enhancing plant resistance to Fpmd MR5. In vitro assays demonstrated that the recruited Bacillus significantly inhibited the hyphal growth and fumonisin B1 production of Fpmd MR5 and alleviated plant disease symptoms. We experimentally validated this observation by inoculating a synthetic microbial community (Bacillus velezensis, Bacillus mojavensis, Bacillus subtilis, Bacillus amyloliquefaciens, and Bacillus licheniformis) into replanted soil, which led to a significant reduction in pathogen Fusarium abundance and promoted plant growth.\nCONCLUSION: Overall, these findings highlight that plant disease resistance is a complex trait driven by dynamic interactions among the host genetic background, rhizospheric microbial communities, and pathogens. Targeted modulation of the rhizospheric microbiome represents a potent \"prebiotic\" strategy. This approach can indirectly enhance plant disease resistance by fostering beneficial microbial activity in the rhizosphere. This study also provides a theoretical basis and practical solutions for the green control of ARD through prebiotics and synthetic microbial communities. Video Abstract.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Bacillus",
-      "Fusarium",
-      "Apple replant disease",
-      "Phloridzin",
-      "Rhizosphere microorganism",
-      "Root exudates"
-    ],
-    "summary_zh": "通过MdUGT88F1转基因苹果研究，揭示该基因调控根际分泌物招募有益菌群，增强对病原菌Fpmd MR5的抗性，并验证合成菌群效果。",
-    "innovation": "揭示MdUGT88F1通过调控根际分泌物组成招募Bacillaceae菌群增强抗病性 | 发现D-塔格糖等糖类物质可促进Bacillus增殖，抑制病原菌菌丝生长和毒素产生 | 验证合成微生物群落（5种Bacillus）在重茬土壤中降低病原菌丰度并促进植物生长",
-    "limitation": "未描述",
-    "study_object": "苹果（Malus domestica）根际土壤样本，结合多组学分析和微生物组技术",
-    "disease": "苹果再植病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
-    "pmid": "42086396",
-    "title": "Harnessing microbiomes to redefine medicinal plant agriculture.",
-    "doi": null,
-    "journal": "Trends in microbiology",
-    "issn": "1878-4380",
-    "pub_date": "2026-05-05",
-    "authors": "Zhang Ji; Yang Bin; Martin Francis M",
-    "abstract": "Medicinal plants link agriculture, ecosystem health, and human therapeutics, with bioactive compound profiles providing a direct and economically meaningful readout of microbiome function. Although microbial inoculation can enhance pharmacologically relevant metabolites under controlled conditions, these effects are context dependent and rarely reproducible in the field. This efficacy gap reflects three ecological constraints: introduced microbes are excluded by resident communities, environmental variation overrides laboratory-optimised functions, and inoculants fail to persist without mutualistic feedback. Addressing these barriers requires shifting from disposable inputs to microbiome stewardship: rewilding beneficial communities, designing climate-adapted consortia, and managing soil as living infrastructure. Whether such stewardship produces measurably different bioactive profiles and therapeutic outcomes under field conditions remains the empirical question on which its One Health rationale ultimately depends.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [],
-    "keywords": [
-      "One Health",
-      "ecological agriculture",
-      "endophytes",
-      "microbial consortia",
-      "mycorrhizal fungi",
-      "secondary metabolites"
-    ],
-    "summary_zh": "研究药用植物微生物组，提出从微生物接种转向微生物管理，通过重野化、设计气候适应菌群和管理土壤来克服生态限制。",
-    "innovation": "提出微生物管理（stewardship）概念替代一次性接种 | 重野化有益群落 | 设计气候适应菌群 | 将土壤视为活基础设施进行管理",
-    "limitation": "尚需野外条件下验证生物活性谱和治疗效果",
-    "study_object": "药用植物 + 土壤微生物组",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
-    "pmid": "42048459",
-    "title": "Perception of a bacterial quorum sensing signal activates a tripartite plant immune strategy.",
-    "doi": null,
-    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-    "issn": "1091-6490",
-    "pub_date": "2026-05-05",
-    "authors": "He Danxia; Zhou Yang; Li Meng; Wang Miao; Yu Wenjia et al.",
-    "abstract": "Bacterial quorum sensing (QS) signals an increasing threat during pathogenesis. How plants deploy timely defenses through QS perception is poorly understood. Here, we report that Arabidopsis thaliana perceives 2'-aminoacetophenone (2'-AA), a volatile QS signal from Pseudomonas aeruginosa, and mounts a multilayered defense. This response comprises BRI1-ASSOCIATED RECEPTOR KINASE 1 (BAK1)-dependent intracellular immunity, extracellular quorum quenching through the release of acetic acid, and ecological remodeling of the root microbiome to suppress Pseudomonas. Our findings demonstrate that plants can translate the detection of a specific bacterial QS molecule into a coordinated, preemptive disease resistance strategy.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Quorum Sensing",
-      "Arabidopsis",
-      "Pseudomonas aeruginosa",
-      "Arabidopsis Proteins",
-      "Plant Immunity",
-      "Signal Transduction",
-      "Protein Serine-Threonine Kinases",
-      "Plant Diseases",
-      "Acetophenones",
-      "Plant Roots",
-      "Disease Resistance"
-    ],
-    "keywords": [
-      "microbiome",
-      "plant immunity",
-      "quorum sensing"
-    ],
-    "summary_zh": "拟南芥通过感知铜绿假单胞菌群体感应信号2'-AA，启动BAK1依赖性免疫、胞外群体淬灭和根际微生物组重塑的三重防御策略。",
-    "innovation": "发现植物通过感知细菌群体感应信号启动多层防御 | 揭示细胞内免疫、群体淬灭和微生物组重塑的三重免疫机制 | 证明植物可翻译细菌QS信号为协调预抗病策略",
-    "limitation": "未描述",
-    "study_object": "拟南芥植物 + 根际微生物组 + 细菌群体感应信号感知",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
     "pmid": "42087225",
     "title": "Micheliolide ameliorates colon cancer cachexia by modulating gut microbiota-immune signaling via Phocaeicola vulgatus enrichment.",
     "doi": null,
@@ -299,30 +135,6 @@
     "limitation": "未描述",
     "study_object": "结肠癌恶病质小鼠模型 + 伪无菌小鼠 + C2C12肌管和人原代骨骼肌细胞",
     "disease": "结肠癌恶病质",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-05"
-  },
-  {
-    "pmid": "42086548",
-    "title": "Microbial drivers of ammonium accumulation in Holocene sediments of the Pearl River Delta.",
-    "doi": null,
-    "journal": "Nature communications",
-    "issn": "2041-1723",
-    "pub_date": "2026-05-05",
-    "authors": "Lu Meiqing; Jiao Jiu Jimmy; Luo Xin; Feng Xiaoyuan; Liang Wenzhao et al.",
-    "abstract": "Elevated ammonium concentrations in deltaic groundwater pose a widespread environmental challenge, yet the microbial mechanisms linking depositional history to ammonium dynamics remain poorly understood. The Pearl River Delta, with the highest naturally occurring groundwater ammonium concentrations documented globally, provides a unique natural system to investigate these processes. Here, by integrating geochemical and metagenomic data, we show that fermentation-related genes are the most prevalent across all depositional zones, suggesting fermentation as the potential primary pathway for ammonium production, with the functional potential declining as sedimentary organic matter becomes increasingly recalcitrant with sediment age. Secondary mechanisms shift from nitrate reduction to nitrite ammonification across terrestrial-to-marine-dominated zones, reflecting salinity-driven metabolic partitioning. Notably, the marine-derived genus Brevirhabdus emerges as a key taxon linking depositional history to present-day biogeochemistry, demonstrating remarkable metabolic versatility. These findings demonstrate that paleo-depositional and hydrogeological evolution fundamentally shape microbial landscapes and dictate groundwater quality in deltaic systems worldwide.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "整合地球化学和宏基因组数据，揭示珠江三角洲沉积物中铵积累主要由发酵驱动，Brevirhabdus是关键分类群。",
-    "innovation": "揭示发酵是三角洲沉积物铵产生的主要途径 | 发现Brevirhabdus属连接沉积历史与当前生物地球化学 | 揭示盐度驱动的代谢分区机制",
-    "limitation": "未描述",
-    "study_object": "珠江三角洲全新世沉积物，采用宏基因组和地球化学分析",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-05"

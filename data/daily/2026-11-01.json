@@ -33,37 +33,6 @@
     "fetch_date": "2026-11-01"
   },
   {
-    "pmid": "41271605",
-    "title": "Jun Yuan ().",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2025-11-22",
-    "authors": "",
-    "abstract": "",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "continuous cropping obstacles",
-      "cry for help",
-      "disease‐suppressive soils",
-      "microbiome‐informed sustainable agriculture",
-      "plant–microbe interactions",
-      "rhizosphere microbiome"
-    ],
-    "summary_zh": "未描述",
-    "innovation": "未描述",
-    "limitation": "未描述",
-    "study_object": "未描述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
     "pmid": "42934317",
     "title": "Laying the foundations for clinical microbiome research.",
     "doi": null,
@@ -406,52 +375,6 @@
     "fetch_date": "2026-11-01"
   },
   {
-    "pmid": "42722995",
-    "title": "Reciprocal transport of carbon and nitrogen between plants and the hyphosphere microbiome in a temperate grassland.",
-    "doi": null,
-    "journal": "The New phytologist",
-    "issn": "1469-8137",
-    "pub_date": "2026-10-15",
-    "authors": "Brandt Luise; Abrahão Anna; Wicht Ann-Christin; Schulz Stefanie; Schloter Michael et al.",
-    "abstract": "Despite its relevance for plant nutrient acquisition, the role of the hyphosphere in structuring fungal-bacterial networks and mediating carbon-nitrogen (C-N) exchange under field conditions remains unclear. We therefore examined reciprocal C-N fluxes along the plant-fungi-bacteria continuum and their link to microbial community assembly across grassland soil microhabitats. Sterilized compartmentalized ingrowth cores were exposed to soil in the field for 3 months. Plants were pulse-labeled with 13CO2 and 13C was traced into microbial biomarkers over 7 d. 15N-labeled urea was supplied to a hyphal compartment and isotope recovery in plants was quantified. We reconstructed microbial networks and visualized microscale isotope distributions. Plant-derived 13C was rapidly incorporated into fungi within 1 d and into hyphosphere bacteria after 7 d. Conversely, 16.9% of the initially added 150 μg 15N was transferred from the hyphal compartment to plants. Microbial diversity declined from the rooted toward the hyphal-dominated compartments, while networks reorganized with relatively more positive fungal-bacterial associations. Arbuscular mycorrhizal fungi act as primary channels of reciprocal C-N exchange, rapidly transporting newly fixed plant C into root-distant soil zones. More broadly, soil fungi act as ecological filters shaping bacterial assembly and may foster increasingly positive associations with bacteria in hyphal-dominated habitats.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Carbon",
-      "Grassland",
-      "Nitrogen",
-      "Microbiota",
-      "Hyphae",
-      "Carbon Isotopes",
-      "Biological Transport",
-      "Soil Microbiology",
-      "Nitrogen Isotopes",
-      "Bacteria",
-      "Plants",
-      "Mycorrhizae"
-    ],
-    "keywords": [
-      "NanoSIMS",
-      "arbuscular mycorrhizal fungi",
-      "carbon–nitrogen exchange",
-      "cross‐kingdom microbial networks",
-      "fungal–bacterial interactions",
-      "grassland soil",
-      "hyphosphere",
-      "stable isotope labeling"
-    ],
-    "summary_zh": "通过野外13C/15N双标记追踪温带草地植物-真菌-细菌间碳氮双向通量，揭示菌丝际网络与细菌组装。",
-    "innovation": "结合13CO2与15N双标记及微尺度同位素成像，追踪植物-真菌-细菌连续体的双向碳氮通量 | 在野外条件下解析菌丝际微生物网络重组与细菌组装",
-    "limitation": "仅在一个温带草地开展3个月野外实验，未验证长期动态和跨地点适用性",
-    "study_object": "温带草地土壤微生境（根际至菌丝际） + 野外分区培养芯与13C/15N同位素示踪、微生物网络分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
     "pmid": "42705729",
     "title": "Phocaeicola vulgatus alleviates obesity through cross-species arginine production and hepatic retinoic acid signaling.",
     "doi": null,
@@ -534,48 +457,6 @@
     "study_object": "人类帕金森病患者 + 肠道微生物群 + 综述（微生物组-肠-脑轴）",
     "disease": "帕金森病",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42501557",
-    "title": "Rhizosphere arginine accumulation recruits Pseudomonas for maize salt tolerance via a lignin pathway modulated by a NAC-family gene.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-08-11",
-    "authors": "Zhao Yaguang; Wen Xinhao",
-    "abstract": "Soil salinization severely threatens global food security by reducing agricultural productivity. While root-associated microbiota are known to enhance plant adaptation to environmental stress, the metabolic and molecular mechanisms governing maize-microbe interactions under salt stress remain largely unclear. In this study, we integrated microbiome and metabolome profiling of field-grown maize and demonstrated that salt stress induces arginine accumulation, which in turn enriches Pseudomonas in both the rhizosphere and root compartments. Subsequent greenhouse experiments combined with transcriptomic analysis suggested that Pseudomonas modulates a NAC-family gene, thereby contributing to lignin biosynthesis and root cell wall thickening. This structural reinforcement reduces root Na⁺ influx and ultimately alleviates salt stress in maize. Collectively, our findings establish a mechanistic framework for understanding plant-microbiome crosstalk and highlight promising strategies for engineering microbiomes to enhance crop resilience in saline environments.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Zea mays",
-      "Rhizosphere",
-      "Lignin",
-      "Pseudomonas",
-      "Plant Roots",
-      "Salt Tolerance",
-      "Arginine",
-      "Soil Microbiology",
-      "Microbiota",
-      "Metabolome",
-      "Gene Expression Profiling"
-    ],
-    "keywords": [
-      "Bacterial community",
-      "Microbiome",
-      "Plant-microbe interactions",
-      "Rhizosphere metabolites",
-      "Soil salinization"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-11-01"
   },
@@ -955,37 +836,6 @@
     "fetch_date": "2026-11-01"
   },
   {
-    "pmid": "42823503",
-    "title": "Advances in amidases and urethanases as depolymerization biocatalysts.",
-    "doi": null,
-    "journal": "Nature chemical biology",
-    "issn": "1552-4469",
-    "pub_date": "2026-10-27",
-    "authors": "Bayer Thomas; Meinert Hannes; Wei Ren; Bornscheuer Uwe T",
-    "abstract": "Stable chemical bonds as well as noncovalent interactions define the properties of industrial chemicals and materials, including polyesters such as polyethylene terephthalate (PET), polyamides (nylons) and polyurethanes. The resistance of plastics to hydrolysis contributes to the global issues of waste accumulation and environmental pollution. Recently identified metagenomic enzymes act on highly stable ester, amide and carbamate bonds in small molecules as well as pretreated polymeric materials. However, depolymerization activities, particularly for nylons and polyurethanes, remain too low to facilitate the efficient treatment of plastic waste. This Perspective highlights the natural diversity of different hydrolase superfamilies suitable for deconstructing synthetic polymers and examines their catalytic features. We also discuss strategies for discovering biocatalysts and tailoring their properties by protein engineering-both assisted by bioinformatics and (ultra)high-throughput screening tools. The combination of these approaches and thorough process analyses will be required to advance hydrolase-based depolymerization of plastics beyond the current recycling schemes for PET.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Amidohydrolases",
-      "Biocatalysis",
-      "Polymerization",
-      "Protein Engineering",
-      "Polyurethanes"
-    ],
-    "keywords": [],
-    "summary_zh": "综述水解酶解聚塑料的研究进展，涵盖酶多样性、催化特性、发现与改造策略，并指出尼龙和聚氨酯解聚活性仍低。",
-    "innovation": "系统聚焦酰胺酶和氨基甲酸酯酶等水解酶超家族用于合成塑料解聚 | 提出结合生物信息学与(超)高通量筛选发现并改造生物催化剂",
-    "limitation": "尼龙和聚氨酯的解聚活性仍过低，难以高效处理塑料废物 | 现有水解酶解聚塑料方案仍主要局限于PET回收",
-    "study_object": "塑料废物/合成聚合物 + 水解酶生物催化剂 + 生物信息学与(超)高通量筛选",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
     "pmid": "42342198",
     "title": "Is erosive tooth wear a truly non-bacterial condition? A scoping review.",
     "doi": null,
@@ -1102,43 +952,6 @@
     "fetch_date": "2026-11-01"
   },
   {
-    "pmid": "42580547",
-    "title": "Metagenomic indications of potential pathogen-associated and antibiotic resistance risks following UV-chlorine disinfection in sprout production.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-11-01",
-    "authors": "Wei Yufei; Zhu Lin; Jin Xiangfu; Yao Huangli; He Shanshan et al.",
-    "abstract": "Hydroponic agriculture commonly relies on low-pressure UV combined with chlorination (LPUV-chlorine) disinfection for water reuse, yet its impacts on non-coliform pathogens and associated resistance risks remain insufficiently understood. Here, metagenomic analysis of a commercial sprout production system revealed that LPUV-chlorine treatment did not completely remove pathogen-associated DNA signals and was associated with an increased relative abundance of Pseudomonas aeruginosa, accompanied by increased abundance of antibiotic resistance genes (ARGs) and virulence factor genes (VFGs). The relative abundances of VFGs related to biofilm formation and exoenzyme activity increased by 16∼18-fold compared to source water (SW), while β-lactam resistance genes showed marked increases in relative abundance. Network analysis revealed statistical associations between several pathogen-associated taxa and ARG profiles but did not establish their genomic hosts or transfer pathways. Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis further revealed higher relative representation of genes associated with two-component systems and flagellar assembly, suggesting potential stress-adaptive functions and preferential persistence. In contrast, medium-pressure UV (MPUV) achieved ≥ 4-log reductions of P. aeruginosa, Escherichia coli, and Salmonella enterica within seconds, with 40.24%, 2.29%, and 26.44% lower fluence than LPUV, respectively. Transcriptomic analysis revealed decreased expression of selected virulence-associated genes and increased expression of phage-associated genes, suggesting potential effects on virulence-related functions and prophage responses. These findings highlight a potential pathogen-selection risk under LPUV-chlorine disinfection and indicate MPUV as a promising chlorine-free microbial risk control strategy in hydroponic water reuse systems.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Disinfection",
-      "Ultraviolet Rays",
-      "Chlorine",
-      "Drug Resistance, Microbial",
-      "Metagenomics",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Antibiotic resistance",
-      "MPUV disinfection",
-      "Metagenomics",
-      "Pathogen risk",
-      "Virulence factor"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
     "pmid": "42501555",
     "title": "Gut microbiota and polycystic ovary syndrome: Pathogenesis and novel therapeutic approaches.",
     "doi": null,
@@ -1176,52 +989,6 @@
     "limitation": "叙述性综述，未进行系统评价或定量合并",
     "study_object": "PCOS女性；样本类型未描述；叙述性综述",
     "disease": "多囊卵巢综合征（PCOS）",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42692679",
-    "title": "Unraveling the mechanisms of flavor improvement in salt-reduced dry fermented sausages: Insights from yeast-modulated microbial interactions.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Feng Gaoxin; Bayinbate Bayierta; Huang Dewei; Badar Iftikhar Hussain; Xu Baocai et al.",
-    "abstract": "The present study investigated the modulatory effects of Candida zeylanoides AKS6 and Debaryomyces hansenii AKS44 on the quality profile attributes of reduced-NaCl fermented sausages. Results indicated that yeast inoculation decreased pH, moisture content and water activity of reduced-NaCl fermented sausages, establishing a foundation for enhanced microbial safety. Microbiome analysis revealed that the inoculated strains dominated the fungal community, exerting competitive exclusion against endogenous undesirable fungi (e.g., Trichosporon), while synergistically promoting beneficial lactic acid bacteria such as Latilactobacillus and Weissella. Volatile profiling demonstrated that NaCl reduction induced severe flavor defects. Yeast inoculation reduced formic acid content and mitigated lipid oxidation. Furthermore, driven by enhanced microbial esterification, the synthesis of fruity esters was promoted. This microbial restructuring drove the flavor improvement: suppression of off-flavor fungi combined with lactic acid bacteria-mediated ester biosynthesis enriching the fruity ester profile. Specifically, the odor activity value of methyl hexanoate significantly increased, becoming the dominant aroma contributor. These findings highlight the remarkable potential of C. zeylanoides AKS6 and D. hansenii AKS44 as starter cultures to reconstruct the microbial metabolic network and rescue the flavor quality of low-sodium fermented meat products.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Meat Products",
-      "Fermentation",
-      "Food Microbiology",
-      "Taste",
-      "Sodium Chloride",
-      "Microbial Interactions",
-      "Candida",
-      "Debaryomyces",
-      "Animals",
-      "Lactobacillales",
-      "Fermented Foods",
-      "Odorants",
-      "Microbiota",
-      "Hydrogen-Ion Concentration",
-      "Yeasts"
-    ],
-    "keywords": [
-      "Fermented sausage",
-      "Flavor profile",
-      "Microbial community",
-      "Microbial interactions",
-      "Yeast strains"
-    ],
-    "summary_zh": "研究酵母接种对减盐发酵香肠风味的影响，通过微生物组与挥发性分析发现其重塑菌群并促进酯合成。",
-    "innovation": "使用Candida zeylanoides AKS6和Debaryomyces hansenii AKS44作为发酵剂重构减盐发酵香肠微生物代谢网络 | 揭示酵母竞争性抑制不良真菌并协同乳酸菌促进 fruity esters 合成以改善风味",
-    "limitation": "未描述",
-    "study_object": "减盐发酵香肠；微生物组分析与挥发性风味分析",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-11-01"
@@ -1337,51 +1104,6 @@
     "study_object": "宿主-肿瘤代谢界面（综述；无原始样本；多组学与系统生物学框架）",
     "disease": "癌症",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42692700",
-    "title": "Integrated microbiome and metabolome analysis reveals microbial and metabolic dynamics associated with goose foie gras spoilage during refrigerated storage.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Li Zhijie; Guo Ying; Zhang Xiuwen; Xie Ningning; Zhang Fusheng et al.",
-    "abstract": "Goose foie gras spoils rapidly under refrigeration, yet its microbial and metabolite dynamics during storage are poorly described. Samples from a single Landes production batch were stored at 4 °C in air-sealed polyethylene pouches and analysed on days 0, 2, 4, 6, 8, 10 and 12. Three biological replicates per time point were processed for total viable count (TVC), total volatile basic nitrogen (TVB-N), thiobarbituric acid reactive substances (TBARS), 16S ribosomal RNA (rRNA) amplicon sequencing, and ultra-high-performance liquid chromatography-mass spectrometry (UHPLC-MS)-based untargeted metabolomics. TVC increased from 3.85 to 6.16 log CFU/g, TVB-N from 8.99 to 27.77 mg/100 g and TBARS from 0.18 to 0.72 mg MDA/kg between day 0 and day 12, with the steepest changes appearing after day 6. The maximum TVC reached 6.16 log CFU g-1 on day 12, below the 7 log CFU g-1 level cited for some meat products; no sensory evaluation was performed. The late storage period is therefore described as a phase of concurrent rises in TVC, TVB-N and TBARS rather than as a confirmed spoilage endpoint. The 14 most abundant genera were retained for multivariate analysis. Seven genera, including Brochothrix, Pseudomonas, Lactobacillus and Lactococcus, met the operational definition of candidate spoilage-associated taxa. Forty candidate metabolites were screened by random forest. Five (tyramine, 4-hydroxyphenylacetaldehyde, adenosine monophosphate, oxidized glutathione and γ-glutamylcysteine) were prioritized on the joint basis of random forest importance, Benjamini-Hochberg-adjusted Kruskal-Wallis p < 0.05, ROC AUC ≥ 0.85 and KEGG pathway interpretability. Microbe-metabolite co-variation was quantified through Benjamini-Hochberg-adjusted Spearman correlation, yielding 108 microbe-metabolite pairs at BH-adjusted P < 0.05 (|ρ| ≥ 0.6), and canonical correlation analysis explained 73.39% of the joint cross-covariance in the first two variates. This study establishes a quantitative microbial-metabolic deterioration signature for refrigerated goose foie gras under air-sealed storage, provides a set of biomarker candidates with defined ROC performance, and identifies shifts in specific tyrosine, glutathione, purine and phospholipid pathways. The concordance between microbial succession and these pathway changes is hypothesis-generating and requires metagenomic confirmation, and these findings are presented as preliminary biochemical anchors for future targeted validation and preservation research.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Metabolome",
-      "Food Storage",
-      "Refrigeration",
-      "Microbiota",
-      "Geese",
-      "Thiobarbituric Acid Reactive Substances",
-      "Food Microbiology",
-      "Metabolomics",
-      "RNA, Ribosomal, 16S",
-      "Colony Count, Microbial",
-      "Bacteria",
-      "Chromatography, High Pressure Liquid"
-    ],
-    "keywords": [
-      "16S rRNA sequencing",
-      "Biogenic amines",
-      "Glutathione redox",
-      "Random forest",
-      "Spoilage-associated genera",
-      "Storage-time progression markers"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-11-01"
   },
@@ -1634,182 +1356,6 @@
     "fetch_date": "2026-11-01"
   },
   {
-    "pmid": "42705715",
-    "title": "Integrated electronic nose, GC-MS, and metagenomic analyses reveal volatile flavor and microbial community differences in heap-fermented grains of Jiangxiangxing Baijiu across different fermentation degrees.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Li Guiyin; Shen Lixia; Nie Lei; Tang Ping; Shan Qimuge et al.",
-    "abstract": "The fermentation degree of heap-fermented grains in Jiangxiangxing Baijiu production is a critical factor influencing base Baijiu quality. However, conventional assessment methods largely rely on empirical experience and therefore suffer from limited objectivity and accuracy. In this study, integrated volatile profiling and metagenomic approaches were employed to investigate volatile characteristics and microbial functional potential differentiation in fermented grains with different fermentation degrees (under-fermented, normally fermented, and over-fermented). Significant differences in physicochemical properties were observed among fermentation degrees, particularly in acidity and reducing sugar content. Electronic nose analysis revealed distinct sensor response patterns among different fermentation degrees, indicating differences in overall volatile odor fingerprint patterns. A total of 81 volatile compounds were identified by HS-SPME-GC-MS, with aldehydes, ketones, and pyrazines showing pronounced variations among fermentation degrees, and acetaldehyde exhibiting strong discriminatory potential. LEfSe analysis identified 18 microbial taxa as potential biomarkers associated with different fermentation degrees, including Pichia kudriavzevii, Lentibacillus daiqui, and Acetobacter pasteurianus. Correlation analysis revealed significant positive associations between acetaldehyde levels and Acetobacter abundance. Furthermore, KEGG, CAZy, and eggNOG analyses revealed differentiated functional potentials among fermentation degrees, providing insights into the potential metabolic basis associated with flavor differentiation. Overall, these findings highlight that fermentation degree differentiation is closely associated with coordinated changes in physicochemical conditions, microbial communities, and functional potentials, providing ecological insights into flavor differentiation and theoretical support for objective fermentation degree evaluation and quality control of Jiangxiangxing Baijiu production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Fermentation",
-      "Volatile Organic Compounds",
-      "Gas Chromatography-Mass Spectrometry",
-      "Electronic Nose",
-      "Metagenomics",
-      "Microbiota",
-      "Food Microbiology",
-      "Taste",
-      "Odorants",
-      "Edible Grain",
-      "Fermented Foods",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Different fermentation degrees",
-      "Heap-fermented grains",
-      "Jiangxiangxing baijiu",
-      "Microbial diversity and function",
-      "Volatile flavor compounds"
-    ],
-    "summary_zh": "整合电子鼻、GC-MS与宏基因组分析不同发酵度酱香型白酒酒醅，揭示风味与微生物功能潜力差异，为客观评价发酵度提供依据。",
-    "innovation": "整合电子鼻、HS-SPME-GC-MS与宏基因组方法比较不同发酵度堆积酒醅 | 发现乙醛具有较强判别潜力，并鉴定出18个与发酵度相关的潜在微生物标志物 | 揭示乙醛水平与Acetobacter丰度显著正相关",
-    "limitation": "未描述",
-    "study_object": "酱香型白酒堆积发酵酒醅（不同发酵度） + 电子鼻、HS-SPME-GC-MS与宏基因组分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42520350",
-    "title": "Composted cattle manure enhances microbial nitrogen retention and increased seed watermelon yield in saline-alkali soil.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-08-11",
-    "authors": "Chen Qianqian; Niu Xiaoye; Wu Wei; Shi Huai; Liu Guohong et al.",
-    "abstract": "Soil salinity and alkalinity represent a global environmental challenge that severely hampers agricultural productivity. While composted manure amendment represents a sustainable strategy relates to nutrient supplementation and soil health improvement. However, the influence of composted manure on microbial nitrogen cycles in a saline-alkali soil remains obscure. Saline-alkali soil amendment with cattle manure (CM) and composted CM (CCM) were conducted to systematically evaluate their efficacy in ameliorating soil physicochemical properties and enhancing crop productivity under saline-alkaline stress conditions. Physicochemical properties of saline-alkali soils under different amendments were investigated. The changes in microbial communities and nitrogen metabolism were analyzed using metagenomic sequencing and qPCR. Furthermore, the correlations between microbial nitrogen cycle and soil physicochemical factors were assessed. Compared to control (CK), soil salinity was significantly mitigated by 43.0%% and 51.9% in CM and CCM treatments. The organic matter, humus and nitrogen contents were also significantly increased in CM and CCM treatments. CCM significantly improved abundance of nrf in dissimilatory nitrate reduction to ammonium (DNRA), while reducing amoA abundance in nitrification. These findings suggest a potential redirection of microbial nitrogen fluxes toward retention rather than loss pathways, thereby enhances soil fertility. And the seed yield in CCM treatment was significantly higher than those of CM and CK. Our results provided mechanistic evidence for the use of composted manure as a sustainable strategy for enhancing soil fertility, mitigating salinization, and increasing crop yield of saline-alkali soils.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Manure",
-      "Animals",
-      "Soil Microbiology",
-      "Soil",
-      "Cattle",
-      "Nitrogen",
-      "Composting",
-      "Salinity",
-      "Alkalies",
-      "Bacteria",
-      "Nitrogen Cycle",
-      "Nitrification",
-      "Microbiota"
-    ],
-    "keywords": [
-      "Microbiome",
-      "Nitrogen cycle",
-      "Organic amendment",
-      "Productivity",
-      "Salinity stress",
-      "Soil fertility"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42705742",
-    "title": "Mechanistic insights into flavor deterioration in bitter sturgeon caviar: Evidence from lipidomics and metagenomics.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Han Guixin; Li Ke; Wang Jinlin; Xu Peng; Liu Tianhong et al.",
-    "abstract": "This study systematically compared the flavor and multi-omics differences between normal caviar and bitter caviar based on quantitative descriptive analysis (QDA), volatile compounds (VOCs) analysis, untargeted lipidomics, and metagenomics. The results showed that bitter caviar was characterized not only by increased bitterness, but also by decreased positive sensory attributes, including buttery, nutty, and marine fresh. VOCs analysis indicated that the volatile profile of bitter caviar was reorganized. Compounds such as 3-hydroxy-2-butanone, 1-octen-3-ol, and (E, Z)-2,6-nonadienal showed higher relative odor activity values (rOAVs); however, these changes did not improve its overall sensory experience. Untargeted lipidomics identified 492 differential lipids. These changes were mainly characterized by decreased PC and increased DG and LPC in bitter caviar. KEGG pathways analysis showed that these differential lipids were mainly associated with glycerophospholipid metabolism, choline metabolism in cancer, and retrograde endocannabinoid signaling. Metagenomic analysis showed that bacteria dominated the microbial community of caviar. Among them, Bacillus and Micromonospora showed relatively high abundance in the caviar microbiota. They were also closely associated with lipid metabolic changes involving PC, DG, and LPC, suggesting their potential as candidate targets for future microbiota-directed regulation of caviar quality. These findings provide new insights into the mechanisms underlying sensory deterioration and flavor formation in bitter caviar, and offer a theoretical basis for improving caviar quality in industrial production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Metagenomics",
-      "Fishes",
-      "Lipidomics",
-      "Taste",
-      "Volatile Organic Compounds",
-      "Odorants",
-      "Microbiota",
-      "Bacteria",
-      "Seafood",
-      "Humans"
-    ],
-    "keywords": [
-      "Bitterness",
-      "Lipidomics",
-      "Metagenomics",
-      "Sensory deterioration",
-      "Sturgeon caviar"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42705789",
-    "title": "Integrated rumen microbiome and lipidomic analyses reveal the effects of feeding-regimes on fat deposition and mutton odor formation in Bashbay sheep.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Cheng Zhiqiang; Zhang Cheng; Li Mengfei; Liu Jiancheng; Chen Yong et al.",
-    "abstract": "This study investigated how natural grazing and concentrate-based feeding regime regulate mutton odor-related compound deposition through the rumen microbiota-fermentation-lipid metabolism axis in Bashbay sheep. Sixteen healthy 6-month-old uncastrated Bashbay rams were assigned to the natural grazing group (FM) and the concentrate-based feeding group (SS), with eight animals per group. Mutton odor-related compounds, rumen fermentation parameters, rumen microbiota, and lipidomic profiles of subcutaneous adipose tissue (SAT), perirenal adipose tissue (PAT), and tail fat tissue (TFT) were analyzed using gas chromatography-mass spectrometry (GC-MS), full-length 16S rRNA gene sequencing, and untargeted lipidomics. The results showed that, among the three adipose depots, SAT contained the highest concentrations of 4-methyloctanoic acid (MOA), 4-ethyloctanoic acid (EOA), and 4-methylnonanoic acid (MNA), and the overall deposition of mutton odor-related branched-chain fatty acids followed the order SAT > TFT > PAT. Compared with the FM group, SS group significantly increased MNA levels and was associated with higher ruminal isobutyrate concentration and greater relative abundance of Selenomonas, whereas FM group was associated with enrichment of Saccharofermentans. Lipidomic analysis identified 2592 lipid species, mainly triglycerides (TG) and glycerophospholipids (GP). Phosphatidylcholine (PC) and phosphatidylethanolamine (PE) abundance were higher in the FM group, whereas SS group promoted TG accumulation, indicating marked remodeling of adipose tissue lipid composition in Bashbay sheep under different feeding regimes. Notably, PC 37:5 was identified as a shared exploratory candidate biomarker across SAT, PAT, and TFT, suggesting that it may reflect phospholipid remodeling characteristics in adipose tissues under natural grazing and concentrate-based feeding conditions. Partial Spearman correlation analysis showed that, after controlling for feeding regime, the associations between PC 37:5 and rumen fermentation parameters, differential microbial taxa, and mutton odor-related branched-chain fatty acids were no longer significant, indicating that PC 37:5 may be more appropriately interpreted as a candidate lipid marker. In conclusion, FM group and SS group were closely associated with differences in rumen fermentation characteristics, microbial composition, adipose tissue lipid profiles, and the deposition of mutton odor-related branched-chain fatty acids in Bashbay sheep. The lower MNA deposition under natural grazing conditions, together with changes in membrane-related phospholipid composition, suggests that natural grazing may influence mutton odor-related characteristics. This study provides insight into the formation of mutton odor-related compounds in Bashbay sheep under different feeding regimes from the perspective of the \"rumen microbiota-fermentation metabolism-lipid remodeling-mutton odor-related precursor deposition\" axis.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Animals",
-      "Lipidomics",
-      "Rumen",
-      "Odorants",
-      "Sheep",
-      "Fermentation",
-      "Male",
-      "Gastrointestinal Microbiome",
-      "Lipid Metabolism",
-      "Adipose Tissue",
-      "Animal Feed",
-      "Diet",
-      "Gas Chromatography-Mass Spectrometry",
-      "Fatty Acids"
-    ],
-    "keywords": [
-      "Bashbay sheep",
-      "Feeding regime",
-      "Lipidomics",
-      "Mutton odor",
-      "Rumen fermentation",
-      "Rumen microbiota"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
     "pmid": "42425294",
     "title": "The oral microbiome associated with early childhood caries in preschool children: A scoping review.",
     "doi": null,
@@ -1881,47 +1427,6 @@
     "innovation": "系统综述B族维生素对肠道微生物群的影响 | 归纳B族维生素与肠道微生物群相互作用的可能机制",
     "limitation": "肠道微生物与B族维生素相互作用的机制尚未完全阐明",
     "study_object": "肠道微生物群；B族维生素（综述）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-01"
-  },
-  {
-    "pmid": "42705727",
-    "title": "Depth-dependent microbial succession and interspecies hydrogen transfer drive pit mud maturation in Chinese strong-flavor baijiu fermentation.",
-    "doi": null,
-    "journal": "Food research international (Ottawa, Ont.)",
-    "issn": "1873-7145",
-    "pub_date": "2026-11-01",
-    "authors": "Xu Shanshan; Li Jingwen; Wang Fei; Bian Huixi; Yan Wenjia et al.",
-    "abstract": "Microbial communities in fermentation pit mud play a key role in determining the quality of Chinese strong-flavor baijiu (CSFB). However, the ecological processes underlying pit mud maturation across spatial and temporal scales remain unclear. In this study, amplicon sequencing and metagenomic analyses were employed to investigate the taxonomic succession, community assembly, and metabolic functions of bacterial and archaeal communities during the transition from fresh pit mud (FPM) to new pit mud (NPM) and old pit mud (OPM). A pronounced depth-dependent succession pattern was observed, with 4 cm representing a critical ecological boundary separating distinct community structures and maturation trajectories. During surface-layer maturation, community assembly shifted from stochastic to deterministic processes, accompanied by homogeneous selection and increasing network complexity. In contrast, stochastic processes remained dominant throughout deep-layer maturation. Metagenomic analyses revealed a functional transition from lactate and acetate production, primarily associated with Lactobacillus in FPM and NPM, to butyrate and caproate production associated with Clostridium and Caproiciproducens in OPM. This functional transition was accompanied by enhanced amino acid metabolism, which was associated with the enrichment of Proteiniphilum and Aminobacterium. Notably, methanogen-mediated interspecies hydrogen transfer (IHT) emerged as a key ecological feature during pit mud maturation. In OPM, IHT networks primarily involving Methanobacterium and Methanosarcina linked methanogenesis with reverse β-oxidation through diverse hydrogen-transfer pathways, reinforcing metabolic interactions underlying caproate production. These findings provide new insights into the ecological mechanisms underlying pit mud maturation and offer a theoretical basis for the directed cultivation of high-quality pit mud in CSFB production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Hydrogen",
-      "Fermentation",
-      "Bacteria",
-      "Archaea",
-      "Wine",
-      "Food Microbiology",
-      "Microbiota",
-      "Metagenomics",
-      "China",
-      "Alcoholic Beverages"
-    ],
-    "keywords": [
-      "Caproate biosynthesis",
-      "Community assembly",
-      "Interspecies hydrogen transfer",
-      "Methanogenic archaea",
-      "Pit mud maturation"
-    ],
-    "summary_zh": "通过扩增子与宏基因组测序揭示窖泥成熟中深度依赖的微生物演替、群落组装及种间氢转移驱动己酸合成的机制。",
-    "innovation": "揭示4 cm为区分窖泥群落结构与成熟轨迹的关键生态边界 | 发现表层成熟由随机性转向确定性组装、深层仍以随机过程主导 | 阐明甲烷菌介导的种间氢转移网络将产甲烷与反向β-氧化耦合以促进己酸生成",
-    "limitation": "未描述",
-    "study_object": "白酒发酵窖池 + 窖泥（新窖泥与老窖泥）+ 扩增子测序与宏基因组分析",
     "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,

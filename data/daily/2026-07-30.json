@@ -24,30 +24,6 @@
     "fetch_date": "2026-07-30"
   },
   {
-    "pmid": "42531353",
-    "title": "Viruses help shape microbiome response to polyphenol rewiring of methane-suppressed peat microcosms.",
-    "doi": null,
-    "journal": "PLoS biology",
-    "issn": "1545-7885",
-    "pub_date": "2026-07-30",
-    "authors": "Riddell V James; Shatadru Rokaiya Nurani; Smith Garrett J; McGivern Bridget B; Ellenbogen Jared B et al.",
-    "abstract": "Human activities are accelerating permafrost thaw and subsequent methane emissions from increased microbial activity, prompting microbiome engineering efforts as an emissions mitigation strategy. We recently demonstrated that catechin amendment could drastically reduce methane emissions (>80%) in peat microcosms by enriching catechin-degrading prokaryotes that outcompeted methanogens for hydrogen. However, viral contributions to such microbiome-level responses remain unexplored and we hypothesized that viral dynamics could help shape the microbiome response as nutrient amendments may alter cellular physiology in ways that could induce lytic viral activity. Here, we performed virus eco-genomics analyses of the previously-studied time-resolved multi-omics data collected from catechin-amended peat microcosms. We conservatively identified 900 putatively lytic viral operational taxonomic units (vOTUs), with 41% predicted to infect active host genomes including the most transcriptionally active vOTUs predicted to infect key catechin-degrading genera (Clostridium and undescribed Bacillota JAGFXR01). Notably, a single JAGFXR01-targeting vOTU dominating the viral response (>40% of community viral transcription; 20-156-fold more abundant than its host), which we interpreted as induction resulting in intense lytic activity that could release catechin degradation intermediates to other community members. Consistent with this, gene expression analysis revealed elevated catechin-intermediate degradation and hydrogenase signals in 34 additional polyphenol-degrading metagenome-assembled genomes. These findings support a model consistent with a viral shunt-like process that extends our previous prokaryote-centric model: viral lysis of fast-growing catechin degraders redistributes phenolic intermediates to diverse phenol-degrading taxa that sustain methane suppression via hydrogen consumption. Beyond carbon cycling importance in this system, elucidating unintended virus-mediated responses to nutrient and prebiotic interventions will enable more predictable and effective microbiome engineering strategies across soil, ocean, and human ecosystems.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过病毒生态基因组学分析揭示儿茶素处理泥炭微宇宙中病毒裂解关键降解菌，促进酚类中间产物 redistribution，维持甲烷抑制。",
-    "innovation": "首次揭示病毒在儿茶素诱导的甲烷抑制微宇宙中的生态基因组学作用 | 发现单一vOTU主导病毒响应，介导类病毒分流过程 | 将原核中心模型扩展至病毒参与的微生物组响应模型",
-    "limitation": "未描述",
-    "study_object": "泥炭微宇宙（儿茶素处理） + 病毒生态基因组学 + 时间序列多组学数据",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-30"
-  },
-  {
     "pmid": "42530606",
     "title": "Clinical applications of gut microbiome for non-invasive diagnosis of colorectal neoplasia.",
     "doi": null,
@@ -147,37 +123,6 @@
     "fetch_date": "2026-07-30"
   },
   {
-    "pmid": "42530018",
-    "title": "It takes a village: how plant-associated bacterial communities socialise to shape plant growth and health.",
-    "doi": null,
-    "journal": "Essays in biochemistry",
-    "issn": "1744-1358",
-    "pub_date": "2026-07-30",
-    "authors": "Escudero-Martínez Carmen; Tkacz Andrzej; Albareda Marta; Sánchez-Cañizares Carmen",
-    "abstract": "Plants outsource many functions to an associated microbiome, an 'outside gut' composed of socially interacting bacterial communities that support plant growth and health. These dynamic and diverse microbiomes span different plant microenvironments and form complex networks shaped by the environmental context and the plant's genetics. While some microbes cause disease, many others contribute to essential functions, influencing plant fitness, survival, and ultimately soil health. Although the host genetics and abiotic factors structure these communities, the functional diversity and ecological roles of plant-associated bacteria are ultimately shaped by microbe-microbe interactions. These interactions also play a critical role in the successful colonisation of plant tissues. Beneficial members of these communities enhance plant nutrient uptake, modulate phytohormones to shape root architecture, or prime plant systemic immunity to repel pathogens. Deciphering how plant-associated bacterial communities assemble and interact, both with their host and with one another, is essential for uncovering the mechanisms that underpin bacterial social behaviours within the plant holobiont, such as quorum sensing, metabolite exchange, and contact-dependent interactions. Here we review several recent publications that shed new light on the social lives of plant-associated bacteria, with a particular focus on their competition mechanisms and strategies for colonisation and establishment. In this context, we highlight how the rational design of plant bioinoculants based on microbial consortia represents a powerful strategy for promoting sustainable agriculture in a rapidly changing environment.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "beneficial bacteria",
-      "bioinoculants",
-      "plant growth promotion",
-      "plant holobiont",
-      "plant-associated bacteria",
-      "plant-microbe interactions"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-07-30"
-  },
-  {
     "pmid": "42533399",
     "title": "Letter: The Microbiome-Mediated Impact of Proton Pump Inhibitors on Spontaneous Bacterial Peritonitis.",
     "doi": null,
@@ -228,30 +173,6 @@
     "limitation": "未描述",
     "study_object": "肥胖T2DM小鼠；肠道微生物组和肝脏；微生物组分析与肝脏代谢组学",
     "disease": "2型糖尿病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-30"
-  },
-  {
-    "pmid": "42534443",
-    "title": "Beyond omics: From descriptive profiling to causal and scalable design of fermentation microbiomes.",
-    "doi": null,
-    "journal": "iMeta",
-    "issn": "2770-596X",
-    "pub_date": "2026-07-30",
-    "authors": "Niu Dongze; Pang Huili; Wang Xuekai; Song Liang; Zhang Jing et al.",
-    "abstract": "Fermentation microbiomes play essential roles in food production, feed preservation, waste valorization, and diverse sustainable industrial processes. Although multi-omics and systems biology have substantially advanced our understanding of their assembly, interactions, and functional dynamics, industrial translation remains constrained by fragmented datasets, limited causal validation, and transport constraints during scale-up. Large language models act as upper-level knowledge and workflow orchestrators, accelerating data integration, hybrid AI-mechanistic modeling, hypothesis generation, and perturbation-guided learning. Collectively, these advances enable fermentation microbiome research to move beyond descriptive omics toward mechanism-guided synthetic microbial community design, causal validation, and scalable biomanufacturing.",
-    "pub_types": [
-      "Letter"
-    ],
-    "article_type": "其他",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "本文论述发酵微生物组研究从描述性组学转向因果可扩展设计，利用大语言模型整合数据与机制建模，促进合成群落设计与生物制造。",
-    "innovation": "提出利用大语言模型作为上层知识和工作流编排器 | 融合AI与机制建模，加速数据整合和假设生成 | 推动从描述性组学转向因果验证和可扩展合成群落设计",
-    "limitation": "受碎片化数据集、有限因果验证及放大过程中运输限制的约束",
-    "study_object": "发酵微生物组（工业发酵环境，多组学与AI建模技术）",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-07-30"

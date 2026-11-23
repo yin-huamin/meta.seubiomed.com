@@ -115,36 +115,6 @@
     "fetch_date": "2026-06-15"
   },
   {
-    "pmid": "42289756",
-    "title": "Variations in methane emissions from dairy cows: associations with rumen microbial synergy and metabolic pathway divergence.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-06-15",
-    "authors": "Jia Peng; Dong Lifeng; Ma Tao; Bi Yanliang; Tu Yan et al.",
-    "abstract": "BACKGROUND: Methane (CH4) is a metabolic by-product of rumen microbial fermentation, contributing significantly to global warming and dietary energy loss. Elucidating the mechanisms underlying natural variation in rumen methanogenesis is essential for the development of effective CH4 mitigation strategies. Here, we applied rumen metagenomics to identify the microbial mechanisms for differences in enteric CH4 emissions among dairy cows.\nRESULTS: Enteric CH4 emissions from 111 lactating dairy cows under normal feeding conditions were utilized to characterize the natural variation in rumen methanogenesis. Metagenomic analysis revealed that the comprehensive effects of bacteria involved in starch degradation, lactate metabolism, and volatile fatty acid biosynthesis provide distinct amounts of hydrogen for rumen methanogenesis in high-methane-producing (HMP) and low-methane-producing (LMP) cows. Ciliate protozoa were universally abundant in HMP cows (P < 0.05), whereas methanogens enrichment exhibited heterogeneity, with the dominant methanogen Methanobrevibacter exhibiting negative correlations with the other 11 methanogens (P < 0.05). Six nutrient metabolic pathways modulating methanogenesis were identified, and HMP-associated methanogenesis was further driven by upregulated formate metabolism and acetoclastic pathways (P < 0.05). Random forest model analysis screened 34 microbial genera as biomarkers for CH4 production.\nCONCLUSIONS: This study excluded extrinsic confounders exist for rumen microbiome and CH4 emissions in dairy cows. These findings elucidated the causal microbial and metabolic mechanisms underlying rumen methanogenesis, providing actionable targets for microbiome-based strategies to mitigate CH4 emissions from livestock farming.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Dairy cows",
-      "Methane",
-      "Methane mitigation",
-      "Rumen methanogenesis",
-      "Rumen microbiota"
-    ],
-    "summary_zh": "通过瘤胃宏基因组分析111头泌乳乳牛，揭示高/低甲烷排放乳牛中微生物协同和代谢途径差异的机制。",
-    "innovation": "排除了外部混杂因素对瘤胃微生物组和甲烷排放的影响 | 发现纤毛虫原生动物在高甲烷产排牛中普遍丰富，甲烷菌富集异质性 | 随机森林模型筛选34个微生物属作为甲烷产生的生物标志物",
-    "limitation": "未描述",
-    "study_object": "乳牛 + 瘤胃样本 + 宏基因组",
-    "disease": "无",
-    "sample_size": "111头泌乳乳牛",
-    "ai_done": true,
-    "fetch_date": "2026-06-15"
-  },
-  {
     "pmid": "42244408",
     "title": "Site- and age-dependent associations between Fusobacterium nucleatum and colorectal cancer mortality.",
     "doi": null,

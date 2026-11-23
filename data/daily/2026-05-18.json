@@ -96,30 +96,6 @@
     "fetch_date": "2026-05-18"
   },
   {
-    "pmid": "42149909",
-    "title": "Symbiotic bacteria may support calcium carbonate precipitation in the Gulf toadfish.",
-    "doi": null,
-    "journal": "PLoS biology",
-    "issn": "1545-7885",
-    "pub_date": "2026-05-18",
-    "authors": "Bonacolta Anthony M; Kravitz Tristan; Mozo Rocío; Baker Lydia J; Heuer Rachael M et al.",
-    "abstract": "Marine fish play a significant yet understudied role in the oceanic carbon cycle through the production of magnesium-rich calcium carbonate (CaCO3) precipitates known as ichthyocarbonates. These deposits form in the gut of marine teleost fish in response to salinity, serving as part of their osmoregulation strategy. Through this, marine fish may contribute as much as 9.04 Pg of CaCO3 per year in global new carbonate production, being equivalent to or potentially higher than the production by coccolithophores and pelagic foraminifera. Despite their ecological relevance, the biological mechanisms driving ichthyocarbonate precipitation remain to be fully resolved. Intriguingly, bacteria are consistently found in intimate association with ichthyocarbonate precipitates. Given the widespread capacity of prokaryotes to mediate CaCO₃ precipitation, this association points to a previously unexplored microbial contribution to the process. To investigate the potential role of bacteria in ichthyocarbonate production, we subjected Gulf toadfish (Opsanus beta) to salinity treatments common to their native range and known to elicit changes in CaCO3 precipitation. To assess the respective contributions of the host and its microbiota to ichthyocarbonate formation in the gut, we characterized the microbiome across the toadfish gut and performed meta-transcriptomic analysis. Across the toadfish gut, we identify a high abundance of vibrios associated with ichthyocarbonates with the metabolic potential for CaCO3 precipitation. Specifically, we observe the expression of the transcriptional activator of urease (ureR) by Photobacterium damselae subsp. damselae, which can induce the precipitation of CaCO3 via the production of bicarbonate. We demonstrate that CaCO₃ precipitation in marine fish may not solely be a host-driven process, but potentially the result of a functional symbiosis with gut-associated Vibrio bacteria. We hypothesize that just as photosymbionts enable corals to build reefs, fish hosts, along with their microbial partners, may synergistically contribute to oceanic carbonate production. This discovery, if confirmed, expands the role of symbiosis in marine biomineralization and underscores its broader influence on global biogeochemical cycles.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过宏转录组分析海湾蟾鱼肠道微生物，发现弧菌及其ureR基因表达可能促进碳酸钙沉淀，表明宿主与微生物共生参与海洋碳循环。",
-    "innovation": "首次提出微生物对鱼类碳酸钙沉淀的贡献 | 鉴定Photobacterium damselae subsp. damselae的ureR基因表达诱导沉淀 | 提出类似珊瑚的宿主-微生物共生模型",
-    "limitation": "未描述",
-    "study_object": "海湾蟾鱼肠道样本 + 宏转录组分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-18"
-  },
-  {
     "pmid": "42151161",
     "title": "Inorganic nitrogen metabolic reprogramming of the gut microbiome drives fecal microbiota transplantation in ulcerative colitis.",
     "doi": null,
@@ -173,36 +149,6 @@
     "limitation": "检测方法变异性 | 缺乏前瞻性多中心验证 | 成本和基础设施障碍",
     "study_object": "人类结直肠癌患者的血液、粪便、肿瘤组织等样本，采用液体活检、基因组学、微生物组分析、放射组学、类器官等多组学技术",
     "disease": "结直肠癌",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-18"
-  },
-  {
-    "pmid": "42150526",
-    "title": "Microbial ecology: Rise of the planet of the microbes.",
-    "doi": null,
-    "journal": "Current biology : CB",
-    "issn": "1879-0445",
-    "pub_date": "2026-05-18",
-    "authors": "Thompson Luke R",
-    "abstract": "A long-standing tenet of microbiology is that Earth's microbiomes are structured by environment, not geography. In a new study, Kim et al. report the largest metagenomic analysis yet performed, revealing that microbial generalists transcend these boundaries, ferrying genes - including antibiotic resistance determinants - across ecologically distant habitats.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Microbiota",
-      "Metagenomics",
-      "Ecosystem",
-      "Bacteria",
-      "Metagenome"
-    ],
-    "keywords": [],
-    "summary_zh": "通过最大规模宏基因组分析，揭示微生物泛化者跨生态边界转运抗生素耐药基因。",
-    "innovation": "最大规模的宏基因组分析 | 发现微生物泛化者跨越环境与地理边界转运基因，包括抗生素耐药基因",
-    "limitation": "未描述",
-    "study_object": "地球环境微生物组宏基因组分析",
-    "disease": "无",
     "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-18"

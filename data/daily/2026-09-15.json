@@ -70,90 +70,6 @@
     "fetch_date": "2026-09-15"
   },
   {
-    "pmid": "42297323",
-    "title": "Compound-specific effects of phthalate esters on nitrogen cycling and N2O emissions in paddy soils under contrasting moisture regimes.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-09-15",
-    "authors": "Li Yuna; Hu Yunzhe; Cheng Shulan; Fang Huajun; Guo Yifan",
-    "abstract": "Phthalates (PAEs) are commonly used as plasticizers and agrochemical additives, easily released and accumulated in soils. As emerging organic pollutants, how PAEs affect soil nitrogen (N) cycling remains unclear. Here, a 91-day microcosm experiment was conducted to investigate the response of functional microorganisms and nitrous oxide (N2O) emissions to dimethyl phthalate (DMP) and di(2-ethylhexyl) phthalate (DEHP) enrichment under different moisture regimes. Metagenomic analysis showed that PAE type, rather than concentration, predominantly shaped microbial community structure and N-cycling functional profiles. Under unflooded conditions, DEHP increased cumulative N2O emissions by 42%, accompanied by enhanced nitrification potential, higher abundances of amoA and hao, and enrichment of Nitrosospira. Conversely, DMP and co-exposure treatments reduced cumulative N2O emissions by 49.24-67.86%, together with suppressed autotrophic nitrification and increased denitrification module abundance. Under flooded conditions, DMP and co-exposure increased nosZ abundance and enriched Telmatospirillum, indicating a greater potential for N2O reduction. In addition, PAE exposure increased the complexity of microbial co-occurrence networks and strengthened associations between functional taxa and N-cycling genes. Structural equation modelling showed that PAE-induced shifts in soil pH, dissolved organic carbon, and inorganic N pools jointly regulated nitrification and denitrification pathways, thereby determining N2O emission patterns. These findings highlight the potential for plasticizer contamination to reshape nitrogen transformation and nitrogen loss pathways in paddy soils under contrasting moisture regimes.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Phthalic Acids",
-      "Nitrous Oxide",
-      "Soil",
-      "Nitrogen Cycle",
-      "Soil Microbiology",
-      "Soil Pollutants",
-      "Oryza",
-      "Esters",
-      "Nitrogen",
-      "Nitrification",
-      "Plasticizers"
-    ],
-    "keywords": [
-      "Functional genes",
-      "Microbial community",
-      "N(2)O emissions",
-      "Phthalates",
-      "Water management"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-15"
-  },
-  {
-    "pmid": "42119966",
-    "title": "Metagenomic characterization of bacterial communities on beach macroplastics: Insights into antimicrobial resistance and virulence.",
-    "doi": null,
-    "journal": "Environmental pollution (Barking, Essex : 1987)",
-    "issn": "1873-6424",
-    "pub_date": "2026-09-15",
-    "authors": "Athira A S; Sreejith V N; Megha C; Athira P S; Reshmi K et al.",
-    "abstract": "Macroplastic debris in coastal environments provides stable substrates for microbial colonization, yet comparative assessments with natural substrates remain limited. This study investigated bacterial communities associated with beach macroplastics collected from four sites along the Kochi coast, Kerala, India (Fort Kochi, Cherai, Puthenthode, and Puthuvypin) during the pre-monsoon season, and compared them with those colonizing natural inanimate substrates (driftwood, seaweed, and shells). Composite sampling across multiple transects was employed, and shotgun metagenomic sequencing was used to characterize taxonomic composition, functional pathways, antimicrobial resistance genes (ARGs), and virulence factors. Across all samples, Pseudomonadota (average ∼64.8%) dominated, followed by Bacillota, Actinomycetota, and Bacteroidota. Plastic-associated communities showed greater dominance of specific genera, including Vibrio, Alteromonas, and Pseudoalteromonas, whereas natural substrates exhibited more evenly distributed taxa (Streptomyces, Marinobacter, Sulfitobacter etc). Functional annotation revealed the presence of core metabolic pathways across all samples, while xenobiotic degradation and lipid metabolism pathways were more prominently represented in plastic-associated communities, particularly at urban-influenced sites. A total of 42 ARGs belonging to eight antibiotic classes were identified, with β-lactam resistance genes constituting ∼42% of detected ARGs. Plastic-associated samples showed broader ARG profiles, including blaTEM-116, tetM, and sul1. A total of 73 virulence genes were identified, with plastic samples showing higher abundance of β-lactamase (blaTEM-116, tetM) and adhesion-associated genes (pilA, ompA). In addition, 1264-2046 virulence-related gene hits per site were detected, with consistently higher counts observed in plastic-associated communities. Overall, the findings demonstrate that macroplastics support distinct microbial assemblages and functional gene distributions compared to natural substrates, highlighting their role as microbial habitats in human-impacted coastal environments.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Bacteria",
-      "Drug Resistance, Bacterial",
-      "Virulence",
-      "Bathing Beaches",
-      "Metagenomics",
-      "India",
-      "Drug Resistance, Microbial",
-      "Microbiota",
-      "Seashore",
-      "Metagenome"
-    ],
-    "keywords": [
-      "Antimicrobial resistance",
-      "Coastal microbiome",
-      "Macroplastics",
-      "Metagenomics",
-      "Natural inanimate substrates",
-      "Virulence factors"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-09-15"
-  },
-  {
     "pmid": "42740607",
     "title": "Pangenome analysis reveals both niche-specific \"specialists\" and microbial \"side hustlers\" in colorectal cancer microbiomes.",
     "doi": null,
@@ -297,41 +213,6 @@
     "study_object": "宿主/环境：炎症性肠病患者肠道微环境；样本类型：未描述（综述）；技术类型：单细胞转录组与空间分析等",
     "disease": "炎症性肠病，包括克罗恩病和溃疡性结肠炎",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-09-15"
-  },
-  {
-    "pmid": "42742264",
-    "title": "Symbiotic interactions and climate change implications of the octocoral microbiome.",
-    "doi": null,
-    "journal": "The ISME journal",
-    "issn": "1751-7370",
-    "pub_date": "2026-09-15",
-    "authors": "Keller-Costa Tina; Tignat-Perrier Romie; Marques Matilde; Ferrier-Pagès Christine; Pogoreutz Claudia",
-    "abstract": "Octocorals are vital components of tropical, temperate, and cold-water benthic marine ecosystems. Their associated microbiomes, comprising microeukaryotes, prokaryotes, and viruses, are increasingly recognised as central to host health, nutrient cycling, and chemical defence. Metagenomics and amplicon sequencing have uncovered taxonomic and functional complexity within these microbial communities, revealing patterns of host specificity and health status, along with seasonality and geographic structuring. However, anthropogenic stressors, particularly those associated with global climate change, exert intense pressure on coral-dominated ecosystems, leading to complex and poorly understood local and regional patterns of octocoral expansion and mortality. Microbial interactions may be a main driver of these contrasting outcomes by mediating the ecological resilience of octocorals to environmental stress. We synthesise the current state of research on the diversity, organisation, and function of the octocoral microbiome, and identify critical knowledge gaps on octocoral holobionts relative to scleractinian corals. Our meta-analysis of 79 publicly available bacterial genomes from octocorals reveals group-specific specialisation in denitrification and nitrate assimilation, along with widespread capacities for essential amino acid, cofactor, and vitamin production, suggesting important contributions to nutrient cycling in the holobiont. While sampling efforts between cultured and uncultured lineages are even, our genomic survey reveals strong sampling bias toward the Atlantic Ocean, temperate gorgonians, and healthy host states, whereas bacterial genomes representing the pathobiome, tropical and/or deep-sea regions, and other octocoral taxa remain underrepresented. Accordingly, we propose future research directions to advance understanding of octocoral microbiome ecology and its role in the resilience of tropical, temperate and cold-water coral reefs.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Endozoicomonadaceae",
-      "Spirochaetaceae",
-      "Holobiont",
-      "gorgonians",
-      "host-microbe interactions",
-      "nutrient cycling",
-      "ocean warming",
-      "pathobiome",
-      "soft corals",
-      "symbioses"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
     "ai_done": true,
     "fetch_date": "2026-09-15"
   }

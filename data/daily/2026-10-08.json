@@ -46,37 +46,6 @@
     "fetch_date": "2026-10-08"
   },
   {
-    "pmid": "42844060",
-    "title": "Engineering anaerobic fungal-bacterial consortia for direct conversion of lignocellulosic biomass into medium-chain fatty acids.",
-    "doi": null,
-    "journal": "Trends in biotechnology",
-    "issn": "1879-3096",
-    "pub_date": "2026-10-08",
-    "authors": "Kim Byung-Chul R; Blair Elaina M; Howard Joel P; Gois Ian M; Flick Robert et al.",
-    "abstract": "Lignocellulosic biomass is a renewable feedstock for sustainable fuels and chemicals, yet industrial conversion remains constrained by carbohydrate solubilization. Inspired by herbivore rumen microbiomes, we engineered an anaerobic fungal-bacterial consortium thatconverts native lignocellulose into medium-chain fatty acids (MCFAs) without pretreatment. Systematic screening identified the anaerobic fungus isolated here, Neocallimastix sp. FC1, togetherwith Megasphaerahexanoica, as a top-performing consortium, achieving a lignocellulose-to-MCFA yield of 21.0% (carbon-to-carbon basis) through tight lactate cross-feeding without competition for soluble sugars. Fungal lactate production limited the growth of M. hexanoica in co-culture, and the bacterium reallocated protein from growth toward chain elongation, resulting in increased MCFA production. These findings identify fungal lactate production as the primary biological constraint, and balancing lactate production and consumption as a key engineering strategy for improving lignocellulose-to-MCFA conversion. Techno-economic analysis identified high cultivation medium costs as the primary economic constraint and established quantitative cost-yield targets for profitable MCFA production.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "anaerobic fungi",
-      "industrial biomanufacturing",
-      "lignocellulosic biorefinery",
-      "medium-chain fatty acids",
-      "microbial chain elongation",
-      "microbiome engineering"
-    ],
-    "summary_zh": "（待生成）",
-    "innovation": "（待生成）",
-    "limitation": "（待生成）",
-    "study_object": "（待生成）",
-    "disease": "（待生成）",
-    "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-10-08"
-  },
-  {
     "pmid": "42845110",
     "title": "The Gut-Brain Axis in Parkinson's Disease: From Clinical Observation toward Mechanism-Based Precision Medicine.",
     "doi": null,

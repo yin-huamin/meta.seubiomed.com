@@ -56,30 +56,6 @@
     "fetch_date": "2026-06-19"
   },
   {
-    "pmid": "42321256",
-    "title": "Reprogramming hydrogen metabolism for methane mitigation in dairy cows: mechanistic insights from polyphenols using meta-omics approaches.",
-    "doi": null,
-    "journal": "NPJ biofilms and microbiomes",
-    "issn": "2055-5008",
-    "pub_date": "2026-06-19",
-    "authors": "Zhao Yuchao; Wang Ying; Bai Sarula; Tan Jian; Niu Haoyu et al.",
-    "abstract": "Enteric methane emissions from ruminants contribute significantly to agricultural greenhouse gases. Plant-derived phytochemicals such as grape seed proanthocyanidins (GSP) are promising natural antimethanogenic feed additives, yet their modes of action remain incompletely understood. This study aimed to comprehensively elucidate the microbiological and functional mechanisms underlying phytochemical-induced methane mitigation using integrative meta-omics. Both in vivo and in vitro experiments demonstrated that GSP supplementation significantly reduced methane emissions; in lactating dairy cows, GSP decreased methane emission intensity by 16.5% (g/kg energy-corrected milk). Metagenomic and metatranscriptomic analyses revealed a reprogramming of microbial communities, with decreased abundance and transcriptional activity of methanogenic archaea (e.g., Methanobrevibacter) and enhanced activity of alternative hydrogenotrophic bacteria (Selenomonas, Veillonella, Sharpea). Functionally, GSP elevated expression of genes involved in reductive acetogenesis (e.g., acsB), nitrate ammonification (narG, nrfA), and sulfate reduction (dsrA), thereby redirecting hydrogen flux away from methanogenesis. These shifts were accompanied by increased microbial carbohydrate metabolism and antioxidative responses. Our findings provide the first meta-omics-based mechanistic framework for understanding methanogenesis suppression by phytochemicals in ruminants. GSP modulates microbial composition and function to reroute reductant flows and suppress archaeal methanogenesis through enhanced bacterial electron sinks. This work highlights the potential of polyphenols to modulate the rumen microbiome for sustainable methane mitigation, supporting the development of next-generation feed additives.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过宏基因组和宏转录组技术揭示葡萄籽原花青素通过重编程瘤胃微生物氢代谢减少奶牛甲烷排放的机制",
-    "innovation": "首次使用整合的宏基因组和宏转录组方法揭示植物化学物质甲烷减排机制 | 发现GSP通过增强细菌电子库（还原性产乙酸、硝酸盐氨化、硫酸盐还原）重新引导氢通量抑制产甲烷",
-    "limitation": "未描述",
-    "study_object": "泌乳奶牛瘤胃微生物（宏基因组和宏转录组）",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-06-19"
-  },
-  {
     "pmid": "42321538",
     "title": "Fatty diets disrupt mucus-microbiome-metabolite interactions to increase intestinal lipid uptake.",
     "doi": null,

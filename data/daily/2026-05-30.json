@@ -1,35 +1,5 @@
 [
   {
-    "pmid": "42216074",
-    "title": "Dietary baicalin supplementation enhances growth performance in fattening Hu sheep via dual modulation of immunity and gastrointestinal microbiome-metabolic crosstalk.",
-    "doi": null,
-    "journal": "Journal of animal science and biotechnology",
-    "issn": "1674-9782",
-    "pub_date": "2026-05-30",
-    "authors": "Ding Di; Zhang Yu; Tian Haoliang; Dong Binghan; Wu Xin et al.",
-    "abstract": "BACKGROUND: Baicalin is a bioactive flavonoid from Scutellaria baicalensis Georgi with antioxidant, anti‑inflammatory and antibacterial properties. However, its bitter taste and susceptibility to ruminal degradation limit its practical use in mammals. Enteric coating technology might overcome these limitations by enabling targeted intestinal release. This study investigated effects of dietary supplementation with baicalin and coated baicalin on rumen fermentation, gastrointestinal microbiota, immune function and growth performance in Hu sheep.\nRESULTS: Thirty-six lambs with similar body weight (33.01 ± 2.68 kg) were randomly assigned to three groups (4 replicates per group, 3 sheep per replicate). The control group was fed basal diet (CON) while treatment I (BAI) and treatment II (C-BAI) groups were fed a basal diet supplemented with 0.1% baicalin and coated baicalin, respectively. After a 60-d feeding trial, baicalin and coated baicalin supplementation improved total weight gain and average daily gain compared with CON group (P < 0.05). In addition, BAI and C-BAI groups exhibited higher total antioxidant capacity (P < 0.05) and catalase activity (P < 0.05) with associated lower malondialdehyde levels (P < 0.05). Immunoglobulin G and anti-inflammatory cytokines interleukin-4 (IL-4) were also increased (P < 0.001). Notably, IgM, IL-10 and IL-4 in the C-BAI group exceeded those of the BAI group (P < 0.001). Microbiome analysis revealed that baicalin supplementation enriched abundance of beneficial bacterial taxa including Firmicutes and Lachnoclostridium (P < 0.05) and reduced potential pathogen abundance, e.g., Treponema and Ralstonia (P < 0.05). The C-BAI group also showed increased abundance of the beneficial Bradyrhizobium compared with CON (P < 0.05). Metabolomic analysis revealed that baicalin altered propionate and tyrosine metabolic pathways (P < 0.05), while coated baicalin modulated penicillin metabolism and glyceride metabolism in jejunum (P < 0.05) increasing ATP production. Overall, these results indicated enhanced nutrient metabolism and gut health in the presence of dietary baicalin.\nCONCLUSIONS: Dietary supplementation with baicalin and coated baicalin improved growth performance, antioxidant status, immunity and beneficially modulated the microbiome-metabolome crosstalk in Hu sheep. Notably, uncoated baicalin exerted more pronounced effects on growth performance and supported a role for baicalin as a potential and functional feed additive.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Baicalin",
-      "Immunity",
-      "Microbiome-metabolic crosstalk",
-      "Rumen fermentation",
-      "Sheep"
-    ],
-    "summary_zh": "本研究通过添加黄芩苷和包被黄芩苷探究其对胡羊生长性能、免疫及胃肠微生物组-代谢组互作的影响，发现可改善生长性能。",
-    "innovation": "采用肠溶包衣技术克服黄芩苷苦味和瘤胃降解限制 | 比较包被与非包被黄芩苷对微生物组-代谢组互作的双重调节作用 | 揭示黄芩苷通过调节有益菌和代谢通路促进生长性能的机制",
-    "limitation": "未描述",
-    "study_object": "Hu sheep（胡羊） + 瘤胃与胃肠道内容物 + 16S rRNA测序及代谢组学",
-    "disease": "无",
-    "sample_size": "36只胡羊",
-    "ai_done": true,
-    "fetch_date": "2026-05-30"
-  },
-  {
     "pmid": "42215376",
     "title": "Giants within: a new class of microbial mobile elements.",
     "doi": null,

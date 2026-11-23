@@ -1,35 +1,5 @@
 [
   {
-    "pmid": "42604542",
-    "title": "Strawberry micropropagation simplifies endomicrobiome and highlights potential for in vitro biotization with beneficial rhizobacteria.",
-    "doi": null,
-    "journal": "Plant biology (Stuttgart, Germany)",
-    "issn": "1438-8677",
-    "pub_date": "2026-08-16",
-    "authors": "Sepúlveda A M G; da Conceição Jesus E; Molina Y C; Buttrós V H; Carvalho L Q et al.",
-    "abstract": "Strawberry micropropagation produces uniform, disease-free planting material. However, repeated in vitro subculturing can simplify the endophytic microbiome, reducing plant vigour and acclimatization success. This study investigated the impact of successive in vitro generations on the endomicrobiome of Fragaria × ananassa cv. San Andreas and determined if targeted biotization with beneficial rhizobacteria can enhance plant performance. Profiled endophytic bacterial and fungal communities were analysed in the mother plant and across three in vitro generations using amplicon sequencing of the 16S rRNA gene and ITS markers. Ten plant growth-promoting bacterial strains were tested in vitro. The most effective strains were combined into consortia, and their impact on growth, survival and phenolic and flavonoid accumulation was assessed under in vitro and ex vitro acclimatization conditions. Successive subcultures simplified the endophytic assemblage. The mother plant exhibited substantially higher bacterial alpha-diversity than in vitro generations, with richness and Shannon diversity declining significantly (P <0.001) across all subcultures. In vitro biotization with A. brasilense Ab-V5 and A. brasilense Ab-V6 increased total dry biomass from 190.63 mg in the control to 216.75 mg and 209.11 mg, respectively. Under ex vitro conditions, several inoculated treatments achieved 100% survival compared with 75% in the non-inoculated control. Prolonged in vitro maintenance reduces the complexity of the strawberry endomicrobiome by imposing a selective bottleneck. Targeted introduction of beneficial bacteria partially compensates by enhancing growth, survival and secondary metabolite accumulation, supporting microbiome-assisted strategies to improve tissue culture performance and ex vitro establishment.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [
-      "Azospirillum brasilense",
-      "Bacillus subtilis",
-      "endophytes",
-      "flavonoids",
-      "phenolics"
-    ],
-    "summary_zh": "研究草莓微繁殖连续继代对内生微生物组的影响，发现继代简化菌群，接种有益菌株可提升生长和存活。",
-    "innovation": "揭示微繁殖连续继代对内生微生物组的简化作用 | 发现特定固氮螺菌菌株可提高干生物量 | 提出微生物组辅助策略改善组织培养和驯化",
-    "limitation": "未描述",
-    "study_object": "草莓（Fragaria × ananassa cv. San Andreas）内生微生物组，通过16S rRNA和ITS扩增子测序分析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-08-16"
-  },
-  {
     "pmid": "42605004",
     "title": "Cystic Fibrosis and Colorectal Cancer Risk: Reprogramming of the Intestinal Epithelial Niche and Cell-State Plasticity in the CFTR Modulator Era.",
     "doi": null,

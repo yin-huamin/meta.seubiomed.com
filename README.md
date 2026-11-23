@@ -235,6 +235,66 @@ python metaweb.py auto --days 7 --force                                  # 强�
 python metaweb.py daily    # 执行每日更新（自动检测缺失的日期并补全）
 ```
 
+### `python metaweb.py fetch-journals` - 期刊最新论文
+
+按 `data/journals_sources.tsv` 中的期刊名单，从 Europe PMC（主）和 OpenAlex（补量）抓取最新论文。
+
+```bash
+python metaweb.py fetch-journals --days 7              # 最近 7 天
+python metaweb.py fetch-journals --start-date 2026-10-24 --end-date 2026-11-23
+python metaweb.py fetch-journals --days 7 --dry-run    # 只看命中，不写文件
+```
+
+期刊名单格式（Tab 分隔，首行表头）：
+
+```tsv
+name	issn	eissn	preprint	enabled	priority	note
+Nature	0028-0836	1476-4687	0	1	1	nature.com
+```
+
+### `python metaweb.py fetch-preprints` - 预印本
+
+```bash
+python metaweb.py fetch-preprints --days 3             # bioRxiv + medRxiv
+python metaweb.py fetch-preprints --server biorxiv --days 7 --dry-run
+```
+
+预印本以 DOI 作为唯一标识，前端显示“预印本”标记并跳转 DOI；已有正式版的预印本默认不收录。
+
+### `python metaweb.py classify-scope` - 医学主题范围分类
+
+对文献做 `medical / bioinformatics_method / non_medical` 三分类，产出排除清单与复核表。
+
+```bash
+python metaweb.py classify-scope --all --workers 6     # 全量分类
+python metaweb.py classify-scope --date 2026-11-23 --apply-daily
+python metaweb.py classify-scope --materialize-only    # 复用缓存，只写排除清单
+```
+
+人工改判写入 `data/scope_overrides.json`，格式：
+
+```json
+{"pmid:123456": {"decision": "keep", "category": "medical", "reason": "人工复核"}}
+```
+
+### `python metaweb.py scope-purge` / `scope-audit` - 物理清除与审计
+
+```bash
+python metaweb.py scope-purge --dry-run                # 统计将删除多少
+python metaweb.py scope-purge --apply --backup         # 从 web + daily 物理删除
+python metaweb.py build
+python metaweb.py scope-audit --verify                 # 断言 0 残留
+```
+
+### `python metaweb.py backfill-meta` - 回填 DOI
+
+为历史 PubMed 记录回填 PMID→DOI 映射，写入 `data/pmid_doi_map.json`。
+
+```bash
+python metaweb.py backfill-meta --limit 100 --dry-run
+python metaweb.py backfill-meta
+```
+
 ## 本地预览
 
 ```bash

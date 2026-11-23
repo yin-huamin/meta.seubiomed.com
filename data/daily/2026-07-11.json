@@ -1,29 +1,5 @@
 [
   {
-    "pmid": "42436262",
-    "title": "Microbiome-derived queuine vitamers underlie tyrosine metabolism and predator avoidance in mosquito larvae.",
-    "doi": null,
-    "journal": "Communications biology",
-    "issn": "2399-3642",
-    "pub_date": "2026-07-11",
-    "authors": "Kelley Melissa; Rathore Shubham; Chandrasegaran Karthikeyan; Herbert Cassandra; Sabile Chloe Elizabeth G et al.",
-    "abstract": "The gut microbiome is a rich source of nutrients that are critical to the development and biology of eukaryotes. Transfer RNAs (tRNAs) are essential components of protein synthesis, and certain chemical modifications of tRNAs depend on the availability of microbiome-derived nutrients. In eukaryotes, the nucleobase queuine (q) or nucleoside queuosine (Q) is salvaged from the microbiome or diet and incorporated into tRNA, where it influences the speed and efficiency of protein synthesis. Here, we examine the role of microbiome-derived Q in mosquito larval development and behavior. When mosquito larvae are grown with a microbiome incapable of synthesizing Q, there is a significant impact on tyrosine levels and downstream processes, which correlate with defects in behavior and cuticle formation. Likely due to effects on movement and behavior, Q-deficient larvae exhibit impaired predator evasion, resulting in increased capture by predaceous beetle larvae. The broad effects of Q-deficiency in mosquito larvae highlight the importance of previously unexplored microbiome-derived nutrients for mosquito physiology and behavior.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "研究微生物组来源的Q在蚊子幼虫发育中的作用，发现Q缺乏影响酪氨酸代谢并导致捕食者逃避受损。",
-    "innovation": "揭示微生物组来源的Q对蚊子幼虫行为和捕食者逃避的影响 | 发现Q缺乏影响酪氨酸代谢和角质层形成 | 强调微生物组来源营养素的未探索作用",
-    "limitation": "未描述",
-    "study_object": "蚊子幼虫宿主 + 肠道微生物组 + 缺失突变体比较",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-11"
-  },
-  {
     "pmid": "42435326",
     "title": "Glycodeoxycholic and deoxycholic bile acids impair recognition and spatial memory in adult mice, and reduce central CREB-BDNF signaling and cytokine expression with neuroanatomical specificity.",
     "doi": null,
@@ -95,54 +71,6 @@
     "study_object": "微生物和疾病生物标志物的智能检测技术",
     "disease": "无",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-11"
-  },
-  {
-    "pmid": "42436183",
-    "title": "Lactiplantibacillus plantarum promotes intestinal goblet cell differentiation via indole-3-lactic acid-AHR signaling in pigs.",
-    "doi": null,
-    "journal": "NPJ biofilms and microbiomes",
-    "issn": "2055-5008",
-    "pub_date": "2026-07-11",
-    "authors": "Liu Ziyu; Wu Haiqin; Howe Samantha; Zuo Bin; Tian Yang et al.",
-    "abstract": "The swine intestinal microbiota dynamically remodels during development and supports gut homeostasis. However, whether stage-specific microbial shifts, are associated with epithelial development remains poorly understood. Here, longitudinal metagenomic profiling of the swine gut microbiome identified Lactiplantibacillus plantarum as a transiently enriched nursery-stage bacterium positively associated with goblet cell numbers. Dietary supplementation with L. plantarum validated this association, showing increased goblet cell numbers and MUC2 expression in the ileum of nursery piglets. Co-culture with porcine ileum organoids further demonstrated that L. plantarum cell-free supernatant promoted ileal organoid growth and goblet cell differentiation. Integrated untargeted metabolomic analyses of ileal samples and bacterial culture supernatants identified indole-3-lactic acid (ILA) as a potential key microbial metabolite from L. plantarum. Mechanistically, ILA promoted intestinal stem cell proliferation and MUC2 expression, accompanied by increased expression of aryl hydrocarbon receptor (AHR) and its downstream target CYP1A1 in ileal organoids. Consistently, activation of AHR using FICZ increased MUC2 expression, whereas inhibition with CH-223191 suppressed MUC2 expression in ileal organoids. Collectively, these findings uncover a L. plantarum-ILA-AHR signaling axis that promotes intestinal goblet cell differentiation, providing mechanistic insight into microbial metabolite-mediated regulation of epithelial homeostasis during post-weaning period in pigs.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过宏基因组和实验发现植物乳杆菌通过ILA-AHR信号促进猪肠道杯状细胞分化",
-    "innovation": "发现植物乳杆菌短暂富集与杯状细胞数量正相关 | 鉴定ILA为关键代谢物 | 揭示ILA-AHR信号轴",
-    "limitation": "未描述",
-    "study_object": "猪肠道微生物+回肠组织+宏基因组/代谢组/类器官",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-07-11"
-  },
-  {
-    "pmid": "42436166",
-    "title": "A rugged life: how host-microbiome adaptations associated with the semi-feral lifestyle of gayal (Bos frontalis).",
-    "doi": null,
-    "journal": "NPJ biofilms and microbiomes",
-    "issn": "2055-5008",
-    "pub_date": "2026-07-11",
-    "authors": "Chen Yuming; Ma Juntao; Guo Zhifan; Chen Junren; Wang Xiaonan et al.",
-    "abstract": "The semi-domesticated gayal (Bos frontalis) is an endangered browsing ruminant inhabiting the rugged Eastern Himalayan foothills, and maintains an energy-intensive lifestyle on nutrient-poor, fiber-rich feed. However, the dietary, microbial, and host physiological features underlying this adaptation remain poorly understood. Here, we analyzed fecal metagenomes from ten bovine populations (n = 334) to characterize dietary composition. Then we profiled the four-chambered (FC) stomach microbiome in adult gayal (Bos frontalis), yak (Bos grunniens), and taurine cattle (Bos taurus). Host transcriptomes were profiled across the FC stomach in adult individuals from gayal, yak and cattle. Dietary analysis revealed a woody plant-dominated, bamboo-rich dietary pattern in gayal. Gastric metagenomes in gayal showed high population-level microbial diversity, pronounced individual-associated community structure, and functional potentials related to aromatic compound transformation, nitrogen metabolism, and metabolic flexibility. Transcriptomes revealed compartment-specific specialization in the gayal stomach, including rumen immune signatures and reticulum contractile/electrophysiological features. Exploratory compartment-level integration further suggested possible consistency between host transcriptomic features and microbial functional potential. Together, these multi-omics findings suggest a host-microbiome system potentially associated with the utilization of chemically complex, low-quality forage, providing a framework for understanding digestive features of browsing ruminants and for conserving host-associated gastrointestinal microbiomes.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [],
-    "keywords": [],
-    "summary_zh": "通过多组学分析揭示了半野生gayal利用低质量纤维饲料的宿主-微生物组适应机制。",
-    "innovation": "多组学整合分析 | 揭示gayal胃微生物组高多样性和芳香化合物转化等功能潜力 | 发现宿主胃转录组区室特异性与微生物功能可能协同",
-    "limitation": "未描述",
-    "study_object": "半野生gayal（Bos frontalis）的粪便和四室胃样本，宏基因组和转录组分析",
-    "disease": "无",
-    "sample_size": "n=334",
     "ai_done": true,
     "fetch_date": "2026-07-11"
   },

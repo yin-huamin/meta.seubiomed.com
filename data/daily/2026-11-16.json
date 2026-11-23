@@ -1,44 +1,5 @@
 [
   {
-    "pmid": "42723362",
-    "title": "Structure and Function of a Multi-Megadalton Virus-Like Proteolytic Dodecahedron.",
-    "doi": null,
-    "journal": "Angewandte Chemie (International ed. in English)",
-    "issn": "1521-3773",
-    "pub_date": "2026-11-16",
-    "authors": "Madej Mariusz; Rodríguez-Banqueri Arturo; Mizgalska Danuta; Szmigielski Borys; Nowakowska Zuzanna et al.",
-    "abstract": "Natural pentamer dodecahedra (Ddhs) span six orders of magnitude in diameter. Among proteins, only two catalytic Ddhs have been structurally characterized: lumazine synthase (LS) and the core of pyruvate dehydrogenase (PDH). Zuzalysin (ZUZ) is a ≈95-kDa metallopeptidase secreted for virulence by Porphyromonas gingivalis. Calcium converts latent flexible monomers into active ≈0.5-MDa pentamers that further assemble hierarchically into bipentamers, tripentamers, and a ≈5.6-MDa, ≈355-Å virus-like dodecahedron (DdhZUZ). Experimental structures (1.8-3.6 Å) across these states reveal the molecular basis of activation, association, and catalysis, culminating in DdhZUZ, which is physiologic, exceeds small viral capsids, and has 20 main entry pores and 60 lumen-facing active sites. ZUZ represents the largest catalytic protein assembly resolved at high resolution, exceeding LS, PDH, and major peptidase complexes in size and/or resolution.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Models, Molecular",
-      "Porphyromonas gingivalis",
-      "Proteolysis",
-      "Crystallography, X-Ray"
-    ],
-    "keywords": [
-      "bacterial virulence",
-      "cryoelectron microscopy",
-      "dodecahedron",
-      "icosahedral symmetry",
-      "multimeric metallopeptidase",
-      "oral microbiome dysbiosis",
-      "periodontal disease",
-      "x‐ray crystallography",
-      "zymogen activation"
-    ],
-    "summary_zh": "通过1.8–3.6 Å结构解析，揭示ZUZ钙激活、寡聚组装及形成约5.6-MDa病毒样十二面体的机制。",
-    "innovation": "解析ZUZ从潜伏单体到活性五聚体、双/三五聚体直至约5.6-MDa病毒样十二面体的多状态结构 | 揭示DdhZUZ具有20个主入口孔和60个面向腔内的活性位点 | 报道ZUZ为目前高分辨率解析的最大催化蛋白组装体，尺寸和/或分辨率超过LS、PDH及主要肽酶复合物",
-    "limitation": "未描述",
-    "study_object": "牙龈卟啉单胞菌 + 分泌金属肽酶ZUZ蛋白 + 高分辨率结构解析",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-11-16"
-  },
-  {
     "pmid": "43037257",
     "title": "Fecal microbiota transplantation for pediatric Clostridioides difficile infection: efficacy, challenges, and the path to next-generation microbiome therapies.",
     "doi": null,

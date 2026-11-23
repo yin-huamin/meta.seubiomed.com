@@ -484,47 +484,6 @@
     "fetch_date": "2026-05-01"
   },
   {
-    "pmid": "40850684",
-    "title": "Synthetic microbial communities rescues strawberry from soil-borne disease by enhancing soil functional microbial abundance and multifunctionality.",
-    "doi": null,
-    "journal": "Journal of advanced research",
-    "issn": "2090-1224",
-    "pub_date": "2025-08-25",
-    "authors": "Lei Guoshen; Han Zhixiang; Wang Xingyue; Malacrinò Antonino; Kang Tao et al.",
-    "abstract": "INTRODUCTION: Synthetic microbial communities (SynCom) contribute to mitigating soil-borne crop diseases while enhancing both crop quality and yield. However, relatively little research has been done on the intricate regulatory mechanisms of SynCom on the suppression of soil-borne diseases.\nOBJECTIVES: We aimed to elucidate the dynamic regulatory mechanisms and legacy effects of a SynCom on the composition of soil functional microorganisms, soil multifunctionality and crucial functions, and the suppression of soil-borne diseases.\nMETHODS: We conducted an extensive series of experiments to assess the effect of a SynCom on the changes in the rhizosphere functional microorganisms and soil functions (e.g., multifunctionality, functionality of C, N, and P cycling) across six successive generations of strawberry in consecutive monoculture soils by employing amplicon metagenomics and transcriptome sequencing.\nRESULTS: Our results showed that the SynCom increased the aboveground fresh biomass of strawberry by 31-70.3% and the fruit biomass by 171.39-280.71%, and decreased the Fusarium oxysporum abundance by 17.91-49.51% compared to the consecutive monoculture. The SynCom significantly enhanced the soil C cycling and P cycling function, and soil multifunctionality (SMF). SynCom treatment significantly increased the Shannon diversity index and relative abundances of potentially beneficial bacteria and consumer protistan communities, while exerted a significant inhibitory effect on the Shannon diversity index and relative abundances of fungal pathogen. SEM result showed that SynCom significantly affected SMF by influencing soil nutrients, the abundance and diversity of functional microbial community. Our result also showed that the SynCom established the positive legacy effects on the abundance of rhizosphere soil beneficial bacteria, strawberry biomass and plant disease resistance-associated pathways (phenylpropanoid biosynthesis pathway, alpha-linolenic acid metabolism pathway), and negative effect on the abundance of pathogenic F. oxysporum under the 7th generation of strawberry cropping.\nCONCLUSION: Collectively, our study demonstrated the effectiveness of employing SynCom in mitigating soil-borne Fusarium oxysporum diseases by enhancing soil functional microbial abundance and soil multifunctionality.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Fragaria",
-      "Soil Microbiology",
-      "Plant Diseases",
-      "Microbiota",
-      "Rhizosphere",
-      "Fusarium",
-      "Soil",
-      "Metagenomics",
-      "Biomass",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Ecological memory",
-      "Replant disease",
-      "Rhizosphere microbiome",
-      "Soil-borne disease",
-      "Sustainable agriculture"
-    ],
-    "summary_zh": "通过连续六代草莓实验，发现合成微生物群落通过增强土壤功能微生物丰度和多功能性抑制土传镰刀菌病害，提高产量。",
-    "innovation": "揭示了SynCom对土传病害抑制的动态调控机制和遗留效应 | 证明了SynCom通过增强土壤功能微生物丰度和多功能性来抑制病害",
-    "limitation": "未描述",
-    "study_object": "草莓根际土壤（扩增子宏基因组和转录组测序）",
-    "disease": "土壤传播的镰刀菌枯萎病",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
     "pmid": "41519378",
     "title": "Malabsorption Syndromes and Risk of Age-Related Macular Degeneration.",
     "doi": null,
@@ -1054,50 +1013,6 @@
     "fetch_date": "2026-05-01"
   },
   {
-    "pmid": "41605131",
-    "title": "Microbial diversity loss affects old and modern barley cultivars differently under varying nitrogen sources.",
-    "doi": null,
-    "journal": "Microbiological research",
-    "issn": "1618-0623",
-    "pub_date": "2026-01-29",
-    "authors": "Kindtler Nikolaj L; Sheikh Sanea; He Rujia; Fonseca Rute R da; Laursen Kristian H et al.",
-    "abstract": "Soil microbial diversity is crucial for plant nutrition and health, yet how its loss affects plant performance remains unclear. We used a dilution-to-extinction approach to test how declining rhizo-microbiome diversity influences two barley cultivars: the modern RGT Planet and the older Babushka. Plants were grown in sterilized systems amended with mineral or organic nitrogen and inoculated with microbiome treatments (10-¹, 10-³, 10-⁵, and 10-⁷ dilutions), plus a no-inoculum treatment. We used amplicon sequencing (16S, ITS, 18S) to profile rhizosphere communities, and quantified plant biomass, shoot nitrogen, and chitin mineralization. Protists and fungi were present in 10-¹ and 10-³ but absent in all others. Microbiome inoculum and nitrogen source explained most variation in rhizo-microbiome composition, with cultivar having a smaller effect. Under organic nitrogen, Babushka showed a marked decline in biomass with decreasing diversity, whereas RGT was largely unaffected, indicating that the older cultivar relied more on a diverse microbiome to maintain growth. At intermediate diversity, when protists and fungi were lost, both cultivars showed improved growth and shoot nitrogen, coinciding with shifts in bacterial composition and loss of potential pathogens. Hence, reduced diversity did not always impair growth, suggesting functional compensation. Under mineral nitrogen, both cultivars were less sensitive to diversity loss. Overall, nitrogen source and cultivar identity modulated plant responses to microbial diversity loss. Diverse microbiomes promoted efficient use of organic nitrogen, particularly for the older cultivar, while the modern cultivar maintained growth at lower diversity. Our results demonstrate that the consequences of diversity loss are context-dependent and cultivar-specific.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Hordeum",
-      "Nitrogen",
-      "Soil Microbiology",
-      "Microbiota",
-      "Biodiversity",
-      "Bacteria",
-      "Rhizosphere",
-      "Fungi",
-      "Biomass",
-      "Plant Roots",
-      "Soil",
-      "RNA, Ribosomal, 16S",
-      "Chitin"
-    ],
-    "keywords": [
-      "Barley",
-      "Diversity",
-      "Microbiome",
-      "Organic fertilizer",
-      "Plant-microbiome interactions"
-    ],
-    "summary_zh": "通过稀释至灭绝实验，研究根际微生物多样性丧失对现代和古老大麦品种在不同氮源下的影响，发现品种和氮源调节植物响应。",
-    "innovation": "发现微生物多样性丧失对植物生长的影响具有品种特异性和氮源依赖性 | 揭示在中间多样性水平，真菌和原生动物缺失时，细菌组成变化和病原菌减少可促进植物生长，体现功能补偿",
-    "limitation": "未描述",
-    "study_object": "大麦根际微生物组，现代品种RGT Planet和古老品种Babushka，采用稀释至灭绝处理、不同氮源（矿物氮和有机氮），使用16S、ITS和18S扩增子测序",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
     "pmid": "41707760",
     "title": "From alpha diversity to zeitgebers: Bacterial gut microbiome associations with sleep and circadian disruption (Part I).",
     "doi": null,
@@ -1224,43 +1139,6 @@
     "study_object": "人类牙齿根尖根内和根外生物膜，16S rRNA基因扩增测序",
     "disease": "持续根尖周炎",
     "sample_size": "17个根尖",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
-    "pmid": "41720411",
-    "title": "Microbial collaboration in bioelectrochemical systems: Mechanisms and advances towards sustainable biobased products.",
-    "doi": null,
-    "journal": "Biotechnology advances",
-    "issn": "1873-1899",
-    "pub_date": "2026-02-18",
-    "authors": "Modestra J Annie; Basha Shaik",
-    "abstract": "The pursuit of sustainability in the urban world has prompted the development of innovative biobased strategies to mitigate the impact of industrial and human activities on the environment. One such strategy is leveraging microbial collaboration to minimize waste and maximize resource efficiency to unlock the production of biobased products embracing circular bioeconomy in rapidly functioning bio-electrochemical systems (BES). BES is a diversified technology with manifold applications that use microbial interactions at electrode interface to synthesize new products with enhanced substrate utilization, contributing to both environmental sustainability and industrial efficiency. Considering the significance of microbial collaboration, this review article is intended to discuss the types and benefits of microbial interactions in BES, partnerships in a mixed microbiome, between co-cultures, underlying factors, mechanisms, and approaches to enhance the yield and targeted outcome advocating sustainability. This review provides an overview of current research, advances in microbial synergy, and the challenges in optimizing microbial consortia for industrial applications. Probing and harnessing synergies between microbial groups or specific microbes is expected to play a pivotal role in advancing efficient bioelectrochemical platforms and accelerating the transition towards a resilient, biobased economy.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Bioelectric Energy Sources",
-      "Microbial Consortia",
-      "Microbiota",
-      "Biotechnology"
-    ],
-    "keywords": [
-      "Biobased chemicals",
-      "Bioeconomy",
-      "Co-cultures",
-      "Microbial fuel cell",
-      "Microbial synergy",
-      "Syntrophic association"
-    ],
-    "summary_zh": "综述微生物合作在生物电化学系统中的作用机制，以促进可持续生物基产品生产。",
-    "innovation": "未描述",
-    "limitation": "未描述",
-    "study_object": "未描述",
-    "disease": "无",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-01"
   },
@@ -1488,45 +1366,6 @@
     "fetch_date": "2026-05-01"
   },
   {
-    "pmid": "40749791",
-    "title": "Regulatory mechanisms of quorum sensing in microbial communities and their potential applications in ruminant livestock production.",
-    "doi": null,
-    "journal": "Journal of advanced research",
-    "issn": "2090-1224",
-    "pub_date": "2025-08-02",
-    "authors": "Li Menglin; Zhao Guangyong; Li Meng M",
-    "abstract": "BACKGROUND: Quorum sensing (QS) is a cell-to-cell communication system that enables microbial communities to dynamically regulate their metabolism and physiological activities according to the surrounding cell density. The rumen's diverse microbial ecosystem represents a classic example of host-microbiome symbiosis. Despite significant progress in understanding the composition and function of ruminal microbial communities, the underlying communication mechanisms in the rumen ecosystem remain largely enigmatic. Gaining insight into these regulatory mechanisms is crucial for developing knowledge-based strategies to improve animal productivity, health, and sustainability in ruminant livestock production.\nAIM OF REVIEW: This review aims to provide an overview of microbial QS communication systems mediated by diverse signaling molecules, including bacterial intraspecies and interspecies QS, fungal QS, and archaeal QS. We conducted a structured review by searching multiple scientific databases, synthesizing data from relevant studies, and critically evaluating the roles of QS systems in microbial communities. This approach ensures a comprehensive analysis of the current understanding of QS mechanisms and their implications for ruminant livestock. Specifically, we elucidate the identification and potential mechanisms of the QS system facilitated by three prevalent signaling molecules (N-acyl homoserine lactones, autoinducing peptides, and autoinducer 2) in ruminants. Recent advances in understanding the effects of QS on microbial fermentation, immune function, biofilm formation, and virulence factor production are summarized in detail, providing a scientific basis for applying QS in ruminant livestock production.\nKEY SCIENTIFIC CONCEPTS OF REVIEW: The rumen harbors various QS signaling molecules that modulate microbial community dynamics, impacting composition, structure, and function. The versatility of QS allows it to regulate ruminal fermentation and inhibit pathogen growth, thereby improving productivity and reducing disease risk in ruminants. This review synthesizes recent advances in QS mechanisms, crucial for disease prevention, combating antibiotic resistance, and promoting sustainable livestock production. Future research should investigate QS pathways and networks in the rumen microbiome through in vivo experiments and multi-omics analyses to gain a deeper understanding of microbial community regulation.",
-    "pub_types": [
-      "Journal Article",
-      "Review"
-    ],
-    "article_type": "综述",
-    "mesh_terms": [
-      "Quorum Sensing",
-      "Animals",
-      "Ruminants",
-      "Livestock",
-      "Rumen",
-      "Microbiota",
-      "Gastrointestinal Microbiome",
-      "Bacteria"
-    ],
-    "keywords": [
-      "Autoinducer",
-      "Microorganism",
-      "Quorum sensing",
-      "Rumen"
-    ],
-    "summary_zh": "综述微生物群体感应信号分子介导的通信机制及其在反刍动物瘤胃生态系统中的作用，为改善生产性能和健康提供科学依据。",
-    "innovation": "系统综述了三种主要信号分子（AHL、AIP、AI-2）在反刍动物中的鉴定与潜在机制 | 总结了QS对瘤胃发酵、免疫、生物膜和毒力因子调控的最新进展 | 提出了QS在疾病预防、抗耐药性和可持续生产中的应用前景",
-    "limitation": "缺乏体内实验和多组学分析验证瘤胃微生物组中的QS通路与网络",
-    "study_object": "反刍动物瘤胃微生物群落 + 综述",
-    "disease": "无",
-    "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
     "pmid": "41962630",
     "title": "Epigenetic modulation of the gut-muscle axis in pompe disease: Microbiota fingerprints to cellular and molecular pathomechanisms.",
     "doi": null,
@@ -1633,49 +1472,6 @@
     "study_object": "人类 + 胃肠道微生物组 + 文献综述",
     "disease": "脑肠互动障碍",
     "sample_size": "未描述",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
-    "pmid": "42084497",
-    "title": "Characterizing microbiomes of African fermented foods in a global context.",
-    "doi": null,
-    "journal": "Microbiology (Reading, England)",
-    "issn": "1465-2080",
-    "pub_date": "2026-05",
-    "authors": "Leech John; Obafemi Yemisi D; Breselge Samuel; Aremu Taiwo; Obadina Adewale Olusegun et al.",
-    "abstract": "Fermentation plays a vital role globally, shaping traditional diets and enhancing food preservation, nutrition and flavour. With over 5,000 varieties of fermented foods globally, the microbiomes of many of these have yet to be explored, particularly with respect to those produced in some regions of Africa. To begin to address this knowledge gap, we conducted a shotgun metagenomics-based analysis of 91 fermented foods produced in Burkina Faso, Ghana, Kenya and Nigeria and compared them to a larger, global curated Food Metagenomic Database (cFMD). As for other studies of fermented food microbiomes in general, the substrate that was fermented emerged as the primary determinant of microbial beta diversity within the current African dataset and between the broader cFMD dataset. However, it was notable that the newly studied samples showed a small but statistically significant geographic signal. The African samples also displayed more alpha diversity than the global dataset, with cassava-, seed- and grain-based samples having the highest alpha diversity among the African foods. We also characterized the functional and antimicrobial profiles of all food-derived metagenome-assembled genomes (MAGs), noting the prevalence of pathways associated with carbohydrate metabolism across both African and non-African MAGs and an absence of known antimicrobial resistance genes in numerous genera. These findings not only expand our fundamental understanding of Africa's under-studied fermented food microbiomes but also lay the foundation for starter culture development tailored to local substrates and conditions, fostering opportunities to enhance product safety, quality and scalability while retaining key characteristics associated with the original, artisanal product.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Fermented Foods",
-      "Microbiota",
-      "Metagenomics",
-      "Bacteria",
-      "Food Microbiology",
-      "Metagenome",
-      "Fermentation",
-      "Africa",
-      "Kenya",
-      "Burkina Faso",
-      "Ghana"
-    ],
-    "keywords": [
-      "antimicrobial resistance (AMR)",
-      "beta diversity",
-      "fermented foods",
-      "metagenome-assembled genomes (MAGs)",
-      "metagenomics",
-      "virulence"
-    ],
-    "summary_zh": "通过宏基因组分析非洲4国91种发酵食品，与全球数据库对比，发现底物主导微生物群落，非洲样本具地理信号和高多样性，为开发本地菌种奠定基础。",
-    "innovation": "首次大规模分析非洲传统发酵食品微生物组 | 发现全球对比中微弱但显著的地理信号 | 非洲样本多样性高于全球且碳水化合物代谢途径普遍",
-    "limitation": "未描述",
-    "study_object": "非洲传统发酵食品的宏基因组分析",
-    "disease": "无",
-    "sample_size": "91",
     "ai_done": true,
     "fetch_date": "2026-05-01"
   },
@@ -2145,45 +1941,6 @@
     "study_object": "（待生成）",
     "disease": "（待生成）",
     "sample_size": "（待生成）",
-    "ai_done": true,
-    "fetch_date": "2026-05-01"
-  },
-  {
-    "pmid": "41725587",
-    "title": "Glucuronolactone Promotes Mucin Sulfation to Alleviate Deoxynivalenol-Induced Intestinal Injury via Microbiota-Dependent and -Independent AHR Activation.",
-    "doi": null,
-    "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-    "issn": "2198-3844",
-    "pub_date": "2026-02-23",
-    "authors": "Cui Chenbin; Zhang Beibei; Tang Jiaxi; Hou Jing; Qiu Yueqin et al.",
-    "abstract": "Deoxynivalenol (DON), a prevalent trichothecene mycotoxin, poses a global threat to the gut health of both humans and livestock. This study investigates the protective effects and underlying mechanisms of glucuronolactone (GLU) against DON-induced intestinal injury. In a piglet model, GLU effectively alleviated DON-induced intestinal injury and inflammation. Transcriptomic analysis revealed that GLU promotes mucin sulfation, a critical process for fortifying the intestinal mucus barrier. On the one hand, integrated microbiome and metabolomics analyses uncovered that GLU increased probiotic Lactobacillus amylovorus abundance and luminal indole-3-acetic acid level, thereby facilitating mucin sulfation. On the other hand, GLU itself directly boosted mucin sulfation in a microbiota-independent manner. Mechanistically, both the microbiota-dependent and -independent pathways through which GLU promoted mucin sulfation converged on the activation of aryl hydrocarbon receptor (AHR). Activated AHR transcriptionally up-regulated the expression of the sulfotransferase GAL3ST3, which drove mucin sulfation. This study identifies GLU as a promising nutritional intervention against DON-induced intestinal injury and reveals AHR-mediated mucin sulfation as a vital mechanism for maintaining intestinal barrier homeostasis.",
-    "pub_types": [
-      "Journal Article"
-    ],
-    "article_type": "研究论文",
-    "mesh_terms": [
-      "Trichothecenes",
-      "Animals",
-      "Receptors, Aryl Hydrocarbon",
-      "Mucins",
-      "Gastrointestinal Microbiome",
-      "Swine",
-      "Intestinal Mucosa",
-      "Intestines"
-    ],
-    "keywords": [
-      "aryl hydrocarbon receptor",
-      "deoxynivalenol",
-      "glucuronolactone",
-      "intestinal microbiota",
-      "mucin sulfation"
-    ],
-    "summary_zh": "研究发现葡萄糖醛酸内酯通过依赖和不依赖微生物的AHR激活促进黏蛋白硫酸化，减轻脱氧雪腐镰刀菌烯醇诱导的肠道损伤。",
-    "innovation": "发现GLU通过依赖和不依赖微生物的双重途径激活AHR | 揭示AHR转录上调GAL3ST3驱动黏蛋白硫酸化",
-    "limitation": "未描述",
-    "study_object": "猪（仔猪） + 肠道组织/内容物 + 转录组、微生物组、代谢组分析",
-    "disease": "脱氧雪腐镰刀菌烯醇诱导的肠道损伤和炎症",
-    "sample_size": "未描述",
     "ai_done": true,
     "fetch_date": "2026-05-01"
   },
