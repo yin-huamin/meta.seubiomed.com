@@ -11180,5 +11180,109 @@
       "microbiom\\w*",
       "microbiota"
     ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.20.768148",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.20.768148",
+    "title": "NanoHIV-DR: a Nextflow workflow for consensus and read level HIV-1 drug resistance profiling from Oxford Nanopore sequencing",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Lule; D.; Ssemwanga; D.; Kaleebu; P.; Tully; D. C.",
+    "abstract": "Oxford Nanopore sequencing offers a rapid and portable approach for HIV-1 drug resistance (HIVDR) genotyping, but analysis of the resulting long-read data requires multiple bioinformatics steps and currently available nanopore workflows are limited. We developed NanoHIV-DR, a Nextflow-based workflow that streamlines the analysis of Oxford Nanopore sequencing data and generation of HIVDR reports. NanoHIV-DR processes raw POD5 files through basecalling, demultiplexing, host-read removal, quality filtering, read alignment and consensus generation, before identifying resistance-associated mutations and interpreting predicted drug susceptibility. The workflow provides two complementary approaches to HIVDR analysis: consensus-based resistance interpretation using Sierra and read-level detection of resistance-associated variants, enabling mutations below the consensus level to be identified and quantified. Outputs are integrated with clinical metadata to generate human-readable HIVDR reports. NanoHIV-DR provides a reproducible and accessible workflow for Nanopore-based HIVDR analysis with reduced bioinformatics expertise and manual processing for translating long-read sequencing data into interpretable resistance profiles.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "开发NanoHIV-DR Nextflow流程，简化Oxford Nanopore HIV-1耐药测序数据分析并生成耐药报告。",
+    "innovation": "基于Nextflow整合POD5至耐药报告的全流程分析 | 同时提供共识序列Sierra解读和读段水平耐药变异检测，可识别并定量低于共识水平的突变 | 将输出与临床元数据整合生成可读报告",
+    "limitation": "未描述",
+    "study_object": "HIV-1（病毒） + 未描述样本类型 + Oxford Nanopore长读长测序",
+    "disease": "HIV-1耐药（HIVDR）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.20.768148",
+    "topic_hits": [
+      "drug resistance"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.20.768127",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.20.768127",
+    "title": "Machine learning prediction of antimicrobial resistance in respiratory metagenomes",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Sy; M. A.; Prosperi; M.; Benos; P. V.; Marini; S.",
+    "abstract": "Background: Targeted therapy for patients with suspected respiratory infections traditionally requires bacterial culture followed by phenotypic antimicrobial susceptibility testing (AST), a process that can take up to 5 days. In acute respiratory distress syndrome (ARDS), delays in identifying the causative pathogen and its resistance profile may be especially harmful because patients are critically ill and often receive broad-spectrum empiric antibiotics. The growing burden of antimicrobial resistance (AMR) further complicates clinical decision-making by reducing effective treatment options and increasing the risk of inadequate initial therapy. Culture-free, AI-driven computational metagenomic strategies have the potential to drastically shorten this window, enabling more rapid targeted therapy prescription. To show the feasibility of such approaches, we develop a proof-of-concept framework based on clinical metagenomics. Methods: We simulated respiratory metagenomes using real-world bacterial genomes with associated antimicrobial susceptibility phenotypes. Each simulated metagenome contained a fixed commensal background and one clinically important respiratory pathogen, Acinetobacter baumannii, Klebsiella pneumoniae, or Pseudomonas aeruginosa, at 5% or 10% bacterial read abundance. Realistic reads were simulated for Oxford Nanopore, PacBio, and Illumina sequencing platforms. Random Forest (RF) classifiers were trained and evaluated using five-fold, strain-grouped cross-validation with fold-specific {chi}2-ranked 13-mer features. ResFinder and KARGA were included as reference-based metagenomics benchmarks and evaluated using the same five held-out folds across the three sequencing platforms and two pathogen-abundance conditions. Results: RF performance varied substantially across species, antibiotics, and sequencing platforms. The strongest and most consistent results were observed for K. pneumoniae, with accuracy reaching approximately 0.96 for ceftazidime, 0.93 for amikacin, and 0.92 for ciprofloxacin. Performance for P. aeruginosa was more heterogeneous: long-read models performed well for amikacin, reaching 0.89 with PacBio and 0.88 with Nanopore, whereas Illumina performed substantially better for ciprofloxacin, ceftazidime, and levofloxacin, reaching accuracies of approximately 0.87, 0.77, and 0.70, respectively. Across most organism-antibiotic combinations, RF accuracy was numerically higher than the classification accuracies obtained with KARGA and ResFinder, which generally remained near 0.50. Increasing pathogen abundance from 5% to 10% and increasing the number of selected features from 2,500 to 5,000 generally produced modest improvements in classification accuracy, although the magnitude of improvement varied across organism-antibiotic combinations and sequencing platforms. Conclusions: Genome-wide k-mer machine learning can recover phenotype-associated antimicrobial resistance signals from simulated respiratory metagenomes, although performance depends strongly on the organism, antibiotic, and sequencing platform. These results represent a simulation-based proof of concept.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究用模拟呼吸道宏基因组和k-mer随机森林预测三种病原菌耐药表型，并与KARGA/ResFinder比较，属概念验证。",
+    "innovation": "基于全基因组k-mer与随机森林，直接从模拟呼吸道宏基因组预测AMR表型 | 在三种测序平台和两种病原丰度下系统评估 | 与ResFinder/KARGA参考方法进行基准比较",
+    "limitation": "仅基于模拟呼吸道宏基因组，属概念验证，未在真实临床样本验证 | 性能高度依赖菌种、抗生素和测序平台",
+    "study_object": "呼吸道（模拟） + 呼吸道宏基因组 + Nanopore/PacBio/Illumina测序及机器学习",
+    "disease": "疑似呼吸道感染、急性呼吸窘迫综合征（ARDS）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.20.768127",
+    "topic_hits": [
+      "amr\\b",
+      "antimicrobial resistance",
+      "metagenom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.22.768343",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.22.768343",
+    "title": "Cross-species dissemination of diverse plasmid lineages and mobile resistance modules shapes carbapenemase co-production in Chilean Enterobacterales",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Guerra-Leal; N.; Pilquinao; N.; Berrios-Pasten; C.; Arros; P.; Galvez-Silva et al.",
+    "abstract": "Carbapenemase co-production among Enterobacterales is an emerging clinical challenge, yet the relative contributions of clonal expansion, cross-species plasmid dissemination, and movement of resistance modules remain unclear. We integrated national surveillance data with plasmid-resolved hybrid genomes to investigate these processes in Chile. Among 414 isolates carrying at least two carbapenemase families referred during 2018-2024, annual numbers increased markedly alongside broader taxonomic and geographic representation. Thirty isolates were selected to span variation in year, species, region, and carbapenemase profile. These represented 11 species from six genera and contained 149 complete plasmids, 57 of which carried carbapenemase genes. Of 63 carbapenemase gene copies, 62 were plasmid-borne, and 55 of the 57 carbapenemase-carrying plasmids were predicted to be conjugative or mobilizable. Complementary plasmid typing, whole-sequence clustering, structural comparisons, and pan-plasmidome analysis identified three recurrent lineages: IncX3/blaNDM-7, IncN/blaKPC-2, and IncHI2A/blaVIM-1. Their occurrence across multiple species and sequence types supported cross-species dissemination, while numerous minor groups and singletons revealed a broader repertoire of plasmid architectures and accessory genes. Related backbones carried variable resistance regions, and equivalent class 1 integrons and transposon-associated platforms occurred in otherwise unrelated plasmids, indicating modular redistribution of carbapenemase genes. In selected isolates, co-resident plasmids created resistance redundancy, brought recurrent carbapenemase plasmid lineages together, or coupled resistance and virulence within the same cell. Thus, co-production did not arise through a single route: bacterial clones, plasmids shared across species, and mobile resistance modules each contributed to its emergence. Complete plasmid resolution is essential to distinguish these processes and track their dissemination.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究整合智利监测数据与质粒解析基因组，揭示克隆、跨种质粒和移动模块共同驱动碳青霉烯酶共产生。",
+    "innovation": "整合全国监测数据与质粒解析杂合基因组开展系统解析 | 识别IncX3/blaNDM-7、IncN/blaKPC-2和IncHI2A/blaVIM-1三种复发性质粒谱系并支持跨种传播 | 发现1类整合子及转座子相关平台在无关质粒间重分配碳青霉烯酶基因",
+    "limitation": "未描述",
+    "study_object": "智利肠杆菌目分离株（碳青霉烯酶共产生） + 质粒解析杂合基因组",
+    "disease": "无",
+    "sample_size": "414株分离株（其中30株用于质粒解析）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.22.768343",
+    "topic_hits": [
+      "plasmidome"
+    ]
   }
 ]

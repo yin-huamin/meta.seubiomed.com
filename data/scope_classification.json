@@ -143923,6 +143923,98 @@
       "classified_at": "2026-11-23",
       "prompt_version": "scope-v1",
       "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768148": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "提出NanoHIV-DR Nextflow分析流程，属于新工具/流程贡献",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "hiv",
+          "human"
+        ],
+        "human_title": [
+          "hiv"
+        ],
+        "method": [
+          "workflow"
+        ],
+        "method_title": [
+          "workflow"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "24314604b25b51ce",
+      "classified_at": "2026-11-23",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768127": {
+      "category": "bioinformatics_method",
+      "confidence": 0.85,
+      "reason": "开发机器学习预测耐药框架并以临床宏基因组为概念验证，主要贡献为方法",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "patients"
+        ],
+        "human_title": [],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance",
+          "framework",
+          "k-mer",
+          "machine learning",
+          "methods",
+          "platform"
+        ],
+        "method_title": [
+          "machine learning"
+        ],
+        "strong_title": [],
+        "strong_body": [
+          "forest"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a8695cb7619e214f",
+      "classified_at": "2026-11-23",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.22.768343": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "智利临床肠杆菌碳青霉烯酶监测与人源耐药研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical"
+        ],
+        "human_title": [],
+        "method": [
+          "plasmid"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "72fe8926bbff8ddf",
+      "classified_at": "2026-11-23",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
     }
   },
   "updated": "2026-11-23"
