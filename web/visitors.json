@@ -1,110 +1,110 @@
 {
-  "generated_at": "2026-07-24T09:30:04.498012+00:00",
+  "generated_at": "2026-11-23T07:00:10.479150+00:00",
   "source": "sample",
-  "total": 5174,
+  "total": 5011,
   "points": [
     {
       "lat": 39.9,
       "lon": 116.4,
-      "count": 1150,
+      "count": 1002,
       "country": "CN",
       "city": "Beijing"
     },
     {
       "lat": 31.2,
       "lon": 121.5,
-      "count": 905,
+      "count": 743,
       "country": "CN",
       "city": "Shanghai"
     },
     {
       "lat": 40.7,
       "lon": -74.0,
-      "count": 536,
+      "count": 606,
       "country": "US",
       "city": "New York"
     },
     {
       "lat": 51.5,
       "lon": -0.1,
-      "count": 472,
+      "count": 452,
       "country": "GB",
       "city": "London"
     },
     {
-      "lat": 35.7,
-      "lon": 139.7,
-      "count": 401,
-      "country": "JP",
-      "city": "Tokyo"
-    },
-    {
       "lat": 37.8,
       "lon": -122.4,
-      "count": 365,
+      "count": 420,
       "country": "US",
       "city": "San Francisco"
     },
     {
+      "lat": 35.7,
+      "lon": 139.7,
+      "count": 361,
+      "country": "JP",
+      "city": "Tokyo"
+    },
+    {
       "lat": -33.8,
       "lon": 151.0,
-      "count": 217,
+      "count": 296,
       "country": "AU",
       "city": "Sydney"
     },
     {
       "lat": 52.5,
       "lon": 13.4,
-      "count": 200,
+      "count": 258,
       "country": "DE",
       "city": "Berlin"
     },
     {
-      "lat": 1.4,
+      "lat": 1.35,
       "lon": 103.8,
-      "count": 167,
+      "count": 180,
       "country": "SG",
       "city": "Singapore"
     },
     {
       "lat": 43.7,
       "lon": -79.4,
-      "count": 160,
+      "count": 168,
       "country": "CA",
       "city": "Toronto"
     },
     {
-      "lat": -23.5,
-      "lon": -46.6,
-      "count": 145,
-      "country": "BR",
-      "city": "São Paulo"
-    },
-    {
       "lat": 48.9,
-      "lon": 2.4,
-      "count": 140,
+      "lon": 2.35,
+      "count": 161,
       "country": "FR",
       "city": "Paris"
     },
     {
-      "lat": 52.4,
+      "lat": -23.5,
+      "lon": -46.6,
+      "count": 122,
+      "country": "BR",
+      "city": "São Paulo"
+    },
+    {
+      "lat": 52.37,
       "lon": 4.9,
-      "count": 119,
+      "count": 101,
       "country": "NL",
       "city": "Amsterdam"
     },
     {
-      "lat": 13.0,
-      "lon": 77.6,
-      "count": 99,
+      "lat": 12.97,
+      "lon": 77.59,
+      "count": 94,
       "country": "IN",
       "city": "Bangalore"
     },
     {
-      "lat": 37.6,
-      "lon": 127.0,
-      "count": 98,
+      "lat": 37.56,
+      "lon": 126.97,
+      "count": 47,
       "country": "KR",
       "city": "Seoul"
     }
@@ -112,51 +112,1059 @@
   "countries": [
     {
       "code": "CN",
-      "count": 2055
+      "count": 1745
     },
     {
       "code": "US",
-      "count": 901
+      "count": 1026
     },
     {
       "code": "GB",
-      "count": 472
+      "count": 452
     },
     {
       "code": "JP",
-      "count": 401
+      "count": 361
     },
     {
       "code": "AU",
-      "count": 217
+      "count": 296
     },
     {
       "code": "DE",
-      "count": 200
+      "count": 258
     },
     {
       "code": "SG",
-      "count": 167
+      "count": 180
     },
     {
       "code": "CA",
-      "count": 160
-    },
-    {
-      "code": "BR",
-      "count": 145
+      "count": 168
     },
     {
       "code": "FR",
-      "count": 140
+      "count": 161
+    },
+    {
+      "code": "BR",
+      "count": 122
     },
     {
       "code": "NL",
-      "count": 119
+      "count": 101
     },
     {
       "code": "IN",
-      "count": 99
+      "count": 94
+    }
+  ],
+  "windows": {
+    "7d": {
+      "days": 7,
+      "total": 1213,
+      "points": [
+        {
+          "lat": 39.9,
+          "lon": 116.4,
+          "count": 259,
+          "country": "CN",
+          "city": "Beijing"
+        },
+        {
+          "lat": 31.2,
+          "lon": 121.5,
+          "count": 193,
+          "country": "CN",
+          "city": "Shanghai"
+        },
+        {
+          "lat": 40.7,
+          "lon": -74.0,
+          "count": 144,
+          "country": "US",
+          "city": "New York"
+        },
+        {
+          "lat": 37.8,
+          "lon": -122.4,
+          "count": 117,
+          "country": "US",
+          "city": "San Francisco"
+        },
+        {
+          "lat": 35.7,
+          "lon": 139.7,
+          "count": 86,
+          "country": "JP",
+          "city": "Tokyo"
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.1,
+          "count": 85,
+          "country": "GB",
+          "city": "London"
+        },
+        {
+          "lat": 52.5,
+          "lon": 13.4,
+          "count": 64,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        {
+          "lat": -33.8,
+          "lon": 151.0,
+          "count": 55,
+          "country": "AU",
+          "city": "Sydney"
+        },
+        {
+          "lat": 43.7,
+          "lon": -79.4,
+          "count": 48,
+          "country": "CA",
+          "city": "Toronto"
+        },
+        {
+          "lat": 1.35,
+          "lon": 103.8,
+          "count": 41,
+          "country": "SG",
+          "city": "Singapore"
+        },
+        {
+          "lat": 48.9,
+          "lon": 2.35,
+          "count": 31,
+          "country": "FR",
+          "city": "Paris"
+        },
+        {
+          "lat": -23.5,
+          "lon": -46.6,
+          "count": 26,
+          "country": "BR",
+          "city": "São Paulo"
+        },
+        {
+          "lat": 12.97,
+          "lon": 77.59,
+          "count": 26,
+          "country": "IN",
+          "city": "Bangalore"
+        },
+        {
+          "lat": 52.37,
+          "lon": 4.9,
+          "count": 25,
+          "country": "NL",
+          "city": "Amsterdam"
+        },
+        {
+          "lat": 37.56,
+          "lon": 126.97,
+          "count": 13,
+          "country": "KR",
+          "city": "Seoul"
+        }
+      ],
+      "countries": [
+        {
+          "code": "CN",
+          "count": 452
+        },
+        {
+          "code": "US",
+          "count": 261
+        },
+        {
+          "code": "JP",
+          "count": 86
+        },
+        {
+          "code": "GB",
+          "count": 85
+        },
+        {
+          "code": "DE",
+          "count": 64
+        },
+        {
+          "code": "AU",
+          "count": 55
+        },
+        {
+          "code": "CA",
+          "count": 48
+        },
+        {
+          "code": "SG",
+          "count": 41
+        },
+        {
+          "code": "FR",
+          "count": 31
+        },
+        {
+          "code": "BR",
+          "count": 26
+        },
+        {
+          "code": "IN",
+          "count": 26
+        },
+        {
+          "code": "NL",
+          "count": 25
+        }
+      ]
+    },
+    "30d": {
+      "days": 30,
+      "total": 5011,
+      "points": [
+        {
+          "lat": 39.9,
+          "lon": 116.4,
+          "count": 1002,
+          "country": "CN",
+          "city": "Beijing"
+        },
+        {
+          "lat": 31.2,
+          "lon": 121.5,
+          "count": 743,
+          "country": "CN",
+          "city": "Shanghai"
+        },
+        {
+          "lat": 40.7,
+          "lon": -74.0,
+          "count": 606,
+          "country": "US",
+          "city": "New York"
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.1,
+          "count": 452,
+          "country": "GB",
+          "city": "London"
+        },
+        {
+          "lat": 37.8,
+          "lon": -122.4,
+          "count": 420,
+          "country": "US",
+          "city": "San Francisco"
+        },
+        {
+          "lat": 35.7,
+          "lon": 139.7,
+          "count": 361,
+          "country": "JP",
+          "city": "Tokyo"
+        },
+        {
+          "lat": -33.8,
+          "lon": 151.0,
+          "count": 296,
+          "country": "AU",
+          "city": "Sydney"
+        },
+        {
+          "lat": 52.5,
+          "lon": 13.4,
+          "count": 258,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        {
+          "lat": 1.35,
+          "lon": 103.8,
+          "count": 180,
+          "country": "SG",
+          "city": "Singapore"
+        },
+        {
+          "lat": 43.7,
+          "lon": -79.4,
+          "count": 168,
+          "country": "CA",
+          "city": "Toronto"
+        },
+        {
+          "lat": 48.9,
+          "lon": 2.35,
+          "count": 161,
+          "country": "FR",
+          "city": "Paris"
+        },
+        {
+          "lat": -23.5,
+          "lon": -46.6,
+          "count": 122,
+          "country": "BR",
+          "city": "São Paulo"
+        },
+        {
+          "lat": 52.37,
+          "lon": 4.9,
+          "count": 101,
+          "country": "NL",
+          "city": "Amsterdam"
+        },
+        {
+          "lat": 12.97,
+          "lon": 77.59,
+          "count": 94,
+          "country": "IN",
+          "city": "Bangalore"
+        },
+        {
+          "lat": 37.56,
+          "lon": 126.97,
+          "count": 47,
+          "country": "KR",
+          "city": "Seoul"
+        }
+      ],
+      "countries": [
+        {
+          "code": "CN",
+          "count": 1745
+        },
+        {
+          "code": "US",
+          "count": 1026
+        },
+        {
+          "code": "GB",
+          "count": 452
+        },
+        {
+          "code": "JP",
+          "count": 361
+        },
+        {
+          "code": "AU",
+          "count": 296
+        },
+        {
+          "code": "DE",
+          "count": 258
+        },
+        {
+          "code": "SG",
+          "count": 180
+        },
+        {
+          "code": "CA",
+          "count": 168
+        },
+        {
+          "code": "FR",
+          "count": 161
+        },
+        {
+          "code": "BR",
+          "count": 122
+        },
+        {
+          "code": "NL",
+          "count": 101
+        },
+        {
+          "code": "IN",
+          "count": 94
+        }
+      ]
+    },
+    "90d": {
+      "days": 90,
+      "total": 15287,
+      "points": [
+        {
+          "lat": 39.9,
+          "lon": 116.4,
+          "count": 3487,
+          "country": "CN",
+          "city": "Beijing"
+        },
+        {
+          "lat": 31.2,
+          "lon": 121.5,
+          "count": 2368,
+          "country": "CN",
+          "city": "Shanghai"
+        },
+        {
+          "lat": 40.7,
+          "lon": -74.0,
+          "count": 1749,
+          "country": "US",
+          "city": "New York"
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.1,
+          "count": 1357,
+          "country": "GB",
+          "city": "London"
+        },
+        {
+          "lat": 37.8,
+          "lon": -122.4,
+          "count": 1170,
+          "country": "US",
+          "city": "San Francisco"
+        },
+        {
+          "lat": 35.7,
+          "lon": 139.7,
+          "count": 1063,
+          "country": "JP",
+          "city": "Tokyo"
+        },
+        {
+          "lat": 52.5,
+          "lon": 13.4,
+          "count": 794,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        {
+          "lat": -33.8,
+          "lon": 151.0,
+          "count": 738,
+          "country": "AU",
+          "city": "Sydney"
+        },
+        {
+          "lat": 1.35,
+          "lon": 103.8,
+          "count": 536,
+          "country": "SG",
+          "city": "Singapore"
+        },
+        {
+          "lat": 43.7,
+          "lon": -79.4,
+          "count": 494,
+          "country": "CA",
+          "city": "Toronto"
+        },
+        {
+          "lat": 48.9,
+          "lon": 2.35,
+          "count": 474,
+          "country": "FR",
+          "city": "Paris"
+        },
+        {
+          "lat": -23.5,
+          "lon": -46.6,
+          "count": 360,
+          "country": "BR",
+          "city": "São Paulo"
+        },
+        {
+          "lat": 52.37,
+          "lon": 4.9,
+          "count": 291,
+          "country": "NL",
+          "city": "Amsterdam"
+        },
+        {
+          "lat": 12.97,
+          "lon": 77.59,
+          "count": 244,
+          "country": "IN",
+          "city": "Bangalore"
+        },
+        {
+          "lat": 37.56,
+          "lon": 126.97,
+          "count": 162,
+          "country": "KR",
+          "city": "Seoul"
+        }
+      ],
+      "countries": [
+        {
+          "code": "CN",
+          "count": 5855
+        },
+        {
+          "code": "US",
+          "count": 2919
+        },
+        {
+          "code": "GB",
+          "count": 1357
+        },
+        {
+          "code": "JP",
+          "count": 1063
+        },
+        {
+          "code": "DE",
+          "count": 794
+        },
+        {
+          "code": "AU",
+          "count": 738
+        },
+        {
+          "code": "SG",
+          "count": 536
+        },
+        {
+          "code": "CA",
+          "count": 494
+        },
+        {
+          "code": "FR",
+          "count": 474
+        },
+        {
+          "code": "BR",
+          "count": 360
+        },
+        {
+          "code": "NL",
+          "count": 291
+        },
+        {
+          "code": "IN",
+          "count": 244
+        }
+      ]
+    },
+    "all": {
+      "days": null,
+      "total": 15287,
+      "points": [
+        {
+          "lat": 39.9,
+          "lon": 116.4,
+          "count": 3487,
+          "country": "CN",
+          "city": "Beijing"
+        },
+        {
+          "lat": 31.2,
+          "lon": 121.5,
+          "count": 2368,
+          "country": "CN",
+          "city": "Shanghai"
+        },
+        {
+          "lat": 40.7,
+          "lon": -74.0,
+          "count": 1749,
+          "country": "US",
+          "city": "New York"
+        },
+        {
+          "lat": 51.5,
+          "lon": -0.1,
+          "count": 1357,
+          "country": "GB",
+          "city": "London"
+        },
+        {
+          "lat": 37.8,
+          "lon": -122.4,
+          "count": 1170,
+          "country": "US",
+          "city": "San Francisco"
+        },
+        {
+          "lat": 35.7,
+          "lon": 139.7,
+          "count": 1063,
+          "country": "JP",
+          "city": "Tokyo"
+        },
+        {
+          "lat": 52.5,
+          "lon": 13.4,
+          "count": 794,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        {
+          "lat": -33.8,
+          "lon": 151.0,
+          "count": 738,
+          "country": "AU",
+          "city": "Sydney"
+        },
+        {
+          "lat": 1.35,
+          "lon": 103.8,
+          "count": 536,
+          "country": "SG",
+          "city": "Singapore"
+        },
+        {
+          "lat": 43.7,
+          "lon": -79.4,
+          "count": 494,
+          "country": "CA",
+          "city": "Toronto"
+        },
+        {
+          "lat": 48.9,
+          "lon": 2.35,
+          "count": 474,
+          "country": "FR",
+          "city": "Paris"
+        },
+        {
+          "lat": -23.5,
+          "lon": -46.6,
+          "count": 360,
+          "country": "BR",
+          "city": "São Paulo"
+        },
+        {
+          "lat": 52.37,
+          "lon": 4.9,
+          "count": 291,
+          "country": "NL",
+          "city": "Amsterdam"
+        },
+        {
+          "lat": 12.97,
+          "lon": 77.59,
+          "count": 244,
+          "country": "IN",
+          "city": "Bangalore"
+        },
+        {
+          "lat": 37.56,
+          "lon": 126.97,
+          "count": 162,
+          "country": "KR",
+          "city": "Seoul"
+        }
+      ],
+      "countries": [
+        {
+          "code": "CN",
+          "count": 5855
+        },
+        {
+          "code": "US",
+          "count": 2919
+        },
+        {
+          "code": "GB",
+          "count": 1357
+        },
+        {
+          "code": "JP",
+          "count": 1063
+        },
+        {
+          "code": "DE",
+          "count": 794
+        },
+        {
+          "code": "AU",
+          "count": 738
+        },
+        {
+          "code": "SG",
+          "count": 536
+        },
+        {
+          "code": "CA",
+          "count": 494
+        },
+        {
+          "code": "FR",
+          "count": 474
+        },
+        {
+          "code": "BR",
+          "count": 360
+        },
+        {
+          "code": "NL",
+          "count": 291
+        },
+        {
+          "code": "IN",
+          "count": 244
+        }
+      ]
+    }
+  },
+  "daily": [
+    {
+      "date": "2026-08-26",
+      "total": 135
+    },
+    {
+      "date": "2026-08-27",
+      "total": 165
+    },
+    {
+      "date": "2026-08-28",
+      "total": 141
+    },
+    {
+      "date": "2026-08-29",
+      "total": 143
+    },
+    {
+      "date": "2026-08-30",
+      "total": 177
+    },
+    {
+      "date": "2026-08-31",
+      "total": 132
+    },
+    {
+      "date": "2026-09-01",
+      "total": 212
+    },
+    {
+      "date": "2026-09-02",
+      "total": 139
+    },
+    {
+      "date": "2026-09-03",
+      "total": 153
+    },
+    {
+      "date": "2026-09-04",
+      "total": 131
+    },
+    {
+      "date": "2026-09-05",
+      "total": 144
+    },
+    {
+      "date": "2026-09-06",
+      "total": 139
+    },
+    {
+      "date": "2026-09-07",
+      "total": 222
+    },
+    {
+      "date": "2026-09-08",
+      "total": 156
+    },
+    {
+      "date": "2026-09-09",
+      "total": 147
+    },
+    {
+      "date": "2026-09-10",
+      "total": 184
+    },
+    {
+      "date": "2026-09-11",
+      "total": 276
+    },
+    {
+      "date": "2026-09-12",
+      "total": 217
+    },
+    {
+      "date": "2026-09-13",
+      "total": 164
+    },
+    {
+      "date": "2026-09-14",
+      "total": 180
+    },
+    {
+      "date": "2026-09-15",
+      "total": 182
+    },
+    {
+      "date": "2026-09-16",
+      "total": 129
+    },
+    {
+      "date": "2026-09-17",
+      "total": 136
+    },
+    {
+      "date": "2026-09-18",
+      "total": 222
+    },
+    {
+      "date": "2026-09-19",
+      "total": 220
+    },
+    {
+      "date": "2026-09-20",
+      "total": 170
+    },
+    {
+      "date": "2026-09-21",
+      "total": 159
+    },
+    {
+      "date": "2026-09-22",
+      "total": 150
+    },
+    {
+      "date": "2026-09-23",
+      "total": 128
+    },
+    {
+      "date": "2026-09-24",
+      "total": 134
+    },
+    {
+      "date": "2026-09-25",
+      "total": 170
+    },
+    {
+      "date": "2026-09-26",
+      "total": 173
+    },
+    {
+      "date": "2026-09-27",
+      "total": 141
+    },
+    {
+      "date": "2026-09-28",
+      "total": 230
+    },
+    {
+      "date": "2026-09-29",
+      "total": 120
+    },
+    {
+      "date": "2026-09-30",
+      "total": 165
+    },
+    {
+      "date": "2026-10-01",
+      "total": 244
+    },
+    {
+      "date": "2026-10-02",
+      "total": 145
+    },
+    {
+      "date": "2026-10-03",
+      "total": 169
+    },
+    {
+      "date": "2026-10-04",
+      "total": 245
+    },
+    {
+      "date": "2026-10-05",
+      "total": 149
+    },
+    {
+      "date": "2026-10-06",
+      "total": 156
+    },
+    {
+      "date": "2026-10-07",
+      "total": 192
+    },
+    {
+      "date": "2026-10-08",
+      "total": 170
+    },
+    {
+      "date": "2026-10-09",
+      "total": 136
+    },
+    {
+      "date": "2026-10-10",
+      "total": 150
+    },
+    {
+      "date": "2026-10-11",
+      "total": 159
+    },
+    {
+      "date": "2026-10-12",
+      "total": 200
+    },
+    {
+      "date": "2026-10-13",
+      "total": 217
+    },
+    {
+      "date": "2026-10-14",
+      "total": 167
+    },
+    {
+      "date": "2026-10-15",
+      "total": 128
+    },
+    {
+      "date": "2026-10-16",
+      "total": 172
+    },
+    {
+      "date": "2026-10-17",
+      "total": 153
+    },
+    {
+      "date": "2026-10-18",
+      "total": 206
+    },
+    {
+      "date": "2026-10-19",
+      "total": 257
+    },
+    {
+      "date": "2026-10-20",
+      "total": 191
+    },
+    {
+      "date": "2026-10-21",
+      "total": 176
+    },
+    {
+      "date": "2026-10-22",
+      "total": 137
+    },
+    {
+      "date": "2026-10-23",
+      "total": 217
+    },
+    {
+      "date": "2026-10-24",
+      "total": 154
+    },
+    {
+      "date": "2026-10-25",
+      "total": 122
+    },
+    {
+      "date": "2026-10-26",
+      "total": 115
+    },
+    {
+      "date": "2026-10-27",
+      "total": 160
+    },
+    {
+      "date": "2026-10-28",
+      "total": 179
+    },
+    {
+      "date": "2026-10-29",
+      "total": 170
+    },
+    {
+      "date": "2026-10-30",
+      "total": 138
+    },
+    {
+      "date": "2026-10-31",
+      "total": 243
+    },
+    {
+      "date": "2026-11-01",
+      "total": 173
+    },
+    {
+      "date": "2026-11-02",
+      "total": 190
+    },
+    {
+      "date": "2026-11-03",
+      "total": 158
+    },
+    {
+      "date": "2026-11-04",
+      "total": 176
+    },
+    {
+      "date": "2026-11-05",
+      "total": 197
+    },
+    {
+      "date": "2026-11-06",
+      "total": 155
+    },
+    {
+      "date": "2026-11-07",
+      "total": 148
+    },
+    {
+      "date": "2026-11-08",
+      "total": 177
+    },
+    {
+      "date": "2026-11-09",
+      "total": 161
+    },
+    {
+      "date": "2026-11-10",
+      "total": 167
+    },
+    {
+      "date": "2026-11-11",
+      "total": 175
+    },
+    {
+      "date": "2026-11-12",
+      "total": 150
+    },
+    {
+      "date": "2026-11-13",
+      "total": 163
+    },
+    {
+      "date": "2026-11-14",
+      "total": 188
+    },
+    {
+      "date": "2026-11-15",
+      "total": 122
+    },
+    {
+      "date": "2026-11-16",
+      "total": 171
+    },
+    {
+      "date": "2026-11-17",
+      "total": 184
+    },
+    {
+      "date": "2026-11-18",
+      "total": 163
+    },
+    {
+      "date": "2026-11-19",
+      "total": 149
+    },
+    {
+      "date": "2026-11-20",
+      "total": 217
+    },
+    {
+      "date": "2026-11-21",
+      "total": 174
+    },
+    {
+      "date": "2026-11-22",
+      "total": 166
+    },
+    {
+      "date": "2026-11-23",
+      "total": 160
     }
   ]
 }

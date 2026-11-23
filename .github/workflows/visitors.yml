@@ -51,12 +51,12 @@ jobs:
           target: "server_log"
           strip_components: 3
 
-      - name: 生成访客分布 JSON（最近 30 天）
+      - name: 生成访客分布 JSON（最近 90 天，含 7/30/90 天窗口）
         run: |
           python scripts/gen_visitors.py \
             --log server_log/meta.seubiomed.com.access.log \
             --mmdb GeoLite2-City.mmdb \
-            --days 30 \
+            --days 90 \
             --out web/visitors.json
 
       - name: 提交并推送
