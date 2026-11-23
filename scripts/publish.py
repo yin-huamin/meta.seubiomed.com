@@ -214,13 +214,40 @@ def deploy():
             "  一次授权：ssh-copy-id seubiomed\n"
             f"  检查路径：ssh seubiomed 'ls -ld {remote_path}'")
 
+    # 不使用 scp -r web/.：服务器上的 web/logs 是指向 ../logs 的软链接，
+    # 递归复制可能把软链接替换成目录。显式列出需要部署的条目。
+    items = [
+        "web/data",
+        "web/fonts",
+        "web/png",
+        "web/assets",
+        "web/index.html",
+        "web/data.json",
+        "web/stats.json",
+        "web/memory.json",
+        "web/visitors.json",
+    ]
+    items = [p for p in items if (BASE_DIR / p).exists()]
     scp_cmd = ["scp", "-r"]
     if port:
         scp_cmd += ["-P", port]
-    scp_cmd += ["web/.", f"{target}:{remote_path}/"]
+    scp_cmd += items + [f"{target}:{remote_path}/"]
     result = subprocess.run(scp_cmd, cwd=BASE_DIR)
     if result.returncode != 0:
         raise RuntimeError("scp 部署失败")
+
+    # 爬取日志单独写入，保留服务器上的 web/logs 软链接
+    local_log = BASE_DIR / "web" / "logs" / "daily.log"
+    if local_log.exists():
+        log_cmd = ["scp"]
+        if port:
+            log_cmd += ["-P", port]
+        log_cmd += [str(local_log.relative_to(BASE_DIR)),
+                    f"{target}:{remote_path}/logs/daily.log"]
+        result = subprocess.run(log_cmd, cwd=BASE_DIR)
+        if result.returncode != 0:
+            log("警告：爬取日志上传失败（页面其它内容已部署）")
+
     site = os.environ.get("SITE_URL", "https://meta.seubiomed.com/")
     log(f"服务器已更新：{site}")
 
