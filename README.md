@@ -1,6 +1,6 @@
-# 宏基因组文献追踪系统 (Meta-SeuBiomed)
+# 宏基因组文献索引 (Meta-SeuBiomed)
 
-> 每日自动从 PubMed 抓取宏基因组/微生物组相关文献，AI 生成中文摘要，静态网页展示。
+> 本地每日更新宏基因组、耐药与基因组拼装文献，AI 生成中文摘要；更新后推送 GitHub 并通过 scp 部署到服务器。
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)]()
@@ -15,7 +15,9 @@
 - [Quick Start](#quick-start)
 - [使用方法](#使用方法)
 - [本地预览](#本地预览)
-- [自动化部署](#自动化部署)
+- [本地每日更新并发布](#本地每日更新并发布推荐)
+- [GitHub Actions 已关闭](#github-actions-已关闭)
+- [服务器部署](#服务器部署nginx)
 - [高级用法](#高级用法)
 - [许可证](#许可证)
 
@@ -23,46 +25,61 @@
 
 ## 项目简介
 
-Meta-SeuBiomed 是一个自动化的宏基因组/微生物组文献追踪系统。它能够：
+Meta-SeuBiomed 是一个面向人类医学研究的宏基因组文献索引。它能够：
 
-- 每日自动从 PubMed 搜索最新的宏基因组/微生物组相关文献
+- 从 PubMed、Europe PMC、OpenAlex、bioRxiv 与 medRxiv 汇总最新文献
+- 用规则 + LLM 做医学口径分类，保留人类医学与生物信息学方法论文
 - 使用 AI（支持 OpenAI / DeepSeek / 本地 Ollama）生成中文摘要
-- 将文献数据整合为静态 JSON 文件，供前端展示
-- 提供简洁的 Web 界面，支持搜索、筛选、排序等功能
+- 将数据整合为静态 JSON，供表格、卡片与交互式访客地图展示
+- 在本地完成每日更新，随后推送 GitHub 并用 `scp` 部署到服务器
 
-本项目纯 Python 标准库实现，**无任何第三方依赖**，轻量、易部署。
+后端纯 Python 标准库实现，前端纯 HTML/CSS/JS，无框架依赖。
 
 ## 功能特性
 
-- **自动抓取**：基于 PubMed E-utilities API，支持按日期、日期范围、PMID 抓取
-- **AI 摘要**：调用 LLM 生成中文摘要、创新点、局限性等字段
-- **期刊过滤**：基于期刊影响因子（IF）、JCR 分区、中科院分区自动过滤低质量期刊
-- **内容过滤**：自动排除家畜、家禽、食品发酵、环境工程等非医学相关文献
-- **关键词自定义**：通过命令行快速修改搜索关键词，无需编辑代码
-- **静态前端**：纯 HTML+CSS+JS 实现，无框架依赖，可直接部署到任何 Web 服务器
-- **双视图**：支持表格视图（桌面端）和卡片视图（移动端）
+- **多源采集**：PubMed + Europe PMC + OpenAlex + bioRxiv/medRxiv
+- **医学口径**：规则预筛 + LLM 三分类 + 人工 overrides，排除植物/环境/食品发酵/畜牧生产
+- **AI 摘要**：中文摘要、创新点、局限、研究对象、疾病、样本量
+- **期刊指标**：IF、JCR 分区、中科院分区；预印本与重点期刊豁免质量过滤
+- **本地发布**：`metaweb.py publish` 一条命令完成更新、Git 推送与服务器部署
+- **静态前端**：响应式表格/卡片、来源筛选、年份覆盖轨道、深色模式
+- **交互地图**：7/30/90/全部访客窗口、城市 tooltip、国家排名筛选、每日趋势
 - **搜索高亮**：搜索关键词在结果中高亮显示
 
 ## 项目结构
 
 ```
 meta-seubiomed/
-├── metaweb.py              # 统一命令行工具
+├── metaweb.py                 # 统一命令行工具
+├── publish.bat                # Windows 一键发布（更新 + GitHub + scp）
 ├── scripts/
-│   ├── fetch_pubmed.py      # PubMed 搜索（核心）
-│   ├── summarize_papers.py  # AI 摘要生成（核心）
-│   ├── build_data.py        # 数据整合（核心）
-│   ├── daily_update.py      # 每日更新入口
-│   └── auto_build_listener.py # 自动构建监听器
+│   ├── fetch_pubmed.py         # PubMed 抓取
+│   ├── fetch_journals.py       # Europe PMC / OpenAlex 期刊抓取
+│   ├── fetch_preprints.py      # bioRxiv / medRxiv 预印本
+│   ├── summarize_papers.py     # AI 摘要
+│   ├── classify_scope.py       # 医学主题三分类
+│   ├── scope_rules.py          # 规则预筛
+│   ├── scope_purge.py          # 排除项物理清除与审计
+│   ├── build_data.py           # 数据整合与分片
+│   ├── daily_update.py         # 每日更新编排
+│   ├── publish.py              # 本地发布（Git + scp）
+│   ├── gen_visitors.py         # 访客地图 JSON（7/30/90/全部窗口）
+│   └── common.py               # uid / DOI / 排除清单共享工具
+├── data/                       # daily 原始数据、分类状态、排除清单、DOI 映射
 ├── web/
-│   ├── index.html           # 前端页面
-│   └── assets/             # 资源目录（微信支付二维码等）
-├── serve.py                 # 本地预览服务器
-├── journal_info.tsv         # 期刊信息表（IF/JCR/中科院分区）
-├── config.env.example       # 配置文件模板
-├── requirements.txt         # Python 依赖（无第三方依赖）
-├── README.md                # 项目文档
-└── LICENSE                  # MIT 许可证
+│   ├── index.html              # 前端页面
+│   ├── data/                   # 按年份拆分的数据
+│   ├── fonts/                  # 自托管 STIX / IBM Plex 字体
+│   ├── png/                    # 微信收款码
+│   ├── logs/                   # 发布后的爬取日志
+│   └── visitors.json           # 访客地图数据
+├── .github/workflows/          # 已停用（.yml.disabled，仅作参考）
+├── serve.py                    # 本地预览服务器
+├── journal_info.tsv            # 期刊信息表（IF/JCR/中科院分区）
+├── config.env.example          # 配置模板（含部署配置）
+├── requirements.txt            # Python 依赖（无第三方依赖）
+├── README.md
+└── LICENSE
 ```
 
 ## 安装配置
@@ -137,6 +154,14 @@ python metaweb.py auto --days 7
 1. **抓取**：从 PubMed 搜索最近 7 天的文献
 2. **摘要**：调用 AI 为每篇论文生成中文摘要
 3. **整合**：将数据合并到 `web/data.json`，供前端展示
+
+### 本地更新并发布
+
+```bash
+python metaweb.py publish
+```
+
+推荐用于日常：抓取全部来源 → 分类/摘要/构建 → 提交推送 GitHub → scp 部署服务器。
 
 ### 按 PMID 抓取指定论文
 
@@ -234,6 +259,16 @@ python metaweb.py auto --days 7 --force                                  # 强�
 ```bash
 python metaweb.py daily    # 执行每日更新（自动检测缺失的日期并补全）
 ```
+
+### `python metaweb.py publish` - 本地更新并发布
+
+```bash
+python metaweb.py publish              # 更新 + push GitHub + scp 服务器
+python metaweb.py publish --no-update  # 只发布现有数据
+python metaweb.py publish --dry-run    # 检查部署配置
+```
+
+完整说明见 [本地每日更新并发布](#本地每日更新并发布推荐)。
 
 ### `python metaweb.py fetch-journals` - 期刊最新论文
 
@@ -361,7 +396,7 @@ python metaweb.py publish
 | `--message "..."` | 自定义 commit 信息 |
 
 > `publish` 会拒绝工作区中的未提交代码改动；请先把代码改动单独提交，再运行每日发布。
-> GitHub Actions 的 `daily.yml` 已改为仅手动触发；`visitors.yml` 仍会每日刷新访客数据。本地 `publish` 在推送前会 `rebase` 远程提交，并在推送后 `scp`，因此会把最新的 `visitors.json` 一并部署。
+> GitHub Actions 已关闭；访客数据不会自动刷新，需要时按下方“访客数据”手动生成。
 
 ### Windows 任务计划程序
 
@@ -376,36 +411,38 @@ schtasks /Create /F /TN "MetaLitPublish" /SC DAILY /ST 20:00 ^
 
 注意：任务计划程序请使用与当前相同的 Windows 用户运行，确保 Git 凭据和 `~/.ssh/id_ed25519` 可用。
 
-## 自动化部署（旧方式）
+## GitHub Actions 已关闭
 
-### Linux/macOS - 使用 crontab
+本项目不再使用 GitHub Actions 做日常更新。两个工作流已重命名并停用：
+
+- `.github/workflows/daily.yml.disabled`
+- `.github/workflows/visitors.yml.disabled`
+
+原因：服务器 IP 无法访问 PubMed；每日更新改由本地 `metaweb.py publish` 完成，避免与 GitHub 定时任务重复提交。
+
+### 访客数据
+
+访客地图数据不再自动刷新，`web/visitors.json` 会保留最后一次生成的内容（当前为示例数据）。
+
+如需真实数据，可在本地生成后发布：
 
 ```bash
-# 编辑 crontab
-crontab -e
-
-# 添加以下行（每天早 8:00 运行）
-0 8 * * * cd /path/to/meta-seubiomed && python metaweb.py daily >> logs/daily.log 2>&1
+pip install geoip2
+python scripts/gen_visitors.py \
+  --log /path/to/nginx/access.log \
+  --mmdb /path/to/GeoLite2-City.mmdb \
+  --days 90 \
+  --out web/visitors.json
+python metaweb.py publish --no-update --no-push
 ```
 
-### Windows - 使用任务计划程序
+输出包含 7/30/90/全部四个时间窗口与每日访问序列。若想恢复 GitHub 上的访客工作流，将 `visitors.yml.disabled` 改回 `visitors.yml` 即可，但请注意它会与本地发布并行提交 `visitors.json`。
 
-```powershell
-$action = New-ScheduledTaskAction `
-    -Execute "python" `
-    -Argument "d:\project\meta-seubiomed\metaweb.py daily" `
-    -WorkingDirectory "d:\project\meta-seubiomed"
+若要彻底关闭本仓库的 Actions 功能，可在 GitHub 仓库 **Settings → Actions → General → Disable actions** 中操作。
 
-$trigger = New-ScheduledTaskTrigger -Daily -At "08:00"
+## 服务器部署（Nginx）
 
-Register-ScheduledTask -TaskName "MetaLitDaily" -Action $action -Trigger $trigger
-```
-
-### 部署到 Web 服务器
-
-1. 将 `web/` 目录部署到 Web 服务器（如 Nginx）
-2. 配置 `metaweb.py daily` 为定时任务
-3. 每次定时任务运行后，`web/data.json` 会自动更新
+`web/` 是纯静态目录；`publish` 会用 `scp` 增量覆盖其中的文件。服务器上的 `web/logs` 是指向 `../logs` 的软链接，发布脚本只更新日志文件，不会替换该软链接。
 
 #### Nginx 配置示例
 
