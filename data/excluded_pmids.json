@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "items": {
     "pmid:24926861": {
       "uid": "pmid:24926861",
@@ -16199,6 +16199,76 @@
       "method": "llm",
       "date": "2026-11-23",
       "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.20.768032": {
+      "uid": "doi:10.64898/2026.11.20.768032",
+      "pmid": "",
+      "doi": "10.64898/2026.11.20.768032",
+      "title": "Resistance evolution in a single species reorganizes community responses across a resource-antibiotic landscape",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-23",
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "环境细菌群落中抗生素耐药进化的生态实验，无人类医学或新工具贡献。",
+      "method": "llm",
+      "date": "2026-11-24",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.21.768310": {
+      "uid": "doi:10.64898/2026.11.21.768310",
+      "pmid": "",
+      "doi": "10.64898/2026.11.21.768310",
+      "title": "Oral microbiome and DNA virome profiling in pigs reveals age-associated dynamics and extracellular recovery of Streptococcus suis-associated phage lineages",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-23",
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "猪口腔微生物组与病毒组研究，属兽医/畜牧，无人类医学证据。",
+      "method": "llm",
+      "date": "2026-11-24",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.23.768557": {
+      "uid": "doi:10.64898/2026.11.23.768557",
+      "pmid": "",
+      "doi": "10.64898/2026.11.23.768557",
+      "title": "Klebsiella taiwanensis sp. nov., and Pseudomonas ficus sp. nov., novel taxa isolated from figs (Ficus)",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-23",
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "从无花果分离鉴定新菌种，属植物相关微生物分类研究。",
+      "method": "llm",
+      "date": "2026-11-24",
+      "source": "biorxiv"
+    },
+    "pmid:43002692": {
+      "uid": "pmid:43002692",
+      "pmid": "43002692",
+      "doi": "10.1073/pnas.2626358123",
+      "title": "Host and anatomical filters prevent microbiome convergence in avian scavengers.",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "pub_date": "2026-11-24",
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "研究秃鹫微生物组生态，属动物/生态研究，无医学或方法学贡献",
+      "method": "llm",
+      "date": "2026-11-24",
+      "source": "pubmed"
+    },
+    "pmid:43074633": {
+      "uid": "pmid:43074633",
+      "pmid": "43074633",
+      "doi": "10.1021/acs.analchem.6c02813",
+      "title": "Metabolomic and Microbial Profiling of Rat Internal Organs for Postmortem Interval Estimation: A Multi-Omics Analysis.",
+      "journal": "Analytical chemistry",
+      "pub_date": "2026-11-24",
+      "category": "non_medical",
+      "confidence": 0.75,
+      "reason": "大鼠死后间隔估计的法医学研究，非人类疾病模型，属应用性多组学分析",
+      "method": "llm",
+      "date": "2026-11-24",
+      "source": "pubmed"
     }
   }
 }

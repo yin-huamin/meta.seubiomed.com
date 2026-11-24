@@ -144015,7 +144015,725 @@
       "classified_at": "2026-11-23",
       "prompt_version": "scope-v1",
       "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.26368586": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "肾移植患者活检与尿液样本的病毒发现研究，属临床人体微生态与疾病研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "biopsy",
+          "plasma",
+          "urine"
+        ],
+        "human_title": [
+          "plasma"
+        ],
+        "method": [
+          "methods",
+          "workflow"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c5e7ab4689df4547",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.19.26368539": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "研究阿尔茨海默病、帕金森病和自闭症患者肠道微生物组生物标志物，属人类疾病相关。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "alzheimer",
+          "autism",
+          "clinical",
+          "cohort",
+          "gut microb\\w*",
+          "parkinson"
+        ],
+        "human_title": [
+          "gut microb\\w*"
+        ],
+        "method": [
+          "protocol"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "98f1cb6170dd56e8",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.21.26368660": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "研究孕妇肠道微生物组与胎儿脊柱裂的关系，属人类疾病与母胎健康研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "gut microb\\w*",
+          "maternal",
+          "pregnan\\w*",
+          "serum"
+        ],
+        "human_title": [
+          "gut microb\\w*",
+          "maternal"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "84b3376b2bdc0886",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.21.26368630": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "调查照护者抗菌药物耐药认知与用药行为，属人类临床公共卫生与耐药研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "children"
+        ],
+        "human_title": [
+          "children"
+        ],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "23e2b589a8bc96ce",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43050311": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "研究铜绿假单胞菌碳青霉烯类耐药机制，属临床病原耐药研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "050bfce48e8d26b3",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43056287": {
+      "category": "medical",
+      "confidence": 0.7,
+      "reason": "研究环境与医院肠球菌间耐药基因转移，涉及临床相关耐药与One Health，含临床分离株分析",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "hospital",
+          "human"
+        ],
+        "human_title": [
+          "hospital"
+        ],
+        "method": [
+          "antimicrobial resistance",
+          "database"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "river",
+          "wastewater"
+        ],
+        "weak_body": [
+          "animal",
+          "environment",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "fed459d89513bff0",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:42956390": {
+      "category": "medical",
+      "confidence": 0.97,
+      "reason": "病例报告确立Potosi病毒为人类神经侵袭病原，属临床人体研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human",
+          "humans",
+          "patient",
+          "patients"
+        ],
+        "human_title": [
+          "human",
+          "patient"
+        ],
+        "method": [
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "mosquito"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "9c2327dca609b13e",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43002692": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "研究秃鹫微生物组生态，属动物/生态研究，无医学或方法学贡献",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "resource"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "environmental microb\\w*"
+        ],
+        "weak_body": [
+          "ecolog\\w*",
+          "environment",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "e40d378826fa2ef5",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43074633": {
+      "category": "non_medical",
+      "confidence": 0.75,
+      "reason": "大鼠死后间隔估计的法医学研究，非人类疾病模型，属应用性多组学分析",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "cohort",
+          "human"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "animal",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "bf7aa603d8f0a3d8",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43069517": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "人体随机对照试验研究泻药对肠道菌群影响，属人体微生态研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adults",
+          "gut microb\\w*",
+          "human",
+          "humans"
+        ],
+        "human_title": [
+          "gut microb\\w*",
+          "humans"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "1651d4f3264a11b4",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43069514": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "综述肠-肾轴与人类肾脏疾病、移植及治疗，属人类医学",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "diabetic"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "cdc686e07a0dd4ee",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43069513": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "研究选择性胎儿生长受限新生儿菌群-胆汁酸轴，含FMT验证，属人体临床研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cohort",
+          "fecal",
+          "fmt",
+          "gut microb\\w*",
+          "neonat\\w*"
+        ],
+        "human_title": [
+          "fmt"
+        ],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "environmental microb\\w*"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "94ec41211e9e74ac",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.19.767610": {
+      "category": "medical",
+      "confidence": 0.8,
+      "reason": "基于英国临床样本鉴定新型分枝杆菌物种，属临床病原监测研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "human"
+        ],
+        "human_title": [
+          "clinical"
+        ],
+        "method": [
+          "database"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "43c9052aadd4c147",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.09.01.748531": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "研究健康成人肠道菌群与脑及外周GABA关联，属人体微生态研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adults",
+          "blood",
+          "gut microb\\w*",
+          "human",
+          "humans"
+        ],
+        "human_title": [
+          "adults",
+          "gut microb\\w*"
+        ],
+        "method": [
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "39109587ca64a8d1",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768025": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "研究婴儿配方喂养与肠道菌群定植，属人体微生态与婴儿健康。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cohort",
+          "gut microb\\w*",
+          "infant",
+          "infants",
+          "stool"
+        ],
+        "human_title": [
+          "infant"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "551092b4e6428ccd",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768032": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "环境细菌群落中抗生素耐药进化的生态实验，无人类医学或新工具贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "antibiotic resistance",
+          "resource"
+        ],
+        "method_title": [
+          "resource"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "ec4873ea2308ca03",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.21.765608": {
+      "category": "bioinformatics_method",
+      "confidence": 0.9,
+      "reason": "提出metaEukaryome框架用于宏基因组真核生物检测，属新工具/流程。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environment",
+          "food"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "0c395c63dd9c7218",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.21.768310": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "猪口腔微生物组与病毒组研究，属兽医/畜牧，无人类医学证据。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "oral microb\\w*"
+        ],
+        "human_title": [
+          "oral microb\\w*"
+        ],
+        "method": [
+          "framework",
+          "resistome"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "pigs"
+        ],
+        "strong_body": [
+          "pig",
+          "pigs"
+        ],
+        "weak_body": [
+          "animals",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "8ead3e4f66678a87",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768557": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "从无花果分离鉴定新菌种，属植物相关微生物分类研究。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e4c579a986bd4735",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768016": {
+      "category": "bioinformatics_method",
+      "confidence": 0.85,
+      "reason": "提出多尺度计算框架预测临床相关耐药等位基因，属新算法/工具。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "cohort"
+        ],
+        "human_title": [],
+        "method": [
+          "antibiotic resistance",
+          "antimicrobial resistance",
+          "framework"
+        ],
+        "method_title": [
+          "framework"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "08c6da536efa8967",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.10.05.753853": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "利用Li-Fraumeni综合征小鼠模型研究p53与肠道菌群促肿瘤，属人类疾病动物模型。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "faecal",
+          "gut microb\\w*",
+          "mice",
+          "tumou?r"
+        ],
+        "human_title": [
+          "tumou?r"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "84429cbcaba0f51a",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.19.26368475": {
+      "category": "medical",
+      "confidence": 0.8,
+      "reason": "人类参考样本NA12878的生殖系变异检测与药物基因组等位基因分析，属人类临床遗传学。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "workflow"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "b42ffa5b80217385",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.19.26368536": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "多队列研究抗生素使用与肠道菌群、代谢健康及2型糖尿病关联，属人类队列。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "blood",
+          "clinical",
+          "diabetes",
+          "gut microb\\w*"
+        ],
+        "human_title": [
+          "blood",
+          "gut microb\\w*"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "ceb92156c3978dd1",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.21.26368656": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "HIV感染者抗逆转录病毒治疗切换对肠道菌群影响的前瞻性临床研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "gut microb\\w*",
+          "hiv",
+          "participant",
+          "participants",
+          "stool"
+        ],
+        "human_title": [
+          "gut microb\\w*"
+        ],
+        "method": [
+          "method",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "765dbb4ae375dca9",
+      "classified_at": "2026-11-24",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
     }
   },
-  "updated": "2026-11-23"
+  "updated": "2026-11-24"
 }

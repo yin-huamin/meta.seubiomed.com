@@ -1,0 +1,690 @@
+[
+  {
+    "uid": "pmid:43050311",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43050311/",
+    "pmid": "43050311",
+    "title": "A periplasmic regulator establishes adaptive impermeability to control carbapenem entry.",
+    "doi": "10.1073/pnas.2629125123",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "journal_issn": "1091-6490",
+    "pub_date": "2026-11-24",
+    "authors": "Ducret Verena; Gonçalves Milho Catarina; Gonzalez Diego; Perron Karl",
+    "abstract": "Outer-membrane permeability is a major determinant of antibiotic susceptibility in Gram-negative bacteria and is generally thought to be controlled through transcriptional regulation of porin expression. Here we identify the small periplasmic protein PtrA as a regulator of OprD-dependent carbapenem permeability in Pseudomonas aeruginosa. PtrA promotes imipenem resistance without altering OprD abundance, associates with OprD-containing membrane complexes and reduces intracellular imipenem entry. Using zinc and copper as complementary physiological signals, we show that PtrA-mediated permeability control is mechanistically distinct from CzcRS-dependent repression of oprD and precedes transcriptional porin depletion. These findings define a two-phase mechanism in which rapid periplasmic regulation provides an immediate adaptive response before transcriptional remodeling of the outer membrane. Our work identifies adaptive impermeability as a previously unrecognized mechanism linking environmental sensing to dynamic control of bacterial outer-membrane permeability.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Porins",
+      "Carbapenems",
+      "Pseudomonas aeruginosa",
+      "Bacterial Proteins",
+      "Periplasm",
+      "Gene Expression Regulation, Bacterial",
+      "Copper",
+      "Anti-Bacterial Agents",
+      "Periplasmic Proteins",
+      "Cell Membrane Permeability",
+      "Imipenem",
+      "Zinc",
+      "Drug Resistance, Bacterial"
+    ],
+    "keywords": [
+      "Pseudomonas aeruginosa",
+      "antimicrobial resistance",
+      "metal stress",
+      "outer-membrane permeability",
+      "porin regulation"
+    ],
+    "summary_zh": "研究揭示铜绿假单胞菌周质蛋白PtrA通过降低OprD依赖性碳青霉烯通透性促进亚胺培南耐药，形成先于转录调控的快速适应机制。",
+    "innovation": "发现PtrA作为周质蛋白调控OprD依赖性碳青霉烯通透性且不改变OprD丰度 | 揭示PtrA介导的通透性控制不同于CzcRS对oprD的抑制并先于孔蛋白转录耗竭 | 提出快速周质调控先于转录重塑的两阶段适应性不透性机制",
+    "limitation": "未描述",
+    "study_object": "铜绿假单胞菌 + 周质蛋白及含OprD膜复合物 + 未描述",
+    "disease": "亚胺培南耐药",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-24"
+  },
+  {
+    "uid": "pmid:43056287",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43056287/",
+    "pmid": "43056287",
+    "title": "Linear plasmids mediate antimicrobial resistance gene transfer between environmental bacteria and hospital-adapted enterococci.",
+    "doi": "10.1073/pnas.2619331123",
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "issn": "1091-6490",
+    "journal_issn": "1091-6490",
+    "pub_date": "2026-11-24",
+    "authors": "Hashimoto Yusuke; Suzuki Masato; Dao Duc Trung; Kasuga Ikuro; Vu Thi My Hanh et al.",
+    "abstract": "As animal hosts adapted to land, Enterococcus species diverged from a common ancestor shared with Vagococcus species by acquiring genes essential for survival and transmission in the exposed arid environment. In addition to their intrinsic ruggedness, human-associated enterococci now frequently exhibit multidrug resistance, largely driven by the accumulation of antimicrobial resistance genes (ARGs) on mobile genetic elements (MGEs). However, the source of these resistance elements, their diversity in natural reservoirs, and their risks remain unclear. To investigate clinically relevant ARGs and their associated MGEs in a wastewater-impacted environment, we examined environmental vancomycin-resistant enterococci (VRE) recovered from a polluted urban river in Hanoi, Vietnam. Whole-genome sequencing of VRE isolates revealed multidrug-resistance pELF-type linear plasmids harboring a fluoroquinolone resistance gene (qrtA) encoding a major facilitator superfamily transporter. The qrtA gene appears to have originated on Vagococcus-related chromosomes and may have been mobilized by IS1216E-associated MGEs. Vagococcus genomes show strong associations between ARGs, IS1216E, and plasmids related to those in enterococci, and conjugation experiments demonstrated that pELF-type linear plasmids can transfer between Enterococcus and Vagococcus without major fitness costs. Comparative analysis of pELF-type linear plasmids, together with database mining, identified qrtA-positive clinical isolates from geographically separated regions in Asia and Europe, indicating that qrtA is not confined to a single local setting. These findings highlight the need for coordinated international One Health surveillance of ARG and MGE dynamics, including emerging determinants such as qrtA, together with interventions to limit their spread.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Plasmids",
+      "Gene Transfer, Horizontal",
+      "Humans",
+      "Vancomycin-Resistant Enterococci",
+      "Enterococcus",
+      "Anti-Bacterial Agents",
+      "Vietnam",
+      "Drug Resistance, Multiple, Bacterial",
+      "Extrachromosomal DNA"
+    ],
+    "keywords": [
+      "Enterococcus faecium",
+      "antimicrobial resistance",
+      "environmental reservoir",
+      "horizontal gene transfer",
+      "linear plasmid"
+    ],
+    "summary_zh": "为探究环境ARG与MGE，对河内污染河流VRE测序，发现pELF线性质粒携带qrtA并可在肠球菌与漫游球菌间转移。",
+    "innovation": "发现pELF型线性质粒携带氟喹诺酮耐药基因qrtA，并证实其可在肠球菌与Vagococcus间转移且无明显适合度代价 | 提示qrtA可能源自Vagococcus相关染色体并经IS1216E相关MGE mobilization | 通过比较分析和数据库挖掘发现qrtA阳性临床分离株分布于亚洲和欧洲多个地区",
+    "limitation": "未描述",
+    "study_object": "污染城市河流环境 + 环境耐万古霉素肠球菌（VRE）分离株 + 全基因组测序、比较基因组分析及接合实验",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-24"
+  },
+  {
+    "uid": "pmid:42956390",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42956390/",
+    "pmid": "42956390",
+    "title": "Establishing Potosi Virus as a Human Pathogen: Fatal Neuroinvasive Disease in a B-Cell-Depleted Patient.",
+    "doi": "10.1212/wnl.0000000000218683",
+    "journal": "Neurology",
+    "issn": "1526-632X",
+    "journal_issn": "1526-632X",
+    "pub_date": "2026-11-24",
+    "authors": "Abbatemarco Justin R; Begum Feroza; Villalba Julian A; Davis Emily; Bhatnagar Julu et al.",
+    "abstract": "OBJECTIVES: To establish Potosi virus, a mosquito-borne member of the family Peribunyaviridae, as a neuroinvasive human pathogen.\nMETHODS: Case report.\nRESULTS: A 37-year-old woman with multiple sclerosis on long-term rituximab developed rapidly progressive dementia. Serial MRI demonstrated progressive generalized atrophy. CSF showed transient, minimal lymphocytic pleocytosis. Extensive infectious, autoimmune, and prion evaluations were unrevealing, but CSF metagenomic sequencing detected all 3 genome segments for Potosi virus. Postmortem examination revealed diffuse meningoencephalitis with T-cell-predominant leptomeningeal and perivascular inflammation. Molecular analyses confirmed multiple nucleotide sequences with >99+% concordance with a known Potosi strain, with widespread viral infection confirmed by immunohistochemistry demonstrating intracellular and extracellular viral antigen. Electron microscopy demonstrated particles of a size consistent with the Peribunyaviridae family. Metagenomic sequencing of RNA extracted from frozen brain tissue identified all 3 Potosi virus gene segments without other infectious entities. Findings were concordant across multiple laboratories and institutions.\nDISCUSSION: Potosi virus can cause fatal neuroinvasive disease in humans, as evidenced by convergent postmortem neuropathologic, molecular, and ultrastructural evidence. Chronic B-cell depletion may increase susceptibility to severe disease with arboviral infections, which may present without conventional CNS inflammatory markers. CSF metagenomic sequencing should be considered in immunocompromised patients with unexplained progressive neurologic decline.",
+    "pub_types": [
+      "Journal Article",
+      "Case Reports"
+    ],
+    "article_type": "案例报告",
+    "mesh_terms": [
+      "Humans",
+      "Female",
+      "Fatal Outcome",
+      "Adult",
+      "B-Lymphocytes",
+      "Meningoencephalitis",
+      "Multiple Sclerosis",
+      "Brain"
+    ],
+    "keywords": [],
+    "summary_zh": "通过一例B细胞耗竭患者的多证据研究，确立Potosi病毒为可致致死性神经侵袭性疾病的人类病原体。",
+    "innovation": "将Potosi病毒确立为人类神经侵袭性病原体 | 通过脑脊液宏基因组测序检出病毒全部3个基因组片段 | 汇聚尸检神经病理、分子与电镜证据",
+    "limitation": "仅基于1例个案报告，结论普遍性有限",
+    "study_object": "人类（37岁女性多发性硬化患者）/脑脊液与脑组织/宏基因组测序、尸检病理、免疫组化及电镜",
+    "disease": "多发性硬化；B细胞耗竭；Potosi病毒致死性神经侵袭性疾病",
+    "sample_size": "1例",
+    "ai_done": true,
+    "fetch_date": "2026-11-24"
+  },
+  {
+    "uid": "pmid:43069517",
+    "source": "europepmc",
+    "pmid": "43069517",
+    "doi": "10.1080/19490976.2026.2761689",
+    "title": "Laxative treatment perturbs gut microbiome composition and metabolism in humans independent of short-term fiber consumption: a randomized controlled crossover intervention study",
+    "journal": "Gut microbes",
+    "issn": "1949-0976",
+    "journal_issn": "1949-0976",
+    "pub_date": "2026-11-22",
+    "authors": "Jørgensen MS; Li Q; La Barbera G; Stanstrup J; Markussen B et al.",
+    "abstract": "Gastrointestinal transit time is a major ecological determinant of the human gut microbiome, yet causal evidence that disentangles the effects of diet from those of the gut environment remains limited. Here, we conducted a randomized, controlled crossover trial in healthy adults (nine females, four males) consuming fully standardized high-fiber (40 g/d) or low-fiber (10 g/d) diets to assess how manipulating the gut environment using an osmotic laxative (Movicol) affects gut microbial composition and metabolism. Contrary to our hypothesis, laxative treatment did not affect the saccharolytic-to-proteolytic ratio. Yet, it induced a pronounced microbiome perturbation, explaining 16.3% of the variation in microbial community structure, compared with 1.7% explained by diet. The laxative treatment reduced the absolute abundance of several gram-positive commensals, including butyrate-producing taxa, while increasing gram-negative genera such as Bacteroides, Alistipes, and Phocaeicola. Our findings identify perturbations to the gut environment as a prominent short-term driver of human gut microbiome structure, independent of short-term fiber intake. Together, these results challenge a diet-centric view of microbiome modulation and raise concerns about potential detrimental effects on the gut microbiome in chronic use of gut environment-altering drugs such as macrogol-based laxatives.",
+    "pub_types": [
+      "IM",
+      "Randomized Controlled Trial",
+      "Journal Article"
+    ],
+    "article_type": "临床试验",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "通过随机对照交叉试验，评估渗透性泻药对健康成人肠道菌群组成与代谢的影响，发现其独立于短期纤维摄入显著扰动菌群。",
+    "innovation": "在健康成人中采用全标准化高/低纤维饮食联合渗透性泻药的随机对照交叉设计，评估肠道环境与短期饮食对菌群的相对影响 | 发现泻药解释16.3%的菌群结构变异，远高于饮食的1.7%",
+    "limitation": "短期干预，仅反映短期效应；样本量较小（n=13）且仅限健康成人",
+    "study_object": "健康成人 + 肠道菌群及代谢 + 样本类型与技术类型未描述",
+    "disease": "无（健康成人）",
+    "sample_size": "n=13（9名女性，4名男性）",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43069517/",
+    "topic_hits": [
+      "microbial community",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "pmid:43069514",
+    "source": "europepmc",
+    "pmid": "43069514",
+    "doi": "10.1080/19490976.2026.2760043",
+    "title": "The gut‒kidney axis",
+    "journal": "Gut microbes",
+    "issn": "1949-0976",
+    "journal_issn": "1949-0976",
+    "pub_date": "2026-11-22",
+    "authors": "Gleeson PJ.",
+    "abstract": "Gut-kidney dialog is integral to the holobiont. This review explores the interactions between these two organ-systems across physicochemical, endocrine, immune, and metabolic levels. It is argued that the gut makes physiological concessions favoring the microbiota, which must be assured by the kidneys, extending the concept of renal homeostasis to holostasis. When considering pathological situations, three dimensions of the gut‒kidney axis are identified: (1) the gut causing kidney disease, (2) the effect of renal failure on the gut, and (3) the systemic effects of the gut in renal failure. Causal roles of the gut in enteric hyperoxaluria, IgA nephropathy and diabetic nephropathy are described. The impact of a uremic environment on the gut is discussed. Conversely the intestinal origins of uremic toxins and their impact on distant organs, including the kidneys themselves, are outlined. Special consideration is given to host-microbiota immune interactions, immunosuppressive therapy and kidney transplantation. Therapeutic interventions targeting the gut-kidney axis are appraised.",
+    "pub_types": [
+      "IM",
+      "Review",
+      "Journal Article"
+    ],
+    "article_type": "综述",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "综述肠-肾轴在多层面的相互作用，提出全稳态概念并归纳三个病理维度及治疗干预。",
+    "innovation": "将肾脏稳态概念扩展为全稳态（holostasis） | 识别肠-肾轴的三个病理维度 | 系统评估靶向肠-肾轴的治疗干预",
+    "limitation": "未描述",
+    "study_object": "宿主肠道与肾脏 + 综述",
+    "disease": "肠性高草酸尿症、IgA肾病、糖尿病肾病、肾衰竭、尿毒症",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43069514/",
+    "topic_hits": [
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "pmid:43069513",
+    "source": "europepmc",
+    "pmid": "43069513",
+    "doi": "10.1080/19490976.2026.2753236",
+    "title": "Microbiota-Bile acid decoupling contributes to altered postnatal growth and metabolism in sFGR: a twin-paired dynamic study with FMT validation",
+    "journal": "Gut microbes",
+    "issn": "1949-0976",
+    "journal_issn": "1949-0976",
+    "pub_date": "2026-11-22",
+    "authors": "Yang J; Wang J; Huang N; Yao S; Ding W et al.",
+    "abstract": "Selective fetal growth restriction (sFGR) increases the risk of adverse long-term metabolic outcomes, yet the underlying mechanisms remain unclear. Bile acids (BAs) mediate gut microbiota-host metabolic crosstalk, and their early-life perturbation may underlie sFGR-associated health risks. Using a monochorionic diamniotic twin cohort (25 concordant pairs, 22 sFGR pairs), we developed a twin-specific analytical framework integrating birth weight deviation, intra-pair difference, and time-weighted variables. Through metagenomics, 16S rRNA sequencing, metabolomics, and fecal microbiota transplantation (FMT), we characterized gut microbiota colonization dynamics in sFGR neonates. Within 24 hours of birth, smaller twins (sFGR-S) exhibited gut microbiota \"structure-function decoupling\"-increased species diversity but decreased functional diversity-with markedly reduced abundance of Enterococcus faecium and bile salt hydrolase (BSH) genes. Under high peripheral BA pressure, the sFGR-S microbiota followed a three-stage trajectory: initial compensatory BSH enrichment, reversal within 72 hours following environmental microbial invasion, and subsequent functional collapse, with progressive dysbiosis that leads to metabolic dyshomeostasis. FMT demonstrated that sFGR-S microbiota was associated with gut-liver axis disruption, hydrophobic BA accumulation (LCA, DCA), intestinal barrier impairment, and chronic low-grade inflammation, suggesting a potential link between early \"microbiota-BA\" axis dysregulation and persistent metabolic disorders. These findings elucidate the mechanistic basis of sFGR-associated long-term risks, identify a postnatal \"golden window\" for intervention, and highlight BSH enzymatic activity and resistance to pathogenic colonization as key functional targets for improving postnatal growth and metabolic health.",
+    "pub_types": [
+      "IM",
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "利用双胎配对动态队列、多组学和FMT，揭示sFGR新生儿菌群-胆汁酸解耦联及其代谢风险。",
+    "innovation": "建立双胎特异性动态分析框架，整合出生体重偏差、配对内差异和时间加权变量 | 揭示sFGR-S肠道菌群“结构-功能解耦联”及出生后三阶段动态轨迹 | 通过FMT验证sFGR-S菌群与肠-肝轴紊乱、疏水性胆汁酸蓄积和炎症的关联",
+    "limitation": "未描述",
+    "study_object": "sFGR新生儿（单绒毛膜双羊膜囊双胎）肠道菌群；宏基因组、16S rRNA测序、代谢组学及FMT",
+    "disease": "选择性胎儿生长受限（sFGR）",
+    "sample_size": "25对一致双胎、22对sFGR双胎",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43069513/",
+    "topic_hits": [
+      "16s rrna",
+      "metagenom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.19.767610",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.19.767610",
+    "title": "The identification of 110 novel Mycobacterium species within 57,974 UK Health Security Agency clinical samples",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Massey; R. J.; Colpus; M.; Thai; H.; Westhead; J.; Turner et al.",
+    "abstract": "Non-tuberculous mycobacteria (NTMs) are a large diverse group of opportunistic pathogens. The accurate identification of species within this genus is vital as pathogenicity, epidemiology, and treatment differ substantially between taxa. Whole-genome sequencing has improved taxonomic resolution, however current reference databases are likely incomplete. We analysed 53,170 high-quality mycobacterial genomes from 57,974 UK Health Security Agency samples collected between 2010 and 2025, a collection more than four times larger than the 12,726 mycobacterial genomes represented in GTDB release r232. High-quality isolates were assigned by average nucleotide identity (ANI) to recognised species within the Genome Taxonomy Database (GTDB) using a 95% ANI threshold. Isolates that fell below this threshold were clustered using a minimal dominating set approach to identify genomically coherent groups consistent with being candidate novel species. Phylogenetic analysis of all Mycobacterium species was used to place the observed UK diversity in a global context and assess the ecological structure within the genus. Of the 850 Mycobacterial species-level reference genomes in GTDB, 204 GTDB references received at least one provisional assignment. We identified 586 (1.1%) high-quality isolates that could not be assigned to any GTDB species. Genomic clustering identified 110 additional candidate species-level references, expanding the reference set from 850 to 960 (12.9%). These candidate species were broadly distributed across the phylogeny. Within the Mycobacterium genus we found strong evidence that phylogenetic structure is associated with human (Fritz and Purvis D = 0.10, p<0.001) and environmental sources (D = 0.34, p<0.001). Together, existing and novel reference genomes resolved the UKHSA collection into 275 species-level clusters, of which 110 (40.0%) were not represented by existing GTDB references. Furthermore, source associations differed substantially between phylogenetic clades ({chi}{superscript 2} = 364 for human and {chi}{superscript 2} = 258 for environmental association; both p<0.001). Rarefaction analysis of the 275 species observed in UKHSA clinical samples did not plateau, with Chao1 estimation suggesting that additional sampling may reveal further novel species (Chao1 = 461). This study provides a comprehensive analysis of genomic NTM diversity within a large national surveillance collection. Our findings suggest that NTM diversity remains incompletely characterised, and supports the value of continued surveillance and curation to improve bacterial reference databases.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "基于57,974份英国临床样本的53,170株分枝杆菌基因组，用ANI和聚类发现110个候选新种，提示NTM多样性仍未充分表征。",
+    "innovation": "分析规模为GTDB参考基因组的4倍以上 | 鉴定110个候选新种，将参考集从850扩至960 | 揭示分枝杆菌系统发育结构与人类/环境来源相关",
+    "limitation": "物种稀释曲线未达平台，Chao1=461提示额外采样可能发现更多新种",
+    "study_object": "人类临床样本 + 分枝杆菌 + 全基因组测序",
+    "disease": "无",
+    "sample_size": "57,974份临床样本；53,170株高质量基因组",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.19.767610",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.09.01.748531",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.09.01.748531",
+    "title": "Gut Microbiota Signatures of Brain and Peripheral gamma-amino butyric acid (GABA) in Healthy Adults",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Monteagudo-Mera; A.; Xie; S.; Fanti; V.; Rodriguez-Sobstel; C.; Kang et al.",
+    "abstract": "Background: Gamma-aminobutyric acid (GABA), the principal inhibitory neurotransmitter in the mature human nervous system, plays a central role in neurodevelopment, emotion regulation, and sensory processing. Many psychiatric drugs act on the GABAergic system, highlighting its importance for healthy brain function. Individual differences in brain and circulating GABA levels have traditionally been attributed to human genetic variation. However, several gut bacteria produce neuroactive compounds, including GABA, raising the possibility that microbial variation influences peripheral and central GABA levels and related measures in humans. This relationship remains largely unexplored. Methods: In a cross-sectional study of 251 healthy adults, we investigated associations between gut microbiota composition, central and peripheral GABA, and associated features. Central (brain) GABA was quantified using magnetic resonance spectroscopy, peripheral (blood) GABA using enzyme-linked immunosorbent assays, and gut microbiota profiles using absolute and relative abundance measures derived from Flow Cytometry Fluorescent In Situ Hybridisation and 16S rRNA gene sequencing respectively. Results: Motor cortex GABA+ levels were positively associated with greater numbers of Bacteroides/Prevotella bacteria. This association was replicated with peripheral GABA. Additionally, peripheral GABA was associated with greater numbers of lactic acid bacteria, Eubacterium rectale/Clostridium coccoides, and with predicted microbial gene pathways involved in GABA synthesis. No association was observed between central and peripheral GABA concentrations- suggesting potentially different contributions from microbial metabolism. Conclusions: These findings provide new evidence pointing to factors other than human genetic variation underlying individual variability in central and peripheral GABA. They also set the stage for longitudinal and intervention studies to investigate the mechanisms through which microbiota can contribute to healthy brain function.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "neuroscience"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "在251名健康成人中横断面分析肠道菌群与脑及外周GABA的关联，发现特定菌群与GABA水平相关。",
+    "innovation": "在健康成人中同时分析肠道菌群与中枢及外周GABA的关联 | 结合绝对/相对丰度及预测GABA合成通路探索菌群特征",
+    "limitation": "横断面设计无法确定因果关系；摘要指出需纵向和干预研究验证机制",
+    "study_object": "健康成人 + 肠道菌群、血液和脑 + 16S rRNA基因测序、流式细胞荧光原位杂交、磁共振波谱和ELISA",
+    "disease": "健康成人",
+    "sample_size": "251名健康成人",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.09.01.748531",
+    "topic_hits": [
+      "16s rrna",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.20.768025",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.20.768025",
+    "title": "Infant formula composition is linked to distinct patterns of early gut colonization",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Fountouli; I.; Jayaprakash; Y.; Keizer; T.; Sinha; T.; Docherty et al.",
+    "abstract": "Early-life nutrition shapes the gut microbiota and can have long-term health implications. While infant formula feeding is widespread, it remains unclear how variations in its nutritional components shape microbiome colonization. Here, we reconstructed 62 components across the 17 infant formulas consumed during the first three months of life in 240 exclusively formula-fed infants in the Lifelines-NEXT birth cohort. Formula composition varied widely and several micronutrients, including vitamin E and iodine, were associated with species richness. Components were also associated with species-level colonization patterns. Higher iron content was associated with reduced Bifidobacterium breve and Bifidobacterium bifidum and increased Clostridium paraputrificum. Follow-up in vitro growth assays on infant-derived stool isolates showed that Bifidobacterium breve and Bifidobacterium bifidum tolerated iron limitation, while C. paraputrificum did not, consistent with the association signals. These findings show that infant formulas are not all alike and differences in component concentration affect microbiome colonization in early-life.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "在240例纯配方奶喂养婴儿中重建17种配方62种成分，分析其与早期肠道菌群定植的关联，发现铁等成分影响菌种定植。",
+    "innovation": "系统重建17种婴儿配方中62种营养成分并与早期肠道菌种定植关联 | 结合婴儿粪便分离菌体外生长实验验证铁限制与菌种定植的关联",
+    "limitation": "未描述",
+    "study_object": "纯配方奶喂养婴儿 + 粪便/肠道菌群 + 出生队列与体外生长实验",
+    "disease": "无",
+    "sample_size": "240例纯配方奶喂养婴儿",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.20.768025",
+    "topic_hits": [
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.21.765608",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.21.765608",
+    "title": "Identification of eukaryotes as a bycatch in global microbiome data",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Maistrenko; O. M.; Kim; C. Y.; Nishijima; S.; Fullam; A.; Ferretti et al.",
+    "abstract": "Eukaryotes shape microbiomes as macroscopic hosts, microscopic community members, and food sources, yet the diversity and ecological significance of microbial eukaryotes remain poorly resolved. Here, we present metaEukaryome, an organelle genome-centered framework for detection of eukaryotes in metagenomic data that leverages mitochondrial and plastid sequences as robust signatures of presence. Applying metaEukaryome to 75,727 metagenomic samples collected across the globe reveals strong environment-specific patterns in the prevalence of detected eukaryotes. Integrating eukaryotic and prokaryotic profiles further reveals recurrent cross-domain co-occurrence and symbiosis in the human gut. In particular, Blastocystis is associated with metabolically reduced, uncultured bacterial clades, including Candidatus Borkfalkia and CAG-345, whose DNA and RNA are detected in a Blastocystis culture previously reported as axenic. Their complementary metabolic repertoires further support a candidate symbiotic relationship. These findings imply that more novel (endo-)symbionts of gut protists can be discovered by reanalysing existing data.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "开发metaEukaryome从全球75,727份宏基因组检测真核生物，揭示环境分布差异及肠道Blastocystis与细菌潜在共生。",
+    "innovation": "提出以线粒体和质体序列为真核生物存在标志的细胞器基因组框架metaEukaryome | 将该框架应用于全球75,727份宏基因组，揭示真核生物流行的环境特异性模式 | 整合真核与原核图谱，发现人肠道反复出现的跨域共现与共生，并提示Blastocystis与未培养细菌类群的候选共生关系",
+    "limitation": "未描述",
+    "study_object": "全球多种环境及人肠道宏基因组样本；宏基因组测序与细胞器基因组检测框架",
+    "disease": "无",
+    "sample_size": "75,727份宏基因组样本",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.21.765608",
+    "topic_hits": [
+      "metagenom\\w*",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.20.768016",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.20.768016",
+    "title": "A multi-scale forecasting framework to prioritize clinically-relevant antibiotic resistance alleles",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Obeng; N.; Rodoni; A.; Niggli; Q.; Dylus; D.; Bradley et al.",
+    "abstract": "Established in vitro measures for the emergence of antimicrobial resistance, a critical global threat, can fail to predict which in vitro discovered mutations will dominate in the real world following widespread antibiotic use. Here, we introduce a multi-scale computational framework integrating genetic constraints and population pharmacokinetics and apply it to explain resistance allele success in Acinetobacter baumannii for the historic case of resistance to the fluoroquinolone antibiotic ciprofloxacin. By coupling intrinsic nucleotide substitution likelihoods with continuous-time stochastic modeling under fluctuating drug exposures, our framework clearly prioritizes the most common real world gyrA fluoroquinolone resistance allele S81L over rarer alleles, reflecting its clinical success. While gyrA serves as a proof-of-concept case study for direct, active-site drug-target interactions where the target space is constrained, we observe that the nucleotide substitution likelihoods are not explaining allele success in resistance-determining genes pmrB and adeS. Furthermore, \"virtual twin\" cohort simulations reveal that restricted drug penetration or compromised immunity expands selective windows, rescuing rare, low-fitness alleles. This advances our understanding of prospective, model-informed risk prediction during antibiotic development.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "构建整合遗传约束与群体药代动力学的多尺度框架，解释鲍曼不动杆菌环丙沙星耐药等位基因成功并模拟选择窗口。",
+    "innovation": "整合遗传约束与群体药代动力学的多尺度计算框架 | 将内在核苷酸替换概率与波动药物暴露下的连续时间随机建模耦合 | 通过“虚拟双胞胎”队列模拟揭示药物渗透受限或免疫受损会扩大选择窗口并挽救稀有低适应度等位基因",
+    "limitation": "仅以gyrA作为靶点空间受约束的概念验证；且核苷酸替换概率无法解释pmrB和adeS中的耐药等位基因成功",
+    "study_object": "鲍曼不动杆菌/未描述样本类型/多尺度计算框架、群体药代动力学与连续时间随机建模",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.20.768016",
+    "topic_hits": [
+      "antibiotic resistance",
+      "antimicrobial resistance"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.10.05.753853",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.10.05.753853",
+    "title": "A microbiota-dependent gut bile acid axis links germline mutant p53 to distal tumour growth",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Ong; N. W. Y.; Giovino; C.; Quaglietta; P. R.; Park; Y.; Traubici et al.",
+    "abstract": "The gut microbiome can influence cancer development, but its contribution to cancer predisposition in Li-Fraumeni Syndrome (LFS) remains poorly understood. Here, we investigated whether germline mutant p53 alters the intestinal environment using Trp53R172H/+ mice. Tumour-naive mutant mice exhibited increased intestinal permeability and a pro-inflammatory colonic phenotype, including elevated inflammatory cytokines and enhanced NF-{kappa}B signalling. Untargeted metabolomic profiling revealed a striking alteration in bile acid metabolism, with targeted analysis identifying increases in multiple primary and microbiota-derived secondary bile acids. Notably, these changes occurred despite no detectable differences in overall microbial community composition, suggesting altered host-microbial metabolic output in the absence of broad compositional change. Several faecal bile acids were positively associated with distal tumour burden, with the microbiota-derived secondary bile acid deoxycholic acid (DCA) showing the strongest relationship. Microbiota depletion reduced distal tumour growth in mutant mice and attenuated intestinal barrier dysfunction, colonic inflammation and the altered faecal bile acid profile, including DCA. Conversely, transfer of cell-free faecal filtrate from mutant donors to WT recipients induced colonic inflammation and enhanced distal tumour growth. Together, these findings identify a mutant p53-gut axis in which germline mutant p53 establishes a microbiota-shaped metabolic and inflammatory intestinal environment capable of promoting tumour growth beyond the gut.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "cancer biology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "利用Trp53R172H/+小鼠和菌群干预，发现胚系突变p53通过菌群依赖的胆汁酸轴促进远端肿瘤生长。",
+    "innovation": "揭示胚系突变p53可塑造菌群依赖的肠道胆汁酸与炎症环境并促进远端肿瘤生长 | 发现胆汁酸代谢改变可发生在整体菌群组成无明显差异时 | 利用菌群清除和无细胞粪滤液移植支持微生物群的作用",
+    "limitation": "仅基于Trp53R172H/+小鼠模型，人体LFS中的相关性未描述",
+    "study_object": "Trp53R172H/+小鼠肠道及粪便样本的菌群与胆汁酸代谢分析",
+    "disease": "Li-Fraumeni综合征（LFS）、远端肿瘤",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.10.05.753853",
+    "topic_hits": [
+      "microbial community",
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.19.26368475",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.19.26368475",
+    "title": "Germline Variant Profiling of NA12878 Chromosome 22 Identifies the Loss-of-Function CYP2D6*3 and *4 Pharmacogenetic Alleles",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Mallick; S.; Singh; B.",
+    "abstract": "The approach used in this project to call germline variants from short-read sequencing data forms the basis of a great deal of current human genetics, whether it be in population studies or in diagnostic testing. A full germline variant-calling workflow according to the GATK Best Practices was constructed and carried out using public whole-genome sequencing data from the reference sample NA12878. In order to comply with the limitations of a laptop (an Intel Core i3, 8 GB of RAM, Ubuntu via WSL2), the analysis was limited to chromosome 22. The reads for chromosome 22 were streamed directly from the 1000 Genomes high-coverage CRAM file (run ERR3239334), converted into paired FASTQ files, checked using FastQC and MultiQC, and then cleaned with fastp. The cleaned reads were aligned to a GRCh38 reference containing only chromosome 22 using BWA-MEM, after which they were sorted, duplicates were marked and the base quality scores were recalibrated before variants were called with GATK HaplotypeCaller. The GATK-recommended hard filters were applied separately to SNPs and indels, and the variants that passed these filters were annotated using the Ensembl Variant Effect Predictor (VEP) and summarised with a Python script. From the 81,599 raw calls, 73,570 (90.2%) survived the filtering process, and the transition/transversion ratio for the SNPs that passed filtering was 2.04. Of the annotated variant alleles, 98.9% were already present in the catalogue, 734 affected the coding sequence in 270 genes, and no variant corresponded to a pathogenic entry in ClinVar. Examination using IGV verified the read support for the selected high-impact calls, including the variants that define the CYP2D6*3 and *4 alleles, consistent with the published genotype of NA12878. The main limitations were a reduced effective depth of 8.6x, resulting from an incomplete read-collation step which retained about 31% of the read pairs, and the use of a chromosome-only reference.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "health informatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "采用GATK最佳实践对NA12878的22号染色体进行胚系变异检测，过滤注释并验证CYP2D6*3/*4等位基因。",
+    "innovation": "在笔记本电脑资源受限条件下构建并执行GATK胚系变异检测流程 | 仅针对22号染色体从1000 Genomes高覆盖CRAM流式提取数据进行分析 | 验证了CYP2D6*3和*4等高影响变异与NA12878已知基因型一致",
+    "limitation": "有效深度降至8.6x，因read-collation步骤不完整仅保留约31%的read pairs | 使用仅含22号染色体的参考基因组",
+    "study_object": "人类/NA12878参考样本 + 全基因组测序数据（22号染色体） + 短读长测序变异检测",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.19.26368475",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.19.26368536",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.19.26368536",
+    "title": "Context-dependent associations between recent antibiotic treatment, gut microbiome composition, blood metabolites, and metabolic health",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Perez; C.; Alver; S. K.; Pflieger; L.; Quinn-Bohmann; N.; Rappaport et al.",
+    "abstract": "Antibiotics are among the most widely prescribed drugs, and they reliably disrupt the commensal gut microbiota. Large epidemiological studies link antibiotic exposure to type 2 diabetes (T2D) risk, yet smaller randomized intervention trials have failed to find this connection. Whether this discordance reflects a true lack of signal or subpopulation-dependent responses to antibiotics remains unclear. Here, across three independent cohorts (N=4,122), we show that recent antibiotic use may reshape host physiology in specific dietary, microbial, and metabolic contexts. Recent antibiotic use was associated with reduced gut microbiome richness, greater Bacteroides and pathobiont dominance, lower predicted butyrate production, and altered levels of 34 blood metabolites, including several microbe-host co-metabolites, such as hippurate and isoursodeoxycholic acid, while the blood proteome was unchanged. Diet and microbiome composition influenced the magnitude of these effects: preference for liquor was associated with steeper diversity loss, and the presence of specific bacterial genera either dampened or amplified antibiotic-associated blood metabolite differences. Clinical chemistries did not differ, on average, across antibiotic treament groups, affirming the intervention trials. However, recent antibiotic users with T2D showed elevated methylmalonic acid, homocysteine, and alkaline phosphatase, suggesting B-vitamin deficiency. Furthermore, antibiotic users with poorer metabolic health (e.g., blood metabolomics-inferredBMI > measured BMI) showed lower circulating 25-hydroxyvitamin D. Overall, metabolic disruption associated with recent antibiotic use appears to be related to vitamin deficiencies and is concentrated in metabolically vulnerable subgroups, arguing for further research into context-aware prescribing and targeted co-therapies, like higher fiber diets, probiotics, or supplements.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "primary care research"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "基于三个队列4122人，分析近期抗生素使用与肠道菌群、血液代谢物及代谢健康的关联，发现效应集中于代谢脆弱亚组。",
+    "innovation": "在3个独立队列中揭示近期抗生素使用与菌群及血液代谢物的关联具有饮食、微生物和代谢背景依赖性 | 发现抗生素使用者临床指标平均无差异，但T2D及代谢脆弱亚组出现维生素缺乏相关代谢紊乱",
+    "limitation": "未描述",
+    "study_object": "人类 + 肠道微生物组与血液样本 + 微生物组、代谢组和蛋白质组分析",
+    "disease": "2型糖尿病（T2D）；代谢健康状态",
+    "sample_size": "3个独立队列共N=4,122例",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.19.26368536",
+    "topic_hits": [
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.21.26368656",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.21.26368656",
+    "title": "Does altering antiretroviral therapy impact an individual's gut microbiome?",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Lindergard; G.; Mann; E.; MacDonald; M.; Ustianowski; A.",
+    "abstract": "Introduction. People with HIV are living with increased chronic inflammation with gut microbiome dysbiosis and microbial translocation emerging as contributing factors to inflammation and development of HIV associated co-morbidities. Single time-point cross-sectional population studies of individuals on antiretroviral drug therapy have suggested that some classes of antiretroviral therapy, ART, affect the gut microbiome more than others. There is, however, a lack of data examining the microbiome changes prospectively in individuals before and after alteration of their antiretroviral regiment. This study prospectively assesses changes in individuals bacterial gut microbiome when switching from one antiretroviral drug or delivery method to another class or delivery method. Methods. We conducted an observational prospective study of the gut microbiome in virologically controlled HIV infected individuals who were going through a planned switch of their ART regimen. We enrolled 15 participants and stool samples were collected before and 3-6 weeks after the switch of ART and analysed via shallow shotgun metagenomics. Results. We did not detect a statistically significant overall difference in microbiome perturbation between the study participant group that switched their antiretroviral therapy compared to the controls who continued with the same ART during the timeframe of the study. Though underpowered to detect changes in subgroups, a noticeable observational shift in the 20 most abundant bacterial species was seen when individuals changed from a protease inhibitor-based regime to a non-nucleoside reverse transcriptase inhibitor, NNRTI, based regimen. Individuals who changed from NNRTI based treatment to integrase inhibitor-based treatment and from integrase inhibitor-based ART to protease inhibitor-based ART demonstrated numerical changes and shifts that failed to meet statistical significance. The initiation of intramuscular delivery of ART and a move away from oral drug did not result in a significant shift in the bacterial community in stool samples in this limited number of individuals. Conclusion. We did not see statistically significant changes that were larger than those observed in controls in this small study. Switching from protease inhibitor to NNRTI demonstrated the largest shift in bacterial species that had been previously associated with positive health outcomes, indicating that protease inhibitor-based regimen might have a negative effect on the gut microbiome. Further larger prospective studies are planned to explore this area.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "hiv aids"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "前瞻性观察15例病毒学控制HIV感染者更换抗逆转录病毒方案前后粪便微生物组，未发现显著总体变化。",
+    "innovation": "前瞻性纵向评估ART方案更换前后肠道微生物组变化 | 涵盖蛋白酶抑制剂、NNRTI、整合酶抑制剂及肌注给药方式转换",
+    "limitation": "样本量小（15例） | 亚组分析统计效力不足",
+    "study_object": "病毒学控制HIV感染者 + 粪便样本 + 浅层鸟枪法宏基因组测序",
+    "disease": "HIV感染（病毒学控制）",
+    "sample_size": "n=15",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.21.26368656",
+    "topic_hits": [
+      "metagenom\\w*",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.20.26368586",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.20.26368586",
+    "title": "Viral discovery using untargeted metagenomics and complementary proteomics in plasma cell-rich virus-like tubulointerstitial nephritis after kidney transplantation",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "du Long; R.; Hofstraat-Boersma; R.; Florquin; S.; Claessen; N.; Deijs et al.",
+    "abstract": "Background Kidney allograft biopsies may show plasma cell-rich tubulointerstitial inflammation and tubular epithelial changes suggestive of viral infection despite negative routine testing for known viruses. Whether this plasma cell-rich virus-like tubulointerstitial nephritis (PCR-TIN) is associated with an unrecognized viral agent is unknown. Methods We retrospectively identified 57 kidney allograft biopsies with a plasma cell-rich tubulointerstitial phenotype. Frozen tissue from 34 biopsies and matched urine from 14 cases underwent virus discovery cDNA-amplified fragment length polymorphism next-generation sequencing (VIDISCA-NGS). BK polyomavirus-associated nephropathy (BKPyVAN) tissue served as a positive control for viral detection in renal tissue. Data-independent acquisition parallel accumulation-serial fragmentation liquid chromatography-tandem mass spectrometry was used to evaluate the feasibility of detecting BK polyomavirus peptides. In an exploratory secondary analysis, host-protein abundance and Hallmark pathway enrichment were compared among 11 PCR-TIN, 91 other rejection, and 20 BKPyVAN biopsies. Results In positive-control experiments, VIDISCA-NGS detected BK polyomavirus at 13 of 216,879 reads (0.006%) and, after DNase treatment, at 5 of 81,614 reads (0.006%). Across the 34 PCR-TIN biopsies, 3,751,011 reads were generated (mean, 110,324 per biopsy). Sporadic low-level anelloviruses and Merkel cell polyomavirus reads (<10 reads per positive specimen) were detected in five and four biopsies, respectively, but no consistent candidate pathogenic viral agent was identified. Similarly, no candidate pathogenic viral agent associated with PCR-TIN was identified among 409,563 reads from the 14 matched urine samples (mean, 29,255 per sample). Proteomic interrogation did not detect BK polyomavirus peptides even in proven BKPyVAN, rendering this approach technically inconclusive for viral detection in PCR-TIN. Six proteins were significantly more abundant in PCR-TIN than in other rejection, whereas none differed significantly between PCR-TIN and BKPyVAN. Compared with both groups, PCR-TIN showed enrichment of epithelial-mesenchymal transition, interferon-response, allograft-rejection, inflammatory, and unfolded-protein-response programs, whereas oxidative phosphorylation and several metabolic pathways were enriched in the comparator groups. Conclusion Repeated VIDISCA-NGS of kidney tissue and matched urine did not identify a candidate pathogenic viral agent associated with PCR-TIN. These findings make a prevalent virus detectable by this workflow less likely but do not exclude low-abundance, focal, transient, or methodologically inaccessible infection. Exploratory host proteomics identified inflammatory, cellular-stress, and tissue-remodeling programs associated with PCR-TIN, but these findings characterize the accompanying host response, not its cause.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "transplantation"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究肾移植后PCR-TIN是否由未知病毒引起，用VIDISCA-NGS和蛋白质组学检测组织及尿液，未发现候选致病病毒。",
+    "innovation": "在肾移植后PCR-TIN中联合无靶向宏基因组测序与互补蛋白质组学进行病毒发现 | 同时检测移植肾组织与配对尿液 | 探索性分析PCR-TIN与其他排斥及BKPyVAN的宿主蛋白和通路",
+    "limitation": "未排除低丰度、局灶、短暂或方法学不可及的感染 | 蛋白质组学在已知BKPyVAN中未检出BKPyV肽，病毒检测技术结论受限",
+    "study_object": "肾移植受者 + 移植肾活检组织及配对尿液 + VIDISCA-NGS与DIA-PASEF LC-MS/MS蛋白质组学",
+    "disease": "肾移植后富浆细胞病毒样小管间质性肾炎（PCR-TIN）；BK多瘤病毒相关肾病（BKPyVAN）；移植排斥",
+    "sample_size": "57例移植肾活检；34例组织行VIDISCA-NGS；14例配对尿液；探索性蛋白质组分析11例PCR-TIN、91例其他排斥、20例BKPyVAN",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.20.26368586",
+    "topic_hits": [
+      "metagenom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.19.26368539",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.19.26368539",
+    "title": "Geographic heterogeneity of gut microbiome biomarkers across neurological conditions: sub-national discordance in ten cohorts from eleven cities in six countries",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Tello Meryk; J.",
+    "abstract": "Gut microbiota composition has been associated with multiple neurological conditions, and candidate biomarkers have been proposed on the basis of these associations. Their usefulness presupposes that taxa altered in one population are also altered in others, a condition that is rarely verified. This work quantifies the extent to which it holds, and the geographic scale at which it ceases to do so. Ten public 16S rRNA gene sequencing cohorts of Alzheimer's disease, Parkinson's disease and autism spectrum disorder, collected in eleven cities across six countries, were reprocessed from raw data, comprising 1,185 samples with uniform processing within each condition. Models trained and evaluated within a single cohort reached a mean AUC of 0.751 in Alzheimer's disease, 0.741 in autism spectrum disorder and 0.673 in Parkinson's disease. When applied to a different population, these values fell to 0.569, 0.542 and 0.551 respectively. The decline was not associated with geographic distance: transfer between cities within the same country was equivalent to transfer between continents. No taxon appeared among the twenty most important features in all cohorts of a given condition, and no correlation between rankings reached significance. Classifiers trained to predict cohort of origin, disregarding clinical group, reached AUC values of 0.87 to 1.00 using control subjects, and equivalent values using affected subjects. In one cohort with two recruitment centers and a single protocol, controls from both cities were separable (AUC 0.947), models did not transfer between centers (0.562 and 0.515), and their rankings correlated 0.003. Geographic heterogeneity of discriminant taxa operates below the national scale, which constrains the generalization of microbiome signatures derived from individual cohorts.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "neurology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "分析10个公共16S队列1185例，评估三种神经疾病肠道菌群标志物跨群体迁移，发现地理异质性低于国家尺度。",
+    "innovation": "量化肠道菌群标志物跨队列泛化的地理尺度，发现迁移下降与地理距离无关 | 同一国家内城市间迁移与跨洲迁移等效 | 以队列来源分类器揭示控制组和患病组均存在强地理可分离性",
+    "limitation": "未描述",
+    "study_object": "人类 + 肠道微生物 + 16S rRNA基因测序",
+    "disease": "阿尔茨海默病、帕金森病、自闭症谱系障碍",
+    "sample_size": "10个队列共1,185例样本（11个城市，6个国家）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.19.26368539",
+    "topic_hits": [
+      "16s rrna",
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.21.26368660",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.21.26368660",
+    "title": "Maternal gut microbiome-metabolome signatures implicate vitamin B12 insufficiency and one-carbon dysregulation in fetal spina bifida despite folate repletion",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Sheyholislami; H.; Dos Santos; S.; Joris; B. R.; Pruthi; V.; MacFarlane et al.",
+    "abstract": "Despite folic acid fortification, neural tube defects (NTDs), including spina bifida, persist, suggesting contributing factors beyond folate status. The maternal gut microbiome influences the availability of nutrients and metabolites essential for neural tube closure and fetal development, yet its role in NTDs and associated comorbidities remains unclear. We investigated and integrated data from maternal gut microbial and circulating metabolic profiles in pregnancies affected by fetal spina bifida (cases) and unaffected pregnancies (controls) using shotgun metagenomics and targeted metabolomics. Despite comparable folate status, cases had lower serum vitamin B12 and enriched microbial cobalamin biosynthesis genes, suggesting disrupted B12 metabolism. Lower serum vitamin E, elevated amino acids, and altered antioxidant pathways indicated altered oxidative stress-related metabolism. Reduced microbial pyrimidine degradation and circulating purine metabolism suggested disrupted nucleotide metabolism. These findings implicate vitamin B12 insufficiency, a pro-oxidative environment, and altered nucleotide metabolism as potential pathways contributing to pathophysiology of NTDs and their comorbidities.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "obstetrics and gynecology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "整合孕妇肠道微生物组与循环代谢组，发现叶酸充足时胎儿脊柱裂仍伴维生素B12不足、氧化应激及核苷酸代谢异常。",
+    "innovation": "在叶酸充足背景下整合孕妇肠道微生物组与循环代谢组分析胎儿脊柱裂 | 提示维生素B12不足、促氧化环境及核苷酸代谢改变是潜在相关通路",
+    "limitation": "未描述",
+    "study_object": "孕妇肠道微生物组与血清代谢物；鸟枪法宏基因组和靶向代谢组学",
+    "disease": "胎儿脊柱裂（神经管缺陷）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.21.26368660",
+    "topic_hits": [
+      "metagenom\\w*",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.21.26368630",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.21.26368630",
+    "title": "Knowledge of antimicrobial Resistance in Bangladeshi Caregivers of School-going Children: A Cross-sectional study",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-23",
+    "authors": "Chowdhury; R. T.; Asamoni; U. H.; Raiyan; R.; Hafsa; S.; Sajeeb et al.",
+    "abstract": "Antimicrobial resistance (AMR) is a critical global health threat exacerbated by inappropriate antibiotic use, yet evidence on caregivers' awareness and practices in Bangladesh remains limited. This cross-sectional study assessed AMR awareness, antibiotic use practices, and information sources among 225 caregivers using a structured questionnaire that also captured socio-demographic characteristics. Understanding of AMR was poor: although 78% recognized that antibiotics are effective against bacterial infections, only 35% acknowledged that they are ineffective against viral infections. Regarding practices, 30% discontinued antibiotic courses prematurely and 40% reported self-medication, primarily guided by pharmacy advice (45%) or previous prescriptions (30%). Healthcare professionals were the leading source of information (55%), followed by media (30%) and community programs (15%). Knowledge differed significantly across socio-demographic groups, with higher awareness among caregivers who were more educated, urban-dwelling, and from wealthier households (p<0.05). These findings reveal a substantial gap between AMR knowledge and antibiotic practices, particularly regarding misuse for viral infections, premature cessation, and self-medication. Targeted educational interventions, stronger enforcement of prescription regulations, and improved healthcare access are urgently needed, and behavioral interventions should address both knowledge deficits and practical barriers to help curb AMR in Bangladesh.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "public and global health"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "横断面调查评估孟加拉国225名学龄儿童照护者AMR认知、抗生素使用及信息来源，发现认知不足与用药不当，需针对性教育。",
+    "innovation": "聚焦孟加拉国学龄儿童照护者的AMR认知与用药实践 | 同步分析社会人口学差异与信息来源",
+    "limitation": "横断面设计无法推断因果关系",
+    "study_object": "孟加拉国学龄儿童照护者 + 照护者 + 结构化问卷横断面调查",
+    "disease": "无",
+    "sample_size": "225名照护者",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.21.26368630",
+    "topic_hits": [
+      "amr\\b",
+      "antimicrobial resistance"
+    ]
+  }
+]

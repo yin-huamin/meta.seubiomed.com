@@ -1,16 +1,16 @@
 {
-  "total": 4284,
+  "total": 4303,
   "by_type": {
-    "研究论文": 3145,
-    "综述": 587,
+    "研究论文": 3161,
+    "综述": 588,
     "Benchmark": 158,
-    "临床试验": 148,
+    "临床试验": 149,
     "其他": 107,
-    "系统综述/Meta分析": 70,
-    "案例报告": 69
+    "案例报告": 70,
+    "系统综述/Meta分析": 70
   },
   "by_year": {
-    "2026": 1163,
+    "2026": 1182,
     "2025": 623,
     "2024": 528,
     "2023": 444,
@@ -24,15 +24,15 @@
     "2015": 61
   },
   "by_source": {
-    "pubmed": 4139,
-    "biorxiv": 62,
-    "europepmc": 61,
-    "medrxiv": 16,
+    "pubmed": 4142,
+    "biorxiv": 68,
+    "europepmc": 64,
+    "medrxiv": 23,
     "openalex": 6
   },
-  "preprint_total": 78,
+  "preprint_total": 91,
   "top_journals": {
-    "Gut microbes": 278,
+    "Gut microbes": 281,
     "Nature communications": 207,
     "Microbiome": 176,
     "Nucleic acids research": 125,
@@ -43,10 +43,10 @@
     "Briefings in bioinformatics": 81,
     "Genome biology": 79,
     "Cell host & microbe": 71,
+    "bioRxiv": 68,
     "Journal of translational medicine": 65,
-    "bioRxiv": 62,
     "Gut": 59,
-    "Proceedings of the National Academy of Sciences of the United States of America": 54,
+    "Proceedings of the National Academy of Sciences of the United States of America": 56,
     "The ISME journal": 50,
     "Gastroenterology": 48,
     "The Journal of infection": 43,
