@@ -1,8 +1,8 @@
 {
-  "total": 4303,
+  "total": 4320,
   "by_type": {
-    "研究论文": 3161,
-    "综述": 588,
+    "研究论文": 3177,
+    "综述": 589,
     "Benchmark": 158,
     "临床试验": 149,
     "其他": 107,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 70
   },
   "by_year": {
-    "2026": 1182,
+    "2026": 1199,
     "2025": 623,
     "2024": 528,
     "2023": 444,
@@ -24,15 +24,15 @@
     "2015": 61
   },
   "by_source": {
-    "pubmed": 4142,
-    "biorxiv": 68,
-    "europepmc": 64,
-    "medrxiv": 23,
+    "pubmed": 4144,
+    "biorxiv": 80,
+    "europepmc": 66,
+    "medrxiv": 24,
     "openalex": 6
   },
-  "preprint_total": 91,
+  "preprint_total": 104,
   "top_journals": {
-    "Gut microbes": 281,
+    "Gut microbes": 282,
     "Nature communications": 207,
     "Microbiome": 176,
     "Nucleic acids research": 125,
@@ -41,9 +41,9 @@
     "NPJ biofilms and microbiomes": 88,
     "Nutrients": 88,
     "Briefings in bioinformatics": 81,
+    "bioRxiv": 80,
     "Genome biology": 79,
     "Cell host & microbe": 71,
-    "bioRxiv": 68,
     "Journal of translational medicine": 65,
     "Gut": 59,
     "Proceedings of the National Academy of Sciences of the United States of America": 56,
@@ -69,8 +69,8 @@
     "自闭症谱系障碍": 19,
     "牙周炎": 18,
     "囊性纤维化": 17,
+    "炎症性肠病（IBD）": 16,
     "阿尔茨海默病": 14,
-    "炎症性肠病（IBD）": 14,
     "1型糖尿病": 14,
     "复发性艰难梭菌感染": 14,
     "肺炎": 13

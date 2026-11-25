@@ -1,0 +1,624 @@
+[
+  {
+    "uid": "pmid:42722268",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42722268/",
+    "pmid": "42722268",
+    "title": "T-2 toxin-induced neurotoxicity in juvenile rats involves hippocampal oxidative stress-ER stress-mediated neuronal apoptosis and potential gut-brain axis involvement.",
+    "doi": "10.1016/j.cbi.2026.112341",
+    "journal": "Chemico-biological interactions",
+    "issn": "1872-7786",
+    "journal_issn": "1872-7786",
+    "pub_date": "2026-11-25",
+    "authors": "Zhou Junfeng; Ma Jiayi; Wang Hongyu; Meng Fanshuang; Li Qingwen et al.",
+    "abstract": "T-2 toxin, a common Fusarium-derived mycotoxin, poses severe threats to livestock production and public health and exhibits potent neurotoxicity by disrupting blood-brain barrier integrity and neuronal function. However, the detailed mechanisms responsible for its developmental neurotoxicity remain poorly elucidated. This study investigated cognitive impairment and associated central and peripheral alterations in juvenile rats following subchronic T-2 toxin exposure. Juvenile male Wistar rats were orally exposed to T-2 toxin for 28 days. Behavioral, histopathological, microbiome, biochemical, and molecular analyses were performed to evaluate cognitive function, hippocampal injury, intestinal barrier integrity, and gut microbial alterations. T-2 toxin exposure significantly impaired learning, memory, recognition ability, and exploratory behavior. Hippocampal neuronal loss, Nissl body reduction, and endoplasmic reticulum dilation were observed following exposure. T-2 toxin disrupted hippocampal redox homeostasis, as evidenced by increased ROS and MDA levels and decreased SOD activity and GSH content. These changes were accompanied by activation of the PERK-eIF2α-ATF4-CHOP signaling pathway and enhanced neuronal apoptosis. In parallel, T-2 toxin altered gut microbial composition, induced colonic injury, reduced ZO-1 and Occludin expression, and triggered systemic inflammatory imbalance. Collectively, these findings indicate that T-2 toxin-induced cognitive impairment in juvenile rats is associated with oxidative stress-triggered ER stress and neuronal apoptosis in the hippocampus. Concurrent gut microbiota dysbiosis, intestinal barrier dysfunction, and inflammatory alterations suggest a potential contribution of gut-brain interactions to developmental T-2 toxin neurotoxicity. These findings expand current understanding of developmental T-2 toxin neurotoxicity by integrating hippocampal oxidative stress-ER stress signaling with gut microbial and intestinal alterations.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Animals",
+      "T-2 Toxin",
+      "Apoptosis",
+      "Male",
+      "Oxidative Stress",
+      "Hippocampus",
+      "Endoplasmic Reticulum Stress",
+      "Rats, Wistar",
+      "Rats",
+      "Neurons",
+      "Intestinal Barrier Function",
+      "Brain-Gut Axis",
+      "Gastrointestinal Microbiome",
+      "Signal Transduction"
+    ],
+    "keywords": [
+      "Apoptosis",
+      "Cognitive impairment",
+      "Endoplasmic reticulum stress",
+      "Gut microbiota",
+      "Oxidative stress",
+      "T-2 toxin"
+    ],
+    "summary_zh": "本研究揭示T-2毒素诱导幼年大鼠认知障碍，涉及海马氧化应激-内质网应激介导的神经元凋亡及肠道菌群和肠屏障改变。",
+    "innovation": "将海马氧化应激-内质网应激信号与肠道微生物及肠道改变整合，拓展对发育期T-2毒素神经毒性的认识 | 揭示PERK-eIF2α-ATF4-CHOP通路激活和神经元凋亡参与T-2毒素诱导的海马损伤",
+    "limitation": "肠-脑轴参与仅为潜在关联，未直接验证因果关系",
+    "study_object": "幼年雄性Wistar大鼠 + 海马/结肠/肠道微生物样本 + 行为学、组织病理学、微生物组、生化及分子分析",
+    "disease": "T-2毒素诱导的神经毒性和认知障碍",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-25"
+  },
+  {
+    "uid": "pmid:43078988",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43078988/",
+    "pmid": "43078988",
+    "title": "Immunological Mechanisms Underlying Cutaneous Immune-Related Adverse Events of Immune Checkpoint Inhibitors: From Shared Antitumor Immunity to Mechanistic Endotypes and Biomarker Discovery.",
+    "doi": "10.1007/s12016-026-09220-z",
+    "journal": "Clinical reviews in allergy & immunology",
+    "issn": "1559-0267",
+    "journal_issn": "1559-0267",
+    "pub_date": "2026-11-25",
+    "authors": "Pu Tianshu; Teng Yaru; Zhang Yuezhu; Da Meihong; Wang Fei",
+    "abstract": "Cutaneous immune-related adverse events (cirAEs) are among the most frequent toxicities of immune checkpoint inhibitor (ICI) therapy and often provide an early, clinically visible indication of immune activation. Their occurrence has been associated with favorable antitumor outcomes, particularly for vitiligo-like depigmentation, raising the possibility that skin toxicity and therapeutic efficacy share biological determinants. However, cirAEs comprise a heterogeneous spectrum, and the mechanisms linking checkpoint blockade to distinct cutaneous phenotypes remain incompletely defined. Here, we propose a framework in which ICI therapy alters immune regulation and promotes immune activation through partially overlapping pathways, while antigen specificity, effector-cell polarization, tissue-resident immunity, and host factors shape the resulting cutaneous phenotype. We review evidence for tumor-skin antigen cross-reactivity and T-cell clonality, humoral autoimmunity, phenotype-specific cytokine programs, regulatory T-cell dysfunction, tissue-resident memory T cells, and microbial, genetic, and sex-related modifiers. We then distinguish mechanisms shared with antitumor immunity from those that are more specific to tissue injury, and discuss their implications for biomarkers and mechanism-informed treatment. This framework emphasizes that cirAE occurrence may reflect productive immune engagement, whereas phenotype and severity are shaped by additional tissue- and host-specific mechanisms. Better longitudinal and paired tumor-skin studies are needed to translate these observations into predictive biomarkers and antitumor-immunity-sparing interventions.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Immune Checkpoint Inhibitors",
+      "Animals",
+      "Biomarkers",
+      "Neoplasms",
+      "Skin",
+      "Skin Diseases",
+      "T-Lymphocytes, Regulatory"
+    ],
+    "keywords": [
+      "Antitumor immunity",
+      "Cutaneous immune-related adverse events",
+      "Immune checkpoint inhibitors",
+      "Regulatory T cells",
+      "Shared antigens",
+      "Skin microbiome",
+      "T-cell clonality",
+      "Tissue-resident memory T cells"
+    ],
+    "summary_zh": "综述提出ICI皮肤irAE机制框架，区分共享抗肿瘤免疫与组织损伤机制，并讨论生物标志物。",
+    "innovation": "提出将ICI皮肤irAE与抗肿瘤免疫共享机制及表型特异机制相整合的框架 | 区分与抗肿瘤免疫共享的机制和更特异的组织损伤机制 | 提出cirAE发生可能反映有效免疫激活，而表型和严重程度由组织及宿主特异机制决定",
+    "limitation": "机制尚未完全明确；需更多纵向及肿瘤-皮肤配对研究",
+    "study_object": "接受ICI治疗患者的皮肤与肿瘤组织；综述性机制分析",
+    "disease": "皮肤免疫相关不良事件；白癜风样色素脱失",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-25"
+  },
+  {
+    "uid": "pmid:43074533",
+    "source": "europepmc",
+    "pmid": "43074533",
+    "doi": "10.1080/19490976.2026.2761711",
+    "title": "Preoperative anastomotic response microbial subtypes (ARMS) are associated with anastomotic leakage after colorectal cancer surgery",
+    "journal": "Gut microbes",
+    "issn": "1949-0976",
+    "journal_issn": "1949-0976",
+    "pub_date": "2026-11-23",
+    "authors": "Zafeiropoulou K; Zafeiropoulos H; Liu K; Zwezerijnen-Jiwa FH; Petersen AE et al.",
+    "abstract": "Anastomotic leakage (AL) is a severe complication following colorectal cancer (CRC) surgery, associated with increased morbidity and mortality. Identifying predictive factors for AL may improve risk stratification and facilitate early diagnosis. In this post hoc exploratory analysis of 421 CRC patients undergoing elective resection with primary anastomosis across two international, multicentre clinical studies, we profiled their preoperative fecal microbiota using 16S rRNA gene sequencing and shotgun metagenomic sequencing. AL occurred in 28 patients (6.7%). Fecal profiling revealed a bimodal distribution of <i>Segatella copri</i>, which served as the foundation for our two-step stratification pipeline. In Step 1, high relative abundance of <i>S. copri</i> was associated with successful anastomotic healing, defining candidate anastomotic response microbial subtype 1 (ARMS-1, low risk). In Step 2, among patients with low <i>S. copri</i> abundance, analysis of microbial metabolic potential identified 165 KEGG orthology (KO) terms enriched in AL patients. Machine learning models trained on these KOs predicted AL with high accuracy, significantly outperforming an externally validated anastomotic leak risk calculator, and differentiating candidate ARMS-2 (medium risk) from ARMS-3 (high risk). In mice, colonization with <i>Palleniella intestinalis</i>, the murine homolog of <i>S. copri</i>, enhanced the expression of transcripts key to barrier integrity, while reducing postoperative circulating markers associated with AL in our human cohort. Overall, this study demonstrates that preoperative fecal microbiome profiling enables accurate AL risk stratification through a functional two-step pipeline and offers mechanistically plausible insights into microbial contributions to anastomotic healing.",
+    "pub_types": [
+      "Multicenter Study",
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "Anastomosis",
+      "Leakage",
+      "Risk stratification",
+      "Microbiome",
+      "Leak"
+    ],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "对421例结直肠癌手术患者术前粪便测序，构建两步微生物分层流程，识别与吻合口漏相关的ARMS亚型并实现风险预测。",
+    "innovation": "提出基于术前粪便微生物的两步分层流程（ARMS） | 基于S. copri丰度及KO代谢潜能构建机器学习模型预测吻合口漏 | 用小鼠定植P. intestinalis同源菌验证屏障完整性机制",
+    "limitation": "事后探索性分析",
+    "study_object": "结直肠癌手术患者 + 术前粪便样本 + 16S rRNA基因测序和鸟枪法宏基因组测序",
+    "disease": "结直肠癌；吻合口漏",
+    "sample_size": "421例结直肠癌患者（其中吻合口漏28例）",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43074533/",
+    "topic_hits": [
+      "16s rrna",
+      "metagenom\\w*",
+      "microbiom\\w*",
+      "microbiota",
+      "shotgun metagenomic"
+    ]
+  },
+  {
+    "uid": "pmid:43073519",
+    "source": "europepmc",
+    "pmid": "43073519",
+    "doi": "10.1038/s41588-026-02842-1",
+    "title": "A draft mouse pangenome graph reference",
+    "journal": "Nature genetics",
+    "issn": "1061-4036",
+    "journal_issn": "1061-4036",
+    "pub_date": "2026-11-23",
+    "authors": "Macias-Velasco JF; Garza JE; Zhang W; Wu W; Xu Z et al.",
+    "abstract": "The mouse is a foundational model organism, yet most genomic analyses rely on linear references that fail to capture laboratory-strain genetic diversity. We present three base-level mouse pangenome graphs on the C57BL/6J telomere-to-telomere (mT2T) backbone: a 19-strain draft mouse pangenome; the founder pangenome (FP) of the 8 Collaborative Cross (CC) founders that constitute the CC's enumerable haplotype space; and the CC pangenome, the FP augmented with personalized diploid haplotypes from 40 CC recombinant inbred lines. This personalization recovers per-animal diploid genomes from short-read whole-genome sequencing at 99.2% mean concordance with expected mosaics, with substantial reproducibility in Diversity Outbred animals at very low coverage, providing a cost-effective alternative to per-sample assembly. Alignment to the FP improves both quality and accuracy of read placement compared to GRCm38 or mT2T, reducing reference-allele bias and increasing variant-calling sensitivity. The graphs support haplotype-specific analysis of methylation and allele-specific analysis of expression and chromatin accessibility.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "构建基于mT2T骨架的三种小鼠泛基因组图，整合19品系、8个CC创始者及40个CC重组近交系单倍型，提升比对与变异检测并支持单倍型分析。",
+    "innovation": "基于mT2T骨架构建三种碱基级小鼠泛基因组图：19品系草图、8个CC创始者泛基因组及40个CC重组近交系个性化二倍体单倍型 | 利用短读长全基因组测序以99.2%平均一致性恢复个体二倍体基因组，并在低覆盖度DO动物中显示可重复性 | 相比GRCm38或mT2T，FP比对提升读段定位质量与准确性、降低参考等位基因偏倚并提高变异检测灵敏度",
+    "limitation": "未描述",
+    "study_object": "小鼠（19品系、8个CC创始者、40个CC重组近交系及DO动物） + 全基因组 + 短读长全基因组测序/泛基因组图构建",
+    "disease": "无",
+    "sample_size": "19个品系；8个CC创始者；40个CC重组近交系",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43073519/",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768625",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768625",
+    "title": "To sort or to hash? Revisiting k-mer counting",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Levallois; V.; Patro; R.; Peterlongo; P.; Pibiri; G. E.",
+    "abstract": "Motivation: Counting k-mers in large genomic datasets is a foundational primitive in bioinformatics, supporting applications such as genome assembly, variant discovery, metagenomic profiling, and sequence database indexing. As sequencing throughput grows, k-mer counting is routinely applied to collections of hundreds to thousands of files. Even a modest per-file speedup compounds into hours of saved computation across such collections. Methods: Sorting and hashing are the two main ways of counting k-mers, and practice has largely settled on the former, of which KMC3 (Kokot et al., 2017) is the most refined expression. We reconsider this choice and analyze both approaches using a cost model that charges computation and memory transfers together. We show that the outcome of the comparison rests on two matters: how abundant the k-mers are, and whether the hash tables fit in cache. Sorting is faster only when data is mostly unique and the hash tables do not fit in cache. We then design a k-mer counting algorithm in the light of this analysis. We adopt the consolidated paradigm based on first partitioning the k-mers by their minimizer, thus obtaining partitions of super-k-mers, and then counting each partition independently in parallel. In particular, super-k-mers are deduplicated before counting, and the number of partitions is chosen so that the hash tables fit in cache whenever possible. The algorithm avoids writing temporary data to disk if enough internal memory is available. Results: We implemented this strategy in a tool named Tuna and show that it is faster than KMC3 on all but one of our inputs, spanning bacterial and human assemblies, metagenomes and read sets, by up to 4.3x. The advantage of Tuna compared to KMC3 in the counting step alone widens to 6.8x as k-mer abundance grows, as the analysis predicts. On the largest input tested, 614 GB of human sequencing reads, Tuna counts within 4 GB of memory and 0.7 TB of temporary disk. On that input the two tools finish within 1.1x of each other under the full 256 GB budget, and restricting every tool to the same 8 GB budget widens the advantage of Tuna over KMC3 to 1.8x. Software: The software is freely available at github.com/vicLeva/tuna under the MIT license.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "通过成本模型比较排序与哈希，设计minimizer分区和super-k-mer去重的Tuna算法，验证其多数数据上快于KMC3。",
+    "innovation": "用统一计入计算与内存传输的成本模型重新分析排序与哈希两类k-mer计数方法 | 采用先按minimizer分区得到super-k-mer分区、计数前去重并选择分区数使哈希表尽量驻留缓存的策略 | 在内存足够时避免写临时磁盘，并实现工具Tuna",
+    "limitation": "排序更快的条件取决于k-mer丰度以及哈希表是否能放入缓存；内存不足时仍需使用临时磁盘",
+    "study_object": "基因组数据集（细菌/人类组装、宏基因组和测序reads）+ k-mer计数算法",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768625",
+    "topic_hits": [
+      "genome assembly",
+      "metagenom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.14.766667",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.14.766667",
+    "title": "Deciphering Molecular Language for Spectral Interpretation with a Foundation Model Pretrained on Repository-Wide Metabolomics Data",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Li; Y.; Zhong; Y.; Liu; P.; Wang; Z.; Xie et al.",
+    "abstract": "In-depth, scalable structural interpretation of tandem mass spectra from diverse biological tissues and environmental samples is essential for understanding the molecular diversity of cellular environments and the metabolic architecture of living systems. Although community-driven resources such as GNPS and MassIVE have aggregated massive volumes of tandem mass spectra spanning a wide range of organisms, clinical cohorts and environmental surveys, modeling and interpreting this exponentially expanding spectral corpus to distill molecular information and derive meaningful biological insights poses a fundamental challenge for established computational methods. Here we present UltraMS, a dual-polarity foundation model tailored to decipher the molecular language latent in tandem mass spectra through large-scale pretraining on more than 160 million spectra encompassing both positive and negative ion modes. Our findings illustrate that UltraMS is capable of effectively decoding the chemical semantics of molecules underlying mass spectra via self-supervised learning, achieving superior performance across a variety of downstream tasks, including elemental detection, molecular identification, molecular property profiling, and metabolic landscape characterization. Remarkably, UltraMS enables conducting molecular identification with fine-grained spectral interpretability, simultaneously elucidating molecular structures from untargeted MS/MS spectra and providing peak-by-peak substructural attributions via annotation transfer. Deployed on a clinical cohort of human plaque samples, UltraMS demonstrates significant potential in discovering previously unrecognized phenotype-linked metabolites supported by structurally grounded fragment-ion formation pathways, while effectively correcting likely misannotated clinical markers. Furthermore, building on the structure-aware spectral representations learned by UltraMS, we construct UltraAtlas, a chemical-property-resolved map that organizes millions of experimental spectra into a unified coordinate system, enabling millisecond-scale molecular profiling and offering practical guidance for exploratory navigation across vast chemical space. Applied to human scalp metabolomics, UltraAtlas effectively captures distinct metabolic variations across individuals, highlighting phenotype-specific chemical signatures while shedding light on the chemical niches of the resident microbiome. Together, UltraMS and UltraAtlas constitute a generalizable framework for structural elucidation and biological discovery from tandem mass spectra, empowering the comprehensive exploration of the largely undeciphered metabolomes across different domains of life.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "提出UltraMS基础模型，用逾1.6亿双极性质谱预训练，实现谱图结构解析并构建UltraAtlas用于代谢图谱探索。",
+    "innovation": "双极性基础模型，基于逾1.6亿张正负离子模式质谱进行大规模预训练 | 实现具有峰级子结构归因和注释迁移的精细可解释分子鉴定 | 构建UltraAtlas统一坐标图谱，支持毫秒级分子谱分析",
+    "limitation": "未描述",
+    "study_object": "多来源生物组织与环境样本的串联质谱数据，以及人类斑块和头皮代谢组样本；质谱基础模型",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.14.766667",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.22.768438",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.22.768438",
+    "title": "Measuring Cell Type Resolved Aging Through Long-Read Sequencing",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Wu; Y.; Stevens; H.; Eames; A.; Moqri; M.; Gladyshev et al.",
+    "abstract": "Epigenetic clocks based on bulk blood DNA methylation are powerful tools for quantifying biological aging, but bulk measurements conflate cell-autonomous epigenetic changes with age-related shifts in blood cell composition. Here, we develop LongReadClock, a set of cell-type-resolved epigenetic aging clocks constructed from cohort-scale long-read whole-genome sequencing of bulk blood without physical cell sorting. Individual sequencing reads were classified using seven target-specific blood-cell models using methylation-based log-likelihood-ratio scoring against a purified-cell atlas. LongReadClock achieved mean absolute errors of 2.8-5.7 years on held-out samples across bulk blood and digitally resolved cell types. Covariate-adjusted analyses identified associations that differed across cell types, including lower mean epigenetic age deviation (EAD) in males in B-cell and NK-cells, associations of systolic blood pressure and resting heart rate with myeloid EAD, and higher NK-cell EAD in participants with asthma. A Fisher-information screen was used to prioritize age-informative genomic windows and to explore read-level methylation patterns at the ELOVL2 locus. These results support cell-type-resolved epigenetic age inference from cohort-scale long-read methylation data from standard bulk blood samples.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "开发LongReadClock，利用长读长全基因组测序在免分选批量血液中实现细胞类型分辨的表观遗传衰老评估。",
+    "innovation": "无需物理分选，从批量血液长读长测序构建细胞类型分辨的表观遗传衰老时钟 | 基于七种靶向血细胞模型和纯化细胞图谱的甲基化对数似然比进行逐reads分类 | 用Fisher信息筛选年龄信息基因组窗口并探索ELOVL2位点read级甲基化模式",
+    "limitation": "未描述",
+    "study_object": "人类宿主 + 批量血液 + 长读长全基因组测序（甲基化）",
+    "disease": "哮喘；男性；收缩压；静息心率",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.22.768438",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768597",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768597",
+    "title": "A 6-week all-liquid caloric restriction diet reduced abundance of some butyrate-producing bacteria while increasing abundance of mucin-degrading bacteria",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Dirks; B.; Nirmalkar; K.; Votruba; S.; Hollstein; T.; Krakoff et al.",
+    "abstract": "Caloric restriction diets are a common diet strategy to reduce excess weight and obesity. The diets work by lowering the number of calories or energy input below a human's normal energy expenditure creating an energy deficit. Caloric restriction diet meals can be composed of whole foods, meal replacement shakes, or a combination of the two. While the effects of these diets on human metabolism are well-known, the effects of these diets and the durability of these effects on the human gut microbiome are less well-known. The objective of this work was to investigate the effects of a 6-week all-liquid caloric restriction diet on the human gut microbiota using 16S rRNA gene amplicon sequencing to assess changes in diversity, community composition, and predicted function. We found that during the diet period beta-diversity shifts significantly away from what it was before the intervention (baseline), and returns to baseline a week after the diet. During the diet period we also observed a decrease in abundance of fiber-degrading and butyrate-producing bacteria with a simultaneous increase in abundance of mucin-degrading bacteria with a return to baseline level abundances in the post-diet period. Despite a liquid diet relatively high in carbohydrate (59% carbohydrate, 25% fat, 16% protein), predicted function analysis showed a shift in substrate preference away from dietary carbohydrates towards protein and host-glycans during the diet period. These findings suggest that despite the overall high carbohydrate content all-liquid caloric restriction diets deprive the gut microbiota of their preferred nutrient source due to the overall decline in calorie delivery which forces them to consume alternative nutrient sources like protein and host-glycans.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "本研究用16S rRNA测序评估6周全流质限食饮食对人肠道菌群的影响，发现菌群组成短暂改变并于停食后恢复。",
+    "innovation": "评估6周全流质限食饮食对人肠道菌群的影响及其停食后恢复情况 | 发现限食期产丁酸/纤维降解菌减少、黏蛋白降解菌增加，停食后恢复 | 预测功能显示底物偏好由膳食碳水转向蛋白质和宿主聚糖",
+    "limitation": "未描述",
+    "study_object": "人类 + 肠道微生物群 + 16S rRNA基因扩增子测序",
+    "disease": "超重/肥胖",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768597",
+    "topic_hits": [
+      "16s rrna",
+      "amplicon sequencing",
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768572",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768572",
+    "title": "A refined InDel taxonomy broadens the repertoire of mutational processes shaping multiple myeloma",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Papadimitriou; M.; Pandey; A.; Poos; A.; Becker; N.; Alaoui et al.",
+    "abstract": "Somatic aberrations have been extensively characterized in multiple myeloma (MM). However, the mutational processes underlying small insertions and deletions (InDels) remain poorly understood. Here, we used a recently developed 89-channel InDel classification schema which allows differentiating mutational processes. We analyzed whole-genome sequencing data from 887 MM samples, spanning both newly diagnosed (NDMM) and relapsed/refractory disease (RRMM). We identified InDel signatures associated with replication slippage, APOBEC mutagenesis, topoisomerase 1 (TOP1)-mediated mutagenesis, non-homologous end joining (NHEJ), and two rare DNA damage repair-deficiency signatures. In two randomized clinical trials, incorporation of the APOBEC InDel signature InD9a improved treatment outcome prediction as pertaining to progression-free survival (PFS) and achievement of minimal residual disease (MRD) negativity. InD29, a signature linked to NHEJ-mediated errors, was detected in both NDMM and RRMM, and was enriched in samples exhibiting melphalan-associated mutagenesis and high SV burden. Genome-wide analysis identified a recurrent InDel hotspot at TXNDC5, a highly expressed gene in MM located within a region implicated in complex genomic rearrangements, with predominantly noncoding alterations suggesting potential regulatory consequences. Finally, InDel signatures revealed the presence of mismatch-repair deficiency (MMRd) and homologous recombination deficiency (HRD) phenotypes, even in cases without germline predisposition. Together, these findings provide a comprehensive characterization of InDel mutagenesis in MM, revealing previously underexplored relationships and demonstrating potential to refine comprehensive genomic classifications of MM.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "利用89通道InDel分类分析887例多发性骨髓瘤全基因组，揭示InDel突变特征并提升疗效预测。",
+    "innovation": "采用89通道InDel分类系统区分多发性骨髓瘤的InDel突变过程 | 发现APOBEC InDel特征InD9a可改善PFS和MRD阴性预测 | 揭示TXNDC5复发性InDel热点及非胚系MMRd/HRD表型",
+    "limitation": "未描述",
+    "study_object": "多发性骨髓瘤患者 + MM样本 + 全基因组测序",
+    "disease": "多发性骨髓瘤（新诊断及复发/难治性）",
+    "sample_size": "887例MM样本",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768572",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768163",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768163",
+    "title": "Fast draft assemblies using locally consistent parsing",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Karaoglanoglu; F.; Zambaku; K.; Ashyralyyev; A.; Ebren; E.; Nappi et al.",
+    "abstract": "Recent improvements in long-read sequencing accuracy, particularly the introduction of PacBio HiFi reads, have created new opportunities for more efficient sequence representations in genome assembly. In particular, variations of de Bruijn graphs (dBG), such as sparse dBG and minimizer-space dBG, provide efficient representations of sequences and have enabled genome assemblers to leverage the high accuracy of long-read data while maintaining low memory usage and fast analysis times. Locally consistent parsing (LCP) is another technique for compact sequence representation that partitions a string into nearly uniform, highly distinctive substrings in a consistent manner. In this work, we combine ideas from minimizer-space assembly and LCP to achieve a significant speedup in HiFi long-read assembly. Specifically, we define a locally consistent de Bruijn Graph (lcDBG), in which string partitions serve as the graph's building blocks. We introduce Gallifrey, a rapid PacBio HiFi assembler that outperforms the fastest existing tool, rust-mdbg, by >6x in runtime while requiring 2x less memory, assembling a human genome in under one minute on a standard laptop, while generating assemblies with comparable contiguity. Code for Gallifrey is freely available at https://github.com/BilkentCompGen/gallifrey.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "提出基于局部一致解析的Gallifrey组装器，实现HiFi长读长快速低内存的人类基因组草图组装。",
+    "innovation": "结合minimizer-space组装与局部一致解析 | 定义以字符串分块为构建单元的lcDBG | Gallifrey较rust-mdbg运行快>6倍且内存减半",
+    "limitation": "未描述",
+    "study_object": "人类基因组 + PacBio HiFi长读长 + 基因组组装",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768163",
+    "topic_hits": [
+      "genome assembly",
+      "long-read assembly"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768510",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768510",
+    "title": "Unipept in 2026: A Unified Web Platform for Comparative Metaproteomics Analysis",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Vande Moortele; T.; Van de Vyver; S.; Binke; B.-B.; Van Den Bossche; T.; Martens et al.",
+    "abstract": "Metaproteomics studies the collective proteome of microbial communities to characterize their taxonomic composition and functional activity. Unipept has long supported such analyses, but organizing samples into projects, building targeted reference databases, and comparing samples across a study were only possible in a standalone desktop application. Here we present a major update that moves these workflows into the web application, so a complete multi-sample study can be assembled, analyzed, and shared without local installation. Samples can be compared both taxonomically and functionally, the latter by mapping enzymes onto metabolic pathways with the integrated PathwayPilot. The analyses also became more informative. The Peptonizer2000, now accelerated by the new NORI inference engine, adds confidence scores to taxonomic and functional results, and an optional filter removes common contaminants before analysis. The Unipept API itself was also reworked, with an optimized index and flexible memory loading that roughly doubled query throughput and lowered the memory needed for deployment. We demonstrate these capabilities on six datasets of a defined microbial community.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "推出Unipept 2026网页平台，整合多样本宏蛋白质组比较分析与共享，提升推断和API性能，并用六个数据集展示。",
+    "innovation": "将项目组织、参考数据库构建和多样本比较从桌面端迁移至网页端，无需本地安装 | 支持分类与功能比较，并通过PathwayPilot将酶映射到代谢通路 | Peptonizer2000由NORI推断引擎加速并增加置信度评分，同时提供污染物过滤和优化API吞吐",
+    "limitation": "仅在六个定义微生物群落数据集上展示能力",
+    "study_object": "定义微生物群落 + 宏蛋白质组数据集 + 宏蛋白质组学分析平台",
+    "disease": "无",
+    "sample_size": "6个数据集",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768510",
+    "topic_hits": [
+      "microbial communities",
+      "microbial community"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768569",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768569",
+    "title": "Evaluating WGS-based methods as an in silico replacement of phage typing for historical continuity and host association in  Salmonella Typhimurium",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Kolodziejczyk; G. M.; Guzinski; J.; Wanelik; K. M.; Arnold; M.; Couto Alves et al.",
+    "abstract": "Salmonella enterica serovar Typhimurium (STm) poses a significant burden on public health worldwide. The Anderson phage typing scheme has historically supported surveillance, outbreak investigations and source attribution through associations between phage types and animal hosts. However, limitations inherent to the scheme have led to the gradual replacement of phage typing by whole-genome sequencing (WGS)-based methods. In this study, we applied statistical and machine learning approaches to 1,329 high-quality STm whole-genome sequences to compare phage typing with hierarchical clustering of core-genome multilocus sequence typing (HierCC) and the single nucleotide polymorphism (SNP) address. We observed low congruence (< 0.60) between phage typing and WGS-based approaches. Nevertheless, a random forest model using WGS-based subtypes as features was able to predict all phage types with high specificity ([&ge;] 0.94) and at least 80% recall for 10 of the 24 analysed phage types. These included phage types of human and veterinary epidemiological importance, including DT193, DT104, DT2, DT40, DT56, DT9, and DT99. We then assessed whether WGS-based subtyping methods could replace the host-association feature of phage typing. At higher distance thresholds ([&ge;] 100) WGS-based subtyping methods were more informative of animal host species and displayed stronger host-associations than phage types for 11 of the 12 animal hosts, with significantly stronger associations for ducks, finches, and pigs (all p < 0.05). Thus, despite low congruence between phage types and WGS-based subtypes, our random forest model accurately predicted several epidemiologically important phage types, including those important to public health and veterinary surveillance, supporting its potential as an in silico alternative for those phage types. Finally, our findings suggest HierCC and SNP address methods can capture the host-association information historically derived from phage typing.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究基于1329株鼠伤寒沙门菌全基因组序列，比较噬菌体分型与HierCC/SNP地址，并用随机森林预测噬菌体型及宿主关联。",
+    "innovation": "使用随机森林以WGS亚型预测多种流行病学重要噬菌体型 | 发现高距离阈值下WGS分型对动物宿主关联强于噬菌体分型 | 提出HierCC和SNP地址可捕获噬菌体分型历史上的宿主关联信息",
+    "limitation": "噬菌体分型与WGS方法一致性低（<0.60） | 随机森林仅对24种分析噬菌体型中的10种达到≥80%召回率",
+    "study_object": "鼠伤寒沙门菌（STm）全基因组序列；WGS分型（HierCC、SNP地址）与噬菌体分型比较",
+    "disease": "无",
+    "sample_size": "1,329株STm全基因组序列",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768569",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.05.15.725552",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.05.15.725552",
+    "title": "An Exponential Scale Mixture Model for Metatranscriptomics Data with Application to Inflammatory Bowel Disease",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Kim; H.; Ma; L.",
+    "abstract": "Metatranscriptomic (MTX) sequencing profiles gene expression across microbial communities, but differential expression analysis is challenging because the abundances are non-negative, extremely sparse, and right-skewed. Standard MTX pipelines output normalized abundances rather than raw counts, limiting the direct use of RNA-seq count-based methods. Gaussian methods require data transformation with pseudocounts, which can lead to distributional misspecification and pseudocount sensitivity. We develop an exponential scale mixture (ESM) framework that directly models MTX abundances with an interpretable mean regression structure while accommodating near-zero concentration and heavy right tails. The complete ESM model, incorporating a two-component mixture and a left-censoring mechanism, can account for extreme sparsity and assign positive probability to observed zeros. In simulation studies, the ESM achieved greater power at comparable empirical false discovery rates (FDRs), more accurate signal strength estimation, better distributional fit, and better FDR calibration than a representative Gaussian alternative. In a case study using inflammatory bowel disease (IBD) multi-omics data, the ESM and the Gaussian model identified markedly different sets of genes (230 vs. 927), while distributional diagnostics strongly favored the ESM. The greater FDR inflation of the Gaussian model in simulations warrants caution in interpreting its larger discovery set. Functional annotation mapped several ESM-exclusive discoveries to gene families associated with IBD-related functions, while Pfam enrichment identified a significant functional signature involving phosphoenolpyruvate (PEP)-utilizing enzymes.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "开发指数尺度混合模型直接建模宏转录组丰度，模拟和炎症性肠病案例分析显示其优于高斯模型。",
+    "innovation": "提出指数尺度混合（ESM）框架，直接建模宏转录组丰度并保留可解释的均值回归结构 | 完整ESM模型结合双组分混合与左删失机制，以处理极端稀疏并为观测零赋予正概率 | 模拟显示在相近FDR下功效更高、信号强度估计更准确、分布拟合和FDR校准更好",
+    "limitation": "未描述",
+    "study_object": "炎症性肠病患者 + 样本类型未描述 + 宏转录组/多组学数据",
+    "disease": "炎症性肠病（IBD）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.05.15.725552",
+    "topic_hits": [
+      "metatranscriptom\\w*",
+      "microbial communities"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.22.768488",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.22.768488",
+    "title": "An intragastric murine model that recapitulates natural infection with invasive non-typhoidal Salmonella for preclinical evaluation of vaccine immunogenicity and protection",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Mocci; V.; Fiorino; F.; Tambassi; M.; D'annunzio; G.; Mazzera et al.",
+    "abstract": "Invasive non-typhoidal Salmonella disease is a major global health concern, particularly in sub-Saharan Africa, where young children and immunocompromised individuals are particularly vulnerable. Preclinical models that reproduce the natural course of invasive non-typhoidal Salmonella infection without antibiotic-mediated disruption of the intestinal microbiota are essential for vaccine development. Here, an antibiotic-free murine model is described based on intragastric infection of susceptible C57BL/6 mice with the ST313 clinical isolate Salmonella enterica serovar Typhimurium D23580. Over seven days, infection progressed from intestinal colonization to extraintestinal dissemination, accompanied by increasing histopathological damage and activation of local and systemic inflammatory responses. The ability of the infection model to evaluate vaccine-induced immunity and protection was assessed by immunizing mice with a formalin-inactivated D23580 strain. Vaccination elicited Salmonella-specific serum IgG and reduced clinical severity, with vaccinated mice showing significantly lower bacterial loads in blood, liver and colon compared with control mice after intragastric challenge. By combining the enteric route, which mimics the natural route of human infection, with an intact intestinal microbiota, this model reproduces key features of progressive invasive non-typhoidal Salmonella disease and provides a tool for investigating host-pathogen interactions and evaluating vaccine-induced immunity and protection.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "immunology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "建立无抗生素胃内感染小鼠模型，模拟侵袭性非伤寒沙门菌自然感染并评估疫苗保护。",
+    "innovation": "无抗生素胃内感染小鼠模型，保留完整肠道菌群并模拟自然感染途径 | 使用ST313临床分离株D23580建立侵袭性非伤寒沙门菌感染模型 | 该模型可评估疫苗诱导的免疫原性和保护效果",
+    "limitation": "未描述",
+    "study_object": "C57BL/6小鼠感染ST313临床分离株D23580 + 血液/肝脏/结肠样本 + 胃内感染小鼠模型/疫苗评估",
+    "disease": "侵袭性非伤寒沙门菌病",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.22.768488",
+    "topic_hits": [
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.09.01.748571",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.09.01.748571",
+    "title": "A configuration-resolved benchmark of differential abundance analysis methods for human gut 16S rRNA microbiome data",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Abdelmalek; N.; Di Meo; C.; Fiorito; G.; Uzzau; S.; Tanca et al.",
+    "abstract": "Differential abundance (DA) analysis decides which taxa a 16S rRNA study reports. Each DA tool runs under choices of normalisation, transformation, zero handling and reference, yet benchmarks usually compare tools at their defaults. We benchmarked 11 tools in 43 configurations on 1,064 datasets, with signals implanted into healthy stool and inflammatory bowel disease (IBD) mucosal profiles or data simulated from the stool profiles, and in two real cohorts with permuted labels. Designs varied sample size, effect size, signal structure, confounding and read depth. The study design explained most of the variation in the Matthews correlation coefficient (MCC), followed by the tool and, much less, by its configuration. A few settings changed error control as much as the choice of tool, including the sensitivity analysis of ANCOM-BC2, median comparison in MaAsLin 3 and zero handling in LinDA. Linear models, mostly on log scales with a small pseudo-count, gave the highest MCC at an empirical false discovery rate (FDR) near the nominal level. Empirical FDR exceeded the nominal level for negative binomial count models, and for methods testing proportions in larger studies and under shifts in one direction. Fixed pseudo-counts on log-ratio scales failed when read depth differed about 1.35-fold between groups, and references assuming most taxa unchanged failed when most taxa shifted. The ranking held across taxonomic levels, communities and simulations, and agreed with how liberal each configuration was on permuted sex and IBD labels. We derive recommendations for gut 16S studies and a permutation check applicable to any dataset.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "在1064个数据集上基准测试11种工具43种配置，发现线性模型对数尺度伪计数MCC最高，并给出肠道16S研究建议。",
+    "innovation": "配置分辨的基准测试：比较11种工具43种配置 | 在健康粪便、IBD黏膜及模拟数据和两个置换标签真实队列中评估 | 提出适用于任意数据集的置换检查",
+    "limitation": "未描述",
+    "study_object": "人类肠道 + 粪便/IBD黏膜样本 + 16S rRNA测序",
+    "disease": "炎症性肠病（IBD）",
+    "sample_size": "1,064个数据集；2个真实队列",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.09.01.748571",
+    "topic_hits": [
+      "16s rrna",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.23.768542",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.23.768542",
+    "title": "OTU Taxa: a taxonomy aware pretrained model for 16S microbiome profiles",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Henao; R.; Hoehndorf; R.; Perez Nastar; H. D.",
+    "abstract": "Background: Microbiome profiles combine sequence-derived units with taxonomy. Pretrained models use different community vocabularies and are often evaluated on few labels, leaving their value under broad competitive evaluation unclear. We introduce OTU-Taxa, which pairs operational taxonomic unit (OTU) identity with hierarchical taxonomy during autoregressive pretraining on unlabeled profiles. Results: In an in-domain evaluation across 250 Microbe Atlas Project (MAP)-derived classification tasks with disjoint folds, mean area under the receiver operating characteristic curve (AUROC) was 0.744 for OTU-Taxa and 0.749 for Random Forest. OTU-Taxa was the highest-ranked pretrained method; Nemenyi comparisons did not detect rank differences from Random Forest across the three metrics. The model also generated largely non-copied profiles and recovered more withheld community members at larger cutoffs, while retrieval gave stronger empirical fidelity and early ranking. It also supported abundance-rank readouts and recovered higher-rank classifier assignments from sample context for known-vocabulary OTUs under controlled sequence degradation, although agreement was limited at genus and species ranks. Conclusions: Within the MAP 97% closed-reference 16S vocabulary, the pretrained representation supports in-domain prediction of metadata labels alongside generative and taxonomic readouts. Supervised abundance models, empirical retrieval, and intact-sequence classifiers remain stronger choices for several corresponding endpoints, while OTU-Taxa provides one shared contextual representation across all four analyses.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "提出OTU-Taxa，将OTU身份与层级分类结合进行自回归预训练，并在250个16S分类任务中评估，性能接近随机森林。",
+    "innovation": "将OTU身份与层级分类学结合用于无标签16S谱的自回归预训练 | 在250个MAP衍生分类任务上进行广泛竞争性评估 | 提供跨预测、生成、检索和分类学读出的一种共享上下文表示",
+    "limitation": "评估限于MAP 97%闭参考16S词汇的域内任务 | 在属和种水平的一致性有限，且多个终点上监督丰度模型、经验检索和完整序列分类器更强",
+    "study_object": "宿主/环境未描述；16S微生物组谱；自回归预训练模型",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.23.768542",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.01.18.26344367",
+    "source": "medrxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.01.18.26344367",
+    "title": "A distributed, privacy-preserving platform for linkage of epidemiological data with pathogen genome sequences",
+    "journal": "medRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-24",
+    "authors": "Langevin; J.; Featherstone; L.; Di Giallonardo; F.; Horsburgh; B. A.; Lloyd et al.",
+    "abstract": "Efficient and secure integration of epidemiological data with pathogen genome sequence data is essential for identifying genetic clusters, monitoring emerging mutations and targeting public health responses. However, this information is often collected across different organisations: epidemiological data is collected by public health units while genome sequence data is collected by diagnostic laboratories. Linking these sources often requires manual or semi-manual approaches, leading to unnecessary delays in identifying emerging outbreaks. To address this, we developed a proof-of-concept privacy-preserving distributed platform, SecureEpiLink, for automatic linkage of pathogen genome sequences and notification data across public health and diagnostic laboratories. SecureEpiLink uses cryptographic hashing to establish linkage, without exposing personal identifying information. This ensures that the resulting linked data can be used to identify the emergence of genetic clusters without identification of individuals comprising each cluster, with the original identifiable data remaining stored at source units. We benchmarked SecureEpiLink against manual linkage and another linkage service using HIV and HCV datasets from New South Wales, Australia. SecureEpiLink performed similarly to manual linkage and outperformed previously used linkage algorithms, with all errors attributable to data entry errors in the underlying dataset. Lastly, we demonstrate how SecureEpiLink can be integrated with automated genomic epidemiology pipelines. SecureEpiLink is available from https://github.com/jolenefarrell/SecureEpiLink.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "epidemiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "开发SecureEpiLink隐私保护分布式平台，以加密哈希自动关联流行病学与病原体基因组数据，并在HIV/HCV数据上验证性能。",
+    "innovation": "使用加密哈希在不暴露个人身份信息下建立跨机构关联 | 原始可识别数据保留在源单位，可识别遗传簇而不识别个体 | 可与自动化基因组流行病学流程集成",
+    "limitation": "仅为概念验证平台 | 评估中所有错误均源于底层数据录入错误",
+    "study_object": "公共卫生与诊断实验室 + HIV/HCV流行病学通知数据与病原体基因组序列 + 加密哈希分布式关联平台",
+    "disease": "HIV感染、HCV感染",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.01.18.26344367",
+    "topic_hits": [
+      "genomic epidemiology"
+    ]
+  }
+]

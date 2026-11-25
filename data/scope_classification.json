@@ -144733,7 +144733,795 @@
       "classified_at": "2026-11-24",
       "prompt_version": "scope-v1",
       "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.22.768488": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "使用小鼠模型复现人类侵袭性非伤寒沙门菌感染并评估疫苗，属人类疾病动物模型。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "blood",
+          "children",
+          "clinical",
+          "clinical isolate",
+          "human",
+          "mice",
+          "murine",
+          "serum"
+        ],
+        "human_title": [
+          "murine"
+        ],
+        "method": [
+          "tool"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "b45ca85b952f1180",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.09.01.748571": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "对多种差异丰度分析方法进行基准评测并提出推荐，属生物信息学基准研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human",
+          "ibd",
+          "stool"
+        ],
+        "human_title": [
+          "human"
+        ],
+        "method": [
+          "benchmark",
+          "methods",
+          "tool"
+        ],
+        "method_title": [
+          "benchmark"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "97a44646889bba4f",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768542": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "提出新的16S微生物组预训练模型OTU-Taxa，属工具/算法贡献。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "classifier",
+          "method"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "forest"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c707af165dba60b2",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.01.18.26344367": {
+      "category": "bioinformatics_method",
+      "confidence": 0.9,
+      "reason": "提出隐私保护的病原基因组与流行病学数据链接平台并做基准，属工具/软件贡献。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "hiv"
+        ],
+        "human_title": [],
+        "method": [
+          "algorithms",
+          "platform"
+        ],
+        "method_title": [
+          "platform"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "09986cc7f150201a",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.06.11.26355408": {
+      "category": "non_medical",
+      "confidence": 0.8,
+      "reason": "研究饮用水系统中非结核分枝杆菌及其噬菌体/质粒，属环境微生物生态，未提出通用新方法。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "mags?\\b",
+          "metagenome-assembled",
+          "plasmid"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "drinking water"
+        ],
+        "strong_body": [
+          "drinking water"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "21273efb3d2a52b5",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:42722268": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "T-2毒素致幼鼠神经毒性及肠脑轴研究，属人类疾病动物模型与毒理健康相关。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "blood",
+          "gut microb\\w*"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "livestock"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "1664edf33fbbfa3e",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43078988": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "免疫检查点抑制剂皮肤不良反应的临床免疫机制综述，直接涉及人类临床。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "tumou?r"
+        ],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "8ce76d1341a82860",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43074533": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "结直肠癌患者术前粪便微生物与吻合口漏关联的临床队列研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "clinical",
+          "cohort",
+          "colorectal",
+          "fecal",
+          "human",
+          "mice",
+          "murine",
+          "patients"
+        ],
+        "human_title": [
+          "cancer",
+          "colorectal"
+        ],
+        "method": [
+          "machine learning",
+          "pipeline"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "975eb46b001698ce",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43073519": {
+      "category": "bioinformatics_method",
+      "confidence": 0.85,
+      "reason": "提出小鼠泛基因组图参考资源，属基因组拼装/参考数据库工具贡献。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "mouse"
+        ],
+        "human_title": [
+          "mouse"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "animal",
+          "animals"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "8d0de0e544b7f9e6",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768052": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "环境与真菌藻类基因组中CRESS DNA病毒多样性研究，纯生态进化，无医学或新方法贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "83eec9c57e106349",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.19.767916": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "小麦细菌性叶斑病抗性免疫研究，属植物农业领域。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "annotation",
+          "framework",
+          "genome assembly"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "leaf",
+          "wheat"
+        ],
+        "strong_body": [
+          "crops",
+          "leaf",
+          "wheat"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "f440b58bd1757391",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768625": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "提出新的k-mer计数算法与工具Tuna，属生物信息学方法贡献。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "algorithm",
+          "database",
+          "genome assembly",
+          "k-mer",
+          "methods",
+          "software",
+          "tool"
+        ],
+        "method_title": [
+          "k-mer"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "10dc3d8867964d86",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.14.766667": {
+      "category": "bioinformatics_method",
+      "confidence": 0.85,
+      "reason": "提出质谱基础模型UltraMS及UltraAtlas，主要贡献为计算方法/工具。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "cohort",
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "annotation",
+          "framework",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "4977ef5449765573",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.22.768438": {
+      "category": "bioinformatics_method",
+      "confidence": 0.8,
+      "reason": "开发LongReadClock细胞类型解析表观遗传时钟方法，主要贡献为算法工具。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "asthma",
+          "blood",
+          "cohort",
+          "participants"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "d9d79bd06a86ceb2",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.17.767414": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "污水微生物组过滤流程对多样性及基因组回收的影响，属环境研究，无新方法贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "metagenome-assembled",
+          "workflow"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "wastewater"
+        ],
+        "strong_body": [
+          "wastewater"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "596513f48f9015fe",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768573": {
+      "category": "non_medical",
+      "confidence": 0.7,
+      "reason": "研究大肠杆菌与蛭弧菌共培养的捕食抗性演化，非人类临床或人体微生态，也未提出新工具/算法。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a99a28df62d521c0",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768597": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "研究人类热量限制饮食对人体肠道菌群的影响，属人体微生态与健康研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "gut microb\\w*",
+          "human",
+          "obesity"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e1d354426e5c9f66",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768572": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "多发性骨髓瘤患者全基因组InDel突变特征分析，属人类肿瘤临床研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "6f1f12cbdc9d3058",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.22.768399": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "利用云杉树皮甲虫基因组数据重建线虫关联，属森林害虫与生态研究。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "adult"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "forest"
+        ],
+        "strong_body": [
+          "ecosystem",
+          "forest",
+          "nematode"
+        ],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "c1d4e7d902190a6d",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.12.766285": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "濒危百慕大石龙子参考基因组组装，属保护基因组学，非人类医学。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "benchmarking",
+          "genome assembly"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "1d95e0a1c9ed1284",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768163": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "提出新基因组拼装算法与工具Gallifrey（lcDBG），属生物信息学方法。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "assembler",
+          "genome assembly",
+          "long-read assembly",
+          "tool"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c10455eb369616bf",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768510": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "Unipept宏蛋白质组学网络平台更新，属工具/软件贡献。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "platform"
+        ],
+        "method_title": [
+          "platform"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "68d043b28a07c413",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768569": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "鼠伤寒沙门菌WGS分型替代噬菌体分型，涉及公共卫生与临床病原监测。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "machine learning",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "forest",
+          "pigs"
+        ],
+        "weak_body": [
+          "animal",
+          "veterinar\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "b3b0c5477c89da6b",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768699": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "循环水产养殖系统中冷等离子体水处理与鱼类福利研究，属水产养殖。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "plasma"
+        ],
+        "human_title": [
+          "plasma"
+        ],
+        "method": [
+          "tool"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "aquaculture"
+        ],
+        "strong_body": [
+          "aquaculture",
+          "biodiversity"
+        ],
+        "weak_body": [
+          "aquatic",
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "a490736332ce110c",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.05.15.725552": {
+      "category": "bioinformatics_method",
+      "confidence": 0.85,
+      "reason": "提出指数尺度混合模型用于宏转录组差异表达分析，属统计方法/工具贡献。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "ibd"
+        ],
+        "human_title": [],
+        "method": [
+          "annotation",
+          "framework",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e0a18f4f5e058dfa",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.10.19.760320": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: agricultur\\w*, fertilizer",
+      "flags": [],
+      "decision": "exclude",
+      "method": "rule",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "agricultur\\w*",
+          "fertilizer"
+        ],
+        "strong_body": [
+          "agricultur\\w*",
+          "compost",
+          "fertilizer",
+          "leaf",
+          "leaves",
+          "plants",
+          "soil",
+          "soil microb\\w*"
+        ],
+        "weak_body": [
+          "food"
+        ]
+      },
+      "title_hash": "a3b13a6ede6fefe4",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "rule"
+    },
+    "doi:10.64898/2026.09.21.753358": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: coral",
+      "flags": [],
+      "decision": "exclude",
+      "method": "rule",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "coral"
+        ],
+        "strong_body": [
+          "coral",
+          "marine",
+          "oyster"
+        ],
+        "weak_body": []
+      },
+      "title_hash": "b93cd5f5bffabb54",
+      "classified_at": "2026-11-25",
+      "prompt_version": "scope-v1",
+      "model": "rule"
     }
   },
-  "updated": "2026-11-24"
+  "updated": "2026-11-25"
 }
