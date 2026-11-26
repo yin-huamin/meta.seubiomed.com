@@ -145521,7 +145521,836 @@
       "classified_at": "2026-11-25",
       "prompt_version": "scope-v1",
       "model": "rule"
+    },
+    "doi:10.64898/2026.11.23.768713": {
+      "category": "bioinformatics_method",
+      "confidence": 0.9,
+      "reason": "提出disassembler及Aeon工具用于序列档案重建与进化分析，属新工具/流程。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "sars-cov-2"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "tree"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "2cfdce57687930ba",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768658": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "研究对象为鲤鱼肠道菌群与EM处理，属水产/兽医，且未提出新方法。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "classifier",
+          "database",
+          "deep learning",
+          "machine learning",
+          "method",
+          "methods",
+          "resource"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "fd66eabe8576da13",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768872": {
+      "category": "bioinformatics_method",
+      "confidence": 0.9,
+      "reason": "提出GPU加速的体细胞变异检测流程BRISANCE，属新分析流程/工具。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "clinical",
+          "tumou?r"
+        ],
+        "human_title": [],
+        "method": [
+          "benchmarking",
+          "pipeline",
+          "workflow"
+        ],
+        "method_title": [
+          "pipeline"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "eeb7f10c00e50b09",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.22.768464": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "植物微生物组无菌培养系统，属植物/农业研究。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "gnotobiotic"
+        ],
+        "human_title": [
+          "gnotobiotic"
+        ],
+        "method": [
+          "platform",
+          "workflow"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "plant"
+        ],
+        "strong_body": [
+          "agricultur\\w*",
+          "crop",
+          "plant",
+          "plant growth",
+          "plants",
+          "rice"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "508ce380bf71dd21",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.13.766587": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "蛋鸡热应激与肠道菌群研究，属畜牧/兽医。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "gut microb\\w*"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "egg production"
+        ],
+        "weak_body": [
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "f4c63ca17f933f9d",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.18.767757": {
+      "category": "bioinformatics_method",
+      "confidence": 0.8,
+      "reason": "评估并推广Archetypal Analysis作为微生物组可解释表示方法，属方法学贡献。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "gut microb\\w*",
+          "human",
+          "stool"
+        ],
+        "human_title": [],
+        "method": [
+          "framework",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "8f7c34fb9c2356db",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.10.27.26366573": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "新生儿病房感染暴发与耐药临床研究，属人类医学。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "neonat\\w*",
+          "newborn"
+        ],
+        "human_title": [
+          "neonat\\w*"
+        ],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "f5abf19a3b587cc3",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43094373": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "结直肠癌患者人体样本的肠道菌群空间异质性研究，属临床人体微生态。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "colorectal",
+          "fecal",
+          "gut microb\\w*",
+          "human",
+          "patients",
+          "tumou?r"
+        ],
+        "human_title": [
+          "colorectal",
+          "gut microb\\w*",
+          "human"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "0ae1256c2b5cf800",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43086490": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "类风湿关节炎患者饮食-肠道菌群-免疫机制综述，属人类疾病。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "gut microb\\w*"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "plant"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "f3e49b2641f553cb",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43079908": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "结直肠癌患者菌群及小鼠类器官模型研究致癌机制，属人类疾病模型。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "colorectal",
+          "gut microb\\w*",
+          "mouse",
+          "patients"
+        ],
+        "human_title": [
+          "cancer",
+          "colorectal"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "51a5aace163998c3",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43077304": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "儿童幽门螺杆菌感染与胃微生态、致癌风险及根除策略，属临床。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adolescen\\w*",
+          "adult",
+          "children",
+          "serum"
+        ],
+        "human_title": [
+          "adolescen\\w*"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "131249fd3332e36a",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43078092": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "癫痫患者队列及小鼠模型研究迷走神经刺激-菌群-丁酸轴，属人类疾病。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cohort",
+          "fecal",
+          "gut microb\\w*",
+          "mice",
+          "murine",
+          "patients",
+          "plasma"
+        ],
+        "human_title": [
+          "gut microb\\w*"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "dffcfa68e4979c6c",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:39574575": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "系统评估多种宏基因组分类与拼装分析方法的基准研究。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "binning",
+          "metagenome-assembled",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "environmental microb\\w*",
+          "environmental sample",
+          "ocean",
+          "soil"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "e4b3fa62a6cc7a1a",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s13059-026-04360-z": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "宠物犬肠道宏基因组目录，属兽医/动物研究，未提出通用新工具。 | rule: human title anchor",
+      "flags": [
+        "human_anchor_override"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "fecal",
+          "gut microb\\w*"
+        ],
+        "human_title": [
+          "gut microb\\w*"
+        ],
+        "method": [
+          "antimicrobial resistance",
+          "mags?\\b",
+          "metagenome-assembled",
+          "resource"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "animal"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "61108d2d82995449",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:40964264": {
+      "category": "medical",
+      "confidence": 0.8,
+      "reason": "人体肠道共生菌与肠上皮共培养研究宿主定植机制，属人体微生态。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "5bcebc9d8f3825f8",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02581-9": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "细菌性阴道病患者样本及人阴道芯片模型治疗研究，属临床。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human",
+          "patients",
+          "vaginal microb\\w*"
+        ],
+        "human_title": [
+          "human"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "16e2194ccb38110a",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02574-8": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "海洋浮游植物宏转录组生态研究，无医学或方法学贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "algorithm",
+          "resource"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "phytoplankton"
+        ],
+        "strong_body": [
+          "biogeochem\\w*",
+          "marine",
+          "ocean",
+          "phytoplankton"
+        ],
+        "weak_body": [
+          "environmental",
+          "food"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "53e0149dee318ac8",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02579-3": {
+      "category": "medical",
+      "confidence": 0.75,
+      "reason": "研究人体皮肤及居住表面病毒组与细菌群落动态，属人体微生态研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "human"
+        ],
+        "human_title": [
+          "human"
+        ],
+        "method": [
+          "machine learning"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "73712e0901788d95",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1038/s41467-026-79232-y": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "肠道菌群代谢物与主动脉夹层临床队列及小鼠疾病模型研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "cohort",
+          "gut microb\\w*",
+          "mice",
+          "plasma"
+        ],
+        "human_title": [
+          "gut microb\\w*",
+          "mice"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "1551c022bd314617",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02577-5": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "马铃薯根际微生物与除草剂胁迫的农业研究，无医学或方法学贡献",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "rhizosphere"
+        ],
+        "strong_body": [
+          "plant",
+          "plant growth",
+          "rhizosphere",
+          "soil"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "d19f8c014ff6629f",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768938": {
+      "category": "medical",
+      "confidence": 0.7,
+      "reason": "抗菌酶对包括MRSA的革兰阳性菌活性研究，涉及临床耐药病原",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "antimicrobial resistance",
+          "plasmid"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "4c185aec73379669",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768926": {
+      "category": "non_medical",
+      "confidence": 0.6,
+      "reason": "噬菌体整合子与抗防御基因的纯基础微生物进化研究，无医学或工具贡献",
+      "flags": [
+        "low_confidence"
+      ],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "integron",
+          "plasmid"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "38c70c7b314919cb",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768882": {
+      "category": "medical",
+      "confidence": 0.8,
+      "reason": "人肠道共生菌在复杂菌群中的定植适应机制研究，属人体微生态",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "gut microb\\w*",
+          "human"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "caeaa10bfb8a0dc4",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768741": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "圈养熊蜂肠道微生物组重塑与健康研究，属昆虫生态",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "gut microb\\w*"
+        ],
+        "human_title": [
+          "gut microb\\w*"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "bees"
+        ],
+        "strong_body": [
+          "agricultur\\w*",
+          "bee",
+          "bees",
+          "plants"
+        ],
+        "weak_body": [
+          "animals",
+          "ecolog\\w*",
+          "environmental",
+          "food"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "3170a3f32aac5e7c",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.20.768063": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "南极水母相关细菌群落与分离菌抗菌活性，属海洋生态研究",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "coral"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "dcbf1e3567a8fd14",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768850": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "小麦真菌合成菌群组装与抗旱研究，属农业植物微生物",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "resource"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "wheat"
+        ],
+        "strong_body": [
+          "agricultur\\w*",
+          "crop",
+          "plant",
+          "plants",
+          "wheat"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e5871da040f0c184",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.769019": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "盘基网柄菌内共生菌竞争能力研究，属基础生态进化",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "e4fb37e06e67e7b5",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768820": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "多个非医学主题信号: ecolog\\w*, environmental",
+      "flags": [],
+      "decision": "exclude",
+      "method": "rule",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*",
+          "environmental"
+        ]
+      },
+      "title_hash": "8a9645eb0b599c97",
+      "classified_at": "2026-11-26",
+      "prompt_version": "scope-v1",
+      "model": "rule"
     }
   },
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }

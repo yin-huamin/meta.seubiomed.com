@@ -1,8 +1,8 @@
 {
-  "total": 4320,
+  "total": 4337,
   "by_type": {
-    "研究论文": 3177,
-    "综述": 589,
+    "研究论文": 3192,
+    "综述": 591,
     "Benchmark": 158,
     "临床试验": 149,
     "其他": 107,
@@ -10,7 +10,7 @@
     "系统综述/Meta分析": 70
   },
   "by_year": {
-    "2026": 1199,
+    "2026": 1216,
     "2025": 623,
     "2024": 528,
     "2023": 444,
@@ -24,26 +24,26 @@
     "2015": 61
   },
   "by_source": {
-    "pubmed": 4144,
-    "biorxiv": 80,
-    "europepmc": 66,
-    "medrxiv": 24,
-    "openalex": 6
+    "pubmed": 4146,
+    "biorxiv": 85,
+    "europepmc": 69,
+    "medrxiv": 25,
+    "openalex": 12
   },
-  "preprint_total": 104,
+  "preprint_total": 110,
   "top_journals": {
-    "Gut microbes": 282,
+    "Gut microbes": 285,
     "Nature communications": 207,
-    "Microbiome": 176,
+    "Microbiome": 178,
     "Nucleic acids research": 125,
     "Frontiers in immunology": 97,
     "Nature microbiology": 88,
     "NPJ biofilms and microbiomes": 88,
     "Nutrients": 88,
+    "bioRxiv": 85,
+    "Genome biology": 81,
     "Briefings in bioinformatics": 81,
-    "bioRxiv": 80,
-    "Genome biology": 79,
-    "Cell host & microbe": 71,
+    "Cell host & microbe": 72,
     "Journal of translational medicine": 65,
     "Gut": 59,
     "Proceedings of the National Academy of Sciences of the United States of America": 56,
@@ -54,7 +54,7 @@
     "Nature biotechnology": 42
   },
   "top_diseases": {
-    "结直肠癌": 89,
+    "结直肠癌": 91,
     "肥胖": 49,
     "溃疡性结肠炎": 40,
     "COVID-19": 36,

@@ -4050,3 +4050,18 @@ doi:10.64898/2026.11.23.768542		keep	bioinformatics_method	0.95	weak_method	OTU 
 doi:10.64898/2026.11.23.768573		exclude	non_medical	0.70		Rapid development of E. coli resistance to Bdellovibrio predation during short-term co-culture	bioRxiv	研究大肠杆菌与蛭弧菌共培养的捕食抗性演化，非人类临床或人体微生态，也未提出新工具/算法。
 doi:10.64898/2026.11.23.768699		exclude	non_medical	0.95		Cold atmospheric plasma for improved sustainability and fish welfare in recirculating aquaculture systems	bioRxiv	循环水产养殖系统中冷等离子体水处理与鱼类福利研究，属水产养殖。
 pmid:43073519	43073519	keep	bioinformatics_method	0.85	weak_method	A draft mouse pangenome graph reference	Nature genetics	提出小鼠泛基因组图参考资源，属基因组拼装/参考数据库工具贡献。
+doi:10.1186/s13059-026-04360-z		keep	medical	0.85	human_anchor_override	A long-read metagenomic catalog of near-finished bacterial genomes from Shanghai pet dogs captures gut microbial diversity across geographic	Genome biology	宠物犬肠道宏基因组目录，属兽医/动物研究，未提出通用新工具。 | rule: human title anchor
+doi:10.1186/s40168-026-02574-8		exclude	non_medical	0.95		Changes in gene expression in eukaryotic phytoplankton at the Atlantic-Arctic polar front	Microbiome	海洋浮游植物宏转录组生态研究，无医学或方法学贡献。
+doi:10.1186/s40168-026-02577-5		exclude	non_medical	0.90		Stress-dependent rhizosphere reorganization reveals distinct bacterial strategies for pendimethalin processing in potato	Microbiome	马铃薯根际微生物与除草剂胁迫的农业研究，无医学或方法学贡献
+doi:10.64898/2026.11.13.766587		exclude	non_medical	0.95		Dietary betaine-based supplementation improves laying performance and modifies intestinal morphology and microbial profile in hens exposed t	bioRxiv	蛋鸡热应激与肠道菌群研究，属畜牧/兽医。
+doi:10.64898/2026.11.18.767757		keep	bioinformatics_method	0.80	weak_method	Archetypal analysis provides interpretable mixture representations of microbiome community structure	bioRxiv	评估并推广Archetypal Analysis作为微生物组可解释表示方法，属方法学贡献。
+doi:10.64898/2026.11.20.768063		exclude	non_medical	0.85		Bacterial community patterns of the Antarctic stalked jellyfish Haliclystus antarcticus and antimicrobial activity from a gut-associated Oce	bioRxiv	南极水母相关细菌群落与分离菌抗菌活性，属海洋生态研究
+doi:10.64898/2026.11.22.768464		exclude	non_medical	0.95		GnotoBag: A versatile peat-based gnotobiotic system for plant microbiome research beyond model species	bioRxiv	植物微生物组无菌培养系统，属植物/农业研究。
+doi:10.64898/2026.11.23.768713		keep	bioinformatics_method	0.90	weak_method	Studying evolutionary dynamics across the entire Sequence Read Archive	bioRxiv	提出disassembler及Aeon工具用于序列档案重建与进化分析，属新工具/流程。
+doi:10.64898/2026.11.23.768741		exclude	non_medical	0.95		Testing the impact of gut microbiome rewilding on the health of captive bumble bees	bioRxiv	圈养熊蜂肠道微生物组重塑与健康研究，属昆虫生态
+doi:10.64898/2026.11.24.768658		exclude	non_medical	0.85		Does embedding impact classification performance ? A small sample perspective	bioRxiv	研究对象为鲤鱼肠道菌群与EM处理，属水产/兽医，且未提出新方法。
+doi:10.64898/2026.11.24.768820		exclude	non_medical	0.85		The blue dragon nudibranch (Glaucus atlanticus) shifts to less venomous prey in the Mediterranean, with no evidence of defensive microbial s	bioRxiv	多个非医学主题信号: ecolog\w*, environmental
+doi:10.64898/2026.11.24.768850		exclude	non_medical	0.95		Effective Fungal SynCom Assembly in Wheat Depends on Field Cooccurrence Patterns	bioRxiv	小麦真菌合成菌群组装与抗旱研究，属农业植物微生物
+doi:10.64898/2026.11.24.768926		exclude	non_medical	0.60	low_confidence	Phage integrons are vaults of privatized counterdefense genes	bioRxiv	噬菌体整合子与抗防御基因的纯基础微生物进化研究，无医学或工具贡献
+doi:10.64898/2026.11.24.769019		exclude	non_medical	0.90		Paraburkholderia endosymbionts with streamlined genomes are disadvantaged during interspecific competition	bioRxiv	盘基网柄菌内共生菌竞争能力研究，属基础生态进化
+pmid:39574575	39574575	keep	bioinformatics_method	0.95	weak_method	Evaluating metagenomic analyses for undercharacterized environments	Genome biology	系统评估多种宏基因组分类与拼装分析方法的基准研究。
