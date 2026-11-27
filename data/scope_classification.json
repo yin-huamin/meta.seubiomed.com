@@ -146350,7 +146350,847 @@
       "classified_at": "2026-11-26",
       "prompt_version": "scope-v1",
       "model": "rule"
+    },
+    "pmid:43099967": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "针对结肠癌细胞的治疗研究，属人类癌症治疗范畴",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "colorectal"
+        ],
+        "human_title": [
+          "cancer"
+        ],
+        "method": [
+          "platform"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a30546d5491bd596",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43036101": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "临床抗菌药物敏感性检测与耐药性，属人类临床相关",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical"
+        ],
+        "human_title": [],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e6f488235f0a0ece",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43094274": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "肝细胞癌与肠道菌群治疗策略，属人类疾病微生态",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "carcinoma",
+          "clinical",
+          "fecal",
+          "gut microb\\w*",
+          "tumou?r"
+        ],
+        "human_title": [
+          "carcinoma"
+        ],
+        "method": [
+          "platform"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a21bdc9b7acc72fe",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "pmid:43086402": {
+      "category": "non_medical",
+      "confidence": 0.75,
+      "reason": "河流湖泊环境耐药基因监测，虽提及临床ARG但属环境研究，未提出新工具",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "hospital",
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "antibiotic resistance",
+          "antimicrobial resistance",
+          "framework",
+          "resistome",
+          "tool"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "aquaculture",
+          "freshwater",
+          "lake",
+          "river",
+          "sediment",
+          "sewage"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c011eaa4daf6b291",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1038/s41467-026-79508-3": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "小鼠肠道炎症模型与宿主-微生物代谢，属人类疾病动物模型",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "colitis",
+          "mouse",
+          "murine"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a6e40f77467a5cdf",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1038/s41467-026-79152-x": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "肺炎链球菌与流感感染致病机制，属人类感染疾病研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adults",
+          "children",
+          "influenza"
+        ],
+        "human_title": [
+          "influenza"
+        ],
+        "method": [
+          "antimicrobial resistance"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "a0dc43f759020f5d",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02582-8": {
+      "category": "bioinformatics_method",
+      "confidence": 0.95,
+      "reason": "提出病毒分类与功能分析流程VirMake，属生物信息学工具",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "human"
+        ],
+        "human_title": [],
+        "method": [
+          "annotation",
+          "framework",
+          "pipeline"
+        ],
+        "method_title": [
+          "pipeline"
+        ],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ecolog\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "79c57398ee163e11",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1038/s41467-026-79503-8": {
+      "category": "non_medical",
+      "confidence": 0.7,
+      "reason": "大肠杆菌素聚酮合酶结构机制研究，非人类医学或组学工具贡献",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [
+          "cancer",
+          "colorectal"
+        ],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "7acc521a8e9614c5",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1080/19490976.2026.2769715": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "Akkermansia与代谢疾病及免疫紊乱综述，属人体微生态与疾病",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "58018d7383ba21d9",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1186/s40168-026-02586-4": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "健康成人抗生素干预对中性粒细胞影响，属人体微生态与免疫研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adults",
+          "blood",
+          "gut microb\\w*",
+          "human",
+          "humans",
+          "serum"
+        ],
+        "human_title": [
+          "blood",
+          "human"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "ad085b5e4c5e6054",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.768714": {
+      "category": "bioinformatics_method",
+      "confidence": 0.97,
+      "reason": "提出gPlace系统发育放置工具，属宏基因组分析软件/算法贡献。",
+      "flags": [
+        "weak_method"
+      ],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [
+          "tree",
+          "trees"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "2ce890ede387d15b",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.1101/2024.10.15.618589": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "小鼠模型研究肠道菌群代谢物调控肠神经元恢复，涉及人体微生态与疾病机制。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "adult",
+          "gnotobiotic",
+          "murine"
+        ],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "505f19864f570d79",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.04.01.715873": {
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "进化生物学理论模型研究，虽用大肠杆菌宏基因组数据但无医学或工具贡献。",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environment"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "bbf61be4af54533f",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.09.20.747267": {
+      "category": "medical",
+      "confidence": 0.8,
+      "reason": "使用健康人粪便样本研究肠道病毒组与生物膜，属人体微生态研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "fecal",
+          "gut microb\\w*",
+          "human"
+        ],
+        "human_title": [
+          "fecal"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "ferment\\w*"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "3d1167b16805fcc1",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.04.29.26351683": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "临床样本中生殖支原体测序与耐药检测，属临床病原研究。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "human"
+        ],
+        "human_title": [
+          "clinical"
+        ],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance",
+          "method",
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c1303b508c91584c",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.26368566": {
+      "category": "medical",
+      "confidence": 0.97,
+      "reason": "脓毒症患者生存的全基因组关联研究，属人类临床遗传学。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cohort",
+          "icu",
+          "patients",
+          "sepsis"
+        ],
+        "human_title": [
+          "patients",
+          "sepsis"
+        ],
+        "method": [
+          "method"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "0a51a58b4cc37a6e",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.26368907": {
+      "category": "medical",
+      "confidence": 0.75,
+      "reason": "街头食品微生物污染与耐药调查，涉及食品安全与公共卫生健康风险。",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "amr\\b",
+          "antimicrobial resistance"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": [
+          "food"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "719f6b3c80451378",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.25.769263": {
+      "category": "medical",
+      "confidence": 0.85,
+      "reason": "研究大肠杆菌抗生素耐药进化，属临床耐药相关基础研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "antibiotic resistance"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "2661250e9732e144",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.25.769220": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "植物病原真菌基因组组装，农业相关，无人类医学或新方法贡献",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "genome assembly",
+          "resource"
+        ],
+        "method_title": [
+          "genome assembly"
+        ],
+        "strong_title": [],
+        "strong_body": [
+          "agricultur\\w*",
+          "crops",
+          "plant"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "d4605905219ee618",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.25.769087": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "肺腺癌患者单细胞数据与肿瘤进展研究，属人类临床肿瘤",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "patient",
+          "patients",
+          "tumou?r"
+        ],
+        "human_title": [],
+        "method": [
+          "framework"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "8e6f6f2501042648",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.769059": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "小鼠结直肠癌模型，肠道菌群增强PD-1免疫治疗，属疾病动物模型",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "colorectal",
+          "fecal",
+          "gut microb\\w*",
+          "immunotherapy",
+          "mouse",
+          "serum",
+          "tumou?r"
+        ],
+        "human_title": [
+          "cancer",
+          "colorectal",
+          "immunotherapy",
+          "mouse"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "c8f58d3706c5f93b",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.25.769135": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "致病性大肠杆菌囊泡破坏肠上皮屏障，属人体肠道感染机制研究",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "colitis",
+          "mice"
+        ],
+        "human_title": [],
+        "method": [
+          "plasmid"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e53be2b46466fbd8",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768836": {
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "小麦转座子与同源基因表达研究，属植物/农业",
+      "flags": [],
+      "decision": "exclude",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [
+          "genome assembly"
+        ],
+        "method_title": [],
+        "strong_title": [
+          "bread",
+          "wheat"
+        ],
+        "strong_body": [
+          "bread",
+          "leaf",
+          "wheat"
+        ],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "e7284dda482f67b2",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.23.767945": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "小鼠结肠炎及结肠癌模型，肠道菌群机制，属疾病动物模型",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "cancer",
+          "colitis",
+          "colorectal",
+          "gut microb\\w*",
+          "ibd",
+          "mice",
+          "tumou?r"
+        ],
+        "human_title": [
+          "colitis"
+        ],
+        "method": [
+          "methods"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "21fc3309110f51c1",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.26.769370": {
+      "category": "medical",
+      "confidence": 0.95,
+      "reason": "百日咳mRNA疫苗及耐药临床分离株保护研究，属人类疫苗/临床病原",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "maternal",
+          "mice"
+        ],
+        "human_title": [],
+        "method": [
+          "antimicrobial resistance"
+        ],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "df9d5e9aa0e2e0c8",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.10.05.756759": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "人类临床试验粪便样本，肠道菌群代谢castalagin与代谢疾病",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "clinical",
+          "fecal",
+          "gut microb\\w*",
+          "human",
+          "patient"
+        ],
+        "human_title": [
+          "clinical",
+          "human"
+        ],
+        "method": [],
+        "method_title": [],
+        "strong_title": [],
+        "strong_body": [],
+        "weak_body": []
+      },
+      "method": "llm",
+      "title_hash": "afe54ff2e3563310",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.25.769124": {
+      "category": "medical",
+      "confidence": 0.9,
+      "reason": "马拉维儿童血吸虫病病例对照肠道菌群研究，属人类队列",
+      "flags": [],
+      "decision": "keep",
+      "signals": {
+        "human": [
+          "children",
+          "faecal",
+          "gut microb\\w*",
+          "participants"
+        ],
+        "human_title": [
+          "children",
+          "gut microb\\w*"
+        ],
+        "method": [
+          "antimicrobial resistance",
+          "strain-resolved"
+        ],
+        "method_title": [
+          "strain-resolved"
+        ],
+        "strong_title": [],
+        "strong_body": [
+          "livestock"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "method": "llm",
+      "title_hash": "a419cec822a16ecf",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "deepseek-chat"
+    },
+    "doi:10.64898/2026.11.24.768966": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: bees",
+      "flags": [],
+      "decision": "exclude",
+      "method": "rule",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "bees"
+        ],
+        "strong_body": [
+          "bee",
+          "bees"
+        ],
+        "weak_body": [
+          "environmental"
+        ]
+      },
+      "title_hash": "498da2257f778a34",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "rule"
+    },
+    "doi:10.64898/2026.11.25.767842": {
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: marine",
+      "flags": [],
+      "decision": "exclude",
+      "method": "rule",
+      "signals": {
+        "human": [],
+        "human_title": [],
+        "method": [],
+        "method_title": [],
+        "strong_title": [
+          "marine"
+        ],
+        "strong_body": [
+          "ecosystem",
+          "marine",
+          "ocean"
+        ],
+        "weak_body": [
+          "ecolog\\w*",
+          "environmental"
+        ]
+      },
+      "title_hash": "2149261ff80d87ab",
+      "classified_at": "2026-11-27",
+      "prompt_version": "scope-v1",
+      "model": "rule"
     }
   },
-  "updated": "2026-11-26"
+  "updated": "2026-11-27"
 }

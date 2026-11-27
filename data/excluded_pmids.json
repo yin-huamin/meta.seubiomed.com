@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "items": {
     "pmid:24926861": {
       "uid": "pmid:24926861",
@@ -16563,6 +16563,104 @@
       "method": "llm",
       "date": "2026-11-26",
       "source": "biorxiv"
+    },
+    "doi:10.1038/s41467-026-79503-8": {
+      "uid": "doi:10.1038/s41467-026-79503-8",
+      "pmid": "",
+      "doi": "10.1038/s41467-026-79503-8",
+      "title": "A noncanonical reducing-domain architecture defines a distinct class of modular polyketide synthases",
+      "journal": "Nature Communications",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.7,
+      "reason": "大肠杆菌素聚酮合酶结构机制研究，非人类医学或组学工具贡献",
+      "method": "llm",
+      "date": "2026-11-27",
+      "source": "openalex"
+    },
+    "doi:10.64898/2026.04.01.715873": {
+      "uid": "doi:10.64898/2026.04.01.715873",
+      "pmid": "",
+      "doi": "10.64898/2026.04.01.715873",
+      "title": "Module-selection balance in the evolution of modular organisms",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.85,
+      "reason": "进化生物学理论模型研究，虽用大肠杆菌宏基因组数据但无医学或工具贡献。",
+      "method": "llm",
+      "date": "2026-11-27",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.24.768836": {
+      "uid": "doi:10.64898/2026.11.24.768836",
+      "pmid": "",
+      "doi": "10.64898/2026.11.24.768836",
+      "title": "Cultivar-specific transposable element insertions are associated with both suppression and dominance of homoeolog expression in bread wheat",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.95,
+      "reason": "小麦转座子与同源基因表达研究，属植物/农业",
+      "method": "llm",
+      "date": "2026-11-27",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.24.768966": {
+      "uid": "doi:10.64898/2026.11.24.768966",
+      "pmid": "",
+      "doi": "10.64898/2026.11.24.768966",
+      "title": "Out of the wild: lab-reared bumble bees lack environmental bacteria and fungi",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: bees",
+      "method": "rule",
+      "date": "2026-11-27",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.25.767842": {
+      "uid": "doi:10.64898/2026.11.25.767842",
+      "pmid": "",
+      "doi": "10.64898/2026.11.25.767842",
+      "title": "Reconciling multiple views of global marine plankton diversity",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "标题命中非医学主题: marine",
+      "method": "rule",
+      "date": "2026-11-27",
+      "source": "biorxiv"
+    },
+    "doi:10.64898/2026.11.25.769220": {
+      "uid": "doi:10.64898/2026.11.25.769220",
+      "pmid": "",
+      "doi": "10.64898/2026.11.25.769220",
+      "title": "Chromosome-scale genome assembly of multinucleate heterokaryotic Rhizoctonia solani AG1-IB",
+      "journal": "bioRxiv",
+      "pub_date": "2026-11-26",
+      "category": "non_medical",
+      "confidence": 0.9,
+      "reason": "植物病原真菌基因组组装，农业相关，无人类医学或新方法贡献",
+      "method": "llm",
+      "date": "2026-11-27",
+      "source": "biorxiv"
+    },
+    "pmid:43086402": {
+      "uid": "pmid:43086402",
+      "pmid": "43086402",
+      "doi": "10.1038/s41564-026-02545-7",
+      "title": "Sources and drivers of antibiotic resistance genes across rivers and lakes",
+      "journal": "Nature microbiology",
+      "pub_date": "2026-11-25",
+      "category": "non_medical",
+      "confidence": 0.75,
+      "reason": "河流湖泊环境耐药基因监测，虽提及临床ARG但属环境研究，未提出新工具",
+      "method": "llm",
+      "date": "2026-11-27",
+      "source": "europepmc"
     }
   }
 }

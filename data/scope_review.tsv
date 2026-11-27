@@ -4065,3 +4065,11 @@ doi:10.64898/2026.11.24.768850		exclude	non_medical	0.95		Effective Fungal SynCo
 doi:10.64898/2026.11.24.768926		exclude	non_medical	0.60	low_confidence	Phage integrons are vaults of privatized counterdefense genes	bioRxiv	噬菌体整合子与抗防御基因的纯基础微生物进化研究，无医学或工具贡献
 doi:10.64898/2026.11.24.769019		exclude	non_medical	0.90		Paraburkholderia endosymbionts with streamlined genomes are disadvantaged during interspecific competition	bioRxiv	盘基网柄菌内共生菌竞争能力研究，属基础生态进化
 pmid:39574575	39574575	keep	bioinformatics_method	0.95	weak_method	Evaluating metagenomic analyses for undercharacterized environments	Genome biology	系统评估多种宏基因组分类与拼装分析方法的基准研究。
+doi:10.1038/s41467-026-79503-8		exclude	non_medical	0.70		A noncanonical reducing-domain architecture defines a distinct class of modular polyketide synthases	Nature Communications	大肠杆菌素聚酮合酶结构机制研究，非人类医学或组学工具贡献
+doi:10.64898/2026.04.01.715873		exclude	non_medical	0.85		Module-selection balance in the evolution of modular organisms	bioRxiv	进化生物学理论模型研究，虽用大肠杆菌宏基因组数据但无医学或工具贡献。
+doi:10.64898/2026.11.23.768714		keep	bioinformatics_method	0.97	weak_method	gPlace: fast, memory-bounded phylogenetic placement with results identical to pplacer	bioRxiv	提出gPlace系统发育放置工具，属宏基因组分析软件/算法贡献。
+doi:10.64898/2026.11.24.768836		exclude	non_medical	0.95		Cultivar-specific transposable element insertions are associated with both suppression and dominance of homoeolog expression in bread wheat	bioRxiv	小麦转座子与同源基因表达研究，属植物/农业
+doi:10.64898/2026.11.24.768966		exclude	non_medical	0.90		Out of the wild: lab-reared bumble bees lack environmental bacteria and fungi	bioRxiv	标题命中非医学主题: bees
+doi:10.64898/2026.11.25.767842		exclude	non_medical	0.90		Reconciling multiple views of global marine plankton diversity	bioRxiv	标题命中非医学主题: marine
+doi:10.64898/2026.11.25.769220		exclude	non_medical	0.90		Chromosome-scale genome assembly of multinucleate heterokaryotic Rhizoctonia solani AG1-IB	bioRxiv	植物病原真菌基因组组装，农业相关，无人类医学或新方法贡献
+pmid:43086402	43086402	exclude	non_medical	0.75		Sources and drivers of antibiotic resistance genes across rivers and lakes	Nature microbiology	河流湖泊环境耐药基因监测，虽提及临床ARG但属环境研究，未提出新工具
