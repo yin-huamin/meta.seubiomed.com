@@ -4073,3 +4073,15 @@ doi:10.64898/2026.11.24.768966		exclude	non_medical	0.90		Out of the wild: lab-r
 doi:10.64898/2026.11.25.767842		exclude	non_medical	0.90		Reconciling multiple views of global marine plankton diversity	bioRxiv	标题命中非医学主题: marine
 doi:10.64898/2026.11.25.769220		exclude	non_medical	0.90		Chromosome-scale genome assembly of multinucleate heterokaryotic Rhizoctonia solani AG1-IB	bioRxiv	植物病原真菌基因组组装，农业相关，无人类医学或新方法贡献
 pmid:43086402	43086402	exclude	non_medical	0.75		Sources and drivers of antibiotic resistance genes across rivers and lakes	Nature microbiology	河流湖泊环境耐药基因监测，虽提及临床ARG但属环境研究，未提出新工具
+doi:10.1186/s13059-026-04363-w		keep	bioinformatics_method	0.95	weak_method	PFPTok enables efficient long-context genomic sequence modeling	Genome biology	提出基因组分词工具PFPTok，属生物信息学方法
+doi:10.64898/2026.11.22.768079		keep	bioinformatics_method	0.85	weak_method	TW-GMProt: Trust-Weighted Semi-Supervised Gated Modulation Protein Language Model for Antimicrobial Peptide Activity Prediction	bioRxiv	提出抗菌肽活性预测新模型工具，属生物信息学方法
+doi:10.64898/2026.11.25.768430		exclude	non_medical	0.95		Comparative Metagenomic Analysis of Chondrosia and Chondrilla Sponge Microbiomes Reveals Distinct Symbiotic Communities, Functional Potentia	bioRxiv	海绵共生微生物比较宏基因组，纯生态研究，无人类医学或新方法贡献
+doi:10.64898/2026.11.25.768829		exclude	non_medical	0.90		Biodiversity turnover in coastal marine eukaryotic plankton revealed by a 20-year metabarcoding time series	bioRxiv	标题命中非医学主题: biodiversity, marine
+doi:10.64898/2026.11.25.769309		exclude	non_medical	0.85		Fundamental limits on fluorescence lifetime estimation using optical gating	bioRxiv	荧光寿命成像方法学研究，非宏基因组/微生物组工具，也非人类医学
+doi:10.64898/2026.11.26.769249		exclude	non_medical	0.90		From Substrate to Short Chain Fatty Acids: An In Vitro Investigation of Bacterial Dynamics in the Porcine Colon using the Modified Hohenheim	bioRxiv	猪结肠体外发酵研究，属兽医/畜牧，无人类医学或新方法贡献。
+doi:10.64898/2026.11.26.769407		exclude	non_medical	0.90		Viral-bacterial arms race in the marine sponge Halichondria panicea	bioRxiv	标题命中非医学主题: marine
+doi:10.64898/2026.11.26.769504		exclude	non_medical	0.95		The genome sequence of the reef-building coral Cyphastrea microphthalma from the Persian/Arabian Gulf	bioRxiv	珊瑚基因组组装，属海洋生态研究，无医学或方法学贡献。
+doi:10.64898/2026.11.26.769559		keep	bioinformatics_method	0.95	method_anchor_override	Chromosome-level genome assembly of the hydrozoan jellyfish Cladonema pacificum	bioRxiv	水母模式生物基因组组装，非人类医学且非宏基因组工具 | rule: method title anchor
+doi:10.64898/2026.11.27.769811		exclude	non_medical	0.90		Bellinger River Virus 2: The Emergence of a Second Novel Pathogenic Nidovirus in Bellinger River Snapping Turtles (Myuchelys georgesi)	bioRxiv	标题命中非医学主题: river
+pmid:42282812	42282812	keep	medical	0.70	human_anchor_override	Identification and functional characterization of bacterial bilirubin vinyl reductase across vertebrate gut microbiomes	Nature Communications	胆红素还原酶鉴定与跨脊椎动物比较，偏基础生态，无医学或工具贡献 | rule: human title anchor
+pmid:43099776	43099776	exclude	non_medical	0.85		The bile acid-microbiome-immunity axis in dogs: bile salt hydrolases at the interface of microbial metabolism and intestinal homeostasis	Gut microbes	犬类胆汁酸-微生物组研究，属兽医范畴

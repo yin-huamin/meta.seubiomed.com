@@ -1,0 +1,813 @@
+[
+  {
+    "uid": "pmid:43104274",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43104274/",
+    "pmid": "43104274",
+    "title": "NOD2-guided discovery of Lacticaseibacillus rhamnosus CALM 607 as a functional probiotic with immunomodulatory potential.",
+    "doi": "10.1007/s12602-026-11314-1",
+    "journal": "Probiotics and antimicrobial proteins",
+    "issn": "1867-1314",
+    "journal_issn": "1867-1314",
+    "pub_date": "2026-11-28",
+    "authors": "Huang Zhenhe; Zhong Dian; Liao Weizuo; Nie Jinglan; Hu Mengyao et al.",
+    "abstract": "Probiotics represent a potential adjunctive strategy to improve responses to immune checkpoint inhibitors (ICIs) in colorectal cancer. However, current candidate selection based on species-level associations may overlook strain-level functional heterogeneity. In this study, we applied NOD2 activation as a host functional readout to identify probiotic strains capable of generating host-recognizable peptidoglycan signals. A screen of 50 healthy human-derived lactic acid bacterial strains from species permitted for food use in China identified Lacticaseibacillus rhamnosus CALM 607 (LR607) as a strong NOD2-activating candidate. Variation in the bifunctional peptidoglycan hydrolase LPH may contribute to the NOD2-activating phenotype of LR607. In a first-in-human pilot study, oral LR607 increased fecal NOD2 activity by approximately 3.5-fold after two weeks and showed favorable tolerability, with no serious adverse events or substantial changes in gut microbiota composition. In preclinical microsatellite-stable (MSS) colorectal cancer models, LR607 increased antitumor immune activity associated with anti-PD-L1 treatment in a NOD2-dependent manner. Microbiota with high NOD2 activity induced similar immunomodulatory effects after fecal microbiota transplantation. These findings support LR607 as a functionally selected probiotic candidate with immunomodulatory potential and highlight NOD2 activity-guided screening as a strategy for functional probiotic discovery.Trial registration: ClinicalTrials.gov, NCT06716047, registered on October 14, 2024.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [],
+    "keywords": [
+      "Lacticaseibacillus rhamnosus",
+      "Colorectal cancer",
+      "Functional probiotics",
+      "Immune checkpoint inhibitors",
+      "Lactic acid bacteria",
+      "NOD2 activation"
+    ],
+    "summary_zh": "研究以NOD2激活筛选益生菌，发现LR607可增强抗PD-L1免疫并具免疫调节潜力。",
+    "innovation": "以NOD2激活作为宿主功能读出筛选益生菌菌株，关注菌株水平功能异质性 | 发现LR607具强NOD2激活作用，首次人体试验中口服两周使粪便NOD2活性提高约3.5倍 | 在MSS结直肠癌模型中显示LR607以NOD2依赖方式增强抗PD-L1抗肿瘤免疫",
+    "limitation": "首次人体研究为试点研究（pilot），样本量未明确 | LPH对NOD2激活表型的贡献仅为“可能”，未明确因果关系",
+    "study_object": "健康人源乳酸菌菌株与结直肠癌模型；粪便样本；NOD2激活筛选及体内外功能实验",
+    "disease": "结直肠癌（微卫星稳定型）",
+    "sample_size": "50株健康人源乳酸菌",
+    "ai_done": true,
+    "fetch_date": "2026-11-28"
+  },
+  {
+    "uid": "pmid:43104776",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43104776/",
+    "pmid": "43104776",
+    "title": "Oral microorganism-mediated immune responses: implications for inflammatory bowel disease.",
+    "doi": "10.1080/1040841x.2026.2766148",
+    "journal": "Critical reviews in microbiology",
+    "issn": "1549-7828",
+    "journal_issn": "1549-7828",
+    "pub_date": "2026-11-28",
+    "authors": "Zhou Xinyi; Yu Jindan; Shen Xiaoting; Lei Xiaoyue; Zhang Yi et al.",
+    "abstract": "Inflammatory bowel disease (IBD) is a chronic, nonspecific inflammatory disorder of the gastrointestinal tract. Oral microorganisms have emerged as important contributors to the progression of IBD, and the immune responses triggered by these microorganisms appear to represent a core pathogenic mechanism. In this review, we integrate evidence from clinical and experimental studies demonstrating oral microbiome dysbiosis and the ectopic colonization of oral microorganisms in the intestine in IBD. We also highlight the fact that oral microorganisms can activate innate and adaptive intestinal immune responses by disrupting homeostasis of the gut microbiome, impairing the intestinal epithelial barrier, promoting neutrophil activation and macrophage polarization, activating pattern-recognition receptors and inflammasomes, and driving the pro-inflammatory differentiation of T cells, thereby exacerbating intestinal inflammation in IBD. Finally, we propose the potential utility of oral microbiome alterations as noninvasive biomarkers for IBD diagnosis and suggest that oral microorganism-based therapeutic strategies may contribute to IBD management. This review provides insights into disease mechanisms and potential preventive and therapeutic strategies for IBD.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [],
+    "keywords": [
+      "Oral microbiome",
+      "gut microbiome",
+      "immune response",
+      "inflammatory bowel disease"
+    ],
+    "summary_zh": "综述整合临床与实验证据，阐述口腔微生物失调及异位定植通过破坏肠道菌群稳态、损伤上皮屏障、激活免疫细胞与炎症小体等加剧IBD，并提出诊断与治疗潜力。",
+    "innovation": "系统整合口腔微生物失调与肠道异位定植参与IBD的证据，提出其触发的免疫反应为核心致病机制 | 提出口腔微生物组改变可作为IBD无创诊断生物标志物 | 提出基于口腔微生物的治疗策略用于IBD管理",
+    "limitation": "为综述性文章，未提供原始实验数据",
+    "study_object": "人体（IBD患者）与实验模型 + 口腔微生物组及肠道样本（临床与实验研究证据） + 文献综述整合分析",
+    "disease": "炎症性肠病（IBD）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-28"
+  },
+  {
+    "uid": "pmid:42869126",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42869126/",
+    "pmid": "42869126",
+    "title": "SPP1+ TAMs drive colorectal tumorigenesis through an ARG2-orchestrated metabolic-immune crosstalk.",
+    "doi": "10.1016/j.canlet.2026.218890",
+    "journal": "Cancer letters",
+    "issn": "1872-7980",
+    "journal_issn": "1872-7980",
+    "pub_date": "2026-11-28",
+    "authors": "Song Linhong; Yan Tingting; Lu Shi-Yuan; Tong Tianying; Wang Zhenyu et al.",
+    "abstract": "Rising incidence of colorectal cancer (CRC) and limited therapeutic options highlight the urgent need to define the drivers of its progression. The SPP1+ tumor-associated macrophage (TAM) subset identified by single-cell transcriptomics is a functionally dominant population that extends beyond the classical M1/M2 paradigm. Here, we dissected the molecular mechanisms by which SPP1+ TAMs reprogram tumor progression and determined whether the gut microbiota regulates this process in colorectal cancer. Using a multi-platform strategy integrating clinical specimens, murine models and CRC cell lines, we found that SPP1+ TAMs increase progressively during CRC evolution and exhibit crosstalk with malignant epithelial cells, and their abundance is associated with adverse clinical outcome. Integrative analysis reveals a significant positive correlation between SPP1 and ARG2 expression. Further, TAM-derived SPP1 engages CD44 on CRC cells to induce ARG2 expression. Mechanistically, ARG2 facilitates the interaction between USP10 and c-Myc to deubiquitinate and stabilize c-Myc, which transactivates the glycolytic enzyme HK2, driving Warburg metabolism that fuels CRC cell proliferation. Moreover, ARG2 secreted by CRC cells is internalized by TAMs, which reciprocally upregulates SPP1, creating a feed-forward loop that drives a pro-tumorigenic microenvironment. Notably, Bifidobacterium longum downregulates CD44 expression on tumor cells, thereby disrupting the SPP1-ARG2 axis and attenuating CRC progression. These findings identify the SPP1-ARG2 circuit as a therapeutic target and propose B. longum as a microbiome-derived precision adjuvant therapy for CRC suppression.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "mesh_terms": [
+      "Humans",
+      "Colorectal Neoplasms",
+      "Animals",
+      "Mice",
+      "Osteopontin",
+      "Tumor-Associated Macrophages",
+      "Arginase",
+      "Carcinogenesis",
+      "Cell Line, Tumor",
+      "Tumor Microenvironment",
+      "Cell Proliferation",
+      "Gene Expression Regulation, Neoplastic",
+      "Female",
+      "Metabolic Reprogramming",
+      "Gastrointestinal Microbiome"
+    ],
+    "keywords": [
+      "Arginase-2",
+      "Bifidobacterium longum",
+      "Colorectal cancer",
+      "SPP1",
+      "Tumor-associated macrophages"
+    ],
+    "summary_zh": "研究SPP1+ TAM经ARG2串扰驱动结直肠癌的机制及菌群调控，整合临床、小鼠和细胞模型，揭示SPP1-ARG2环路并提出长双歧杆菌辅助治疗。",
+    "innovation": "揭示SPP1+ TAM与CRC细胞经SPP1-CD44-ARG2-c-Myc-HK2形成代谢免疫正反馈环路 | 发现CRC来源ARG2被TAM内化并反向上调SPP1 | 提出长双歧杆菌通过下调CD44破坏SPP1-ARG2轴作为微生物来源辅助治疗",
+    "limitation": "未描述",
+    "study_object": "人结直肠癌临床标本、小鼠模型和CRC细胞系；SPP1+ TAM、肿瘤细胞及肠道菌群；多平台整合（含单细胞转录组）",
+    "disease": "结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-28"
+  },
+  {
+    "uid": "pmid:42838218",
+    "source": "pubmed",
+    "is_preprint": false,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838218/",
+    "pmid": "42838218",
+    "title": "Deciphering the metastatic nexus: Molecular drivers and therapeutic frontiers in cholangiocarcinoma lymph node dissemination.",
+    "doi": "10.1016/j.canlet.2026.218881",
+    "journal": "Cancer letters",
+    "issn": "1872-7980",
+    "journal_issn": "1872-7980",
+    "pub_date": "2026-11-28",
+    "authors": "Lin Ming-Yu; Zhang Tao; Wang Liang; Wang Qi; Wang Si-Yuan et al.",
+    "abstract": "Lymph node metastasis (LNM) is a major determinant of staging and outcome in cholangiocarcinoma (CCA), yet its mechanisms, biomarkers, anatomical heterogeneity, and treatment evidence remain insufficiently integrated. This review develops an LNM-centered framework in which lymphatic invasion, lymphangiogenesis, genomic alterations and metabolic reprogramming, and reciprocal tumor microenvironment remodeling interact to shape CCA LNM by enabling lymphatic entry, dissemination, immune evasion, tumor-cell survival, and nodal colonization. A subtype-aware synthesis distinguishes small-duct-type and large-duct-type intrahepatic CCA, positions the latter as a biological bridge to perihilar and distal CCA, and maps subtype-associated lymphangiogenic, matrix-remodeling, metabolic, stromal, and immune programs. Translationally, serum ANGPTL4 and exosomal TTN-AS1 are prioritized as candidate adjuncts to preoperative radiologic nodal assessment and CA19-9, whereas tissue ITGB6 represents a comparatively well-characterized candidate for postoperative or biopsy-integrated LNM risk assessment. For node-positive CCA requiring systemic therapy, PD-1/PD-L1 blockade plus gemcitabine-cisplatin provides the first-line backbone. Additional opportunities include intensified chemoimmunotherapy and antiangiogenic combinations, postoperative and locoregional multimodal treatment, genotype-directed or cellular therapies, and mechanism-informed targeting of chemoresistance, oncogenic and lymphangiogenic signaling, stromal and immune niches, and metabolic adaptation. Epigenetic circuitry and post-transcriptional regulation represent emerging regulatory layers, while microbiome-immune interactions provide testable hypotheses for LNM. We propose spatial multi-omics across paired primary tumors, pathologically negative tumor-draining nodes, and metastatic nodes, integrated with pathology-validated liquid biopsy, to identify where metastatic competence emerges and how nodal niches are conditioned. Together, this mechanism-to-clinic synthesis provides a subtype-aware roadmap for biomarker validation, LNM-specific endpoints, and rational therapeutic intervention.",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ],
+    "article_type": "综述",
+    "mesh_terms": [
+      "Humans",
+      "Cholangiocarcinoma",
+      "Lymphatic Metastasis",
+      "Bile Duct Neoplasms",
+      "Tumor Microenvironment",
+      "Biomarkers, Tumor",
+      "Animals",
+      "Lymph Nodes",
+      "Lymphangiogenesis"
+    ],
+    "keywords": [
+      "Cholangiocarcinoma",
+      "Emerging therapy",
+      "Lymph node metastasis",
+      "Molecular mechanism",
+      "Tumor microenvironment"
+    ],
+    "summary_zh": "综述提出以淋巴转移为中心的胆管癌机制框架，整合亚型、生物标志物与治疗证据，并提出空间多组学验证路线。",
+    "innovation": "以淋巴转移为中心构建胆管癌机制框架 | 按小胆管型与大胆管型肝内胆管癌进行亚型感知整合，并将大胆管型定位为通往肝门部和远端胆管癌的生物学桥梁 | 提出配对原发瘤、病理阴性引流淋巴结和转移淋巴结的空间多组学联合液体活检研究路线",
+    "limitation": "为综述，未提供原始研究数据 | 淋巴转移机制、生物标志物、解剖异质性和治疗证据仍整合不足",
+    "study_object": "胆管癌淋巴转移（综述；原发瘤、引流淋巴结、转移淋巴结及液体活检；空间多组学）",
+    "disease": "胆管癌（淋巴转移）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "fetch_date": "2026-11-28"
+  },
+  {
+    "uid": "pmid:43102032",
+    "source": "europepmc",
+    "pmid": "43102032",
+    "doi": "10.1080/19490976.2026.2769712",
+    "title": "Targeting gut microbiota-derived endogenous ethanol production: a novel therapeutic strategy for chronic liver disease",
+    "journal": "Gut microbes",
+    "issn": "1949-0976",
+    "journal_issn": "1949-0976",
+    "pub_date": "2026-11-27",
+    "authors": "Jiang Z; Huang Y; Han Z; Yang M.",
+    "abstract": "Endogenous ethanol produced by the gut microbiota may be a pathogenic factor in chronic liver disease (CLD), although its causal role in humans remains inconclusive. This review synthesizes evidence regarding its microbial sources and production, host exposure and metabolism, mechanisms of liver injury, and clinical translation, while distinguishing direct research findings from inferences based on exogenous ethanol models. Both bacteria and fungi can produce ethanol, and exposure levels are jointly determined by microbial strains, substrate availability, and host clearance capacity. Auto-brewery syndrome (ABS) demonstrates that, in certain individuals, microbially produced ethanol can reach clinically detectable levels. Human studies of metabolic dysfunction-associated steatotic liver disease (MASLD) have confirmed exposure to gut-derived ethanol and its association with disease characteristics, however, whether ethanol acts as a causative or driving factor in this disease remains unclear. Experimental models suggest that high-ethanol-producing <i>Klebsiella pneumoniae</i> (HiAlc Kpn) is associated with steatosis and mitochondrial damage, although other bacterial products may also contribute. Barrier dysfunction, oxidative stress, metabolic alterations, and immune signaling are considered potential mechanisms, but these have not yet been integrated into a causal pathway in human liver disease. Currently, no validated diagnostic methods are available for endogenous ethanol-associated liver disease. Interventions range from case-based management of ABS to preclinical approaches involving bacteriophages and engineered microorganisms; however, none have been demonstrated to effectively reduce endogenous ethanol levels or improve MASLD outcomes. In summary, microbial ethanol is clinically relevant in ABS and may be one of the factors contributing to disease in certain experimental models; however, it has not yet been identified as a definitive cause of chronic liver disease in humans.",
+    "pub_types": [
+      "Review",
+      "Journal Article"
+    ],
+    "article_type": "综述",
+    "keywords": [
+      "Targeted Therapy",
+      "Gut Microbiota",
+      "Gut–liver Axis",
+      "Endogenous Ethanol",
+      "Masld"
+    ],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "本综述整合证据评估肠道菌群来源内源性乙醇与慢性肝病的关系，指出其在ABS和部分模型中相关，但人类因果性未定。",
+    "innovation": "系统整合微生物乙醇来源、宿主暴露与代谢、肝损伤机制及临床转化证据 | 明确区分直接研究证据与基于外源性乙醇模型的推断",
+    "limitation": "内源性乙醇在人类慢性肝病中的因果作用仍不确定 | 机制尚未在人类肝病中整合为因果通路，且缺乏经验证的诊断方法",
+    "study_object": "人类宿主与肠道微生物群 + 未明确样本类型 + 文献综述",
+    "disease": "慢性肝病、代谢功能障碍相关脂肪性肝病、自身酿酒综合征",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43102032/",
+    "topic_hits": [
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "pmid:42848938",
+    "source": "europepmc",
+    "pmid": "42848938",
+    "doi": "10.1126/science.aee9284",
+    "title": "Nutritional interventions' impacts on human milk: Three trials in low-resource settings",
+    "journal": "Science (New York, N.Y.)",
+    "issn": "0036-8075",
+    "journal_issn": "0036-8075",
+    "pub_date": "2026-11-26",
+    "authors": "Dailey-Chwalibóg T; Mertens A; Fehr K; Shu CH; Jauhal A et al.",
+    "abstract": "Human milk (HM) composition is variable to support changing infant needs and is influenced by maternal diet and health. We harmonized HM data from three randomized trials in Burkina Faso (MISAME-III), Pakistan (Mumta-LW), and Tanzania (ELICIT) within the International Milk Composition (IMiC) Consortium to test how maternal nutrition affects HM composition. Balanced energy-protein (BEP) supplements or nicotinamide given to lactating mothers increased milk B vitamins, whereas macronutrients, oligosaccharides, bioactive proteins, and microbiome composition were physiologically buffered. Metabolomic and proteomic analyses revealed shifts in vitamin-related metabolites, triglyceride profiles, and intracellular protein representation. In a MISAME-III subset, maternal and infant blood showed concordant changes. Postnatal BEP improved infant growth only in the more undernourished cohort. Improved milk micronutrient quality across settings supports extending maternal supplementation into lactation.",
+    "pub_types": [
+      "Randomized Controlled Trial",
+      "Journal Article"
+    ],
+    "article_type": "临床试验",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "协调三项低资源地区随机试验人乳数据，检验母体营养对人乳组成的影响，发现补充提高B族维生素而宏量营养素受缓冲。",
+    "innovation": "跨布基纳法索、巴基斯坦和坦桑尼亚协调三项随机试验的人乳数据 | 结合代谢组学与蛋白质组学分析揭示维生素相关代谢物、甘油三酯谱和细胞内蛋白变化",
+    "limitation": "未描述",
+    "study_object": "低资源地区哺乳期母亲及婴儿 | 人乳 | 随机对照试验、代谢组学与蛋白质组学",
+    "disease": "营养不良",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42848938/",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "pmid:42282812",
+    "source": "openalex",
+    "pmid": "42282812",
+    "doi": "10.1038/s41467-026-79675-3",
+    "title": "Identification and functional characterization of bacterial bilirubin vinyl reductase across vertebrate gut microbiomes",
+    "journal": "Nature Communications",
+    "issn": "2041-1723",
+    "journal_issn": "2041-1723",
+    "pub_date": "2026-11-27",
+    "authors": "Angela K Jiang; Maggie R. Grant; Gabriela Arp; Keith Dufault‐Thompson; Alexandra M. Clarke et al.",
+    "abstract": "Gut bacteria reduce bilirubin to urobilinogen, allowing it to be excreted through feces and urine, but studies have long noted a heterogeneous mixture of partially reduced bilirubin-derived intermediates, suggesting that multiple enzymes are involved. Here we identify bilirubin vinyl reductase (BilV), an Old Yellow Enzyme family reductase encoded in the genomic neighborhood of the known bilirubin reductase (bilR). Using heterologous expression and LC–MS/MS, we show that BilR acts on the methine bridges in the bilirubin reduction pathway; co-expression with BilV enables vinyl-group reduction and complete conversion to urobilinogen. In bacterial genomes, bilV co-occurs primarily with the bilR -insertion subtype and is largely absent alongside bilR -short. Analysis of 1,197 gut metagenomes across 14 vertebrate species reveals that this differential co-occurrence shapes pathway availability across hosts: carnivores and omnivores carry balanced bilR and bilV, whereas avian microbiomes, dominated by bilR -short, are depleted for bilV. These findings establish that bilirubin reduction to urobilinogen involves two enzymes with complementary regioselectivity, revising the previous model, and that their distribution across vertebrate gut microbiomes varies in relation to host bile pigment chemistry.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "鉴定BilV并分析1,197份脊椎动物肠道宏基因组，揭示其与BilR协同还原胆红素且宿主分布不同。",
+    "innovation": "发现Old Yellow Enzyme家族新酶BilV，与BilR互补区域选择性实现胆红素向尿胆素原的完全转化 | 揭示bilV与bilR插入亚型共现，并在1,197份、14种脊椎动物肠道宏基因组中呈现宿主相关分布",
+    "limitation": "未描述",
+    "study_object": "脊椎动物肠道微生物组（14种）与细菌基因组；异源表达、LC–MS/MS和宏基因组分析",
+    "disease": "无",
+    "sample_size": "n=1,197份肠道宏基因组（14种脊椎动物）",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42282812/",
+    "topic_hits": [
+      "metagenom\\w*",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "pmid:41278620",
+    "source": "openalex",
+    "pmid": "41278620",
+    "doi": "10.1038/s41467-026-78959-y",
+    "title": "Expanding antimicrobial chemical space by engineering drug safety",
+    "journal": "Nature Communications",
+    "issn": "2041-1723",
+    "journal_issn": "2041-1723",
+    "pub_date": "2026-11-27",
+    "authors": "Tahoura S. Samad; Chayanon Ngambenjawong; Henry Ko; Savan K. Patel; Cristiana DeAgazio et al.",
+    "abstract": "Antimicrobial-resistant (AMR) infections are a major health threat. Although advances in high-throughput screening, genome mining, and machine learning have accelerated antimicrobial discovery, insufficient separation between antibacterial efficacy and host toxicity remains a bottleneck to the clinical development of new antimicrobial compounds. Here, we establish a generalizable, two-component strategy to engineer drug safety and mobilize otherwise inaccessible chemical space for antimicrobial therapy, using calicheamicin, a potent cytotoxin with unacceptable host toxicity, as a proof of concept. First, we engineer a conditionally active drug conjugate that limits calicheamicin activity to infected tissue, thereby reducing systemic toxicity. Second, we engineer a self-resistance enzyme from Micromonospora echinospora, the natural producer of calicheamicin, as a long-circulating antidote to neutralize calicheamicin outside infected tissue, further reducing off-target toxicity. The conjugate exhibits activity against Gram-positive and Gram-negative pathogens upon exposure to a protease present within the infected microenvironment. When delivered with the antidote, antibacterial efficacy is maintained while off-target toxicity is reduced in mouse models of Gram-positive and Gram-negative bacterial pneumonia. We anticipate that our dual strategy, which engineers drug safety rather than selecting for it, provides a generalizable framework for mobilizing promising but toxic compounds as antimicrobials.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "本研究工程化药物安全性，用条件激活偶联物和自抗性酶解毒剂降低卡奇霉素毒性，并在小鼠肺炎模型维持抗菌疗效。",
+    "innovation": "提出工程化药物安全性而非筛选安全性的双组分策略 | 设计感染微环境蛋白酶激活的药物偶联物，将卡奇霉素活性限制于感染组织 | 利用天然产生菌自抗性酶作为长循环解毒剂，中和感染组织外的卡奇霉素",
+    "limitation": "仅以卡奇霉素为概念验证，尚未在临床中验证 | 抗菌疗效与毒性降低仅在小鼠肺炎模型中评价",
+    "study_object": "小鼠 + 革兰阳性与革兰阴性细菌性肺炎模型 + 药物偶联与解毒剂工程及体内验证",
+    "disease": "抗菌药物耐药感染；革兰阳性与革兰阴性细菌性肺炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41278620/",
+    "topic_hits": [
+      "amr\\b"
+    ]
+  },
+  {
+    "uid": "doi:10.1186/s13059-026-04363-w",
+    "source": "openalex",
+    "pmid": "",
+    "doi": "10.1186/s13059-026-04363-w",
+    "title": "PFPTok enables efficient long-context genomic sequence modeling",
+    "journal": "Genome biology",
+    "issn": "1465-6906",
+    "journal_issn": "1465-6906",
+    "pub_date": "2026-11-27",
+    "authors": "Conrad Testagrose; Rahul Varki; Christina A. Boucher",
+    "abstract": "Tokenization limits the genomic context accessible to transformer models. We develop PFPTok, a genomic tokenizer based on Prefix-Free Parsing (PFP) that exploits sequence repetitiveness for compact dictionary-based representation. PFPTok achieves comparable or higher performance than Byte-Pair Encoding and Unigram for antimicrobial resistance prediction in Mycobacterium tuberculosis , while enabling direct tokenization and modeling of whole genomes. On DNALongBench, PFPTok achieves competitive performance with nucleotide-level models on enhancer–target gene prediction and eQTL classification under a fixed token budget, while reducing fine-tuning cost. PFPTok provides a compact and scalable approach to modeling whole-genome and long-range genomic sequences within standard transformer architectures.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "开发基于PFP的基因组分词器PFPTok，利用序列重复性实现紧凑表示，在耐药预测和长序列基准上表现具竞争力。",
+    "innovation": "基于无前缀解析（PFP）利用序列重复性构建紧凑字典式基因组分词器 | 可直接对全基因组进行分词与建模 | 在固定token预算下降低微调成本并保持有竞争力的性能",
+    "limitation": "未描述",
+    "study_object": "结核分枝杆菌基因组、全基因组及长范围基因组序列；PFPTok分词与Transformer建模",
+    "disease": "结核分枝杆菌抗微生物药物耐药",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.1186/s13059-026-04363-w",
+    "topic_hits": [
+      "antimicrobial resistance"
+    ]
+  },
+  {
+    "uid": "doi:10.1038/s41467-026-79812-y",
+    "source": "openalex",
+    "pmid": "",
+    "doi": "10.1038/s41467-026-79812-y",
+    "title": "A membrane-active cationic supramolecule to treat both fungal and bacterial keratitis",
+    "journal": "Nature Communications",
+    "issn": "2041-1723",
+    "journal_issn": "2041-1723",
+    "pub_date": "2026-11-27",
+    "authors": "Adrielle Xianwen Chen; Thet Tun Aung; Tianjiao Dai; Eve W. L. Chow; Jianguo Li et al.",
+    "abstract": "Rising antimicrobial resistance (AMR) underscores the urgent need for new antimicrobial strategies. We report here a membrane-active cationic supramolecule and its strong therapeutic efficacy against both fungal and bacterial keratitis in animal models. The lead Y8 design displayed broad-spectrum activity against various fungal pathogens, with low-µM MIC 90 , rapid action kinetics, and resistance evasion. Mechanistically, it disrupts the fungal cytoplasmic membrane and interacts with the cell wall glucan. Y8 is ocular compatible and, more importantly, shows higher/comparable efficacy to voriconazole, natamycin and amphotericin B in treating Candida , Fusarium and Aspergillus keratitis in mice or rabbits, respectively. It further displays strong activity against pathogenic bacteria, including methicillin-resistant Staphylococcus aureus (MRSA), with markedly better treatment outcomes than vancomycin in a mouse MRSA keratitis model. Overall, here we demonstrate a safe, potent, and cross-kingdom antimicrobial strategy, which may potentially contribute to the frontline infection management and AMR crisis mitigation.",
+    "pub_types": [
+      "Journal Article"
+    ],
+    "article_type": "研究论文",
+    "keywords": [],
+    "is_preprint": false,
+    "trusted_source": true,
+    "summary_zh": "研究设计膜活性阳离子超分子Y8，在动物角膜炎模型中验证其抗真菌和抗细菌疗效及安全性。",
+    "innovation": "设计膜活性阳离子超分子Y8 | 显示跨真菌和细菌的广谱抗菌活性并规避耐药 | 在动物角膜炎模型中疗效优于或 comparable 于临床药物",
+    "limitation": "未描述",
+    "study_object": "小鼠和兔 + 角膜感染模型 + 体内抗菌疗效与机制研究",
+    "disease": "真菌性角膜炎、细菌性角膜炎、MRSA角膜炎",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.1038/s41467-026-79812-y",
+    "topic_hits": [
+      "amr\\b",
+      "antimicrobial resistance"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.09.30.750856",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.09.30.750856",
+    "title": "Giant bacteria in gut microbiomes",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Lyu; Y.; Gruener; M.; Han; Z.; Klein; A.; Zoccaratto et al.",
+    "abstract": "The advent of sequencing-based omics has transformed our understanding of the gut microbiome, enabling microbial communities to be characterised at unprecedented scale and resolution. However, these approaches provide limited information about cellular traits such as size and morphology. Giant bacteria remain largely overlooked in gut microbiome research, despite their extraordinary cell size, extreme polyploidy and unusual reproductive strategies. Epulopiscium, one of the largest known heterotrophic bacteria, has been studied primarily as an intestinal symbiont of surgeonfish, leaving its broader host range unresolved. Here we show, by a large-scale analysis of publicly available 16S ribosomal RNA amplicon samples, alongside locally collected human samples, that Epulopiscium spp. occur across diverse hosts, including humans and a broad diversity of animals. Full-length 16S rRNA gene phylogenies resolved multiple Epulopiscium-related lineages with distinct host compositions. Among human samples, Epulopiscium sequences were most abundant during the first year of life. In adults, abundance varied across disease states, increasing in inflammatory bowel disease and colorectal cancer while decreasing in neurological conditions compared with a healthy adult baseline. Similar patterns were also observed in mouse models. Our study broadens the known host range of Epulopiscium and establishes giant bacteria as an overlooked component of gut microbiome diversity. These findings highlight the need to combine sequence-based studies with classical microbiological techniques to identify organisms with unique traits, otherwise hidden by taxonomy or phylogeny.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "基于大规模公共16S扩增子及人样本，发现Epulopiscium广泛分布于人类和多种动物肠道，丰度随年龄和疾病变化。",
+    "innovation": "大规模公共16S rRNA扩增子数据结合本地人样本，将Epulopiscium宿主范围拓展至人类及多种动物 | 全长16S rRNA基因系统发育解析多个Epulopiscium相关谱系及其宿主组成差异 | 揭示人类生命早期丰度最高及不同疾病状态下的丰度变化",
+    "limitation": "基于测序数据，对细胞大小、形态等特征信息有限 | 需结合经典微生物学技术识别具有独特性状的微生物",
+    "study_object": "人类及多种动物肠道微生物组（含人样本）；16S rRNA扩增子测序与全长16S rRNA基因系统发育分析",
+    "disease": "炎症性肠病、结直肠癌、神经系统疾病（并设健康成人基线）",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.09.30.750856",
+    "topic_hits": [
+      "16s rrna",
+      "microbial communities",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.24.767187",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.24.767187",
+    "title": "Deciphering lung microbial EV pneumotypes in acute respiratory distress syndrome proteome wide",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-26",
+    "authors": "Li; N.; Zhao; R.; Bisharat; A.; Smith; D.; Gilbert et al.",
+    "abstract": "Background. Pneumotypes hold potential predictive value for pathogenesis, outcomes, and interventions. Lung microbiome releases extracellular vesicles (EVs). However, EV-derived pneumotypes in acute respiratory distress syndrome (ARDS) have not been studied yet. Objectives. We aimed to identify pneumotypes in ARDS patients by comprehensively profiling lung microbiome-released EV proteins in bronchioalveolar lavage fluid (BALF). Methods. We extracted EVs from 106 participants (57 cases and 49 healthy controls) enrolled in the ARDSNet and SPIROMICS clinical trials and subjected to nanoparticle liquid chromatography-mass spectrometry (LC-MS) to create microbial metaproteomics. Differentially expressed proteins (DEPs) were identified by Wilcoxon rank-sum test, and spectral clustering of these DEPs was utilized to reveal patterns in microbial EV protein profiles. The association between pneumotypes and the disease was assessed. Pneumotype-associated DEPs were identified using logistic regression, and their functional annotation was performed based on the eggNOG 5 database. The taxonomy of lung microbes was determined at the species-level and ranked by biomass contributions. Results. Ninety DEPs were identified in ARDS lavage samples (53 upregulated and 37 downregulated) compared with healthy controls. There were five pneumotypes, namely, P1, P2, P3, P4, and P5, identified by clustering the differentially expressed microbial EV proteins. Few pneumotype-associated DEPs were shared among these pneumotypes and mainly correlated with ARDS etiology and organ functions. The significant difference in mortality was observed in P3 and P4 subtypes. In contrast, all patients in P1 and P5 subgroups survived. Patients in P2 and P3 groups experienced a significant reduction in both of central nervous system (CNS) failure-free days and the days without organ failure compared with other subgroups. Besides, patients in P3 and P4 exhibited a higher prevalence of baseline shock and hypertension, greater use of vasopressors or inotropes within the previous 24 hours, higher positive end-expiratory pressure during ventilation, and lower body temperature and hematocrit levels. Alpha and beta diversity analyses showed significant shifts in P2 patients. The taxonomy of the top-ranked microbes exhibited different pathogens in P2, P3, and P4. Conclusions. This study, for the first time, identified five EV expression patterns of lung microbiota in the BALF of ARDS patients. These intrinsically featured EV pneumotypes in the lung are associated with mortality, etiology, lung functions, medication administration, and disease severity in ARDS patients.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "对ARDS患者BALF微生物EV蛋白行宏蛋白质组学分析，识别5种肺炎型并关联病情与死亡。",
+    "innovation": "首次在ARDS患者BALF中鉴定5种肺微生物EV蛋白表达模式（肺炎型） | 基于纳米颗粒LC-MS构建微生物宏蛋白质组并揭示肺炎型与死亡、病因及器官功能相关",
+    "limitation": "未描述",
+    "study_object": "ARDS患者及健康对照的支气管肺泡灌洗液（BALF）+ 微生物宏蛋白质组学（纳米颗粒LC-MS）",
+    "disease": "急性呼吸窘迫综合征（ARDS）",
+    "sample_size": "n=106（57例ARDS患者，49例健康对照）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.24.767187",
+    "topic_hits": [
+      "microbiom\\w*",
+      "microbiota"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.09.18.752729",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.09.18.752729",
+    "title": "Continued genomic surveillance of Vibrio cholerae O1 isolates from cholera cases in Europe, 2023-2024",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Njamkepo; E.; Dupke; S.; Tauhid; T.; Stephan; R.; van der Putten et al.",
+    "abstract": "Background: Following the global resurgence of cholera in 2022, 59 cholera cases were reported by 11 European countries in 2023-2024. Aim: We aimed to confirm that V. cholerae O1 isolates associated with these cases belonged to the epidemic seventh pandemic El Tor (7PET) lineage rather than to non-epidemic V. cholerae O1 lineages, and to characterise their virulence and antimicrobial resistance (AMR) determinants and phylogenetic relationships.. Methods: Fifty V. cholerae O1 isolates were available for whole genome sequencing, of which 49 yielded genomes of sufficient quality for analysis. Genomes were analysed together with more than 1,500 publicly available 7PET genomes to place the European isolates into a global phylogenetic context. Results: All 49 genomes belonged to the 7PET lineage and Wave 3. Four sublineages were identified: BD1.2 (2/49), AFR12 (6/49), AFR13 (8/49) and Pre-AFR15 (33/49). The predominance of Pre-AFR15 is consistent with its major contribution to the ongoing global cholera resurgence. In contrast to our 2022 survey, eight AFR13 isolates predicted to be highly drug-resistant were detected, documenting the international spread of this clone carrying genetic determinants associated with resistance to multiple antimicrobial agents recommended for cholera treatment. Conclusion: Whole genome sequencing should be routinely used by reference laboratories to distinguish epidemic 7PET from non-epidemic V. cholerae O1 lineages and to monitor the emergence and international spread of clones carrying AMR determinants. Continued collaborative genomic surveillance of travel-associated cholera cases can provide early insights into the emergence, international spread and antimicrobial resistance of 7PET sublineages.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "对欧洲2023–2024年霍乱病例O1分离株进行全基因组监测，49株均属7PET，并发现高耐药AFR13克隆传播。",
+    "innovation": "检测到8株预测高耐药的AFR13克隆，记录其国际传播 | 将欧洲分离株与>1,500株公开7PET基因组联合分析以提供全球系统发育背景",
+    "limitation": "仅49株获得足够质量基因组用于分析（50株分离株中1株未纳入）",
+    "study_object": "人（霍乱病例）来源的V. cholerae O1分离株；全基因组测序",
+    "disease": "霍乱",
+    "sample_size": "59例病例；50株分离株（49株获得合格基因组）；另比较>1,500株公开7PET基因组",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.09.18.752729",
+    "topic_hits": [
+      "amr\\b",
+      "antimicrobial resistance"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.24.768824",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.24.768824",
+    "title": "A Comparative Metagenomic Analysis of the Viral Diversity in Faecal Samples from Malnourished and Non-malnourished Children with Gastroenteritis Admitted at Victoria Mxenge Hospital in Durban, KwaZulu-Natal, South Africa",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Eyong; M. M.; Mogotsi; M. T.; Sondlane; H.; Ogunbayo; A. E.; Nwokorogu et al.",
+    "abstract": "Viral gastroenteritis and malnutrition remain major health burdens among children under five in South Africa. Malnourished children are particularly vulnerable to prolonged enteric viral infections, yet their gut virome remains poorly characterised in South Africa. This study compared gut virome diversity among malnourished and non-malnourished children with gastroenteritis, and children without gastroenteritis and malnutrition (healthy controls). This retrospective laboratory-based continuation study analysed 69 faecal samples from age-matched children aged 0- 36 months at Victoria Mxenge Hospital across three cohorts: malnourished children with gastroenteritis, non-malnourished children with gastroenteritis, and healthy controls. Viral metagenomic sequencing was performed using Illumina NextSeq 2000, followed by bioinformatic analyses. Virome profiling identified 39 viral families, 71 genera, and 243 species. Of the total sequenced reads, 60.4% were classified comprising 91.0% mapped to bacteria, 6.4% to viruses, and 2.6% to human host and other microorganisms. Eukaryotic viral reads were highest among non-malnourished children with gastroenteritis (37.2%), followed by healthy controls (32.3%) and malnourished children with gastroenteritis (30.5%). Detected enteric viral families included, Sedoreoviridae, Caliciviridae, Picornaviridae, Astroviridae, and Adenoviridae, with Sedoreoviridae being predominant. Multiple co-detections of enteric viruses were observed. Significant cohorts differences occurred in viral diversity (p = 0.0038) and abundance (p = 0.0001), but not in evenness (p = 0.146) and richness (p = 0.0896). This study revealed differences in faecal virome composition across cohorts and provides baseline genomic data for viral surveillance. The findings highlight the importance of vaccination, nutritional and preventive strategies to curb infant mortality associated with gastroenteritis and malnutrition in South Africa.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "比较南非0-36月龄肠胃炎患儿与健康对照的粪便病毒组多样性，发现队列间病毒组成和丰度存在差异。",
+    "innovation": "比较营养不良与非营养不良肠胃炎患儿及健康对照的粪便病毒组 | 提供南非儿童病毒监测的基线基因组数据",
+    "limitation": "未描述",
+    "study_object": "0-36月龄儿童（营养不良/非营养不良肠胃炎及健康对照）+ 粪便样本 + 病毒宏基因组测序（Illumina NextSeq 2000）",
+    "disease": "肠胃炎；营养不良；健康对照",
+    "sample_size": "n=69例粪便样本（3个队列）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.24.768824",
+    "topic_hits": [
+      "metagenom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.1101/869115",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.1101/869115",
+    "title": "kRISP-meR: A Reference-free Guide-RNA Design Tool for CRISPR/Cas9",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Hera; M. R.; Navid; W. A. A.; Udoy; F. A.; Rahman; A.; Rahman et al.",
+    "abstract": "Designing specific guide RNAs for CRISPR/Cas9 typically relies on reference genomes, which limits the applicability in non-model organisms and fails to account for individual-specific genomic variations. To address this, we present a reference-free method for single-guide RNA (sgRNA) design that operates directly on raw sequencing reads, implemented in a tool called kRISP-meR. Instead of relying on whole genome assembly, kRISP-meR models the k-mer frequency spectrum of the sequencing data using an Expectation-Maximization (EM) algorithm and uses a probabilistic model to calculate the expected number of cuts for candidate gRNAs by estimating genomic copy numbers. Results on datasets from three different organisms show that the expected cuts estimated by kRISP-meR from reads agree closely with those computed from reference assemblies. Furthermore, analysis of human and rice sequencing data reveals that kRISP-meR successfully detects and filters candidate gRNAs within repetitive genomic regions with high off-target risk, highlighting its importance for gRNA design when references are unavailable or incomplete.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "提出免参考sgRNA设计工具kRISP-meR，直接基于原始reads用k-mer频谱和EM估计切割数，三物种数据与参考组装一致。",
+    "innovation": "无需参考基因组，直接基于原始测序reads设计sgRNA | 用EM建模k-mer频谱并通过概率模型估计基因组拷贝数与预期切割数 | 可检测并过滤重复基因组区域中高脱靶风险的候选gRNA",
+    "limitation": "未描述",
+    "study_object": "人、水稻等三种生物的原始测序数据；CRISPR/Cas9 sgRNA设计（免参考基因组）",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.1101/869115",
+    "topic_hits": [
+      "genome assembly"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.25.769242",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.25.769242",
+    "title": "Colibactin-induced DNA damage activates cGAS-STING signaling that is amplified by mitochondrial DNA release",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Xie; S.; Tzeng; J.; Kim; T. D.; Airan; Y.; Herzon et al.",
+    "abstract": "The microbiome-derived genotoxin colibactin induces oncogenic mutations that contribute to the development of colorectal cancer. Colibactin exposure also elicits inflammatory and senescence-associated responses. However, the cellular pathways that link colibactin-induced genotoxic stress to inflammation and senescence are poorly defined. Here, we show that colibactin causes cytoplasmic DNA accumulation and activates pro-inflammatory cGAS-STING signaling in human cells. Genetic or pharmacological inhibition of cGAS reduces colibactin-induced inflammatory gene expression and the accumulation of senescence-associated markers. We further show that these responses occur in two phases: an early response that is independent of mitochondrial DNA (mtDNA) and a stronger late response that is amplified by mtDNA release. Inactivation of either cGAS or the mitochondrial outer membrane permeabilization factor BAK suppresses cytoplasmic mtDNA accumulation and dampens late inflammatory signaling. Together, our data support a model in which colibactin-induced nuclear DNA damage initially activates cGAS-STING, which promotes BAK-dependent mtDNA release and thereby enhances inflammatory signaling. This work reveals a mechanism through which a clinically relevant microbial genotoxin reprograms host cell physiology and may contribute to the development or progression of colorectal cancer.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "在人细胞中揭示colibactin诱导DNA损伤经cGAS-STING和线粒体DNA释放放大炎症的机制。",
+    "innovation": "发现colibactin诱导细胞质DNA积累并激活cGAS-STING | 揭示炎症反应分不依赖mtDNA的早期阶段和由mtDNA释放放大的晚期阶段 | 提出核DNA损伤-cGAS-STING-BAK依赖mtDNA释放增强炎症的机制模型",
+    "limitation": "研究主要基于人细胞实验，摘要未描述体内或临床样本验证",
+    "study_object": "人细胞（体外培养）+ 微生物来源colibactin暴露 + 细胞与分子生物学实验",
+    "disease": "结直肠癌",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.25.769242",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.25.769327",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.25.769327",
+    "title": "Maternal periconceptional nutrition is associated with the vaginal microbiome along pregnancy",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Liu; J.; Batuure; A.; Urban; J.; Watters; E.; Park et al.",
+    "abstract": "The human vaginal microbiome has been repeatedly associated with adverse pregnancy outcomes, and therefore understanding lifestyle factors associated with it may provide insights into strategies for improving pregnancy and reproductive health. The periconceptional period is a critical time window in pregnancy, with nutrition seen as a key factor for pregnancy health. However, the associations between periconceptional nutrition and the vaginal microbiome along pregnancy remain underexplored. Using 280 vaginal microbiome samples from 101 women collected longitudinally throughout pregnancy, along with paired food frequency questionnaires targeting the periconceptional period, we characterized the associations between periconceptional diet, dietary supplementation, and the vaginal microbiome. We found that periconceptional dietary indices are not strongly associated with the vaginal microbiome during pregnancy. However, several dietary components are significantly associated with both Lactobacillus crispatus and Lactobacillus iners in the first trimester, and in opposite directions. Additionally, we identified several associations between consumption of periconceptional dietary supplements and the vaginal microbiome in the third trimester. Interestingly, an increase in taxa typically associated with vaginal dysbiosis, such as Sneathia and Megaphera, was associated with the intake of specific micronutrients. Among these micronutrients, copper and zinc were notable, as individuals reporting their supplementation had average intake levels that exceeded the recommended daily allowance. Overall, our findings reveal pregnancy-stage-specific associations of the human vaginal microbiome with periconceptional nutrition, and suggest the potential of specific nutrients to modulate the vaginal microbiome.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "microbiology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究利用101名孕妇280份纵向阴道样本及围受孕期膳食问卷，发现围受孕期营养与阴道微生物组的关联具有孕期阶段特异性。",
+    "innovation": "纵向采集整个孕期阴道样本并配对围受孕期膳食问卷 | 揭示围受孕期营养与阴道微生物组关联的孕期阶段特异性 | 发现铜、锌等微量营养素补充与第三孕期阴道微生物组相关",
+    "limitation": "未描述",
+    "study_object": "孕妇 + 阴道微生物组样本 + 纵向研究（技术未描述）",
+    "disease": "妊娠",
+    "sample_size": "101名女性，280份阴道样本",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.25.769327",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.25.769306",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.25.769306",
+    "title": "Adult gut microbiomes single out individuals at population scale",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Gautreau; G.; Kon Kam King; G.; Pons; N.; Faure; R.",
+    "abstract": "Gut microbiome DNA is shared openly under the assumption that only human host DNA poses an ethical risk. Here we show that querying all publicly available metagenomes with one stool sample recovered another sample from the same person for 94% of 483 adults. Extrapolated to the world population, recovery rates remain well above the re-identification risk threshold advised for public release.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "用单份粪便宏基因组比对公开数据，94%的483名成人可匹配到同一人另一样本，提示再识别风险高。",
+    "innovation": "证明仅凭一份粪便样本即可在公开宏基因组中再识别同一成人个体 | 将个体再识别率外推至全球人群并显示高于公开释放风险阈值",
+    "limitation": "未描述",
+    "study_object": "人类成人 + 粪便 + 宏基因组",
+    "disease": "无",
+    "sample_size": "483名成人",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.25.769306",
+    "topic_hits": [
+      "metagenom\\w*",
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.26.769394",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.26.769394",
+    "title": "Reference genomes for Australian Cryptosporidium hominis and C. parvum from humans",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Babineau; M.; Mercoulia; K.; Sait; M.; Sumanam; S. B.; Harshegyi-Hand et al.",
+    "abstract": "Cryptosporidium hominis and C. parvum are important protozoan pathogens of humans worldwide, and genomic surveillance is increasingly being used to investigate transmission and outbreaks. However, no complete Cryptosporidium genome is available from Australia, and many common Cryptosporidium gp60 subtypes lack high-quality genome assemblies worldwide. This study generated the first Australian reference genomes for two clinically relevant, zoonotic Cryptosporidium species, C. hominis and C. parvum from human hosts, as well as a scaffold-level genome for Australian C. meleagridis. Oocysts were purified from eleven clinical faecal samples and whole-genome sequencing was performed using short-read technologies. Three samples belonging to different species were also sequenced using long-read technology, with assemblies generated, telomere recovery undertaken and genomes annotated. High-quality reference C. hominis IaA12R3 genome (8 T2T chromosomes, 9.2 Mb, 4069 genes, 98.4% completeness), near-complete C. parvum IIaA20G3R1 genome (8 chromosomes, 9.2 Mb, 4004 genes, 98.2% completeness), and a draft C. meleagridis IIIgA31 genome (113 scaffolds, 9.3 Mb, 4075 genes, 97.2% completeness) were generated and had high nucleotide similarity (98-99%), gene cluster orthology (99%) and genome synteny relative to available international reference genomes. Phylogenomic analyses with global C. hominis and C. parvum genomes were performed to characterise the relationships of Australian isolates globally showing Australian C. hominis and C. parvum forming well-supported clades with North American European isolates. Whole-genome analyses of eight Australian C. hominis isolates revealed markedly better resolution of genetic relationships than gp60 subtyping alone. This study provides the resources for national genomic surveillance in Australia and expands the genomic representation of clinically relevant Cryptosporidium subtypes. Broader application of genomic surveillance has the potential to enhance outbreak investigation, improve understanding of transmission dynamics and support One Health approaches to cryptosporidiosis control.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "测序11份澳大利亚人粪便样本，构建C. hominis和C. parvum首个参考基因组，完成染色体级组装并解析其系统发育关系。",
+    "innovation": "首次生成澳大利亚人源C. hominis与C. parvum参考基因组，并补充C. meleagridis草稿基因组 | 获得端粒完整的染色体级（T2T）C. hominis IaA12R3高质量组装 | 全基因组分析对澳大利亚C. hominis分离株的分辨率显著优于gp60亚型分型",
+    "limitation": "样本量有限，仅基于11份临床粪便样本 | C. meleagridis仅获得草稿级（scaffold）基因组",
+    "study_object": "人类宿主 + 临床粪便样本（隐孢子虫卵囊） + 全基因组测序（短读长为主，部分长读长）",
+    "disease": "隐孢子虫病",
+    "sample_size": "n=11例临床粪便样本（其中3例同时进行长读长测序，含8株澳大利亚C. hominis分离株分析）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.26.769394",
+    "topic_hits": [
+      "whole-genome sequencing"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.26.769559",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.26.769559",
+    "title": "Chromosome-level genome assembly of the hydrozoan jellyfish Cladonema pacificum",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Ui; J.; Yamaguchi; K.; Nakatani; H.; Kon-Nanjo; K.; Kon et al.",
+    "abstract": "The hydrozoan jellyfish Cladonema pacificum, which possesses experimentally tractable polyp and medusa stages, is an emerging cnidarian model for studies of regeneration, development, physiology, and behavior. Although experimental techniques have been established for this species, the lack of a chromosome-level reference genome has limited genome-wide and comparative analyses. Here, we present the first chromosome-level genome assembly of C. pacificum generated using HiFi long-read sequencing and Hi-C technology. The representative haploid assembly comprises 15 chromosome-scale scaffolds and 121 additional scaffolds, spanning 504.0 Mb with a scaffold N50 of 32.1 Mb. Gene annotation integrating RNA-seq, PacBio Iso-Seq, and protein homology identified 17,206 protein-coding genes, of which 95.7% received at least one functional annotation. Phylogenomic and macrosynteny analyses further confirmed the placement of C. pacificum within Hydrozoa and revealed extensive chromosome-scale conservation with other hydrozoan genomes. This genomic resource provides a valuable foundation for comparative genomics and future molecular, cellular, and evolutionary studies using C. pacificum as an emerging hydrozoan model.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "genomics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "研究用HiFi和Hi-C首次组装太平洋枝手水母染色体水平基因组并注释，确认其系统发育位置与染色体保守性。",
+    "innovation": "首次获得该物种染色体水平基因组组装 | 结合HiFi长读长与Hi-C技术完成组装 | 通过系统发育基因组学和宏观共线性分析揭示与水螅纲其他基因组的染色体尺度保守性",
+    "limitation": "未描述",
+    "study_object": "太平洋枝手水母（Cladonema pacificum）+ 基因组DNA + HiFi长读长测序与Hi-C",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.26.769559",
+    "topic_hits": [
+      "genome assembly"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.24.768893",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.24.768893",
+    "title": "Distance-stratified benchmarking of variant-effect predictors on β-lactamase deep mutational scanning data",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Dhakal; A.; Acharya; S.; Chand; G.",
+    "abstract": "Mutations far from the active site of antibiotic-resistance enzymes can change resistance, but it is unclear what information predicts their effects. We asked how the performance of a protein language model (ESM2), a structure-based stability predictor (ThermoMPNN) and simple structural descriptors changes with distance from the catalytic residues, using deep mutational scanning data for the {beta}-lactamases TEM-1 (four assays) and VIM-2 (one assay). We measured Spearman correlation and AUROC within distance bins, with bootstrap intervals over positions. In TEM-1, ESM2 accuracy fell with distance (Stiffler assay: {rho} = 0.72 below 8 [A] and 0.42 beyond 20 [A]), while the stability score rose ({rho} = 0.41 to 0.70). Adding stability to a model of ESM2, solvent accessibility and neighbour count improved cross-validated {rho} by 0.02 below 8 [A] and 0.10 beyond 20 [A], and the combined model did not decline with distance. The pattern held across binning schemes, in a continuous-distance model, and when any one of five contiguous distal stretches was removed. Two TEM-1 assays are nearly duplicates, and the Deng assay was too noisy to be informative. VIM-2 has only seven positions beyond 20 [A] and showed no detectable trend within 20 [A], so it neither supports nor contradicts the TEM-1 pattern. Nine distal TEM-1 positions remained more sensitive than the models predicted. In TEM-1, predicted stability was more informative than the language model far from the catalytic site, and the language model was stronger near it. Distance-stratified reporting could add to variant-effect benchmarks. The study is exploratory and uses one structure and one phenotype per assay.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "按催化残基距离分层评估β-内酰胺酶深度突变扫描数据的突变效应预测器，发现远端稳定性信息更优、近端语言模型更强。",
+    "innovation": "按与催化残基距离分层基准测试突变效应预测器 | 将稳定性评分与ESM2及结构描述符整合，远端预测提升且不随距离下降 | 采用连续距离模型和去除远端片段等稳健性检验",
+    "limitation": "研究为探索性，每种测定仅使用一个结构和一种表型 | VIM-2远端仅7个位点且Deng测定噪声大，限制结论普适性",
+    "study_object": "抗生素耐药β-内酰胺酶TEM-1与VIM-2的深度突变扫描数据；计算预测方法（ESM2、ThermoMPNN、结构描述符）",
+    "disease": "无",
+    "sample_size": "TEM-1 4项测定；VIM-2 1项测定（共5项测定）",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.24.768893",
+    "topic_hits": [
+      "binning"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.25.768979",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.25.768979",
+    "title": "Bile acid-mediated ileal barrier function deficits in primary sclerosing cholangitis",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-27",
+    "authors": "Tomczak; M.; Coldwell; K.; Dooley; K.; Heslington; A.; Pearson et al.",
+    "abstract": "Background: Given a high prevalence of ulcerative colitis (UC) in primary sclerosing cholangitis (PSC-UC), research into the pathophysiology of the gut-liver axis has focussed on the large intestine. However, reduced bile flow from the liver has the potential to impact on homeostatic functions of the small intestine, including the main site of bile acid reuptake - the terminal ileum. Objective: Define ileal barrier changes in PSC-UC that are future treatment targets. Design: We used a combination of single-cell RNA-sequencing, spatial transcriptomics, bulk RNA-seq, and liquid chromatography mass spectrometry (LC-MS)-based bulk proteomics in samples from patients with PSC-UC, UC and healthy controls to determine PSC-UC-associated barrier function changes in the terminal ileum. Results: Mature enterocytes of the terminal ileum are characterised by spatially organised cell states. The phase II detoxification gene, Glutathione-S-transferase alpha 1 (GSTA1), marks one state that is enriched at the base of villi and is co-expressed with detoxification genes. Genes within this co-expression module are downregulated in ileal samples from patients with PSC-UC and protein abundance is correlated with liver function in patients. We confirm that Gsta1 mRNA is decreased in the ileum in murine cholestatic liver disease and altering microbiome capacity for bile acid deconjugation regulates Gsta1 expression. Conclusion: We have identified new pathways that are disrupted in the ileum of patients with PSC-UC which represent potential new targets for microbiome-based treatments to improve barrier function.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "systems biology"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "多组学分析PSC-UC终末回肠屏障，发现GSTA1解毒通路下调并与肝功能相关，微生物胆汁酸解结合可调控Gsta1。",
+    "innovation": "在终末回肠识别空间组织的成熟肠上皮细胞状态及GSTA1标志状态 | 发现PSC-UC回肠解毒基因共表达模块下调且蛋白丰度与肝功能相关 | 证实改变微生物胆汁酸解结合能力可调控Gsta1表达",
+    "limitation": "未描述",
+    "study_object": "人类终末回肠样本（PSC-UC、UC、健康对照）及小鼠胆汁淤积性肝病模型；单细胞RNA测序、空间转录组、bulk RNA-seq和LC-MS蛋白质组学",
+    "disease": "原发性硬化性胆管炎合并溃疡性结肠炎；溃疡性结肠炎；健康对照",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.25.768979",
+    "topic_hits": [
+      "microbiom\\w*"
+    ]
+  },
+  {
+    "uid": "doi:10.64898/2026.11.22.768079",
+    "source": "biorxiv",
+    "pmid": "",
+    "doi": "10.64898/2026.11.22.768079",
+    "title": "TW-GMProt: Trust-Weighted Semi-Supervised Gated Modulation Protein Language Model for Antimicrobial Peptide Activity Prediction",
+    "journal": "bioRxiv",
+    "issn": "",
+    "journal_issn": "",
+    "pub_date": "2026-11-28",
+    "authors": "Bist; P. S.; Rajapakse; J. C.",
+    "abstract": "Antibiotic resistance poses a major global health threat, underscoring the need for faster approaches to antimicrobial discovery. Antimicrobial peptides (AMPs) are promising therapeutic candidates, but experimental activity screening remains costly and time-consuming. We introduce TW-GMProt, a trust-weighted semi-supervised gated modulation protein language model for quantitative AMP activity prediction. It integrates pretrained protein language model representations with convolutional neural networks through a gated modulation strategy, complemented by biophysical priors. To address the scarcity of experimental data, the framework further employs trust-weighted semi-supervised learning to leverage a large collection of unlabeled antimicrobial peptides through pseudo-labeling. For minimum inhibitory concentration (MIC) prediction against Escherichia coli, TW-GMProt achieved an RMSE of 0.434, Kendalls{tau} of 0.582, R2 of 0.622, and Pearsons r of 0.792. Compared with MSCMamba, these results correspond to a significant reduction of over 17% lower RMSE (p = 1.95 x 10-3), over 25% higher Kendalls{tau} , over 30% higher R2, and more than 15% higher Pearson correlation. Comparable predictive performance was observed for Staphylococcus aureus, supporting the applicability of the framework across Gram-negative and Gram-positive bacteria. These results demonstrate that combining gated multimodal representation learning with trust-weighted semi-supervised training provides an effective strategy for AMP activity prediction.",
+    "pub_types": [
+      "Preprint"
+    ],
+    "article_type": "研究论文",
+    "keywords": [
+      "bioinformatics"
+    ],
+    "is_preprint": true,
+    "trusted_source": true,
+    "published_doi": null,
+    "summary_zh": "提出TW-GMProt，融合蛋白语言模型与门控调制及信任加权半监督学习，提升抗菌肽MIC活性预测。",
+    "innovation": "将预训练蛋白质语言模型表征与卷积神经网络通过门控调制策略结合，并引入生物物理先验 | 采用信任加权半监督学习和伪标签利用大量无标签抗菌肽数据 | 在大肠杆菌和金黄色葡萄球菌MIC预测中展现跨革兰阴性/阳性菌适用性",
+    "limitation": "未描述",
+    "study_object": "细菌（大肠杆菌、金黄色葡萄球菌）抗菌肽活性数据；蛋白质语言模型、卷积神经网络与半监督学习",
+    "disease": "无",
+    "sample_size": "未描述",
+    "ai_done": true,
+    "url": "https://doi.org/10.64898/2026.11.22.768079",
+    "topic_hits": [
+      "antibiotic resistance"
+    ]
+  }
+]

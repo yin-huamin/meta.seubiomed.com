@@ -1,16 +1,16 @@
 {
-  "total": 4359,
+  "total": 4382,
   "by_type": {
-    "研究论文": 3212,
-    "综述": 593,
+    "研究论文": 3231,
+    "综述": 596,
     "Benchmark": 158,
-    "临床试验": 149,
+    "临床试验": 150,
     "其他": 107,
     "案例报告": 70,
     "系统综述/Meta分析": 70
   },
   "by_year": {
-    "2026": 1238,
+    "2026": 1261,
     "2025": 623,
     "2024": 528,
     "2023": 444,
@@ -24,24 +24,24 @@
     "2015": 61
   },
   "by_source": {
-    "pubmed": 4148,
-    "biorxiv": 96,
-    "europepmc": 70,
+    "pubmed": 4152,
+    "biorxiv": 109,
+    "europepmc": 72,
     "medrxiv": 28,
-    "openalex": 17
+    "openalex": 21
   },
-  "preprint_total": 124,
+  "preprint_total": 137,
   "top_journals": {
-    "Gut microbes": 286,
+    "Gut microbes": 287,
     "Nature communications": 207,
     "Microbiome": 180,
     "Nucleic acids research": 125,
+    "bioRxiv": 109,
     "Frontiers in immunology": 97,
-    "bioRxiv": 96,
     "Nature microbiology": 88,
     "NPJ biofilms and microbiomes": 88,
     "Nutrients": 88,
-    "Genome biology": 81,
+    "Genome biology": 82,
     "Briefings in bioinformatics": 81,
     "Cell host & microbe": 72,
     "Journal of translational medicine": 65,
@@ -54,7 +54,7 @@
     "Nature biotechnology": 42
   },
   "top_diseases": {
-    "结直肠癌": 92,
+    "结直肠癌": 94,
     "肥胖": 49,
     "溃疡性结肠炎": 40,
     "COVID-19": 36,
@@ -68,8 +68,8 @@
     "感染性疾病": 19,
     "自闭症谱系障碍": 19,
     "牙周炎": 18,
+    "炎症性肠病（IBD）": 17,
     "囊性纤维化": 17,
-    "炎症性肠病（IBD）": 16,
     "阿尔茨海默病": 14,
     "1型糖尿病": 14,
     "复发性艰难梭菌感染": 14,
